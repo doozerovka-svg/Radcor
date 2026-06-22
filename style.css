@@ -2016,9 +2016,7 @@ h3 {
         width: 100%;
         border-left: none;
     }
-}
-
-@media (max-width: 500px) {
+    
     .catalog-grid {
         grid-template-columns: 1fr;
     }
