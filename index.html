@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Официальный импортер и оптовый поставщик автомобильных масел MOL, смазок и автохимии в Молдове - Radcor-Prim SRL">
+    <title>Radcor-Prim — Оптовый каталог масел & автохимии MOL</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@500;700&family=Space+Mono&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Фоновые водяные знаки для глубины интерфейса -->
+    <div class="bg-watermark vertical-left">RADCOR PRIM</div>
+    <div class="bg-watermark vertical-right">EST. 2016</div>
+
+    <!-- Floating B2B Cart Button (Плавающая кнопка корзины опта) -->
+    <div class="floating-cart-btn double-border" id="cartBtn">
+        <span class="cart-icon">🛒</span>
+        <span class="cart-count" id="cartCount">0</span>
+    </div>
+
+    <!-- B2B Cart Drawer (Выдвижная панель корзины) -->
+    <div class="cart-drawer double-border" id="cartDrawer">
+        <div class="drawer-header">
+            <h3>Корзина оптового заказа</h3>
+            <button class="drawer-close" id="cartClose">&times;</button>
+        </div>
+        <div class="drawer-content">
+            <div class="cart-items-list" id="cartItemsList">
+                <p class="empty-cart-msg">Корзина пуста. Добавьте масла или технические жидкости из каталога.</p>
+            </div>
+        </div>
+        <div class="drawer-footer">
+            <div class="cart-totals">
+                <div class="total-row">
+                    <span>Общий объем жидкостей:</span>
+                    <span id="totalVolume" class="code-font text-amber">0 л</span>
+                </div>
+                <div class="total-row">
+                    <span>До бесплатной доставки:</span>
+                    <span id="deliveryProgress" class="code-font text-green">Осталось 1,500 MDL</span>
+                </div>
+                <div class="total-row main-total">
+                    <span>Сумма заказа:</span>
+                    <span id="cartTotalSum" class="code-font">0 MDL</span>
+                </div>
+            </div>
+            <button class="btn btn-primary full-width" id="checkoutBtn">Сформировать заказ</button>
+        </div>
+    </div>
+    <div class="cart-overlay" id="cartOverlay"></div>
+
+    <!-- Header / Навигация -->
+    <header class="main-header">
+        <div class="header-container">
+            <a href="index.html" class="logo">
+                <span class="logo-accent">R</span>ADCOR<span class="logo-sub">prim</span>
+            </a>
+            
+            <button class="nav-toggle" aria-label="Открыть меню" id="navToggle">
+                <span class="hamburger"></span>
+            </button>
+            
+            <nav class="main-nav" id="mainNav">
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active">Каталог</a></li>
+                    <li><a href="service.html">Автосервис</a></li>
+                    <li><a href="delivery.html">Доставка и оплата</a></li>
+                    <li><a href="returns.html">Гарантия и возврат</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <a href="b2b-dashboard.html" class="btn-b2b double-border">B2B Кабинет</a>
+                    <div class="lang-selector">
+                        <span class="active">RU</span>
+                        <span>|</span>
+                        <a href="#" class="lang-link">RO</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="header-gauge-line"></div>
+    </header>
+
+    <main class="catalog-page-main">
+        <div class="container main-catalog-layout">
+            
+            <!-- Левый сайдбар (Sidebar-driven Catalog) -->
+            <aside class="catalog-sidebar double-border">
+                <div class="sidebar-section-title code-font">Категории подбора</div>
+                <ul class="sidebar-menu">
+                    <li class="menu-item" data-sector="recent"><span class="item-icon">⏱</span>Последние</li>
+                    <li class="menu-item" data-sector="saved"><span class="item-icon">⭐</span>Сохраненные</li>
+                    <li class="menu-item-divider"></li>
+                    <li class="menu-item active" data-sector="all"><span class="item-icon">⚙️</span>Все секторы</li>
+                    <li class="menu-item" data-sector="passenger"><span class="item-icon">🚗</span>Легковой</li>
+                    <li class="menu-item" data-sector="van"><span class="item-icon">🚐</span>Фургон</li>
+                    <li class="menu-item" data-sector="truck"><span class="item-icon">🚛</span>Грузовой</li>
+                    <li class="menu-item" data-sector="moto"><span class="item-icon">🏍</span>Мотоцикл</li>
+                    <li class="menu-item" data-sector="marine"><span class="item-icon">🚢</span>Судовой</li>
+                    <li class="menu-item" data-sector="agro"><span class="item-icon">🚜</span>Аграрный</li>
+                    <li class="menu-item" data-sector="electric"><span class="item-icon">🔌</span>Электромобили</li>
+                    <li class="menu-item-divider"></li>
+                    <li class="menu-item" data-sector="axle"><span class="item-icon">⛓</span>Ось / Привод</li>
+                    <li class="menu-item" data-sector="transmission"><span class="item-icon">🕹</span>Трансмиссия</li>
+                    <li class="menu-item" data-sector="body"><span class="item-icon">💡</span>Кузов и освещение</li>
+                    <li class="menu-item-divider"></li>
+                    <li class="menu-item search-type" data-sector="vin"><span class="item-icon">🆔</span>VIN-номер</li>
+                    <li class="menu-item search-type" data-sector="engine"><span class="item-icon">🔧</span>Код двигателя</li>
+                    <li class="menu-item search-type" data-sector="ktype"><span class="item-icon">📋</span>Код K-type</li>
+                </ul>
+            </aside>
+
+            <!-- Правый блок: Строка поиска, вкладки и сетка каталога -->
+            <section class="catalog-content-pane">
+                
+                <!-- Верхняя поисковая строка -->
+                <div class="catalog-search-bar-wrap double-border">
+                    <span class="search-icon">🔍</span>
+                    <input type="text" id="catalogSearch" placeholder="Укажите производителя, вязкость, допуск или артикул...">
+                </div>
+
+                <!-- Блок симуляции VIN-декодера (Показывается при сканировании VIN) -->
+                <div class="vin-decoder-panel double-border" id="vinDecoderPanel">
+                    <div class="scanner-header">
+                        <span class="scan-status text-amber code-font">⚡ Анализ данных VIN...</span>
+                        <div class="progress-bar-scan"><div class="fill-bar-scan"></div></div>
+                    </div>
+                    <div class="scanner-results" id="scannerResults">
+                        <div class="result-vehicle-name">Mercedes-Benz Sprinter 316 CDI (OM651)</div>
+                        <p class="result-details code-font">Двигатель: OM 651.955 | Дизель | 2.2L | 2018 г.в.</p>
+                        <div class="result-recommendations">
+                            <span class="rec-label">Подобранные жидкости:</span>
+                            <div class="rec-tags">
+                                <span class="rec-tag">MOL Essence 5W-30 (MB 229.51)</span>
+                                <span class="rec-tag">Felix Carbox G12+</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary btn-sm" id="addAllVinFluidsBtn">Добавить жидкости в заказ</button>
+                    </div>
+                </div>
+
+                <!-- Навигационные вкладки брендов -->
+                <div class="catalog-tabs-panel double-border">
+                    <div class="tabs-label code-font" id="catalogBreadcrumbs">Все секторы > ВЫБЕРИТЕ ПРОИЗВОДИТЕЛЯ:</div>
+                    
+                    <button class="btn btn-secondary btn-sm double-border" id="backToBrandsBtn">← К автомаркам</button>
+                    
+                    <div class="catalog-tabs" id="catalogTabsWrap">
+                        <button class="tab-filter-btn active" data-brand="all">Все</button>
+                        <button class="tab-filter-btn mol-tab-btn" data-brand="MOL">Официальный MOL</button>
+                        <button class="tab-filter-btn" data-brand="other">Другие бренды</button>
+                    </div>
+                </div>
+
+                <!-- Сетка автопроизводителей (Двухэтапный подбор по маркам авто) -->
+                <div class="brand-selection-grid" id="brandSelectionGrid">
+                    <div class="brand-select-card double-border" data-brand-name="Citroen">
+                        <span class="brand-letter">C</span>
+                        <span class="brand-select-name">CITROEN</span>
+                    </div>
+                    <div class="brand-select-card double-border" data-brand-name="Ford">
+                        <span class="brand-letter">F</span>
+                        <span class="brand-select-name">FORD</span>
+                    </div>
+                    <div class="brand-select-card double-border" data-brand-name="Mercedes-Benz">
+                        <span class="brand-letter">M</span>
+                        <span class="brand-select-name">MERCEDES-BENZ</span>
+                    </div>
+                    <div class="brand-select-card double-border" data-brand-name="Peugeot">
+                        <span class="brand-letter">P</span>
+                        <span class="brand-select-name">PEUGEOT</span>
+                    </div>
+                    <div class="brand-select-card double-border" data-brand-name="Renault">
+                        <span class="brand-letter">R</span>
+                        <span class="brand-select-name">RENAULT</span>
+                    </div>
+                    <div class="brand-select-card double-border" data-brand-name="Volkswagen">
+                        <span class="brand-letter">V</span>
+                        <span class="brand-select-name">VOLKSWAGEN</span>
+                    </div>
+                </div>
+
+                <!-- Сетка товаров (Колбы жидкостей с пузырьками) -->
+                <div class="catalog-grid" id="catalogGrid">
+                    
+                    <!-- Карточка 1: MOL Oil -->
+                    <div class="product-card double-border" data-category="oils" data-brand="MOL" data-sku="151201" data-sector="van passenger" data-oem="mercedes volkswagen ford">
+                        <div class="liquid-gauge glass-canister">
+                            <div class="liquid-fill amber" style="height: 85%;"></div>
+                            <div class="bubbles-container"></div>
+                            <div class="gauge-markings">
+                                <span>4L</span><span>3L</span><span>2L</span><span>1L</span>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-badge-wrap">
+                                <span class="product-badge badge-mol">Масла MOL</span>
+                                <span class="sku-label code-font">Aрт: 151201</span>
+                            </div>
+                            <h3>MOL Essence 5W-30</h3>
+                            <p class="product-desc">Высокотехнологичное синтетическое масло для современных легковых автомобилей и фургонов, снижающее трение и износ.</p>
+                            <div class="product-specs">
+                                <div class="spec-row">
+                                    <span class="spec-label">Вязкость:</span>
+                                    <span class="spec-value code-font">5W-30</span>
+                                </div>
+                                <div class="spec-row">
+                                    <span class="spec-label">Допуски:</span>
+                                    <span class="spec-value code-font">API SL/CF, ACEA A5/B5, Ford WSS-M2C913-D</span>
+                                </div>
+                            </div>
+                            <div class="product-footer">
+                                <span class="product-pack">Канистра 4л / Бочка 205л</span>
+                                <button class="btn btn-primary btn-sm btn-add-cart" data-sku="151201" data-price="780" data-name="MOL Essence 5W-30">В заказ</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Карточка 2: MOL Oil -->
+                    <div class="product-card double-border" data-category="oils" data-brand="MOL" data-sku="151205" data-sector="van truck" data-oem="mercedes renault">
+                        <div class="liquid-gauge glass-canister">
+                            <div class="liquid-fill amber" style="height: 70%;"></div>
+                            <div class="bubbles-container"></div>
+                            <div class="gauge-markings">
+                                <span>4L</span><span>3L</span><span>2L</span><span>1L</span>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-badge-wrap">
+                                <span class="product-badge badge-mol">Масла MOL</span>
+                                <span class="sku-label code-font">Aрт: 151205</span>
+                            </div>
+                            <h3>MOL Dynamic Transit 10W-40</h3>
+                            <p class="product-desc">Полусинтетическое масло для высоконагруженных дизельных двигателей коммерческого автотранспорта и фургонов.</p>
+                            <div class="product-specs">
+                                <div class="spec-row">
+                                    <span class="spec-label">Вязкость:</span>
+                                    <span class="spec-value code-font">10W-40</span>
+                                </div>
+                                <div class="spec-row">
+                                    <span class="spec-label">Допуски:</span>
+                                    <span class="spec-value code-font">API CI-4/SL, MB 228.3, MAN M 3275, Volvo VDS-3</span>
+                                </div>
+                            </div>
+                            <div class="product-footer">
+                                <span class="product-pack">Канистра 4л / Бочка 205л</span>
+                                <button class="btn btn-primary btn-sm btn-add-cart" data-sku="151205" data-price="640" data-name="MOL Dynamic Transit 10W-40">В заказ</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Карточка 3: Felix Antifreeze -->
+                    <div class="product-card double-border" data-category="fluids" data-brand="Felix" data-sku="240502" data-sector="van passenger truck" data-oem="mercedes volkswagen ford citroen peugeot renault">
+                        <div class="liquid-gauge glass-canister">
+                            <div class="liquid-fill violet" style="height: 60%;"></div>
+                            <div class="bubbles-container"></div>
+                            <div class="gauge-markings">
+                                <span>5L</span><span>4L</span><span>3L</span><span>2L</span><span>1L</span>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-badge-wrap">
+                                <span class="product-badge badge-violet">Жидкости</span>
+                                <span class="sku-label code-font">Aрт: 240502</span>
+                            </div>
+                            <h3>Антифриз Felix Carbox G12+</h3>
+                            <p class="product-desc">Профессиональный карбоксилатный антифриз нового поколения с увеличенным ресурсом эксплуатации.</p>
+                            <div class="product-specs">
+                                <div class="spec-row">
+                                    <span class="spec-label">Спецификация:</span>
+                                    <span class="spec-value code-font">G12+, ASTM D3306</span>
+                                </div>
+                                <div class="spec-row">
+                                    <span class="spec-label">Цвет:</span>
+                                    <span class="spec-value code-font">Красный/Фиолетовый</span>
+                                </div>
+                            </div>
+                            <div class="product-footer">
+                                <span class="product-pack">Канистра 5кг / Бочка 220кг</span>
+                                <button class="btn btn-primary btn-sm btn-add-cart" data-sku="240502" data-price="220" data-name="Felix Carbox G12+">В заказ</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Карточка 4: Freshway Oil -->
+                    <div class="product-card double-border" data-category="oils" data-brand="Freshway" data-sku="180701" data-sector="passenger van" data-oem="volkswagen ford renault">
+                        <div class="liquid-gauge glass-canister">
+                            <div class="liquid-fill amber" style="height: 80%;"></div>
+                            <div class="bubbles-container"></div>
+                            <div class="gauge-markings">
+                                <span>4L</span><span>3L</span><span>2L</span><span>1L</span>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-badge-wrap">
+                                <span class="product-badge">Масла</span>
+                                <span class="sku-label code-font">Aрт: 180701</span>
+                            </div>
+                            <h3>Freshway G-11 10W-40</h3>
+                            <p class="product-desc">Универсальное полусинтетическое моторное масло для смешанных автопарков и коммерческого автотранспорта.</p>
+                            <div class="product-specs">
+                                <div class="spec-row">
+                                    <span class="spec-label">Вязкость:</span>
+                                    <span class="spec-value code-font">10W-40</span>
+                                </div>
+                                <div class="spec-row">
+                                    <span class="spec-label">Допуски:</span>
+                                    <span class="spec-value code-font">API SN/CF, ACEA A3/B4, MB 229.3</span>
+                                </div>
+                            </div>
+                            <div class="product-footer">
+                                <span class="product-pack">Канистра 4л / Бочка 205л</span>
+                                <button class="btn btn-primary btn-sm btn-add-cart" data-sku="180701" data-price="420" data-name="Freshway G-11 10W-40">В заказ</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Карточка 5: Felix DOT-4 -->
+                    <div class="product-card double-border" data-category="fluids" data-brand="Felix" data-sku="240901" data-sector="passenger van truck" data-oem="mercedes volkswagen ford citroen peugeot renault">
+                        <div class="liquid-gauge glass-canister">
+                            <div class="liquid-fill violet" style="height: 50%;"></div>
+                            <div class="bubbles-container"></div>
+                            <div class="gauge-markings">
+                                <span>1L</span><span>0.8L</span><span>0.6L</span><span>0.4L</span><span>0.2L</span>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-badge-wrap">
+                                <span class="product-badge badge-violet">Жидкости</span>
+                                <span class="sku-label code-font">Aрт: 240901</span>
+                            </div>
+                            <h3>Тормозная жидкость Felix DOT-4</h3>
+                            <p class="product-desc">Синтетическая жидкость для гидравлических приводов сцепления и тормозов легковой техники.</p>
+                            <div class="product-specs">
+                                <div class="spec-row">
+                                    <span class="spec-label">Стандарт:</span>
+                                    <span class="spec-value code-font">FMVSS №116 DOT 4</span>
+                                </div>
+                                <div class="spec-row">
+                                    <span class="spec-label">t кипения:</span>
+                                    <span class="spec-value code-font">> 230 °C</span>
+                                </div>
+                            </div>
+                            <div class="product-footer">
+                                <span class="product-pack">Флакон 0.5л / 1л</span>
+                                <button class="btn btn-primary btn-sm btn-add-cart" data-sku="240901" data-price="95" data-name="Felix DOT-4">В заказ</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Карточка 6: Химия -->
+                    <div class="product-card double-border" data-category="chemicals" data-brand="Freshway" data-sku="350102" data-sector="passenger van truck agro" data-oem="mercedes volkswagen ford citroen peugeot renault">
+                        <div class="liquid-gauge glass-canister">
+                            <div class="liquid-fill blue" style="height: 45%;"></div>
+                            <div class="bubbles-container"></div>
+                            <div class="gauge-markings">
+                                <span>0.5L</span><span>0.4L</span><span>0.3L</span><span>0.2L</span><span>0.1L</span>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-badge-wrap">
+                                <span class="product-badge badge-blue">Автохимия</span>
+                                <span class="sku-label code-font">Aрт: 350102</span>
+                            </div>
+                            <h3>Проникающая смазка Freshway WD-400</h3>
+                            <p class="product-desc">Аэрозольная проникающая смазка для защиты от коррозии, устранения скрипа и облегчения демонтажа.</p>
+                            <div class="product-specs">
+                                <div class="spec-row">
+                                    <span class="spec-label">Тип:</span>
+                                    <span class="spec-value code-font">Аэрозольный спрей</span>
+                                </div>
+                                <div class="spec-row">
+                                    <span class="spec-label">Объем:</span>
+                                    <span class="spec-value code-font">400 мл</span>
+                                </div>
+                            </div>
+                            <div class="product-footer">
+                                <span class="product-pack">Коробка 24 шт.</span>
+                                <button class="btn btn-primary btn-sm btn-add-cart" data-sku="350102" data-price="65" data-name="Freshway WD-400">В заказ</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Brand Spotlight: MOL Lubricants & Lube Finder Wizard -->
+    <section id="mol-brand" class="mol-spotlight-section">
+        <div class="container mol-spotlight-container">
+            <div class="mol-spotlight-info">
+                <span class="mol-tag">MOL LUBRICANTS</span>
+                <h2>Премиальные масла из самого сердца Европы</h2>
+                <p>
+                    Radcor-Prim является официальным авторизованным представителем венгерского нефтегазового концерна <strong>MOL</strong> на территории Республики Молдова. Мы гарантируем прямые поставки с завода-изготовителя, стабильный складской запас всей линейки и специальные ценовые соглашения для дилеров.
+                </p>
+                
+                <!-- Пошаговый мастер подбора MOL Lube Finder Wizard -->
+                <div class="mol-lube-finder double-border" id="lubeFinderWizard">
+                    <h3>Помощник подбора масел MOL</h3>
+                    <p class="wizard-desc">Выберите параметры вашей техники для рекомендации оптимального масла:</p>
+                    
+                    <div class="wizard-steps-container">
+                        <!-- Step 1 -->
+                        <div class="wizard-step active" data-step="1">
+                            <p class="step-question code-font">Шаг 1: Выберите тип транспорта</p>
+                            <div class="wizard-buttons">
+                                <button type="button" class="btn btn-secondary wizard-next-btn" data-val="passenger">🚗 Легковой авто</button>
+                                <button type="button" class="btn btn-secondary wizard-next-btn" data-val="commercial">🚛 Коммерческий транспорт</button>
+                                <button type="button" class="btn btn-secondary wizard-next-btn" data-val="agro">🚜 Сельхозтехника</button>
+                            </div>
+                        </div>
+                        
+                        <!-- Step 2 -->
+                        <div class="wizard-step" data-step="2">
+                            <p class="step-question code-font">Шаг 2: Вязкость двигателя</p>
+                            <div class="wizard-buttons">
+                                <button type="button" class="btn btn-secondary wizard-next-btn" data-val="5w-30">5W-30 (Синтетика)</button>
+                                <button type="button" class="btn btn-secondary wizard-next-btn" data-val="10w-40">10W-40 (Полусинтетика)</button>
+                            </div>
+                        </div>
+                        
+                        <!-- Step 3 (Result) -->
+                        <div class="wizard-step" data-step="3">
+                            <p class="step-question code-font">Рекомендация MOL:</p>
+                            <div class="wizard-result-box" id="wizardResultBox">
+                                <h4 class="text-amber" id="wizardResultTitle">MOL Essence 5W-30</h4>
+                                <p id="wizardResultDesc">Специально рекомендовано для бензиновых и дизельных двигателей легковых машин с высокими требованиями экономии топлива.</p>
+                            </div>
+                            <button type="button" class="btn btn-primary btn-sm" id="wizardAddCartBtn" style="margin-top: 16px; margin-right: 12px;">В заказ</button>
+                            <button type="button" class="btn btn-secondary btn-sm" id="wizardRestartBtn" style="margin-top: 16px;">Начать заново</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mol-spotlight-visual">
+                <div class="mol-oil-canister-mock">
+                    <div class="canister-glow"></div>
+                    <span class="canister-text">MOL</span>
+                    <span class="canister-subtext">Premium Quality Lubricants</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- B2B & Wholesale Section / Опт и преимущества -->
+    <section id="b2b" class="b2b-section">
+        <div class="container b2b-container">
+            <div class="b2b-content">
+                <span class="eyebrow text-amber">Сотрудничество</span>
+                <h2>Условия для B2B партнеров</h2>
+                <p>Radcor-Prim предлагает специальные оптовые условия для магазинов запчастей, автосервисов (СТО), транспортных предприятий и дилеров по всей Молдове.</p>
+                
+                <div class="benefits-list">
+                    <div class="benefit-item">
+                        <span class="benefit-icon">🚚</span>
+                        <div>
+                            <h4>Собственная логистика</h4>
+                            <p>Быстрая и бесплатная доставка товаров по всей Молдове до дверей вашего склада или СТО.</p>
+                        </div>
+                    </div>
+                    <div class="benefit-item">
+                        <span class="benefit-icon">💳</span>
+                        <div>
+                            <h4>Гибкая отсрочка платежа</h4>
+                            <p>Индивидуальные финансовые условия и накопительная система скидок для постоянных партнеров.</p>
+                        </div>
+                    </div>
+                    <div class="benefit-item">
+                        <span class="benefit-icon">📄</span>
+                        <div>
+                            <h4>Сертификация и документы</h4>
+                            <p>Полный пакет таможенных деклараций, сертификатов качества и налоговых документов.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="b2b-form-wrap double-border">
+                <h3>Стать партнером Radcor</h3>
+                <p>Заполните форму, и наш менеджер свяжется с вами для предоставления оптового прайс-листа.</p>
+                <form class="b2b-form" id="b2bForm">
+                    <div class="form-group">
+                        <label for="compName">Название компании</label>
+                        <input type="text" id="compName" required placeholder="ООО Автобизнес">
+                    </div>
+                    <div class="form-group">
+                        <label for="contactPerson">Контактное лицо</label>
+                        <input type="text" id="contactPerson" required placeholder="Иван Петров">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Телефон</label>
+                        <input type="tel" id="phone" required placeholder="+373 69X XX XX">
+                    </div>
+                    <button type="submit" class="btn btn-primary full-width">Отправить запрос</button>
+                </form>
+                <div id="formSuccess" class="form-success-msg">Ваша заявка принята! Менеджер перезвонит вам в течение часа.</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacts Section / Контакты -->
+    <section id="contacts" class="contacts-section">
+        <div class="container">
+            <div class="contacts-grid">
+                <div class="contact-info-block">
+                    <h2>Контакты компании</h2>
+                    <p class="contacts-lead">Центральный склад и офис компании Radcor-Prim SRL:</p>
+                    
+                    <div class="contact-details">
+                        <div class="detail-item">
+                            <span class="detail-icon">📍</span>
+                            <p>Молдова, г. Кишинев, ул. Петрикань 84/1</p>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-icon">📧</span>
+                            <a href="mailto:radcor-prim@mail.ru">radcor-prim@mail.ru</a>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-icon">📞</span>
+                            <a href="tel:+37322000000">+373 22 00-00-00</a>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-icon">⏰</span>
+                            <p>Пн-Пт: 8:00 - 18:00, Сб: 8:00 - 15:00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-placeholder double-border">
+                    <div class="map-overlay">
+                        <h4>Расположение на карте</h4>
+                        <p>ул. Петрикань, Кишинев, Молдова</p>
+                        <a href="https://yandex.ru/maps/-/CCUgu-b5" target="_blank" class="btn btn-secondary btn-sm">Открыть карту</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- Footer / Подвал -->
+<footer class="main-footer">
+    <div class="container">
+        <div class="footer-bottom">
+            <p>&copy; 2026 Radcor-Prim SRL. Все права защищены. Официальный представитель масел MOL.</p>
+        </div>
+    </div>
+</footer>
+
+<!-- App Logic -->
+<script src="app.js"></script>
+</body>
+</html>

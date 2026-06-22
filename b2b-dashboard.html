@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Личный кабинет B2B партнера Radcor-Prim SRL. Баланс, прайс-листы, отслеживание заказов.">
+    <title>Личный кабинет B2B — Radcor-Prim</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@500;700&family=Space+Mono&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="b2b-dashboard-body">
+
+    <!-- Фоновые водяные знаки для глубины интерфейса -->
+    <div class="bg-watermark vertical-left">B2B PORTAL</div>
+    <div class="bg-watermark vertical-right">DEALER SECTION</div>
+
+    <!-- Header / Навигация -->
+    <header class="main-header">
+        <div class="header-container">
+            <a href="index.html" class="logo">
+                <span class="logo-accent">R</span>ADCOR<span class="logo-sub">B2B</span>
+            </a>
+            
+            <nav class="main-nav">
+                <div class="user-profile-info">
+                    <span class="avatar-icon">🏢</span>
+                    <div>
+                        <span class="company-name text-amber">ООО "АвтоБизнесМолдова"</span>
+                        <span class="user-role code-font">ID: 84920 (Дилер)</span>
+                    </div>
+                </div>
+                <div class="nav-actions">
+                    <a href="index.html" class="btn btn-secondary btn-sm double-border">Вернуться в каталог</a>
+                    <a href="index.html" class="btn-logout code-font">Выйти</a>
+                </div>
+            </nav>
+        </div>
+        <div class="header-gauge-line"></div>
+    </header>
+
+    <main class="dashboard-main container">
+        
+        <!-- Верхняя сетка виджетов -->
+        <section class="dashboard-widgets-grid">
+            
+            <!-- Баланс и Долг -->
+            <div class="dashboard-card widget-balance double-border">
+                <h3>Финансовое состояние</h3>
+                <div class="balance-numbers">
+                    <div class="bal-col">
+                        <span class="bal-label">Баланс взаиморасчетов</span>
+                        <span class="bal-value text-green">+45,200 MDL</span>
+                    </div>
+                    <div class="bal-col">
+                        <span class="bal-label">Текущий долг</span>
+                        <span class="bal-value text-red">12,000 MDL</span>
+                    </div>
+                </div>
+                <div class="card-footer-action">
+                    <button class="btn btn-primary btn-sm full-width" id="payInvoiceBtn">Оплатить задолженность</button>
+                </div>
+            </div>
+
+            <!-- Кредитный лимит -->
+            <div class="dashboard-card widget-limits double-border">
+                <h3>Кредитная линия</h3>
+                <div class="limit-status">
+                    <div class="limit-bar-wrap">
+                        <div class="limit-bar-fill" style="width: 12%;"></div>
+                    </div>
+                    <div class="limit-details">
+                        <span>Использовано: 12,000 MDL</span>
+                        <span>Лимит: 100,000 MDL</span>
+                    </div>
+                </div>
+                <div class="limit-alert code-font">
+                    ⚠️ Срок оплаты текущего счета: до 15.07.2026
+                </div>
+            </div>
+
+            <!-- Загрузка прайс-листов -->
+            <div class="dashboard-card widget-downloads double-border">
+                <h3>Прайс-листы и каталоги</h3>
+                <p>Скачайте актуальные цены со скидкой дилера и остатки товаров на складе в Кишиневе.</p>
+                <div class="download-buttons">
+                    <button class="btn btn-secondary full-width btn-download double-border" id="downloadExcelBtn">
+                        <span class="btn-icon">📊</span> Скачать прайс (Excel .xlsx)
+                    </button>
+                    <a href="#" class="btn btn-secondary full-width btn-download double-border">
+                        <span class="btn-icon">📕</span> Скачать каталог масел MOL (PDF)
+                    </a>
+                </div>
+                <span class="update-time code-font">Прайс-лист обновлен: сегодня в 08:15</span>
+            </div>
+
+        </section>
+
+        <!-- Средний сектор: Трекер доставки -->
+        <section class="dashboard-card order-tracker-section double-border">
+            <h3>Отслеживание текущего заказа</h3>
+            <div class="tracker-header">
+                <div>
+                    <span class="tracker-title">Заказ №84920</span>
+                    <span class="tracker-meta code-font">Масла MOL (4 канистры), Антифриз Felix (2 бочки)</span>
+                </div>
+                <span class="tracker-delivery-time text-amber">Доставка сегодня до 16:00 (Маршрут Кишинев-Бельцы)</span>
+            </div>
+            
+            <!-- Интерактивный прогресс-бар -->
+            <div class="timeline-wrapper">
+                <div class="timeline-line">
+                    <div class="timeline-fill" style="width: 66.6%;"></div>
+                </div>
+                <div class="timeline-steps">
+                    <div class="step-point completed">
+                        <span class="step-icon">✔</span>
+                        <span class="step-name">Принят</span>
+                        <span class="step-date code-font">08:30</span>
+                    </div>
+                    <div class="step-point completed">
+                        <span class="step-icon">✔</span>
+                        <span class="step-name">Сборка на складе</span>
+                        <span class="step-date code-font">09:15</span>
+                    </div>
+                    <div class="step-point active">
+                        <span class="step-icon">🚚</span>
+                        <span class="step-name">В пути</span>
+                        <span class="step-date code-font">10:30 (Выехал)</span>
+                    </div>
+                    <div class="step-point">
+                        <span class="step-icon">🏁</span>
+                        <span class="step-name">Доставлен</span>
+                        <span class="step-date code-font">Ожидание</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Нижняя сетка: Быстрый заказ и история -->
+        <section class="dashboard-bottom-grid">
+            
+            <!-- Быстрый заказ по артикулу -->
+            <div class="dashboard-card quick-order-box double-border">
+                <h3>Быстрый заказ по SKU</h3>
+                <p>Добавьте товары в заказ напрямую по их коду (артикулу) без просмотра каталога.</p>
+                <form class="quick-order-form" id="quickOrderForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="skuCode">Артикул товара</label>
+                            <input type="text" id="skuCode" placeholder="Например, 151201" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="skuQty">Кол-во (шт/коробки)</label>
+                            <input type="number" id="skuQty" min="1" value="1" required>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary full-width">Добавить в корзину</button>
+                </form>
+                <div id="quickOrderMsg" class="form-success-msg">Товар добавлен в корзину заказа!</div>
+            </div>
+
+            <!-- История заказов -->
+            <div class="dashboard-card orders-history-box double-border">
+                <h3>История последних заказов</h3>
+                <div class="table-responsive">
+                    <table class="orders-table">
+                        <thead>
+                            <tr>
+                                <th>Заказ</th>
+                                <th>Дата</th>
+                                <th>Сумма</th>
+                                <th>Статус оплаты</th>
+                                <th>Доставка</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="code-font text-amber">№84920</td>
+                                <td>22.06.2026</td>
+                                <td>14,500 MDL</td>
+                                <td><span class="status-badge status-unpaid">Счет выставлен</span></td>
+                                <td><span class="status-badge status-shipping">В пути</span></td>
+                            </tr>
+                            <tr>
+                                <td class="code-font text-amber">№84605</td>
+                                <td>15.06.2026</td>
+                                <td>8,200 MDL</td>
+                                <td><span class="status-badge status-paid">Оплачен</span></td>
+                                <td><span class="status-badge status-delivered">Доставлен</span></td>
+                            </tr>
+                            <tr>
+                                <td class="code-font text-amber">№83910</td>
+                                <td>02.06.2026</td>
+                                <td>22,400 MDL</td>
+                                <td><span class="status-badge status-paid">Оплачен</span></td>
+                                <td><span class="status-badge status-delivered">Доставлен</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2026 Radcor-Prim B2B. Все права защищены. Дилерская панель.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- App Logic -->
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Контактные телефоны, адрес склада и офиса Radcor-Prim SRL в Кишиневе">
+    <title>Контакты — Radcor-Prim</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@500;700&family=Space+Mono&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Фоновые водяные знаки -->
+    <div class="bg-watermark vertical-left">CONTACTS</div>
+    <div class="bg-watermark vertical-right">CHISINAU</div>
+
+    <!-- Header / Навигация -->
+    <header class="main-header">
+        <div class="header-container">
+            <a href="index.html" class="logo">
+                <span class="logo-accent">R</span>ADCOR<span class="logo-sub">prim</span>
+            </a>
+            
+            <button class="nav-toggle" aria-label="Открыть меню" id="navToggle">
+                <span class="hamburger"></span>
+            </button>
+            
+            <nav class="main-nav" id="mainNav">
+                <ul class="nav-links">
+                    <li><a href="index.html">Каталог</a></li>
+                    <li><a href="service.html">Автосервис</a></li>
+                    <li><a href="delivery.html">Доставка и оплата</a></li>
+                    <li><a href="returns.html">Гарантия и возврат</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contacts.html" class="active">Контакты</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <a href="b2b-dashboard.html" class="btn-b2b double-border">B2B Кабинет</a>
+                    <div class="lang-selector">
+                        <span class="active">RU</span>
+                        <span>|</span>
+                        <a href="#" class="lang-link">RO</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="header-gauge-line"></div>
+    </header>
+
+    <main class="dashboard-main container">
+        
+        <div class="section-title-wrap">
+            <span class="eyebrow">Свяжитесь с нами</span>
+            <h2>Контакты</h2>
+            <p>Офис и склад оптовой торговли Radcor-Prim SRL расположены в промышленной зоне Петриканы.</p>
+        </div>
+
+        <section class="contacts-grid">
+            
+            <!-- Информационный блок -->
+            <div class="contact-info-block">
+                <div class="contact-details">
+                    <div class="detail-item">
+                        <span class="detail-icon">📍</span>
+                        <div>
+                            <h4>Адрес офиса и склада:</h4>
+                            <p>Молдова, г. Кишинев, ул. Петрикань 84/1 (Petricani 84/1, Chisinau)</p>
+                        </div>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-icon">📧</span>
+                        <div>
+                            <h4>Электронная почта:</h4>
+                            <p><a href="mailto:radcor-prim@mail.ru">radcor-prim@mail.ru</a> (Общая)</p>
+                            <p><a href="mailto:sales@radcor.md">sales@radcor.md</a> (Отдел продаж)</p>
+                        </div>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-icon">📞</span>
+                        <div>
+                            <h4>Телефоны:</h4>
+                            <p><a href="tel:+37322000000">+373 22 00-00-00</a> (Многоканальный)</p>
+                            <p><a href="tel:+37322000001">+373 22 00-00-01</a> (Приемная склада)</p>
+                        </div>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-icon">⏰</span>
+                        <div>
+                            <h4>Режим работы:</h4>
+                            <p>Понедельник — Пятница: 08:00 - 18:00</p>
+                            <p>Суббота: 08:00 - 15:00</p>
+                            <p>Воскресенье: Выходной день</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Обратная связь -->
+            <div class="b2b-form-wrap double-border">
+                <h3>Отправить сообщение</h3>
+                <p>Напишите нам ваш вопрос, и наш менеджер ответит вам по почте или телефону.</p>
+                <form class="b2b-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="cName">Имя или Компания</label>
+                        <input type="text" id="cName" required placeholder="Ваше имя">
+                    </div>
+                    <div class="form-group">
+                        <label for="cEmail">Email</label>
+                        <input type="email" id="cEmail" required placeholder="name@company.md">
+                    </div>
+                    <div class="form-group">
+                        <label for="cText">Сообщение</label>
+                        <input type="text" id="cText" required placeholder="Введите текст вашего сообщения...">
+                    </div>
+                    <button type="submit" class="btn btn-primary full-width">Отправить сообщение</button>
+                </form>
+                <div id="contactSuccess" class="form-success-msg">Сообщение успешно отправлено! Мы свяжемся с вами в ближайшее время.</div>
+            </div>
+
+        </section>
+
+        <!-- Карта -->
+        <section class="dashboard-card double-border" style="padding: 12px; height: 450px;">
+            <div class="map-placeholder" style="height: 100%; border: none;">
+                <div class="map-overlay">
+                    <h2 style="font-size: 1.5rem; margin-bottom: 8px; text-shadow: 0 0 10px rgba(0,0,0,0.8);">Оптовый склад Radcor-Prim</h2>
+                    <p style="text-shadow: 0 0 10px rgba(0,0,0,0.8);">Молдова, г. Кишинев, ул. Петрикань 84/1</p>
+                    <a href="https://yandex.ru/maps/-/CCUgu-b5" target="_blank" class="btn btn-secondary btn-sm" style="margin-top: 12px;">Открыть в Яндекс.Картах</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2026 Radcor-Prim SRL. Все права защищены. Официальный представитель масел MOL.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- App Logic -->
+    <script src="app.js"></script>
+</body>
+</html>
