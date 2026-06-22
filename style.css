@@ -1483,6 +1483,11 @@ h3 {
     cursor: pointer;
     line-height: 1;
     transition: var(--transition);
+    width: 44px;
+    height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 .drawer-close:hover {
     color: var(--colour-red);
@@ -1859,6 +1864,8 @@ h3 {
         background: transparent;
         padding: 0;
         margin-bottom: 16px;
+        min-width: 0; /* Prevents stretching in grid */
+        overflow: hidden; /* Prevents overflow */
     }
     .sidebar-section-title, .menu-item-divider {
         display: none;
@@ -1961,6 +1968,22 @@ h3 {
     .mol-spotlight-visual {
         order: -1;
     }
+
+    /* Wrap filter tabs on mobile */
+    .catalog-tabs-panel {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 12px;
+        padding: 16px;
+    }
+
+    /* Compress padding on dashboard cards & forms for small screens */
+    .dashboard-card {
+        padding: 20px 16px;
+    }
+    .b2b-form-wrap {
+        padding: 24px 16px;
+    }
     
     .b2b-container {
         grid-template-columns: 1fr;
@@ -2032,6 +2055,12 @@ h3 {
     }
     .brand-select-name {
         font-size: 0.7rem;
+    }
+
+    /* Stack quick order form columns on mobile */
+    .quick-order-form .form-row {
+        grid-template-columns: 1fr;
+        gap: 12px;
     }
 }
 
