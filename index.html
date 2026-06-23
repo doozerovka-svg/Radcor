@@ -13,9 +13,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@500;700&family=Space+Mono&display=swap" rel="stylesheet">
     
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="style.css?v=8.0">
+    <link rel="stylesheet" href="style.css?v=9.0">
 </head>
 <body>
+    <!-- Interactive Background Particles -->
+    <canvas id="bgCanvas"></canvas>
 
     <!-- Фоновые водяные знаки для глубины интерфейса -->
     <div class="bg-watermark vertical-left">RADCOR PRIM</div>
@@ -195,9 +197,8 @@
                     
                     <!-- Карточка 1: MOL Oil -->
                     <div class="product-card double-border" data-category="oils" data-brand="MOL" data-sku="151201" data-sector="van passenger" data-oem="mercedes volkswagen ford">
-                        <div class="liquid-gauge glass-canister">
-                            <div class="liquid-fill amber" style="height: 85%;"></div>
-                            <div class="bubbles-container"></div>
+                        <div class="liquid-gauge glass-canister" data-fill-height="85" data-fill-color="amber" data-sku="151201">
+                            <canvas class="canister-canvas"></canvas>
                             <div class="gauge-markings">
                                 <span>4L</span><span>3L</span><span>2L</span><span>1L</span>
                             </div>
@@ -228,9 +229,8 @@
 
                     <!-- Карточка 2: MOL Oil -->
                     <div class="product-card double-border" data-category="oils" data-brand="MOL" data-sku="151205" data-sector="van truck" data-oem="mercedes renault">
-                        <div class="liquid-gauge glass-canister">
-                            <div class="liquid-fill amber" style="height: 70%;"></div>
-                            <div class="bubbles-container"></div>
+                        <div class="liquid-gauge glass-canister" data-fill-height="70" data-fill-color="amber" data-sku="151205">
+                            <canvas class="canister-canvas"></canvas>
                             <div class="gauge-markings">
                                 <span>4L</span><span>3L</span><span>2L</span><span>1L</span>
                             </div>
@@ -261,9 +261,8 @@
 
                     <!-- Карточка 3: Felix Antifreeze -->
                     <div class="product-card double-border" data-category="fluids" data-brand="Felix" data-sku="240502" data-sector="van passenger truck" data-oem="mercedes volkswagen ford citroen peugeot renault">
-                        <div class="liquid-gauge glass-canister">
-                            <div class="liquid-fill violet" style="height: 60%;"></div>
-                            <div class="bubbles-container"></div>
+                        <div class="liquid-gauge glass-canister" data-fill-height="60" data-fill-color="violet" data-sku="240502">
+                            <canvas class="canister-canvas"></canvas>
                             <div class="gauge-markings">
                                 <span>5L</span><span>4L</span><span>3L</span><span>2L</span><span>1L</span>
                             </div>
@@ -294,9 +293,8 @@
 
                     <!-- Карточка 4: Freshway Oil -->
                     <div class="product-card double-border" data-category="oils" data-brand="Freshway" data-sku="180701" data-sector="passenger van" data-oem="volkswagen ford renault">
-                        <div class="liquid-gauge glass-canister">
-                            <div class="liquid-fill amber" style="height: 80%;"></div>
-                            <div class="bubbles-container"></div>
+                        <div class="liquid-gauge glass-canister" data-fill-height="80" data-fill-color="amber" data-sku="180701">
+                            <canvas class="canister-canvas"></canvas>
                             <div class="gauge-markings">
                                 <span>4L</span><span>3L</span><span>2L</span><span>1L</span>
                             </div>
@@ -327,9 +325,8 @@
 
                     <!-- Карточка 5: Felix DOT-4 -->
                     <div class="product-card double-border" data-category="fluids" data-brand="Felix" data-sku="240901" data-sector="passenger van truck" data-oem="mercedes volkswagen ford citroen peugeot renault">
-                        <div class="liquid-gauge glass-canister">
-                            <div class="liquid-fill violet" style="height: 50%;"></div>
-                            <div class="bubbles-container"></div>
+                        <div class="liquid-gauge glass-canister" data-fill-height="50" data-fill-color="violet" data-sku="240901">
+                            <canvas class="canister-canvas"></canvas>
                             <div class="gauge-markings">
                                 <span>1L</span><span>0.8L</span><span>0.6L</span><span>0.4L</span><span>0.2L</span>
                             </div>
@@ -360,9 +357,8 @@
 
                     <!-- Карточка 6: Химия -->
                     <div class="product-card double-border" data-category="chemicals" data-brand="Freshway" data-sku="350102" data-sector="passenger van truck agro" data-oem="mercedes volkswagen ford citroen peugeot renault">
-                        <div class="liquid-gauge glass-canister">
-                            <div class="liquid-fill blue" style="height: 45%;"></div>
-                            <div class="bubbles-container"></div>
+                        <div class="liquid-gauge glass-canister" data-fill-height="45" data-fill-color="blue" data-sku="350102">
+                            <canvas class="canister-canvas"></canvas>
                             <div class="gauge-markings">
                                 <span>0.5L</span><span>0.4L</span><span>0.3L</span><span>0.2L</span><span>0.1L</span>
                             </div>

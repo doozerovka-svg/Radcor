@@ -715,61 +715,256 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // ==========================================================================
-    // THE GLASS CANISTER BUBBLE GENERATOR
+    // CENTRAL ANIMATION LOOP MANAGER (High-Performance requestAnimationFrame)
     // ==========================================================================
-    productCards.forEach(card => {
-        const liquidFill = card.querySelector('.liquid-fill');
-        const bubblesContainer = card.querySelector('.bubbles-container');
-        let bubbleInterval = null;
+    const activeLoops = [];
+    function registerLoop(tickFn) {
+        activeLoops.push(tickFn);
+    }
 
-        if (liquidFill && bubblesContainer) {
-            const originalHeight = liquidFill.style.height;
+    let lastTime = performance.now();
+    function mainLoop(now) {
+        const deltaTime = Math.min((now - lastTime) / 1000, 0.1); // cap deltaTime
+        lastTime = now;
 
+        for (let i = 0; i < activeLoops.length; i++) {
+            activeLoops[i](deltaTime);
+        }
+
+        requestAnimationFrame(mainLoop);
+    }
+    requestAnimationFrame(mainLoop);
+
+    // ==========================================================================
+    // INTERACTIVE BACKGROUND PARTICLES (Constellation System)
+    // ==========================================================================
+    const bgCanvas = document.getElementById('bgCanvas');
+    if (bgCanvas) {
+        const ctx = bgCanvas.getContext('2d');
+        let width = bgCanvas.width = window.innerWidth;
+        let height = bgCanvas.height = window.innerHeight;
+
+        window.addEventListener('resize', () => {
+            width = bgCanvas.width = window.innerWidth;
+            height = bgCanvas.height = window.innerHeight;
+        });
+
+        let mouse = { x: null, y: null };
+        window.addEventListener('mousemove', (e) => {
+            mouse.x = e.clientX;
+            mouse.y = e.clientY;
+        });
+        window.addEventListener('mouseleave', () => {
+            mouse.x = null;
+            mouse.y = null;
+        });
+
+        const particles = [];
+        const maxParticles = 60;
+        for (let i = 0; i < maxParticles; i++) {
+            particles.push({
+                x: Math.random() * width,
+                y: Math.random() * height,
+                vx: (Math.random() - 0.5) * 12,
+                vy: (Math.random() - 0.5) * 12,
+                size: Math.random() * 2 + 1,
+                alpha: Math.random() * 0.45 + 0.15
+            });
+        }
+
+        registerLoop((dt) => {
+            ctx.clearRect(0, 0, width, height);
+
+            // Draw connections
+            ctx.strokeStyle = 'rgba(59, 130, 246, 0.04)';
+            ctx.lineWidth = 1;
+            for (let i = 0; i < particles.length; i++) {
+                for (let j = i + 1; j < particles.length; j++) {
+                    const dx = particles[i].x - particles[j].x;
+                    const dy = particles[i].y - particles[j].y;
+                    const dist = Math.sqrt(dx * dx + dy * dy);
+                    if (dist < 120) {
+                        ctx.beginPath();
+                        ctx.moveTo(particles[i].x, particles[i].y);
+                        ctx.lineTo(particles[j].x, particles[j].y);
+                        ctx.stroke();
+                    }
+                }
+            }
+
+            // Draw particles
+            particles.forEach(p => {
+                p.x += p.vx * dt;
+                p.y += p.vy * dt;
+
+                // Screen boundaries wrapping
+                if (p.x < -10) p.x = width + 10;
+                if (p.x > width + 10) p.x = -10;
+                if (p.y < -10) p.y = height + 10;
+                if (p.y > height + 10) p.y = -10;
+
+                // Mouse interaction (gentle repulsion)
+                if (mouse.x !== null && mouse.y !== null) {
+                    const dx = p.x - mouse.x;
+                    const dy = p.y - mouse.y;
+                    const dist = Math.sqrt(dx * dx + dy * dy);
+                    if (dist < 150) {
+                        const force = (150 - dist) / 150 * 15;
+                        p.x += (dx / dist) * force * dt * 20;
+                        p.y += (dy / dist) * force * dt * 20;
+                    }
+                }
+
+                ctx.beginPath();
+                ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
+                ctx.fillStyle = `rgba(96, 165, 250, ${p.alpha})`;
+                ctx.fill();
+            });
+        });
+    }
+
+    // ==========================================================================
+    // LIQUID VIAL GLASS CANISTER PHYSICS SIMULATOR (2D Canvas Wave Engine)
+    // ==========================================================================
+    const canisterElements = document.querySelectorAll('.liquid-gauge.glass-canister');
+    canisterElements.forEach(container => {
+        const canvas = container.querySelector('.canister-canvas');
+        if (!canvas) return;
+        const ctx = canvas.getContext('2d');
+
+        const targetPercent = parseFloat(container.getAttribute('data-fill-height')) || 50;
+        const fillColor = container.getAttribute('data-fill-color') || 'amber';
+        const card = container.closest('.product-card');
+
+        let width = canvas.width = canvas.clientWidth || 66;
+        let height = canvas.height = canvas.clientHeight || 380;
+
+        const resizeObserver = new ResizeObserver(entries => {
+            for (let entry of entries) {
+                width = canvas.width = entry.contentRect.width || canvas.clientWidth || 66;
+                height = canvas.height = entry.contentRect.height || canvas.clientHeight || 380;
+            }
+        });
+        resizeObserver.observe(canvas);
+
+        let currentPercent = targetPercent;
+        let animatedPercent = targetPercent;
+        let wavePhase = Math.random() * 100;
+        let waveAmplitude = 1.5;
+        let targetAmplitude = 1.5;
+        let isHovered = false;
+
+        const bubbles = [];
+        const spawnInterval = 0.25;
+        let spawnTimer = 0;
+
+        if (card) {
             card.addEventListener('mouseenter', () => {
-                const heightVal = parseInt(originalHeight);
-                const hoverHeight = Math.min(heightVal + 8, 100);
-                liquidFill.style.height = `${hoverHeight}%`;
-
-                bubbleInterval = setInterval(() => {
-                    createBubble(bubblesContainer);
-                }, 140);
+                isHovered = true;
+                animatedPercent = Math.min(targetPercent + 8, 98);
+                targetAmplitude = 4.5;
             });
 
             card.addEventListener('mouseleave', () => {
-                liquidFill.style.height = originalHeight;
-                clearInterval(bubbleInterval);
-                bubbleInterval = null;
-                
-                setTimeout(() => {
-                    if (!bubbleInterval) {
-                        bubblesContainer.innerHTML = '';
-                    }
-                }, 500);
+                isHovered = false;
+                animatedPercent = targetPercent;
+                targetAmplitude = 1.5;
             });
         }
-    });
 
-    function createBubble(container) {
-        const bubble = document.createElement('div');
-        bubble.classList.add('bubble');
-        
-        const diameter = Math.random() * 5 + 3;
-        const leftOffset = Math.random() * 80 + 10;
-        const duration = Math.random() * 1.5 + 1.5;
+        registerLoop((dt) => {
+            currentPercent += (animatedPercent - currentPercent) * dt * 4;
+            waveAmplitude += (targetAmplitude - waveAmplitude) * dt * 2.5;
+            wavePhase += dt * (isHovered ? 7.5 : 3.5);
 
-        bubble.style.width = `${diameter}px`;
-        bubble.style.height = `${diameter}px`;
-        bubble.style.left = `${leftOffset}%`;
-        bubble.style.animationDuration = `${duration}s`;
+            const fillY = (currentPercent / 100) * height;
 
-        container.appendChild(bubble);
-
-        setTimeout(() => {
-            if (bubble.parentNode === container) {
-                container.removeChild(bubble);
+            spawnTimer += dt;
+            const currentInterval = isHovered ? spawnInterval * 0.45 : spawnInterval * 2.0;
+            if (spawnTimer >= currentInterval) {
+                spawnTimer = 0;
+                if (isHovered || bubbles.length < 5) {
+                    bubbles.push({
+                        x: Math.random() * width,
+                        y: height + 10,
+                        vy: Math.random() * (isHovered ? 45 : 20) + (isHovered ? 35 : 15),
+                        size: Math.random() * (isHovered ? 2.2 : 1.2) + 0.8,
+                        alpha: Math.random() * (isHovered ? 0.45 : 0.2) + 0.15
+                    });
+                }
             }
-        }, duration * 1000);
-    }
+
+            for (let i = bubbles.length - 1; i >= 0; i--) {
+                const b = bubbles[i];
+                b.y -= b.vy * dt;
+
+                const waveY = Math.sin(b.x * 0.08 + wavePhase) * waveAmplitude;
+                const surfaceY = height - fillY + waveY;
+
+                if (b.y < surfaceY) {
+                    b.alpha -= dt * 4;
+                    if (b.alpha <= 0) {
+                        bubbles.splice(i, 1);
+                        continue;
+                    }
+                }
+            }
+
+            ctx.clearRect(0, 0, width, height);
+
+            ctx.save();
+            ctx.beginPath();
+            ctx.moveTo(0, height);
+            ctx.lineTo(0, height - fillY);
+
+            for (let x = 0; x <= width; x++) {
+                const waveY = Math.sin(x * 0.08 + wavePhase) * waveAmplitude;
+                ctx.lineTo(x, height - fillY + waveY);
+            }
+            ctx.lineTo(width, height);
+            ctx.closePath();
+
+            const gradient = ctx.createLinearGradient(0, height - fillY, 0, height);
+            if (fillColor === 'amber') {
+                gradient.addColorStop(0, '#f59e0b');
+                gradient.addColorStop(1, '#451a03');
+            } else if (fillColor === 'violet') {
+                gradient.addColorStop(0, '#8b5cf6');
+                gradient.addColorStop(1, '#2e1065');
+            } else {
+                gradient.addColorStop(0, '#3b82f6');
+                gradient.addColorStop(1, '#172554');
+            }
+
+            ctx.fillStyle = gradient;
+            ctx.globalAlpha = 0.72;
+            ctx.fill();
+
+            ctx.clip();
+            ctx.globalAlpha = 1.0;
+            for (let i = 0; i < bubbles.length; i++) {
+                const b = bubbles[i];
+                ctx.beginPath();
+                ctx.arc(b.x, b.y, b.size, 0, Math.PI * 2);
+                ctx.fillStyle = `rgba(255, 255, 255, ${b.alpha})`;
+                ctx.fill();
+            }
+            ctx.restore();
+
+            ctx.beginPath();
+            ctx.moveTo(0, height - fillY + Math.sin(0 + wavePhase) * waveAmplitude);
+            for (let x = 1; x <= width; x++) {
+                const waveY = Math.sin(x * 0.08 + wavePhase) * waveAmplitude;
+                ctx.lineTo(x, height - fillY + waveY);
+            }
+            ctx.strokeStyle = fillColor === 'amber' ? '#f59e0b' : (fillColor === 'violet' ? '#8b5cf6' : '#60a5fa');
+            ctx.lineWidth = 2.0;
+            ctx.shadowColor = ctx.strokeStyle;
+            ctx.shadowBlur = 6;
+            ctx.stroke();
+            ctx.shadowBlur = 0;
+        });
+    });
 
     // ==========================================================================
     // FAQ ACCORDIONS TOGGLE

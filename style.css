@@ -1,23 +1,23 @@
 /* ==========================================================================
-   DESIGN TOKEN SYSTEM & VARIABLES (PREMIUM BLUEPRINT THEME)
+   DESIGN TOKEN SYSTEM & VARIABLES (PREMIUM HYBRID GLASS THEME)
    ========================================================================== */
 :root {
     /* Color Palette */
-    --colour-bg: #05080e;
-    --colour-bg-card: rgba(15, 22, 34, 0.75);
-    --colour-bg-card-hover: rgba(22, 32, 50, 0.9);
-    --colour-border: #1e293b;
-    --colour-border-hover: #3b82f6;
+    --colour-bg: #020408;
+    --colour-bg-card: rgba(11, 17, 28, 0.55);
+    --colour-bg-card-hover: rgba(16, 25, 41, 0.75);
+    --colour-border: rgba(255, 255, 255, 0.05);
+    --colour-border-hover: rgba(59, 130, 246, 0.35);
     
     /* Accents (Neon Glowing Fluids) */
-    --colour-amber-flow: #fbbf24;
-    --colour-amber-glow: rgba(251, 191, 36, 0.4);
-    --colour-violet-flow: #a78bfa;
-    --colour-violet-glow: rgba(167, 139, 250, 0.4);
-    --colour-blue-flow: #60a5fa;
-    --colour-blue-glow: rgba(96, 165, 250, 0.4);
-    --colour-mol-green: #10b981;
-    --colour-mol-glow: rgba(16, 185, 129, 0.4);
+    --colour-amber-flow: #f59e0b;
+    --colour-amber-glow: rgba(245, 158, 11, 0.25);
+    --colour-violet-flow: #8b5cf6;
+    --colour-violet-glow: rgba(139, 92, 246, 0.25);
+    --colour-blue-flow: #3b82f6;
+    --colour-blue-glow: rgba(59, 130, 246, 0.25);
+    --colour-mol-green: #059669;
+    --colour-mol-glow: rgba(5, 150, 105, 0.25);
     
     /* Status Alerts */
     --colour-red: #f87171;
@@ -25,9 +25,9 @@
     --colour-orange: #fb923c;
     
     /* Typography Colours */
-    --colour-text: #f1f5f9;
+    --colour-text: #f8fafc;
     --colour-text-muted: #cbd5e1;
-    --colour-text-dark: #475569;
+    --colour-text-dark: #64748b;
     
     /* Typography Families */
     --font-display: 'Space Grotesk', sans-serif;
@@ -37,8 +37,8 @@
     /* Layout */
     --container-width: 1200px;
     --header-height: 80px;
-    --radius: 12px;
-    --transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    --radius: 16px;
+    --transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 /* ==========================================================================
@@ -57,16 +57,26 @@ html {
 
 body {
     background-color: var(--colour-bg);
-    /* Blueprint microgrid pattern */
+    /* Futuristic faint tech grid */
     background-image: 
-        linear-gradient(rgba(30, 41, 59, 0.15) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(30, 41, 59, 0.15) 1px, transparent 1px);
-    background-size: 30px 30px;
+        linear-gradient(rgba(59, 130, 246, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(59, 130, 246, 0.03) 1px, transparent 1px);
+    background-size: 40px 40px;
     color: var(--colour-text);
     font-family: var(--font-body);
     line-height: 1.6;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
+}
+
+#bgCanvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    pointer-events: none;
 }
 
 /* Custom Scrollbar */
@@ -77,7 +87,7 @@ body {
     background: var(--colour-bg);
 }
 ::-webkit-scrollbar-thumb {
-    background: var(--colour-border);
+    background: rgba(255, 255, 255, 0.1);
     border-radius: 3px;
 }
 ::-webkit-scrollbar-thumb:hover {
@@ -94,6 +104,8 @@ a {
     max-width: var(--container-width);
     margin: 0 auto;
     padding: 0 24px;
+    position: relative;
+    z-index: 2;
 }
 
 .code-font {
@@ -106,13 +118,19 @@ a {
 .text-amber { color: var(--colour-amber-flow); }
 .text-green { color: var(--colour-green); }
 
-/* Double Hairline Outlines */
+/* Premium Glassmorphism Cards */
 .double-border {
-    border: 3px double var(--colour-border);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    background-color: var(--colour-bg-card);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.35);
+    border-radius: var(--radius);
     transition: var(--transition);
 }
 .double-border:hover {
     border-color: var(--colour-border-hover);
+    box-shadow: 0 8px 32px 0 rgba(59, 130, 246, 0.12);
 }
 
 /* Typography scale */
@@ -588,8 +606,8 @@ h3 {
 .glass-canister {
     position: relative;
     width: 66px;
-    background: rgba(11, 15, 23, 0.6);
-    border-right: 1px solid var(--colour-border);
+    background: rgba(8, 12, 21, 0.65);
+    border-right: 1px solid rgba(255, 255, 255, 0.05);
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -597,8 +615,8 @@ h3 {
     flex-shrink: 0;
     margin: 12px 0 12px 12px;
     border-radius: 33px;
-    border: 1px solid rgba(255,255,255,0.08);
-    box-shadow: inset 0 0 10px rgba(0,0,0,0.8);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.85);
 }
 
 .glass-canister::before {
@@ -609,10 +627,10 @@ h3 {
     width: 100%;
     height: 100%;
     background: linear-gradient(90deg, 
-        rgba(255,255,255,0.18) 0%, 
-        rgba(255,255,255,0.03) 20%, 
+        rgba(255, 255, 255, 0.15) 0%, 
+        rgba(255, 255, 255, 0.02) 20%, 
         transparent 60%, 
-        rgba(255,255,255,0.1) 100%);
+        rgba(255, 255, 255, 0.08) 100%);
     z-index: 4;
     pointer-events: none;
 }
@@ -625,80 +643,20 @@ h3 {
     transform: translateX(-50%);
     width: 80%;
     height: 10px;
-    background: linear-gradient(180deg, #64748b 0%, #334155 100%);
-    border-bottom: 2px solid rgba(255,255,255,0.15);
+    background: linear-gradient(180deg, #475569 0%, #1e293b 100%);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
     border-radius: 4px;
     z-index: 5;
 }
 
-.liquid-fill {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    transition: height 0.8s cubic-bezier(0.16, 1, 0.3, 1);
-    opacity: 0.8;
-    z-index: 1;
-}
-
-.liquid-fill.amber {
-    background: linear-gradient(0deg, #d97706 0%, var(--colour-amber-flow) 100%);
-    filter: drop-shadow(0 0 10px var(--colour-amber-glow));
-}
-.liquid-fill.violet {
-    background: linear-gradient(0deg, #7c3aed 0%, var(--colour-violet-flow) 100%);
-    filter: drop-shadow(0 0 10px var(--colour-violet-glow));
-}
-.liquid-fill.blue {
-    background: linear-gradient(0deg, #2563eb 0%, var(--colour-blue-flow) 100%);
-    filter: drop-shadow(0 0 10px var(--colour-blue-glow));
-}
-
-.liquid-fill::before {
-    content: '';
+.canister-canvas {
     position: absolute;
     top: 0;
-    left: 50%;
-    width: 180px;
-    height: 180px;
-    background: rgba(5, 8, 14, 0.15);
-    border-radius: 40%;
-    transform: translate(-50%, -96%) rotate(0deg);
-    animation: wave-animation 4s infinite linear;
-    z-index: 2;
-}
-
-@keyframes wave-animation {
-    0% { transform: translate(-50%, -96%) rotate(0deg); }
-    100% { transform: translate(-50%, -96%) rotate(360deg); }
-}
-
-/* Bubbles container overlay */
-.bubbles-container {
-    position: absolute;
-    bottom: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    overflow: hidden;
-    z-index: 3;
-    pointer-events: none;
-}
-
-.bubble {
-    position: absolute;
-    background-color: rgba(255, 255, 255, 0.25);
-    border-radius: 50%;
-    bottom: -10px;
-    animation: bubble-float 3s infinite linear;
-    box-shadow: inset 0 0 2px rgba(255,255,255,0.8);
-}
-
-@keyframes bubble-float {
-    0% { transform: translateY(0) scale(0.6); opacity: 0; }
-    10% { opacity: 0.7; }
-    90% { opacity: 0.7; }
-    100% { transform: translateY(-280px) scale(1.2); opacity: 0; }
+    display: block;
+    z-index: 2;
 }
 
 .gauge-markings {
@@ -2031,7 +1989,8 @@ h3 {
         height: 150px;
         margin: 20px auto 0 auto;
         border-right: none;
-        box-shadow: inset 0 0 10px rgba(0,0,0,0.8);
+        border: 1px solid rgba(255, 255, 255, 0.06);
+        box-shadow: inset 0 0 15px rgba(0,0,0,0.85);
     }
     .product-info {
         padding: 16px;
