@@ -487,45 +487,79 @@ document.addEventListener('DOMContentLoaded', () => {
                 totalSum += itemPrice * (parseInt(item.qty) || 1);
             });
 
-            // Create new order
-            let orders = [];
-            try {
-                const parsed = JSON.parse(localStorage.getItem('b2b_wholesale_orders'));
-                orders = Array.isArray(parsed) ? parsed : [];
-            } catch (e) {
-                orders = [];
-            }
+            const API_BASE = 'http://localhost:5000/api/v1';
 
-            const orderNo = `№${Math.floor(Math.random() * 900) + 85000}`;
-            const date = new Date().toLocaleDateString('ru-RU');
-            
-            const newOrder = {
-                orderNo: orderNo,
-                date: date,
-                sum: totalSum,
-                status: 'Счет выставлен',
-                delivery: 'Сборка заказа'
-            };
+            // Send to server
+            fetch(`${API_BASE}/orders`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    company_name: 'B2B Client (Wholesale)',
+                    contact_person: 'Representative',
+                    items: cart.map(item => ({
+                        sku: item.sku,
+                        qty: item.qty,
+                        packType: item.packType
+                    }))
+                })
+            })
+            .then(res => {
+                if (!res.ok) throw new Error('API server returned error status');
+                return res.json();
+            })
+            .then(data => {
+                if (data.success) {
+                    alert(`Заказ ${data.data.orderNo} успешно сформирован через B2B API! Перенаправление в B2B кабинет.`);
+                    localStorage.removeItem('b2b_wholesale_cart');
+                    updateCartUI();
+                    closeCartDrawer();
+                    window.location.href = 'b2b-dashboard.html';
+                } else {
+                    throw new Error('API reported unsuccessful order creation');
+                }
+            })
+            .catch(err => {
+                console.warn('API submission failed, falling back to local simulation:', err);
+                
+                // Fallback to local storage (existing mock code)
+                let orders = [];
+                try {
+                    const parsed = JSON.parse(localStorage.getItem('b2b_wholesale_orders'));
+                    orders = Array.isArray(parsed) ? parsed : [];
+                } catch (e) {
+                    orders = [];
+                }
 
-            orders.push(newOrder);
-            try {
-                localStorage.setItem('b2b_wholesale_orders', JSON.stringify(orders));
-            } catch (e) {
-                console.error(e);
-            }
+                const orderNo = `№${Math.floor(Math.random() * 900) + 85000}`;
+                const date = new Date().toLocaleDateString('ru-RU');
+                
+                const newOrder = {
+                    orderNo: orderNo,
+                    date: date,
+                    sum: totalSum,
+                    status: 'Счет выставлен',
+                    delivery: 'Сборка заказа'
+                };
 
-            // Clear cart
-            try {
-                localStorage.removeItem('b2b_wholesale_cart');
-            } catch (e) {
-                console.error(e);
-            }
-            
-            updateCartUI();
-            closeCartDrawer();
+                orders.push(newOrder);
+                try {
+                    localStorage.setItem('b2b_wholesale_orders', JSON.stringify(orders));
+                } catch (e) {
+                    console.error(e);
+                }
 
-            alert(`Заказ ${orderNo} успешно сформирован! Перенаправление в B2B кабинет.`);
-            window.location.href = 'b2b-dashboard.html';
+                try {
+                    localStorage.removeItem('b2b_wholesale_cart');
+                } catch (e) {
+                    console.error(e);
+                }
+                
+                updateCartUI();
+                closeCartDrawer();
+
+                alert(`Заказ ${orderNo} успешно сформирован (Автономный режим)! Перенаправление в B2B кабинет.`);
+                window.location.href = 'b2b-dashboard.html';
+            });
         });
     }
 
@@ -569,6 +603,28 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Animate fill bar
         fillBar.style.width = '0%';
+
+        let apiResult = null;
+        const API_BASE = 'http://localhost:5000/api/v1';
+        fetch(`${API_BASE}/vin/decode`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ vin: vinCode })
+        })
+        .then(res => {
+            if (!res.ok) throw new Error('VIN decode API failed');
+            return res.json();
+        })
+        .then(data => {
+            if (data.success) {
+                apiResult = data;
+            } else {
+                throw new Error('VIN decode unsuccessful');
+            }
+        })
+        .catch(err => {
+            console.warn('VIN decode API error, using local fallback:', err);
+        });
         
         let width = 0;
         const intervalTime = 12; // 12ms * 100 steps = 1.2 seconds total scan
@@ -582,12 +638,32 @@ document.addEventListener('DOMContentLoaded', () => {
                 scanStatus.textContent = '✔ VIN-код успешно расшифрован';
                 
                 setTimeout(() => {
+                    if (apiResult) {
+                        const vehicleNameEl = resultsBox.querySelector('.result-vehicle-name');
+                        const detailsEl = resultsBox.querySelector('.result-details');
+                        const recTagsEl = resultsBox.querySelector('.rec-tags');
+
+                        if (vehicleNameEl) vehicleNameEl.textContent = apiResult.vehicleName;
+                        if (detailsEl) detailsEl.textContent = apiResult.details;
+                        if (recTagsEl) {
+                            recTagsEl.innerHTML = '';
+                            apiResult.recommendations.forEach(rec => {
+                                const span = document.createElement('span');
+                                span.className = 'rec-tag';
+                                span.textContent = rec;
+                                recTagsEl.appendChild(span);
+                            });
+                        }
+                        updateBreadcrumbs(`VIN-НОМЕР > ${apiResult.vehicleName.toUpperCase()}`);
+                    } else {
+                        updateBreadcrumbs(`VIN-НОМЕР > MERCEDES-BENZ SPRINTER`);
+                    }
+
                     scanHeader.style.display = 'none';
                     resultsBox.style.display = 'block';
                     setTimeout(() => {
                         resultsBox.classList.add('show');
                     }, 50);
-                    updateBreadcrumbs(`VIN-НОМЕР > MERCEDES-BENZ SPRINTER`);
                     vinScanning = false;
                 }, 400);
             }
@@ -989,14 +1065,33 @@ document.addEventListener('DOMContentLoaded', () => {
     if (b2bForm && formSuccess) {
         b2bForm.addEventListener('submit', (e) => {
             e.preventDefault();
+            
+            const companyName = document.getElementById('compName').value;
+            const contactPerson = document.getElementById('contactPerson').value;
+            const phone = document.getElementById('phone').value;
+
             b2bForm.style.opacity = '0.3';
             b2bForm.style.pointerEvents = 'none';
 
-            setTimeout(() => {
+            const API_BASE = 'http://localhost:5000/api/v1';
+            fetch(`${API_BASE}/partners`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    company_name: companyName,
+                    contact_person: contactPerson,
+                    phone: phone,
+                    activity_type: 'B2B Partnership Request',
+                    city: 'Kishinev'
+                })
+            })
+            .then(res => res.json())
+            .catch(err => console.warn('B2B partner API failed, using mock fallback:', err))
+            .finally(() => {
                 b2bForm.style.display = 'none';
                 formSuccess.style.display = 'block';
                 formSuccess.style.opacity = '1';
-            }, 600);
+            });
         });
     }
 
@@ -1005,14 +1100,34 @@ document.addEventListener('DOMContentLoaded', () => {
     if (contactForm && contactSuccess) {
         contactForm.addEventListener('submit', (e) => {
             e.preventDefault();
+
+            const cName = document.getElementById('cName').value;
+            const cEmail = document.getElementById('cEmail').value;
+            const cText = document.getElementById('cText').value;
+
             contactForm.style.opacity = '0.3';
             contactForm.style.pointerEvents = 'none';
 
-            setTimeout(() => {
+            const API_BASE = 'http://localhost:5000/api/v1';
+            fetch(`${API_BASE}/partners`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    company_name: cName,
+                    contact_person: cName,
+                    email: cEmail,
+                    phone: 'N/A',
+                    activity_type: 'Contact Message Inquiry',
+                    comments: cText
+                })
+            })
+            .then(res => res.json())
+            .catch(err => console.warn('Contact message API failed, using mock fallback:', err))
+            .finally(() => {
                 contactForm.style.display = 'none';
                 contactSuccess.style.display = 'block';
                 contactSuccess.style.opacity = '1';
-            }, 600);
+            });
         });
     }
 
@@ -1062,32 +1177,61 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Load orders on dashboard page load
     if (ordersTableBody) {
-        let savedOrders = [];
-        try {
-            const parsed = JSON.parse(localStorage.getItem('b2b_wholesale_orders'));
-            savedOrders = Array.isArray(parsed) ? parsed : [];
-        } catch (e) {
-            savedOrders = [];
-        }
+        const API_BASE = 'http://localhost:5000/api/v1';
 
-        savedOrders.forEach(order => {
-            if (!order) return;
-            const row = document.createElement('tr');
-            const orderNo = order.orderNo || '№00000';
-            const date = order.date || '';
-            const sumVal = typeof order.sum === 'number' ? order.sum.toLocaleString() : (order.sum || '0');
-            const status = order.status || 'Счет выставлен';
-            const delivery = order.delivery || 'Сборка заказа';
+        fetch(`${API_BASE}/orders`)
+            .then(res => {
+                if (!res.ok) throw new Error('API server returned error status');
+                return res.json();
+            })
+            .then(data => {
+                if (data.success && Array.isArray(data.data)) {
+                    ordersTableBody.innerHTML = '';
+                    data.data.forEach(order => {
+                        const row = document.createElement('tr');
+                        row.innerHTML = `
+                            <td class="code-font text-amber">${order.orderNo}</td>
+                            <td>${order.date}</td>
+                            <td>${order.sum.toLocaleString()} MDL</td>
+                            <td><span class="status-badge status-unpaid">${order.status}</span></td>
+                            <td><span class="status-badge status-shipping">${order.delivery}</span></td>
+                        `;
+                        ordersTableBody.appendChild(row);
+                    });
+                } else {
+                    throw new Error('API returned success=false or invalid data');
+                }
+            })
+            .catch(err => {
+                console.warn('API fetch orders failed, falling back to localStorage:', err);
+                let savedOrders = [];
+                try {
+                    const parsed = JSON.parse(localStorage.getItem('b2b_wholesale_orders'));
+                    savedOrders = Array.isArray(parsed) ? parsed : [];
+                } catch (e) {
+                    savedOrders = [];
+                }
+                
+                ordersTableBody.innerHTML = '';
+                savedOrders.forEach(order => {
+                    if (!order) return;
+                    const row = document.createElement('tr');
+                    const orderNo = order.orderNo || '№00000';
+                    const date = order.date || '';
+                    const sumVal = typeof order.sum === 'number' ? order.sum.toLocaleString() : (order.sum || '0');
+                    const status = order.status || 'Счет выставлен';
+                    const delivery = order.delivery || 'Сборка заказа';
 
-            row.innerHTML = `
-                <td class="code-font text-amber">${orderNo}</td>
-                <td>${date}</td>
-                <td>${sumVal} MDL</td>
-                <td><span class="status-badge status-unpaid">${status}</span></td>
-                <td><span class="status-badge status-shipping">${delivery}</span></td>
-            `;
-            ordersTableBody.insertBefore(row, ordersTableBody.firstChild);
-        });
+                    row.innerHTML = `
+                        <td class="code-font text-amber">${orderNo}</td>
+                        <td>${date}</td>
+                        <td>${sumVal} MDL</td>
+                        <td><span class="status-badge status-unpaid">${status}</span></td>
+                        <td><span class="status-badge status-shipping">${delivery}</span></td>
+                    `;
+                    ordersTableBody.insertBefore(row, ordersTableBody.firstChild);
+                });
+            });
     }
 
     if (quickOrderForm && ordersTableBody) {
@@ -1105,57 +1249,96 @@ document.addEventListener('DOMContentLoaded', () => {
             const itemPrice = config.canisterPrice || 500;
             const totalSum = itemPrice * qty;
 
-            const orderNo = `№${Math.floor(Math.random() * 900) + 85000}`;
-            const date = new Date().toLocaleDateString('ru-RU');
+            const API_BASE = 'http://localhost:5000/api/v1';
 
-            const newOrder = {
-                orderNo: orderNo,
-                date: date,
-                sum: totalSum,
-                status: 'Счет выставлен',
-                delivery: 'Сборка заказа'
-            };
+            // Send to server
+            fetch(`${API_BASE}/orders`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    company_name: 'B2B Client (Quick Order)',
+                    contact_person: 'Representative',
+                    items: [{ sku, qty }]
+                })
+            })
+            .then(res => {
+                if (!res.ok) throw new Error('API server returned error status');
+                return res.json();
+            })
+            .then(data => {
+                if (data.success) {
+                    const savedOrder = data.data;
+                    const newRow = document.createElement('tr');
+                    newRow.innerHTML = `
+                        <td class="code-font text-amber">${savedOrder.orderNo}</td>
+                        <td>${new Date(savedOrder.created_at).toLocaleDateString('ru-RU')}</td>
+                        <td>${savedOrder.total_price.toLocaleString()} MDL</td>
+                        <td><span class="status-badge status-unpaid">${savedOrder.status}</span></td>
+                        <td><span class="status-badge status-shipping">${savedOrder.delivery_method === 'pickup' ? 'Самовывоз' : 'Сборка заказа'}</span></td>
+                    `;
+                    ordersTableBody.insertBefore(newRow, ordersTableBody.firstChild);
+                    
+                    showQuickOrderMsg(`Артикул ${sku} (${qty} шт.) успешно добавлен через API!`);
+                } else {
+                    throw new Error('API reported unsuccessful order creation');
+                }
+            })
+            .catch(err => {
+                console.warn('Quick order API submission failed, falling back to local simulation:', err);
+                const orderNo = `№${Math.floor(Math.random() * 900) + 85000}`;
+                const date = new Date().toLocaleDateString('ru-RU');
 
-            // Save to localStorage
-            let orders = [];
-            try {
-                const parsed = JSON.parse(localStorage.getItem('b2b_wholesale_orders'));
-                orders = Array.isArray(parsed) ? parsed : [];
-            } catch (e) {
-                orders = [];
-            }
-            orders.push(newOrder);
-            try {
-                localStorage.setItem('b2b_wholesale_orders', JSON.stringify(orders));
-            } catch (e) {
-                console.error(e);
-            }
+                const newOrder = {
+                    orderNo: orderNo,
+                    date: date,
+                    sum: totalSum,
+                    status: 'Счет выставлен',
+                    delivery: 'Сборка заказа'
+                };
 
-            // Render row in table
-            const newRow = document.createElement('tr');
-            newRow.innerHTML = `
-                <td class="code-font text-amber">${orderNo}</td>
-                <td>${date}</td>
-                <td>${totalSum.toLocaleString()} MDL</td>
-                <td><span class="status-badge status-unpaid">Счет выставлен</span></td>
-                <td><span class="status-badge status-shipping">Сборка заказа</span></td>
-            `;
-            ordersTableBody.insertBefore(newRow, ordersTableBody.firstChild);
+                let orders = [];
+                try {
+                    const parsed = JSON.parse(localStorage.getItem('b2b_wholesale_orders'));
+                    orders = Array.isArray(parsed) ? parsed : [];
+                } catch (e) {
+                    orders = [];
+                }
+                orders.push(newOrder);
+                try {
+                    localStorage.setItem('b2b_wholesale_orders', JSON.stringify(orders));
+                } catch (e) {
+                    console.error(e);
+                }
 
-            quickOrderMsg.textContent = `Артикул ${sku} (${qty} шт.) добавлен в черновик заказа!`;
-            quickOrderMsg.style.display = 'block';
-            quickOrderMsg.style.opacity = '1';
+                const newRow = document.createElement('tr');
+                newRow.innerHTML = `
+                    <td class="code-font text-amber">${orderNo}</td>
+                    <td>${date}</td>
+                    <td>${totalSum.toLocaleString()} MDL</td>
+                    <td><span class="status-badge status-unpaid">Счет выставлен</span></td>
+                    <td><span class="status-badge status-shipping">Сборка заказа</span></td>
+                `;
+                ordersTableBody.insertBefore(newRow, ordersTableBody.firstChild);
 
-            skuInput.value = '';
-            qtyInput.value = '1';
+                showQuickOrderMsg(`Артикул ${sku} (${qty} шт.) добавлен в черновик заказа (Автономно)!`);
+            });
 
-            setTimeout(() => {
-                quickOrderMsg.style.opacity = '0';
-                quickOrderMsg.style.transition = 'opacity 0.4s ease';
+            function showQuickOrderMsg(msg) {
+                quickOrderMsg.textContent = msg;
+                quickOrderMsg.style.display = 'block';
+                quickOrderMsg.style.opacity = '1';
+
+                skuInput.value = '';
+                qtyInput.value = '1';
+
                 setTimeout(() => {
-                    quickOrderMsg.style.display = 'none';
-                }, 450);
-            }, 4000);
+                    quickOrderMsg.style.opacity = '0';
+                    quickOrderMsg.style.transition = 'opacity 0.4s ease';
+                    setTimeout(() => {
+                        quickOrderMsg.style.display = 'none';
+                    }, 450);
+                }, 4000);
+            }
         });
     }
 
