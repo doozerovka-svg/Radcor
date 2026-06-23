@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Панель управления каталогом товаров Radcor. Добавление, редактирование и удаление товаров.">
+    <title>Управление каталогом — Radcor-Prim</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@500;700&family=Space+Mono&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css?v=9.0">
+
+    <style>
+        .admin-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 30px;
+        }
+        @media (min-width: 1024px) {
+            .admin-grid {
+                grid-template-columns: 460px 1fr;
+            }
+        }
+        .admin-form-card {
+            position: sticky;
+            top: 90px;
+            height: fit-content;
+            background: rgba(11, 17, 28, 0.4);
+            backdrop-filter: blur(16px);
+            padding: 24px;
+        }
+        .spec-row-edit {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 8px;
+            align-items: center;
+        }
+        .spec-row-edit input {
+            flex: 1;
+            background: rgba(2, 4, 8, 0.5) !important;
+            border: 1px solid rgba(255, 255, 255, 0.1) !important;
+            color: #fff !important;
+            padding: 8px 12px;
+            font-size: 13px;
+        }
+        .spec-row-edit input:focus {
+            border-color: var(--colour-mol-green) !important;
+        }
+        .admin-table-wrap {
+            overflow-x: auto;
+            margin-top: 15px;
+        }
+        .admin-table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+        }
+        .admin-table th, .admin-table td {
+            padding: 14px 16px;
+            border-bottom: 1px solid rgba(255,255,255,0.06);
+            font-size: 14px;
+        }
+        .admin-table th {
+            font-family: var(--font-code);
+            color: var(--colour-text-muted);
+            font-weight: 500;
+            font-size: 13px;
+            text-transform: uppercase;
+        }
+        .admin-table tbody tr {
+            transition: background 0.2s ease;
+        }
+        .admin-table tbody tr:hover {
+            background: rgba(255,255,255,0.02);
+        }
+        .action-btns {
+            display: flex;
+            gap: 6px;
+        }
+        .action-btns .btn {
+            padding: 6px 12px;
+            font-size: 12px;
+        }
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+        /* Custom Confirm Overlay */
+        .confirm-overlay {
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(2, 4, 8, 0.85);
+            backdrop-filter: blur(8px);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+        }
+        .confirm-box {
+            max-width: 420px;
+            width: 90%;
+            padding: 28px;
+            text-align: center;
+            background: rgba(11, 17, 28, 0.95);
+        }
+        .confirm-title {
+            font-family: var(--font-title);
+            font-size: 20px;
+            margin-bottom: 12px;
+        }
+        .confirm-actions {
+            margin-top: 24px;
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+        }
+        .toast-notify {
+            position: fixed;
+            bottom: 24px;
+            right: 24px;
+            padding: 16px 24px;
+            background: var(--colour-mol-green);
+            color: #fff;
+            z-index: 999;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+            font-size: 14px;
+        }
+        .toast-notify.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .badge-status-db {
+            padding: 4px 8px;
+            font-size: 11px;
+            border-radius: 4px;
+            margin-left: 10px;
+            vertical-align: middle;
+        }
+        .badge-online {
+            background: rgba(16, 185, 129, 0.15);
+            color: #10b981;
+            border: 1px solid rgba(16, 185, 129, 0.3);
+        }
+        .badge-offline {
+            background: rgba(245, 158, 11, 0.15);
+            color: #f59e0b;
+            border: 1px solid rgba(245, 158, 11, 0.3);
+        }
+    </style>
+</head>
+<body class="b2b-dashboard-body">
+
+    <!-- Фоновые водяные знаки для глубины интерфейса -->
+    <div class="bg-watermark vertical-left">ADMIN AREA</div>
+    <div class="bg-watermark vertical-right">CATALOG MANAGER</div>
+
+    <!-- Header / Навигация -->
+    <header class="main-header">
+        <div class="header-container">
+            <a href="index.html" class="logo">
+                <span class="logo-accent">R</span>ADCOR<span class="logo-sub">ADMIN</span>
+            </a>
+            <nav class="main-nav" id="mainNav">
+                <div class="nav-actions">
+                    <a href="index.html" class="btn btn-secondary btn-sm double-border">Вернуться в каталог</a>
+                    <a href="b2b-dashboard.html" class="btn btn-secondary btn-sm double-border">Личный кабинет B2B</a>
+                </div>
+            </nav>
+        </div>
+        <div class="header-gauge-line"></div>
+    </header>
+
+    <main class="dashboard-main container" style="margin-top: 110px; margin-bottom: 60px;">
+        <div class="admin-grid">
+            
+            <!-- Левая панель: Форма Редактирования -->
+            <div class="dashboard-card admin-form-card double-border">
+                <h3 id="formTitle">Добавить товар в базу</h3>
+                <p style="margin-bottom: 20px;" id="formDesc">Заполните поля ниже. Поля SKU и Название обязательны.</p>
+                
+                <form id="productForm" class="b2b-form" style="display: flex; flex-direction: column; gap: 15px;">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="pSku">Артикул (SKU)</label>
+                            <input type="text" id="pSku" required placeholder="Например: 151201">
+                        </div>
+                        <div class="form-group">
+                            <label for="pBrand">Производитель (Бренд)</label>
+                            <select id="pBrand" style="background: rgba(2, 4, 8, 0.7); border: 1px solid rgba(255, 255, 255, 0.15); color: #fff; padding: 12px; font-size: 14px; border-radius: 0;">
+                                <option value="MOL">MOL</option>
+                                <option value="Felix">Felix</option>
+                                <option value="Freshway">Freshway</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="pName">Название товара</label>
+                        <input type="text" id="pName" required placeholder="Например: MOL Essence 5W-30">
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="pCategory">Сектор каталога</label>
+                            <select id="pCategory" style="background: rgba(2, 4, 8, 0.7); border: 1px solid rgba(255, 255, 255, 0.15); color: #fff; padding: 12px; font-size: 14px; border-radius: 0;">
+                                <option value="oils">Масла (oils)</option>
+                                <option value="fluids">Жидкости (fluids)</option>
+                                <option value="chemicals">Автохимия (chemicals)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="pFillColor">Цвет жидкости в колбе</label>
+                            <select id="pFillColor" style="background: rgba(2, 4, 8, 0.7); border: 1px solid rgba(255, 255, 255, 0.15); color: #fff; padding: 12px; font-size: 14px; border-radius: 0;">
+                                <option value="amber">Янтарный (amber)</option>
+                                <option value="violet">Фиолетовый (violet)</option>
+                                <option value="blue">Синий (blue)</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="pFillHeight">Высота уровня заливки (%)</label>
+                            <input type="number" id="pFillHeight" min="10" max="98" value="75" placeholder="75">
+                        </div>
+                        <div class="form-group">
+                            <label for="pGaugeMarkings">Шкала канистры</label>
+                            <input type="text" id="pGaugeMarkings" value="4L,3L,2L,1L" placeholder="4L,3L,2L,1L">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="pDesc">Краткое описание товара</label>
+                        <input type="text" id="pDesc" placeholder="Высокотехнологичное моторное масло...">
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="pSectors">Секторы техники (через пробел)</label>
+                            <input type="text" id="pSectors" value="passenger van" placeholder="passenger van truck">
+                        </div>
+                        <div class="form-group">
+                            <label for="pOems">OEM-допуски (через пробел)</label>
+                            <input type="text" id="pOems" value="mercedes volkswagen" placeholder="mercedes renault ford">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="pBadgeText">Текст бейджа на карточке</label>
+                        <input type="text" id="pBadgeText" value="Масла MOL" placeholder="Масла MOL">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="pBadgeClass">Класс стиля бейджа</label>
+                        <input type="text" id="pBadgeClass" value="badge-mol" placeholder="badge-mol (или badge-violet, badge-blue)">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="pPackDesc">Упаковка и фасовка</label>
+                        <input type="text" id="pPackDesc" value="Канистра 4л / Бочка 205л" placeholder="Канистра 4л / Бочка 205л">
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="pCanisterVol">Объем канистры (л)</label>
+                            <input type="number" step="0.1" id="pCanisterVol" value="4" placeholder="4">
+                        </div>
+                        <div class="form-group">
+                            <label for="pCanisterPrice">Цена канистры (MDL)</label>
+                            <input type="number" id="pCanisterPrice" value="780" placeholder="780">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="pBarrelVol">Объем бочки (л)</label>
+                            <input type="number" step="0.1" id="pBarrelVol" value="205" placeholder="205">
+                        </div>
+                        <div class="form-group">
+                            <label for="pBarrelPrice">Цена бочки (MDL)</label>
+                            <input type="number" id="pBarrelPrice" value="28000" placeholder="28000">
+                        </div>
+                    </div>
+
+                    <!-- Таблица характеристик -->
+                    <div class="form-group">
+                        <label style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                            <span>Характеристики товара (Допуски/Свойства)</span>
+                            <button type="button" class="btn btn-secondary btn-sm" id="addSpecBtn" style="padding: 2px 8px; font-size: 12px; border-radius: 4px;">+ Добавить</button>
+                        </label>
+                        <div id="specsContainer">
+                            <!-- Сюда вставляются строки динамически -->
+                        </div>
+                    </div>
+
+                    <div style="display: flex; gap: 10px; margin-top: 10px;">
+                        <button type="submit" class="btn btn-primary" style="flex: 2;">Сохранить товар</button>
+                        <button type="button" class="btn btn-secondary double-border" id="resetFormBtn" style="flex: 1;">Сбросить</button>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Правая панель: Таблица товаров -->
+            <div class="dashboard-card double-border" style="background: rgba(11, 17, 28, 0.4); backdrop-filter: blur(16px); padding: 24px;">
+                <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid rgba(255,255,255,0.06); padding-bottom: 15px; margin-bottom: 15px; flex-wrap: wrap; gap: 10px;">
+                    <div>
+                        <h2 style="margin: 0; font-family: var(--font-title); font-size: 24px;">База данных каталога</h2>
+                        <span id="dbStatusBadge" class="badge-status-db badge-online">Проверка подключения...</span>
+                    </div>
+                    <div style="max-width: 300px; width: 100%;">
+                        <input type="text" id="adminSearch" placeholder="Поиск по артикулу или названию..." style="padding: 8px 12px; width: 100%; font-size: 13px;">
+                    </div>
+                </div>
+
+                <div class="admin-table-wrap">
+                    <table class="admin-table">
+                        <thead>
+                            <tr>
+                                <th>Арт</th>
+                                <th>Название</th>
+                                <th>Бренд</th>
+                                <th>Категория</th>
+                                <th>Канистра (MDL)</th>
+                                <th>Бочка (MDL)</th>
+                                <th style="text-align: right;">Действия</th>
+                            </tr>
+                        </thead>
+                        <tbody id="productsTableBody">
+                            <tr>
+                                <td colspan="7" style="text-align: center; padding: 48px; color: var(--colour-text-muted); font-family: var(--font-code);">
+                                    Загрузка данных из базы...
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+        </div>
+    </main>
+
+    <!-- Диалоговое окно подтверждения удаления -->
+    <div class="confirm-overlay" id="confirmOverlay">
+        <div class="confirm-box double-border">
+            <div class="confirm-title text-amber">Удалить товар?</div>
+            <p id="confirmMessage" style="font-size: 14px; margin-bottom: 20px;">Вы действительно хотите удалить этот товар из каталога продукции?</p>
+            <div class="confirm-actions">
+                <button type="button" class="btn btn-primary" id="confirmYesBtn" style="background: #ef4444; border-color: #ef4444;">Да, удалить</button>
+                <button type="button" class="btn btn-secondary double-border" id="confirmNoBtn">Отмена</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Всплывающее уведомление (Toast) -->
+    <div class="toast-notify double-border" id="toastNotify">Успешно сохранено!</div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const API_BASE = 'http://localhost:5000/api/v1';
+            let loadedProducts = [];
+            let isOffline = false;
+            let currentEditSku = null;
+
+            const productForm = document.getElementById('productForm');
+            const specsContainer = document.getElementById('specsContainer');
+            const productsTableBody = document.getElementById('productsTableBody');
+            const adminSearch = document.getElementById('adminSearch');
+            const dbStatusBadge = document.getElementById('dbStatusBadge');
+            const formTitle = document.getElementById('formTitle');
+            const formDesc = document.getElementById('formDesc');
+            const pSkuInput = document.getElementById('pSku');
+            
+            // Toast Notification
+            function showToast(msg, isError = false) {
+                const toast = document.getElementById('toastNotify');
+                toast.textContent = msg;
+                if (isError) {
+                    toast.style.background = '#ef4444';
+                } else {
+                    toast.style.background = 'var(--colour-mol-green)';
+                }
+                toast.classList.add('show');
+                setTimeout(() => {
+                    toast.classList.remove('show');
+                }, 3000);
+            }
+
+            // Specs Row Builder
+            function addSpecRow(label = '', value = '') {
+                const row = document.createElement('div');
+                row.className = 'spec-row-edit';
+                row.innerHTML = `
+                    <input type="text" class="spec-label-input" placeholder="Характеристика (напр. Вязкость)" value="${label}">
+                    <input type="text" class="spec-value-input" placeholder="Значение (напр. 5W-30)" value="${value}">
+                    <button type="button" class="btn btn-secondary btn-sm remove-spec-btn" style="padding: 8px 12px;">✖</button>
+                `;
+                row.querySelector('.remove-spec-btn').addEventListener('click', () => row.remove());
+                specsContainer.appendChild(row);
+            }
+
+            document.getElementById('addSpecBtn').addEventListener('click', () => addSpecRow());
+
+            // Reset Form State
+            function resetForm() {
+                productForm.reset();
+                currentEditSku = null;
+                pSkuInput.disabled = false;
+                formTitle.textContent = 'Добавить товар в базу';
+                formDesc.textContent = 'Заполните поля ниже. Поля SKU и Название обязательны.';
+                specsContainer.innerHTML = '';
+                // Add default specification rows
+                addSpecRow('Вязкость', '5W-30');
+                addSpecRow('Допуски', 'API SL/CF, ACEA A5/B5');
+            }
+
+            document.getElementById('resetFormBtn').addEventListener('click', resetForm);
+            resetForm();
+
+            // Fetch and Render Products
+            function loadProducts() {
+                fetch(`${API_BASE}/products`)
+                    .then(res => {
+                        if (!res.ok) throw new Error('API server returned error status');
+                        return res.json();
+                    })
+                    .then(data => {
+                        if (data.success && Array.isArray(data.data)) {
+                            loadedProducts = data.data;
+                            isOffline = false;
+                            dbStatusBadge.textContent = 'База SQLite3: Онлайн';
+                            dbStatusBadge.className = 'badge-status-db badge-online';
+                            renderProductsTable(loadedProducts);
+                        } else {
+                            throw new Error('API returned failed success flag');
+                        }
+                    })
+                    .catch(err => {
+                        console.warn('API error, falling back to local storage catalog:', err);
+                        isOffline = true;
+                        dbStatusBadge.textContent = 'Автономный режим (Эмуляция)';
+                        dbStatusBadge.className = 'badge-status-db badge-offline';
+                        
+                        // Fallback to client-only fallback array
+                        const local = localStorage.getItem('radcor_admin_catalog');
+                        if (local) {
+                            try {
+                                loadedProducts = JSON.parse(local);
+                            } catch(e) {
+                                loadedProducts = getStaticFallbackProducts();
+                            }
+                        } else {
+                            loadedProducts = getStaticFallbackProducts();
+                        }
+                        renderProductsTable(loadedProducts);
+                    });
+            }
+
+            function renderProductsTable(products) {
+                productsTableBody.innerHTML = '';
+                if (products.length === 0) {
+                    productsTableBody.innerHTML = `
+                        <tr>
+                            <td colspan="7" style="text-align: center; padding: 24px; color: var(--colour-text-muted);">
+                                Нет товаров в каталоге.
+                            </td>
+                        </tr>
+                    `;
+                    return;
+                }
+
+                products.forEach(p => {
+                    const row = document.createElement('tr');
+                    
+                    const cPrice = typeof p.canister_price === 'number' ? p.canister_price : (p.canisterPrice || 0);
+                    const bPrice = typeof p.barrel_price === 'number' ? p.barrel_price : (p.barrelPrice || 0);
+
+                    row.innerHTML = `
+                        <td class="code-font text-amber">${p.sku}</td>
+                        <td style="font-weight: 500;">${p.name}</td>
+                        <td class="code-font">${p.brand}</td>
+                        <td>${p.category === 'oils' ? 'Масла' : (p.category === 'fluids' ? 'Жидкости' : 'Автохимия')}</td>
+                        <td>${cPrice.toLocaleString()} MDL</td>
+                        <td>${bPrice.toLocaleString()} MDL</td>
+                        <td style="text-align: right;">
+                            <div class="action-btns" style="justify-content: flex-end;">
+                                <button class="btn btn-secondary btn-edit double-border" data-sku="${p.sku}">Редактировать</button>
+                                <button class="btn btn-primary btn-delete" data-sku="${p.sku}" style="background:#ef4444; border-color:#ef4444;">Удалить</button>
+                            </div>
+                        </td>
+                    `;
+                    productsTableBody.appendChild(row);
+                });
+            }
+
+            // Search filtering
+            adminSearch.addEventListener('input', (e) => {
+                const query = e.target.value.toLowerCase().trim();
+                const filtered = loadedProducts.filter(p => 
+                    p.sku.toLowerCase().includes(query) || 
+                    p.name.toLowerCase().includes(query) ||
+                    p.brand.toLowerCase().includes(query)
+                );
+                renderProductsTable(filtered);
+            });
+
+            // Table buttons click routing (Edit / Delete)
+            productsTableBody.addEventListener('click', (e) => {
+                const editBtn = e.target.closest('.btn-edit');
+                const deleteBtn = e.target.closest('.btn-delete');
+
+                if (editBtn) {
+                    const sku = editBtn.getAttribute('data-sku');
+                    const prod = loadedProducts.find(p => p.sku === sku);
+                    if (prod) loadProductIntoForm(prod);
+                } else if (deleteBtn) {
+                    const sku = deleteBtn.getAttribute('data-sku');
+                    triggerDeleteConfirmation(sku);
+                }
+            });
+
+            // Populate form with product details for editing
+            function loadProductIntoForm(p) {
+                currentEditSku = p.sku;
+                pSkuInput.value = p.sku;
+                pSkuInput.disabled = true; // SKU is key, cannot be renamed in-place
+
+                formTitle.textContent = `Редактировать товар: SKU ${p.sku}`;
+                formDesc.textContent = 'Измените поля и нажмите "Сохранить товар" для применения изменений.';
+
+                document.getElementById('pName').value = p.name;
+                document.getElementById('pBrand').value = p.brand;
+                document.getElementById('pCategory').value = p.category;
+                document.getElementById('pFillColor').value = p.fill_color || p.fillColor || 'amber';
+                document.getElementById('pFillHeight').value = p.fill_height || p.fillHeight || 75;
+                document.getElementById('pGaugeMarkings').value = p.gauge_markings || '4L,3L,2L,1L';
+                document.getElementById('pDesc').value = p.description || '';
+                document.getElementById('pSectors').value = p.sectors || '';
+                document.getElementById('pOems').value = p.oems || '';
+                document.getElementById('pBadgeText').value = p.badge_text || p.badgeText || '';
+                document.getElementById('pBadgeClass').value = p.badge_class || p.badgeClass || '';
+                document.getElementById('pPackDesc').value = p.pack_desc || p.packDesc || '';
+                document.getElementById('pCanisterVol').value = p.canister_vol || p.canisterVol || 0;
+                document.getElementById('pCanisterPrice').value = p.canister_price || p.canisterPrice || 0;
+                document.getElementById('pBarrelVol').value = p.barrel_vol || p.barrelVol || 0;
+                document.getElementById('pBarrelPrice').value = p.barrel_price || p.barrelPrice || 0;
+
+                specsContainer.innerHTML = '';
+                
+                let specsList = [];
+                if (p.specs) {
+                    specsList = p.specs;
+                } else if (p.specs_json) {
+                    try {
+                        specsList = JSON.parse(p.specs_json);
+                    } catch(e) {
+                        specsList = [];
+                    }
+                }
+                
+                if (Array.isArray(specsList) && specsList.length > 0) {
+                    specsList.forEach(spec => addSpecRow(spec.label, spec.value));
+                } else {
+                    addSpecRow('Вязкость', '5W-30');
+                }
+                
+                // Scroll form into view on mobile
+                productForm.scrollIntoView({ behavior: 'smooth' });
+            }
+
+            // Delete verification dialog
+            let deleteTargetSku = null;
+            const overlay = document.getElementById('confirmOverlay');
+            const yesBtn = document.getElementById('confirmYesBtn');
+            const noBtn = document.getElementById('confirmNoBtn');
+
+            function triggerDeleteConfirmation(sku) {
+                deleteTargetSku = sku;
+                document.getElementById('confirmMessage').textContent = `Вы действительно хотите удалить товар SKU ${sku} из каталога продукции? Это действие нельзя отменить.`;
+                overlay.style.display = 'flex';
+            }
+
+            noBtn.addEventListener('click', () => {
+                overlay.style.display = 'none';
+                deleteTargetSku = null;
+            });
+
+            yesBtn.addEventListener('click', () => {
+                if (!deleteTargetSku) return;
+                overlay.style.display = 'none';
+
+                if (isOffline) {
+                    // Offline delete simulation
+                    loadedProducts = loadedProducts.filter(p => p.sku !== deleteTargetSku);
+                    localStorage.setItem('radcor_admin_catalog', JSON.stringify(loadedProducts));
+                    renderProductsTable(loadedProducts);
+                    resetForm();
+                    showToast(`Товар ${deleteTargetSku} удален локально.`);
+                    deleteTargetSku = null;
+                } else {
+                    // API delete call
+                    fetch(`${API_BASE}/products/${deleteTargetSku}`, {
+                        method: 'DELETE'
+                    })
+                    .then(res => res.json())
+                    .then(data => {
+                        if (data.success) {
+                            showToast(`Товар ${deleteTargetSku} успешно удален из базы.`);
+                            loadProducts();
+                            resetForm();
+                        } else {
+                            showToast('Ошибка при удалении товара', true);
+                        }
+                    })
+                    .catch(err => {
+                        console.error('Delete call failed:', err);
+                        showToast('Не удалось связаться с сервером', true);
+                    })
+                    .finally(() => {
+                        deleteTargetSku = null;
+                    });
+                }
+            });
+
+            // Form Submit handler (POST/Upsert)
+            productForm.addEventListener('submit', (e) => {
+                e.preventDefault();
+
+                const sku = pSkuInput.value.trim();
+                const name = document.getElementById('pName').value.trim();
+                const brand = document.getElementById('pBrand').value;
+                const category = document.getElementById('pCategory').value;
+                const fill_color = document.getElementById('pFillColor').value;
+                const fill_height = parseInt(document.getElementById('pFillHeight').value) || 50;
+                const gauge_markings = document.getElementById('pGaugeMarkings').value.trim();
+                const description = document.getElementById('pDesc').value.trim();
+                const sectors = document.getElementById('pSectors').value.trim();
+                const oems = document.getElementById('pOems').value.trim();
+                const badge_text = document.getElementById('pBadgeText').value.trim();
+                const badge_class = document.getElementById('pBadgeClass').value.trim();
+                const pack_desc = document.getElementById('pPackDesc').value.trim();
+                const canister_vol = parseFloat(document.getElementById('pCanisterVol').value) || 0;
+                const canister_price = parseInt(document.getElementById('pCanisterPrice').value) || 0;
+                const barrel_vol = parseFloat(document.getElementById('pBarrelVol').value) || 0;
+                const barrel_price = parseInt(document.getElementById('pBarrelPrice').value) || 0;
+
+                // Collect Specs
+                const specs = [];
+                document.querySelectorAll('.spec-row-edit').forEach(row => {
+                    const label = row.querySelector('.spec-label-input').value.trim();
+                    const value = row.querySelector('.spec-value-input').value.trim();
+                    if (label && value) {
+                        specs.push({ label, value });
+                    }
+                });
+
+                const payload = {
+                    sku, name, brand, category, fill_color, fill_height, gauge_markings,
+                    description, sectors, oems, badge_text, badge_class, pack_desc,
+                    canister_vol, canister_price, barrel_vol, barrel_price,
+                    specs,
+                    specs_json: JSON.stringify(specs)
+                };
+
+                if (isOffline) {
+                    // Offline Save simulation
+                    const index = loadedProducts.findIndex(p => p.sku === sku);
+                    if (index !== -1) {
+                        loadedProducts[index] = payload;
+                    } else {
+                        loadedProducts.push(payload);
+                    }
+                    localStorage.setItem('radcor_admin_catalog', JSON.stringify(loadedProducts));
+                    renderProductsTable(loadedProducts);
+                    resetForm();
+                    showToast('Товар сохранен локально (Автономно).');
+                } else {
+                    // API Save call
+                    fetch(`${API_BASE}/products`, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(payload)
+                    })
+                    .then(res => res.json())
+                    .then(data => {
+                        if (data.success) {
+                            showToast(`Товар ${sku} успешно сохранен в базе данных.`);
+                            loadProducts();
+                            resetForm();
+                        } else {
+                            showToast(`Ошибка сохранения: ${data.error}`, true);
+                        }
+                    })
+                    .catch(err => {
+                        console.error('Save API call failed:', err);
+                        showToast('Не удалось связаться с сервером', true);
+                    });
+                }
+            });
+
+            // Initial load
+            loadProducts();
+
+            // Default fallback items for frontend mock
+            function getStaticFallbackProducts() {
+                return [
+                    {
+                        sku: '151201', name: 'MOL Essence 5W-30', category: 'oils', brand: 'MOL', sectors: 'van passenger', oems: 'mercedes volkswagen ford',
+                        fill_height: 85, fill_color: 'amber', badge_class: 'badge-mol', badge_text: 'Масла MOL',
+                        description: 'Высокотехнологичное синтетическое масло для современных легковых автомобилей и фургонов.',
+                        specs: [{ label: 'Вязкость', value: '5W-30' }], pack_desc: 'Канистра 4л / Бочка 205л',
+                        canister_vol: 4, canister_price: 780, barrel_vol: 205, barrel_price: 28000, gauge_markings: '4L,3L,2L,1L'
+                    },
+                    {
+                        sku: '151205', name: 'MOL Dynamic Transit 10W-40', category: 'oils', brand: 'MOL', sectors: 'van truck', oems: 'mercedes renault',
+                        fill_height: 70, fill_color: 'amber', badge_class: 'badge-mol', badge_text: 'Масла MOL',
+                        description: 'Полусинтетическое масло для высоконагруженных дизельных двигателей коммерческого автотранспорта.',
+                        specs: [{ label: 'Вязкость', value: '10W-40' }], pack_desc: 'Канистра 4л / Бочка 205л',
+                        canister_vol: 4, canister_price: 640, barrel_vol: 205, barrel_price: 22000, gauge_markings: '4L,3L,2L,1L'
+                    },
+                    {
+                        sku: '240502', name: 'Felix Carbox G12+', category: 'fluids', brand: 'Felix', sectors: 'van passenger truck', oems: 'mercedes volkswagen ford citroen peugeot renault',
+                        fill_height: 60, fill_color: 'violet', badge_class: 'badge-violet', badge_text: 'Жидкости',
+                        description: 'Профессиональный карбоксилатный антифриз нового поколения с увеличенным ресурсом.',
+                        specs: [{ label: 'Спецификация', value: 'G12+, ASTM D3306' }], pack_desc: 'Канистра 5кг / Бочка 220кг',
+                        canister_vol: 5, canister_price: 220, barrel_vol: 220, barrel_price: 7500, gauge_markings: '5L,4L,3L,2L,1L'
+                    }
+                ];
+            }
+        });
+    </script>
+</body>
+</html>
