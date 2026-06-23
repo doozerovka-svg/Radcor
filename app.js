@@ -64,7 +64,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const catalogSearch = document.getElementById('catalogSearch');
     const tabFilters = document.querySelectorAll('.tab-filter-btn');
     const sidebarItems = document.querySelectorAll('.sidebar-menu .menu-item');
-    const productCards = document.querySelectorAll('.product-card');
 
     let activeCategory = 'all'; // from sidebar (e.g., passenger, van, truck)
     let activeBrandTab = 'all'; // from upper tabs (all, MOL, other)
@@ -72,6 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let searchQuery = '';
 
     function applyFilters() {
+        const productCards = document.querySelectorAll('.product-card');
         productCards.forEach(card => {
             const cardBrand = card.getAttribute('data-brand') || '';
             const cardSectors = card.getAttribute('data-sector') || '';
@@ -458,15 +458,19 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Add buttons on product cards
-    document.querySelectorAll('.btn-add-cart').forEach(btn => {
-        btn.addEventListener('click', () => {
-            const sku = btn.getAttribute('data-sku');
-            const price = parseFloat(btn.getAttribute('data-price'));
-            const name = btn.getAttribute('data-name');
-            addItemToCart(sku, name, price, 1, 'canister');
+    // Add buttons on product cards (via event delegation to support dynamic DOM cards)
+    const catalogGridContainer = document.getElementById('catalogGrid');
+    if (catalogGridContainer) {
+        catalogGridContainer.addEventListener('click', (e) => {
+            const btn = e.target.closest('.btn-add-cart');
+            if (btn) {
+                const sku = btn.getAttribute('data-sku');
+                const price = parseFloat(btn.getAttribute('data-price'));
+                const name = btn.getAttribute('data-name');
+                addItemToCart(sku, name, price, 1, 'canister');
+            }
         });
-    });
+    }
 
     // Checkout Order Button
     if (checkoutBtn) {
@@ -902,145 +906,399 @@ document.addEventListener('DOMContentLoaded', () => {
     // ==========================================================================
     // LIQUID VIAL GLASS CANISTER PHYSICS SIMULATOR (2D Canvas Wave Engine)
     // ==========================================================================
-    const canisterElements = document.querySelectorAll('.liquid-gauge.glass-canister');
-    canisterElements.forEach(container => {
-        const canvas = container.querySelector('.canister-canvas');
-        if (!canvas) return;
-        const ctx = canvas.getContext('2d');
+    function initCanisterPhysics() {
+        const canisterElements = document.querySelectorAll('.liquid-gauge.glass-canister');
+        canisterElements.forEach(container => {
+            const canvas = container.querySelector('.canister-canvas');
+            if (!canvas) return;
+            const ctx = canvas.getContext('2d');
 
-        const targetPercent = parseFloat(container.getAttribute('data-fill-height')) || 50;
-        const fillColor = container.getAttribute('data-fill-color') || 'amber';
-        const card = container.closest('.product-card');
+            const targetPercent = parseFloat(container.getAttribute('data-fill-height')) || 50;
+            const fillColor = container.getAttribute('data-fill-color') || 'amber';
+            const card = container.closest('.product-card');
 
-        let width = canvas.width = canvas.clientWidth || 66;
-        let height = canvas.height = canvas.clientHeight || 380;
+            let width = canvas.width = canvas.clientWidth || 66;
+            let height = canvas.height = canvas.clientHeight || 380;
 
-        const resizeObserver = new ResizeObserver(entries => {
-            for (let entry of entries) {
-                width = canvas.width = entry.contentRect.width || canvas.clientWidth || 66;
-                height = canvas.height = entry.contentRect.height || canvas.clientHeight || 380;
-            }
-        });
-        resizeObserver.observe(canvas);
-
-        let currentPercent = targetPercent;
-        let animatedPercent = targetPercent;
-        let wavePhase = Math.random() * 100;
-        let waveAmplitude = 1.5;
-        let targetAmplitude = 1.5;
-        let isHovered = false;
-
-        const bubbles = [];
-        const spawnInterval = 0.25;
-        let spawnTimer = 0;
-
-        if (card) {
-            card.addEventListener('mouseenter', () => {
-                isHovered = true;
-                animatedPercent = Math.min(targetPercent + 8, 98);
-                targetAmplitude = 4.5;
-            });
-
-            card.addEventListener('mouseleave', () => {
-                isHovered = false;
-                animatedPercent = targetPercent;
-                targetAmplitude = 1.5;
-            });
-        }
-
-        registerLoop((dt) => {
-            currentPercent += (animatedPercent - currentPercent) * dt * 4;
-            waveAmplitude += (targetAmplitude - waveAmplitude) * dt * 2.5;
-            wavePhase += dt * (isHovered ? 7.5 : 3.5);
-
-            const fillY = (currentPercent / 100) * height;
-
-            spawnTimer += dt;
-            const currentInterval = isHovered ? spawnInterval * 0.45 : spawnInterval * 2.0;
-            if (spawnTimer >= currentInterval) {
-                spawnTimer = 0;
-                if (isHovered || bubbles.length < 5) {
-                    bubbles.push({
-                        x: Math.random() * width,
-                        y: height + 10,
-                        vy: Math.random() * (isHovered ? 45 : 20) + (isHovered ? 35 : 15),
-                        size: Math.random() * (isHovered ? 2.2 : 1.2) + 0.8,
-                        alpha: Math.random() * (isHovered ? 0.45 : 0.2) + 0.15
-                    });
+            const resizeObserver = new ResizeObserver(entries => {
+                for (let entry of entries) {
+                    width = canvas.width = entry.contentRect.width || canvas.clientWidth || 66;
+                    height = canvas.height = entry.contentRect.height || canvas.clientHeight || 380;
                 }
+            });
+            resizeObserver.observe(canvas);
+
+            let currentPercent = targetPercent;
+            let animatedPercent = targetPercent;
+            let wavePhase = Math.random() * 100;
+            let waveAmplitude = 1.5;
+            let targetAmplitude = 1.5;
+            let isHovered = false;
+
+            const bubbles = [];
+            const spawnInterval = 0.25;
+            let spawnTimer = 0;
+
+            if (card) {
+                card.addEventListener('mouseenter', () => {
+                    isHovered = true;
+                    animatedPercent = Math.min(targetPercent + 8, 98);
+                    targetAmplitude = 4.5;
+                });
+
+                card.addEventListener('mouseleave', () => {
+                    isHovered = false;
+                    animatedPercent = targetPercent;
+                    targetAmplitude = 1.5;
+                });
             }
 
-            for (let i = bubbles.length - 1; i >= 0; i--) {
-                const b = bubbles[i];
-                b.y -= b.vy * dt;
+            registerLoop((dt) => {
+                currentPercent += (animatedPercent - currentPercent) * dt * 4;
+                waveAmplitude += (targetAmplitude - waveAmplitude) * dt * 2.5;
+                wavePhase += dt * (isHovered ? 7.5 : 3.5);
 
-                const waveY = Math.sin(b.x * 0.08 + wavePhase) * waveAmplitude;
-                const surfaceY = height - fillY + waveY;
+                const fillY = (currentPercent / 100) * height;
 
-                if (b.y < surfaceY) {
-                    b.alpha -= dt * 4;
-                    if (b.alpha <= 0) {
-                        bubbles.splice(i, 1);
-                        continue;
+                spawnTimer += dt;
+                const currentInterval = isHovered ? spawnInterval * 0.45 : spawnInterval * 2.0;
+                if (spawnTimer >= currentInterval) {
+                    spawnTimer = 0;
+                    if (isHovered || bubbles.length < 5) {
+                        bubbles.push({
+                            x: Math.random() * width,
+                            y: height + 10,
+                            vy: Math.random() * (isHovered ? 45 : 20) + (isHovered ? 35 : 15),
+                            size: Math.random() * (isHovered ? 2.2 : 1.2) + 0.8,
+                            alpha: Math.random() * (isHovered ? 0.45 : 0.2) + 0.15
+                        });
                     }
                 }
-            }
 
-            ctx.clearRect(0, 0, width, height);
+                for (let i = bubbles.length - 1; i >= 0; i--) {
+                    const b = bubbles[i];
+                    b.y -= b.vy * dt;
 
-            ctx.save();
-            ctx.beginPath();
-            ctx.moveTo(0, height);
-            ctx.lineTo(0, height - fillY);
+                    const waveY = Math.sin(b.x * 0.08 + wavePhase) * waveAmplitude;
+                    const surfaceY = height - fillY + waveY;
 
-            for (let x = 0; x <= width; x++) {
-                const waveY = Math.sin(x * 0.08 + wavePhase) * waveAmplitude;
-                ctx.lineTo(x, height - fillY + waveY);
-            }
-            ctx.lineTo(width, height);
-            ctx.closePath();
+                    if (b.y < surfaceY) {
+                        b.alpha -= dt * 4;
+                        if (b.alpha <= 0) {
+                            bubbles.splice(i, 1);
+                            continue;
+                        }
+                    }
+                }
 
-            const gradient = ctx.createLinearGradient(0, height - fillY, 0, height);
-            if (fillColor === 'amber') {
-                gradient.addColorStop(0, '#f59e0b');
-                gradient.addColorStop(1, '#451a03');
-            } else if (fillColor === 'violet') {
-                gradient.addColorStop(0, '#8b5cf6');
-                gradient.addColorStop(1, '#2e1065');
-            } else {
-                gradient.addColorStop(0, '#3b82f6');
-                gradient.addColorStop(1, '#172554');
-            }
+                ctx.clearRect(0, 0, width, height);
 
-            ctx.fillStyle = gradient;
-            ctx.globalAlpha = 0.72;
-            ctx.fill();
-
-            ctx.clip();
-            ctx.globalAlpha = 1.0;
-            for (let i = 0; i < bubbles.length; i++) {
-                const b = bubbles[i];
+                ctx.save();
                 ctx.beginPath();
-                ctx.arc(b.x, b.y, b.size, 0, Math.PI * 2);
-                ctx.fillStyle = `rgba(255, 255, 255, ${b.alpha})`;
-                ctx.fill();
-            }
-            ctx.restore();
+                ctx.moveTo(0, height);
+                ctx.lineTo(0, height - fillY);
 
-            ctx.beginPath();
-            ctx.moveTo(0, height - fillY + Math.sin(0 + wavePhase) * waveAmplitude);
-            for (let x = 1; x <= width; x++) {
-                const waveY = Math.sin(x * 0.08 + wavePhase) * waveAmplitude;
-                ctx.lineTo(x, height - fillY + waveY);
-            }
-            ctx.strokeStyle = fillColor === 'amber' ? '#f59e0b' : (fillColor === 'violet' ? '#8b5cf6' : '#60a5fa');
-            ctx.lineWidth = 2.0;
-            ctx.shadowColor = ctx.strokeStyle;
-            ctx.shadowBlur = 6;
-            ctx.stroke();
-            ctx.shadowBlur = 0;
+                for (let x = 0; x <= width; x++) {
+                    const waveY = Math.sin(x * 0.08 + wavePhase) * waveAmplitude;
+                    ctx.lineTo(x, height - fillY + waveY);
+                }
+                ctx.lineTo(width, height);
+                ctx.closePath();
+
+                const gradient = ctx.createLinearGradient(0, height - fillY, 0, height);
+                if (fillColor === 'amber') {
+                    gradient.addColorStop(0, '#f59e0b');
+                    gradient.addColorStop(1, '#451a03');
+                } else if (fillColor === 'violet') {
+                    gradient.addColorStop(0, '#8b5cf6');
+                    gradient.addColorStop(1, '#2e1065');
+                } else {
+                    gradient.addColorStop(0, '#3b82f6');
+                    gradient.addColorStop(1, '#172554');
+                }
+
+                ctx.fillStyle = gradient;
+                ctx.globalAlpha = 0.72;
+                ctx.fill();
+
+                ctx.clip();
+                ctx.globalAlpha = 1.0;
+                for (let i = 0; i < bubbles.length; i++) {
+                    const b = bubbles[i];
+                    ctx.beginPath();
+                    ctx.arc(b.x, b.y, b.size, 0, Math.PI * 2);
+                    ctx.fillStyle = `rgba(255, 255, 255, ${b.alpha})`;
+                    ctx.fill();
+                }
+                ctx.restore();
+
+                ctx.beginPath();
+                ctx.moveTo(0, height - fillY + Math.sin(0 + wavePhase) * waveAmplitude);
+                for (let x = 1; x <= width; x++) {
+                    const waveY = Math.sin(x * 0.08 + wavePhase) * waveAmplitude;
+                    ctx.lineTo(x, height - fillY + waveY);
+                }
+                ctx.strokeStyle = fillColor === 'amber' ? '#f59e0b' : (fillColor === 'violet' ? '#8b5cf6' : '#60a5fa');
+                ctx.lineWidth = 2.0;
+                ctx.shadowColor = ctx.strokeStyle;
+                ctx.shadowBlur = 6;
+                ctx.stroke();
+                ctx.shadowBlur = 0;
+            });
         });
-    });
+    }
+
+    // ==========================================================================
+    // DYNAMIC DATABASE PRODUCTS CATALOG LOADING
+    // ==========================================================================
+    const DEFAULT_PRODUCTS = [
+        {
+            sku: '151201',
+            name: 'MOL Essence 5W-30',
+            category: 'oils',
+            brand: 'MOL',
+            sectors: 'van passenger',
+            oems: 'mercedes volkswagen ford',
+            fill_height: 85,
+            fill_color: 'amber',
+            badge_class: 'badge-mol',
+            badge_text: 'Масла MOL',
+            description: 'Высокотехнологичное синтетическое масло для современных легковых автомобилей и фургонов, снижающее трение и износ.',
+            specs: [
+                { label: 'Вязкость', value: '5W-30' },
+                { label: 'Допуски', value: 'API SL/CF, ACEA A5/B5, Ford WSS-M2C913-D' }
+            ],
+            pack_desc: 'Канистра 4л / Бочка 205л',
+            canister_vol: 4,
+            canister_price: 780,
+            barrel_vol: 205,
+            barrel_price: 28000,
+            gauge_markings: '4L,3L,2L,1L'
+        },
+        {
+            sku: '151205',
+            name: 'MOL Dynamic Transit 10W-40',
+            category: 'oils',
+            brand: 'MOL',
+            sectors: 'van truck',
+            oems: 'mercedes renault',
+            fill_height: 70,
+            fill_color: 'amber',
+            badge_class: 'badge-mol',
+            badge_text: 'Масла MOL',
+            description: 'Полусинтетическое масло для высоконагруженных дизельных двигателей коммерческого автотранспорта и фургонов.',
+            specs: [
+                { label: 'Вязкость', value: '10W-40' },
+                { label: 'Допуски', value: 'API CI-4/SL, MB 228.3, MAN M 3275, Volvo VDS-3' }
+            ],
+            pack_desc: 'Канистра 4л / Бочка 205л',
+            canister_vol: 4,
+            canister_price: 640,
+            barrel_vol: 205,
+            barrel_price: 22000,
+            gauge_markings: '4L,3L,2L,1L'
+        },
+        {
+            sku: '240502',
+            name: 'Felix Carbox G12+',
+            category: 'fluids',
+            brand: 'Felix',
+            sectors: 'van passenger truck',
+            oems: 'mercedes volkswagen ford citroen peugeot renault',
+            fill_height: 60,
+            fill_color: 'violet',
+            badge_class: 'badge-violet',
+            badge_text: 'Жидкости',
+            description: 'Профессиональный карбоксилатный антифриз нового поколения с увеличенным ресурсом эксплуатации.',
+            specs: [
+                { label: 'Спецификация', value: 'G12+, ASTM D3306' },
+                { label: 'Цвет', value: 'Красный/Фиолетовый' }
+            ],
+            pack_desc: 'Канистра 5кг / Бочка 220кг',
+            canister_vol: 5,
+            canister_price: 220,
+            barrel_vol: 220,
+            barrel_price: 7500,
+            gauge_markings: '5L,4L,3L,2L,1L'
+        },
+        {
+            sku: '180701',
+            name: 'Freshway G-11 10W-40',
+            category: 'oils',
+            brand: 'Freshway',
+            sectors: 'passenger van',
+            oems: 'volkswagen ford renault',
+            fill_height: 80,
+            fill_color: 'amber',
+            badge_class: '',
+            badge_text: 'Масла',
+            description: 'Универсальное полусинтетическое моторное масло для смешанных автопарков и коммерческого автотранспорта.',
+            specs: [
+                { label: 'Вязкость', value: '10W-40' },
+                { label: 'Допуски', value: 'API SN/CF, ACEA A3/B4, MB 229.3' }
+            ],
+            pack_desc: 'Канистра 4л / Бочка 205л',
+            canister_vol: 4,
+            canister_price: 420,
+            barrel_vol: 205,
+            barrel_price: 15000,
+            gauge_markings: '4L,3L,2L,1L'
+        },
+        {
+            sku: '240901',
+            name: 'Felix DOT-4',
+            category: 'fluids',
+            brand: 'Felix',
+            sectors: 'passenger van truck',
+            oems: 'mercedes volkswagen ford citroen peugeot renault',
+            fill_height: 50,
+            fill_color: 'violet',
+            badge_class: 'badge-violet',
+            badge_text: 'Жидкости',
+            description: 'Синтетическая жидкость для гидравлических приводов сцепления и тормозов легковой техники.',
+            specs: [
+                { label: 'Стандарт', value: 'FMVSS №116 DOT 4' },
+                { label: 't кипения', value: '> 230 °C' }
+            ],
+            pack_desc: 'Флакон 0.5л / 1л',
+            canister_vol: 1,
+            canister_price: 95,
+            barrel_vol: 200,
+            barrel_price: 12000,
+            gauge_markings: '1L,0.8L,0.6L,0.4L,0.2L'
+        },
+        {
+            sku: '350102',
+            name: 'Freshway WD-400',
+            category: 'chemicals',
+            brand: 'Freshway',
+            sectors: 'passenger van truck agro',
+            oems: 'mercedes volkswagen ford citroen peugeot renault',
+            fill_height: 45,
+            fill_color: 'blue',
+            badge_class: 'badge-blue',
+            badge_text: 'Автохимия',
+            description: 'Универсальный проникающий спрей для разблокировки соединений, защиты от коррозии и вытеснения влаги.',
+            specs: [
+                { label: 'Объем спрея', value: '400 мл' },
+                { label: 'Класс опасности', value: '4 класс' }
+            ],
+            pack_desc: 'Спрей 0.4л / Коробка 24 шт',
+            canister_vol: 0.4,
+            canister_price: 65,
+            barrel_vol: 9.6,
+            barrel_price: 1200,
+            gauge_markings: '0.5L,0.4L,0.3L,0.2L,0.1L'
+        }
+    ];
+
+    function renderCatalog(productsList) {
+        const grid = document.getElementById('catalogGrid');
+        if (!grid) return;
+
+        grid.innerHTML = '';
+        
+        productsList.forEach(p => {
+            let canisterName = 'Канистра';
+            let barrelName = 'Бочка';
+            if (p.pack_desc && p.pack_desc.includes('/')) {
+                const parts = p.pack_desc.split('/');
+                canisterName = parts[0].trim();
+                barrelName = parts[1].trim();
+            }
+
+            productConfigs[p.sku] = {
+                canisterVol: p.canister_vol || p.canisterVol || 0,
+                canisterPrice: p.canister_price || p.canisterPrice || 0,
+                barrelVol: p.barrel_vol || p.barrelVol || 0,
+                barrelPrice: p.barrel_price || p.barrelPrice || 0,
+                canisterName: canisterName,
+                barrelName: barrelName,
+                name: p.name
+            };
+
+            const card = document.createElement('div');
+            card.className = 'product-card double-border';
+            card.setAttribute('data-category', p.category);
+            card.setAttribute('data-brand', p.brand);
+            card.setAttribute('data-sku', p.sku);
+            card.setAttribute('data-sector', p.sectors);
+            card.setAttribute('data-oem', p.oems);
+
+            const badgeHtml = p.badge_text ? `<span class="product-badge ${p.badge_class || ''}">${p.badge_text}</span>` : '';
+            
+            let specsHtml = '';
+            let specsList = [];
+            try {
+                specsList = typeof p.specs === 'string' ? JSON.parse(p.specs) : (p.specs || []);
+            } catch (e) {
+                specsList = [];
+            }
+            specsList.forEach(spec => {
+                specsHtml += `
+                    <div class="spec-row">
+                        <span class="spec-label">${spec.label}:</span>
+                        <span class="spec-value code-font">${spec.value}</span>
+                    </div>
+                `;
+            });
+
+            const markingsHtml = (p.gauge_markings || '4L,3L,2L,1L')
+                .split(',')
+                .map(m => `<span>${m.trim()}</span>`)
+                .join('');
+
+            card.innerHTML = `
+                <div class="liquid-gauge glass-canister" data-fill-height="${p.fill_height}" data-fill-color="${p.fill_color}" data-sku="${p.sku}">
+                    <canvas class="canister-canvas"></canvas>
+                    <div class="gauge-markings">
+                        ${markingsHtml}
+                    </div>
+                </div>
+                <div class="product-info">
+                    <div class="product-badge-wrap">
+                        ${badgeHtml}
+                        <span class="sku-label code-font">Aрт: ${p.sku}</span>
+                    </div>
+                    <h3>${p.name}</h3>
+                    <p class="product-desc">${p.description}</p>
+                    <div class="product-specs">
+                        ${specsHtml}
+                    </div>
+                    <div class="product-footer">
+                        <span class="product-pack">${p.pack_desc}</span>
+                        <button class="btn btn-primary btn-sm btn-add-cart" data-sku="${p.sku}" data-price="${p.canister_price || p.canisterPrice}" data-name="${p.name}">В заказ</button>
+                    </div>
+                </div>
+            `;
+            grid.appendChild(card);
+        });
+
+        // Initialize wave physics for new canisters
+        initCanisterPhysics();
+    }
+
+    const API_BASE_URL = 'http://localhost:5000/api/v1';
+    
+    // Only load dynamic catalog if catalogGrid exists on current page
+    if (document.getElementById('catalogGrid')) {
+        fetch(`${API_BASE_URL}/products`)
+            .then(res => {
+                if (!res.ok) throw new Error('API server returned error');
+                return res.json();
+            })
+            .then(data => {
+                if (data.success && Array.isArray(data.data) && data.data.length > 0) {
+                    renderCatalog(data.data);
+                } else {
+                    throw new Error('API returned success=false or empty products list');
+                }
+            })
+            .catch(err => {
+                console.warn('Failed to load products from API, falling back to static default products:', err);
+                renderCatalog(DEFAULT_PRODUCTS);
+            });
+    }
 
     // ==========================================================================
     // FAQ ACCORDIONS TOGGLE

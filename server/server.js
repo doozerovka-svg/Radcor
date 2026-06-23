@@ -11,16 +11,6 @@ const PORT = process.env.PORT || 5000;
 app.use(cors());
 app.use(express.json());
 
-// Hardcoded catalog configuration matching frontend
-const PRODUCT_CONFIGS = {
-  '151201': { canisterVol: 4, canisterPrice: 780, barrelVol: 205, barrelPrice: 28000, name: 'MOL Essence 5W-30' },
-  '151205': { canisterVol: 4, canisterPrice: 640, barrelVol: 205, barrelPrice: 22000, name: 'MOL Dynamic Transit 10W-40' },
-  '240502': { canisterVol: 5, canisterPrice: 220, barrelVol: 220, barrelPrice: 7500, name: 'Felix Carbox G12+' },
-  '180701': { canisterVol: 4, canisterPrice: 420, barrelVol: 205, barrelPrice: 15000, name: 'Freshway G-11 10W-40' },
-  '240901': { canisterVol: 1, canisterPrice: 95, barrelVol: 200, barrelPrice: 12000, name: 'Felix DOT-4' },
-  '350102': { canisterVol: 0.4, canisterPrice: 65, barrelVol: 9.6, barrelPrice: 1200, name: 'Freshway WD-400' }
-};
-
 // Initial database connection
 db.initDb().catch(err => {
   console.error('Failed to initialize database:', err);
@@ -32,27 +22,45 @@ app.use((req, res, next) => {
   next();
 });
 
-// GET /api/v1/products - Returns the product list
-app.get('/api/v1/products', (req, res) => {
+// GET /api/v1/products - Returns the product list from database
+app.get('/api/v1/products', async (req, res) => {
   try {
-    const products = Object.keys(PRODUCT_CONFIGS).map(sku => {
-      const config = PRODUCT_CONFIGS[sku];
-      return {
-        sku,
-        name: config.name,
-        canisterPrice: config.canisterPrice,
-        canisterVol: config.canisterVol,
-        barrelPrice: config.barrelPrice,
-        barrelVol: config.barrelVol
-      };
-    });
+    const products = await db.getProductsList();
     res.json({ success: true, data: products });
   } catch (error) {
     res.status(500).json({ success: false, error: error.message });
   }
 });
 
-// POST /api/v1/orders - Submits a new B2B order
+// POST /api/v1/products - Creates or updates a product (Upsert)
+app.post('/api/v1/products', async (req, res) => {
+  try {
+    const { sku, name } = req.body;
+    if (!sku || !name) {
+      return res.status(400).json({ success: false, error: 'Product SKU and Name are required.' });
+    }
+
+    const savedProduct = await db.saveProduct(req.body);
+    res.status(200).json({ success: true, data: savedProduct });
+  } catch (error) {
+    console.error('Failed to save product:', error);
+    res.status(500).json({ success: false, error: error.message });
+  }
+});
+
+// DELETE /api/v1/products/:sku - Deletes a product
+app.delete('/api/v1/products/:sku', async (req, res) => {
+  try {
+    const { sku } = req.params;
+    const result = await db.deleteProduct(sku);
+    res.json({ success: true, data: result });
+  } catch (error) {
+    console.error('Failed to delete product:', error);
+    res.status(500).json({ success: false, error: error.message });
+  }
+});
+
+// POST /api/v1/orders - Submits a new B2B order (dynamic DB validation)
 app.post('/api/v1/orders', async (req, res) => {
   try {
     const {
@@ -72,17 +80,22 @@ app.post('/api/v1/orders', async (req, res) => {
     let calculatedTotalPrice = 0;
     let calculatedTotalVolume = 0;
     let calculatedTotalWeight = 0;
+    const processedItems = [];
 
-    const processedItems = items.map(item => {
-      const config = PRODUCT_CONFIGS[item.sku || item.product_id];
+    for (const item of items) {
+      const sku = item.sku || item.product_id;
+      const config = await db.getProductBySku(sku);
       if (!config) {
-        throw new Error(`Product with SKU ${item.sku || item.product_id} not found in catalog.`);
+        return res.status(400).json({ 
+          success: false, 
+          error: `Product with SKU ${sku} not found in database catalog.` 
+        });
       }
 
       const packType = item.packType || 'canister';
       const quantity = parseInt(item.qty || item.quantity) || 1;
-      const price = packType === 'canister' ? config.canisterPrice : config.barrelPrice;
-      const volume = packType === 'canister' ? config.canisterVol : config.barrelVol;
+      const price = packType === 'canister' ? config.canister_price : config.barrel_price;
+      const volume = packType === 'canister' ? config.canister_vol : config.barrel_vol;
 
       // Approximate weight: volume * 0.9 (oil/fluids density average)
       const weight = volume * 0.9;
@@ -91,14 +104,14 @@ app.post('/api/v1/orders', async (req, res) => {
       calculatedTotalVolume += volume * quantity;
       calculatedTotalWeight += weight * quantity;
 
-      return {
-        product_id: item.sku || item.product_id,
+      processedItems.push({
+        product_id: sku,
         product_name: config.name,
         quantity,
         price,
         packType
-      };
-    });
+      });
+    }
 
     const orderNo = `№${Math.floor(Math.random() * 9000) + 80000}`;
     const orderData = {
@@ -136,7 +149,6 @@ app.get('/api/v1/orders', async (req, res) => {
   try {
     const orders = await db.getOrdersList();
     
-    // Map database order columns to what the frontend expects
     const formattedOrders = orders.map(order => ({
       orderNo: `№${80000 + order.id}`,
       date: new Date(order.created_at).toLocaleDateString('ru-RU'),
@@ -164,10 +176,8 @@ app.post('/api/v1/vin/decode', (req, res) => {
       });
     }
 
-    // Mock decode based on VIN
     const formattedVin = vin.toUpperCase().trim();
     
-    // Return standard Sprinter suggestions or a custom mock
     const decodeResult = {
       success: true,
       vin: formattedVin,
