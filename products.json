@@ -1,0 +1,2670 @@
+[
+  {
+    "sku": "MOL-1000",
+    "name": "MOL Dynamic Star 0W-30",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "Синтетическое моторное масло премиум класса для самых современных автомобилей",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "ACEA C2, Ford WSS-M2C-950-A, Jaguar Land Rover STJLR.03.5007, VWC 53035"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,847"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-45"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "254"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1001",
+    "name": "MOL ATF Synt TWS",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/hajtomuolajok/1L_MOL_ATF_Synt_TWS.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "Синтетическая жидкость высшего качества для автоматических трансмиссий",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "GM Dexron-VI, JASO 1A LV, Toyota WS, Mazda FZ, Nissan Matic-W, Mitsubishi ATF J3, Mitsubishi SP-IV, VW G 055 540, VW G 055 005, VW G 055 162, BMW ATF 3+, BMW ATF6, Ford XT-6-QSP [SP], Honda Type 3.0, Honda Type 3.1, Hyundai/KIA 040000C90SG, Hyundai/KIA SP4-M1, Hyundai/KIA SPH-IV, Mistsubishi Dia Queen ATF-MA1, Mistsubishi Dia Queen ATF-PA, Honda DW-1, Hyundai NWS-9638, Hyundai/Kia SP-IV, Nissan Matic-S, SAAB 93 165 147"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,847"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-49"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "210"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1002",
+    "name": "MOL ATF Synt 3H",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "Синтетическая жидкость высшего качества для автоматических трансмиссий",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "ZF TE-ML 03D[ZF001895], ZF TE-ML 04D[ZF001895], ZF TE-ML 14B[ZF001895], ZF TE-ML 17C[ZF001895], ZF TE-ML 20B[ZF001895], ZF TE-ML 25B[ZF001895], Voith H55.6336, GM Dexron-IIIH, GM Dexron-IIIG, MAN 339 Typ L1, MAN 339 Typ V2, MAN 339 Typ Z2, MAN 339 Typ Z11, ZF TE-ML 14C, Allison C-4, Allison TES-295"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,848"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-42"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "200"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1003",
+    "name": "MOL ATF Synt",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "Синтетическая жидкость высшего качества для автоматических трансмиссий",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "DTFR 13C150 (ex MB 236.8), MAN 339 Typ L1, MAN 339 Typ Z2, ZF TE-ML 03D[ZF004917], ZF TE-ML 04D[ZF004917], ZF TE-ML 09X, ZF TE-ML 14B[ZF004917], ZF TE-ML 17C[ZF004917], Voith H55.6336, RBAS Lubricant Class TE-ML 09X[AS001155], GM Dexron IIE, Ford Mercon, MAN 339 Typ V2, Volvo 97335, Caterpillar TO-2, Allison C-4, DTFR 13C150"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,850"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-51"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "210"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1004",
+    "name": "MOL Dynamic Max 10W-40",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md//images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Max_10W-40.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "Полусинтетическое моторное масло высшего сорта для большинства современных транспортных средств.",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "API SN, MB-Approval 229.3, TEDOM 258-1, ACEA A3/B4, ACEA A3/B3, API CF, API SL, VW 502 00/505 00, Renault RN0700, Renault RN0710, Fiat 9.55535-G2"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,866"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-45"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "230"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1005",
+    "name": "MOL Essence C3 5W-40",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md//images/mol_hu/lub/autosok/motorolajok/1L_MOl_Essence_C3_5W-40_persp_w.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "синтетическое моторное масло",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "ACEA C3, ACEA C2, API SN/CF, VW 502 00/505 01, Renault RN0700, Renault RN0710"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,849"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-33"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "235"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1006",
+    "name": "MOL Dynamic Gold HEV 0W-20",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Gold_HEV_0W-20.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "моторное масло",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "API SP, API SP (RC), ILSAC GF-6A"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-45"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "226"
+      },
+      {
+        "label": "Плотность при 15°С",
+        "value": "0,843"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1007",
+    "name": "MOL Hykomol K 80W-140",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "Автомобильные трансмиссионные масла",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "API MT-1, API GL-5, SAE J 2360, Scania STO 1:0, Mack GO-J, ZF TE-ML 07A, ZF TE-ML 08"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,892"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-33"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "205"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1008",
+    "name": "EVOX Ultra Plus concentrate",
+    "category": "coolants",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/fagyallo_hutofolyadek/evox_ultra_plus_conc_1l.png",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "Концентрат охлаждающей жидкости",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "VW/Audi/Seat/Skoda G13 (TL 774-J)"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "1,135"
+      },
+      {
+        "label": "Температура замерзания (50% раствор в дистиллированной воде)",
+        "value": "-35"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1009",
+    "name": "MOL DOT 3",
+    "category": "autochemistry",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/fekfolyadekok/mol_dot_3_side.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "Синтетическая тормозная жидкость",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "SAE J 1703, FMVSS 116, DOT 3, ISO 4925 Class 3"
+      },
+      {
+        "label": "Плотность при 20°C",
+        "value": "1,031"
+      },
+      {
+        "label": "Температура кипения",
+        "value": "243"
+      },
+      {
+        "label": "Температура кипения увлажненной жидкости",
+        "value": "151"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1010",
+    "name": "MOL Essence Diesel 10W-40",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Essence_10W-40.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "Моторное масло для увеличенного ресурса.",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "ACEA A3/B4, ACEA A3/B3, API CF/SL, VW 505 00"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,871"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-33"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "220"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1011",
+    "name": "MOL Dynamic Gold Longlife 5W-30",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Gold_Longlife_5W-30.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "Синтетическое моторное масло высшего сорта для большинства современных транспортных средств.",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "API SN, VW 504 00/507 00, MB-Approval 229.51, ACEA C3, API SP, BMW Longlife-04"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,852"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-42"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "210"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1012",
+    "name": "MOL ATF 3G",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/hajtomuolajok/1L_MOL_ATF_3G.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "Жидкость для автоматических трансмиссий.",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "MAN 339 Typ L1, MAN 339 Typ V1, MAN 339 Typ Z1, ZF TE-ML 04D[ZF001179], ZF TE-ML 14A[ZF001179], Voith H55.6335, ZETOR, GM Dexron-IIIG, Ford Mercon, ZF TE-ML 05L, ZF TE-ML 09, ZF TE-ML 11B, Allison C-4, Volvo CE 97341"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,855"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-51"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "210"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1013",
+    "name": "MOL Hykomol Syntrans V 75W-90",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "Синтетическое редукторное/трансмиссионное масло для транспортной отрасли.",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "API GL-4, VW 501 50"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,858"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-45"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "215"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1014",
+    "name": "MOL EVOX Winter Apple Cinnamon -40",
+    "category": "winter",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/szelvedomoso/3l_mol_evox_apple_cinnamon_winter_screenwash.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "ароматизированная зимняя жидкость для стеклоомывателя",
+    "specs": [
+      {
+        "label": "Плотность при 20°C",
+        "value": "0.855"
+      },
+      {
+        "label": "Температура замерзания",
+        "value": "-41"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1015",
+    "name": "ADBLUE®",
+    "category": "autochemistry",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/adblue/adblue_5l.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "Для систем избирательной каталитической нейтрализации с присадкой для снижения содержания окислов азота",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "ISO 22241-1:2006, DIN 70070, German Automobile Association (VDA)"
+      },
+      {
+        "label": "Плотность при 20°C",
+        "value": "1,087 - 1,093"
+      },
+      {
+        "label": "Температура замерзания",
+        "value": "-11,5"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1016",
+    "name": "MOL EVOX 4 Season -10",
+    "category": "winter",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md//images/mol_hu/lub/szallitmanyozas/szelvedomoso/2l_mol_evox_4season.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "жидкость для омывателя",
+    "specs": [
+      {
+        "label": "Плотность при 20°C",
+        "value": "0.98"
+      },
+      {
+        "label": "Температура замерзания",
+        "value": "-10"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1017",
+    "name": "MOL EVOX Extra concentrate",
+    "category": "coolants",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md//images/mol_hu/lub/szallitmanyozas/fagyallo_hutofolyadek/1L_MOL_EVOX_EXTRA_coolant_concentrate.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "антифриз-концентрат",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "BS 6580:2010, ASTM D 3306, AFNOR R-15-601, German Army: TL 6850-0038/1, VW/Audi/Seat/Skoda G11 (TL 774-C), DTFR 29C120 (ex MB 325.5), Ford ESD-M97B49-A, MAN 324 Typ NF, MAN 324 Typ Si-OAT, MTU MTL 5048, MWM 0199-99-2091/12, Iveco 18-1830, Case JIC-501, Deutz DQC CA-14, Cummins 85T8-2, MAN 324NF, Volvo Construction 128 6083/002, Volvo Trucks 128 6083/002"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "1,120"
+      },
+      {
+        "label": "Температура кипения",
+        "value": "min. 163"
+      },
+      {
+        "label": "Температура замерзания (50% раствор в дистиллированной воде)",
+        "value": "max. -36"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1018",
+    "name": "MOL Dynamic Gold Longlife 0W-20",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Gold_Longlife_0W-20_web.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "Синтетическое моторное масло премиум класса для самых современных автомобилей.",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "ACEA C5, API SN Plus, VW 508 00/509 00"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,836"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-51"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "230"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1019",
+    "name": "MOL Dynamic Star VL 0W-20",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "Синтетическое моторное масло премиум качества для самых современных автомобилей, предназначенное, в первую очередь, для легковых автомобилей Volvo",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "ACEA C5, API SN, Volvo VCC RBS0-2AE"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,846"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-42"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "230"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1020",
+    "name": "MOL Hykomol K 80W-90",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/hajtomuolajok/1L_MOL_Hykomol_K_80W-90.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "Автомобильные трансмиссионные масла",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "API GL-5, MIL-L-2105D, ZETOR"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,895"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-27"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "230"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1021",
+    "name": "MOL EVOX Ice Spray",
+    "category": "winter",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/szelvedomoso/MOL_EVOX_Ice-spray.png",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "Размораживающая жидкость",
+    "specs": [
+      {
+        "label": "Плотность при 20°С",
+        "value": "0,890"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1022",
+    "name": "MOL Dynamic Gold DX 0W-20",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Gold_DX_0W-20.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "Синтетическое моторное масло премиум качества для самых современных автомобилей",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "API SN, API SP, Opel OV 040 1547 - A20, ILSAC GF-5, ILSAC GF-6A"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,847"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-45"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "230"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1023",
+    "name": "MOL Dynamic Star PC 0W-30",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1l_mol_dynamic_star_pc_0w-30_resized.png",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "Синтетическое моторное масло премиум класса для автомобилей последнего поколения.",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "ACEA C2, PSA B71 2312"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,844"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-48"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "220"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1024",
+    "name": "MOL EVOX Summer White tea & Ginger",
+    "category": "winter",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md//images/mol_hu/lub/szallitmanyozas/szelvedomoso/3L_MOL_EVOX_White%20tea%20&%20Ginger_Summer_screenwash.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "scented summer screenwash",
+    "specs": [],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1025",
+    "name": "MOL Botond 20W-50",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Botond_20W-50.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "Моторное масло для транспортных средств более ранних моделей с большим пробегом.",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "API SF/CC, MIL-L-46152B"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,887"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-27"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "240"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1026",
+    "name": "MOL Favorit 2",
+    "category": "industrial",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_ru/lub/avtomobili/konsistentnye_smazki/400g_MOL_Favorit2.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "Консистентная смазка с литиевым комплексом",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "DIN 51502: KP2N-30, ISO 6743-9: L-XCDEB 2"
+      },
+      {
+        "label": "Вязкость базового масла при 40°C",
+        "value": "200"
+      },
+      {
+        "label": "Температура каплепадения",
+        "value": "270"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1027",
+    "name": "MOL Hykomol 80W-90",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/hajtomuolajok/4L_MOL_Hykomol_80W-90_.jpg",
+    "volumes": [
+      4
+    ],
+    "description": "Автомобильные трансмиссионные масла",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "API GL-4, MIL-L-2105"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,891"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-30"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "230"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1028",
+    "name": "MOL Dynamic Synt 5W-30",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/szervizek/motorolajok/1L_MOL_Dynamic_Synt_5W-30.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "Синтетическое моторное масло высшего сорта для большинства современных транспортных средств.",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "ACEA A3/B4, API SL/CF, ILSAC GF-4, VW 502 00/505 00, GM-LL-A-025, GM-LL-B-025, BMW Longlife-01"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,855"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-39"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "225"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1029",
+    "name": "MOL EVOX Winter Raspberry Mint -30",
+    "category": "winter",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/szelvedomoso/3L_MOL_EVOX_Winter_Raspberry_Mint_screenwash.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "ароматизированная зимняя жидкость для стеклоомывателя",
+    "specs": [
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,962"
+      },
+      {
+        "label": "Температура замерзания",
+        "value": "-31"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1030",
+    "name": "MOL Essence 10W-40",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Essence_10W-40.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "Моторное масло для увеличенного ресурса.",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "API SL, ACEA A3/B4, ACEA A3/B3, API SL/CF, VW 501 01/505 00"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,871"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-33"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "220"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1031",
+    "name": "MOL Dynamic Synt RN17 5W-30",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Synt_RN17_5W-30.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "синтетическое моторное масло",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "ACEA C3, ACEA C2, Renault RN17, API SP, MB 229.51, MB 229.52, MB 229.31, Renault RN0700, Renault RN0710, Fiat 9.55535-S1, MB 226.52, ILSAC GF-6A"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,854"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-45"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "234"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1032",
+    "name": "MOL Essence 15W-50",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "Моторное масло для увеличения срока службы двигателя",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "API SJ/CF"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,879"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-24"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "220"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1033",
+    "name": "MOL Liton LT 2EP",
+    "category": "industrial",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_ru/lub/avtomobili/konsistentnye_smazki/400g_MOL_Liton_LT_2EP.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "Литиевые смазки",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "ZETOR, DIN 51502: KP2K-30, DIN 51825: KP2K-30, ISO 6743-9: L-XCCEB 2"
+      },
+      {
+        "label": "Вязкость базового масла при 40°C",
+        "value": "200"
+      },
+      {
+        "label": "Температура каплепадения",
+        "value": "195"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1034",
+    "name": "MOL DOT 5.1",
+    "category": "autochemistry",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/fekfolyadekok/mol_dot_5_side.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "Синтетическая тормозная жидкость наивысшего качества для большинства современных транспортных средств",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "SAE J 1704, FMVSS 116, DOT 5.1, ISO 4925 Class 5-1"
+      },
+      {
+        "label": "Плотность при 20°C",
+        "value": "1,069"
+      },
+      {
+        "label": "Температура кипения",
+        "value": "269"
+      },
+      {
+        "label": "Температура кипения увлажненной жидкости",
+        "value": "187"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1035",
+    "name": "MOL Dynamic Star PC 5W-30",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Star_PC_5W-30.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "Синтетическое моторное масло высшего сорта для большинства современных транспортных средств.",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "ACEA C2, ACEA A5/B5, ACEA A1/B1, API SN/CF, Renault RN0700, PSA B71 2290, Fiat 9.55535-S1, Iveco 18-1811 Classe S1"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,854"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-48"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "230"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1036",
+    "name": "MOL Hykomol Synt 75W-90",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/hajtomuolajok/1L_MOL_Hykomol_Synt_75W-90.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "Полусинтетическое трансмиссионное масло",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "API GL-5, API GL-4, MIL-L-2105D, Tatra TDS 80/32, ZF TE-ML 07A, ZF TE-ML 08, ZF TE-ML 17B"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,859"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-45"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "215"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1037",
+    "name": "MOL Dynamic Transit 10W-40",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/motorolajok/1L_MOL_Dynamic_Transit_10W-40.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "Идеальное моторное масло для смешанных автомобильных парков",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "API CI-4, API SL, DTFR 15B110 (ex MB 228.3), Volvo VDS-3, Renault RLD-2, MTU Type 2, Mack EO-N, ACEA E7, Global DHD-1, MAN M 3275-1, Tatra TDS 30/12, MACK EO-M Plus, DDC 93K215, Deutz DQC III-10"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,872"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-39"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "230"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1038",
+    "name": "MOL Dynamic Gas Eco+ 15W-40",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Gas-eco+_15W-40.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "Масло высшего сорта для мобильных газовых двигателей автомобилей, работающих на газе.",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "ACEA E7, API CI-4/SL"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,885"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-33"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "225"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1039",
+    "name": "MOL Favorit 2 Blue",
+    "category": "industrial",
+    "brand": "MOL",
+    "photo_url": "",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "Литий-комплексная консистентная смазка синего цвета",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "DIN 51502: KP2N-30, ISO 6743-9: L-XCDEB 2"
+      },
+      {
+        "label": "Вязкость базового масла при 40°C",
+        "value": "200"
+      },
+      {
+        "label": "Температура каплепадения",
+        "value": "270"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1040",
+    "name": "MOL Dynamic Synt RN 5W-30",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Synt_RN_5W-30.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "Синтетическое моторное масло высшего сорта для большинства современных транспортных средств.",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "MB-Approval 226.51, ACEA C4, Renault RN0720"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,853"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-39"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "230"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1041",
+    "name": "EVOX Premium concentrate",
+    "category": "coolants",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/fagyallo_hutofolyadek/evox_premium_concentrate_1l.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "Концентрат низкотемпературной охлаждающей жидкости",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "DAF 74002, BS 6580:2010, ASTM D 3306, ASTM D 4985, ASTM D 6210, Saab B 040 1065, VW/Audi/Seat/Skoda G12 (TL 774-D), VW/Audi/Seat/Skoda G12+ (TL 774-F), DTFR 29C110 (ex MB 325.3), Ford WSS-M97B44-D, MAN Diesel & Turbo SE, MAN 324 Typ SNF, MAN D36 5600, TEDOM, CNH MAT 3624, MTU MTL 5048, Fendt, Caterpillar 0199-99-2091/12., Caterpillar MAK A4.05.09.01, Caterpillar GCM34, Cummins CES 14603, Cummins CES 14439, Cummins IS series u N14, Mack 014 GS 17009, Jenbacher TI 1000-0201, MWM 0199-99-2091/12, Detroit DFS93K217, Fiat 9.55523, Isuzu, Mitsubishi MHI, Hitachi, Liebherr MD1-36-130, Deutz DQC CB-14, Jaguar CMR 8229, STJLR 651.5003, Wartsila 32-9011, SKODA 61-0-0257, SACM Diesel DLP799861, Kobelco, Komatsu 07.892 (2009), Van Hool, Valtra, Claas, Detroit Diesel Power Cool Plus, Deutz 0199-99-1115/6, Foton Q-FPT 2313005-2013, GM 6277M, John Deere JDMH5, Renault 41-01-001/-S Type D, Volvo Trucks, Volvo Trucks 128 6083/002, Waukesha"
+      },
+      {
+        "label": "Плотность при 20°C",
+        "value": "1,113"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "128"
+      },
+      {
+        "label": "Температура кипения",
+        "value": "180"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1042",
+    "name": "MOL Arol 2T",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/05_arol_2t.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "Моторное масло для двухтактных двигателей легковых автомобилей и мотоциклов более ранних моделей.",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "API TA"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,868"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-27"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "95"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1043",
+    "name": "MOL Dynamic Gold DX 5W-30",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Gold_DX_5W-30-nnn.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "Синтетическое моторное масло премиум класса для автомобилей последнего поколения.",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "API SP, Opel OV 040 1547 - G30, ILSAC GF-6A"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,850"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-45"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "230"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1044",
+    "name": "MOL ATF 3H AP",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/hajtomuolajok/1LMOL_ATF_3H_AP.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "Синтетическое масло высшего сорта для автоматических коробок передач/трансмиссий.",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "GM Dexron-IIIH, JASO M315 1A, Ford Mercon, MAN 339 Typ Z1, Volvo 97340, Toyota T-III, Toyota T-IV, Toyota Type D-2, Toyota WS, Mazda ATF D-III, Mazda ATF M-3, Suzuki ATF Oil, Suzuki ATF Oil Special, Subaru ATF, Nissan Matic-D, Nissan Matic-J, Mitsubishi Diamond SP-II, Mitsubishi Diamond SP-III, Kia, Hyundai, ZF TE-ML 14A, Voith H55.6335, Allison C-4, JWS 3309 (JWS 3317 till 2006)"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,850"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-48"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "215"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1045",
+    "name": "MOL Dynamic Transit 15W-40",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Transit_15W-40.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "Идеальное моторное масло для смешанных автомобильных парков",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "API CI-4/SL, DTFR 15B110 (ex MB 228.3), Volvo VDS-3, Renault RLD-2, Cummins CES 20078, Mack EO-N, ACEA E7, MIL-L-2104E, Global DHD-1, MAN M 3275-1, Tatra TDS 30/12, MTU Type 2, Caterpillar ECF-2, MACK EO-M Plus, Deutz DQC III-18, KAMAZ"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,885"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-33"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "225"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1046",
+    "name": "MOL Essence Longlife 5W-30",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md//images/mol_hu/lub/autosok/motorolajok/1L_MOL_Essence_Longlife_5W-30_persp_w.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "синтетическое моторное масло",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "ACEA C3, API SN, VW 504 00/507 00, BMW Longlife-04"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,852"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-45"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "220"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1047",
+    "name": "MOL Dynamic Star F 0W-30",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/dynamic_star_f0w_30_1L.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "Синтетическое премиальное моторное масло для самых современных автомобилей.",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "ACEA C2, Fiat 9.55535-DS1, Fiat 9.55535-GS1"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,844"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-54"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "230"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1048",
+    "name": "MOL ATF",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/hajtomuolajok/1L_MOL_ATF.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "Жидкость для автоматических трансмиссий",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "MAN 339 Typ L2, MAN 339 Typ V1, MAN 339 Typ Z1, ZF TE-ML 04D[ZF001251], ZF TE-ML 14A[ZF001251], ZF TE-ML 17C[ZF001251], GM Dexron-IID, GM Type A Suffix A, Ford Mercon, ZF TE-ML 02F, ZF TE-ML 03D, ZF TE-ML 05L, ZF TE-ML 09, ZF TE-ML 11A, Voith H55.6335, Allison C-4"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,863"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-42"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "210"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1049",
+    "name": "MOL Hykomol K 85W-90",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/hajtomuolajok/4L_MOL_Hykomol_80W-90_.jpg",
+    "volumes": [
+      4
+    ],
+    "description": "Автомобильные трансмиссионные масла",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "DTFR 12B100 (ex MB 235.0), ZF TE-ML 16C[ZF001113], ZF TE-ML 17B[ZF001113], ZF TE-ML 19B[ZF001113], ZF TE-ML 21A[ZF001113], API GL-5, MIL-L-2105D, Ford SQ-M2C9002-AA, MAN 342 Typ M1, Volvo 97310, ZF TE-ML 07A, ZF TE-ML 16B"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,901"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-24"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "230"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1050",
+    "name": "MOL Dynamic Star 5W-30",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Star_5W-30.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "Синтетическое моторное масло высшего сорта для большинства современных транспортных средств.",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "API SL, ACEA A5/B5, API SL/CF, Ford WSS M2C913-C, Ford WSS M2C913-D, Renault RN0700, Jaguar Land Rover STJLR.03.5003, VWC 53036"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,850"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-45"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "232"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1051",
+    "name": "MOL EVOX Extra ready -35",
+    "category": "coolants",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md//images/mol_hu/lub/szallitmanyozas/fagyallo_hutofolyadek/4L_MOL_EVOX_EXTRA_COOLANT_READY-35.jpg",
+    "volumes": [
+      4
+    ],
+    "description": "охлаждающая жидкость, готовая к применению",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "BS 6580:2010, ASTM D 3306, AFNOR R-15-601, German Army: TL 6850-0038/1, VW/Audi/Seat/Skoda G11 (TL 774-C), DTFR 29D120 (ex MB 326.5), Ford ESD-M97B49-A, MAN 324 Typ NF, MAN 324 Typ Si-OAT, MTU MTL 5048, MWM 0199-99-2091/12, Iveco 18-1830, Case JIC-501, Deutz DQC CA-14, Cummins 85T8-2, Volvo Construction 128 6083/002, Volvo Trucks 128 6083/002"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "1,071"
+      },
+      {
+        "label": "Температура замерзания",
+        "value": "-36"
+      },
+      {
+        "label": "Температура кипения",
+        "value": "109"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1052",
+    "name": "MOL Dynamic Gold 5W-30",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Gold_5W-30-nnn.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "Синтетическое моторное масло высшего сорта для большинства современных транспортных средств.",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "API SN, MB-Approval 229.52, ACEA C3, ACEA C2, API SM, API SL/CF, Opel OV 040 1547 - D30, VW 502 00/505 01, VW 505 00, BMW Longlife-04"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,854"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-42"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "230"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1053",
+    "name": "MOL Essence Diesel 5W-40",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Essence_5W-40_Diesel.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "Моторное масло для увеличенного ресурса.",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "ACEA C3, API CF/SM, API SN/CF, VW 505 00, VW 505 01, Ford WSS M2C917-A"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,854"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-39"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "240"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1054",
+    "name": "MOL DOT 4+",
+    "category": "autochemistry",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/fekfolyadekok/mol_dot_4_side.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "Синтетическая тормозная жидкость",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "SAE J 1704, FMVSS 116, DOT 4, ISO 4925 Class 4"
+      },
+      {
+        "label": "Плотность при 20°C",
+        "value": "1,04"
+      },
+      {
+        "label": "Температура кипения",
+        "value": "270"
+      },
+      {
+        "label": "Температура кипения увлажненной жидкости",
+        "value": "163"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1055",
+    "name": "MOL MSE 15W-40",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_MSE_15W-40.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "Моторное масло для транспортных средств более ранних моделей с большим пробегом.",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "API SF/CC, MIL-L-46152B"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,879"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-27"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "225"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1056",
+    "name": "MOL Essence 15W-40",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Essence_15W-40.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "Моторное масло для увеличенного ресурса.",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "API SJ/CF"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,879"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-27"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "230"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1057",
+    "name": "MOL Dynamic Transit 10W-30",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "Идеальное моторное масло для смешанных автопарков",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "ACEA E7, API CI-4, API SL, Global DHD-1, MAN M 3275, Volvo VDS-3, Renault RLD-2, MTU Type 2, MACK EO-M Plus, Deutz DQC III-10, Mack EO-N"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,872"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-39"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "230"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1058",
+    "name": "MOL Evox Summer Citrus Breeze",
+    "category": "winter",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md//images/mol_hu/lub/szallitmanyozas/szelvedomoso/2L_MOL_EVOX_Citrus_Breeze_Summer_screenwash.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "ароматизированный летний стеклоомыватель",
+    "specs": [],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1059",
+    "name": "MOL Engine Flush PRO",
+    "category": "accessories",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/egyeb/350ml_MOL_Engine_Flush_Pro.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "Концентрат для промывки двигателя",
+    "specs": [
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,810"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-60"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "73"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1060",
+    "name": "MOL Hykomol Arctic 75W-90",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "Трансмиссионное масло для работы в условиях низких температур",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "API GL-4"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,846"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-51"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "215"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1061",
+    "name": "MOL Dynamic Gold Longlife 0W-30",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Gold Longlife_0W-30_web.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "Синтетическое премиальное моторное масло для самых современных транспортных средств.",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "VW 504 00/507 00, ACEA C3, BMW Longlife-04"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,843"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-45"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "240"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1062",
+    "name": "MOL Dynamic Prima 5W-40",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Prima_5W-40.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "Синтетические моторные масла высшего сорта.",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "API SN, VW 505 01, MB-Approval 229.51, ACEA C3, API SN/CF, API SM/CF, VW 502 00/505 00, BMW Longlife-04, Ford WSS M2C917-A, Renault RN0700, Renault RN0710, Fiat 9.55535-S2"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,854"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-39"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "240"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1063",
+    "name": "MOL Hykomol 85W-140",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "Автомобильные трансмиссионные масла",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "API GL-4, MIL-L-2105"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,904"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-12"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "260"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1064",
+    "name": "MOL Dynamic Race R5",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "ACEA A3/B4, API SL/CF"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,860"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-45"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "245"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1065",
+    "name": "MOL Essence Multi Gas 5W-40",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_ru/lub/avtomobili/motornye-masla/1L_MOL_Essence_Multi-Gas_5W-40.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "Моторное масло для удлинённого срока службы",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "ACEA C3, API SN/CF, API SM/CF, VW 502 00/505 00, VW 505 01, Ford WSS M2C917-A, Renault RN0710, Fiat 9.55535-S2"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,854"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-39"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "240"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1066",
+    "name": "MOL CVT Fluid",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1l_mol_cvt_fluid.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "Масло для автоматических коробок передач",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "BMW 8322 0 136 376, BMW 8322 0 429 154, Chrysler NS-2/CVTF+4, Daihatsu Amix CVTF-DC, Ford WSS-M2C933-A, GM (Saturn) DEX-CVT, Honda HMMF/HCF-2, Hyundai/Kia SP-CVT 1, Mazda CVTF 3320, MERCON C, Mini Cooper EZL 799/EZL 799A/ZF CVT V1, Mitsubishi CVTF-J1, Mitsubishi CVTF-J4, Nissan NS-1/NS-2, Punch EZL 799/EZL 799A, Subaru i-CVTF/e-CVTF, Suzuki CVTF 3320/TC/NS-2/CVTF Green 1, Toyota/Lexus TC, VW G 052 180 (TL 52 180), VW G 052 516 (TL 52 516)"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,851"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-45"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1067",
+    "name": "MOL Dynamic Synt RN17FE 0W-20",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Synt_RN17FE_0W-20.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "синтетическое моторное масло",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "ACEA C5, Renault RN17FE"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,842"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-54"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "232"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1068",
+    "name": "MOL Hykomol 90",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "Автомобильные трансмиссионные масла",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "API GL-4, MIL-L-2105"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,894"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-24"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "240"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1069",
+    "name": "EVOX Terminator",
+    "category": "winter",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/szelvedomoso/evox_terminator_bug_spray_172x455.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "Жидкость-растворитель для удаления насекомых",
+    "specs": [
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,960"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1070",
+    "name": "MOL Dynamic Gold DX 5W-20",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Gold_DX_5W-20.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "Синтетическое моторное масло премиум качества для самых современных автомобилей",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "API SP, Opel OV 040 1547 - A20, Ford WSS-M2C-960-A1, Chrysler MS-6395, ILSAC GF-6A"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,847"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-39"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "230"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1071",
+    "name": "MOL Essence 5W-30",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Essence_5W-30.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "Моторное масло для увеличенного ресурса.",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "API SL, ACEA A3/B4, API SL/CF, VW 502 00/505 00, GM-LL-B-025"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,855"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-36"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "220"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1072",
+    "name": "MOL EcoClean-S",
+    "category": "accessories",
+    "brand": "MOL",
+    "photo_url": "",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "Жидкость для очистки двигателя",
+    "specs": [
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,810"
+      },
+      {
+        "label": "Температура воспламенения (по Кливленду)",
+        "value": "250"
+      },
+      {
+        "label": "Температура вспышки (по Пенски-Мартенсу)",
+        "value": "61"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1073",
+    "name": "MOL Dynamic Gold Longlife 0W-30",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Gold Longlife_0W-30_web.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "Синтетическое премиальное моторное масло для самых современных транспортных средств.",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "VW 504 00/507 00, ACEA C3, BMW Longlife-04"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,843"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-45"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "240"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1074",
+    "name": "MOL Essence 5W-40",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Essence_5W-40.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "Моторное масло для увеличенного ресурса.",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "MB-Approval 229.3, ACEA A3/B4, API SM/CF, VW 502 00/505 00, GM-LL-B-025, Renault RN0700, Renault RN0710"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,857"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-42"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "230"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1075",
+    "name": "MOL Evox Winter Citrus Breeze -30",
+    "category": "winter",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/szelvedomoso/mol_evox_winter_citrus_breeze_-30.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "Aроматизированная зимняя жидкость для стеклоомывателя",
+    "specs": [],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1076",
+    "name": "MOL Hykomol Syntrans 75W-90",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "Автомобильное синтетическое трансмиссионное масло высшего сорта.",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "API GL-4, MAN 341 Typ MB, Tatra TDS 80/32, ZF TE-ML 08"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,847"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-45"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "220"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  },
+  {
+    "sku": "MOL-1077",
+    "name": "MOL DSG / DCT Fluid",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1l_mol_dsg-dct_fluid.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208
+    ],
+    "description": "Синтетическое трансмиссионное масло для коробок передач с двойным сцеплением",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "VW G 052 182 (TL 52 182), VW G 052 529 (TL 52 529), BMW 83 22 0 440 214, BMW 83 22 2 147 477, BMW 83 22 2 148 578, BMW 83 22 2 148 579, Ford M2C936A, MZ320065 Dia-Queen SSTF-I, PSA 9734.S2, Porsche Oil No. 999.917.080.00, Volvo 1161838/1161839, Nissan 999MP-GTRT00P, VW G 055 529"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,854"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-42"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "200"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0
+  }
+]

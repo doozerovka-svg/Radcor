@@ -118,21 +118,16 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     // ==========================================================================
-    // LOAD PRODUCTS FROM API (with offline fallback)
+    // LOAD PRODUCTS FROM JSON
     // ==========================================================================
     async function loadProducts() {
         try {
-            const response = await fetch('/api/v1/products', { signal: AbortSignal.timeout(4000) });
-            if (!response.ok) throw new Error('API error');
+            const response = await fetch('products.json', { cache: 'no-cache' });
+            if (!response.ok) throw new Error('Failed to load products.json');
             const data = await response.json();
-            // Normalize volumes field
-            return data.map(p => ({
-                ...p,
-                volumes: Array.isArray(p.volumes) ? p.volumes : (typeof p.volumes === 'string' && p.volumes ? JSON.parse(p.volumes) : []),
-                specs: Array.isArray(p.specs) ? p.specs : (p.specs_json ? JSON.parse(p.specs_json) : [])
-            }));
+            return data;
         } catch (e) {
-            console.warn('Backend offline — using local product data.', e.message);
+            console.error('Error loading products:', e);
             return OFFLINE_PRODUCTS;
         }
     }
