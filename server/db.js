@@ -10,7 +10,7 @@ const DEFAULT_PRODUCTS = [
   {
     sku: '151201',
     name: 'MOL Essence 5W-30',
-    category: 'oils',
+    category: 'motor-oils',
     brand: 'MOL',
     sectors: 'van passenger',
     oems: 'mercedes volkswagen ford',
@@ -18,6 +18,8 @@ const DEFAULT_PRODUCTS = [
     fill_color: 'amber',
     badge_class: 'badge-mol',
     badge_text: 'Масла MOL',
+    photo_url: 'https://www.mol.com/o/MOL_Public_Content/images/products/mol-essence-5w30.png',
+    volumes: JSON.stringify([1, 4, 5, 20, 60, 208]),
     description: 'Высокотехнологичное синтетическое масло для современных легковых автомобилей и фургонов, снижающее трение и износ.',
     specs_json: JSON.stringify([
       { label: 'Вязкость', value: '5W-30' },
@@ -33,7 +35,7 @@ const DEFAULT_PRODUCTS = [
   {
     sku: '151205',
     name: 'MOL Dynamic Transit 10W-40',
-    category: 'oils',
+    category: 'motor-oils',
     brand: 'MOL',
     sectors: 'van truck',
     oems: 'mercedes renault',
@@ -41,6 +43,8 @@ const DEFAULT_PRODUCTS = [
     fill_color: 'amber',
     badge_class: 'badge-mol',
     badge_text: 'Масла MOL',
+    photo_url: 'https://www.mol.com/o/MOL_Public_Content/images/products/mol-dynamic-transit-10w40.png',
+    volumes: JSON.stringify([4, 5, 20, 60, 208]),
     description: 'Полусинтетическое масло для высоконагруженных дизельных двигателей коммерческого автотранспорта и фургонов.',
     specs_json: JSON.stringify([
       { label: 'Вязкость', value: '10W-40' },
@@ -56,18 +60,21 @@ const DEFAULT_PRODUCTS = [
   {
     sku: '240502',
     name: 'Felix Carbox G12+',
-    category: 'fluids',
+    category: 'coolants',
     brand: 'Felix',
     sectors: 'van passenger truck',
     oems: 'mercedes volkswagen ford citroen peugeot renault',
     fill_height: 60,
     fill_color: 'violet',
     badge_class: 'badge-violet',
-    badge_text: 'Жидкости',
+    badge_text: 'Антифризы',
+    photo_url: 'https://felix-auto.ru/upload/iblock/felix-carbox-g12plus-5kg.png',
+    volumes: JSON.stringify([1, 5, 10, 20, 220]),
     description: 'Профессиональный карбоксилатный антифриз нового поколения с увеличенным ресурсом эксплуатации.',
     specs_json: JSON.stringify([
-      { label: 'Спецификация', value: 'G12+, ASTM D3306' },
-      { label: 'Цвет', value: 'Красный/Фиолетовый' }
+      { label: 'Класс', value: 'G12+' },
+      { label: 'Цвет', value: 'Красный/Фиолетовый' },
+      { label: 't замерзания', value: '-40 °C' }
     ]),
     pack_desc: 'Канистра 5кг / Бочка 220кг',
     canister_vol: 5.0,
@@ -78,15 +85,17 @@ const DEFAULT_PRODUCTS = [
   },
   {
     sku: '180701',
-    name: 'Freshway G-11 10W-40',
-    category: 'oils',
-    brand: 'Freshway',
+    name: 'Prista Ultra 10W-40',
+    category: 'motor-oils',
+    brand: 'Prista',
     sectors: 'passenger van',
     oems: 'volkswagen ford renault',
     fill_height: 80,
     fill_color: 'amber',
     badge_class: '',
     badge_text: 'Масла',
+    photo_url: 'https://www.prista-oil.com/images/products/prista-ultra-10w40-4l.png',
+    volumes: JSON.stringify([1, 4, 5, 20, 60, 208]),
     description: 'Универсальное полусинтетическое моторное масло для смешанных автопарков и коммерческого автотранспорта.',
     specs_json: JSON.stringify([
       { label: 'Вязкость', value: '10W-40' },
@@ -102,14 +111,16 @@ const DEFAULT_PRODUCTS = [
   {
     sku: '240901',
     name: 'Felix DOT-4',
-    category: 'fluids',
+    category: 'autochemistry',
     brand: 'Felix',
     sectors: 'passenger van truck',
     oems: 'mercedes volkswagen ford citroen peugeot renault',
     fill_height: 50,
     fill_color: 'violet',
     badge_class: 'badge-violet',
-    badge_text: 'Жидкости',
+    badge_text: 'Тормозные жидкости',
+    photo_url: 'https://felix-auto.ru/upload/iblock/felix-dot4-0.5l.png',
+    volumes: JSON.stringify([0.25, 0.5, 1]),
     description: 'Синтетическая жидкость для гидравлических приводов сцепления и тормозов легковой техники.',
     specs_json: JSON.stringify([
       { label: 'Стандарт', value: 'FMVSS №116 DOT 4' },
@@ -123,27 +134,209 @@ const DEFAULT_PRODUCTS = [
     gauge_markings: '1L,0.8L,0.6L,0.4L,0.2L'
   },
   {
-    sku: '350102',
-    name: 'Freshway WD-400',
-    category: 'chemicals',
-    brand: 'Freshway',
-    sectors: 'passenger van truck agro',
-    oems: 'mercedes volkswagen ford citroen peugeot renault',
-    fill_height: 45,
+    sku: '520101',
+    name: 'Hepu Antifreeze G11',
+    category: 'coolants',
+    brand: 'Hepu',
+    sectors: 'passenger van truck',
+    oems: 'volkswagen audi skoda',
+    fill_height: 65,
+    fill_color: 'blue',
+    badge_class: 'badge-blue',
+    badge_text: 'Антифризы',
+    photo_url: 'https://www.hepu.de/wp-content/uploads/hepu-antifreeze-g11-5l.jpg',
+    volumes: JSON.stringify([1, 5, 10, 25]),
+    description: 'Классический антифриз класса G11 на основе этиленгликоля с силикатными присадками. Совместим с большинством европейских автомобилей.',
+    specs_json: JSON.stringify([
+      { label: 'Класс', value: 'G11 / OAT' },
+      { label: 'Цвет', value: 'Зеленый' },
+      { label: 't замерзания', value: '-38 °C' }
+    ]),
+    pack_desc: 'Канистра 5л / 25л',
+    canister_vol: 5.0,
+    canister_price: 195.0,
+    barrel_vol: 25.0,
+    barrel_price: 900.0,
+    gauge_markings: '5L,4L,3L,2L,1L'
+  },
+  {
+    sku: '520201',
+    name: 'Mol Dynamic Antifreeze G12++',
+    category: 'coolants',
+    brand: 'Mol Dynamic',
+    sectors: 'passenger van truck',
+    oems: 'mercedes bmw renault ford',
+    fill_height: 72,
+    fill_color: 'violet',
+    badge_class: 'badge-violet',
+    badge_text: 'Антифризы',
+    photo_url: 'https://molddinamic.md/images/products/mol-dynamic-antifreeze-10l.jpg',
+    volumes: JSON.stringify([5, 10, 20, 60]),
+    description: 'Органический антифриз G12++ нового поколения без силикатов и нитратов. Срок службы до 5 лет или 250 000 км.',
+    specs_json: JSON.stringify([
+      { label: 'Класс', value: 'G12++ / HOAT' },
+      { label: 'Цвет', value: 'Красный' },
+      { label: 'Ресурс', value: '5 лет / 250 000 км' }
+    ]),
+    pack_desc: 'Канистра 10л / Бочка 60л',
+    canister_vol: 10.0,
+    canister_price: 380.0,
+    barrel_vol: 60.0,
+    barrel_price: 2100.0,
+    gauge_markings: '10L,8L,6L,4L,2L'
+  },
+  {
+    sku: '151301',
+    name: 'Valvoline MaxLife 5W-40',
+    category: 'motor-oils',
+    brand: 'Valvoline',
+    sectors: 'passenger van',
+    oems: 'volkswagen mercedes bmw',
+    fill_height: 75,
+    fill_color: 'amber',
+    badge_class: '',
+    badge_text: 'Масла',
+    photo_url: 'https://www.valvoline.com/o/Valvoline_Public/images/products/valvoline-maxlife-5w40-4l.png',
+    volumes: JSON.stringify([1, 4, 5, 20, 60, 208]),
+    description: 'Полностью синтетическое масло MaxLife с улучшенной защитой двигателей с высоким пробегом. Снижает потребление масла на 40%.',
+    specs_json: JSON.stringify([
+      { label: 'Вязкость', value: '5W-40' },
+      { label: 'Допуски', value: 'API SN/CF, ACEA A3/B4' },
+      { label: 'Применение', value: 'Высокий пробег' }
+    ]),
+    pack_desc: 'Канистра 4л / Бочка 208л',
+    canister_vol: 4.0,
+    canister_price: 860.0,
+    barrel_vol: 208.0,
+    barrel_price: 30000.0,
+    gauge_markings: '4L,3L,2L,1L'
+  },
+  {
+    sku: '151401',
+    name: 'Wolf Official Tech 5W-30',
+    category: 'motor-oils',
+    brand: 'Wolf',
+    sectors: 'passenger van',
+    oems: 'volkswagen ford peugeot citroen',
+    fill_height: 78,
+    fill_color: 'amber',
+    badge_class: '',
+    badge_text: 'Масла',
+    photo_url: 'https://www.wolf-lubricants.com/wp-content/uploads/wolf-official-tech-5w30-4l.jpg',
+    volumes: JSON.stringify([1, 4, 5, 20, 60, 208]),
+    description: 'Полностью синтетическое масло Wolf Official Tech для современных бензиновых и дизельных двигателей. Официально рекомендовано рядом производителей.',
+    specs_json: JSON.stringify([
+      { label: 'Вязкость', value: '5W-30' },
+      { label: 'Допуски', value: 'ACEA C3, API SN, VW 502.00/505.01' }
+    ]),
+    pack_desc: 'Канистра 4л / Бочка 208л',
+    canister_vol: 4.0,
+    canister_price: 720.0,
+    barrel_vol: 208.0,
+    barrel_price: 26000.0,
+    gauge_markings: '4L,3L,2L,1L'
+  },
+  {
+    sku: '520301',
+    name: 'Sakura Antifreeze G12',
+    category: 'coolants',
+    brand: 'Sakura',
+    sectors: 'passenger van',
+    oems: 'toyota honda nissan',
+    fill_height: 55,
+    fill_color: 'violet',
+    badge_class: '',
+    badge_text: 'Антифризы',
+    photo_url: 'https://sakura.md/images/products/sakura-antifreeze-g12-4l.jpg',
+    volumes: JSON.stringify([1, 4, 5, 20]),
+    description: 'Карбоксилатный антифриз класса G12 для японских и корейских автомобилей. Защищает систему охлаждения от коррозии до 3 лет.',
+    specs_json: JSON.stringify([
+      { label: 'Класс', value: 'G12 / CARBOXYLATE' },
+      { label: 'Цвет', value: 'Красный' },
+      { label: 't замерзания', value: '-36 °C' }
+    ]),
+    pack_desc: 'Канистра 4л / 20л',
+    canister_vol: 4.0,
+    canister_price: 180.0,
+    barrel_vol: 20.0,
+    barrel_price: 800.0,
+    gauge_markings: '4L,3L,2L,1L'
+  },
+  {
+    sku: '610101',
+    name: 'AdBlue 10L',
+    category: 'autochemistry',
+    brand: 'AdBlue',
+    sectors: 'truck van',
+    oems: 'mercedes volkswagen renault man volvo',
+    fill_height: 60,
     fill_color: 'blue',
     badge_class: 'badge-blue',
     badge_text: 'Автохимия',
-    description: 'Универсальный проникающий спрей для разблокировки соединений, защиты от коррозии и вытеснения влаги.',
+    photo_url: '',
+    volumes: JSON.stringify([5, 10, 20, 1000]),
+    description: 'Водный раствор мочевины (32.5%) для систем SCR дизельных двигателей Euro 5/6. Снижает выбросы NOx на 80%. Соответствует ISO 22241.',
     specs_json: JSON.stringify([
-      { label: 'Объем спрея', value: '400 мл' },
-      { label: 'Класс опасности', value: '4 класс' }
+      { label: 'Концентрация', value: '32.5% мочевины' },
+      { label: 'Стандарт', value: 'ISO 22241-1' },
+      { label: 'Евро', value: 'Euro 5 / Euro 6' }
     ]),
-    pack_desc: 'Спрей 0.4л / Коробка 24 шт',
-    canister_vol: 0.4,
-    canister_price: 65.0,
-    barrel_vol: 9.6,
-    barrel_price: 1200.0,
-    gauge_markings: '0.5L,0.4L,0.3L,0.2L,0.1L'
+    pack_desc: 'Канистра 10л / IBC 1000л',
+    canister_vol: 10.0,
+    canister_price: 140.0,
+    barrel_vol: 1000.0,
+    barrel_price: 9500.0,
+    gauge_markings: '10L,8L,6L,4L,2L'
+  },
+  {
+    sku: '710101',
+    name: 'Felix Стеклоомыватель зимний -20°C',
+    category: 'winter',
+    brand: 'Felix',
+    sectors: 'passenger van truck',
+    oems: '',
+    fill_height: 50,
+    fill_color: 'blue',
+    badge_class: 'badge-blue',
+    badge_text: 'Зимняя программа',
+    photo_url: 'https://felix-auto.ru/upload/iblock/felix-winter-washer-4l.png',
+    volumes: JSON.stringify([1, 2, 3, 4, 5]),
+    description: 'Высококонцентрированная незамерзающая жидкость для стеклоомывателей. Эффективно очищает стекло при температурах до -20°C. Не оставляет разводов.',
+    specs_json: JSON.stringify([
+      { label: 'Температура', value: 'до -20 °C' },
+      { label: 'Состав', value: 'Изопропанол + ПАВ' }
+    ]),
+    pack_desc: 'Канистра 4л / 5л',
+    canister_vol: 4.0,
+    canister_price: 85.0,
+    barrel_vol: 20.0,
+    barrel_price: 380.0,
+    gauge_markings: '4L,3L,2L,1L'
+  },
+  {
+    sku: '810101',
+    name: 'Mahle Ароматизатор Lemon',
+    category: 'accessories',
+    brand: 'Mahle',
+    sectors: 'passenger van',
+    oems: '',
+    fill_height: 30,
+    fill_color: 'blue',
+    badge_class: '',
+    badge_text: 'Аксессуары',
+    photo_url: 'https://www.mahle-aftermarket.com/media/products/mahle-air-freshener-lemon.jpg',
+    volumes: JSON.stringify([]),
+    description: 'Профессиональный автомобильный ароматизатор Mahle с длительным действием до 45 дней. Нейтрализует неприятные запахи.',
+    specs_json: JSON.stringify([
+      { label: 'Аромат', value: 'Лимон' },
+      { label: 'Действие', value: 'до 45 дней' }
+    ]),
+    pack_desc: 'Флакон 3мл',
+    canister_vol: 0.003,
+    canister_price: 45.0,
+    barrel_vol: 0,
+    barrel_price: 0,
+    gauge_markings: ''
   }
 ];
 
@@ -179,6 +372,8 @@ async function initDb() {
         fill_color TEXT,
         badge_class TEXT,
         badge_text TEXT,
+        photo_url TEXT,
+        volumes TEXT,
         description TEXT,
         specs_json TEXT,
         pack_desc TEXT,
@@ -189,6 +384,13 @@ async function initDb() {
         gauge_markings TEXT
       )
     `);
+
+    // Migrate: add new columns if they don't exist (for existing DBs)
+    const migrateColumn = async (col, type) => {
+      try { await runQuery(`ALTER TABLE products ADD COLUMN ${col} ${type}`); } catch(e) { /* already exists */ }
+    };
+    await migrateColumn('photo_url', 'TEXT');
+    await migrateColumn('volumes', 'TEXT');
 
     // Create orders table
     await runQuery(`
@@ -260,15 +462,17 @@ async function seedDefaultProducts() {
           INSERT INTO products (
             sku, name, category, brand, sectors, oems, 
             fill_height, fill_color, badge_class, badge_text, 
+            photo_url, volumes,
             description, specs_json, pack_desc, 
             canister_vol, canister_price, barrel_vol, barrel_price, gauge_markings
-          ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+          ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         `);
 
         for (const p of DEFAULT_PRODUCTS) {
           stmt.run(
             p.sku, p.name, p.category, p.brand, p.sectors, p.oems,
             p.fill_height, p.fill_color, p.badge_class, p.badge_text,
+            p.photo_url || '', p.volumes || '[]',
             p.description, p.specs_json, p.pack_desc,
             p.canister_vol, p.canister_price, p.barrel_vol, p.barrel_price, p.gauge_markings
           );
@@ -325,10 +529,11 @@ async function getProductsList() {
     return new Promise((resolve, reject) => {
       sqliteDb.all('SELECT * FROM products', (err, rows) => {
         if (err) return reject(err);
-        // Parse specs_json back into object for api
+        // Parse specs_json and volumes back into objects for api
         const parsedRows = rows.map(r => ({
           ...r,
-          specs: r.specs_json ? JSON.parse(r.specs_json) : []
+          specs: r.specs_json ? JSON.parse(r.specs_json) : [],
+          volumes: r.volumes ? JSON.parse(r.volumes) : []
         }));
         resolve(parsedRows);
       });
@@ -337,7 +542,8 @@ async function getProductsList() {
     const data = await readJsonDb();
     return data.products.map(p => ({
       ...p,
-      specs: p.specs_json ? JSON.parse(p.specs_json) : []
+      specs: p.specs_json ? JSON.parse(p.specs_json) : [],
+      volumes: p.volumes ? (typeof p.volumes === 'string' ? JSON.parse(p.volumes) : p.volumes) : []
     }));
   }
 }
@@ -374,9 +580,10 @@ async function saveProduct(p) {
         INSERT INTO products (
           sku, name, category, brand, sectors, oems, 
           fill_height, fill_color, badge_class, badge_text, 
+          photo_url, volumes,
           description, specs_json, pack_desc, 
           canister_vol, canister_price, barrel_vol, barrel_price, gauge_markings
-        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         ON CONFLICT(sku) DO UPDATE SET
           name=excluded.name,
           category=excluded.category,
@@ -387,6 +594,8 @@ async function saveProduct(p) {
           fill_color=excluded.fill_color,
           badge_class=excluded.badge_class,
           badge_text=excluded.badge_text,
+          photo_url=excluded.photo_url,
+          volumes=excluded.volumes,
           description=excluded.description,
           specs_json=excluded.specs_json,
           pack_desc=excluded.pack_desc,
@@ -398,10 +607,12 @@ async function saveProduct(p) {
       `);
       
       const specsJson = typeof p.specs === 'object' ? JSON.stringify(p.specs) : (p.specs_json || '[]');
-      
+      const volumesJson = Array.isArray(p.volumes) ? JSON.stringify(p.volumes) : (p.volumes || '[]');
+
       stmt.run(
         p.sku, p.name, p.category, p.brand, p.sectors, p.oems,
         parseInt(p.fill_height) || 50, p.fill_color || 'amber', p.badge_class || '', p.badge_text || '',
+        p.photo_url || '', volumesJson,
         p.description || '', specsJson, p.pack_desc || '',
         parseFloat(p.canister_vol) || 0, parseFloat(p.canister_price) || 0,
         parseFloat(p.barrel_vol) || 0, parseFloat(p.barrel_price) || 0,
@@ -410,7 +621,8 @@ async function saveProduct(p) {
           if (err) return reject(err);
           resolve({
             ...p,
-            specs: JSON.parse(specsJson)
+            specs: JSON.parse(specsJson),
+            volumes: JSON.parse(volumesJson)
           });
         }
       );
@@ -419,6 +631,7 @@ async function saveProduct(p) {
   } else {
     const data = await readJsonDb();
     const specsJson = typeof p.specs === 'object' ? JSON.stringify(p.specs) : (p.specs_json || '[]');
+    const volumesJson = Array.isArray(p.volumes) ? JSON.stringify(p.volumes) : (p.volumes || '[]');
     const newProduct = {
       sku: p.sku,
       name: p.name,
@@ -430,6 +643,8 @@ async function saveProduct(p) {
       fill_color: p.fill_color || 'amber',
       badge_class: p.badge_class || '',
       badge_text: p.badge_text || '',
+      photo_url: p.photo_url || '',
+      volumes: volumesJson,
       description: p.description || '',
       specs_json: specsJson,
       pack_desc: p.pack_desc || '',
@@ -450,7 +665,8 @@ async function saveProduct(p) {
     await writeJsonDb(data);
     return {
       ...newProduct,
-      specs: JSON.parse(specsJson)
+      specs: JSON.parse(specsJson),
+      volumes: JSON.parse(volumesJson)
     };
   }
 }

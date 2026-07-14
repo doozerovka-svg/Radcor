@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Официальный импортер и оптовый поставщик автомобильных масел MOL, смазок и автохимии в Молдове - Radcor-Prim SRL">
-    <title>Radcor-Prim — Оптовый каталог масел & автохимии MOL</title>
+    <meta name="description" content="Официальный импортер и оптовый поставщик автомобильных масел MOL, антифризов, автохимии в Молдове — Radcor-Prim SRL">
+    <title>Radcor-Prim — Каталог масел, антифризов и автохимии оптом</title>
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,42 +13,36 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@500;700&family=Space+Mono&display=swap" rel="stylesheet">
     
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="style.css?v=9.0">
+    <link rel="stylesheet" href="style.css?v=10.0">
 </head>
 <body>
-    <!-- Interactive Background Particles -->
-    <canvas id="bgCanvas"></canvas>
 
-    <!-- Фоновые водяные знаки для глубины интерфейса -->
-    <div class="bg-watermark vertical-left">RADCOR PRIM</div>
-    <div class="bg-watermark vertical-right">EST. 2016</div>
-
-    <!-- Floating B2B Cart Button (Плавающая кнопка корзины опта) -->
-    <div class="floating-cart-btn double-border" id="cartBtn">
+    <!-- Floating B2B Cart Button -->
+    <div class="floating-cart-btn" id="cartBtn" title="Корзина заказа">
         <span class="cart-icon">🛒</span>
         <span class="cart-count" id="cartCount">0</span>
     </div>
 
-    <!-- B2B Cart Drawer (Выдвижная панель корзины) -->
-    <div class="cart-drawer double-border" id="cartDrawer">
+    <!-- B2B Cart Drawer -->
+    <div class="cart-drawer" id="cartDrawer">
         <div class="drawer-header">
             <h3>Корзина оптового заказа</h3>
             <button class="drawer-close" id="cartClose">&times;</button>
         </div>
         <div class="drawer-content">
             <div class="cart-items-list" id="cartItemsList">
-                <p class="empty-cart-msg">Корзина пуста. Добавьте масла или технические жидкости из каталога.</p>
+                <p class="empty-cart-msg">Корзина пуста. Добавьте продукцию из каталога.</p>
             </div>
         </div>
         <div class="drawer-footer">
             <div class="cart-totals">
                 <div class="total-row">
-                    <span>Общий объем жидкостей:</span>
+                    <span>Общий объем:</span>
                     <span id="totalVolume" class="code-font text-amber">0 л</span>
                 </div>
                 <div class="total-row">
                     <span>До бесплатной доставки:</span>
-                    <span id="deliveryProgress" class="code-font text-green">Осталось 1,500 MDL</span>
+                    <span id="deliveryProgress" class="code-font text-green">Осталось 1 500 MDL</span>
                 </div>
                 <div class="total-row main-total">
                     <span>Сумма заказа:</span>
@@ -59,6 +53,38 @@
         </div>
     </div>
     <div class="cart-overlay" id="cartOverlay"></div>
+
+    <!-- Login Modal -->
+    <div class="modal-overlay" id="loginModal">
+        <div class="login-modal">
+            <div class="login-modal-header">
+                <div>
+                    <h2>Личный кабинет</h2>
+                    <p>Войдите для просмотра заказов и специальных условий</p>
+                </div>
+                <button class="modal-close" id="modalClose">&times;</button>
+            </div>
+            <form class="login-form" id="loginForm">
+                <div class="form-group">
+                    <label for="loginEmail">Email или телефон</label>
+                    <input type="text" id="loginEmail" placeholder="company@example.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="loginPassword">Пароль</label>
+                    <input type="password" id="loginPassword" placeholder="••••••••" required>
+                </div>
+                <button type="submit" class="btn btn-primary full-width">Войти в кабинет</button>
+            </form>
+            <div class="login-divider" style="margin: 20px 0;">или</div>
+            <div class="login-b2b-note">
+                🏢 Хотите стать партнёром?<br>
+                <a href="#b2b">Оставьте заявку</a> — наш менеджер свяжется в течение часа.
+            </div>
+            <p class="login-footer-note" style="margin-top: 16px;">
+                Ещё нет доступа? <a href="#b2b" id="registerLink">Запросить доступ</a>
+            </p>
+        </div>
+    </div>
 
     <!-- Header / Навигация -->
     <header class="main-header">
@@ -81,8 +107,12 @@
                     <li><a href="contacts.html">Контакты</a></li>
                 </ul>
                 <div class="nav-actions">
-                    <a href="admin.html" class="btn btn-secondary btn-sm double-border" style="padding: 10px 16px; font-size: 13px; margin-right: 8px;">Управление</a>
-                    <a href="b2b-dashboard.html" class="btn-b2b double-border">B2B Кабинет</a>
+                    <a href="admin.html" class="btn btn-secondary btn-sm">Управление</a>
+                    <a href="b2b-dashboard.html" class="btn-b2b">B2B Кабинет</a>
+                    <button class="btn-login" id="loginBtn">
+                        <span class="login-avatar">👤</span>
+                        <span id="loginBtnLabel">Войти</span>
+                    </button>
                     <div class="lang-selector">
                         <span class="active">RU</span>
                         <span>|</span>
@@ -94,49 +124,86 @@
         <div class="header-gauge-line"></div>
     </header>
 
+    <!-- ===== MAIN CATALOG ===== -->
     <main class="catalog-page-main">
-        <div class="container main-catalog-layout">
+        <div class="main-catalog-layout">
             
-            <!-- Левый сайдбар (Sidebar-driven Catalog) -->
-            <aside class="catalog-sidebar double-border">
-                <div class="sidebar-section-title code-font">Категории подбора</div>
-                <ul class="sidebar-menu">
-                    <li class="menu-item" data-sector="recent"><span class="item-icon">⏱</span>Последние</li>
-                    <li class="menu-item" data-sector="saved"><span class="item-icon">⭐</span>Сохраненные</li>
-                    <li class="menu-item-divider"></li>
-                    <li class="menu-item active" data-sector="all"><span class="item-icon">⚙️</span>Все секторы</li>
-                    <li class="menu-item" data-sector="passenger"><span class="item-icon">🚗</span>Легковой</li>
-                    <li class="menu-item" data-sector="van"><span class="item-icon">🚐</span>Фургон</li>
-                    <li class="menu-item" data-sector="truck"><span class="item-icon">🚛</span>Грузовой</li>
-                    <li class="menu-item" data-sector="moto"><span class="item-icon">🏍</span>Мотоцикл</li>
-                    <li class="menu-item" data-sector="marine"><span class="item-icon">🚢</span>Судовой</li>
-                    <li class="menu-item" data-sector="agro"><span class="item-icon">🚜</span>Аграрный</li>
-                    <li class="menu-item" data-sector="electric"><span class="item-icon">🔌</span>Электромобили</li>
-                    <li class="menu-item-divider"></li>
-                    <li class="menu-item" data-sector="axle"><span class="item-icon">⛓</span>Ось / Привод</li>
-                    <li class="menu-item" data-sector="transmission"><span class="item-icon">🕹</span>Трансмиссия</li>
-                    <li class="menu-item" data-sector="body"><span class="item-icon">💡</span>Кузов и освещение</li>
-                    <li class="menu-item-divider"></li>
-                    <li class="menu-item search-type" data-sector="vin"><span class="item-icon">🆔</span>VIN-номер</li>
-                    <li class="menu-item search-type" data-sector="engine"><span class="item-icon">🔧</span>Код двигателя</li>
-                    <li class="menu-item search-type" data-sector="ktype"><span class="item-icon">📋</span>Код K-type</li>
-                </ul>
+            <!-- Left Sidebar: Categories + Filters -->
+            <aside class="catalog-sidebar" id="catalogSidebar">
+                <div class="sidebar-cat-header">Категории товаров</div>
+                
+                <div class="sidebar-category-list" id="sidebarCategoryList">
+                    <div class="sidebar-cat-item active" data-cat="all">
+                        Все товары <span class="cat-count" id="count-all">—</span>
+                    </div>
+                    <div class="sidebar-cat-item" data-cat="motor-oils">
+                        🛢 Автомобильные масла <span class="cat-count" id="count-motor-oils">—</span>
+                    </div>
+                    <div class="sidebar-cat-item" data-cat="coolants">
+                        ❄️ Охлаждающие жидкости <span class="cat-count" id="count-coolants">—</span>
+                    </div>
+                    <div class="sidebar-cat-item" data-cat="autochemistry">
+                        🔧 Автохимия и смазки <span class="cat-count" id="count-autochemistry">—</span>
+                    </div>
+                    <div class="sidebar-cat-item" data-cat="winter">
+                        ❄ Зимняя программа <span class="cat-count" id="count-winter">—</span>
+                    </div>
+                    <div class="sidebar-cat-item" data-cat="accessories">
+                        📦 Расходники и аксессуары <span class="cat-count" id="count-accessories">—</span>
+                    </div>
+                    <div class="sidebar-cat-item" data-cat="industrial">
+                        🏭 Промышленный сектор <span class="cat-count" id="count-industrial">—</span>
+                    </div>
+                </div>
+                
+                <div class="sidebar-divider"></div>
+                
+                <!-- Dynamic Filters -->
+                <div class="sidebar-filters" id="sidebarFilters">
+                    <div class="filter-group" id="filterBrandGroup" style="display:none;">
+                        <div class="filter-group-title">Производитель</div>
+                        <div class="filter-options" id="filterBrandOptions"></div>
+                    </div>
+                    <div class="filter-group" id="filterVolumeGroup" style="display:none;">
+                        <div class="filter-group-title">Объём (л)</div>
+                        <div class="filter-options" id="filterVolumeOptions"></div>
+                    </div>
+                </div>
+                
+                <div class="sidebar-divider"></div>
+                
+                <!-- Oil Selector CTA -->
+                <a href="https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/konsul-tant-po-motornym-maslam-i-smazocnym-materialam/" 
+                   target="_blank" 
+                   rel="noopener noreferrer"
+                   class="oil-selector-btn" id="oilSelectorBtn">
+                    <span class="oil-selector-icon">🔧</span>
+                    <span>Подбор масла по автомобилю</span>
+                </a>
             </aside>
 
-            <!-- Правый блок: Строка поиска, вкладки и сетка каталога -->
+            <!-- Right Content Pane -->
             <section class="catalog-content-pane">
                 
-                <!-- Верхняя поисковая строка -->
-                <div class="catalog-search-bar-wrap double-border">
-                    <span class="search-icon">🔍</span>
-                    <input type="text" id="catalogSearch" placeholder="Укажите производителя, вязкость, допуск или артикул...">
+                <!-- Search Bar -->
+                <div class="catalog-topbar">
+                    <div class="catalog-search-bar-wrap">
+                        <span class="search-icon">🔍</span>
+                        <input type="text" id="catalogSearch" placeholder="Поиск по названию, бренду, артикулу, допускам...">
+                    </div>
                 </div>
 
-                <!-- Блок симуляции VIN-декодера (Показывается при сканировании VIN) -->
-                <div class="vin-decoder-panel double-border" id="vinDecoderPanel">
+                <!-- Breadcrumb / Category Title -->
+                <div class="catalog-breadcrumb">
+                    <h1 class="breadcrumb-title" id="catalogBreadcrumbTitle">Все товары</h1>
+                    <span class="breadcrumb-count" id="catalogProductCount">—</span>
+                </div>
+
+                <!-- VIN Decoder Panel (toggled by JS when VIN mode active) -->
+                <div class="vin-decoder-panel" id="vinDecoderPanel">
                     <div class="scanner-header">
-                        <span class="scan-status text-amber code-font">⚡ Анализ данных VIN...</span>
-                        <div class="progress-bar-scan"><div class="fill-bar-scan"></div></div>
+                        <span class="scan-status code-font">⚡ Анализ данных VIN...</span>
+                        <div class="progress-bar-scan"><div class="fill-bar-scan" id="fillBarScan"></div></div>
                     </div>
                     <div class="scanner-results" id="scannerResults">
                         <div class="result-vehicle-name">Mercedes-Benz Sprinter 316 CDI (OM651)</div>
@@ -152,61 +219,20 @@
                     </div>
                 </div>
 
-                <!-- Навигационные вкладки брендов -->
-                <div class="catalog-tabs-panel double-border">
-                    <div class="tabs-label code-font" id="catalogBreadcrumbs">Все секторы > ВЫБЕРИТЕ ПРОИЗВОДИТЕЛЯ:</div>
-                    
-                    <button class="btn btn-secondary btn-sm double-border" id="backToBrandsBtn">← К автомаркам</button>
-                    
-                    <div class="catalog-tabs" id="catalogTabsWrap">
-                        <button class="tab-filter-btn active" data-brand="all">Все</button>
-                        <button class="tab-filter-btn mol-tab-btn" data-brand="MOL">Официальный MOL</button>
-                        <button class="tab-filter-btn" data-brand="other">Другие бренды</button>
-                    </div>
-                </div>
-
-                <!-- Сетка автопроизводителей (Двухэтапный подбор по маркам авто) -->
-                <div class="brand-selection-grid" id="brandSelectionGrid">
-                    <div class="brand-select-card double-border" data-brand-name="Citroen">
-                        <span class="brand-letter">C</span>
-                        <span class="brand-select-name">CITROEN</span>
-                    </div>
-                    <div class="brand-select-card double-border" data-brand-name="Ford">
-                        <span class="brand-letter">F</span>
-                        <span class="brand-select-name">FORD</span>
-                    </div>
-                    <div class="brand-select-card double-border" data-brand-name="Mercedes-Benz">
-                        <span class="brand-letter">M</span>
-                        <span class="brand-select-name">MERCEDES-BENZ</span>
-                    </div>
-                    <div class="brand-select-card double-border" data-brand-name="Peugeot">
-                        <span class="brand-letter">P</span>
-                        <span class="brand-select-name">PEUGEOT</span>
-                    </div>
-                    <div class="brand-select-card double-border" data-brand-name="Renault">
-                        <span class="brand-letter">R</span>
-                        <span class="brand-select-name">RENAULT</span>
-                    </div>
-                    <div class="brand-select-card double-border" data-brand-name="Volkswagen">
-                        <span class="brand-letter">V</span>
-                        <span class="brand-select-name">VOLKSWAGEN</span>
-                    </div>
-                </div>
-
-                <!-- Сетка товаров (Колбы жидкостей с пузырьками) -->
+                <!-- Product Grid -->
                 <div class="catalog-grid" id="catalogGrid">
-                    <div class="catalog-loader" id="catalogLoader" style="grid-column: 1 / -1; text-align: center; padding: 48px; color: var(--colour-text-muted); font-family: var(--font-code); border: 1px dashed rgba(255,255,255,0.1); border-radius: 8px;">
-                        <span style="font-size: 24px; display: block; margin-bottom: 12px;">⏳</span>
-                        Загрузка каталога продукции Radcor...
+                    <div class="catalog-loader" id="catalogLoader">
+                        <span class="catalog-loader-spinner">⏳</span>
+                        Загрузка каталога Radcor-Prim...
                     </div>
                 </div>
             </section>
         </div>
     </main>
 
-    <!-- Brand Spotlight: MOL Lubricants & Lube Finder Wizard -->
+    <!-- MOL Brand Spotlight & Lube Finder -->
     <section id="mol-brand" class="mol-spotlight-section">
-        <div class="container mol-spotlight-container">
+        <div class="mol-spotlight-container">
             <div class="mol-spotlight-info">
                 <span class="mol-tag">MOL LUBRICANTS</span>
                 <h2>Премиальные масла из самого сердца Европы</h2>
@@ -214,8 +240,8 @@
                     Radcor-Prim является официальным авторизованным представителем венгерского нефтегазового концерна <strong>MOL</strong> на территории Республики Молдова. Мы гарантируем прямые поставки с завода-изготовителя, стабильный складской запас всей линейки и специальные ценовые соглашения для дилеров.
                 </p>
                 
-                <!-- Пошаговый мастер подбора MOL Lube Finder Wizard -->
-                <div class="mol-lube-finder double-border" id="lubeFinderWizard">
+                <!-- Помощник подбора масел MOL -->
+                <div class="mol-lube-finder" id="lubeFinderWizard">
                     <h3>Помощник подбора масел MOL</h3>
                     <p class="wizard-desc">Выберите параметры вашей техники для рекомендации оптимального масла:</p>
                     
@@ -224,9 +250,9 @@
                         <div class="wizard-step active" data-step="1">
                             <p class="step-question code-font">Шаг 1: Выберите тип транспорта</p>
                             <div class="wizard-buttons">
-                                <button type="button" class="btn btn-secondary wizard-next-btn" data-val="passenger">🚗 Легковой авто</button>
-                                <button type="button" class="btn btn-secondary wizard-next-btn" data-val="commercial">🚛 Коммерческий транспорт</button>
-                                <button type="button" class="btn btn-secondary wizard-next-btn" data-val="agro">🚜 Сельхозтехника</button>
+                                <button type="button" class="btn wizard-next-btn" data-val="passenger">🚗 Легковой авто</button>
+                                <button type="button" class="btn wizard-next-btn" data-val="commercial">🚛 Коммерческий транспорт</button>
+                                <button type="button" class="btn wizard-next-btn" data-val="agro">🚜 Сельхозтехника</button>
                             </div>
                         </div>
                         
@@ -234,20 +260,20 @@
                         <div class="wizard-step" data-step="2">
                             <p class="step-question code-font">Шаг 2: Вязкость двигателя</p>
                             <div class="wizard-buttons">
-                                <button type="button" class="btn btn-secondary wizard-next-btn" data-val="5w-30">5W-30 (Синтетика)</button>
-                                <button type="button" class="btn btn-secondary wizard-next-btn" data-val="10w-40">10W-40 (Полусинтетика)</button>
+                                <button type="button" class="btn wizard-next-btn" data-val="5w-30">5W-30 (Синтетика)</button>
+                                <button type="button" class="btn wizard-next-btn" data-val="10w-40">10W-40 (Полусинтетика)</button>
                             </div>
                         </div>
                         
-                        <!-- Step 3 (Result) -->
+                        <!-- Step 3 Result -->
                         <div class="wizard-step" data-step="3">
                             <p class="step-question code-font">Рекомендация MOL:</p>
-                            <div class="wizard-result-box" id="wizardResultBox">
-                                <h4 class="text-amber" id="wizardResultTitle">MOL Essence 5W-30</h4>
+                            <div class="wizard-result-box">
+                                <h4 id="wizardResultTitle">MOL Essence 5W-30</h4>
                                 <p id="wizardResultDesc">Специально рекомендовано для бензиновых и дизельных двигателей легковых машин с высокими требованиями экономии топлива.</p>
                             </div>
-                            <button type="button" class="btn btn-primary btn-sm" id="wizardAddCartBtn" style="margin-top: 16px; margin-right: 12px;">В заказ</button>
-                            <button type="button" class="btn btn-secondary btn-sm" id="wizardRestartBtn" style="margin-top: 16px;">Начать заново</button>
+                            <button type="button" class="btn btn-primary btn-sm" id="wizardAddCartBtn" style="margin-top: 14px; margin-right: 10px;">В заказ</button>
+                            <button type="button" class="btn btn-secondary btn-sm" id="wizardRestartBtn" style="margin-top: 14px;">Начать заново</button>
                         </div>
                     </div>
                 </div>
@@ -263,9 +289,9 @@
         </div>
     </section>
 
-    <!-- B2B & Wholesale Section / Опт и преимущества -->
+    <!-- B2B & Wholesale Section -->
     <section id="b2b" class="b2b-section">
-        <div class="container b2b-container">
+        <div class="b2b-container">
             <div class="b2b-content">
                 <span class="eyebrow text-amber">Сотрудничество</span>
                 <h2>Условия для B2B партнеров</h2>
@@ -295,7 +321,7 @@
                     </div>
                 </div>
             </div>
-            <div class="b2b-form-wrap double-border">
+            <div class="b2b-form-wrap">
                 <h3>Стать партнером Radcor</h3>
                 <p>Заполните форму, и наш менеджер свяжется с вами для предоставления оптового прайс-листа.</p>
                 <form class="b2b-form" id="b2bForm">
@@ -313,61 +339,55 @@
                     </div>
                     <button type="submit" class="btn btn-primary full-width">Отправить запрос</button>
                 </form>
-                <div id="formSuccess" class="form-success-msg">Ваша заявка принята! Менеджер перезвонит вам в течение часа.</div>
+                <div id="formSuccess" class="form-success-msg">✅ Ваша заявка принята! Менеджер перезвонит в течение часа.</div>
             </div>
         </div>
     </section>
 
-    <!-- Contacts Section / Контакты -->
+    <!-- Contacts Section -->
     <section id="contacts" class="contacts-section">
-        <div class="container">
-            <div class="contacts-grid">
-                <div class="contact-info-block">
-                    <h2>Контакты компании</h2>
-                    <p class="contacts-lead">Центральный склад и офис компании Radcor-Prim SRL:</p>
-                    
-                    <div class="contact-details">
-                        <div class="detail-item">
-                            <span class="detail-icon">📍</span>
-                            <p>Молдова, г. Кишинев, ул. Петрикань 84/1</p>
-                        </div>
-                        <div class="detail-item">
-                            <span class="detail-icon">📧</span>
-                            <a href="mailto:radcor-prim@mail.ru">radcor-prim@mail.ru</a>
-                        </div>
-                        <div class="detail-item">
-                            <span class="detail-icon">📞</span>
-                            <a href="tel:+37322000000">+373 22 00-00-00</a>
-                        </div>
-                        <div class="detail-item">
-                            <span class="detail-icon">⏰</span>
-                            <p>Пн-Пт: 8:00 - 18:00, Сб: 8:00 - 15:00</p>
-                        </div>
+        <div class="contacts-grid">
+            <div class="contact-info-block">
+                <h2>Контакты компании</h2>
+                <p class="contacts-lead">Центральный склад и офис компании Radcor-Prim SRL:</p>
+                
+                <div class="contact-details">
+                    <div class="detail-item">
+                        <span class="detail-icon">📍</span>
+                        <p>Молдова, г. Кишинев, ул. Петрикань 84/1</p>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-icon">📧</span>
+                        <a href="mailto:radcor-prim@mail.ru">radcor-prim@mail.ru</a>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-icon">📞</span>
+                        <a href="tel:+37322000000">+373 22 00-00-00</a>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-icon">⏰</span>
+                        <p>Пн-Пт: 8:00 - 18:00, Сб: 8:00 - 15:00</p>
                     </div>
                 </div>
-                <div class="map-placeholder double-border">
-                    <div class="map-overlay">
-                        <h4>Расположение на карте</h4>
-                        <p>ул. Петрикань, Кишинев, Молдова</p>
-                        <a href="https://yandex.ru/maps/-/CCUgu-b5" target="_blank" class="btn btn-secondary btn-sm">Открыть карту</a>
-                    </div>
+            </div>
+            <div class="map-placeholder">
+                <div class="map-overlay">
+                    <h4>Расположение на карте</h4>
+                    <p>ул. Петрикань 84/1, Кишинев</p>
+                    <a href="https://yandex.ru/maps/-/CCUgu-b5" target="_blank" class="btn btn-secondary btn-sm">Открыть карту</a>
                 </div>
             </div>
         </div>
     </section>
-</main>
 
-<!-- Footer / Подвал -->
-<footer class="main-footer">
-    <div class="container">
+    <!-- Footer -->
+    <footer class="main-footer">
         <div class="footer-bottom">
-            <p>&copy; 2026 Radcor-Prim SRL. Все права защищены. Официальный представитель масел MOL.</p>
+            <p>&copy; 2026 Radcor-Prim SRL. Все права защищены. Официальный представитель масел MOL в Молдове.</p>
         </div>
-    </div>
-</footer>
+    </footer>
 
-<!-- App Logic -->
-<script src="app.js"></script>
+    <!-- App Logic -->
+    <script src="app.js"></script>
 </body>
 </html>
-<!-- GitHub Pages Deployment Trigger -->
