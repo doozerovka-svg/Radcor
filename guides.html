@@ -8,7 +8,42 @@
   <link rel="stylesheet" href="style.css?v=10.1">
 </head>
 <body>
-  <header class="main-header"><div class="header-container"><a href="index.html" class="logo"><span class="logo-accent">R</span>ADCOR<span class="logo-sub">prim</span></a><nav class="main-nav"><ul class="nav-links"><li><a href="catalog.html">Каталог</a></li><li><a href="service.html">Автосервис</a></li><li><a href="delivery.html">Доставка и оплата</a></li><li><a href="guides.html" class="active" aria-current="page">Руководства</a></li><li><a href="contacts.html">Контакты</a></li></ul></nav></div><div class="header-gauge-line"></div></header>
+  <header class="main-header">
+      <div class="header-container">
+          <a href="index.html" class="logo">
+              <span class="logo-accent">R</span>ADCOR<span class="logo-sub">prim</span>
+          </a>
+          
+          <button class="nav-toggle" aria-label="Открыть меню" id="navToggle">
+              <span class="hamburger"></span>
+          </button>
+          
+          <nav class="main-nav" id="mainNav">
+              <ul class="nav-links">
+                  <li><a href="catalog.html">Каталог</a></li>
+                  <li><a href="service.html">Автосервис</a></li>
+                  <li><a href="delivery.html">Доставка и оплата</a></li>
+                  <li><a href="returns.html">Гарантия и возврат</a></li>
+                  <li><a href="guides.html" class="active">Руководства</a></li>
+                  <li><a href="faq.html">FAQ</a></li>
+                  <li><a href="contacts.html">Контакты</a></li>
+              </ul>
+              <div class="nav-actions">
+                  <a href="b2b-dashboard.html" class="btn-b2b">B2B Кабинет</a>
+                  <button class="btn-login" id="loginBtn">
+                      <span class="login-avatar">👤</span>
+                      <span id="loginBtnLabel">Войти</span>
+                  </button>
+                  <div class="lang-selector">
+                      <span class="active">RU</span>
+                      <span>|</span>
+                      <a href="#" class="lang-link">RO</a>
+                  </div>
+              </div>
+          </nav>
+      </div>
+      <div class="header-gauge-line"></div>
+  </header>
   <main class="dashboard-main container">
     <div class="section-title-wrap"><span class="eyebrow">Помощь перед покупкой</span><h1>Руководства</h1><p>Короткие инструкции для подбора, заказа, доставки и документов.</p></div>
     <section class="dashboard-widgets-grid">

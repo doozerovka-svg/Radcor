@@ -181,6 +181,7 @@ h4 { font-size: 0.95rem; font-weight: 600; letter-spacing: 0; }
     align-items: center;
     justify-content: space-between;
     padding: 0 24px;
+    position: relative;
 }
 
 .logo {
@@ -228,6 +229,19 @@ h4 { font-size: 0.95rem; font-weight: 600; letter-spacing: 0; }
 .nav-links a.active {
     color: var(--colour-text);
     border-bottom-color: var(--colour-accent);
+}
+
+@media (min-width: 1025px) {
+    .nav-links {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        gap: 32px; /* slightly increased gap for spaciousness */
+    }
+    .main-nav {
+        flex: 1;
+        justify-content: flex-end;
+    }
 }
 
 .nav-actions {
@@ -1655,7 +1669,7 @@ h4 { font-size: 0.95rem; font-weight: 600; letter-spacing: 0; }
 }
 
 .hero-section {
-    padding: 80px 0;
+    padding: 120px 0;
     background: #ffffff;
     border-bottom: 1px solid var(--colour-border);
 }
@@ -1666,7 +1680,7 @@ h4 { font-size: 0.95rem; font-weight: 600; letter-spacing: 0; }
     padding: 0 24px;
     display: grid;
     grid-template-columns: 1.2fr 0.8fr;
-    gap: 60px;
+    gap: 80px;
     align-items: center;
 }
 
@@ -1752,7 +1766,7 @@ h4 { font-size: 0.95rem; font-weight: 600; letter-spacing: 0; }
 
 /* About Stats */
 .about-stats-section {
-    padding: 60px 0;
+    padding: 100px 0;
     background: var(--colour-surface-2);
     border-bottom: 1px solid var(--colour-border);
 }
@@ -1760,7 +1774,7 @@ h4 { font-size: 0.95rem; font-weight: 600; letter-spacing: 0; }
 .stats-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
+    gap: 40px;
 }
 
 .stat-card {
@@ -1804,7 +1818,7 @@ h4 { font-size: 0.95rem; font-weight: 600; letter-spacing: 0; }
 
 /* Categories Section */
 .landing-categories-section {
-    padding: 80px 0;
+    padding: 120px 0;
     background: #ffffff;
     border-bottom: 1px solid var(--colour-border);
 }
@@ -1812,8 +1826,8 @@ h4 { font-size: 0.95rem; font-weight: 600; letter-spacing: 0; }
 .categories-grid-landing {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
-    margin-top: 50px;
+    gap: 40px;
+    margin-top: 60px;
 }
 
 .cat-landing-card {
