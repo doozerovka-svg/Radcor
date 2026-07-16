@@ -152,7 +152,7 @@ h4 { font-size: 0.95rem; font-weight: 600; letter-spacing: 0; }
     background-color: var(--colour-surface-2);
     transform: translateY(-1px);
 }
-.btn-sm { padding: 8px 16px; font-size: 0.82rem; }
+.btn-sm { padding: 5px 10px; font-size: 0.8rem; }
 .btn-icon { padding: 8px; border-radius: var(--radius-sm); }
 .full-width { width: 100%; }
 
@@ -174,7 +174,7 @@ h4 { font-size: 0.95rem; font-weight: 600; letter-spacing: 0; }
 }
 
 .header-container {
-    max-width: var(--container-width);
+    max-width: 1440px;
     margin: 0 auto;
     height: 100%;
     display: flex;
@@ -232,28 +232,63 @@ h4 { font-size: 0.95rem; font-weight: 600; letter-spacing: 0; }
     border-bottom-color: var(--colour-accent);
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 1151px) {
+    .header-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1440px;
+    }
+    .logo {
+        flex: 0 0 160px;
+        transition: flex var(--transition);
+    }
+    .main-nav {
+        display: flex;
+        flex: 1;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 20px;
+    }
     .nav-links {
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        gap: 16px;
+        position: static;
+        transform: none;
+        display: flex;
+        gap: 14px;
     }
     .nav-links a {
         font-size: 0.8rem;
     }
-    .main-nav {
-        flex: 1;
+    .nav-actions {
+        flex: 0 0 410px;
+        display: flex;
         justify-content: flex-end;
+        align-items: center;
+        gap: 12px;
     }
 }
 
 @media (min-width: 1280px) {
     .nav-links {
+        gap: 20px;
+    }
+    .nav-links a {
+        font-size: 0.85rem;
+    }
+}
+
+@media (min-width: 1440px) {
+    .nav-links {
         gap: 28px;
     }
     .nav-links a {
         font-size: 0.875rem;
+    }
+}
+
+@media (min-width: 1600px) {
+    .logo {
+        flex: 0 0 410px;
     }
 }
 
@@ -1583,7 +1618,7 @@ h4 { font-size: 0.95rem; font-weight: 600; letter-spacing: 0; }
 /* ==========================================================================
    RESPONSIVE STYLES
    ========================================================================== */
-@media (max-width: 1024px) {
+@media (max-width: 1150px) {
     .main-catalog-layout {
         grid-template-columns: 1fr;
     }
@@ -1622,7 +1657,7 @@ h4 { font-size: 0.95rem; font-weight: 600; letter-spacing: 0; }
     .dashboard-bottom-grid { grid-template-columns: 1fr; }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1150px) {
     .nav-toggle { display: block; }
     .main-nav {
         position: fixed;
@@ -1882,7 +1917,7 @@ h4 { font-size: 0.95rem; font-weight: 600; letter-spacing: 0; }
     line-height: 1.6;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1150px) {
     .hero-container {
         grid-template-columns: 1fr;
         gap: 40px;
