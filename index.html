@@ -99,7 +99,6 @@
             
             <nav class="main-nav" id="mainNav">
                 <ul class="nav-links">
-                    <li><a href="index.html" class="active">Главная</a></li>
                     <li><a href="catalog.html">Каталог</a></li>
                     <li><a href="service.html">Автосервис</a></li>
                     <li><a href="delivery.html">Доставка и оплата</a></li>
@@ -142,11 +141,65 @@
                     </div>
                 </div>
                 <div class="hero-visual">
-                    <div class="hero-canister-display">
-                        <div class="canister-inner">
-                            <span class="canister-logo">MOL</span>
-                            <span class="canister-badge">Premium</span>
-                        </div>
+                    <div class="hero-visual-wrapper">
+                        <div class="hero-bg-glow"></div>
+                        <svg width="340" height="420" viewBox="0 0 340 420" fill="none" xmlns="http://www.w3.org/2000/svg" class="hero-svg-canister">
+                            <!-- Soft Shadow behind the canister -->
+                            <defs>
+                                <filter id="soft-shadow" x="-20%" y="-20%" width="140%" height="140%">
+                                    <feDropShadow dx="0" dy="24" stdDeviation="30" flood-color="#1B3FAB" flood-opacity="0.08" />
+                                    <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#000000" flood-opacity="0.03" />
+                                </filter>
+                                <linearGradient id="canister-grad" x1="0" y1="0" x2="1" y2="1">
+                                    <stop offset="0%" stop-color="#FFFFFF"/>
+                                    <stop offset="100%" stop-color="#F8FAFC"/>
+                                </linearGradient>
+                                <linearGradient id="label-grad" x1="0" y1="0" x2="0" y2="1">
+                                    <stop offset="0%" stop-color="#1E3A8A"/>
+                                    <stop offset="100%" stop-color="#1B3FAB"/>
+                                </linearGradient>
+                                <linearGradient id="mol-green" x1="0" y1="0" x2="1" y2="0">
+                                    <stop offset="0%" stop-color="#10B981"/>
+                                    <stop offset="100%" stop-color="#059669"/>
+                                </linearGradient>
+                            </defs>
+
+                            <g filter="url(#soft-shadow)">
+                                <!-- Canister Body -->
+                                <path d="M60,80 C60,60 80,50 100,50 L200,50 C220,50 240,60 240,80 L250,330 C250,350 230,370 210,370 L70,370 C50,370 30,350 30,330 L60,80 Z" fill="url(#canister-grad)" stroke="#E2E6ED" stroke-width="2.5"/>
+                                
+                                <!-- Handle Cutout -->
+                                <rect x="75" y="100" width="30" height="150" rx="15" fill="#FFFFFF" stroke="#E2E6ED" stroke-width="2"/>
+                                
+                                <!-- Cap -->
+                                <path d="M125,50 L125,32 C125,28 130,24 135,24 L165,24 C170,24 175,28 175,32 L175,50 Z" fill="#DC2626" stroke="#B91C1C" stroke-width="1.5"/>
+                                <line x1="133" y1="32" x2="167" y2="32" stroke="#FFFFFF" stroke-width="2"/>
+                                <line x1="133" y1="38" x2="167" y2="38" stroke="#FFFFFF" stroke-width="2"/>
+                                
+                                <!-- Premium Label on Canister -->
+                                <rect x="120" y="90" width="115" height="230" rx="8" fill="url(#label-grad)"/>
+                                
+                                <!-- Brand Stripe (MOL Green) -->
+                                <rect x="120" y="100" width="115" height="45" fill="url(#mol-green)"/>
+                                <text x="177" y="132" fill="#FFFFFF" font-family="'Space Grotesk', sans-serif" font-size="24" font-weight="700" text-anchor="middle" letter-spacing="1">MOL</text>
+                                
+                                <!-- Label details -->
+                                <text x="177" y="170" fill="#FFFFFF" font-family="'Inter', sans-serif" font-size="11" font-weight="600" text-anchor="middle" letter-spacing="1.5" opacity="0.9">DYNAMIC</text>
+                                <text x="177" y="195" fill="#FBBF24" font-family="'Space Grotesk', sans-serif" font-size="18" font-weight="700" text-anchor="middle">GOLD</text>
+                                
+                                <!-- Viscosity -->
+                                <rect x="150" y="215" width="55" height="22" rx="4" fill="#FFFFFF" fill-opacity="0.15"/>
+                                <text x="177" y="230" fill="#FFFFFF" font-family="'Space Mono', monospace" font-size="11" font-weight="700" text-anchor="middle">5W-30</text>
+                                
+                                <!-- Small details / barcode representation -->
+                                <line x1="140" y1="260" x2="215" y2="260" stroke="#FFFFFF" stroke-width="1.5" stroke-opacity="0.6"/>
+                                <line x1="140" y1="268" x2="195" y2="268" stroke="#FFFFFF" stroke-width="1.5" stroke-opacity="0.4"/>
+                                <line x1="140" y1="276" x2="205" y2="276" stroke="#FFFFFF" stroke-width="1.5" stroke-opacity="0.5"/>
+                                
+                                <!-- Small premium gold leaf icon -->
+                                <path d="M177,290 C182,290 185,295 185,300 C185,305 177,310 177,310 C177,310 169,305 169,300 C169,295 172,290 177,290 Z" fill="#FBBF24" opacity="0.8"/>
+                            </g>
+                        </svg>
                     </div>
                 </div>
             </div>
