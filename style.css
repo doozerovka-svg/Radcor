@@ -224,6 +224,7 @@ h4 { font-size: 0.95rem; font-weight: 600; letter-spacing: 0; }
     color: var(--colour-text-muted);
     padding: 4px 0;
     border-bottom: 2px solid transparent;
+    white-space: nowrap;
 }
 .nav-links a:hover,
 .nav-links a.active {
@@ -236,11 +237,23 @@ h4 { font-size: 0.95rem; font-weight: 600; letter-spacing: 0; }
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
-        gap: 32px; /* slightly increased gap for spaciousness */
+        gap: 16px;
+    }
+    .nav-links a {
+        font-size: 0.8rem;
     }
     .main-nav {
         flex: 1;
         justify-content: flex-end;
+    }
+}
+
+@media (min-width: 1280px) {
+    .nav-links {
+        gap: 28px;
+    }
+    .nav-links a {
+        font-size: 0.875rem;
     }
 }
 
