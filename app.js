@@ -152,6 +152,12 @@ document.addEventListener('DOMContentLoaded', () => {
     // SIDEBAR: DYNAMIC FILTERS (brands & volumes for current category)
     // ==========================================================================
     function renderSidebarFilters(products) {
+        const brandGroup  = document.getElementById('filterBrandGroup');
+        const volumeGroup = document.getElementById('filterVolumeGroup');
+        const brandOpts   = document.getElementById('filterBrandOptions');
+        const volumeOpts  = document.getElementById('filterVolumeOptions');
+        if (!brandOpts || !volumeOpts || !brandGroup || !volumeGroup) return;
+
         const filtered = catalogState.activeCategory === 'all'
             ? products
             : products.filter(p => p.category === catalogState.activeCategory);
@@ -169,11 +175,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 volumeMap[v] = (volumeMap[v] || 0) + 1;
             });
         });
-
-        const brandGroup  = document.getElementById('filterBrandGroup');
-        const volumeGroup = document.getElementById('filterVolumeGroup');
-        const brandOpts   = document.getElementById('filterBrandOptions');
-        const volumeOpts  = document.getElementById('filterVolumeOptions');
 
         // Render brand checkboxes
         const brands = Object.keys(brandMap).sort();
@@ -255,7 +256,17 @@ document.addEventListener('DOMContentLoaded', () => {
     // ==========================================================================
     // RENDER PRODUCT CARD
     // ==========================================================================
+    function getProductPacks(product) {
+        if (Array.isArray(product.packs) && product.packs.length) return product.packs;
+        return [
+            { id: 'canister', volume_l: Number(product.canister_vol), price_mdl: Number(product.canister_price) },
+            { id: 'barrel', volume_l: Number(product.barrel_vol), price_mdl: Number(product.barrel_price) }
+        ].filter(pack => pack.volume_l > 0);
+    }
+
     function getVolumePriceForProduct(product, selectedVol) {
+        const exactPack = getProductPacks(product).find(pack => Number(pack.volume_l) === Number(selectedVol));
+        if (exactPack) return Number(exactPack.price_mdl) || 0;
         // If multiple volumes, calculate per-liter price proportionally from canister
         const baseVol   = product.canister_vol || 1;
         const basePrice = product.canister_price || 0;
@@ -268,7 +279,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function renderProductCard(product) {
-        const volumes  = product.volumes || [];
+        const volumes  = getProductPacks(product).map(pack => pack.volume_l);
         const specs    = (product.specs || []).slice(0, 2); // show max 2 specs
         const emoji    = CATEGORY_EMOJI[product.category] || '📦';
         const firstVol = volumes.length > 0 ? volumes[0] : product.canister_vol;
@@ -373,7 +384,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // ==========================================================================
     // VOLUME TAG CLICK → UPDATE PRICE & CART DATA
     // ==========================================================================
-    document.getElementById('catalogGrid').addEventListener('click', e => {
+    document.getElementById('catalogGrid')?.addEventListener('click', e => {
         const volTag = e.target.closest('.volume-tag');
         if (volTag) {
             const card = volTag.closest('.product-card');
@@ -408,7 +419,9 @@ document.addEventListener('DOMContentLoaded', () => {
             const name  = addBtn.getAttribute('data-name');
             const price = parseFloat(addBtn.getAttribute('data-price'));
             const vol   = parseFloat(addBtn.getAttribute('data-vol'));
-            addToCart(sku, name, price, vol);
+            const product = allProducts.find(p => p.sku === sku);
+            const pack = product && getProductPacks(product).find(item => Number(item.volume_l) === vol);
+            addToCart(sku, name, price, vol, pack?.id || 'canister');
 
             // Visual feedback
             addBtn.textContent = '✓ Добавлено';
@@ -423,7 +436,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // ==========================================================================
     // SIDEBAR CATEGORY CLICK
     // ==========================================================================
-    document.getElementById('sidebarCategoryList').addEventListener('click', e => {
+    document.getElementById('sidebarCategoryList')?.addEventListener('click', e => {
         const item = e.target.closest('.sidebar-cat-item');
         if (!item) return;
         const cat = item.getAttribute('data-cat');
@@ -457,15 +470,15 @@ document.addEventListener('DOMContentLoaded', () => {
     // ==========================================================================
     // CART LOGIC
     // ==========================================================================
-    const cartItems = {}; // { sku_vol: { name, price, vol, qty } }
+    const cartItems = JSON.parse(localStorage.getItem('radcor_cart_v2') || '{}'); // { sku_pack: { name, price, vol, packId, qty } }
     const FREE_DELIVERY_THRESHOLD = 1500;
 
-    function addToCart(sku, name, price, vol) {
-        const key = `${sku}_${vol}`;
+    function addToCart(sku, name, price, vol, packId = 'canister') {
+        const key = `${sku}_${packId}`;
         if (cartItems[key]) {
             cartItems[key].qty += 1;
         } else {
-            cartItems[key] = { sku, name, price, vol, qty: 1 };
+            cartItems[key] = { sku, name, price, vol, packId, qty: 1 };
         }
         renderCart();
         openCart();
@@ -478,6 +491,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const volEl   = document.getElementById('totalVolume');
         const delEl   = document.getElementById('deliveryProgress');
         if (!list) return;
+        localStorage.setItem('radcor_cart_v2', JSON.stringify(cartItems));
 
         const keys = Object.keys(cartItems);
         if (keys.length === 0) {
@@ -560,6 +574,11 @@ document.addEventListener('DOMContentLoaded', () => {
     // ==========================================================================
     document.getElementById('checkoutBtn')?.addEventListener('click', async () => {
         const keys = Object.keys(cartItems);
+        if (keys.length > 0) {
+            localStorage.setItem('radcor_cart_v2', JSON.stringify(cartItems));
+            window.location.href = 'checkout.html';
+            return;
+        }
         if (keys.length === 0) { alert('Корзина пуста.'); return; }
 
         const items = keys.map(k => ({
@@ -846,6 +865,7 @@ document.addEventListener('DOMContentLoaded', () => {
         updateCategoryCounts(allProducts);
         renderSidebarFilters(allProducts);
         renderCatalog(allProducts);
+        renderCart();
     }
 
     init();

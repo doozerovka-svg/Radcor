@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Оформление заказа — Radcor-Prim</title>
+  <link rel="stylesheet" href="style.css?v=10.1">
+</head>
+<body>
+  <header class="main-header"><div class="header-container"><a href="index.html" class="logo"><span class="logo-accent">R</span>ADCOR<span class="logo-sub">prim</span></a><nav class="main-nav"><ul class="nav-links"><li><a href="index.html">Главная</a></li>
+                    <li><a href="catalog.html">Каталог</a></li><li><a href="delivery.html">Доставка и оплата</a></li><li><a href="contacts.html">Контакты</a></li></ul></nav></div><div class="header-gauge-line"></div></header>
+  <main class="dashboard-main container checkout-page">
+    <div class="section-title-wrap"><span class="eyebrow">B2B-заказ</span><h1>Оформление заказа</h1><p>Проверьте товары и оставьте контакты — менеджер подтвердит наличие и условия.</p></div>
+    <div id="checkoutMessage" class="form-success-msg" role="status" aria-live="polite"></div>
+    <div class="dashboard-widgets-grid">
+      <section class="dashboard-card double-border"><h2>1. Контакт</h2><form id="checkoutForm" novalidate>
+        <div class="form-group"><label for="companyName">Компания</label><input id="companyName" required autocomplete="organization"></div>
+        <div class="form-group"><label for="contactName">Контактное лицо</label><input id="contactName" required autocomplete="name"></div>
+        <div class="form-group"><label for="orderPhone">Телефон</label><input id="orderPhone" required type="tel" autocomplete="tel"></div>
+        <div class="form-group"><label for="orderEmail">Email</label><input id="orderEmail" type="email" autocomplete="email"></div>
+        <h2>2. Получение и оплата</h2>
+        <div class="form-group"><label for="deliveryMethod">Способ получения</label><select id="deliveryMethod"><option value="pickup">Самовывоз</option><option value="delivery">Доставка</option></select></div>
+        <div id="deliveryFields" hidden><div class="form-group"><label for="deliveryCity">Город</label><input id="deliveryCity"></div><div class="form-group"><label for="deliveryAddress">Адрес</label><input id="deliveryAddress"></div></div>
+        <div class="form-group"><label for="paymentMethod">Оплата</label><select id="paymentMethod"><option value="invoice">Безналичный счёт</option><option value="contract">По договору</option></select></div>
+        <div class="form-group"><label for="orderComment">Комментарий к заказу</label><textarea id="orderComment" rows="3"></textarea></div>
+        <button class="btn btn-primary" type="submit">Отправить заказ</button>
+      </form></section>
+      <aside class="dashboard-card double-border"><h2>Ваш заказ</h2><div id="checkoutItems"></div><p id="checkoutTotal" class="code-font text-amber"></p><a href="catalog.html" class="btn btn-secondary">Вернуться в каталог</a></aside>
+    </div>
+  </main>
+  <script src="checkout.js"></script>
+</body>
+</html>

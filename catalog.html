@@ -99,8 +99,8 @@
             
             <nav class="main-nav" id="mainNav">
                 <ul class="nav-links">
-                    <li><a href="index.html" class="active">Главная</a></li>
-                    <li><a href="catalog.html">Каталог</a></li>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="catalog.html" class="active">Каталог</a></li>
                     <li><a href="service.html">Автосервис</a></li>
                     <li><a href="delivery.html">Доставка и оплата</a></li>
                     <li><a href="returns.html">Гарантия и возврат</a></li>
@@ -127,96 +127,109 @@
     </header>
 
     <!-- ===== MAIN CATALOG ===== -->
-    <!-- ===== MAIN LANDING ===== -->
-    <main class="landing-main">
-        <!-- Hero Section -->
-        <section class="hero-section">
-            <div class="hero-container">
-                <div class="hero-content">
-                    <span class="hero-eyebrow">Radcor-Prim SRL</span>
-                    <h1 class="hero-title">Дистрибьютор смазочных материалов MOL в Молдове</h1>
-                    <p class="hero-lead">Официальный импорт и оптовые поставки смазочных материалов из Европы. Полный ассортимент оригинальных масел, антифризов и автохимии для вашего автобизнеса.</p>
-                    <div class="hero-actions">
-                        <a href="catalog.html" class="btn btn-primary">Перейти в каталог →</a>
-                        <a href="#b2b" class="btn btn-secondary">Стать партнером</a>
+    <main class="catalog-page-main">
+        <div class="main-catalog-layout">
+            
+            <!-- Left Sidebar: Categories + Filters -->
+            <aside class="catalog-sidebar" id="catalogSidebar">
+                <div class="sidebar-cat-header">Категории товаров</div>
+                
+                <div class="sidebar-category-list" id="sidebarCategoryList">
+                    <div class="sidebar-cat-item active" data-cat="all">
+                        Все товары <span class="cat-count" id="count-all">—</span>
+                    </div>
+                    <div class="sidebar-cat-item" data-cat="motor-oils">
+                        🛢 Автомобильные масла <span class="cat-count" id="count-motor-oils">—</span>
+                    </div>
+                    <div class="sidebar-cat-item" data-cat="coolants">
+                        ❄️ Охлаждающие жидкости <span class="cat-count" id="count-coolants">—</span>
+                    </div>
+                    <div class="sidebar-cat-item" data-cat="autochemistry">
+                        🔧 Автохимия и смазки <span class="cat-count" id="count-autochemistry">—</span>
+                    </div>
+                    <div class="sidebar-cat-item" data-cat="winter">
+                        ❄ Зимняя программа <span class="cat-count" id="count-winter">—</span>
+                    </div>
+                    <div class="sidebar-cat-item" data-cat="accessories">
+                        📦 Расходники и аксессуары <span class="cat-count" id="count-accessories">—</span>
+                    </div>
+                    <div class="sidebar-cat-item" data-cat="industrial">
+                        🏭 Промышленный сектор <span class="cat-count" id="count-industrial">—</span>
                     </div>
                 </div>
-                <div class="hero-visual">
-                    <div class="hero-canister-display">
-                        <div class="canister-inner">
-                            <span class="canister-logo">MOL</span>
-                            <span class="canister-badge">Premium</span>
+                
+                <div class="sidebar-divider"></div>
+                
+                <!-- Dynamic Filters -->
+                <div class="sidebar-filters" id="sidebarFilters">
+                    <div class="filter-group" id="filterBrandGroup" style="display:none;">
+                        <div class="filter-group-title">Производитель</div>
+                        <div class="filter-options" id="filterBrandOptions"></div>
+                    </div>
+                    <div class="filter-group" id="filterVolumeGroup" style="display:none;">
+                        <div class="filter-group-title">Объём (л)</div>
+                        <div class="filter-options" id="filterVolumeOptions"></div>
+                    </div>
+                </div>
+                
+                <div class="sidebar-divider"></div>
+                
+                <!-- Oil Selector CTA -->
+                <a href="https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/konsul-tant-po-motornym-maslam-i-smazocnym-materialam/" 
+                   target="_blank" 
+                   rel="noopener noreferrer"
+                   class="oil-selector-btn" id="oilSelectorBtn">
+                    <span class="oil-selector-icon">🔧</span>
+                    <span>Подбор масла по автомобилю</span>
+                </a>
+            </aside>
+
+            <!-- Right Content Pane -->
+            <section class="catalog-content-pane">
+                
+                <!-- Search Bar -->
+                <div class="catalog-topbar">
+                    <div class="catalog-search-bar-wrap">
+                        <span class="search-icon">🔍</span>
+                        <input type="text" id="catalogSearch" placeholder="Поиск по названию, бренду, артикулу, допускам...">
+                    </div>
+                </div>
+
+                <!-- Breadcrumb / Category Title -->
+                <div class="catalog-breadcrumb">
+                    <h1 class="breadcrumb-title" id="catalogBreadcrumbTitle">Все товары</h1>
+                    <span class="breadcrumb-count" id="catalogProductCount">—</span>
+                </div>
+
+                <!-- VIN Decoder Panel (toggled by JS when VIN mode active) -->
+                <div class="vin-decoder-panel" id="vinDecoderPanel">
+                    <div class="scanner-header">
+                        <span class="scan-status code-font">⚡ Анализ данных VIN...</span>
+                        <div class="progress-bar-scan"><div class="fill-bar-scan" id="fillBarScan"></div></div>
+                    </div>
+                    <div class="scanner-results" id="scannerResults">
+                        <div class="result-vehicle-name">Mercedes-Benz Sprinter 316 CDI (OM651)</div>
+                        <p class="result-details code-font">Двигатель: OM 651.955 | Дизель | 2.2L | 2018 г.в.</p>
+                        <div class="result-recommendations">
+                            <span class="rec-label">Подобранные жидкости:</span>
+                            <div class="rec-tags">
+                                <span class="rec-tag">MOL Essence 5W-30 (MB 229.51)</span>
+                                <span class="rec-tag">Felix Carbox G12+</span>
+                            </div>
                         </div>
+                        <button class="btn btn-primary btn-sm" id="addAllVinFluidsBtn">Добавить жидкости в заказ</button>
                     </div>
                 </div>
-            </div>
-        </section>
 
-        <!-- About Stats Section -->
-        <section class="about-stats-section">
-            <div class="container">
-                <div class="stats-grid">
-                    <div class="stat-card">
-                        <span class="stat-num">78+</span>
-                        <h4>Товаров в каталоге</h4>
-                        <p>Полная линейка оригинальных моторных, редукторных и индустриальных масел MOL на складе.</p>
-                    </div>
-                    <div class="stat-card">
-                        <span class="stat-num">100%</span>
-                        <h4>Прямой импорт</h4>
-                        <p>Официальные поставки с завода в Венгрии с полной документацией и сертификатами качества.</p>
-                    </div>
-                    <div class="stat-card">
-                        <span class="stat-num">B2B</span>
-                        <h4>Поддержка бизнеса</h4>
-                        <p>Специальные оптовые цены, СТО-оборудование и логистика для наших постоянных партнеров.</p>
+                <!-- Product Grid -->
+                <div class="catalog-grid" id="catalogGrid">
+                    <div class="catalog-loader" id="catalogLoader">
+                        <span class="catalog-loader-spinner">⏳</span>
+                        Загрузка каталога Radcor-Prim...
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <!-- Product Categories Section -->
-        <section class="landing-categories-section">
-            <div class="container">
-                <div class="section-title-wrap text-center">
-                    <span class="eyebrow">Продукция</span>
-                    <h2>Категории поставляемых жидкостей</h2>
-                    <p>Подберите оптимальное решение для любой автомобильной или промышленной техники.</p>
-                </div>
-                <div class="categories-grid-landing">
-                    <a href="catalog.html?cat=motor-oils" class="cat-landing-card">
-                        <span class="cat-card-icon">🛢</span>
-                        <h3>Автомобильные масла</h3>
-                        <p>Высокотехнологичные моторные и трансмиссионные масла для легковых и коммерческих авто.</p>
-                    </a>
-                    <a href="catalog.html?cat=coolants" class="cat-landing-card">
-                        <span class="cat-card-icon">❄️</span>
-                        <h3>Охлаждающие жидкости</h3>
-                        <p>Премиальные антифризы с длительным сроком службы для любых типов радиаторов.</p>
-                    </a>
-                    <a href="catalog.html?cat=autochemistry" class="cat-landing-card">
-                        <span class="cat-card-icon">🔧</span>
-                        <h3>Автохимия и смазки</h3>
-                        <p>Пластичные смазки, тормозные и специальные сервисные жидкости.</p>
-                    </a>
-                    <a href="catalog.html?cat=winter" class="cat-landing-card">
-                        <span class="cat-card-icon">❄</span>
-                        <h3>Зимняя программа</h3>
-                        <p>Зимние стеклоомыватели и средства для легкого старта в экстремальных условиях.</p>
-                    </a>
-                    <a href="catalog.html?cat=accessories" class="cat-landing-card">
-                        <span class="cat-card-icon">📦</span>
-                        <h3>Расходные материалы</h3>
-                        <p>Вспомогательные средства для технического обслуживания автосервисов и предприятий.</p>
-                    </a>
-                    <a href="catalog.html?cat=industrial" class="cat-landing-card">
-                        <span class="cat-card-icon">🏭</span>
-                        <h3>Промышленный сектор</h3>
-                        <p>Масла и смазки для технологического оборудования и тяжелой индустрии.</p>
-                    </a>
-                </div>
-            </div>
-        </section>
+            </section>
+        </div>
     </main>
 
     <!-- MOL Brand Spotlight & Lube Finder -->
