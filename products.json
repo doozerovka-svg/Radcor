@@ -5249,5 +5249,1510 @@
         "label": "7 кг"
       }
     ]
+  },
+  {
+    "sku": "WB-TREE-001",
+    "name": "Освежитель Wunder-Baum Елочка Arctic White",
+    "category": "accessories",
+    "brand": "Wunder-Baum",
+    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "volumes": [
+      1
+    ],
+    "description": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Arctic White.",
+    "specs": [
+      {
+        "label": "Аромат",
+        "value": "Arctic White"
+      },
+      {
+        "label": "Тип",
+        "value": "Классическая елочка-пахучка"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "7612720201013"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 22.5,
+    "packs": [
+      {
+        "id": "wb-tree-001-1",
+        "volume_l": 1,
+        "price_mdl": 22.5,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "WB-TREE-002",
+    "name": "Освежитель Wunder-Baum Елочка Berry Burst",
+    "category": "accessories",
+    "brand": "Wunder-Baum",
+    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "volumes": [
+      1
+    ],
+    "description": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Berry Burst.",
+    "specs": [
+      {
+        "label": "Аромат",
+        "value": "Berry Burst"
+      },
+      {
+        "label": "Тип",
+        "value": "Классическая елочка-пахучка"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "7612720208555"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 22.5,
+    "packs": [
+      {
+        "id": "wb-tree-002-1",
+        "volume_l": 1,
+        "price_mdl": 22.5,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "WB-TREE-003",
+    "name": "Освежитель Wunder-Baum Елочка Black Ice",
+    "category": "accessories",
+    "brand": "Wunder-Baum",
+    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "volumes": [
+      1
+    ],
+    "description": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Black Ice.",
+    "specs": [
+      {
+        "label": "Аромат",
+        "value": "Black Ice"
+      },
+      {
+        "label": "Тип",
+        "value": "Классическая елочка-пахучка"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "7612720201068"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 22.5,
+    "packs": [
+      {
+        "id": "wb-tree-003-1",
+        "volume_l": 1,
+        "price_mdl": 22.5,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "WB-TREE-004",
+    "name": "Освежитель Wunder-Baum Елочка Bubble Gum",
+    "category": "accessories",
+    "brand": "Wunder-Baum",
+    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "volumes": [
+      1
+    ],
+    "description": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Bubble Gum.",
+    "specs": [
+      {
+        "label": "Аромат",
+        "value": "Bubble Gum"
+      },
+      {
+        "label": "Тип",
+        "value": "Классическая елочка-пахучка"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "7612720201044"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 22.5,
+    "packs": [
+      {
+        "id": "wb-tree-004-1",
+        "volume_l": 1,
+        "price_mdl": 22.5,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "WB-TREE-005",
+    "name": "Освежитель Wunder-Baum Елочка Cafe",
+    "category": "accessories",
+    "brand": "Wunder-Baum",
+    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "volumes": [
+      1
+    ],
+    "description": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Cafe.",
+    "specs": [
+      {
+        "label": "Аромат",
+        "value": "Cafe"
+      },
+      {
+        "label": "Тип",
+        "value": "Классическая елочка-пахучка"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "7612720201563"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 22.5,
+    "packs": [
+      {
+        "id": "wb-tree-005-1",
+        "volume_l": 1,
+        "price_mdl": 22.5,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "WB-TREE-006",
+    "name": "Освежитель Wunder-Baum Елочка Daisy Chain",
+    "category": "accessories",
+    "brand": "Wunder-Baum",
+    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "volumes": [
+      1
+    ],
+    "description": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Daisy Chain.",
+    "specs": [
+      {
+        "label": "Аромат",
+        "value": "Daisy Chain"
+      },
+      {
+        "label": "Тип",
+        "value": "Классическая елочка-пахучка"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "7612720201419"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 22.5,
+    "packs": [
+      {
+        "id": "wb-tree-006-1",
+        "volume_l": 1,
+        "price_mdl": 22.5,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "WB-TREE-007",
+    "name": "Освежитель Wunder-Baum Елочка Erdbeeren (Клубника)",
+    "category": "accessories",
+    "brand": "Wunder-Baum",
+    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "volumes": [
+      1
+    ],
+    "description": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Erdbeeren.",
+    "specs": [
+      {
+        "label": "Аромат",
+        "value": "Erdbeeren"
+      },
+      {
+        "label": "Тип",
+        "value": "Классическая елочка-пахучка"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "7612720208722"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 22.5,
+    "packs": [
+      {
+        "id": "wb-tree-007-1",
+        "volume_l": 1,
+        "price_mdl": 22.5,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "WB-TREE-008",
+    "name": "Освежитель Wunder-Baum Елочка Everfresh",
+    "category": "accessories",
+    "brand": "Wunder-Baum",
+    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "volumes": [
+      1
+    ],
+    "description": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Everfresh.",
+    "specs": [
+      {
+        "label": "Аромат",
+        "value": "Everfresh"
+      },
+      {
+        "label": "Тип",
+        "value": "Классическая елочка-пахучка"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "7612720202942"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 22.5,
+    "packs": [
+      {
+        "id": "wb-tree-008-1",
+        "volume_l": 1,
+        "price_mdl": 22.5,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "WB-TREE-009",
+    "name": "Освежитель Wunder-Baum Елочка Fizzy Limonade",
+    "category": "accessories",
+    "brand": "Wunder-Baum",
+    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "volumes": [
+      1
+    ],
+    "description": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Fizzy Limonade.",
+    "specs": [
+      {
+        "label": "Аромат",
+        "value": "Fizzy Limonade"
+      },
+      {
+        "label": "Тип",
+        "value": "Классическая елочка-пахучка"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "7612720208159"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 22.5,
+    "packs": [
+      {
+        "id": "wb-tree-009-1",
+        "volume_l": 1,
+        "price_mdl": 22.5,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "WB-TREE-010",
+    "name": "Освежитель Wunder-Baum Елочка Frosted Pine",
+    "category": "accessories",
+    "brand": "Wunder-Baum",
+    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "volumes": [
+      1
+    ],
+    "description": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Frosted Pine.",
+    "specs": [
+      {
+        "label": "Аромат",
+        "value": "Frosted Pine"
+      },
+      {
+        "label": "Тип",
+        "value": "Классическая елочка-пахучка"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "7612720201976"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 22.5,
+    "packs": [
+      {
+        "id": "wb-tree-010-1",
+        "volume_l": 1,
+        "price_mdl": 22.5,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "WB-TREE-011",
+    "name": "Освежитель Wunder-Baum Елочка Fruhling",
+    "category": "accessories",
+    "brand": "Wunder-Baum",
+    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "volumes": [
+      1
+    ],
+    "description": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Fruhling.",
+    "specs": [
+      {
+        "label": "Аромат",
+        "value": "Fruhling"
+      },
+      {
+        "label": "Тип",
+        "value": "Классическая елочка-пахучка"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "7612720201914"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 22.5,
+    "packs": [
+      {
+        "id": "wb-tree-011-1",
+        "volume_l": 1,
+        "price_mdl": 22.5,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "WB-TREE-012",
+    "name": "Освежитель Wunder-Baum Елочка Gruner Apfel (Зеленое Яблоко)",
+    "category": "accessories",
+    "brand": "Wunder-Baum",
+    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "volumes": [
+      1
+    ],
+    "description": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Gruner Apfel.",
+    "specs": [
+      {
+        "label": "Аромат",
+        "value": "Gruner Apfel"
+      },
+      {
+        "label": "Тип",
+        "value": "Классическая елочка-пахучка"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "7612720201969"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 22.5,
+    "packs": [
+      {
+        "id": "wb-tree-012-1",
+        "volume_l": 1,
+        "price_mdl": 22.5,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "WB-TREE-013",
+    "name": "Освежитель Wunder-Baum Елочка Jungle Fever",
+    "category": "accessories",
+    "brand": "Wunder-Baum",
+    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "volumes": [
+      1
+    ],
+    "description": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Jungle Fever.",
+    "specs": [
+      {
+        "label": "Аромат",
+        "value": "Jungle Fever"
+      },
+      {
+        "label": "Тип",
+        "value": "Классическая елочка-пахучка"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "7612720208029"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 22.5,
+    "packs": [
+      {
+        "id": "wb-tree-013-1",
+        "volume_l": 1,
+        "price_mdl": 22.5,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "WB-TREE-014",
+    "name": "Освежитель Wunder-Baum Елочка Kirsche (Вишня)",
+    "category": "accessories",
+    "brand": "Wunder-Baum",
+    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "volumes": [
+      1
+    ],
+    "description": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Kirsche.",
+    "specs": [
+      {
+        "label": "Аромат",
+        "value": "Kirsche"
+      },
+      {
+        "label": "Тип",
+        "value": "Классическая елочка-пахучка"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "7612720201433"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 22.5,
+    "packs": [
+      {
+        "id": "wb-tree-014-1",
+        "volume_l": 1,
+        "price_mdl": 22.5,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "WB-TREE-015",
+    "name": "Освежитель Wunder-Baum Елочка Kokosnuss (Кокос)",
+    "category": "accessories",
+    "brand": "Wunder-Baum",
+    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "volumes": [
+      1
+    ],
+    "description": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Kokosnuss.",
+    "specs": [
+      {
+        "label": "Аромат",
+        "value": "Kokosnuss"
+      },
+      {
+        "label": "Тип",
+        "value": "Классическая елочка-пахучка"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "7612720201211"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 22.5,
+    "packs": [
+      {
+        "id": "wb-tree-015-1",
+        "volume_l": 1,
+        "price_mdl": 22.5,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "WB-TREE-016",
+    "name": "Освежитель Wunder-Baum Елочка Leather (Кожа)",
+    "category": "accessories",
+    "brand": "Wunder-Baum",
+    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "volumes": [
+      1
+    ],
+    "description": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Leather.",
+    "specs": [
+      {
+        "label": "Аромат",
+        "value": "Leather"
+      },
+      {
+        "label": "Тип",
+        "value": "Классическая елочка-пахучка"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "761272020867"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 22.5,
+    "packs": [
+      {
+        "id": "wb-tree-016-1",
+        "volume_l": 1,
+        "price_mdl": 22.5,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "WB-TREE-017",
+    "name": "Освежитель Wunder-Baum Елочка Mai-Tai",
+    "category": "accessories",
+    "brand": "Wunder-Baum",
+    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "volumes": [
+      1
+    ],
+    "description": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Mai-Tai.",
+    "specs": [
+      {
+        "label": "Аромат",
+        "value": "Mai-Tai"
+      },
+      {
+        "label": "Тип",
+        "value": "Классическая елочка-пахучка"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "7612720208258"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 22.5,
+    "packs": [
+      {
+        "id": "wb-tree-017-1",
+        "volume_l": 1,
+        "price_mdl": 22.5,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "WB-TREE-018",
+    "name": "Освежитель Wunder-Baum Елочка Margarita",
+    "category": "accessories",
+    "brand": "Wunder-Baum",
+    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "volumes": [
+      1
+    ],
+    "description": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Margarita.",
+    "specs": [
+      {
+        "label": "Аромат",
+        "value": "Margarita"
+      },
+      {
+        "label": "Тип",
+        "value": "Классическая елочка-пахучка"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "7612720208937"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 22.5,
+    "packs": [
+      {
+        "id": "wb-tree-018-1",
+        "volume_l": 1,
+        "price_mdl": 22.5,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "WB-TREE-019",
+    "name": "Освежитель Wunder-Baum Елочка Midnight Chick",
+    "category": "accessories",
+    "brand": "Wunder-Baum",
+    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "volumes": [
+      1
+    ],
+    "description": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Midnight Chick.",
+    "specs": [
+      {
+        "label": "Аромат",
+        "value": "Midnight Chick"
+      },
+      {
+        "label": "Тип",
+        "value": "Классическая елочка-пахучка"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "7612720208661"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 22.5,
+    "packs": [
+      {
+        "id": "wb-tree-019-1",
+        "volume_l": 1,
+        "price_mdl": 22.5,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "WB-TREE-020",
+    "name": "Освежитель Wunder-Baum Елочка Black Classic",
+    "category": "accessories",
+    "brand": "Wunder-Baum",
+    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "volumes": [
+      1
+    ],
+    "description": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Black Classic.",
+    "specs": [
+      {
+        "label": "Аромат",
+        "value": "Black Classic"
+      },
+      {
+        "label": "Тип",
+        "value": "Классическая елочка-пахучка"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "7612720201068"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 22.5,
+    "packs": [
+      {
+        "id": "wb-tree-020-1",
+        "volume_l": 1,
+        "price_mdl": 22.5,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "WB-TREE-021",
+    "name": "Освежитель Wunder-Baum Елочка New Car (Новое Авто)",
+    "category": "accessories",
+    "brand": "Wunder-Baum",
+    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "volumes": [
+      1
+    ],
+    "description": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом New Car.",
+    "specs": [
+      {
+        "label": "Аромат",
+        "value": "New Car"
+      },
+      {
+        "label": "Тип",
+        "value": "Классическая елочка-пахучка"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "7612720841752"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 22.5,
+    "packs": [
+      {
+        "id": "wb-tree-021-1",
+        "volume_l": 1,
+        "price_mdl": 22.5,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "WB-TREE-022",
+    "name": "Освежитель Wunder-Baum Елочка Ocean Paradise",
+    "category": "accessories",
+    "brand": "Wunder-Baum",
+    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "volumes": [
+      1
+    ],
+    "description": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Ocean Paradise.",
+    "specs": [
+      {
+        "label": "Аромат",
+        "value": "Ocean Paradise"
+      },
+      {
+        "label": "Тип",
+        "value": "Классическая елочка-пахучка"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "7612720201860"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 22.5,
+    "packs": [
+      {
+        "id": "wb-tree-022-1",
+        "volume_l": 1,
+        "price_mdl": 22.5,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "WB-TREE-023",
+    "name": "Освежитель Wunder-Baum Елочка Orange Juice (Апельсиновый сок)",
+    "category": "accessories",
+    "brand": "Wunder-Baum",
+    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "volumes": [
+      1
+    ],
+    "description": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Orange Juice.",
+    "specs": [
+      {
+        "label": "Аромат",
+        "value": "Orange Juice"
+      },
+      {
+        "label": "Тип",
+        "value": "Классическая елочка-пахучка"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "7612720201457"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 22.5,
+    "packs": [
+      {
+        "id": "wb-tree-023-1",
+        "volume_l": 1,
+        "price_mdl": 22.5,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "WB-TREE-024",
+    "name": "Освежитель Wunder-Baum Елочка Pina Colada",
+    "category": "accessories",
+    "brand": "Wunder-Baum",
+    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "volumes": [
+      1
+    ],
+    "description": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Pina Colada.",
+    "specs": [
+      {
+        "label": "Аромат",
+        "value": "Pina Colada"
+      },
+      {
+        "label": "Тип",
+        "value": "Классическая елочка-пахучка"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "7612720108718"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 22.5,
+    "packs": [
+      {
+        "id": "wb-tree-024-1",
+        "volume_l": 1,
+        "price_mdl": 22.5,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "WB-TREE-025",
+    "name": "Освежитель Wunder-Baum Елочка Pure Steel",
+    "category": "accessories",
+    "brand": "Wunder-Baum",
+    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "volumes": [
+      1
+    ],
+    "description": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Pure Steel.",
+    "specs": [
+      {
+        "label": "Аромат",
+        "value": "Pure Steel"
+      },
+      {
+        "label": "Тип",
+        "value": "Классическая елочка-пахучка"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "7612720208869"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 22.5,
+    "packs": [
+      {
+        "id": "wb-tree-025-1",
+        "volume_l": 1,
+        "price_mdl": 22.5,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "WB-TREE-026",
+    "name": "Освежитель Wunder-Baum Елочка Rose & Raspberry (Роза и малина)",
+    "category": "accessories",
+    "brand": "Wunder-Baum",
+    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "volumes": [
+      1
+    ],
+    "description": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Rose & Raspberry.",
+    "specs": [
+      {
+        "label": "Аромат",
+        "value": "Rose & Raspberry"
+      },
+      {
+        "label": "Тип",
+        "value": "Классическая елочка-пахучка"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "7612720201327"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 22.5,
+    "packs": [
+      {
+        "id": "wb-tree-026-1",
+        "volume_l": 1,
+        "price_mdl": 22.5,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "WB-TREE-027",
+    "name": "Освежитель Wunder-Baum Елочка Sportfrische",
+    "category": "accessories",
+    "brand": "Wunder-Baum",
+    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "volumes": [
+      1
+    ],
+    "description": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Sportfrische.",
+    "specs": [
+      {
+        "label": "Аромат",
+        "value": "Sportfrische"
+      },
+      {
+        "label": "Тип",
+        "value": "Классическая елочка-пахучка"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "7612720201723"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 22.5,
+    "packs": [
+      {
+        "id": "wb-tree-027-1",
+        "volume_l": 1,
+        "price_mdl": 22.5,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "WB-TREE-028",
+    "name": "Освежитель Wunder-Baum Елочка Summer Cotton",
+    "category": "accessories",
+    "brand": "Wunder-Baum",
+    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "volumes": [
+      1
+    ],
+    "description": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Summer Cotton.",
+    "specs": [
+      {
+        "label": "Аромат",
+        "value": "Summer Cotton"
+      },
+      {
+        "label": "Тип",
+        "value": "Классическая елочка-пахучка"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "76127201846"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 22.5,
+    "packs": [
+      {
+        "id": "wb-tree-028-1",
+        "volume_l": 1,
+        "price_mdl": 22.5,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "WB-TREE-029",
+    "name": "Освежитель Wunder-Baum Елочка Tropical",
+    "category": "accessories",
+    "brand": "Wunder-Baum",
+    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "volumes": [
+      1
+    ],
+    "description": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Tropical.",
+    "specs": [
+      {
+        "label": "Аромат",
+        "value": "Tropical"
+      },
+      {
+        "label": "Тип",
+        "value": "Классическая елочка-пахучка"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "7612720201730"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 22.5,
+    "packs": [
+      {
+        "id": "wb-tree-029-1",
+        "volume_l": 1,
+        "price_mdl": 22.5,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "WB-TREE-030",
+    "name": "Освежитель Wunder-Baum Елочка Vanillaroma (Ваниль)",
+    "category": "accessories",
+    "brand": "Wunder-Baum",
+    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "volumes": [
+      1
+    ],
+    "description": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Vanillaroma.",
+    "specs": [
+      {
+        "label": "Аромат",
+        "value": "Vanillaroma"
+      },
+      {
+        "label": "Тип",
+        "value": "Классическая елочка-пахучка"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "7612720201112"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 22.5,
+    "packs": [
+      {
+        "id": "wb-tree-030-1",
+        "volume_l": 1,
+        "price_mdl": 22.5,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "WB-TREE-031",
+    "name": "Освежитель Wunder-Baum Елочка Wild Instinct",
+    "category": "accessories",
+    "brand": "Wunder-Baum",
+    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "volumes": [
+      1
+    ],
+    "description": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Wild Instinct.",
+    "specs": [
+      {
+        "label": "Аромат",
+        "value": "Wild Instinct"
+      },
+      {
+        "label": "Тип",
+        "value": "Классическая елочка-пахучка"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "7612720208333"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 22.5,
+    "packs": [
+      {
+        "id": "wb-tree-031-1",
+        "volume_l": 1,
+        "price_mdl": 22.5,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "WB-TREE-032",
+    "name": "Освежитель Wunder-Baum Елочка WoodWork (Дерево)",
+    "category": "accessories",
+    "brand": "Wunder-Baum",
+    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "volumes": [
+      1
+    ],
+    "description": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом WoodWork.",
+    "specs": [
+      {
+        "label": "Аромат",
+        "value": "WoodWork"
+      },
+      {
+        "label": "Тип",
+        "value": "Классическая елочка-пахучка"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "7612720208128"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 22.5,
+    "packs": [
+      {
+        "id": "wb-tree-032-1",
+        "volume_l": 1,
+        "price_mdl": 22.5,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "WB-TREE-033",
+    "name": "Освежитель Wunder-Baum Елочка Zimt Apfel (Яблоко с корицей)",
+    "category": "accessories",
+    "brand": "Wunder-Baum",
+    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "volumes": [
+      1
+    ],
+    "description": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Zimt Apfel.",
+    "specs": [
+      {
+        "label": "Аромат",
+        "value": "Zimt Apfel"
+      },
+      {
+        "label": "Тип",
+        "value": "Классическая елочка-пахучка"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "7612720201136"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 22.5,
+    "packs": [
+      {
+        "id": "wb-tree-033-1",
+        "volume_l": 1,
+        "price_mdl": 22.5,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "WB-TREE-034",
+    "name": "Освежитель Wunder-Baum Елочка Zitrone (Лимон)",
+    "category": "accessories",
+    "brand": "Wunder-Baum",
+    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "volumes": [
+      1
+    ],
+    "description": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Zitrone.",
+    "specs": [
+      {
+        "label": "Аромат",
+        "value": "Zitrone"
+      },
+      {
+        "label": "Тип",
+        "value": "Классическая елочка-пахучка"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "7612720201440"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 22.5,
+    "packs": [
+      {
+        "id": "wb-tree-034-1",
+        "volume_l": 1,
+        "price_mdl": 22.5,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "WB-CLIP-001",
+    "name": "Освежитель-клипса Wunder-Baum Clip Black Ice",
+    "category": "accessories",
+    "brand": "Wunder-Baum",
+    "photo_url": "https://www.wunder-baum.ch/dam/jcr:4c79df14-bd9f-4db3-bc07-d779bdce8cf6/WUNDER-BAUM_Clip_Black_Ice.png",
+    "volumes": [
+      1
+    ],
+    "description": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Black Ice.",
+    "specs": [
+      {
+        "label": "Аромат",
+        "value": "Black Ice"
+      },
+      {
+        "label": "Тип",
+        "value": "Стильная клипса на дефлектор"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "7612720841068"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 56.25,
+    "packs": [
+      {
+        "id": "wb-clip-001-1",
+        "volume_l": 1,
+        "price_mdl": 56.25,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "WB-CLIP-002",
+    "name": "Освежитель-клипса Wunder-Baum Clip Bubble Gum",
+    "category": "accessories",
+    "brand": "Wunder-Baum",
+    "photo_url": "https://www.wunder-baum.ch/dam/jcr:4c79df14-bd9f-4db3-bc07-d779bdce8cf6/WUNDER-BAUM_Clip_Black_Ice.png",
+    "volumes": [
+      1
+    ],
+    "description": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Bubble Gum.",
+    "specs": [
+      {
+        "label": "Аромат",
+        "value": "Bubble Gum"
+      },
+      {
+        "label": "Тип",
+        "value": "Стильная клипса на дефлектор"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "7612720841530"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 56.25,
+    "packs": [
+      {
+        "id": "wb-clip-002-1",
+        "volume_l": 1,
+        "price_mdl": 56.25,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "WB-CLIP-003",
+    "name": "Освежитель-клипса Wunder-Baum Clip Cherry (Вишня)",
+    "category": "accessories",
+    "brand": "Wunder-Baum",
+    "photo_url": "https://www.wunder-baum.ch/dam/jcr:4c79df14-bd9f-4db3-bc07-d779bdce8cf6/WUNDER-BAUM_Clip_Black_Ice.png",
+    "volumes": [
+      1
+    ],
+    "description": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Cherry.",
+    "specs": [
+      {
+        "label": "Аромат",
+        "value": "Cherry"
+      },
+      {
+        "label": "Тип",
+        "value": "Стильная клипса на дефлектор"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "7612720841431"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 56.25,
+    "packs": [
+      {
+        "id": "wb-clip-003-1",
+        "volume_l": 1,
+        "price_mdl": 56.25,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "WB-CLIP-004",
+    "name": "Освежитель-клипса Wunder-Baum Clip New Car",
+    "category": "accessories",
+    "brand": "Wunder-Baum",
+    "photo_url": "https://www.wunder-baum.ch/dam/jcr:4c79df14-bd9f-4db3-bc07-d779bdce8cf6/WUNDER-BAUM_Clip_Black_Ice.png",
+    "volumes": [
+      1
+    ],
+    "description": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом New Car.",
+    "specs": [
+      {
+        "label": "Аромат",
+        "value": "New Car"
+      },
+      {
+        "label": "Тип",
+        "value": "Стильная клипса на дефлектор"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "7612720841066"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 56.25,
+    "packs": [
+      {
+        "id": "wb-clip-004-1",
+        "volume_l": 1,
+        "price_mdl": 56.25,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "WB-CLIP-005",
+    "name": "Освежитель-клипса Wunder-Baum Clip Ocean Paradise",
+    "category": "accessories",
+    "brand": "Wunder-Baum",
+    "photo_url": "https://www.wunder-baum.ch/dam/jcr:4c79df14-bd9f-4db3-bc07-d779bdce8cf6/WUNDER-BAUM_Clip_Black_Ice.png",
+    "volumes": [
+      1
+    ],
+    "description": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Ocean Paradise.",
+    "specs": [
+      {
+        "label": "Аромат",
+        "value": "Ocean Paradise"
+      },
+      {
+        "label": "Тип",
+        "value": "Стильная клипса на дефлектор"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "7612720841752"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 56.25,
+    "packs": [
+      {
+        "id": "wb-clip-005-1",
+        "volume_l": 1,
+        "price_mdl": 56.25,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "WB-CLIP-006",
+    "name": "Освежитель-клипса Wunder-Baum Clip Sport",
+    "category": "accessories",
+    "brand": "Wunder-Baum",
+    "photo_url": "https://www.wunder-baum.ch/dam/jcr:4c79df14-bd9f-4db3-bc07-d779bdce8cf6/WUNDER-BAUM_Clip_Black_Ice.png",
+    "volumes": [
+      1
+    ],
+    "description": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Sport.",
+    "specs": [
+      {
+        "label": "Аромат",
+        "value": "Sport"
+      },
+      {
+        "label": "Тип",
+        "value": "Стильная клипса на дефлектор"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "7612720841868"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 56.25,
+    "packs": [
+      {
+        "id": "wb-clip-006-1",
+        "volume_l": 1,
+        "price_mdl": 56.25,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "WB-CLIP-007",
+    "name": "Освежитель-клипса Wunder-Baum Clip Tropical",
+    "category": "accessories",
+    "brand": "Wunder-Baum",
+    "photo_url": "https://www.wunder-baum.ch/dam/jcr:4c79df14-bd9f-4db3-bc07-d779bdce8cf6/WUNDER-BAUM_Clip_Black_Ice.png",
+    "volumes": [
+      1
+    ],
+    "description": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Tropical.",
+    "specs": [
+      {
+        "label": "Аромат",
+        "value": "Tropical"
+      },
+      {
+        "label": "Тип",
+        "value": "Стильная клипса на дефлектор"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "7612720841325"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 56.25,
+    "packs": [
+      {
+        "id": "wb-clip-007-1",
+        "volume_l": 1,
+        "price_mdl": 56.25,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "WB-CLIP-008",
+    "name": "Освежитель-клипса Wunder-Baum Clip Vanilla",
+    "category": "accessories",
+    "brand": "Wunder-Baum",
+    "photo_url": "https://www.wunder-baum.ch/dam/jcr:4c79df14-bd9f-4db3-bc07-d779bdce8cf6/WUNDER-BAUM_Clip_Black_Ice.png",
+    "volumes": [
+      1
+    ],
+    "description": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Vanilla.",
+    "specs": [
+      {
+        "label": "Аромат",
+        "value": "Vanilla"
+      },
+      {
+        "label": "Тип",
+        "value": "Стильная клипса на дефлектор"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "7612720841219"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 56.25,
+    "packs": [
+      {
+        "id": "wb-clip-008-1",
+        "volume_l": 1,
+        "price_mdl": 56.25,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "WB-CLIP-009",
+    "name": "Освежитель-клипса Wunder-Baum Clip Tribal",
+    "category": "accessories",
+    "brand": "Wunder-Baum",
+    "photo_url": "https://www.wunder-baum.ch/dam/jcr:4c79df14-bd9f-4db3-bc07-d779bdce8cf6/WUNDER-BAUM_Clip_Black_Ice.png",
+    "volumes": [
+      1
+    ],
+    "description": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Tribal.",
+    "specs": [
+      {
+        "label": "Аромат",
+        "value": "Tribal"
+      },
+      {
+        "label": "Тип",
+        "value": "Стильная клипса на дефлектор"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "7612720841967"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 56.25,
+    "packs": [
+      {
+        "id": "wb-clip-009-1",
+        "volume_l": 1,
+        "price_mdl": 56.25,
+        "label": "1 шт"
+      }
+    ]
   }
 ]

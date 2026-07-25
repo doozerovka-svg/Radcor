@@ -785,6 +785,7 @@ h4 { font-size: 0.95rem; font-weight: 600; letter-spacing: 0; }
 .product-tag-brand[data-brand="Prista"] { background: #FEF3C7; color: #92400E; border-color: #FCD34D; }
 .product-tag-brand[data-brand="Valvoline"] { background: #FEE2E2; color: #991B1B; border-color: #FCA5A5; }
 .product-tag-brand[data-brand="Wolf"] { background: #F3F4F6; color: #374151; border-color: #D1D5DB; }
+.product-tag-brand[data-brand="Wunder-Baum"] { background: #FEF08A; color: #854D0E; border-color: #FDE047; }
 
 /* Color Filter Swatches & Badges */
 .filter-color-item-wrap {
