@@ -366,14 +366,18 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
         `).join('');
 
+        // SVG icons for buttons
+        const shieldSvg  = `<svg class="btn-spec-svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>`;
+        const slidersSvg = `<svg class="btn-spec-svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="21" x2="4" y2="14"></line><line x1="4" y1="10" x2="4" y2="3"></line><line x1="12" y1="21" x2="12" y2="12"></line><line x1="12" y1="8" x2="12" y2="3"></line><line x1="20" y1="21" x2="20" y2="16"></line><line x1="20" y1="12" x2="20" y2="3"></line><line x1="1" y1="14" x2="7" y2="14"></line><line x1="9" y1="8" x2="15" y2="8"></line><line x1="17" y1="12" x2="23" y2="12"></line></svg>`;
+
         // Action buttons (Допуски / Характеристики)
-        const hasExtraSpecs = drawerSpecs.length > 0;
+        const hasExtraSpecs = drawerSpecs.filter(s => !['Допуски', 'Спецификации', 'Одобрения', 'Официальные допуски'].includes(s.label)).length > 0;
         let specActionBtnsHtml = '';
         if (approvalSpec || hasExtraSpecs) {
             specActionBtnsHtml = `
                 <div class="product-card-spec-actions">
-                    ${approvalSpec ? `<button class="btn-card-spec-action btn-toggle-approvals" data-sku="${product.sku}">📜 Допуски</button>` : ''}
-                    ${hasExtraSpecs ? `<button class="btn-card-spec-action btn-toggle-details" data-sku="${product.sku}">ℹ️ Характеристики</button>` : ''}
+                    ${approvalSpec ? `<button class="btn-card-spec-action btn-toggle-approvals" data-sku="${product.sku}">${shieldSvg}<span>Допуски</span></button>` : ''}
+                    ${hasExtraSpecs ? `<button class="btn-card-spec-action btn-toggle-details" data-sku="${product.sku}">${slidersSvg}<span>Характеристики</span></button>` : ''}
                 </div>
             `;
         }
@@ -508,7 +512,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     </div>
                 `;
             } else {
-                const drawerSpecs = (product.specs || []).filter(s => !['Вязкость', 'Класс'].includes(s.label));
+                const drawerSpecs = (product.specs || []).filter(s => !['Вязкость', 'Класс', 'Допуски', 'Спецификации', 'Одобрения', 'Официальные допуски'].includes(s.label));
                 const specsRows = drawerSpecs.map(s => `
                     <div class="drawer-spec-row">
                         <span class="drawer-spec-label">${s.label}:</span>

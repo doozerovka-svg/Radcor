@@ -912,7 +912,16 @@ h4 { font-size: 0.95rem; font-weight: 600; letter-spacing: 0; }
     transition: all 0.2s ease;
     display: inline-flex;
     align-items: center;
-    gap: 5px;
+    gap: 6px;
+}
+
+.btn-spec-svg {
+    flex-shrink: 0;
+    transition: transform 0.2s ease;
+}
+
+.btn-card-spec-action:hover .btn-spec-svg {
+    transform: scale(1.15);
 }
 
 .btn-card-spec-action:hover {
