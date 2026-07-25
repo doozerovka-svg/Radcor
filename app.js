@@ -44,10 +44,20 @@ document.addEventListener('DOMContentLoaded', () => {
     // ==========================================================================
     let allProducts = [];
 
+    const COLOR_EMOJIS = {
+        'Красный': '🔴',
+        'Зелёный': '🟢',
+        'Синий': '🔵',
+        'Жёлтый': '🟡',
+        'Розовый': '🌸',
+        'Фиолетовый': '🟣'
+    };
+
     const catalogState = {
         activeCategory: 'all',
         activeBrands:   new Set(),
         activeVolumes:  new Set(),
+        activeColors:   new Set(),
         searchQuery:    ''
     };
 
@@ -152,6 +162,8 @@ document.addEventListener('DOMContentLoaded', () => {
     // SIDEBAR: DYNAMIC FILTERS (brands & volumes for current category)
     // ==========================================================================
     function renderSidebarFilters(products) {
+        const colorGroup  = document.getElementById('filterColorGroup');
+        const colorOpts   = document.getElementById('filterColorOptions');
         const brandGroup  = document.getElementById('filterBrandGroup');
         const volumeGroup = document.getElementById('filterVolumeGroup');
         const brandOpts   = document.getElementById('filterBrandOptions');
@@ -161,6 +173,12 @@ document.addEventListener('DOMContentLoaded', () => {
         const filtered = catalogState.activeCategory === 'all'
             ? products
             : products.filter(p => p.category === catalogState.activeCategory);
+
+        // Collect unique colors with counts
+        const colorMap = {};
+        filtered.forEach(p => {
+            if (p.color) colorMap[p.color] = (colorMap[p.color] || 0) + 1;
+        });
 
         // Collect unique brands with counts
         const brandMap = {};
@@ -175,6 +193,23 @@ document.addEventListener('DOMContentLoaded', () => {
                 volumeMap[v] = (volumeMap[v] || 0) + 1;
             });
         });
+
+        // Render color checkboxes
+        if (colorGroup && colorOpts) {
+            const colors = Object.keys(colorMap).sort();
+            if (colors.length > 0) {
+                colorOpts.innerHTML = colors.map(color => `
+                    <label class="filter-checkbox-label">
+                        <input type="checkbox" class="filter-color-cb" value="${color}" ${catalogState.activeColors.has(color) ? 'checked' : ''}>
+                        <span>${COLOR_EMOJIS[color] || '🎨'} ${color}</span>
+                        <span class="filter-count">${colorMap[color]}</span>
+                    </label>
+                `).join('');
+                colorGroup.style.display = '';
+            } else {
+                colorGroup.style.display = 'none';
+            }
+        }
 
         // Render brand checkboxes
         const brands = Object.keys(brandMap).sort();
@@ -210,6 +245,13 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         // Attach listeners to new checkboxes
+        colorOpts?.querySelectorAll('.filter-color-cb').forEach(cb => {
+            cb.addEventListener('change', () => {
+                if (cb.checked) catalogState.activeColors.add(cb.value);
+                else catalogState.activeColors.delete(cb.value);
+                renderCatalog(allProducts);
+            });
+        });
         brandOpts.querySelectorAll('.filter-brand-cb').forEach(cb => {
             cb.addEventListener('change', () => {
                 if (cb.checked) catalogState.activeBrands.add(cb.value);
@@ -234,6 +276,9 @@ document.addEventListener('DOMContentLoaded', () => {
             // Category
             const catMatch = catalogState.activeCategory === 'all' || p.category === catalogState.activeCategory;
 
+            // Color filter
+            const colorMatch = catalogState.activeColors.size === 0 || catalogState.activeColors.has(p.color);
+
             // Brand filter
             const brandMatch = catalogState.activeBrands.size === 0 || catalogState.activeBrands.has(p.brand);
 
@@ -247,9 +292,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 || (p.brand || '').toLowerCase().includes(q)
                 || (p.sku || '').toLowerCase().includes(q)
                 || (p.description || '').toLowerCase().includes(q)
+                || (p.color || '').toLowerCase().includes(q)
                 || (p.specs || []).some(s => s.value && s.value.toLowerCase().includes(q));
 
-            return catMatch && brandMatch && volMatch && searchMatch;
+            return catMatch && colorMatch && brandMatch && volMatch && searchMatch;
         });
     }
 
@@ -308,6 +354,10 @@ document.addEventListener('DOMContentLoaded', () => {
                <span class="product-img-placeholder" style="display:none;">${emoji}</span>`
             : `<span class="product-img-placeholder">${emoji}</span>`;
 
+        const colorTagHtml = product.color
+            ? `<span class="product-tag-color">${COLOR_EMOJIS[product.color] || '🎨'} ${product.color}</span>`
+            : '';
+
         const card = document.createElement('div');
         card.className = 'product-card';
         card.setAttribute('data-sku', product.sku);
@@ -318,6 +368,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="product-card-img-wrap">
                 ${imgHtml}
                 <span class="product-tag-brand" data-brand="${product.brand || ''}">${product.brand || ''}</span>
+                ${colorTagHtml}
             </div>
             <div class="product-card-body">
                 <div class="product-sku code-font">${product.sku}</div>
@@ -446,6 +497,7 @@ document.addEventListener('DOMContentLoaded', () => {
         catalogState.activeCategory = cat;
         catalogState.activeBrands.clear();
         catalogState.activeVolumes.clear();
+        catalogState.activeColors.clear();
 
         // Update active state
         document.querySelectorAll('.sidebar-cat-item').forEach(i => i.classList.remove('active'));

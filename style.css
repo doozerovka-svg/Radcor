@@ -426,7 +426,9 @@ h4 { font-size: 0.95rem; font-weight: 600; letter-spacing: 0; }
     box-shadow: var(--shadow-sm);
     position: sticky;
     top: calc(var(--header-height) + 16px);
-    overflow: hidden;
+    max-height: calc(100vh - var(--header-height) - 32px);
+    overflow-y: auto;
+    scrollbar-width: thin;
 }
 
 /* Category list */
@@ -754,6 +756,24 @@ h4 { font-size: 0.95rem; font-weight: 600; letter-spacing: 0; }
 .product-tag-brand[data-brand="Prista"] { background: #FEF3C7; color: #92400E; border-color: #FCD34D; }
 .product-tag-brand[data-brand="Valvoline"] { background: #FEE2E2; color: #991B1B; border-color: #FCA5A5; }
 .product-tag-brand[data-brand="Wolf"] { background: #F3F4F6; color: #374151; border-color: #D1D5DB; }
+
+/* Color tag on image */
+.product-tag-color {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: rgba(255,255,255,0.92);
+    border: 1px solid var(--colour-border);
+    color: var(--colour-text);
+    font-size: 0.72rem;
+    font-weight: 600;
+    padding: 3px 8px;
+    border-radius: 4px;
+    box-shadow: var(--shadow-sm);
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+}
 
 /* Card body */
 .product-card-body {
