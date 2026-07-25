@@ -334,7 +334,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function renderProductCard(product) {
         const volumes  = getProductPacks(product).map(pack => pack.volume_l);
-        const specs    = (product.specs || []).slice(0, 2); // show max 2 specs
+        const allSpecs = product.specs || [];
+        
+        // Find approvals spec if present
+        const approvalSpec = allSpecs.find(s => ['Допуски', 'Спецификации', 'Одобрения', 'Официальные допуски'].includes(s.label));
+        
+        // Main surface specs: show primary attributes like 'Класс', 'Назначение', 'Вязкость', 'Стандарт', 'Тип'
+        const mainSpecs = allSpecs.filter(s => ['Класс', 'Назначение', 'Вязкость', 'Стандарт', 'Тип'].includes(s.label)).slice(0, 2);
+        const finalMainSpecs = mainSpecs.length > 0 ? mainSpecs : allSpecs.filter(s => !['Допуски', 'Спецификации', 'Одобрения'].includes(s.label)).slice(0, 2);
+
         const svgIcon  = CATEGORY_SVG[product.category] || `<svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/></svg>`;
         const firstVol = volumes.length > 0 ? volumes[0] : product.canister_vol;
         const displayPrice = getVolumePriceForProduct(product, firstVol);
@@ -348,13 +356,25 @@ document.addEventListener('DOMContentLoaded', () => {
               }).join('')
             : '<span class="volume-tag active" data-vol="1">—</span>';
 
-        // Specs mini HTML
-        const specsHtml = specs.map(s => `
+        // Specs mini HTML (only main specs, no long tolerances)
+        const specsHtml = finalMainSpecs.map(s => `
             <div class="spec-mini-row">
                 <span class="spec-mini-label">${s.label}</span>
                 <span class="spec-mini-value">${s.value}</span>
             </div>
         `).join('');
+
+        // Action buttons (Допуски / Характеристики)
+        const hasExtraSpecs = allSpecs.length > finalMainSpecs.length || !!product.description;
+        let specActionBtnsHtml = '';
+        if (approvalSpec || hasExtraSpecs) {
+            specActionBtnsHtml = `
+                <div class="product-card-spec-actions">
+                    ${approvalSpec ? `<button class="btn-card-spec-action btn-toggle-approvals" data-sku="${product.sku}">📜 Допуски</button>` : ''}
+                    ${hasExtraSpecs ? `<button class="btn-card-spec-action btn-toggle-details" data-sku="${product.sku}">ℹ️ Характеристики</button>` : ''}
+                </div>
+            `;
+        }
 
         // Image or placeholder
         const imgHtml = product.photo_url
@@ -384,8 +404,17 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="product-card-body">
                 <div class="product-sku code-font">${product.sku}</div>
                 <h3 class="product-card-title">${product.name}</h3>
-                <p class="product-card-desc">${product.description || ''}</p>
-                ${specs.length > 0 ? `<div class="product-specs-mini">${specsHtml}</div>` : ''}
+                ${finalMainSpecs.length > 0 ? `<div class="product-specs-mini">${specsHtml}</div>` : ''}
+                ${specActionBtnsHtml}
+
+                <div class="product-card-drawer" id="drawer-${product.sku}" style="display: none;">
+                    <div class="drawer-header">
+                        <span class="drawer-title" id="drawer-title-${product.sku}"></span>
+                        <button class="btn-close-drawer" data-sku="${product.sku}">&times;</button>
+                    </div>
+                    <div class="drawer-body" id="drawer-body-${product.sku}"></div>
+                </div>
+
                 <div class="product-volumes">
                     <span class="volumes-label">Объём:</span>
                     ${volTagsHtml}
@@ -445,9 +474,68 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // ==========================================================================
-    // VOLUME TAG CLICK → UPDATE PRICE & CART DATA
+    // CATALOG GRID CLICK HANDLERS (VOLUME, SPECS DRAWER, ADD TO CART)
     // ==========================================================================
     document.getElementById('catalogGrid')?.addEventListener('click', e => {
+        // Toggle Approvals / Specifications Drawer
+        const specActionBtn = e.target.closest('.btn-card-spec-action');
+        if (specActionBtn) {
+            const sku = specActionBtn.getAttribute('data-sku');
+            const card = specActionBtn.closest('.product-card');
+            const drawer = card?.querySelector(`#drawer-${sku}`);
+            const titleEl = card?.querySelector(`#drawer-title-${sku}`);
+            const bodyEl = card?.querySelector(`#drawer-body-${sku}`);
+            
+            const product = allProducts.find(p => p.sku === sku);
+            if (!product || !drawer) return;
+
+            const isApprovals = specActionBtn.classList.contains('btn-toggle-approvals');
+            const currentType = drawer.getAttribute('data-type');
+            const isAlreadyOpen = drawer.style.display !== 'none' && currentType === (isApprovals ? 'approvals' : 'details');
+
+            if (isAlreadyOpen) {
+                drawer.style.display = 'none';
+                return;
+            }
+
+            drawer.setAttribute('data-type', isApprovals ? 'approvals' : 'details');
+
+            if (isApprovals) {
+                titleEl.textContent = 'Допуски и спецификации:';
+                const approvalSpec = (product.specs || []).find(s => ['Допуски', 'Спецификации', 'Одобрения', 'Официальные допуски'].includes(s.label));
+                const text = approvalSpec ? approvalSpec.value : product.description;
+                const items = text.split(/[,;\n]+/).map(i => i.trim()).filter(Boolean);
+                bodyEl.innerHTML = `
+                    <div class="approval-pills-wrap">
+                        ${items.map(item => `<span class="approval-pill-tag">${item}</span>`).join('')}
+                    </div>
+                `;
+            } else {
+                titleEl.textContent = 'Полная информация:';
+                const specsRows = (product.specs || []).map(s => `
+                    <div class="drawer-spec-row">
+                        <span class="drawer-spec-label">${s.label}:</span>
+                        <span class="drawer-spec-val">${s.value}</span>
+                    </div>
+                `).join('');
+                bodyEl.innerHTML = `
+                    ${product.description ? `<p class="drawer-desc">${product.description}</p>` : ''}
+                    ${specsRows ? `<div class="drawer-specs-table">${specsRows}</div>` : ''}
+                `;
+            }
+
+            drawer.style.display = 'block';
+            return;
+        }
+
+        // Close drawer button
+        const closeBtn = e.target.closest('.btn-close-drawer');
+        if (closeBtn) {
+            const sku = closeBtn.getAttribute('data-sku');
+            const drawer = document.getElementById(`drawer-${sku}`);
+            if (drawer) drawer.style.display = 'none';
+            return;
+        }
         const volTag = e.target.closest('.volume-tag');
         if (volTag) {
             const card = volTag.closest('.product-card');

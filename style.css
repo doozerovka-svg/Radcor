@@ -891,6 +891,149 @@ h4 { font-size: 0.95rem; font-weight: 600; letter-spacing: 0; }
 .spec-mini-label { color: var(--colour-text-muted); flex-shrink: 0; }
 .spec-mini-value { color: var(--colour-text-secondary); font-weight: 500; text-align: right; }
 
+/* Card Spec Action Buttons */
+.product-card-spec-actions {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin: 2px 0;
+    flex-wrap: wrap;
+}
+
+.btn-card-spec-action {
+    background: #F8FAFC;
+    border: 1px solid #E2E8F0;
+    color: var(--colour-text-secondary);
+    font-size: 0.74rem;
+    font-weight: 600;
+    padding: 5px 11px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.btn-card-spec-action:hover {
+    background: #EEF2FF;
+    color: var(--colour-accent);
+    border-color: #C7D2FE;
+}
+
+.btn-card-spec-action.btn-toggle-approvals {
+    background: #ECFDF5;
+    color: #047857;
+    border-color: #A7F3D0;
+}
+
+.btn-card-spec-action.btn-toggle-approvals:hover {
+    background: #D1FAE5;
+    color: #065F46;
+    border-color: #6EE7B7;
+}
+
+/* Product Card Drawer */
+.product-card-drawer {
+    background: #FFFFFF;
+    border: 1px solid var(--colour-border);
+    border-radius: 8px;
+    padding: 12px 14px;
+    margin: 6px 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    animation: drawerSlideDown 0.2s ease-out;
+}
+
+@keyframes drawerSlideDown {
+    from { opacity: 0; transform: translateY(-4px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.drawer-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 6px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #F0F2F5;
+}
+
+.drawer-title {
+    font-size: 0.74rem;
+    font-weight: 700;
+    color: var(--colour-text);
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.btn-close-drawer {
+    background: none;
+    border: none;
+    font-size: 1.1rem;
+    line-height: 1;
+    color: var(--colour-text-muted);
+    cursor: pointer;
+    padding: 0 4px;
+}
+
+.btn-close-drawer:hover {
+    color: var(--colour-accent);
+}
+
+.drawer-body {
+    font-size: 0.8rem;
+    color: var(--colour-text-secondary);
+}
+
+.approval-pills-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.approval-pill-tag {
+    background: #F3F4F6;
+    border: 1px solid #E5E7EB;
+    color: #374151;
+    font-size: 0.72rem;
+    font-weight: 600;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-family: var(--font-utility);
+}
+
+.drawer-desc {
+    font-size: 0.8rem;
+    color: var(--colour-text-secondary);
+    line-height: 1.45;
+    margin-bottom: 8px;
+}
+
+.drawer-specs-table {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.drawer-spec-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.76rem;
+    padding: 3px 0;
+    border-bottom: 1px stroke #F3F4F6;
+}
+
+.drawer-spec-label {
+    color: var(--colour-text-muted);
+    font-weight: 500;
+}
+
+.drawer-spec-val {
+    color: var(--colour-text);
+    font-weight: 600;
+    text-align: right;
+}
+
 /* Volume tags */
 .product-volumes {
     display: flex;
