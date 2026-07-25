@@ -118,13 +118,13 @@ document.addEventListener('DOMContentLoaded', () => {
     // ==========================================================================
     // PRODUCT EMOJI PLACEHOLDERS (when no photo)
     // ==========================================================================
-    const CATEGORY_EMOJI = {
-        'motor-oils':   '🛢',
-        'coolants':     '❄️',
-        'autochemistry':'🔧',
-        'winter':       '❄',
-        'accessories':  '📦',
-        'industrial':   '🏭'
+    const CATEGORY_SVG = {
+        'motor-oils':   `<svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 8h11v12H4z"></path><path d="M15 11l4-2v6l-4-2"></path><path d="M7 8V5h4v3"></path><path d="M9.5 14a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"></path></svg>`,
+        'coolants':     `<svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2.5v19M2.5 12h19M5.2 5.2l13.6 13.6M5.2 18.8L18.8 5.2"></path><circle cx="12" cy="12" r="2.5" fill="var(--colour-surface)"></circle></svg>`,
+        'autochemistry':`<svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>`,
+        'winter':       `<svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 14.76V3.5a2.5 2.5 0 0 0-5 0v11.26a4.5 4.5 0 1 0 5 0z"></path></svg>`,
+        'accessories':  `<svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>`,
+        'industrial':   `<svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 20h20"></path><path d="M20 20V9l-6 4V9l-6 4V4H2v16"></path></svg>`
     };
 
     // ==========================================================================
@@ -327,7 +327,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function renderProductCard(product) {
         const volumes  = getProductPacks(product).map(pack => pack.volume_l);
         const specs    = (product.specs || []).slice(0, 2); // show max 2 specs
-        const emoji    = CATEGORY_EMOJI[product.category] || '📦';
+        const svgIcon  = CATEGORY_SVG[product.category] || `<svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/></svg>`;
         const firstVol = volumes.length > 0 ? volumes[0] : product.canister_vol;
         const displayPrice = getVolumePriceForProduct(product, firstVol);
 
@@ -351,8 +351,8 @@ document.addEventListener('DOMContentLoaded', () => {
         // Image or placeholder
         const imgHtml = product.photo_url
             ? `<img src="${product.photo_url}" alt="${product.name}" class="product-card-img" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-               <span class="product-img-placeholder" style="display:none;">${emoji}</span>`
-            : `<span class="product-img-placeholder">${emoji}</span>`;
+               <span class="product-img-placeholder" style="display:none;">${svgIcon}</span>`
+            : `<span class="product-img-placeholder">${svgIcon}</span>`;
 
         const colorTagHtml = product.color
             ? `<span class="product-tag-color">${COLOR_EMOJIS[product.color] || '🎨'} ${product.color}</span>`

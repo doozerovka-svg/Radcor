@@ -444,39 +444,68 @@ h4 { font-size: 0.95rem; font-weight: 600; letter-spacing: 0; }
 }
 
 .sidebar-category-list {
-    padding: 8px 0;
+    padding: 0;
 }
 
 .sidebar-cat-item {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 9px 20px;
-    font-size: 0.9rem;
+    padding: 11px 18px;
+    font-size: 0.88rem;
     font-weight: 500;
     color: var(--colour-text-secondary);
     cursor: pointer;
+    border-bottom: 1px solid #F0F2F5;
     border-left: 3px solid transparent;
     transition: var(--transition);
 }
+
+.sidebar-cat-item:last-child {
+    border-bottom: none;
+}
+
+.cat-item-left {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.cat-svg-icon {
+    color: var(--colour-text-muted);
+    flex-shrink: 0;
+    transition: color 0.2s ease;
+}
+
 .sidebar-cat-item:hover {
     background-color: var(--colour-surface-2);
     color: var(--colour-text);
 }
+
+.sidebar-cat-item:hover .cat-svg-icon {
+    color: var(--colour-accent);
+}
+
 .sidebar-cat-item.active {
     color: var(--colour-accent);
     background-color: #EEF2FF;
     border-left-color: var(--colour-accent);
     font-weight: 600;
 }
+
+.sidebar-cat-item.active .cat-svg-icon {
+    color: var(--colour-accent);
+}
+
 .cat-count {
     font-size: 0.75rem;
     color: var(--colour-text-faint);
     background: var(--colour-surface-2);
-    padding: 2px 7px;
+    padding: 2px 8px;
     border-radius: 100px;
     font-family: var(--font-utility);
 }
+
 .sidebar-cat-item.active .cat-count {
     background: #C7D2FE;
     color: var(--colour-accent);
@@ -1917,10 +1946,23 @@ h4 { font-size: 0.95rem; font-weight: 600; letter-spacing: 0; }
     border-color: var(--colour-accent);
 }
 
-.cat-card-icon {
-    font-size: 2.5rem;
+.cat-card-icon-wrap {
+    width: 52px;
+    height: 52px;
+    border-radius: 12px;
+    background: #EEF2FF;
+    color: var(--colour-accent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 24px;
-    display: inline-block;
+    transition: var(--transition);
+}
+
+.cat-landing-card:hover .cat-card-icon-wrap {
+    background: var(--colour-accent);
+    color: #ffffff;
+    transform: scale(1.05);
 }
 
 .cat-landing-card h3 {
