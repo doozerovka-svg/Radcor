@@ -339,9 +339,11 @@ document.addEventListener('DOMContentLoaded', () => {
         // Find approvals spec if present
         const approvalSpec = allSpecs.find(s => ['Допуски', 'Спецификации', 'Одобрения', 'Официальные допуски'].includes(s.label));
         
-        // Main surface specs: show primary attributes like 'Класс', 'Назначение', 'Вязкость', 'Стандарт', 'Тип'
-        const mainSpecs = allSpecs.filter(s => ['Класс', 'Назначение', 'Вязкость', 'Стандарт', 'Тип'].includes(s.label)).slice(0, 2);
-        const finalMainSpecs = mainSpecs.length > 0 ? mainSpecs : allSpecs.filter(s => !['Допуски', 'Спецификации', 'Одобрения'].includes(s.label)).slice(0, 2);
+        // Main surface specs: strictly ONLY 'Вязкость' and 'Класс'
+        const mainSpecs = allSpecs.filter(s => ['Вязкость', 'Класс'].includes(s.label));
+        
+        // Remaining specs for drawer
+        const drawerSpecs = allSpecs.filter(s => !['Вязкость', 'Класс'].includes(s.label));
 
         const svgIcon  = CATEGORY_SVG[product.category] || `<svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/></svg>`;
         const firstVol = volumes.length > 0 ? volumes[0] : product.canister_vol;
@@ -356,8 +358,8 @@ document.addEventListener('DOMContentLoaded', () => {
               }).join('')
             : '<span class="volume-tag active" data-vol="1">—</span>';
 
-        // Specs mini HTML (only main specs, no long tolerances)
-        const specsHtml = finalMainSpecs.map(s => `
+        // Specs mini HTML (strictly 'Вязкость' and 'Класс' if present)
+        const specsHtml = mainSpecs.map(s => `
             <div class="spec-mini-row">
                 <span class="spec-mini-label">${s.label}</span>
                 <span class="spec-mini-value">${s.value}</span>
@@ -365,7 +367,7 @@ document.addEventListener('DOMContentLoaded', () => {
         `).join('');
 
         // Action buttons (Допуски / Характеристики)
-        const hasExtraSpecs = allSpecs.length > finalMainSpecs.length || !!product.description;
+        const hasExtraSpecs = drawerSpecs.length > 0;
         let specActionBtnsHtml = '';
         if (approvalSpec || hasExtraSpecs) {
             specActionBtnsHtml = `
@@ -404,14 +406,11 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="product-card-body">
                 <div class="product-sku code-font">${product.sku}</div>
                 <h3 class="product-card-title">${product.name}</h3>
-                ${finalMainSpecs.length > 0 ? `<div class="product-specs-mini">${specsHtml}</div>` : ''}
+                ${product.description ? `<p class="product-card-desc">${product.description}</p>` : ''}
+                ${mainSpecs.length > 0 ? `<div class="product-specs-mini">${specsHtml}</div>` : ''}
                 ${specActionBtnsHtml}
 
                 <div class="product-card-drawer" id="drawer-${product.sku}" style="display: none;">
-                    <div class="drawer-header">
-                        <span class="drawer-title" id="drawer-title-${product.sku}"></span>
-                        <button class="btn-close-drawer" data-sku="${product.sku}">&times;</button>
-                    </div>
                     <div class="drawer-body" id="drawer-body-${product.sku}"></div>
                 </div>
 
@@ -483,7 +482,6 @@ document.addEventListener('DOMContentLoaded', () => {
             const sku = specActionBtn.getAttribute('data-sku');
             const card = specActionBtn.closest('.product-card');
             const drawer = card?.querySelector(`#drawer-${sku}`);
-            const titleEl = card?.querySelector(`#drawer-title-${sku}`);
             const bodyEl = card?.querySelector(`#drawer-body-${sku}`);
             
             const product = allProducts.find(p => p.sku === sku);
@@ -501,9 +499,8 @@ document.addEventListener('DOMContentLoaded', () => {
             drawer.setAttribute('data-type', isApprovals ? 'approvals' : 'details');
 
             if (isApprovals) {
-                titleEl.textContent = 'Допуски и спецификации:';
                 const approvalSpec = (product.specs || []).find(s => ['Допуски', 'Спецификации', 'Одобрения', 'Официальные допуски'].includes(s.label));
-                const text = approvalSpec ? approvalSpec.value : product.description;
+                const text = approvalSpec ? approvalSpec.value : '';
                 const items = text.split(/[,;\n]+/).map(i => i.trim()).filter(Boolean);
                 bodyEl.innerHTML = `
                     <div class="approval-pills-wrap">
@@ -511,17 +508,14 @@ document.addEventListener('DOMContentLoaded', () => {
                     </div>
                 `;
             } else {
-                titleEl.textContent = 'Полная информация:';
-                const specsRows = (product.specs || []).map(s => `
+                const drawerSpecs = (product.specs || []).filter(s => !['Вязкость', 'Класс'].includes(s.label));
+                const specsRows = drawerSpecs.map(s => `
                     <div class="drawer-spec-row">
                         <span class="drawer-spec-label">${s.label}:</span>
                         <span class="drawer-spec-val">${s.value}</span>
                     </div>
                 `).join('');
-                bodyEl.innerHTML = `
-                    ${product.description ? `<p class="drawer-desc">${product.description}</p>` : ''}
-                    ${specsRows ? `<div class="drawer-specs-table">${specsRows}</div>` : ''}
-                `;
+                bodyEl.innerHTML = specsRows ? `<div class="drawer-specs-table">${specsRows}</div>` : '<div style="font-size:0.78rem;color:var(--colour-text-muted);">Нет дополнительных характеристик</div>';
             }
 
             drawer.style.display = 'block';
