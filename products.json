@@ -6754,5 +6754,889 @@
         "label": "1 шт"
       }
     ]
+  },
+  {
+    "sku": "HEPU-P900-RM11",
+    "name": "Антифриз HEPU P900-RM11 Ready Mix Extra -38°C (Синий)",
+    "category": "coolants",
+    "brand": "Hepu",
+    "color": "Синий",
+    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
+    "volumes": [
+      1.5,
+      5,
+      20,
+      200
+    ],
+    "description": "Готовый к применению синий антифриз HEPU Ready Mix Extra (-38°C) класса G11.",
+    "specs": [
+      {
+        "label": "Класс",
+        "value": "G11"
+      },
+      {
+        "label": "Цвет",
+        "value": "Синий"
+      },
+      {
+        "label": "Допуски",
+        "value": "Audi/VW G11 - TL 774A, MB 325.0/325.2, BS 6580 (UK), ASTM D3306, JIS K 2234, UNE 26-361, AFNOR NF R15-601"
+      }
+    ],
+    "canister_vol": 1.5,
+    "canister_price": 98,
+    "packs": [
+      {
+        "id": "h-rm11-15",
+        "volume_l": 1.5,
+        "price_mdl": 98,
+        "label": "1.5 л"
+      },
+      {
+        "id": "h-rm11-5",
+        "volume_l": 5,
+        "price_mdl": 270,
+        "label": "5 л"
+      },
+      {
+        "id": "h-rm11-20",
+        "volume_l": 20,
+        "price_mdl": 1088,
+        "label": "20 л"
+      },
+      {
+        "id": "h-rm11-200",
+        "volume_l": 200,
+        "price_mdl": 8900,
+        "label": "200 л (Бочка)"
+      }
+    ],
+    "barrel_vol": 200,
+    "barrel_price": 8900
+  },
+  {
+    "sku": "HEPU-P900-RM11-GRN",
+    "name": "Антифриз HEPU P900-RM11 Ready Mix Extra -38°C (Зелёный)",
+    "category": "coolants",
+    "brand": "Hepu",
+    "color": "Зелёный",
+    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
+    "volumes": [
+      1.5,
+      5,
+      20,
+      60,
+      200
+    ],
+    "description": "Готовый к применению зелёный антифриз HEPU Ready Mix Extra (-38°C) класса G11.",
+    "specs": [
+      {
+        "label": "Класс",
+        "value": "G11"
+      },
+      {
+        "label": "Цвет",
+        "value": "Зелёный"
+      },
+      {
+        "label": "Допуски",
+        "value": "MB 325.0/325.2, MB 000 989 08 25, Opel 1940 656, Ford 1 047 035, BS 6580 (UK), ASTM D3306, JIS K 2234, UNE 26-361, AFNOR NF R15-601"
+      }
+    ],
+    "canister_vol": 1.5,
+    "canister_price": 98.75,
+    "packs": [
+      {
+        "id": "h-rm11g-15",
+        "volume_l": 1.5,
+        "price_mdl": 98.75,
+        "label": "1.5 л"
+      },
+      {
+        "id": "h-rm11g-5",
+        "volume_l": 5,
+        "price_mdl": 290,
+        "label": "5 л"
+      },
+      {
+        "id": "h-rm11g-20",
+        "volume_l": 20,
+        "price_mdl": 1350,
+        "label": "20 л"
+      },
+      {
+        "id": "h-rm11g-60",
+        "volume_l": 60,
+        "price_mdl": 3650,
+        "label": "60 л (Бочка)"
+      },
+      {
+        "id": "h-rm11g-200",
+        "volume_l": 200,
+        "price_mdl": 10050,
+        "label": "200 л (Бочка)"
+      }
+    ],
+    "barrel_vol": 200,
+    "barrel_price": 10050
+  },
+  {
+    "sku": "HEPU-P900-RM-G12",
+    "name": "Антифриз HEPU P900-RM-G12 Ready Mix Extra -37°C (Красный)",
+    "category": "coolants",
+    "brand": "Hepu",
+    "color": "Красный",
+    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
+    "volumes": [
+      1.5,
+      5,
+      20,
+      60,
+      200
+    ],
+    "description": "Готовый красная охлаждающая жидкость HEPU Ready Mix Extra (-37°C) класса G12.",
+    "specs": [
+      {
+        "label": "Класс",
+        "value": "G12"
+      },
+      {
+        "label": "Цвет",
+        "value": "Красный"
+      },
+      {
+        "label": "Допуски",
+        "value": "Audi/VW/Seat/Skoda G12 - TL 774D - G 012 A8D A1, MB 325.3, GM 1940 663, Volvo 1381080"
+      }
+    ],
+    "canister_vol": 1.5,
+    "canister_price": 99.5,
+    "packs": [
+      {
+        "id": "h-rm12-15",
+        "volume_l": 1.5,
+        "price_mdl": 99.5,
+        "label": "1.5 л"
+      },
+      {
+        "id": "h-rm12-5",
+        "volume_l": 5,
+        "price_mdl": 299,
+        "label": "5 л"
+      },
+      {
+        "id": "h-rm12-20",
+        "volume_l": 20,
+        "price_mdl": 1185,
+        "label": "20 л"
+      },
+      {
+        "id": "h-rm12-60",
+        "volume_l": 60,
+        "price_mdl": 3950,
+        "label": "60 л (Бочка)"
+      },
+      {
+        "id": "h-rm12-200",
+        "volume_l": 200,
+        "price_mdl": 10750,
+        "label": "200 л (Бочка)"
+      }
+    ],
+    "barrel_vol": 200,
+    "barrel_price": 10750
+  },
+  {
+    "sku": "HEPU-P900-RM-G12PLUS",
+    "name": "Антифриз HEPU P900-RM-G12+ Ready Mix Extra -37°C (Фиолетовый)",
+    "category": "coolants",
+    "brand": "Hepu",
+    "color": "Фиолетовый",
+    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
+    "volumes": [
+      1.5,
+      5,
+      20,
+      60,
+      200
+    ],
+    "description": "Готовый фиолетовый антифриз HEPU Ready Mix Extra (-37°C) класса G12+.",
+    "specs": [
+      {
+        "label": "Класс",
+        "value": "G12+"
+      },
+      {
+        "label": "Цвет",
+        "value": "Фиолетовый"
+      },
+      {
+        "label": "Допуски",
+        "value": "Audi/VW/Seat/Skoda G12Plus - TL 774F - G 012 A8F A1, MB 325.3, Ford 1 336 797"
+      }
+    ],
+    "canister_vol": 1.5,
+    "canister_price": 105,
+    "packs": [
+      {
+        "id": "h-rm12p-15",
+        "volume_l": 1.5,
+        "price_mdl": 105,
+        "label": "1.5 л"
+      },
+      {
+        "id": "h-rm12p-5",
+        "volume_l": 5,
+        "price_mdl": 318,
+        "label": "5 л"
+      },
+      {
+        "id": "h-rm12p-20",
+        "volume_l": 20,
+        "price_mdl": 1210,
+        "label": "20 л"
+      },
+      {
+        "id": "h-rm12p-60",
+        "volume_l": 60,
+        "price_mdl": 4150,
+        "label": "60 л (Бочка)"
+      },
+      {
+        "id": "h-rm12p-200",
+        "volume_l": 200,
+        "price_mdl": 10850,
+        "label": "200 л (Бочка)"
+      }
+    ],
+    "barrel_vol": 200,
+    "barrel_price": 10850
+  },
+  {
+    "sku": "HEPU-P900-RM-G13",
+    "name": "Антифриз HEPU P900-RM-G13 Ready Mix Extra -35°C (Фиолетовый)",
+    "category": "coolants",
+    "brand": "Hepu",
+    "color": "Фиолетовый",
+    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
+    "volumes": [
+      1.5,
+      5
+    ],
+    "description": "Готовый лобридный фиолетовый антифриз HEPU Ready Mix Extra (-35°C) класса G13.",
+    "specs": [
+      {
+        "label": "Класс",
+        "value": "G13"
+      },
+      {
+        "label": "Цвет",
+        "value": "Фиолетовый"
+      },
+      {
+        "label": "Допуски",
+        "value": "Audi G13 / TL 774-J, Audi G 013 A8J M1, Skoda G 013 A8J M1, ASTM D3306, ASTM D4340, Scania TB 1451"
+      }
+    ],
+    "canister_vol": 1.5,
+    "canister_price": 107,
+    "packs": [
+      {
+        "id": "h-rm13-15",
+        "volume_l": 1.5,
+        "price_mdl": 107,
+        "label": "1.5 л"
+      },
+      {
+        "id": "h-rm13-5",
+        "volume_l": 5,
+        "price_mdl": 332,
+        "label": "5 л"
+      }
+    ],
+    "barrel_vol": 5,
+    "barrel_price": 332
+  },
+  {
+    "sku": "HEPU-P900-RM-EVO12",
+    "name": "Антифриз HEPU P900-RM-EVO12 Ready Mix -37°C (Фиолетовый)",
+    "category": "coolants",
+    "brand": "Hepu",
+    "color": "Фиолетовый",
+    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
+    "volumes": [
+      1.5,
+      5
+    ],
+    "description": "Инновационный готовящийся лобридный антифриз HEPU G12evo (Si-OAT) нового поколения.",
+    "specs": [
+      {
+        "label": "Класс",
+        "value": "G12evo Si-OAT"
+      },
+      {
+        "label": "Цвет",
+        "value": "Фиолетовый"
+      },
+      {
+        "label": "Допуски",
+        "value": "VAG G 12E 050 A2 (G12evo), Audi (TL 774-L), Deutz (DQC CC-14), Porsche (TL 774-L), BMW LC18, MAN 324 Si-OAT evo, ASTM D3306, ASTM D4985, SAE J1034"
+      }
+    ],
+    "canister_vol": 1.5,
+    "canister_price": 114,
+    "packs": [
+      {
+        "id": "h-rmevo-15",
+        "volume_l": 1.5,
+        "price_mdl": 114,
+        "label": "1.5 л"
+      },
+      {
+        "id": "h-rmevo-5",
+        "volume_l": 5,
+        "price_mdl": 339,
+        "label": "5 л"
+      }
+    ],
+    "barrel_vol": 5,
+    "barrel_price": 339
+  },
+  {
+    "sku": "HEPU-P900-RM11-YLW",
+    "name": "Антифриз HEPU P900-RM11 Ready Mix Extra -37°C (Жёлтый)",
+    "category": "coolants",
+    "brand": "Hepu",
+    "color": "Жёлтый",
+    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
+    "volumes": [
+      1.5,
+      5,
+      20
+    ],
+    "description": "Готовый жёлтый антифриз HEPU Ready Mix Extra (-37°C) класса G11.",
+    "specs": [
+      {
+        "label": "Класс",
+        "value": "G11"
+      },
+      {
+        "label": "Цвет",
+        "value": "Жёлтый"
+      },
+      {
+        "label": "Допуски",
+        "value": "MB 325.0/325.2, MB 000 989 08 25, Opel 1940 656, Ford 1 047 035, UNE 26-361, AFNOR NF R15-601, BS 6580 (UK), ASTM D3306, JIS K 2234"
+      }
+    ],
+    "canister_vol": 1.5,
+    "canister_price": 110,
+    "packs": [
+      {
+        "id": "h-rm11y-15",
+        "volume_l": 1.5,
+        "price_mdl": 110,
+        "label": "1.5 л"
+      },
+      {
+        "id": "h-rm11y-5",
+        "volume_l": 5,
+        "price_mdl": 306,
+        "label": "5 л"
+      },
+      {
+        "id": "h-rm11y-20",
+        "volume_l": 20,
+        "price_mdl": 1190,
+        "label": "20 л"
+      }
+    ],
+    "barrel_vol": 20,
+    "barrel_price": 1190
+  },
+  {
+    "sku": "HEPU-P999-BLU",
+    "name": "Антифриз HEPU P999 Концентрат (Синий)",
+    "category": "coolants",
+    "brand": "Hepu",
+    "color": "Синий",
+    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
+    "volumes": [
+      1.5,
+      5
+    ],
+    "description": "Концентрированный синий антифриз высшего качества HEPU P999 класса G11.",
+    "specs": [
+      {
+        "label": "Класс",
+        "value": "G11 Концентрат"
+      },
+      {
+        "label": "Цвет",
+        "value": "Синий"
+      },
+      {
+        "label": "Допуски",
+        "value": "Audi/VW G11 - TL 774A, Audi/VW G 011 A8C A1, MB 325.0/325.2, MB 000 989 08 25, ASTM D3306, JIS K 2234, UNE 26-361, AFNOR NF R15-601"
+      }
+    ],
+    "canister_vol": 1.5,
+    "canister_price": 109.5,
+    "packs": [
+      {
+        "id": "h-p999-15",
+        "volume_l": 1.5,
+        "price_mdl": 109.5,
+        "label": "1.5 л"
+      },
+      {
+        "id": "h-p999-5",
+        "volume_l": 5,
+        "price_mdl": 359,
+        "label": "5 л"
+      }
+    ],
+    "barrel_vol": 5,
+    "barrel_price": 359
+  },
+  {
+    "sku": "HEPU-P999-GRN",
+    "name": "Антифриз HEPU P999-GRN Концентрат (Зелёный)",
+    "category": "coolants",
+    "brand": "Hepu",
+    "color": "Зелёный",
+    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
+    "volumes": [
+      1.5,
+      5
+    ],
+    "description": "Концентрированный зелёный антифриз HEPU P999-GRN класса G11.",
+    "specs": [
+      {
+        "label": "Класс",
+        "value": "G11 Концентрат"
+      },
+      {
+        "label": "Цвет",
+        "value": "Зелёный"
+      },
+      {
+        "label": "Допуски",
+        "value": "MB 325.0/325.2, MB 000 989 08 25, Opel 1940 656, Ford 1 047 035, BS 6580 (UK), ASTM D3306, JIS K 2234, UNE 26-361, AFNOR NF R15-601"
+      }
+    ],
+    "canister_vol": 1.5,
+    "canister_price": 149,
+    "packs": [
+      {
+        "id": "h-p999g-15",
+        "volume_l": 1.5,
+        "price_mdl": 149,
+        "label": "1.5 л"
+      },
+      {
+        "id": "h-p999g-5",
+        "volume_l": 5,
+        "price_mdl": 480,
+        "label": "5 л"
+      }
+    ],
+    "barrel_vol": 5,
+    "barrel_price": 480
+  },
+  {
+    "sku": "HEPU-P999-G12",
+    "name": "Антифриз HEPU P999-G12 Концентрат (Красный)",
+    "category": "coolants",
+    "brand": "Hepu",
+    "color": "Красный",
+    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
+    "volumes": [
+      1.5,
+      5,
+      20
+    ],
+    "description": "Концентрированный красная охлаждающая жидкость HEPU P999-G12 класса G12.",
+    "specs": [
+      {
+        "label": "Класс",
+        "value": "G12 Концентрат"
+      },
+      {
+        "label": "Цвет",
+        "value": "Красный"
+      },
+      {
+        "label": "Допуски",
+        "value": "VW Audi G12 - TL 774D, G12 A8D A1, Skoda G 012 A8D A1, Opel 1940 663, Volvo 1381080"
+      }
+    ],
+    "canister_vol": 1.5,
+    "canister_price": 114,
+    "packs": [
+      {
+        "id": "h-p99912-15",
+        "volume_l": 1.5,
+        "price_mdl": 114,
+        "label": "1.5 л"
+      },
+      {
+        "id": "h-p99912-5",
+        "volume_l": 5,
+        "price_mdl": 390,
+        "label": "5 л"
+      },
+      {
+        "id": "h-p99912-20",
+        "volume_l": 20,
+        "price_mdl": 1495,
+        "label": "20 л"
+      }
+    ],
+    "barrel_vol": 20,
+    "barrel_price": 1495
+  },
+  {
+    "sku": "HEPU-P999-G12PLUS",
+    "name": "Антифриз HEPU P999-G12+ Концентрат (Фиолетовый)",
+    "category": "coolants",
+    "brand": "Hepu",
+    "color": "Фиолетовый",
+    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
+    "volumes": [
+      1.5,
+      5
+    ],
+    "description": "Концентрированный фиолетовый антифриз HEPU P999-G12+ класса G12+.",
+    "specs": [
+      {
+        "label": "Класс",
+        "value": "G12+ Концентрат"
+      },
+      {
+        "label": "Цвет",
+        "value": "Фиолетовый"
+      },
+      {
+        "label": "Допуски",
+        "value": "Audi/VW G12+ - TL 774F, Audi G012 A8F A1, VW G 012 A8F A1, MB 325.3, MB 000 989 16 25, Ford 1 336 797"
+      }
+    ],
+    "canister_vol": 1.5,
+    "canister_price": 125,
+    "packs": [
+      {
+        "id": "h-p99912p-15",
+        "volume_l": 1.5,
+        "price_mdl": 125,
+        "label": "1.5 л"
+      },
+      {
+        "id": "h-p99912p-5",
+        "volume_l": 5,
+        "price_mdl": 392,
+        "label": "5 л"
+      }
+    ],
+    "barrel_vol": 5,
+    "barrel_price": 392
+  },
+  {
+    "sku": "HEPU-P999-G12SUPERPLUS",
+    "name": "Антифриз HEPU P999-G12++ Концентрат (Фиолетовый)",
+    "category": "coolants",
+    "brand": "Hepu",
+    "color": "Фиолетовый",
+    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
+    "volumes": [
+      1.5,
+      5
+    ],
+    "description": "Концентрированный лобридный фиолетовый антифриз HEPU P999-G12++ (Superplus).",
+    "specs": [
+      {
+        "label": "Класс",
+        "value": "G12++ Концентрат"
+      },
+      {
+        "label": "Цвет",
+        "value": "Фиолетовый"
+      },
+      {
+        "label": "Допуски",
+        "value": "Audi/VW G12++ TL 774G, TL 774G, Audi G 012 A8G M1, VW G 012 A8G M1, Seat G 012 A8G M1, Skoda G 012 A8G M1, ASTM D3306, ASTM D4340, SCANIA TB 1451"
+      }
+    ],
+    "canister_vol": 1.5,
+    "canister_price": 148,
+    "packs": [
+      {
+        "id": "h-p99912pp-15",
+        "volume_l": 1.5,
+        "price_mdl": 148,
+        "label": "1.5 л"
+      },
+      {
+        "id": "h-p99912pp-5",
+        "volume_l": 5,
+        "price_mdl": 460,
+        "label": "5 л"
+      }
+    ],
+    "barrel_vol": 5,
+    "barrel_price": 460
+  },
+  {
+    "sku": "HEPU-P999-G13",
+    "name": "Антифриз HEPU P999-G13 Концентрат (Фиолетовый)",
+    "category": "coolants",
+    "brand": "Hepu",
+    "color": "Фиолетовый",
+    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
+    "volumes": [
+      1.5,
+      5
+    ],
+    "description": "Концентрированный экологичный фиолетовый антифриз HEPU P999-G13 класса G13.",
+    "specs": [
+      {
+        "label": "Класс",
+        "value": "G13 Концентрат"
+      },
+      {
+        "label": "Цвет",
+        "value": "Фиолетовый"
+      },
+      {
+        "label": "Допуски",
+        "value": "Audi/VW/SEAT/SKODA G13 / TL 774-J, Audi G 013 A8J M1, VW G 013 A8J M1, ASTM D3306 / D4985, SAE J1034, ASTM D4340, SCANIA TB 1451"
+      }
+    ],
+    "canister_vol": 1.5,
+    "canister_price": 145,
+    "packs": [
+      {
+        "id": "h-p99913-15",
+        "volume_l": 1.5,
+        "price_mdl": 145,
+        "label": "1.5 л"
+      },
+      {
+        "id": "h-p99913-5",
+        "volume_l": 5,
+        "price_mdl": 425,
+        "label": "5 л"
+      }
+    ],
+    "barrel_vol": 5,
+    "barrel_price": 425
+  },
+  {
+    "sku": "HEPU-P888-BLU",
+    "name": "Антифриз HEPU P888 Ready Mix Extra -25°C (Синий)",
+    "category": "coolants",
+    "brand": "Hepu",
+    "color": "Синий",
+    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
+    "volumes": [
+      1.5,
+      5,
+      200
+    ],
+    "description": "Готовый синий антифриз HEPU Ready Mix Extra (-25°C) класса G11.",
+    "specs": [
+      {
+        "label": "Класс",
+        "value": "G11"
+      },
+      {
+        "label": "Цвет",
+        "value": "Синий"
+      },
+      {
+        "label": "Допуски",
+        "value": "Audi/VW G11 - TL 774A, MB 325.0/325.2, BS 6580 (UK), ASTM D3306, JIS K 2234, UNE 26-361, AFNOR NF R15-601"
+      }
+    ],
+    "canister_vol": 1.5,
+    "canister_price": 88,
+    "packs": [
+      {
+        "id": "h-p888-15",
+        "volume_l": 1.5,
+        "price_mdl": 88,
+        "label": "1.5 л"
+      },
+      {
+        "id": "h-p888-5",
+        "volume_l": 5,
+        "price_mdl": 245,
+        "label": "5 л"
+      },
+      {
+        "id": "h-p888-200",
+        "volume_l": 200,
+        "price_mdl": 7610,
+        "label": "200 л (Бочка)"
+      }
+    ],
+    "barrel_vol": 200,
+    "barrel_price": 7610
+  },
+  {
+    "sku": "HEPU-P888-GRN",
+    "name": "Антифриз HEPU P888-GRN Ready Mix Extra -25°C (Зелёный)",
+    "category": "coolants",
+    "brand": "Hepu",
+    "color": "Зелёный",
+    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
+    "volumes": [
+      1.5,
+      5,
+      200
+    ],
+    "description": "Готовый зелёный антифриз HEPU Ready Mix Extra (-25°C) класса G11.",
+    "specs": [
+      {
+        "label": "Класс",
+        "value": "G11"
+      },
+      {
+        "label": "Цвет",
+        "value": "Зелёный"
+      },
+      {
+        "label": "Допуски",
+        "value": "MB 325.0/325.2, MB 000 989 08 25, Opel 1940 656, Ford 1 047 035, ASTM D3306, AFNOR NF R15-601"
+      }
+    ],
+    "canister_vol": 1.5,
+    "canister_price": 93,
+    "packs": [
+      {
+        "id": "h-p888g-15",
+        "volume_l": 1.5,
+        "price_mdl": 93,
+        "label": "1.5 л"
+      },
+      {
+        "id": "h-p888g-5",
+        "volume_l": 5,
+        "price_mdl": 265,
+        "label": "5 л"
+      },
+      {
+        "id": "h-p888g-200",
+        "volume_l": 200,
+        "price_mdl": 8450,
+        "label": "200 л (Бочка)"
+      }
+    ],
+    "barrel_vol": 200,
+    "barrel_price": 8450
+  },
+  {
+    "sku": "HEPU-P888-G12",
+    "name": "Антифриз HEPU P888-G12 Ready Mix Extra -25°C (Красный)",
+    "category": "coolants",
+    "brand": "Hepu",
+    "color": "Красный",
+    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
+    "volumes": [
+      1.5,
+      5,
+      60,
+      200
+    ],
+    "description": "Готовая красная охлаждающая жидкость HEPU Ready Mix Extra (-25°C) класса G12.",
+    "specs": [
+      {
+        "label": "Класс",
+        "value": "G12"
+      },
+      {
+        "label": "Цвет",
+        "value": "Красный"
+      },
+      {
+        "label": "Допуски",
+        "value": "Audi/VW/Seat/Skoda G12 - TL 774D - G 012 A8D A1, MB 325.3, GM 1940 663, Volvo 1381080"
+      }
+    ],
+    "canister_vol": 1.5,
+    "canister_price": 94,
+    "packs": [
+      {
+        "id": "h-p88812-15",
+        "volume_l": 1.5,
+        "price_mdl": 94,
+        "label": "1.5 л"
+      },
+      {
+        "id": "h-p88812-5",
+        "volume_l": 5,
+        "price_mdl": 270,
+        "label": "5 л"
+      },
+      {
+        "id": "h-p88812-60",
+        "volume_l": 60,
+        "price_mdl": 2900,
+        "label": "60 л (Бочка)"
+      },
+      {
+        "id": "h-p88812-200",
+        "volume_l": 200,
+        "price_mdl": 8985,
+        "label": "200 л (Бочка)"
+      }
+    ],
+    "barrel_vol": 200,
+    "barrel_price": 8985
+  },
+  {
+    "sku": "HEPU-P888-G12PLUS",
+    "name": "Антифриз HEPU P888-G12+ Ready Mix Extra -25°C (Фиолетовый)",
+    "category": "coolants",
+    "brand": "Hepu",
+    "color": "Фиолетовый",
+    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
+    "volumes": [
+      1.5,
+      5
+    ],
+    "description": "Готовый фиолетовый антифриз HEPU Ready Mix Extra (-25°C) класса G12+.",
+    "specs": [
+      {
+        "label": "Класс",
+        "value": "G12+"
+      },
+      {
+        "label": "Цвет",
+        "value": "Фиолетовый"
+      },
+      {
+        "label": "Допуски",
+        "value": "VW Audi G12plus-TL 774F - Audi G012 A8F A1 - VW G012 A8F A1, MB 325.3, MB 000 989 16 25, Ford 1 336 797"
+      }
+    ],
+    "canister_vol": 1.5,
+    "canister_price": 96.5,
+    "packs": [
+      {
+        "id": "h-p88812p-15",
+        "volume_l": 1.5,
+        "price_mdl": 96.5,
+        "label": "1.5 л"
+      },
+      {
+        "id": "h-p88812p-5",
+        "volume_l": 5,
+        "price_mdl": 280,
+        "label": "5 л"
+      }
+    ],
+    "barrel_vol": 5,
+    "barrel_price": 280
   }
 ]
