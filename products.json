@@ -1224,34 +1224,31 @@
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
     "volumes": [
-      1,
-      4,
-      60,
-      208
+      1
     ],
     "description": "Синтетическое моторное масло премиум класса для самых современных автомобилей",
     "specs": [
       {
+        "label": "Вязкость",
+        "value": "0W-30"
+      },
+      {
         "label": "Допуски",
-        "value": "ACEA C2, Ford WSS-M2C-950-A, Jaguar Land Rover STJLR.03.5007, VWC 53035"
-      },
-      {
-        "label": "Плотность при 15°C",
-        "value": "0,847"
-      },
-      {
-        "label": "Температура застывания",
-        "value": "-45"
-      },
-      {
-        "label": "Температура вспышки (по Кливленду)",
-        "value": "254"
+        "value": "Ford WSS-M2C-950-A, Jaguar Land Rover STJLR.03.5007"
       }
     ],
-    "canister_vol": 4,
-    "canister_price": 0,
+    "canister_vol": 1,
+    "canister_price": 240,
     "barrel_vol": 208,
-    "barrel_price": 0
+    "barrel_price": 0,
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 240,
+        "label": "1 л"
+      }
+    ]
   },
   {
     "sku": "MOL-1001",
@@ -1260,34 +1257,27 @@
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/hajtomuolajok/1L_MOL_ATF_Synt_TWS.jpg",
     "volumes": [
-      1,
-      4,
-      60,
-      208
+      1
     ],
     "description": "Синтетическая жидкость высшего качества для автоматических трансмиссий",
     "specs": [
       {
-        "label": "Допуски",
-        "value": "GM Dexron-VI, JASO 1A LV, Toyota WS, Mazda FZ, Nissan Matic-W, Mitsubishi ATF J3, Mitsubishi SP-IV, VW G 055 540, VW G 055 005, VW G 055 162, BMW ATF 3+, BMW ATF6, Ford XT-6-QSP [SP], Honda Type 3.0, Honda Type 3.1, Hyundai/KIA 040000C90SG, Hyundai/KIA SP4-M1, Hyundai/KIA SPH-IV, Mistsubishi Dia Queen ATF-MA1, Mistsubishi Dia Queen ATF-PA, Honda DW-1, Hyundai NWS-9638, Hyundai/Kia SP-IV, Nissan Matic-S, SAAB 93 165 147"
-      },
-      {
-        "label": "Плотность при 15°C",
-        "value": "0,847"
-      },
-      {
-        "label": "Температура застывания",
-        "value": "-49"
-      },
-      {
-        "label": "Температура вспышки (по Кливленду)",
-        "value": "210"
+        "label": "Стандарт",
+        "value": "Dexron VI, Toyota WS, Mazda FZ, Nissan Matic-S"
       }
     ],
-    "canister_vol": 4,
-    "canister_price": 0,
+    "canister_vol": 1,
+    "canister_price": 180,
     "barrel_vol": 208,
-    "barrel_price": 0
+    "barrel_price": 0,
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 180,
+        "label": "1 л"
+      }
+    ]
   },
   {
     "sku": "MOL-1002",
@@ -1296,34 +1286,27 @@
     "brand": "MOL",
     "photo_url": "",
     "volumes": [
-      1,
-      4,
-      60,
-      208
+      1
     ],
     "description": "Синтетическая жидкость высшего качества для автоматических трансмиссий",
     "specs": [
       {
-        "label": "Допуски",
-        "value": "ZF TE-ML 03D[ZF001895], ZF TE-ML 04D[ZF001895], ZF TE-ML 14B[ZF001895], ZF TE-ML 17C[ZF001895], ZF TE-ML 20B[ZF001895], ZF TE-ML 25B[ZF001895], Voith H55.6336, GM Dexron-IIIH, GM Dexron-IIIG, MAN 339 Typ L1, MAN 339 Typ V2, MAN 339 Typ Z2, MAN 339 Typ Z11, ZF TE-ML 14C, Allison C-4, Allison TES-295"
-      },
-      {
-        "label": "Плотность при 15°C",
-        "value": "0,848"
-      },
-      {
-        "label": "Температура застывания",
-        "value": "-42"
-      },
-      {
-        "label": "Температура вспышки (по Кливленду)",
-        "value": "200"
+        "label": "Стандарт",
+        "value": "GM Dexron-IIIH, MAN 339 Typ Z2"
       }
     ],
-    "canister_vol": 4,
-    "canister_price": 0,
+    "canister_vol": 1,
+    "canister_price": 160,
     "barrel_vol": 208,
-    "barrel_price": 0
+    "barrel_price": 0,
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 160,
+        "label": "1 л"
+      }
+    ]
   },
   {
     "sku": "MOL-1003",
@@ -1370,32 +1353,54 @@
     "volumes": [
       1,
       4,
-      60,
-      208
+      50,
+      198
     ],
     "description": "Полусинтетическое моторное масло высшего сорта для большинства современных транспортных средств.",
     "specs": [
       {
+        "label": "Вязкость",
+        "value": "10W-40"
+      },
+      {
+        "label": "Класс",
+        "value": "API SL/CF, ACEA A3/B4-08"
+      },
+      {
         "label": "Допуски",
-        "value": "API SN, MB-Approval 229.3, TEDOM 258-1, ACEA A3/B4, ACEA A3/B3, API CF, API SL, VW 502 00/505 00, Renault RN0700, Renault RN0710, Fiat 9.55535-G2"
-      },
-      {
-        "label": "Плотность при 15°C",
-        "value": "0,866"
-      },
-      {
-        "label": "Температура застывания",
-        "value": "-45"
-      },
-      {
-        "label": "Температура вспышки (по Кливленду)",
-        "value": "230"
+        "value": "MB 229.3, VW 502.00/505.00"
       }
     ],
-    "canister_vol": 4,
-    "canister_price": 0,
-    "barrel_vol": 208,
-    "barrel_price": 0
+    "canister_vol": 1,
+    "canister_price": 124,
+    "barrel_vol": 198,
+    "barrel_price": 14880,
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 124,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 462,
+        "label": "4 л"
+      },
+      {
+        "id": "p-50",
+        "volume_l": 50,
+        "price_mdl": 4792,
+        "label": "50 л (Бочка)"
+      },
+      {
+        "id": "p-198",
+        "volume_l": 198,
+        "price_mdl": 14880,
+        "label": "198 л (Бочка)"
+      }
+    ]
   },
   {
     "sku": "MOL-1005",
@@ -1477,33 +1482,37 @@
     "photo_url": "",
     "volumes": [
       1,
-      4,
-      60,
-      208
+      50
     ],
     "description": "Автомобильные трансмиссионные масла",
     "specs": [
       {
-        "label": "Допуски",
-        "value": "API MT-1, API GL-5, SAE J 2360, Scania STO 1:0, Mack GO-J, ZF TE-ML 07A, ZF TE-ML 08"
+        "label": "Вязкость",
+        "value": "80W-140"
       },
       {
-        "label": "Плотность при 15°C",
-        "value": "0,892"
-      },
-      {
-        "label": "Температура застывания",
-        "value": "-33"
-      },
-      {
-        "label": "Температура вспышки (по Кливленду)",
-        "value": "205"
+        "label": "Класс",
+        "value": "API GL-5"
       }
     ],
-    "canister_vol": 4,
-    "canister_price": 0,
-    "barrel_vol": 208,
-    "barrel_price": 0
+    "canister_vol": 1,
+    "canister_price": 127,
+    "barrel_vol": 50,
+    "barrel_price": 4110,
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 127,
+        "label": "1 л"
+      },
+      {
+        "id": "p-50",
+        "volume_l": 50,
+        "price_mdl": 4110,
+        "label": "50 л (Бочка)"
+      }
+    ]
   },
   {
     "sku": "MOL-1008",
@@ -1618,32 +1627,68 @@
     "volumes": [
       1,
       4,
-      60,
-      208
+      5,
+      10,
+      50,
+      198
     ],
     "description": "Синтетическое моторное масло высшего сорта для большинства современных транспортных средств.",
     "specs": [
       {
+        "label": "Вязкость",
+        "value": "5W-30"
+      },
+      {
+        "label": "Класс",
+        "value": "API SN/CF, ACEA A3/B4-04"
+      },
+      {
         "label": "Допуски",
-        "value": "API SN, VW 504 00/507 00, MB-Approval 229.51, ACEA C3, API SP, BMW Longlife-04"
-      },
-      {
-        "label": "Плотность при 15°C",
-        "value": "0,852"
-      },
-      {
-        "label": "Температура застывания",
-        "value": "-42"
-      },
-      {
-        "label": "Температура вспышки (по Кливленду)",
-        "value": "210"
+        "value": "VW 504.00/507.00, MB 229.51"
       }
     ],
-    "canister_vol": 4,
-    "canister_price": 0,
-    "barrel_vol": 208,
-    "barrel_price": 0
+    "canister_vol": 1,
+    "canister_price": 154,
+    "barrel_vol": 198,
+    "barrel_price": 26400,
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 154,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 564,
+        "label": "4 л"
+      },
+      {
+        "id": "p-5",
+        "volume_l": 5,
+        "price_mdl": 700,
+        "label": "5 л"
+      },
+      {
+        "id": "p-10",
+        "volume_l": 10,
+        "price_mdl": 1380,
+        "label": "10 л"
+      },
+      {
+        "id": "p-50",
+        "volume_l": 50,
+        "price_mdl": 7488,
+        "label": "50 л (Бочка)"
+      },
+      {
+        "id": "p-198",
+        "volume_l": 198,
+        "price_mdl": 26400,
+        "label": "198 л (Бочка)"
+      }
+    ]
   },
   {
     "sku": "MOL-1012",
@@ -1885,33 +1930,41 @@
     "photo_url": "",
     "volumes": [
       1,
-      4,
-      60,
-      208
+      4
     ],
     "description": "Синтетическое моторное масло премиум качества для самых современных автомобилей, предназначенное, в первую очередь, для легковых автомобилей Volvo",
     "specs": [
       {
+        "label": "Вязкость",
+        "value": "0W-20"
+      },
+      {
+        "label": "Класс",
+        "value": "ACEA C5"
+      },
+      {
         "label": "Допуски",
-        "value": "ACEA C5, API SN, Volvo VCC RBS0-2AE"
-      },
-      {
-        "label": "Плотность при 15°C",
-        "value": "0,846"
-      },
-      {
-        "label": "Температура застывания",
-        "value": "-42"
-      },
-      {
-        "label": "Температура вспышки (по Кливленду)",
-        "value": "230"
+        "value": "Volvo VCC RBS0-2AE"
       }
     ],
-    "canister_vol": 4,
-    "canister_price": 0,
-    "barrel_vol": 208,
-    "barrel_price": 0
+    "canister_vol": 1,
+    "canister_price": 171,
+    "barrel_vol": 4,
+    "barrel_price": 612,
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 171,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 612,
+        "label": "4 л"
+      }
+    ]
   },
   {
     "sku": "MOL-1020",
@@ -1922,32 +1975,47 @@
     "volumes": [
       1,
       4,
-      60,
-      208
+      50
     ],
     "description": "Автомобильные трансмиссионные масла",
     "specs": [
       {
+        "label": "Вязкость",
+        "value": "80W-90"
+      },
+      {
+        "label": "Класс",
+        "value": "API GL-5"
+      },
+      {
         "label": "Допуски",
-        "value": "API GL-5, MIL-L-2105D, ZETOR"
-      },
-      {
-        "label": "Плотность при 15°C",
-        "value": "0,895"
-      },
-      {
-        "label": "Температура застывания",
-        "value": "-27"
-      },
-      {
-        "label": "Температура вспышки (по Кливленду)",
-        "value": "230"
+        "value": "MB 235.0, MAN 342"
       }
     ],
-    "canister_vol": 4,
-    "canister_price": 0,
-    "barrel_vol": 208,
-    "barrel_price": 0
+    "canister_vol": 1,
+    "canister_price": 120,
+    "barrel_vol": 50,
+    "barrel_price": 4990,
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 120,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 470,
+        "label": "4 л"
+      },
+      {
+        "id": "p-50",
+        "volume_l": 50,
+        "price_mdl": 4990,
+        "label": "50 л (Бочка)"
+      }
+    ]
   },
   {
     "sku": "MOL-1021",
@@ -2139,31 +2207,52 @@
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/hajtomuolajok/4L_MOL_Hykomol_80W-90_.jpg",
     "volumes": [
-      4
+      1,
+      4,
+      50,
+      202
     ],
     "description": "Автомобильные трансмиссионные масла",
     "specs": [
       {
-        "label": "Допуски",
-        "value": "API GL-4, MIL-L-2105"
+        "label": "Вязкость",
+        "value": "80W-90"
       },
       {
-        "label": "Плотность при 15°C",
-        "value": "0,891"
-      },
-      {
-        "label": "Температура застывания",
-        "value": "-30"
-      },
-      {
-        "label": "Температура вспышки (по Кливленду)",
-        "value": "230"
+        "label": "Класс",
+        "value": "API GL-4"
       }
     ],
-    "canister_vol": 4,
-    "canister_price": 0,
-    "barrel_vol": 208,
-    "barrel_price": 0
+    "canister_vol": 1,
+    "canister_price": 94,
+    "barrel_vol": 202,
+    "barrel_price": 12822,
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 94,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 343,
+        "label": "4 л"
+      },
+      {
+        "id": "p-50",
+        "volume_l": 50,
+        "price_mdl": 3792,
+        "label": "50 л (Бочка)"
+      },
+      {
+        "id": "p-202",
+        "volume_l": 202,
+        "price_mdl": 12822,
+        "label": "202 л (Бочка)"
+      }
+    ]
   },
   {
     "sku": "MOL-1028",
@@ -2238,32 +2327,75 @@
     "volumes": [
       1,
       4,
-      60,
-      208
+      5,
+      10,
+      50,
+      198,
+      202
     ],
     "description": "Моторное масло для увеличенного ресурса.",
     "specs": [
       {
+        "label": "Вязкость",
+        "value": "10W-40"
+      },
+      {
+        "label": "Класс",
+        "value": "API SL/CF, ACEA A3/B4-08"
+      },
+      {
         "label": "Допуски",
-        "value": "API SL, ACEA A3/B4, ACEA A3/B3, API SL/CF, VW 501 01/505 00"
-      },
-      {
-        "label": "Плотность при 15°C",
-        "value": "0,871"
-      },
-      {
-        "label": "Температура застывания",
-        "value": "-33"
-      },
-      {
-        "label": "Температура вспышки (по Кливленду)",
-        "value": "220"
+        "value": "VW 501.01/505.00"
       }
     ],
-    "canister_vol": 4,
-    "canister_price": 0,
-    "barrel_vol": 208,
-    "barrel_price": 0
+    "canister_vol": 1,
+    "canister_price": 95,
+    "barrel_vol": 202,
+    "barrel_price": 15392,
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 95,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 357,
+        "label": "4 л"
+      },
+      {
+        "id": "p-5",
+        "volume_l": 5,
+        "price_mdl": 440,
+        "label": "5 л"
+      },
+      {
+        "id": "p-10",
+        "volume_l": 10,
+        "price_mdl": 780,
+        "label": "10 л"
+      },
+      {
+        "id": "p-50",
+        "volume_l": 50,
+        "price_mdl": 3940,
+        "label": "50 л (Бочка)"
+      },
+      {
+        "id": "p-198",
+        "volume_l": 198,
+        "price_mdl": 14880,
+        "label": "198 л (Бочка)"
+      },
+      {
+        "id": "p-202",
+        "volume_l": 202,
+        "price_mdl": 15392,
+        "label": "202 л (Бочка)"
+      }
+    ]
   },
   {
     "sku": "MOL-1031",
@@ -2344,30 +2476,48 @@
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_ru/lub/avtomobili/konsistentnye_smazki/400g_MOL_Liton_LT_2EP.jpg",
     "volumes": [
-      1,
-      4,
-      60,
-      208
+      0.375,
+      0.8,
+      8,
+      18
     ],
     "description": "Литиевые смазки",
     "specs": [
       {
-        "label": "Допуски",
-        "value": "ZETOR, DIN 51502: KP2K-30, DIN 51825: KP2K-30, ISO 6743-9: L-XCCEB 2"
-      },
-      {
-        "label": "Вязкость базового масла при 40°C",
-        "value": "200"
-      },
-      {
-        "label": "Температура каплепадения",
-        "value": "195"
+        "label": "Класс NLGI",
+        "value": "NLGI 2"
       }
     ],
-    "canister_vol": 4,
-    "canister_price": 0,
-    "barrel_vol": 208,
-    "barrel_price": 0
+    "canister_vol": 0.375,
+    "canister_price": 78,
+    "barrel_vol": 18,
+    "barrel_price": 2892,
+    "packs": [
+      {
+        "id": "p-0375",
+        "volume_l": 0.375,
+        "price_mdl": 78,
+        "label": "375 г"
+      },
+      {
+        "id": "p-08",
+        "volume_l": 0.8,
+        "price_mdl": 146,
+        "label": "800 г"
+      },
+      {
+        "id": "p-8",
+        "volume_l": 8,
+        "price_mdl": 1345,
+        "label": "8 кг"
+      },
+      {
+        "id": "p-18",
+        "volume_l": 18,
+        "price_mdl": 2892,
+        "label": "18 кг"
+      }
+    ]
   },
   {
     "sku": "MOL-1034",
@@ -2414,32 +2564,43 @@
     "volumes": [
       1,
       4,
-      60,
-      208
+      198
     ],
     "description": "Синтетическое моторное масло высшего сорта для большинства современных транспортных средств.",
     "specs": [
       {
+        "label": "Вязкость",
+        "value": "5W-30"
+      },
+      {
         "label": "Допуски",
-        "value": "ACEA C2, ACEA A5/B5, ACEA A1/B1, API SN/CF, Renault RN0700, PSA B71 2290, Fiat 9.55535-S1, Iveco 18-1811 Classe S1"
-      },
-      {
-        "label": "Плотность при 15°C",
-        "value": "0,854"
-      },
-      {
-        "label": "Температура застывания",
-        "value": "-48"
-      },
-      {
-        "label": "Температура вспышки (по Кливленду)",
-        "value": "230"
+        "value": "PSA Peugeot Citroen B71 2290, Fiat 9.55535-S1"
       }
     ],
-    "canister_vol": 4,
-    "canister_price": 0,
-    "barrel_vol": 208,
-    "barrel_price": 0
+    "canister_vol": 1,
+    "canister_price": 136,
+    "barrel_vol": 198,
+    "barrel_price": 19992,
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 136,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 494,
+        "label": "4 л"
+      },
+      {
+        "id": "p-198",
+        "volume_l": 198,
+        "price_mdl": 19992,
+        "label": "198 л (Бочка)"
+      }
+    ]
   },
   {
     "sku": "MOL-1036",
@@ -2450,32 +2611,57 @@
     "volumes": [
       1,
       4,
-      60,
-      208
+      10,
+      50,
+      198
     ],
     "description": "Полусинтетическое трансмиссионное масло",
     "specs": [
       {
-        "label": "Допуски",
-        "value": "API GL-5, API GL-4, MIL-L-2105D, Tatra TDS 80/32, ZF TE-ML 07A, ZF TE-ML 08, ZF TE-ML 17B"
+        "label": "Вязкость",
+        "value": "75W-90"
       },
       {
-        "label": "Плотность при 15°C",
-        "value": "0,859"
-      },
-      {
-        "label": "Температура застывания",
-        "value": "-45"
-      },
-      {
-        "label": "Температура вспышки (по Кливленду)",
-        "value": "215"
+        "label": "Класс",
+        "value": "API GL-4/GL-5"
       }
     ],
-    "canister_vol": 4,
-    "canister_price": 0,
-    "barrel_vol": 208,
-    "barrel_price": 0
+    "canister_vol": 1,
+    "canister_price": 282,
+    "barrel_vol": 198,
+    "barrel_price": 34920,
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 282,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 1020,
+        "label": "4 л"
+      },
+      {
+        "id": "p-10",
+        "volume_l": 10,
+        "price_mdl": 2640,
+        "label": "10 л"
+      },
+      {
+        "id": "p-50",
+        "volume_l": 50,
+        "price_mdl": 9960,
+        "label": "50 л (Бочка)"
+      },
+      {
+        "id": "p-198",
+        "volume_l": 198,
+        "price_mdl": 34920,
+        "label": "198 л (Бочка)"
+      }
+    ]
   },
   {
     "sku": "MOL-1037",
@@ -2556,30 +2742,41 @@
     "brand": "MOL",
     "photo_url": "",
     "volumes": [
-      1,
-      4,
-      60,
-      208
+      0.4,
+      8,
+      18
     ],
     "description": "Литий-комплексная консистентная смазка синего цвета",
     "specs": [
       {
-        "label": "Допуски",
-        "value": "DIN 51502: KP2N-30, ISO 6743-9: L-XCDEB 2"
-      },
-      {
-        "label": "Вязкость базового масла при 40°C",
-        "value": "200"
-      },
-      {
-        "label": "Температура каплепадения",
-        "value": "270"
+        "label": "Класс NLGI",
+        "value": "NLGI 2"
       }
     ],
-    "canister_vol": 4,
-    "canister_price": 0,
-    "barrel_vol": 208,
-    "barrel_price": 0
+    "canister_vol": 0.4,
+    "canister_price": 124,
+    "barrel_vol": 18,
+    "barrel_price": 4220,
+    "packs": [
+      {
+        "id": "p-04",
+        "volume_l": 0.4,
+        "price_mdl": 124,
+        "label": "400 г"
+      },
+      {
+        "id": "p-8",
+        "volume_l": 8,
+        "price_mdl": 1840,
+        "label": "8 кг"
+      },
+      {
+        "id": "p-18",
+        "volume_l": 18,
+        "price_mdl": 4220,
+        "label": "18 кг"
+      }
+    ]
   },
   {
     "sku": "MOL-1040",
@@ -2590,32 +2787,47 @@
     "volumes": [
       1,
       4,
-      60,
-      208
+      198
     ],
     "description": "Синтетическое моторное масло высшего сорта для большинства современных транспортных средств.",
     "specs": [
       {
+        "label": "Вязкость",
+        "value": "5W-30"
+      },
+      {
+        "label": "Класс",
+        "value": "ACEA C4"
+      },
+      {
         "label": "Допуски",
-        "value": "MB-Approval 226.51, ACEA C4, Renault RN0720"
-      },
-      {
-        "label": "Плотность при 15°C",
-        "value": "0,853"
-      },
-      {
-        "label": "Температура застывания",
-        "value": "-39"
-      },
-      {
-        "label": "Температура вспышки (по Кливленду)",
-        "value": "230"
+        "value": "Renault RN0720"
       }
     ],
-    "canister_vol": 4,
-    "canister_price": 0,
-    "barrel_vol": 208,
-    "barrel_price": 0
+    "canister_vol": 1,
+    "canister_price": 130,
+    "barrel_vol": 198,
+    "barrel_price": 21600,
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 130,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 474,
+        "label": "4 л"
+      },
+      {
+        "id": "p-198",
+        "volume_l": 198,
+        "price_mdl": 21600,
+        "label": "198 л (Бочка)"
+      }
+    ]
   },
   {
     "sku": "MOL-1041",
@@ -2698,32 +2910,54 @@
     "volumes": [
       1,
       4,
-      60,
-      208
+      50,
+      198
     ],
     "description": "Синтетическое моторное масло премиум класса для автомобилей последнего поколения.",
     "specs": [
       {
+        "label": "Вязкость",
+        "value": "5W-30"
+      },
+      {
+        "label": "Класс",
+        "value": "API SN"
+      },
+      {
         "label": "Допуски",
-        "value": "API SP, Opel OV 040 1547 - G30, ILSAC GF-6A"
-      },
-      {
-        "label": "Плотность при 15°C",
-        "value": "0,850"
-      },
-      {
-        "label": "Температура застывания",
-        "value": "-45"
-      },
-      {
-        "label": "Температура вспышки (по Кливленду)",
-        "value": "230"
+        "value": "GM dexos1 Gen2"
       }
     ],
-    "canister_vol": 4,
-    "canister_price": 0,
-    "barrel_vol": 208,
-    "barrel_price": 0
+    "canister_vol": 1,
+    "canister_price": 135,
+    "barrel_vol": 198,
+    "barrel_price": 19800,
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 135,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 492,
+        "label": "4 л"
+      },
+      {
+        "id": "p-50",
+        "volume_l": 50,
+        "price_mdl": 5688,
+        "label": "50 л (Бочка)"
+      },
+      {
+        "id": "p-198",
+        "volume_l": 198,
+        "price_mdl": 19800,
+        "label": "198 л (Бочка)"
+      }
+    ]
   },
   {
     "sku": "MOL-1044",
@@ -2947,32 +3181,54 @@
     "volumes": [
       1,
       4,
-      60,
-      208
+      50,
+      202
     ],
     "description": "Синтетическое моторное масло высшего сорта для большинства современных транспортных средств.",
     "specs": [
       {
+        "label": "Вязкость",
+        "value": "5W-30"
+      },
+      {
+        "label": "Класс",
+        "value": "ACEA C3, API SN/CF"
+      },
+      {
         "label": "Допуски",
-        "value": "API SL, ACEA A5/B5, API SL/CF, Ford WSS M2C913-C, Ford WSS M2C913-D, Renault RN0700, Jaguar Land Rover STJLR.03.5003, VWC 53036"
-      },
-      {
-        "label": "Плотность при 15°C",
-        "value": "0,850"
-      },
-      {
-        "label": "Температура застывания",
-        "value": "-45"
-      },
-      {
-        "label": "Температура вспышки (по Кливленду)",
-        "value": "232"
+        "value": "MB 229.51, BMW Longlife-04"
       }
     ],
-    "canister_vol": 4,
-    "canister_price": 0,
-    "barrel_vol": 208,
-    "barrel_price": 0
+    "canister_vol": 1,
+    "canister_price": 146,
+    "barrel_vol": 202,
+    "barrel_price": 19992,
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 146,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 538,
+        "label": "4 л"
+      },
+      {
+        "id": "p-50",
+        "volume_l": 50,
+        "price_mdl": 6050,
+        "label": "50 л (Бочка)"
+      },
+      {
+        "id": "p-202",
+        "volume_l": 202,
+        "price_mdl": 19992,
+        "label": "202 л (Бочка)"
+      }
+    ]
   },
   {
     "sku": "MOL-1051",
@@ -3016,32 +3272,54 @@
     "volumes": [
       1,
       4,
-      60,
-      208
+      50,
+      198
     ],
     "description": "Синтетическое моторное масло высшего сорта для большинства современных транспортных средств.",
     "specs": [
       {
+        "label": "Вязкость",
+        "value": "5W-30"
+      },
+      {
+        "label": "Класс",
+        "value": "API SN/CF, ACEA A3/B4"
+      },
+      {
         "label": "Допуски",
-        "value": "API SN, MB-Approval 229.52, ACEA C3, ACEA C2, API SM, API SL/CF, Opel OV 040 1547 - D30, VW 502 00/505 01, VW 505 00, BMW Longlife-04"
-      },
-      {
-        "label": "Плотность при 15°C",
-        "value": "0,854"
-      },
-      {
-        "label": "Температура застывания",
-        "value": "-42"
-      },
-      {
-        "label": "Температура вспышки (по Кливленду)",
-        "value": "230"
+        "value": "MB 229.5, VW 502.00/505.00"
       }
     ],
-    "canister_vol": 4,
-    "canister_price": 0,
-    "barrel_vol": 208,
-    "barrel_price": 0
+    "canister_vol": 1,
+    "canister_price": 124,
+    "barrel_vol": 198,
+    "barrel_price": 17832,
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 124,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 470,
+        "label": "4 л"
+      },
+      {
+        "id": "p-50",
+        "volume_l": 50,
+        "price_mdl": 4680,
+        "label": "50 л (Бочка)"
+      },
+      {
+        "id": "p-198",
+        "volume_l": 198,
+        "price_mdl": 17832,
+        "label": "198 л (Бочка)"
+      }
+    ]
   },
   {
     "sku": "MOL-1053",
@@ -3159,33 +3437,48 @@
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Essence_15W-40.jpg",
     "volumes": [
       1,
-      4,
-      60,
-      208
+      50,
+      202
     ],
     "description": "Моторное масло для увеличенного ресурса.",
     "specs": [
       {
+        "label": "Вязкость",
+        "value": "15W-40"
+      },
+      {
+        "label": "Класс",
+        "value": "API SJ/CF, ACEA A3/B3"
+      },
+      {
         "label": "Допуски",
-        "value": "API SJ/CF"
-      },
-      {
-        "label": "Плотность при 15°C",
-        "value": "0,879"
-      },
-      {
-        "label": "Температура застывания",
-        "value": "-27"
-      },
-      {
-        "label": "Температура вспышки (по Кливленду)",
-        "value": "230"
+        "value": "MB 229.1, VW 501.01/505.00"
       }
     ],
-    "canister_vol": 4,
-    "canister_price": 0,
-    "barrel_vol": 208,
-    "barrel_price": 0
+    "canister_vol": 1,
+    "canister_price": 94,
+    "barrel_vol": 202,
+    "barrel_price": 11490,
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 94,
+        "label": "1 л"
+      },
+      {
+        "id": "p-50",
+        "volume_l": 50,
+        "price_mdl": 3100,
+        "label": "50 л (Бочка)"
+      },
+      {
+        "id": "p-202",
+        "volume_l": 202,
+        "price_mdl": 11490,
+        "label": "202 л (Бочка)"
+      }
+    ]
   },
   {
     "sku": "MOL-1057",
@@ -3355,32 +3648,54 @@
     "volumes": [
       1,
       4,
-      60,
-      208
+      50,
+      198
     ],
     "description": "Синтетические моторные масла высшего сорта.",
     "specs": [
       {
+        "label": "Вязкость",
+        "value": "5W-40"
+      },
+      {
+        "label": "Класс",
+        "value": "API SN/CF, ACEA C3, A3/B4-04"
+      },
+      {
         "label": "Допуски",
-        "value": "API SN, VW 505 01, MB-Approval 229.51, ACEA C3, API SN/CF, API SM/CF, VW 502 00/505 00, BMW Longlife-04, Ford WSS M2C917-A, Renault RN0700, Renault RN0710, Fiat 9.55535-S2"
-      },
-      {
-        "label": "Плотность при 15°C",
-        "value": "0,854"
-      },
-      {
-        "label": "Температура застывания",
-        "value": "-39"
-      },
-      {
-        "label": "Температура вспышки (по Кливленду)",
-        "value": "240"
+        "value": "MB 229.51/229.31, VW 502.00/505.01, BMW Longlife-04"
       }
     ],
-    "canister_vol": 4,
-    "canister_price": 0,
-    "barrel_vol": 208,
-    "barrel_price": 0
+    "canister_vol": 1,
+    "canister_price": 145,
+    "barrel_vol": 198,
+    "barrel_price": 19992,
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 145,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 541,
+        "label": "4 л"
+      },
+      {
+        "id": "p-50",
+        "volume_l": 50,
+        "price_mdl": 5940,
+        "label": "50 л (Бочка)"
+      },
+      {
+        "id": "p-198",
+        "volume_l": 198,
+        "price_mdl": 19992,
+        "label": "198 л (Бочка)"
+      }
+    ]
   },
   {
     "sku": "MOL-1063",
@@ -3856,33 +4171,1083 @@
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1l_mol_dsg-dct_fluid.jpg",
     "volumes": [
-      1,
-      4,
-      60,
-      208
+      1
     ],
     "description": "Синтетическое трансмиссионное масло для коробок передач с двойным сцеплением",
     "specs": [
       {
         "label": "Допуски",
-        "value": "VW G 052 182 (TL 52 182), VW G 052 529 (TL 52 529), BMW 83 22 0 440 214, BMW 83 22 2 147 477, BMW 83 22 2 148 578, BMW 83 22 2 148 579, Ford M2C936A, MZ320065 Dia-Queen SSTF-I, PSA 9734.S2, Porsche Oil No. 999.917.080.00, Volvo 1161838/1161839, Nissan 999MP-GTRT00P, VW G 055 529"
-      },
-      {
-        "label": "Плотность при 15°C",
-        "value": "0,854"
-      },
-      {
-        "label": "Температура застывания",
-        "value": "-42"
-      },
-      {
-        "label": "Температура вспышки (по Кливленду)",
-        "value": "200"
+        "value": "VW G 052 182, VW G 052 529, BMW 83 22 2 148 578"
       }
     ],
-    "canister_vol": 4,
-    "canister_price": 0,
+    "canister_vol": 1,
+    "canister_price": 187,
     "barrel_vol": 208,
-    "barrel_price": 0
+    "barrel_price": 0,
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 187,
+        "label": "1 л"
+      }
+    ]
+  },
+  {
+    "sku": "MOL-DYN-ESS-5W30",
+    "name": "MOL Dynamic Essence 5W-30",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
+    "volumes": [
+      1,
+      4,
+      50,
+      198
+    ],
+    "description": "Высокоэффективное синтетическое моторное масло для современных легковых автомобилей.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "5W-30"
+      },
+      {
+        "label": "Класс",
+        "value": "API SN, ACEA C3"
+      },
+      {
+        "label": "Допуски",
+        "value": "VW 504.00/507.00"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 120,
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 120,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 445,
+        "label": "4 л"
+      },
+      {
+        "id": "p-50",
+        "volume_l": 50,
+        "price_mdl": 5185,
+        "label": "50 л (Бочка)"
+      },
+      {
+        "id": "p-198",
+        "volume_l": 198,
+        "price_mdl": 17226,
+        "label": "198 л (Бочка)"
+      }
+    ],
+    "barrel_vol": 198,
+    "barrel_price": 17226
+  },
+  {
+    "sku": "MOL-DYN-ESS-C2-5W30",
+    "name": "MOL Dynamic Essence C2 5W-30",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
+    "volumes": [
+      1,
+      4,
+      50,
+      198
+    ],
+    "description": "Синтетическое ресурсосберегающее масло для двигателей с требованиями ACEA C2.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "5W-30"
+      },
+      {
+        "label": "Класс",
+        "value": "API SN/CF, ACEA C2"
+      },
+      {
+        "label": "Допуски",
+        "value": "VW 502.00/505.00, Renault RN0700"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 130,
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 130,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 480,
+        "label": "4 л"
+      },
+      {
+        "id": "p-50",
+        "volume_l": 50,
+        "price_mdl": 5040,
+        "label": "50 л (Бочка)"
+      },
+      {
+        "id": "p-198",
+        "volume_l": 198,
+        "price_mdl": 18880,
+        "label": "198 л (Бочка)"
+      }
+    ],
+    "barrel_vol": 198,
+    "barrel_price": 18880
+  },
+  {
+    "sku": "MOL-DYN-ESS-DSL-5W40",
+    "name": "MOL Dynamic Essence Diesel 5W-40",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
+    "volumes": [
+      1,
+      4,
+      50,
+      198
+    ],
+    "description": "Синтетическое дизельное моторное масло повышенной надежности.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "5W-40"
+      },
+      {
+        "label": "Класс",
+        "value": "API SN/CF, ACEA A3/B4-08"
+      },
+      {
+        "label": "Допуски",
+        "value": "VW 502.00/505.00"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 125,
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 125,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 464,
+        "label": "4 л"
+      },
+      {
+        "id": "p-50",
+        "volume_l": 50,
+        "price_mdl": 5040,
+        "label": "50 л (Бочка)"
+      },
+      {
+        "id": "p-198",
+        "volume_l": 198,
+        "price_mdl": 18880,
+        "label": "198 л (Бочка)"
+      }
+    ],
+    "barrel_vol": 198,
+    "barrel_price": 18880
+  },
+  {
+    "sku": "MOL-DYN-ESS-5W40",
+    "name": "MOL Dynamic Essence 5W-40",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
+    "volumes": [
+      1,
+      4,
+      50,
+      198
+    ],
+    "description": "Универсальное синтетическое моторное масло для бензиновых и дизельных двигателей.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "5W-40"
+      },
+      {
+        "label": "Класс",
+        "value": "API SN/CF, ACEA A3/B4-04"
+      },
+      {
+        "label": "Допуски",
+        "value": "VW 502.00/505.00, MB 229.3, BMW Longlife-01"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 124,
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 124,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 470,
+        "label": "4 л"
+      },
+      {
+        "id": "p-50",
+        "volume_l": 50,
+        "price_mdl": 5180,
+        "label": "50 л (Бочка)"
+      },
+      {
+        "id": "p-198",
+        "volume_l": 198,
+        "price_mdl": 18880,
+        "label": "198 л (Бочка)"
+      }
+    ],
+    "barrel_vol": 198,
+    "barrel_price": 18880
+  },
+  {
+    "sku": "MOL-DYN-ESS-DPF-5W40",
+    "name": "MOL Dynamic Essence DPF 5W-40",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
+    "volumes": [
+      1,
+      4,
+      50,
+      198
+    ],
+    "description": "Синтетическое малозольное моторное масло для систем с фильтрами DPF.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "5W-40"
+      },
+      {
+        "label": "Класс",
+        "value": "API SN/CF, ACEA C3"
+      },
+      {
+        "label": "Допуски",
+        "value": "VW 502.00/505.01"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 124,
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 124,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 464,
+        "label": "4 л"
+      },
+      {
+        "id": "p-50",
+        "volume_l": 50,
+        "price_mdl": 5040,
+        "label": "50 л (Бочка)"
+      },
+      {
+        "id": "p-198",
+        "volume_l": 198,
+        "price_mdl": 18880,
+        "label": "198 л (Бочка)"
+      }
+    ],
+    "barrel_vol": 198,
+    "barrel_price": 18880
+  },
+  {
+    "sku": "MOL-DYN-SYNT-RN-5W40",
+    "name": "MOL Dynamic Synt RN 5W-40",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
+    "volumes": [
+      1,
+      4,
+      50,
+      198
+    ],
+    "description": "Высокоэффективное синтетическое масло с допусками Renault RN0700/RN0710.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "5W-40"
+      },
+      {
+        "label": "Класс",
+        "value": "API SN/CF, ACEA A3/B4-04"
+      },
+      {
+        "label": "Допуски",
+        "value": "MB 229.5, Renault RN0700/RN0710"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 130,
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 130,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 474,
+        "label": "4 л"
+      },
+      {
+        "id": "p-50",
+        "volume_l": 50,
+        "price_mdl": 5180,
+        "label": "50 л (Бочка)"
+      },
+      {
+        "id": "p-198",
+        "volume_l": 198,
+        "price_mdl": 19760,
+        "label": "198 л (Бочка)"
+      }
+    ],
+    "barrel_vol": 198,
+    "barrel_price": 19760
+  },
+  {
+    "sku": "MOL-DYN-STAR-0W20",
+    "name": "MOL Dynamic Star 0W-20",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
+    "volumes": [
+      1,
+      4
+    ],
+    "description": "Сверхлегкое синтетическое масло с официальным допуском Ford EcoBoost.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "0W-20"
+      },
+      {
+        "label": "Класс",
+        "value": "ACEA C5"
+      },
+      {
+        "label": "Допуски",
+        "value": "Ford WSS-M2C-948-B"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 184,
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 184,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 684,
+        "label": "4 л"
+      }
+    ],
+    "barrel_vol": 4,
+    "barrel_price": 684
+  },
+  {
+    "sku": "MOL-DYN-GOLD-HUN-5W30",
+    "name": "MOL Dynamic Gold HUN 5W-30",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
+    "volumes": [
+      1,
+      4
+    ],
+    "description": "Синтетическое масло премиум-класса для азиатских и американских авто.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "5W-30"
+      },
+      {
+        "label": "Класс",
+        "value": "API SN/CF, ILSAC GF-5"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 132,
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 132,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 482,
+        "label": "4 л"
+      }
+    ],
+    "barrel_vol": 4,
+    "barrel_price": 482
+  },
+  {
+    "sku": "MOL-DYN-GOLD-0W20",
+    "name": "MOL Dynamic Gold 0W-20",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
+    "volumes": [
+      1,
+      4
+    ],
+    "description": "Синтетическое энергосберегающее масло для новейших бензиновых двигателей.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "0W-20"
+      },
+      {
+        "label": "Класс",
+        "value": "API SN Plus, ILSAC GF-5"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 180,
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 180,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 684,
+        "label": "4 л"
+      }
+    ],
+    "barrel_vol": 4,
+    "barrel_price": 684
+  },
+  {
+    "sku": "MOL-DYN-GOLD-0W30",
+    "name": "MOL Dynamic Gold 0W-30",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
+    "volumes": [
+      1,
+      4
+    ],
+    "description": "Синтетическое масло с допуском VW Longlife III и Porsche C30.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "0W-30"
+      },
+      {
+        "label": "Допуски",
+        "value": "VW 504.00/507.00, Porsche C30"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 200,
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 200,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 760,
+        "label": "4 л"
+      }
+    ],
+    "barrel_vol": 4,
+    "barrel_price": 760
+  },
+  {
+    "sku": "MOL-DYN-GOLD-0W20-VAG",
+    "name": "MOL Dynamic Gold 0W-20 VAG",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
+    "volumes": [
+      1
+    ],
+    "description": "Специализированное зеленое масло для новейших двигателей VAG (VW 508.00/509.00).",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "0W-20"
+      },
+      {
+        "label": "Допуски",
+        "value": "VW 508.00/509.00"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 219,
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 219,
+        "label": "1 л"
+      }
+    ]
+  },
+  {
+    "sku": "MOL-DYN-ESS-DSL-10W40",
+    "name": "MOL Dynamic Essence Diesel 10W-40",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
+    "volumes": [
+      1,
+      4,
+      50
+    ],
+    "description": "Полусинтетическое моторное масло для дизельных двигателей.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "10W-40"
+      },
+      {
+        "label": "Класс",
+        "value": "API CF/SL, ACEA A3/B4"
+      },
+      {
+        "label": "Допуски",
+        "value": "VW 505.00"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 107,
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 107,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 410,
+        "label": "4 л"
+      },
+      {
+        "id": "p-50",
+        "volume_l": 50,
+        "price_mdl": 3792,
+        "label": "50 л (Бочка)"
+      }
+    ],
+    "barrel_vol": 50,
+    "barrel_price": 3792
+  },
+  {
+    "sku": "MOL-TRANSIT-TDS-10W40",
+    "name": "MOL Transit TDS 10W-40",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
+    "volumes": [
+      1,
+      4,
+      10,
+      20,
+      50,
+      202
+    ],
+    "description": "Высокоэффективное масло для коммерческого транспорта и смешанных парков.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "10W-40"
+      },
+      {
+        "label": "Класс",
+        "value": "API CI-4/SL, ACEA E7"
+      },
+      {
+        "label": "Допуски",
+        "value": "MB 228.3, MAN 3275"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 112,
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 112,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 445,
+        "label": "4 л"
+      },
+      {
+        "id": "p-10",
+        "volume_l": 10,
+        "price_mdl": 790,
+        "label": "10 л"
+      },
+      {
+        "id": "p-20",
+        "volume_l": 20,
+        "price_mdl": 1480,
+        "label": "20 л"
+      },
+      {
+        "id": "p-50",
+        "volume_l": 50,
+        "price_mdl": 4540,
+        "label": "50 л (Бочка)"
+      },
+      {
+        "id": "p-202",
+        "volume_l": 202,
+        "price_mdl": 17044,
+        "label": "202 л (Бочка)"
+      }
+    ],
+    "barrel_vol": 202,
+    "barrel_price": 17044
+  },
+  {
+    "sku": "MOL-15W40-MIN",
+    "name": "MOL 15W-40",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
+    "volumes": [
+      1,
+      4,
+      50,
+      198
+    ],
+    "description": "Классическое минеральное моторное масло.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "15W-40"
+      },
+      {
+        "label": "Класс",
+        "value": "API SF/CC"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 80,
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 80,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 300,
+        "label": "4 л"
+      },
+      {
+        "id": "p-50",
+        "volume_l": 50,
+        "price_mdl": 4000,
+        "label": "50 л (Бочка)"
+      },
+      {
+        "id": "p-198",
+        "volume_l": 198,
+        "price_mdl": 11880,
+        "label": "198 л (Бочка)"
+      }
+    ],
+    "barrel_vol": 198,
+    "barrel_price": 11880
+  },
+  {
+    "sku": "MOL-TURBO-DSL-15W40",
+    "name": "MOL Turbo Diesel 15W-40",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
+    "volumes": [
+      1,
+      5,
+      10,
+      50,
+      204
+    ],
+    "description": "Минеральное масло для тяжелонагруженных турбодизелей.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "15W-40"
+      },
+      {
+        "label": "Класс",
+        "value": "API CF-4/SJ, ACEA E2"
+      },
+      {
+        "label": "Допуски",
+        "value": "MAN 271, Volvo VDS"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 93,
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 93,
+        "label": "1 л"
+      },
+      {
+        "id": "p-5",
+        "volume_l": 5,
+        "price_mdl": 442,
+        "label": "5 л"
+      },
+      {
+        "id": "p-10",
+        "volume_l": 10,
+        "price_mdl": 792,
+        "label": "10 л"
+      },
+      {
+        "id": "p-50",
+        "volume_l": 50,
+        "price_mdl": 3400,
+        "label": "50 л (Бочка)"
+      },
+      {
+        "id": "p-204",
+        "volume_l": 204,
+        "price_mdl": 12240,
+        "label": "204 л (Бочка)"
+      }
+    ],
+    "barrel_vol": 204,
+    "barrel_price": 12240
+  },
+  {
+    "sku": "MOL-DYN-ESS-15W40",
+    "name": "MOL Dynamic Essence 15W-40",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
+    "volumes": [
+      1,
+      4,
+      50
+    ],
+    "description": "Надежное минеральное масло для регулярного технического обслуживания.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "15W-40"
+      },
+      {
+        "label": "Класс",
+        "value": "API SJ/CF"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 89,
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 89,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 324,
+        "label": "4 л"
+      },
+      {
+        "id": "p-50",
+        "volume_l": 50,
+        "price_mdl": 3990,
+        "label": "50 л (Бочка)"
+      }
+    ],
+    "barrel_vol": 50,
+    "barrel_price": 3990
+  },
+  {
+    "sku": "MOL-HYK-K-85W140",
+    "name": "MOL Hykomol K 85W-140",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
+    "volumes": [
+      1,
+      4,
+      10,
+      50,
+      198
+    ],
+    "description": "Трансмиссионное масло высокой вязкости для тяжелонагруженных редукторов.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "85W-140"
+      },
+      {
+        "label": "Класс",
+        "value": "API GL-5"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 94,
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 94,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 366,
+        "label": "4 л"
+      },
+      {
+        "id": "p-10",
+        "volume_l": 10,
+        "price_mdl": 1460,
+        "label": "10 л"
+      },
+      {
+        "id": "p-50",
+        "volume_l": 50,
+        "price_mdl": 3864,
+        "label": "50 л (Бочка)"
+      },
+      {
+        "id": "p-198",
+        "volume_l": 198,
+        "price_mdl": 13860,
+        "label": "198 л (Бочка)"
+      }
+    ],
+    "barrel_vol": 198,
+    "barrel_price": 13860
+  },
+  {
+    "sku": "MOL-HYK-TORSYN-75W90",
+    "name": "MOL Hykomol Torsyn 75W-90",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
+    "volumes": [
+      1,
+      50
+    ],
+    "description": "Полусинтетическое трансмиссионное масло универсального применения.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "75W-90"
+      },
+      {
+        "label": "Класс",
+        "value": "API GL-4/GL-5"
+      },
+      {
+        "label": "Допуски",
+        "value": "MAN 342 Typ M2, ZF TE-ML"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 160,
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 160,
+        "label": "1 л"
+      },
+      {
+        "id": "p-50",
+        "volume_l": 50,
+        "price_mdl": 5040,
+        "label": "50 л (Бочка)"
+      }
+    ],
+    "barrel_vol": 50,
+    "barrel_price": 5040
+  },
+  {
+    "sku": "MOL-ATF-III",
+    "name": "MOL ATF III",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/hajtomuolajok/1L_MOL_ATF_Synt_TWS.jpg",
+    "volumes": [
+      1,
+      4,
+      50,
+      198
+    ],
+    "description": "Жидкость для автоматических трансмиссий стандарта Dexron III.",
+    "specs": [
+      {
+        "label": "Стандарт",
+        "value": "Dexron III, ZF TE-ML"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 124,
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 124,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 470,
+        "label": "4 л"
+      },
+      {
+        "id": "p-50",
+        "volume_l": 50,
+        "price_mdl": 4896,
+        "label": "50 л (Бочка)"
+      },
+      {
+        "id": "p-198",
+        "volume_l": 198,
+        "price_mdl": 16746,
+        "label": "198 л (Бочка)"
+      }
+    ],
+    "barrel_vol": 198,
+    "barrel_price": 16746
+  },
+  {
+    "sku": "MOL-ATF-II",
+    "name": "MOL ATF II",
+    "category": "motor-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/hajtomuolajok/1L_MOL_ATF_Synt_TWS.jpg",
+    "volumes": [
+      1,
+      4,
+      50
+    ],
+    "description": "Трансмиссионное масло для АКПП стандарта Dexron II.",
+    "specs": [
+      {
+        "label": "Стандарт",
+        "value": "Dexron II, ZF TE-ML"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 107,
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 107,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 394,
+        "label": "4 л"
+      },
+      {
+        "id": "p-50",
+        "volume_l": 50,
+        "price_mdl": 3940,
+        "label": "50 л (Бочка)"
+      }
+    ],
+    "barrel_vol": 50,
+    "barrel_price": 3940
+  },
+  {
+    "sku": "MOL-LITON-00-GM",
+    "name": "MOL Liton 00 GM",
+    "category": "autochemistry",
+    "brand": "MOL",
+    "photo_url": "",
+    "volumes": [
+      7
+    ],
+    "description": "Пластичная полужидкая смазка для централизованных систем смазки.",
+    "specs": [
+      {
+        "label": "Класс NLGI",
+        "value": "NLGI 00"
+      }
+    ],
+    "canister_vol": 7,
+    "canister_price": 1470,
+    "packs": [
+      {
+        "id": "p-7",
+        "volume_l": 7,
+        "price_mdl": 1470,
+        "label": "7 кг"
+      }
+    ]
   }
 ]
