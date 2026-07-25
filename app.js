@@ -44,14 +44,19 @@ document.addEventListener('DOMContentLoaded', () => {
     // ==========================================================================
     let allProducts = [];
 
-    const COLOR_EMOJIS = {
-        'Красный': '🔴',
-        'Зелёный': '🟢',
-        'Синий': '🔵',
-        'Жёлтый': '🟡',
-        'Розовый': '🌸',
-        'Фиолетовый': '🟣'
+    const COLOR_CLASSES = {
+        'Красный': 'color-dot-red',
+        'Зелёный': 'color-dot-green',
+        'Синий': 'color-dot-blue',
+        'Жёлтый': 'color-dot-yellow',
+        'Розовый': 'color-dot-pink',
+        'Фиолетовый': 'color-dot-purple'
     };
+
+    function getColorDotHtml(color) {
+        const cls = COLOR_CLASSES[color] || 'color-dot-default';
+        return `<span class="swatch-dot ${cls}"></span>`;
+    }
 
     const catalogState = {
         activeCategory: 'all',
@@ -201,7 +206,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 colorOpts.innerHTML = colors.map(color => `
                     <label class="filter-checkbox-label">
                         <input type="checkbox" class="filter-color-cb" value="${color}" ${catalogState.activeColors.has(color) ? 'checked' : ''}>
-                        <span>${COLOR_EMOJIS[color] || '🎨'} ${color}</span>
+                        <span class="filter-color-item-wrap">
+                            ${getColorDotHtml(color)}
+                            <span class="color-name">${color}</span>
+                        </span>
                         <span class="filter-count">${colorMap[color]}</span>
                     </label>
                 `).join('');
@@ -355,7 +363,10 @@ document.addEventListener('DOMContentLoaded', () => {
             : `<span class="product-img-placeholder">${svgIcon}</span>`;
 
         const colorTagHtml = product.color
-            ? `<span class="product-tag-color">${COLOR_EMOJIS[product.color] || '🎨'} ${product.color}</span>`
+            ? `<span class="product-tag-color">
+                 ${getColorDotHtml(product.color)}
+                 <span>${product.color}</span>
+               </span>`
             : '';
 
         const card = document.createElement('div');

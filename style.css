@@ -786,22 +786,66 @@ h4 { font-size: 0.95rem; font-weight: 600; letter-spacing: 0; }
 .product-tag-brand[data-brand="Valvoline"] { background: #FEE2E2; color: #991B1B; border-color: #FCA5A5; }
 .product-tag-brand[data-brand="Wolf"] { background: #F3F4F6; color: #374151; border-color: #D1D5DB; }
 
+/* Color Filter Swatches & Badges */
+.filter-color-item-wrap {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.swatch-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    flex-shrink: 0;
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.15);
+}
+
+.swatch-dot.color-dot-red {
+    background-color: #E11D48;
+}
+
+.swatch-dot.color-dot-green {
+    background-color: #10B981;
+}
+
+.swatch-dot.color-dot-blue {
+    background-color: #2563EB;
+}
+
+.swatch-dot.color-dot-yellow {
+    background-color: #F59E0B;
+}
+
+.swatch-dot.color-dot-pink {
+    background-color: #EC4899;
+}
+
+.swatch-dot.color-dot-purple {
+    background-color: #8B5CF6;
+}
+
+.swatch-dot.color-dot-default {
+    background-color: #9CA3AF;
+}
+
 /* Color tag on image */
 .product-tag-color {
     position: absolute;
     top: 10px;
     right: 10px;
-    background: rgba(255,255,255,0.92);
+    background: rgba(255, 255, 255, 0.95);
     border: 1px solid var(--colour-border);
     color: var(--colour-text);
     font-size: 0.72rem;
     font-weight: 600;
-    padding: 3px 8px;
+    padding: 3px 9px;
     border-radius: 4px;
-    box-shadow: var(--shadow-sm);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
     display: inline-flex;
     align-items: center;
-    gap: 4px;
+    gap: 6px;
 }
 
 /* Card body */
