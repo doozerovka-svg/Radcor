@@ -505,10 +505,9 @@ document.addEventListener('DOMContentLoaded', () => {
             if (isApprovals) {
                 const approvalSpec = (product.specs || []).find(s => ['Допуски', 'Спецификации', 'Одобрения', 'Официальные допуски'].includes(s.label));
                 const text = approvalSpec ? approvalSpec.value : '';
-                const items = text.split(/[,;\n]+/).map(i => i.trim()).filter(Boolean);
                 bodyEl.innerHTML = `
-                    <div class="approval-pills-wrap">
-                        ${items.map(item => `<span class="approval-pill-tag">${item}</span>`).join('')}
+                    <div class="approval-exact-text">
+                        ${text}
                     </div>
                 `;
             } else {
