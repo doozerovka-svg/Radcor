@@ -1,5 +1,901 @@
 [
   {
+    "sku": "PW-1001",
+    "name": "Antifreeze Polar Way",
+    "category": "coolants",
+    "brand": "Polar Way",
+    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
+    "volumes": [
+      1,
+      5,
+      10
+    ],
+    "description": "Охлаждающая жидкость премиум качества. Доступные цвета: красный, зелёный, синий.",
+    "specs": [
+      {
+        "label": "Цвета",
+        "value": "Красный, зелёный, синий"
+      },
+      {
+        "label": "Основа",
+        "value": "Этиленгликоль"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 22,
+    "packs": [
+      {
+        "id": "pw-1",
+        "volume_l": 1,
+        "price_mdl": 22,
+        "label": "1 кг"
+      },
+      {
+        "id": "pw-5",
+        "volume_l": 5,
+        "price_mdl": 80,
+        "label": "5 кг"
+      },
+      {
+        "id": "pw-10",
+        "volume_l": 10,
+        "price_mdl": 157,
+        "label": "10 кг"
+      }
+    ]
+  },
+  {
+    "sku": "POL-1001",
+    "name": "Antifreeze Полярник (Красный, Зелёный, Синий)",
+    "category": "coolants",
+    "brand": "Полярник",
+    "photo_url": "https://felix-auto.ru/upload/iblock/c34/c34b17f8a7e5df07d10e53a3efee7db4.png",
+    "volumes": [
+      1,
+      3,
+      5,
+      10
+    ],
+    "description": "Классический антифриз Полярник для бензиновых и дизельных двигателей автомобилей.",
+    "specs": [
+      {
+        "label": "Цвета",
+        "value": "Красный, зелёный, синий"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 33.5,
+    "packs": [
+      {
+        "id": "pol-1",
+        "volume_l": 1,
+        "price_mdl": 33.5,
+        "label": "1 кг"
+      },
+      {
+        "id": "pol-3",
+        "volume_l": 3,
+        "price_mdl": 94.5,
+        "label": "3 кг"
+      },
+      {
+        "id": "pol-5",
+        "volume_l": 5,
+        "price_mdl": 139,
+        "label": "5 кг"
+      },
+      {
+        "id": "pol-10",
+        "volume_l": 10,
+        "price_mdl": 274,
+        "label": "10 кг"
+      }
+    ]
+  },
+  {
+    "sku": "POL-1002",
+    "name": "Antifreeze Полярник Жёлтый (Galben)",
+    "category": "coolants",
+    "brand": "Полярник",
+    "photo_url": "https://felix-auto.ru/upload/iblock/c34/c34b17f8a7e5df07d10e53a3efee7db4.png",
+    "volumes": [
+      1,
+      5,
+      10
+    ],
+    "description": "Высокоэффективный жёлтый антифриз Полярник с расширенным температурным диапазоном.",
+    "specs": [
+      {
+        "label": "Цвет",
+        "value": "Жёлтый"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 48,
+    "packs": [
+      {
+        "id": "pol-y-1",
+        "volume_l": 1,
+        "price_mdl": 48,
+        "label": "1 кг"
+      },
+      {
+        "id": "pol-y-5",
+        "volume_l": 5,
+        "price_mdl": 194,
+        "label": "5 кг"
+      },
+      {
+        "id": "pol-y-10",
+        "volume_l": 10,
+        "price_mdl": 384,
+        "label": "10 кг"
+      }
+    ]
+  },
+  {
+    "sku": "DZ-1001",
+    "name": "Antifreeze Dzerjinskii (Дзержинский)",
+    "category": "coolants",
+    "brand": "Дзержинский",
+    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
+    "volumes": [
+      1,
+      5,
+      10
+    ],
+    "description": "Традиционный антифриз Дзержинский. Выпускается в красном, зелёном и синем цвете.",
+    "specs": [
+      {
+        "label": "Цвета",
+        "value": "Красный, зелёный, синий"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 29,
+    "packs": [
+      {
+        "id": "dz-1",
+        "volume_l": 1,
+        "price_mdl": 29,
+        "label": "1 кг"
+      },
+      {
+        "id": "dz-5",
+        "volume_l": 5,
+        "price_mdl": 120,
+        "label": "5 кг"
+      },
+      {
+        "id": "dz-10",
+        "volume_l": 10,
+        "price_mdl": 236,
+        "label": "10 кг"
+      }
+    ]
+  },
+  {
+    "sku": "FLX-G11-GRN",
+    "name": "FELIX Prolonger G11 (Зелёный)",
+    "category": "coolants",
+    "brand": "Felix",
+    "photo_url": "https://felix-auto.ru/upload/iblock/615/615ca79e49eeebbc6ec81ebfbcbcbe87.png",
+    "volumes": [
+      1,
+      3,
+      5,
+      10,
+      20,
+      50,
+      230
+    ],
+    "description": "Антифриз на основе гибридного этиленгликоля (HOAT) для бензиновых и дизельных двигателей.",
+    "specs": [
+      {
+        "label": "Класс",
+        "value": "G11 HOAT"
+      },
+      {
+        "label": "Цвет",
+        "value": "Зелёный"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 48,
+    "barrel_vol": 230,
+    "barrel_price": 8050,
+    "packs": [
+      {
+        "id": "flx-pro-1",
+        "volume_l": 1,
+        "price_mdl": 48,
+        "label": "1 кг"
+      },
+      {
+        "id": "flx-pro-3",
+        "volume_l": 3,
+        "price_mdl": 134,
+        "label": "3 кг"
+      },
+      {
+        "id": "flx-pro-5",
+        "volume_l": 5,
+        "price_mdl": 189.5,
+        "label": "5 кг"
+      },
+      {
+        "id": "flx-pro-10",
+        "volume_l": 10,
+        "price_mdl": 375,
+        "label": "10 кг"
+      },
+      {
+        "id": "flx-pro-20",
+        "volume_l": 20,
+        "price_mdl": 750,
+        "label": "20 кг"
+      },
+      {
+        "id": "flx-pro-50",
+        "volume_l": 50,
+        "price_mdl": 1825,
+        "label": "50 кг (Бочка)"
+      },
+      {
+        "id": "flx-pro-230",
+        "volume_l": 230,
+        "price_mdl": 8050,
+        "label": "230 кг (Бочка)"
+      }
+    ]
+  },
+  {
+    "sku": "FLX-G12-RED",
+    "name": "FELIX Carbox G12+ (Красный)",
+    "category": "coolants",
+    "brand": "Felix",
+    "photo_url": "https://felix-auto.ru/upload/iblock/c34/c34b17f8a7e5df07d10e53a3efee7db4.png",
+    "volumes": [
+      1,
+      3,
+      5,
+      10,
+      20,
+      50,
+      230
+    ],
+    "description": "Профессиональный карбоксилатный антифриз (OAT) с продленным сроком службы.",
+    "specs": [
+      {
+        "label": "Класс",
+        "value": "G12+ OAT"
+      },
+      {
+        "label": "Цвет",
+        "value": "Красный"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 49.5,
+    "barrel_vol": 230,
+    "barrel_price": 8510,
+    "packs": [
+      {
+        "id": "flx-car-1",
+        "volume_l": 1,
+        "price_mdl": 49.5,
+        "label": "1 кг"
+      },
+      {
+        "id": "flx-car-3",
+        "volume_l": 3,
+        "price_mdl": 138.5,
+        "label": "3 кг"
+      },
+      {
+        "id": "flx-car-5",
+        "volume_l": 5,
+        "price_mdl": 196,
+        "label": "5 кг"
+      },
+      {
+        "id": "flx-car-10",
+        "volume_l": 10,
+        "price_mdl": 388,
+        "label": "10 кг"
+      },
+      {
+        "id": "flx-car-20",
+        "volume_l": 20,
+        "price_mdl": 776,
+        "label": "20 кг"
+      },
+      {
+        "id": "flx-car-50",
+        "volume_l": 50,
+        "price_mdl": 1925,
+        "label": "50 кг (Бочка)"
+      },
+      {
+        "id": "flx-car-230",
+        "volume_l": 230,
+        "price_mdl": 8510,
+        "label": "230 кг (Бочка)"
+      }
+    ]
+  },
+  {
+    "sku": "FLX-G12-YLW",
+    "name": "FELIX ENERGY G12+ (Жёлтый)",
+    "category": "coolants",
+    "brand": "Felix",
+    "photo_url": "https://felix-auto.ru/upload/iblock/0a5/0a57e3f6bf0b9432ce47e95be8933e46.png",
+    "volumes": [
+      1,
+      5,
+      10,
+      230
+    ],
+    "description": "Карбоксилатный антифриз высшего класса (OAT) повышенной теплоемкости.",
+    "specs": [
+      {
+        "label": "Класс",
+        "value": "G12+ OAT"
+      },
+      {
+        "label": "Цвет",
+        "value": "Жёлтый"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 54,
+    "barrel_vol": 230,
+    "barrel_price": 9430,
+    "packs": [
+      {
+        "id": "flx-ene-1",
+        "volume_l": 1,
+        "price_mdl": 54,
+        "label": "1 кг"
+      },
+      {
+        "id": "flx-ene-5",
+        "volume_l": 5,
+        "price_mdl": 216,
+        "label": "5 кг"
+      },
+      {
+        "id": "flx-ene-10",
+        "volume_l": 10,
+        "price_mdl": 428,
+        "label": "10 кг"
+      },
+      {
+        "id": "flx-ene-230",
+        "volume_l": 230,
+        "price_mdl": 9430,
+        "label": "230 кг (Бочка)"
+      }
+    ]
+  },
+  {
+    "sku": "FLX-G11-BLU",
+    "name": "FELIX Expert G11 (Синий)",
+    "category": "coolants",
+    "brand": "Felix",
+    "photo_url": "https://felix-auto.ru/upload/iblock/615/615ca79e49eeebbc6ec81ebfbcbcbe87.png",
+    "volumes": [
+      1,
+      5,
+      10
+    ],
+    "description": "Антифриз на гибридной основе этиленгликоля (HOAT) для защиты системы охлаждения.",
+    "specs": [
+      {
+        "label": "Класс",
+        "value": "G11 HOAT"
+      },
+      {
+        "label": "Цвет",
+        "value": "Синий"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 46,
+    "packs": [
+      {
+        "id": "flx-exp-1",
+        "volume_l": 1,
+        "price_mdl": 46,
+        "label": "1 кг"
+      },
+      {
+        "id": "flx-exp-5",
+        "volume_l": 5,
+        "price_mdl": 184,
+        "label": "5 кг"
+      },
+      {
+        "id": "flx-exp-10",
+        "volume_l": 10,
+        "price_mdl": 364,
+        "label": "10 кг"
+      }
+    ]
+  },
+  {
+    "sku": "FLX-JDM-GRN",
+    "name": "FELIX JDM G12++ (Зелёный)",
+    "category": "coolants",
+    "brand": "Felix",
+    "photo_url": "https://felix-auto.ru/upload/iblock/615/615ca79e49eeebbc6ec81ebfbcbcbe87.png",
+    "volumes": [
+      1,
+      5
+    ],
+    "description": "Лобридный антифриз P-OAT для японских и корейских авто (Hyundai, Kia, Mitsubishi, Mazda).",
+    "specs": [
+      {
+        "label": "Класс",
+        "value": "G12++ P-OAT (Lobrid)"
+      },
+      {
+        "label": "Допуски",
+        "value": "HYUNDAI, KIA, MITSUBISHI, MAZDA"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 58.5,
+    "packs": [
+      {
+        "id": "flx-jdm-g-1",
+        "volume_l": 1,
+        "price_mdl": 58.5,
+        "label": "1 кг"
+      },
+      {
+        "id": "flx-jdm-g-5",
+        "volume_l": 5,
+        "price_mdl": 238,
+        "label": "5 кг"
+      }
+    ]
+  },
+  {
+    "sku": "FLX-JDM-PNK",
+    "name": "FELIX JDM PINK G12++ (Розовый)",
+    "category": "coolants",
+    "brand": "Felix",
+    "photo_url": "https://felix-auto.ru/upload/iblock/c34/c34b17f8a7e5df07d10e53a3efee7db4.png",
+    "volumes": [
+      1,
+      5
+    ],
+    "description": "Лобридный антифриз P-OAT для азиатских марок (Toyota, Nissan, Honda, Hyundai, Kia, Mazda, Suzuki, Subaru, Isuzu).",
+    "specs": [
+      {
+        "label": "Класс",
+        "value": "G12++ P-OAT (Lobrid)"
+      },
+      {
+        "label": "Допуски",
+        "value": "HYUNDAI, KIA, TOYOTA, NISSAN, HONDA, MAZDA..."
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 58.5,
+    "packs": [
+      {
+        "id": "flx-jdm-p-1",
+        "volume_l": 1,
+        "price_mdl": 58.5,
+        "label": "1 кг"
+      },
+      {
+        "id": "flx-jdm-p-5",
+        "volume_l": 5,
+        "price_mdl": 238,
+        "label": "5 кг"
+      }
+    ]
+  },
+  {
+    "sku": "FLX-TYPD-YLW",
+    "name": "FELIX Type-D G12+ (Жёлтый)",
+    "category": "coolants",
+    "brand": "Felix",
+    "photo_url": "https://felix-auto.ru/upload/iblock/0a5/0a57e3f6bf0b9432ce47e95be8933e46.png",
+    "volumes": [
+      1,
+      5
+    ],
+    "description": "Специализированный карбоксилатный антифриз (OAT) для автомобилей Renault, Dacia, Nissan.",
+    "specs": [
+      {
+        "label": "Класс",
+        "value": "G12+ OAT"
+      },
+      {
+        "label": "Допуски",
+        "value": "Renault, Dacia, Nissan"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 58.5,
+    "packs": [
+      {
+        "id": "flx-tyd-1",
+        "volume_l": 1,
+        "price_mdl": 58.5,
+        "label": "1 кг"
+      },
+      {
+        "id": "flx-tyd-5",
+        "volume_l": 5,
+        "price_mdl": 238,
+        "label": "5 кг"
+      }
+    ]
+  },
+  {
+    "sku": "FLX-EVO-PRP",
+    "name": "FELIX EVO (Фиолетово-розовый)",
+    "category": "coolants",
+    "brand": "Felix",
+    "photo_url": "https://felix-auto.ru/upload/iblock/c34/c34b17f8a7e5df07d10e53a3efee7db4.png",
+    "volumes": [
+      1,
+      5
+    ],
+    "description": "Инновационный лобридный антифриз Psi-OAT для автомобилей концерна VAG (Volkswagen, Skoda, Audi, Porsche).",
+    "specs": [
+      {
+        "label": "Класс",
+        "value": "Psi-OAT (Lobrid)"
+      },
+      {
+        "label": "Допуски",
+        "value": "VOLKSWAGEN, SKODA, AUDI, PORSCHE"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 62,
+    "packs": [
+      {
+        "id": "flx-evo-1",
+        "volume_l": 1,
+        "price_mdl": 62,
+        "label": "1 кг"
+      },
+      {
+        "id": "flx-evo-5",
+        "volume_l": 5,
+        "price_mdl": 255,
+        "label": "5 кг"
+      }
+    ]
+  },
+  {
+    "sku": "FLX-DRG-RED",
+    "name": "FELIX Dragon G12+",
+    "category": "coolants",
+    "brand": "Felix",
+    "photo_url": "https://felix-auto.ru/upload/iblock/c34/c34b17f8a7e5df07d10e53a3efee7db4.png",
+    "volumes": [
+      1,
+      5
+    ],
+    "description": "Карбоксилатный антифриз (OAT) для китайских автомобилей (Haval, Geely, Chery, Changan, GAC, BAIC).",
+    "specs": [
+      {
+        "label": "Класс",
+        "value": "G12+ OAT"
+      },
+      {
+        "label": "Допуски",
+        "value": "Haval, Geely, Chery, Changan, GAC, BAIC"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 58.5,
+    "packs": [
+      {
+        "id": "flx-drg-1",
+        "volume_l": 1,
+        "price_mdl": 58.5,
+        "label": "1 кг"
+      },
+      {
+        "id": "flx-drg-5",
+        "volume_l": 5,
+        "price_mdl": 238,
+        "label": "5 кг"
+      }
+    ]
+  },
+  {
+    "sku": "FLX-EVOLT-EV",
+    "name": "FELIX EVOLT ELECTRIC CAR",
+    "category": "coolants",
+    "brand": "Felix",
+    "photo_url": "https://felix-auto.ru/upload/iblock/615/615ca79e49eeebbc6ec81ebfbcbcbe87.png",
+    "volumes": [
+      1,
+      5
+    ],
+    "description": "Специальный карбоксилатный антифриз (OAT) для электрических и гибридных автомобилей.",
+    "specs": [
+      {
+        "label": "Назначение",
+        "value": "Электромобили и гибриды"
+      },
+      {
+        "label": "Допуски",
+        "value": "TESLA, AUDI, BMW, GEELY, JAC, NISSAN, VW..."
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 62,
+    "packs": [
+      {
+        "id": "flx-evolt-1",
+        "volume_l": 1,
+        "price_mdl": 62,
+        "label": "1 кг"
+      },
+      {
+        "id": "flx-evolt-5",
+        "volume_l": 5,
+        "price_mdl": 230,
+        "label": "5 кг"
+      }
+    ]
+  },
+  {
+    "sku": "FLX-SQ-TRK",
+    "name": "FELIX Carbox SQ G12+ Special for Trucks (Красный)",
+    "category": "coolants",
+    "brand": "Felix",
+    "photo_url": "https://felix-auto.ru/upload/iblock/c34/c34b17f8a7e5df07d10e53a3efee7db4.png",
+    "volumes": [
+      10,
+      20,
+      50,
+      230
+    ],
+    "description": "Усиленный карбоксилатный антифриз (OAT) высокой концентрации для грузовых автомобилей и спецтехники.",
+    "specs": [
+      {
+        "label": "Класс",
+        "value": "G12+ OAT Truck"
+      },
+      {
+        "label": "Применение",
+        "value": "Грузовой транспорт и спецтехника"
+      }
+    ],
+    "canister_vol": 10,
+    "canister_price": 420,
+    "barrel_vol": 230,
+    "barrel_price": 8740,
+    "packs": [
+      {
+        "id": "flx-sq-10",
+        "volume_l": 10,
+        "price_mdl": 420,
+        "label": "10 кг"
+      },
+      {
+        "id": "flx-sq-20",
+        "volume_l": 20,
+        "price_mdl": 840,
+        "label": "20 кг"
+      },
+      {
+        "id": "flx-sq-50",
+        "volume_l": 50,
+        "price_mdl": 2100,
+        "label": "50 кг (Бочка)"
+      },
+      {
+        "id": "flx-sq-230",
+        "volume_l": 230,
+        "price_mdl": 8740,
+        "label": "230 кг (Бочка)"
+      }
+    ]
+  },
+  {
+    "sku": "FLX-TOSOL-35",
+    "name": "FELIX -35 EURO (Тосол)",
+    "category": "coolants",
+    "brand": "Felix",
+    "photo_url": "https://felix-auto.ru/upload/iblock/785/785e2b0270a6c6e7a25a0a38f32ce761.png",
+    "volumes": [
+      1,
+      3,
+      5,
+      10,
+      20,
+      230
+    ],
+    "description": "Традиционный качественный тосол FELIX -35 EURO для бензиновых и дизельных двигателей.",
+    "specs": [
+      {
+        "label": "Тип",
+        "value": "Тосол -35 EURO"
+      },
+      {
+        "label": "t застывания",
+        "value": "-35 °C"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 43.5,
+    "barrel_vol": 230,
+    "barrel_price": 7935,
+    "packs": [
+      {
+        "id": "tos-1",
+        "volume_l": 1,
+        "price_mdl": 43.5,
+        "label": "1 кг"
+      },
+      {
+        "id": "tos-3",
+        "volume_l": 3,
+        "price_mdl": 121,
+        "label": "3 кг"
+      },
+      {
+        "id": "tos-5",
+        "volume_l": 5,
+        "price_mdl": 176,
+        "label": "5 кг"
+      },
+      {
+        "id": "tos-10",
+        "volume_l": 10,
+        "price_mdl": 348,
+        "label": "10 кг"
+      },
+      {
+        "id": "tos-20",
+        "volume_l": 20,
+        "price_mdl": 696,
+        "label": "20 кг"
+      },
+      {
+        "id": "tos-230",
+        "volume_l": 230,
+        "price_mdl": 7935,
+        "label": "230 кг (Бочка)"
+      }
+    ]
+  },
+  {
+    "sku": "ADV-DOT4",
+    "name": "Тормозная жидкость ADV DOT 4",
+    "category": "autochemistry",
+    "brand": "ADV",
+    "photo_url": "https://felix-auto.ru/upload/iblock/0e3/0e3860086bc1149449272fa5d6ee9aa2.png",
+    "volumes": [
+      0.38,
+      0.75
+    ],
+    "description": "Синтетическая тормозная жидкость высокого качества стандарта DOT 4.",
+    "specs": [
+      {
+        "label": "Стандарт",
+        "value": "FMVSS №116 DOT 4"
+      }
+    ],
+    "canister_vol": 0.38,
+    "canister_price": 25.5,
+    "packs": [
+      {
+        "id": "adv-380",
+        "volume_l": 0.38,
+        "price_mdl": 25.5,
+        "label": "380 г"
+      },
+      {
+        "id": "adv-750",
+        "volume_l": 0.75,
+        "price_mdl": 49.5,
+        "label": "750 г"
+      }
+    ]
+  },
+  {
+    "sku": "FOX-DOT4",
+    "name": "Тормозная жидкость FOX ДОТ-4",
+    "category": "autochemistry",
+    "brand": "FOX",
+    "photo_url": "https://felix-auto.ru/upload/iblock/0e3/0e3860086bc1149449272fa5d6ee9aa2.png",
+    "volumes": [
+      0.4,
+      0.75
+    ],
+    "description": "Тормозная жидкость FOX ДОТ-4 для дисковых и барабанных тормозных систем.",
+    "specs": [
+      {
+        "label": "Стандарт",
+        "value": "ДОТ-4"
+      }
+    ],
+    "canister_vol": 0.4,
+    "canister_price": 36.5,
+    "packs": [
+      {
+        "id": "fox-400",
+        "volume_l": 0.4,
+        "price_mdl": 36.5,
+        "label": "400 г"
+      },
+      {
+        "id": "fox-750",
+        "volume_l": 0.75,
+        "price_mdl": 65,
+        "label": "750 г"
+      }
+    ]
+  },
+  {
+    "sku": "MOL-DOT4PLUS",
+    "name": "Тормозная жидкость MOL DOT 4+",
+    "category": "autochemistry",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
+    "volumes": [
+      0.5
+    ],
+    "description": "Синтетическая тормозная жидкость высшего качества MOL DOT 4+ для гидравлических тормозных систем.",
+    "specs": [
+      {
+        "label": "Стандарт",
+        "value": "MOL DOT 4+"
+      }
+    ],
+    "canister_vol": 0.5,
+    "canister_price": 84,
+    "packs": [
+      {
+        "id": "mol-dot4-05",
+        "volume_l": 0.5,
+        "price_mdl": 84,
+        "label": "0.5 л"
+      }
+    ]
+  },
+  {
+    "sku": "MOL-DOT51",
+    "name": "Тормозная жидкость MOL DOT 5.1",
+    "category": "autochemistry",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
+    "volumes": [
+      0.5
+    ],
+    "description": "Высокопроизводительная синтетическая тормозная жидкость MOL DOT 5.1 для систем с ABS, ESP и ASR.",
+    "specs": [
+      {
+        "label": "Стандарт",
+        "value": "MOL DOT 5.1"
+      }
+    ],
+    "canister_vol": 0.5,
+    "canister_price": 119,
+    "packs": [
+      {
+        "id": "mol-dot51-05",
+        "volume_l": 0.5,
+        "price_mdl": 119,
+        "label": "0.5 л"
+      }
+    ]
+  },
+  {
     "sku": "MOL-1000",
     "name": "MOL Dynamic Star 0W-30",
     "category": "motor-oils",

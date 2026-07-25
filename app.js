@@ -288,7 +288,8 @@ document.addEventListener('DOMContentLoaded', () => {
         // Volume tags HTML
         const volTagsHtml = volumes.length > 0
             ? volumes.map((v, i) => {
-                const label = v >= 1 ? `${v} л` : `${v * 1000} мл`;
+                const pack = getProductPacks(product).find(p => Number(p.volume_l) === Number(v));
+                const label = (pack && pack.label) ? pack.label : (v >= 1 ? `${v} л` : `${v * 1000} мл`);
                 return `<span class="volume-tag ${i === 0 ? 'active' : ''}" data-vol="${v}" data-sku="${product.sku}">${label}</span>`;
               }).join('')
             : '<span class="volume-tag active" data-vol="1">—</span>';
@@ -403,8 +404,10 @@ document.addEventListener('DOMContentLoaded', () => {
             const priceEl  = card.querySelector(`#price-${sku}`);
             const unitEl   = priceEl?.nextElementSibling;
             const cartBtn  = card.querySelector('.btn-add-cart');
+            const packObj = getProductPacks(product).find(p => Number(p.volume_l) === Number(vol));
+            const volText = (packObj && packObj.label) ? packObj.label : (vol >= 1 ? `${vol} л` : `${vol * 1000} мл`);
             if (priceEl) priceEl.textContent = `${newPrice} MDL`;
-            if (unitEl)  unitEl.textContent = `за ${vol >= 1 ? vol + ' л' : (vol * 1000) + ' мл'}`;
+            if (unitEl)  unitEl.textContent = `за ${volText}`;
             if (cartBtn) {
                 cartBtn.setAttribute('data-price', newPrice);
                 cartBtn.setAttribute('data-vol', vol);
@@ -509,7 +512,9 @@ document.addEventListener('DOMContentLoaded', () => {
             totalQty   += item.qty;
             totalPrice += item.price * item.qty;
             totalVol   += item.vol * item.qty;
-            const volLabel = item.vol >= 1 ? `${item.vol} л` : `${item.vol * 1000} мл`;
+            const prod = allProducts.find(p => p.sku === item.sku);
+            const packMatch = prod && getProductPacks(prod).find(p => Number(p.volume_l) === Number(item.vol));
+            const volLabel = (packMatch && packMatch.label) ? packMatch.label : (item.vol >= 1 ? `${item.vol} л` : `${item.vol * 1000} мл`);
             return `
             <div class="cart-item-row" data-key="${key}">
                 <div class="cart-item-info">
