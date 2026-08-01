@@ -143,14 +143,14 @@
     "category": "coolants",
     "brand": "Полярник",
     "color": "Красный",
-    "photo_url": "https://felix-auto.ru/upload/iblock/c34/c34b17f8a7e5df07d10e53a3efee7db4.png",
+    "photo_url": "https://tosol-sintez.ru/uploads/catalog/polyarnik-red-12.jpg",
     "volumes": [
       1,
       3,
       5,
       10
     ],
-    "description": "Классический красная охлаждающая жидкость Полярник.",
+    "description": "Готовый к применению карбоксилатный антифриз класса G12 на основе этиленгликоля. Предназначен для современных высоконагруженных двигателей.",
     "specs": [
       {
         "label": "Цвет",
@@ -192,14 +192,14 @@
     "category": "coolants",
     "brand": "Полярник",
     "color": "Зелёный",
-    "photo_url": "https://felix-auto.ru/upload/iblock/c34/c34b17f8a7e5df07d10e53a3efee7db4.png",
+    "photo_url": "https://tosol-sintez.ru/uploads/catalog/polyarnik-green-11.jpg",
     "volumes": [
       1,
       3,
       5,
       10
     ],
-    "description": "Классическая зелёная охлаждающая жидкость Полярник.",
+    "description": "Гибридный антифриз класса G11 на основе моноэтиленгликоля с сочетанием силикатных и органических ингибиторов коррозии.",
     "specs": [
       {
         "label": "Цвет",
@@ -241,14 +241,14 @@
     "category": "coolants",
     "brand": "Полярник",
     "color": "Синий",
-    "photo_url": "https://felix-auto.ru/upload/iblock/c34/c34b17f8a7e5df07d10e53a3efee7db4.png",
+    "photo_url": "https://tosol-sintez.ru/uploads/catalog/polyarnik-tosol-40.jpg",
     "volumes": [
       1,
       3,
       5,
       10
     ],
-    "description": "Классическая синяя охлаждающая жидкость Полярник.",
+    "description": "Охлаждающая жидкость Полярник на основе моноэтиленгликоля для бензиновых и дизельных двигателей.",
     "specs": [
       {
         "label": "Цвет",
@@ -415,13 +415,13 @@
     "name": "Antifreeze Полярник Жёлтый (Galben)",
     "category": "coolants",
     "brand": "Полярник",
-    "photo_url": "https://felix-auto.ru/upload/iblock/c34/c34b17f8a7e5df07d10e53a3efee7db4.png",
+    "photo_url": "https://tosol-sintez.ru/uploads/catalog/polyarnik-tosol-40.jpg",
     "volumes": [
       1,
       5,
       10
     ],
-    "description": "Высокоэффективный жёлтый антифриз Полярник с расширенным температурным диапазоном.",
+    "description": "Охлаждающая жидкость Полярник на основе моноэтиленгликоля для бензиновых и дизельных двигателей.",
     "specs": [
       {
         "label": "Цвет",
@@ -457,7 +457,7 @@
     "name": "FELIX Prolonger G11 (Зелёный)",
     "category": "coolants",
     "brand": "Felix",
-    "photo_url": "https://felix-auto.ru/upload/iblock/615/615ca79e49eeebbc6ec81ebfbcbcbe87.png",
+    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
     "volumes": [
       1,
       3,
@@ -467,7 +467,7 @@
       50,
       230
     ],
-    "description": "Антифриз на основе гибридного этиленгликоля (HOAT) для бензиновых и дизельных двигателей.",
+    "description": "Высококачественный гибридный антифриз G11 с усиленным пакетом антикоррозионных и антикавитационных присадок.",
     "specs": [
       {
         "label": "Класс",
@@ -533,7 +533,7 @@
     "name": "FELIX Carbox G12+ (Красный)",
     "category": "coolants",
     "brand": "Felix",
-    "photo_url": "https://felix-auto.ru/upload/iblock/c34/c34b17f8a7e5df07d10e53a3efee7db4.png",
+    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
     "volumes": [
       1,
       3,
@@ -543,7 +543,7 @@
       50,
       230
     ],
-    "description": "Профессиональный карбоксилатный антифриз (OAT) с продленным сроком службы.",
+    "description": "Профессиональный карбоксилатный антифриз высшей категории на основе этиленгликоля и карбоксилатных присадок. Ресурс 250 000 км.",
     "specs": [
       {
         "label": "Класс",
@@ -609,14 +609,14 @@
     "name": "FELIX ENERGY G12+ (Жёлтый)",
     "category": "coolants",
     "brand": "Felix",
-    "photo_url": "https://felix-auto.ru/upload/iblock/0a5/0a57e3f6bf0b9432ce47e95be8933e46.png",
+    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
     "volumes": [
       1,
       5,
       10,
       230
     ],
-    "description": "Карбоксилатный антифриз высшего класса (OAT) повышенной теплоемкости.",
+    "description": "Профессиональный карбоксилатный антифриз высшей категории на основе этиленгликоля и карбоксилатных присадок. Ресурс 250 000 км.",
     "specs": [
       {
         "label": "Класс",
@@ -664,13 +664,13 @@
     "name": "FELIX Expert G11 (Синий)",
     "category": "coolants",
     "brand": "Felix",
-    "photo_url": "https://felix-auto.ru/upload/iblock/615/615ca79e49eeebbc6ec81ebfbcbcbe87.png",
+    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
     "volumes": [
       1,
       5,
       10
     ],
-    "description": "Антифриз на гибридной основе этиленгликоля (HOAT) для защиты системы охлаждения.",
+    "description": "Высококачественный гибридный антифриз G11 с усиленным пакетом антикоррозионных и антикавитационных присадок.",
     "specs": [
       {
         "label": "Класс",
@@ -710,12 +710,12 @@
     "name": "FELIX JDM G12++ (Зелёный)",
     "category": "coolants",
     "brand": "Felix",
-    "photo_url": "https://felix-auto.ru/upload/iblock/615/615ca79e49eeebbc6ec81ebfbcbcbe87.png",
+    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
     "volumes": [
       1,
       5
     ],
-    "description": "Лобридный антифриз P-OAT для японских и корейских авто (Hyundai, Kia, Mitsubishi, Mazda).",
+    "description": "Профессиональный карбоксилатный антифриз высшей категории на основе этиленгликоля и карбоксилатных присадок. Ресурс 250 000 км.",
     "specs": [
       {
         "label": "Класс",
@@ -753,12 +753,12 @@
     "name": "FELIX JDM PINK G12++ (Розовый)",
     "category": "coolants",
     "brand": "Felix",
-    "photo_url": "https://felix-auto.ru/upload/iblock/c34/c34b17f8a7e5df07d10e53a3efee7db4.png",
+    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
     "volumes": [
       1,
       5
     ],
-    "description": "Лобридный антифриз P-OAT для азиатских марок (Toyota, Nissan, Honda, Hyundai, Kia, Mazda, Suzuki, Subaru, Isuzu).",
+    "description": "Профессиональный карбоксилатный антифриз высшей категории на основе этиленгликоля и карбоксилатных присадок. Ресурс 250 000 км.",
     "specs": [
       {
         "label": "Класс",
@@ -796,12 +796,12 @@
     "name": "FELIX Type-D G12+ (Жёлтый)",
     "category": "coolants",
     "brand": "Felix",
-    "photo_url": "https://felix-auto.ru/upload/iblock/0a5/0a57e3f6bf0b9432ce47e95be8933e46.png",
+    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
     "volumes": [
       1,
       5
     ],
-    "description": "Специализированный карбоксилатный антифриз (OAT) для автомобилей Renault, Dacia, Nissan.",
+    "description": "Профессиональный карбоксилатный антифриз высшей категории на основе этиленгликоля и карбоксилатных присадок. Ресурс 250 000 км.",
     "specs": [
       {
         "label": "Класс",
@@ -882,12 +882,12 @@
     "name": "FELIX Dragon G12+",
     "category": "coolants",
     "brand": "Felix",
-    "photo_url": "https://felix-auto.ru/upload/iblock/c34/c34b17f8a7e5df07d10e53a3efee7db4.png",
+    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
     "volumes": [
       1,
       5
     ],
-    "description": "Карбоксилатный антифриз (OAT) для китайских автомобилей (Haval, Geely, Chery, Changan, GAC, BAIC).",
+    "description": "Профессиональный карбоксилатный антифриз высшей категории на основе этиленгликоля и карбоксилатных присадок. Ресурс 250 000 км.",
     "specs": [
       {
         "label": "Класс",
@@ -968,14 +968,14 @@
     "name": "FELIX Carbox SQ G12+ Special for Trucks (Красный)",
     "category": "coolants",
     "brand": "Felix",
-    "photo_url": "https://felix-auto.ru/upload/iblock/c34/c34b17f8a7e5df07d10e53a3efee7db4.png",
+    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
     "volumes": [
       10,
       20,
       50,
       230
     ],
-    "description": "Усиленный карбоксилатный антифриз (OAT) высокой концентрации для грузовых автомобилей и спецтехники.",
+    "description": "Профессиональный карбоксилатный антифриз высшей категории на основе этиленгликоля и карбоксилатных присадок. Ресурс 250 000 км.",
     "specs": [
       {
         "label": "Класс",
@@ -1098,7 +1098,7 @@
   {
     "sku": "ADV-DOT4",
     "name": "Тормозная жидкость ADV DOT 4",
-    "category": "autochemistry",
+    "category": "auto-chemistry",
     "brand": "ADV",
     "photo_url": "https://felix-auto.ru/upload/iblock/0e3/0e3860086bc1149449272fa5d6ee9aa2.png",
     "volumes": [
@@ -1132,7 +1132,7 @@
   {
     "sku": "FOX-DOT4",
     "name": "Тормозная жидкость FOX ДОТ-4",
-    "category": "autochemistry",
+    "category": "auto-chemistry",
     "brand": "FOX",
     "photo_url": "https://felix-auto.ru/upload/iblock/0e3/0e3860086bc1149449272fa5d6ee9aa2.png",
     "volumes": [
@@ -1166,7 +1166,7 @@
   {
     "sku": "MOL-DOT4PLUS",
     "name": "Тормозная жидкость MOL DOT 4+",
-    "category": "autochemistry",
+    "category": "auto-chemistry",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
     "volumes": [
@@ -1193,7 +1193,7 @@
   {
     "sku": "MOL-DOT51",
     "name": "Тормозная жидкость MOL DOT 5.1",
-    "category": "autochemistry",
+    "category": "auto-chemistry",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
     "volumes": [
@@ -1220,7 +1220,7 @@
   {
     "sku": "MOL-1000",
     "name": "MOL Dynamic Star 0W-30",
-    "category": "motor-oils",
+    "category": "motor-oils-pkw",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
     "volumes": [
@@ -1253,7 +1253,7 @@
   {
     "sku": "MOL-1001",
     "name": "MOL ATF Synt TWS",
-    "category": "motor-oils",
+    "category": "transmission-oils",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/hajtomuolajok/1L_MOL_ATF_Synt_TWS.jpg",
     "volumes": [
@@ -1282,7 +1282,7 @@
   {
     "sku": "MOL-1002",
     "name": "MOL ATF Synt 3H",
-    "category": "motor-oils",
+    "category": "transmission-oils",
     "brand": "MOL",
     "photo_url": "",
     "volumes": [
@@ -1311,7 +1311,7 @@
   {
     "sku": "MOL-1003",
     "name": "MOL ATF Synt",
-    "category": "motor-oils",
+    "category": "transmission-oils",
     "brand": "MOL",
     "photo_url": "",
     "volumes": [
@@ -1347,7 +1347,7 @@
   {
     "sku": "MOL-1004",
     "name": "MOL Dynamic Max 10W-40",
-    "category": "motor-oils",
+    "category": "motor-oils-pkw",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md//images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Max_10W-40.jpg",
     "volumes": [
@@ -1405,7 +1405,7 @@
   {
     "sku": "MOL-1005",
     "name": "MOL Essence C3 5W-40",
-    "category": "motor-oils",
+    "category": "motor-oils-pkw",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md//images/mol_hu/lub/autosok/motorolajok/1L_MOl_Essence_C3_5W-40_persp_w.jpg",
     "volumes": [
@@ -1441,7 +1441,7 @@
   {
     "sku": "MOL-1006",
     "name": "MOL Dynamic Gold HEV 0W-20",
-    "category": "motor-oils",
+    "category": "motor-oils-pkw",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Gold_HEV_0W-20.jpg",
     "volumes": [
@@ -1477,7 +1477,7 @@
   {
     "sku": "MOL-1007",
     "name": "MOL Hykomol K 80W-140",
-    "category": "motor-oils",
+    "category": "transmission-oils",
     "brand": "MOL",
     "photo_url": "",
     "volumes": [
@@ -1549,7 +1549,7 @@
   {
     "sku": "MOL-1009",
     "name": "MOL DOT 3",
-    "category": "autochemistry",
+    "category": "auto-chemistry",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/fekfolyadekok/mol_dot_3_side.jpg",
     "volumes": [
@@ -1585,7 +1585,7 @@
   {
     "sku": "MOL-1010",
     "name": "MOL Essence Diesel 10W-40",
-    "category": "motor-oils",
+    "category": "motor-oils-pkw",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Essence_10W-40.jpg",
     "volumes": [
@@ -1621,7 +1621,7 @@
   {
     "sku": "MOL-1011",
     "name": "MOL Dynamic Gold Longlife 5W-30",
-    "category": "motor-oils",
+    "category": "motor-oils-pkw",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Gold_Longlife_5W-30.jpg",
     "volumes": [
@@ -1693,7 +1693,7 @@
   {
     "sku": "MOL-1012",
     "name": "MOL ATF 3G",
-    "category": "motor-oils",
+    "category": "transmission-oils",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/hajtomuolajok/1L_MOL_ATF_3G.jpg",
     "volumes": [
@@ -1729,7 +1729,7 @@
   {
     "sku": "MOL-1013",
     "name": "MOL Hykomol Syntrans V 75W-90",
-    "category": "motor-oils",
+    "category": "transmission-oils",
     "brand": "MOL",
     "photo_url": "",
     "volumes": [
@@ -1765,7 +1765,7 @@
   {
     "sku": "MOL-1014",
     "name": "MOL EVOX Winter Apple Cinnamon -40",
-    "category": "winter",
+    "category": "auto-chemistry",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/szelvedomoso/3l_mol_evox_apple_cinnamon_winter_screenwash.jpg",
     "volumes": [
@@ -1793,7 +1793,7 @@
   {
     "sku": "MOL-1015",
     "name": "ADBLUE®",
-    "category": "autochemistry",
+    "category": "auto-chemistry",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/adblue/adblue_5l.jpg",
     "volumes": [
@@ -1825,7 +1825,7 @@
   {
     "sku": "MOL-1016",
     "name": "MOL EVOX 4 Season -10",
-    "category": "winter",
+    "category": "auto-chemistry",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md//images/mol_hu/lub/szallitmanyozas/szelvedomoso/2l_mol_evox_4season.jpg",
     "volumes": [
@@ -1855,14 +1855,14 @@
     "name": "MOL EVOX Extra concentrate",
     "category": "coolants",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md//images/mol_hu/lub/szallitmanyozas/fagyallo_hutofolyadek/1L_MOL_EVOX_EXTRA_coolant_concentrate.jpg",
+    "photo_url": "https://mollubricants.md/images/products/mol_evox_extra_concentrate.jpg",
     "volumes": [
       1,
       4,
       60,
       208
     ],
-    "description": "антифриз-концентрат",
+    "description": "Охлаждающая жидкость MOL EVOX на основе моноэтиленгликоля по гибридной технологии HOAT для алюминиевых и чугунных двигателей.",
     "specs": [
       {
         "label": "Допуски",
@@ -1889,7 +1889,7 @@
   {
     "sku": "MOL-1018",
     "name": "MOL Dynamic Gold Longlife 0W-20",
-    "category": "motor-oils",
+    "category": "motor-oils-pkw",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Gold_Longlife_0W-20_web.jpg",
     "volumes": [
@@ -1925,7 +1925,7 @@
   {
     "sku": "MOL-1019",
     "name": "MOL Dynamic Star VL 0W-20",
-    "category": "motor-oils",
+    "category": "motor-oils-pkw",
     "brand": "MOL",
     "photo_url": "",
     "volumes": [
@@ -1969,7 +1969,7 @@
   {
     "sku": "MOL-1020",
     "name": "MOL Hykomol K 80W-90",
-    "category": "motor-oils",
+    "category": "transmission-oils",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/hajtomuolajok/1L_MOL_Hykomol_K_80W-90.jpg",
     "volumes": [
@@ -2020,7 +2020,7 @@
   {
     "sku": "MOL-1021",
     "name": "MOL EVOX Ice Spray",
-    "category": "winter",
+    "category": "auto-chemistry",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/szelvedomoso/MOL_EVOX_Ice-spray.png",
     "volumes": [
@@ -2044,7 +2044,7 @@
   {
     "sku": "MOL-1022",
     "name": "MOL Dynamic Gold DX 0W-20",
-    "category": "motor-oils",
+    "category": "motor-oils-pkw",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Gold_DX_0W-20.jpg",
     "volumes": [
@@ -2080,7 +2080,7 @@
   {
     "sku": "MOL-1023",
     "name": "MOL Dynamic Star PC 0W-30",
-    "category": "motor-oils",
+    "category": "motor-oils-pkw",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1l_mol_dynamic_star_pc_0w-30_resized.png",
     "volumes": [
@@ -2116,7 +2116,7 @@
   {
     "sku": "MOL-1024",
     "name": "MOL EVOX Summer White tea & Ginger",
-    "category": "winter",
+    "category": "auto-chemistry",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md//images/mol_hu/lub/szallitmanyozas/szelvedomoso/3L_MOL_EVOX_White%20tea%20&%20Ginger_Summer_screenwash.jpg",
     "volumes": [
@@ -2135,7 +2135,7 @@
   {
     "sku": "MOL-1025",
     "name": "MOL Botond 20W-50",
-    "category": "motor-oils",
+    "category": "motor-oils-pkw",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Botond_20W-50.jpg",
     "volumes": [
@@ -2171,7 +2171,7 @@
   {
     "sku": "MOL-1026",
     "name": "MOL Favorit 2",
-    "category": "industrial",
+    "category": "industrial-lubricants",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_ru/lub/avtomobili/konsistentnye_smazki/400g_MOL_Favorit2.jpg",
     "volumes": [
@@ -2198,12 +2198,13 @@
     "canister_vol": 4,
     "canister_price": 0,
     "barrel_vol": 208,
-    "barrel_price": 0
+    "barrel_price": 0,
+    "price_on_request": true
   },
   {
     "sku": "MOL-1027",
     "name": "MOL Hykomol 80W-90",
-    "category": "motor-oils",
+    "category": "transmission-oils",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/hajtomuolajok/4L_MOL_Hykomol_80W-90_.jpg",
     "volumes": [
@@ -2257,7 +2258,7 @@
   {
     "sku": "MOL-1028",
     "name": "MOL Dynamic Synt 5W-30",
-    "category": "motor-oils",
+    "category": "motor-oils-pkw",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/szervizek/motorolajok/1L_MOL_Dynamic_Synt_5W-30.jpg",
     "volumes": [
@@ -2293,7 +2294,7 @@
   {
     "sku": "MOL-1029",
     "name": "MOL EVOX Winter Raspberry Mint -30",
-    "category": "winter",
+    "category": "auto-chemistry",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/szelvedomoso/3L_MOL_EVOX_Winter_Raspberry_Mint_screenwash.jpg",
     "volumes": [
@@ -2321,7 +2322,7 @@
   {
     "sku": "MOL-1030",
     "name": "MOL Essence 10W-40",
-    "category": "motor-oils",
+    "category": "motor-oils-pkw",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Essence_10W-40.jpg",
     "volumes": [
@@ -2400,7 +2401,7 @@
   {
     "sku": "MOL-1031",
     "name": "MOL Dynamic Synt RN17 5W-30",
-    "category": "motor-oils",
+    "category": "motor-oils-pkw",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Synt_RN17_5W-30.jpg",
     "volumes": [
@@ -2436,7 +2437,7 @@
   {
     "sku": "MOL-1032",
     "name": "MOL Essence 15W-50",
-    "category": "motor-oils",
+    "category": "motor-oils-pkw",
     "brand": "MOL",
     "photo_url": "",
     "volumes": [
@@ -2472,7 +2473,7 @@
   {
     "sku": "MOL-1033",
     "name": "MOL Liton LT 2EP",
-    "category": "industrial",
+    "category": "industrial-lubricants",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_ru/lub/avtomobili/konsistentnye_smazki/400g_MOL_Liton_LT_2EP.jpg",
     "volumes": [
@@ -2517,12 +2518,13 @@
         "price_mdl": 2892,
         "label": "18 кг"
       }
-    ]
+    ],
+    "price_on_request": true
   },
   {
     "sku": "MOL-1034",
     "name": "MOL DOT 5.1",
-    "category": "autochemistry",
+    "category": "auto-chemistry",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/fekfolyadekok/mol_dot_5_side.jpg",
     "volumes": [
@@ -2558,7 +2560,7 @@
   {
     "sku": "MOL-1035",
     "name": "MOL Dynamic Star PC 5W-30",
-    "category": "motor-oils",
+    "category": "motor-oils-pkw",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Star_PC_5W-30.jpg",
     "volumes": [
@@ -2605,7 +2607,7 @@
   {
     "sku": "MOL-1036",
     "name": "MOL Hykomol Synt 75W-90",
-    "category": "motor-oils",
+    "category": "transmission-oils",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/hajtomuolajok/1L_MOL_Hykomol_Synt_75W-90.jpg",
     "volumes": [
@@ -2666,7 +2668,7 @@
   {
     "sku": "MOL-1037",
     "name": "MOL Dynamic Transit 10W-40",
-    "category": "motor-oils",
+    "category": "motor-oils-lkw",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/motorolajok/1L_MOL_Dynamic_Transit_10W-40.jpg",
     "volumes": [
@@ -2702,7 +2704,7 @@
   {
     "sku": "MOL-1038",
     "name": "MOL Dynamic Gas Eco+ 15W-40",
-    "category": "motor-oils",
+    "category": "motor-oils-pkw",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Gas-eco+_15W-40.jpg",
     "volumes": [
@@ -2738,7 +2740,7 @@
   {
     "sku": "MOL-1039",
     "name": "MOL Favorit 2 Blue",
-    "category": "industrial",
+    "category": "industrial-lubricants",
     "brand": "MOL",
     "photo_url": "",
     "volumes": [
@@ -2776,12 +2778,13 @@
         "price_mdl": 4220,
         "label": "18 кг"
       }
-    ]
+    ],
+    "price_on_request": true
   },
   {
     "sku": "MOL-1040",
     "name": "MOL Dynamic Synt RN 5W-30",
-    "category": "motor-oils",
+    "category": "motor-oils-pkw",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Synt_RN_5W-30.jpg",
     "volumes": [
@@ -2834,14 +2837,14 @@
     "name": "EVOX Premium concentrate",
     "category": "coolants",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/fagyallo_hutofolyadek/evox_premium_concentrate_1l.jpg",
+    "photo_url": "https://mollubricants.md/images/products/mol_evox_premium_g30.jpg",
     "volumes": [
       1,
       4,
       60,
       208
     ],
-    "description": "Концентрат низкотемпературной охлаждающей жидкости",
+    "description": "Концентрат антифриза премиум-класса на основе моноэтиленгликоля по карбоксилатной технологии (G12/G12+ BASF Glysantin).",
     "specs": [
       {
         "label": "Допуски",
@@ -2868,7 +2871,7 @@
   {
     "sku": "MOL-1042",
     "name": "MOL Arol 2T",
-    "category": "motor-oils",
+    "category": "motor-oils-pkw",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/05_arol_2t.jpg",
     "volumes": [
@@ -2904,7 +2907,7 @@
   {
     "sku": "MOL-1043",
     "name": "MOL Dynamic Gold DX 5W-30",
-    "category": "motor-oils",
+    "category": "motor-oils-pkw",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Gold_DX_5W-30-nnn.jpg",
     "volumes": [
@@ -2962,7 +2965,7 @@
   {
     "sku": "MOL-1044",
     "name": "MOL ATF 3H AP",
-    "category": "motor-oils",
+    "category": "transmission-oils",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/hajtomuolajok/1LMOL_ATF_3H_AP.jpg",
     "volumes": [
@@ -2998,7 +3001,7 @@
   {
     "sku": "MOL-1045",
     "name": "MOL Dynamic Transit 15W-40",
-    "category": "motor-oils",
+    "category": "motor-oils-lkw",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Transit_15W-40.jpg",
     "volumes": [
@@ -3034,7 +3037,7 @@
   {
     "sku": "MOL-1046",
     "name": "MOL Essence Longlife 5W-30",
-    "category": "motor-oils",
+    "category": "motor-oils-pkw",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md//images/mol_hu/lub/autosok/motorolajok/1L_MOL_Essence_Longlife_5W-30_persp_w.jpg",
     "volumes": [
@@ -3070,7 +3073,7 @@
   {
     "sku": "MOL-1047",
     "name": "MOL Dynamic Star F 0W-30",
-    "category": "motor-oils",
+    "category": "motor-oils-pkw",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/dynamic_star_f0w_30_1L.jpg",
     "volumes": [
@@ -3106,7 +3109,7 @@
   {
     "sku": "MOL-1048",
     "name": "MOL ATF",
-    "category": "motor-oils",
+    "category": "transmission-oils",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/hajtomuolajok/1L_MOL_ATF.jpg",
     "volumes": [
@@ -3142,7 +3145,7 @@
   {
     "sku": "MOL-1049",
     "name": "MOL Hykomol K 85W-90",
-    "category": "motor-oils",
+    "category": "transmission-oils",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/hajtomuolajok/4L_MOL_Hykomol_80W-90_.jpg",
     "volumes": [
@@ -3175,7 +3178,7 @@
   {
     "sku": "MOL-1050",
     "name": "MOL Dynamic Star 5W-30",
-    "category": "motor-oils",
+    "category": "motor-oils-pkw",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Star_5W-30.jpg",
     "volumes": [
@@ -3235,11 +3238,11 @@
     "name": "MOL EVOX Extra ready -35",
     "category": "coolants",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md//images/mol_hu/lub/szallitmanyozas/fagyallo_hutofolyadek/4L_MOL_EVOX_EXTRA_COOLANT_READY-35.jpg",
+    "photo_url": "https://mollubricants.md/images/products/mol_evox_extra_concentrate.jpg",
     "volumes": [
       4
     ],
-    "description": "охлаждающая жидкость, готовая к применению",
+    "description": "Охлаждающая жидкость MOL EVOX на основе моноэтиленгликоля по гибридной технологии HOAT для алюминиевых и чугунных двигателей.",
     "specs": [
       {
         "label": "Допуски",
@@ -3266,7 +3269,7 @@
   {
     "sku": "MOL-1052",
     "name": "MOL Dynamic Gold 5W-30",
-    "category": "motor-oils",
+    "category": "motor-oils-pkw",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Gold_5W-30-nnn.jpg",
     "volumes": [
@@ -3324,7 +3327,7 @@
   {
     "sku": "MOL-1053",
     "name": "MOL Essence Diesel 5W-40",
-    "category": "motor-oils",
+    "category": "motor-oils-pkw",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Essence_5W-40_Diesel.jpg",
     "volumes": [
@@ -3360,7 +3363,7 @@
   {
     "sku": "MOL-1054",
     "name": "MOL DOT 4+",
-    "category": "autochemistry",
+    "category": "auto-chemistry",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/fekfolyadekok/mol_dot_4_side.jpg",
     "volumes": [
@@ -3396,7 +3399,7 @@
   {
     "sku": "MOL-1055",
     "name": "MOL MSE 15W-40",
-    "category": "motor-oils",
+    "category": "motor-oils-pkw",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_MSE_15W-40.jpg",
     "volumes": [
@@ -3432,7 +3435,7 @@
   {
     "sku": "MOL-1056",
     "name": "MOL Essence 15W-40",
-    "category": "motor-oils",
+    "category": "motor-oils-pkw",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Essence_15W-40.jpg",
     "volumes": [
@@ -3483,7 +3486,7 @@
   {
     "sku": "MOL-1057",
     "name": "MOL Dynamic Transit 10W-30",
-    "category": "motor-oils",
+    "category": "motor-oils-lkw",
     "brand": "MOL",
     "photo_url": "",
     "volumes": [
@@ -3519,7 +3522,7 @@
   {
     "sku": "MOL-1058",
     "name": "MOL Evox Summer Citrus Breeze",
-    "category": "winter",
+    "category": "auto-chemistry",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md//images/mol_hu/lub/szallitmanyozas/szelvedomoso/2L_MOL_EVOX_Citrus_Breeze_Summer_screenwash.jpg",
     "volumes": [
@@ -3570,7 +3573,7 @@
   {
     "sku": "MOL-1060",
     "name": "MOL Hykomol Arctic 75W-90",
-    "category": "motor-oils",
+    "category": "transmission-oils",
     "brand": "MOL",
     "photo_url": "",
     "volumes": [
@@ -3606,7 +3609,7 @@
   {
     "sku": "MOL-1061",
     "name": "MOL Dynamic Gold Longlife 0W-30",
-    "category": "motor-oils",
+    "category": "motor-oils-pkw",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Gold Longlife_0W-30_web.jpg",
     "volumes": [
@@ -3642,7 +3645,7 @@
   {
     "sku": "MOL-1062",
     "name": "MOL Dynamic Prima 5W-40",
-    "category": "motor-oils",
+    "category": "motor-oils-pkw",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Prima_5W-40.jpg",
     "volumes": [
@@ -3700,7 +3703,7 @@
   {
     "sku": "MOL-1063",
     "name": "MOL Hykomol 85W-140",
-    "category": "motor-oils",
+    "category": "transmission-oils",
     "brand": "MOL",
     "photo_url": "",
     "volumes": [
@@ -3736,7 +3739,7 @@
   {
     "sku": "MOL-1064",
     "name": "MOL Dynamic Race R5",
-    "category": "motor-oils",
+    "category": "motor-oils-pkw",
     "brand": "MOL",
     "photo_url": "",
     "volumes": [
@@ -3772,7 +3775,7 @@
   {
     "sku": "MOL-1065",
     "name": "MOL Essence Multi Gas 5W-40",
-    "category": "motor-oils",
+    "category": "motor-oils-pkw",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_ru/lub/avtomobili/motornye-masla/1L_MOL_Essence_Multi-Gas_5W-40.jpg",
     "volumes": [
@@ -3808,7 +3811,7 @@
   {
     "sku": "MOL-1066",
     "name": "MOL CVT Fluid",
-    "category": "motor-oils",
+    "category": "transmission-oils",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1l_mol_cvt_fluid.jpg",
     "volumes": [
@@ -3840,7 +3843,7 @@
   {
     "sku": "MOL-1067",
     "name": "MOL Dynamic Synt RN17FE 0W-20",
-    "category": "motor-oils",
+    "category": "motor-oils-pkw",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Synt_RN17FE_0W-20.jpg",
     "volumes": [
@@ -3876,7 +3879,7 @@
   {
     "sku": "MOL-1068",
     "name": "MOL Hykomol 90",
-    "category": "motor-oils",
+    "category": "transmission-oils",
     "brand": "MOL",
     "photo_url": "",
     "volumes": [
@@ -3912,7 +3915,7 @@
   {
     "sku": "MOL-1069",
     "name": "EVOX Terminator",
-    "category": "winter",
+    "category": "auto-chemistry",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/szelvedomoso/evox_terminator_bug_spray_172x455.jpg",
     "volumes": [
@@ -3936,7 +3939,7 @@
   {
     "sku": "MOL-1070",
     "name": "MOL Dynamic Gold DX 5W-20",
-    "category": "motor-oils",
+    "category": "motor-oils-pkw",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Gold_DX_5W-20.jpg",
     "volumes": [
@@ -3972,7 +3975,7 @@
   {
     "sku": "MOL-1071",
     "name": "MOL Essence 5W-30",
-    "category": "motor-oils",
+    "category": "motor-oils-pkw",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Essence_5W-30.jpg",
     "volumes": [
@@ -4040,7 +4043,7 @@
   {
     "sku": "MOL-1073",
     "name": "MOL Dynamic Gold Longlife 0W-30",
-    "category": "motor-oils",
+    "category": "motor-oils-pkw",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Gold Longlife_0W-30_web.jpg",
     "volumes": [
@@ -4076,7 +4079,7 @@
   {
     "sku": "MOL-1074",
     "name": "MOL Essence 5W-40",
-    "category": "motor-oils",
+    "category": "motor-oils-pkw",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Essence_5W-40.jpg",
     "volumes": [
@@ -4112,7 +4115,7 @@
   {
     "sku": "MOL-1075",
     "name": "MOL Evox Winter Citrus Breeze -30",
-    "category": "winter",
+    "category": "auto-chemistry",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/szelvedomoso/mol_evox_winter_citrus_breeze_-30.jpg",
     "volumes": [
@@ -4131,7 +4134,7 @@
   {
     "sku": "MOL-1076",
     "name": "MOL Hykomol Syntrans 75W-90",
-    "category": "motor-oils",
+    "category": "transmission-oils",
     "brand": "MOL",
     "photo_url": "",
     "volumes": [
@@ -4167,7 +4170,7 @@
   {
     "sku": "MOL-1077",
     "name": "MOL DSG / DCT Fluid",
-    "category": "motor-oils",
+    "category": "transmission-oils",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1l_mol_dsg-dct_fluid.jpg",
     "volumes": [
@@ -4196,7 +4199,7 @@
   {
     "sku": "MOL-DYN-ESS-5W30",
     "name": "MOL Dynamic Essence 5W-30",
-    "category": "motor-oils",
+    "category": "motor-oils-pkw",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
     "volumes": [
@@ -4254,7 +4257,7 @@
   {
     "sku": "MOL-DYN-ESS-C2-5W30",
     "name": "MOL Dynamic Essence C2 5W-30",
-    "category": "motor-oils",
+    "category": "motor-oils-pkw",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
     "volumes": [
@@ -4312,7 +4315,7 @@
   {
     "sku": "MOL-DYN-ESS-DSL-5W40",
     "name": "MOL Dynamic Essence Diesel 5W-40",
-    "category": "motor-oils",
+    "category": "motor-oils-pkw",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
     "volumes": [
@@ -4370,7 +4373,7 @@
   {
     "sku": "MOL-DYN-ESS-5W40",
     "name": "MOL Dynamic Essence 5W-40",
-    "category": "motor-oils",
+    "category": "motor-oils-pkw",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
     "volumes": [
@@ -4428,7 +4431,7 @@
   {
     "sku": "MOL-DYN-ESS-DPF-5W40",
     "name": "MOL Dynamic Essence DPF 5W-40",
-    "category": "motor-oils",
+    "category": "motor-oils-pkw",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
     "volumes": [
@@ -4486,7 +4489,7 @@
   {
     "sku": "MOL-DYN-SYNT-RN-5W40",
     "name": "MOL Dynamic Synt RN 5W-40",
-    "category": "motor-oils",
+    "category": "motor-oils-pkw",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
     "volumes": [
@@ -4544,7 +4547,7 @@
   {
     "sku": "MOL-DYN-STAR-0W20",
     "name": "MOL Dynamic Star 0W-20",
-    "category": "motor-oils",
+    "category": "motor-oils-pkw",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
     "volumes": [
@@ -4588,7 +4591,7 @@
   {
     "sku": "MOL-DYN-GOLD-HUN-5W30",
     "name": "MOL Dynamic Gold HUN 5W-30",
-    "category": "motor-oils",
+    "category": "motor-oils-pkw",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
     "volumes": [
@@ -4628,7 +4631,7 @@
   {
     "sku": "MOL-DYN-GOLD-0W20",
     "name": "MOL Dynamic Gold 0W-20",
-    "category": "motor-oils",
+    "category": "motor-oils-pkw",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
     "volumes": [
@@ -4668,7 +4671,7 @@
   {
     "sku": "MOL-DYN-GOLD-0W30",
     "name": "MOL Dynamic Gold 0W-30",
-    "category": "motor-oils",
+    "category": "motor-oils-pkw",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
     "volumes": [
@@ -4708,7 +4711,7 @@
   {
     "sku": "MOL-DYN-GOLD-0W20-VAG",
     "name": "MOL Dynamic Gold 0W-20 VAG",
-    "category": "motor-oils",
+    "category": "motor-oils-pkw",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
     "volumes": [
@@ -4739,7 +4742,7 @@
   {
     "sku": "MOL-DYN-ESS-DSL-10W40",
     "name": "MOL Dynamic Essence Diesel 10W-40",
-    "category": "motor-oils",
+    "category": "motor-oils-pkw",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
     "volumes": [
@@ -4790,7 +4793,7 @@
   {
     "sku": "MOL-TRANSIT-TDS-10W40",
     "name": "MOL Transit TDS 10W-40",
-    "category": "motor-oils",
+    "category": "motor-oils-lkw",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
     "volumes": [
@@ -4862,7 +4865,7 @@
   {
     "sku": "MOL-15W40-MIN",
     "name": "MOL 15W-40",
-    "category": "motor-oils",
+    "category": "motor-oils-pkw",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
     "volumes": [
@@ -4916,7 +4919,7 @@
   {
     "sku": "MOL-TURBO-DSL-15W40",
     "name": "MOL Turbo Diesel 15W-40",
-    "category": "motor-oils",
+    "category": "motor-oils-lkw",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
     "volumes": [
@@ -4981,7 +4984,7 @@
   {
     "sku": "MOL-DYN-ESS-15W40",
     "name": "MOL Dynamic Essence 15W-40",
-    "category": "motor-oils",
+    "category": "motor-oils-pkw",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
     "volumes": [
@@ -5028,7 +5031,7 @@
   {
     "sku": "MOL-HYK-K-85W140",
     "name": "MOL Hykomol K 85W-140",
-    "category": "motor-oils",
+    "category": "transmission-oils",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
     "volumes": [
@@ -5089,7 +5092,7 @@
   {
     "sku": "MOL-HYK-TORSYN-75W90",
     "name": "MOL Hykomol Torsyn 75W-90",
-    "category": "motor-oils",
+    "category": "transmission-oils",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
     "volumes": [
@@ -5133,7 +5136,7 @@
   {
     "sku": "MOL-ATF-III",
     "name": "MOL ATF III",
-    "category": "motor-oils",
+    "category": "transmission-oils",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/hajtomuolajok/1L_MOL_ATF_Synt_TWS.jpg",
     "volumes": [
@@ -5183,7 +5186,7 @@
   {
     "sku": "MOL-ATF-II",
     "name": "MOL ATF II",
-    "category": "motor-oils",
+    "category": "transmission-oils",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/hajtomuolajok/1L_MOL_ATF_Synt_TWS.jpg",
     "volumes": [
@@ -5226,7 +5229,7 @@
   {
     "sku": "MOL-LITON-00-GM",
     "name": "MOL Liton 00 GM",
-    "category": "autochemistry",
+    "category": "auto-chemistry",
     "brand": "MOL",
     "photo_url": "",
     "volumes": [
@@ -5253,7 +5256,7 @@
   {
     "sku": "WB-TREE-001",
     "name": "Освежитель Wunder-Baum Елочка Arctic White",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -5288,7 +5291,7 @@
   {
     "sku": "WB-TREE-002",
     "name": "Освежитель Wunder-Baum Елочка Berry Burst",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -5323,7 +5326,7 @@
   {
     "sku": "WB-TREE-003",
     "name": "Освежитель Wunder-Baum Елочка Black Ice",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -5358,7 +5361,7 @@
   {
     "sku": "WB-TREE-004",
     "name": "Освежитель Wunder-Baum Елочка Bubble Gum",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -5393,7 +5396,7 @@
   {
     "sku": "WB-TREE-005",
     "name": "Освежитель Wunder-Baum Елочка Cafe",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -5428,7 +5431,7 @@
   {
     "sku": "WB-TREE-006",
     "name": "Освежитель Wunder-Baum Елочка Daisy Chain",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -5463,7 +5466,7 @@
   {
     "sku": "WB-TREE-007",
     "name": "Освежитель Wunder-Baum Елочка Erdbeeren (Клубника)",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -5498,7 +5501,7 @@
   {
     "sku": "WB-TREE-008",
     "name": "Освежитель Wunder-Baum Елочка Everfresh",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -5533,7 +5536,7 @@
   {
     "sku": "WB-TREE-009",
     "name": "Освежитель Wunder-Baum Елочка Fizzy Limonade",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -5568,7 +5571,7 @@
   {
     "sku": "WB-TREE-010",
     "name": "Освежитель Wunder-Baum Елочка Frosted Pine",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -5603,7 +5606,7 @@
   {
     "sku": "WB-TREE-011",
     "name": "Освежитель Wunder-Baum Елочка Fruhling",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -5638,7 +5641,7 @@
   {
     "sku": "WB-TREE-012",
     "name": "Освежитель Wunder-Baum Елочка Gruner Apfel (Зеленое Яблоко)",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -5673,7 +5676,7 @@
   {
     "sku": "WB-TREE-013",
     "name": "Освежитель Wunder-Baum Елочка Jungle Fever",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -5708,7 +5711,7 @@
   {
     "sku": "WB-TREE-014",
     "name": "Освежитель Wunder-Baum Елочка Kirsche (Вишня)",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -5743,7 +5746,7 @@
   {
     "sku": "WB-TREE-015",
     "name": "Освежитель Wunder-Baum Елочка Kokosnuss (Кокос)",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -5778,7 +5781,7 @@
   {
     "sku": "WB-TREE-016",
     "name": "Освежитель Wunder-Baum Елочка Leather (Кожа)",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -5813,7 +5816,7 @@
   {
     "sku": "WB-TREE-017",
     "name": "Освежитель Wunder-Baum Елочка Mai-Tai",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -5848,7 +5851,7 @@
   {
     "sku": "WB-TREE-018",
     "name": "Освежитель Wunder-Baum Елочка Margarita",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -5883,7 +5886,7 @@
   {
     "sku": "WB-TREE-019",
     "name": "Освежитель Wunder-Baum Елочка Midnight Chick",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -5918,7 +5921,7 @@
   {
     "sku": "WB-TREE-020",
     "name": "Освежитель Wunder-Baum Елочка Black Classic",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -5953,7 +5956,7 @@
   {
     "sku": "WB-TREE-021",
     "name": "Освежитель Wunder-Baum Елочка New Car (Новое Авто)",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -5988,7 +5991,7 @@
   {
     "sku": "WB-TREE-022",
     "name": "Освежитель Wunder-Baum Елочка Ocean Paradise",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -6023,7 +6026,7 @@
   {
     "sku": "WB-TREE-023",
     "name": "Освежитель Wunder-Baum Елочка Orange Juice (Апельсиновый сок)",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -6058,7 +6061,7 @@
   {
     "sku": "WB-TREE-024",
     "name": "Освежитель Wunder-Baum Елочка Pina Colada",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -6093,7 +6096,7 @@
   {
     "sku": "WB-TREE-025",
     "name": "Освежитель Wunder-Baum Елочка Pure Steel",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -6128,7 +6131,7 @@
   {
     "sku": "WB-TREE-026",
     "name": "Освежитель Wunder-Baum Елочка Rose & Raspberry (Роза и малина)",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -6163,7 +6166,7 @@
   {
     "sku": "WB-TREE-027",
     "name": "Освежитель Wunder-Baum Елочка Sportfrische",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -6198,7 +6201,7 @@
   {
     "sku": "WB-TREE-028",
     "name": "Освежитель Wunder-Baum Елочка Summer Cotton",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -6233,7 +6236,7 @@
   {
     "sku": "WB-TREE-029",
     "name": "Освежитель Wunder-Baum Елочка Tropical",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -6268,7 +6271,7 @@
   {
     "sku": "WB-TREE-030",
     "name": "Освежитель Wunder-Baum Елочка Vanillaroma (Ваниль)",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -6303,7 +6306,7 @@
   {
     "sku": "WB-TREE-031",
     "name": "Освежитель Wunder-Baum Елочка Wild Instinct",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -6338,7 +6341,7 @@
   {
     "sku": "WB-TREE-032",
     "name": "Освежитель Wunder-Baum Елочка WoodWork (Дерево)",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -6373,7 +6376,7 @@
   {
     "sku": "WB-TREE-033",
     "name": "Освежитель Wunder-Baum Елочка Zimt Apfel (Яблоко с корицей)",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -6408,7 +6411,7 @@
   {
     "sku": "WB-TREE-034",
     "name": "Освежитель Wunder-Baum Елочка Zitrone (Лимон)",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -6443,7 +6446,7 @@
   {
     "sku": "WB-CLIP-001",
     "name": "Освежитель-клипса Wunder-Baum Clip Black Ice",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:4c79df14-bd9f-4db3-bc07-d779bdce8cf6/WUNDER-BAUM_Clip_Black_Ice.png",
     "volumes": [
@@ -6478,7 +6481,7 @@
   {
     "sku": "WB-CLIP-002",
     "name": "Освежитель-клипса Wunder-Baum Clip Bubble Gum",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:4c79df14-bd9f-4db3-bc07-d779bdce8cf6/WUNDER-BAUM_Clip_Black_Ice.png",
     "volumes": [
@@ -6513,7 +6516,7 @@
   {
     "sku": "WB-CLIP-003",
     "name": "Освежитель-клипса Wunder-Baum Clip Cherry (Вишня)",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:4c79df14-bd9f-4db3-bc07-d779bdce8cf6/WUNDER-BAUM_Clip_Black_Ice.png",
     "volumes": [
@@ -6548,7 +6551,7 @@
   {
     "sku": "WB-CLIP-004",
     "name": "Освежитель-клипса Wunder-Baum Clip New Car",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:4c79df14-bd9f-4db3-bc07-d779bdce8cf6/WUNDER-BAUM_Clip_Black_Ice.png",
     "volumes": [
@@ -6583,7 +6586,7 @@
   {
     "sku": "WB-CLIP-005",
     "name": "Освежитель-клипса Wunder-Baum Clip Ocean Paradise",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:4c79df14-bd9f-4db3-bc07-d779bdce8cf6/WUNDER-BAUM_Clip_Black_Ice.png",
     "volumes": [
@@ -6618,7 +6621,7 @@
   {
     "sku": "WB-CLIP-006",
     "name": "Освежитель-клипса Wunder-Baum Clip Sport",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:4c79df14-bd9f-4db3-bc07-d779bdce8cf6/WUNDER-BAUM_Clip_Black_Ice.png",
     "volumes": [
@@ -6653,7 +6656,7 @@
   {
     "sku": "WB-CLIP-007",
     "name": "Освежитель-клипса Wunder-Baum Clip Tropical",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:4c79df14-bd9f-4db3-bc07-d779bdce8cf6/WUNDER-BAUM_Clip_Black_Ice.png",
     "volumes": [
@@ -6688,7 +6691,7 @@
   {
     "sku": "WB-CLIP-008",
     "name": "Освежитель-клипса Wunder-Baum Clip Vanilla",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:4c79df14-bd9f-4db3-bc07-d779bdce8cf6/WUNDER-BAUM_Clip_Black_Ice.png",
     "volumes": [
@@ -6723,7 +6726,7 @@
   {
     "sku": "WB-CLIP-009",
     "name": "Освежитель-клипса Wunder-Baum Clip Tribal",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:4c79df14-bd9f-4db3-bc07-d779bdce8cf6/WUNDER-BAUM_Clip_Black_Ice.png",
     "volumes": [
@@ -7642,7 +7645,7 @@
   {
     "sku": "IMAO-CARD-001",
     "name": "Парфюмированная карточка IMAO Card Bali",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -7677,7 +7680,7 @@
   {
     "sku": "IMAO-CARD-002",
     "name": "Парфюмированная карточка IMAO Card Bora Bora",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -7712,7 +7715,7 @@
   {
     "sku": "IMAO-CARD-003",
     "name": "Парфюмированная карточка IMAO Card Capri",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -7747,7 +7750,7 @@
   {
     "sku": "IMAO-CARD-004",
     "name": "Парфюмированная карточка IMAO Card Costa Rica",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -7782,7 +7785,7 @@
   {
     "sku": "IMAO-CARD-005",
     "name": "Парфюмированная карточка IMAO Card Las Vegas",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -7817,7 +7820,7 @@
   {
     "sku": "IMAO-CARD-006",
     "name": "Парфюмированная карточка IMAO Card Madagascar",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -7852,7 +7855,7 @@
   {
     "sku": "IMAO-CARD-007",
     "name": "Парфюмированная карточка IMAO Card Maiami",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -7887,7 +7890,7 @@
   {
     "sku": "IMAO-CARD-008",
     "name": "Парфюмированная карточка IMAO Card New York",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -7922,7 +7925,7 @@
   {
     "sku": "IMAO-CARD-009",
     "name": "Парфюмированная карточка IMAO Card Paris",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -7957,7 +7960,7 @@
   {
     "sku": "IMAO-CARD-010",
     "name": "Парфюмированная карточка IMAO Card Saint-Tropez",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -7992,7 +7995,7 @@
   {
     "sku": "IMAO-CARD-011",
     "name": "Парфюмированная карточка IMAO Card Sri-Lanka",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -8027,7 +8030,7 @@
   {
     "sku": "IMAO-CARD-012",
     "name": "Парфюмированная карточка IMAO Card Sydney",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -8062,7 +8065,7 @@
   {
     "sku": "IMAO-CARD-013",
     "name": "Парфюмированная карточка IMAO Card Tokyo",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -8097,7 +8100,7 @@
   {
     "sku": "IMAO-DIFF-001",
     "name": "Диффузор в дефлектор IMAO Diffuser Bali",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -8132,7 +8135,7 @@
   {
     "sku": "IMAO-DIFF-002",
     "name": "Диффузор в дефлектор IMAO Diffuser Capri",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -8167,7 +8170,7 @@
   {
     "sku": "IMAO-DIFF-003",
     "name": "Диффузор в дефлектор IMAO Diffuser Madagascar",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -8202,7 +8205,7 @@
   {
     "sku": "IMAO-DIFF-004",
     "name": "Диффузор в дефлектор IMAO Diffuser New York",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -8237,7 +8240,7 @@
   {
     "sku": "IMAO-DIFF-005",
     "name": "Диффузор в дефлектор IMAO Diffuser Paris",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -8272,7 +8275,7 @@
   {
     "sku": "IMAO-DIFF-006",
     "name": "Диффузор в дефлектор IMAO Diffuser Sri-Lanka",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -8307,7 +8310,7 @@
   {
     "sku": "IMAO-DIFF-007",
     "name": "Диффузор в дефлектор IMAO Diffuser Tokyo",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -8342,7 +8345,7 @@
   {
     "sku": "IMAO-KEY-001",
     "name": "Ароматизатор-ключ IMAO Key Bora Bora",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -8377,7 +8380,7 @@
   {
     "sku": "IMAO-KEY-002",
     "name": "Ароматизатор-ключ IMAO Key Madagascar",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -8412,7 +8415,7 @@
   {
     "sku": "IMAO-KEY-003",
     "name": "Ароматизатор-ключ IMAO Key New York",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -8447,7 +8450,7 @@
   {
     "sku": "IMAO-KEY-004",
     "name": "Ароматизатор-ключ IMAO Key Tokyo",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -8482,7 +8485,7 @@
   {
     "sku": "IMAO-SPRAY-001",
     "name": "Автомобильный спрей IMAO Spray Bali (50мл)",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -8517,7 +8520,7 @@
   {
     "sku": "IMAO-SPRAY-002",
     "name": "Автомобильный спрей IMAO Spray Bora Bora (50мл)",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -8552,7 +8555,7 @@
   {
     "sku": "IMAO-SPRAY-003",
     "name": "Автомобильный спрей IMAO Spray Capri (50мл)",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -8587,7 +8590,7 @@
   {
     "sku": "IMAO-SPRAY-004",
     "name": "Автомобильный спрей IMAO Spray Las Vegas (50мл)",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -8622,7 +8625,7 @@
   {
     "sku": "IMAO-SPRAY-005",
     "name": "Автомобильный спрей IMAO Spray Madagascar (50мл)",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -8657,7 +8660,7 @@
   {
     "sku": "IMAO-SPRAY-006",
     "name": "Автомобильный спрей IMAO Spray New York (50мл)",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -8692,7 +8695,7 @@
   {
     "sku": "IMAO-SPRAY-007",
     "name": "Автомобильный спрей IMAO Spray Paris (50мл)",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -8727,7 +8730,7 @@
   {
     "sku": "IMAO-SPRAY-008",
     "name": "Автомобильный спрей IMAO Spray Sri-Lanka (50мл)",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -8762,7 +8765,7 @@
   {
     "sku": "IMAO-SPRAY-009",
     "name": "Автомобильный спрей IMAO Spray Tahiti (50мл)",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -8797,7 +8800,7 @@
   {
     "sku": "IMAO-SPRAY-010",
     "name": "Автомобильный спрей IMAO Spray Tokyo (50мл)",
-    "category": "accessories",
+    "category": "auto-chemistry",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -8826,6 +8829,496 @@
         "volume_l": 1,
         "price_mdl": 120.0,
         "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "BF-PROFI-05",
+    "name": "Тормозная жидкость PROFI MAX DOT-4 (0.5 кг)",
+    "category": "brake-fluids",
+    "brand": "PROFI MAX",
+    "photo_url": "https://felix-auto.ru/upload/iblock/felix-dot4-0.5l.png",
+    "volumes": [
+      0.5
+    ],
+    "description": "Высокотемпературная тормозная жидкость PROFI MAX стандарта DOT-4 для дисковых и барабанных тормозных систем.",
+    "specs": [
+      {
+        "label": "Стандарт",
+        "value": "DOT-4 / FMVSS №116"
+      },
+      {
+        "label": "t кипения",
+        "value": "> 230 °C"
+      }
+    ],
+    "canister_vol": 0.5,
+    "canister_price": 31.0,
+    "packs": [
+      {
+        "id": "bf-profi-05-pack",
+        "volume_l": 0.5,
+        "price_mdl": 31.0,
+        "label": "0.5 кг"
+      }
+    ]
+  },
+  {
+    "sku": "BF-PROFI-10",
+    "name": "Тормозная жидкость PROFI MAX DOT-4 (1 кг)",
+    "category": "brake-fluids",
+    "brand": "PROFI MAX",
+    "photo_url": "https://felix-auto.ru/upload/iblock/felix-dot4-0.5l.png",
+    "volumes": [
+      1
+    ],
+    "description": "Синтетическая тормозная жидкость PROFI MAX DOT-4 для гидравлических приводов тормозов и сцепления.",
+    "specs": [
+      {
+        "label": "Стандарт",
+        "value": "DOT-4 / FMVSS №116"
+      },
+      {
+        "label": "t кипения",
+        "value": "> 230 °C"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 62.0,
+    "packs": [
+      {
+        "id": "bf-profi-10-pack",
+        "volume_l": 1,
+        "price_mdl": 62.0,
+        "label": "1 кг"
+      }
+    ]
+  },
+  {
+    "sku": "BF-ADV-038",
+    "name": "Тормозная жидкость ADV DOT-4 (380 г)",
+    "category": "brake-fluids",
+    "brand": "ADV",
+    "photo_url": "https://felix-auto.ru/upload/iblock/felix-dot4-0.5l.png",
+    "volumes": [
+      0.38
+    ],
+    "description": "Надежная тормозная жидкость ADV DOT-4 с высокой температурой кипения и отличными антикоррозионными свойствами.",
+    "specs": [
+      {
+        "label": "Стандарт",
+        "value": "DOT-4"
+      },
+      {
+        "label": "Масса",
+        "value": "380 г"
+      }
+    ],
+    "canister_vol": 0.38,
+    "canister_price": 25.5,
+    "packs": [
+      {
+        "id": "bf-adv-038-pack",
+        "volume_l": 0.38,
+        "price_mdl": 25.5,
+        "label": "380 г"
+      }
+    ]
+  },
+  {
+    "sku": "BF-ADV-075",
+    "name": "Тормозная жидкость ADV DOT-4 (750 г)",
+    "category": "brake-fluids",
+    "brand": "ADV",
+    "photo_url": "https://felix-auto.ru/upload/iblock/felix-dot4-0.5l.png",
+    "volumes": [
+      0.75
+    ],
+    "description": "Высококачественная тормозная жидкость ADV DOT-4 для современных гидравлических тормозных систем.",
+    "specs": [
+      {
+        "label": "Стандарт",
+        "value": "DOT-4"
+      },
+      {
+        "label": "Масса",
+        "value": "750 г"
+      }
+    ],
+    "canister_vol": 0.75,
+    "canister_price": 49.5,
+    "packs": [
+      {
+        "id": "bf-adv-075-pack",
+        "volume_l": 0.75,
+        "price_mdl": 49.5,
+        "label": "750 г"
+      }
+    ]
+  },
+  {
+    "sku": "BF-FOX-040",
+    "name": "Тормозная жидкость FOX DOT-4 (400 г)",
+    "category": "brake-fluids",
+    "brand": "FOX",
+    "photo_url": "https://felix-auto.ru/upload/iblock/felix-dot4-0.5l.png",
+    "volumes": [
+      0.4
+    ],
+    "description": "Синтетическая тормозная жидкость FOX DOT-4 с защитой от паровых пробок при интенсивном торможении.",
+    "specs": [
+      {
+        "label": "Стандарт",
+        "value": "DOT-4"
+      },
+      {
+        "label": "Масса",
+        "value": "400 г"
+      }
+    ],
+    "canister_vol": 0.4,
+    "canister_price": 36.5,
+    "packs": [
+      {
+        "id": "bf-fox-040-pack",
+        "volume_l": 0.4,
+        "price_mdl": 36.5,
+        "label": "400 г"
+      }
+    ]
+  },
+  {
+    "sku": "BF-FOX-075",
+    "name": "Тормозная жидкость FOX DOT-4 (750 г)",
+    "category": "brake-fluids",
+    "brand": "FOX",
+    "photo_url": "https://felix-auto.ru/upload/iblock/felix-dot4-0.5l.png",
+    "volumes": [
+      0.75
+    ],
+    "description": "Тормозная жидкость FOX DOT-4 увеличенного объема 750 г для обслуживания тормозной системы.",
+    "specs": [
+      {
+        "label": "Стандарт",
+        "value": "DOT-4"
+      },
+      {
+        "label": "Масса",
+        "value": "750 г"
+      }
+    ],
+    "canister_vol": 0.75,
+    "canister_price": 65.0,
+    "packs": [
+      {
+        "id": "bf-fox-075-pack",
+        "volume_l": 0.75,
+        "price_mdl": 65.0,
+        "label": "750 г"
+      }
+    ]
+  },
+  {
+    "sku": "BF-MOL-05",
+    "name": "Тормозная жидкость MOL DOT 4+ (0.5 л)",
+    "category": "brake-fluids",
+    "brand": "MOL",
+    "photo_url": "https://felix-auto.ru/upload/iblock/felix-dot4-0.5l.png",
+    "volumes": [
+      0.5
+    ],
+    "description": "Премиальная синтетическая тормозная жидкость MOL DOT 4+ с повышенной температурой кипения для экстремальных нагрузок.",
+    "specs": [
+      {
+        "label": "Стандарт",
+        "value": "DOT 4+ / ISO 4925 Class 4"
+      },
+      {
+        "label": "t кипения",
+        "value": "> 260 °C"
+      }
+    ],
+    "canister_vol": 0.5,
+    "canister_price": 84.0,
+    "packs": [
+      {
+        "id": "bf-mol-05-pack",
+        "volume_l": 0.5,
+        "price_mdl": 84.0,
+        "label": "0.5 л"
+      }
+    ]
+  },
+  {
+    "sku": "IND-MOL-001",
+    "name": "Гидравлическая жидкость MOL Pirohyd HFC",
+    "category": "industrial-lubricants",
+    "brand": "MOL",
+    "price_on_request": true,
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
+    "volumes": [
+      20,
+      208
+    ],
+    "description": "Огнестойкая гидравлическая жидкость типа HFC (водно-гликолевый раствор) для гидравлических систем, работающих в условиях повышенной пожароопасности.",
+    "specs": [
+      {
+        "label": "Спецификации",
+        "value": "ISO 12922 HFC, ISO 6743-4 HFC, VII Luxemburg Report"
+      },
+      {
+        "label": "Назначение",
+        "value": "Огнестойкая гидравлика"
+      }
+    ],
+    "canister_vol": 20,
+    "canister_price": 0,
+    "packs": [
+      {
+        "id": "ind-mol-001-20",
+        "volume_l": 20,
+        "price_mdl": 0,
+        "label": "20 л"
+      },
+      {
+        "id": "ind-mol-001-208",
+        "volume_l": 208,
+        "price_mdl": 0,
+        "label": "208 л"
+      }
+    ]
+  },
+  {
+    "sku": "IND-MOL-002",
+    "name": "Гидравлическое масло MOL Hydro HVI 46",
+    "category": "industrial-lubricants",
+    "brand": "MOL",
+    "price_on_request": true,
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
+    "volumes": [
+      20,
+      208
+    ],
+    "description": "Гидравлическое масло с высоким индексом вязкости (HVLP) для оборудования, работающего в условиях широких температурных колебаний.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "ISO VG 46"
+      },
+      {
+        "label": "Спецификации",
+        "value": "ISO 11158 HV, DIN 51524-3 (HVLP), Eaton Vickers I-286-S"
+      }
+    ],
+    "canister_vol": 20,
+    "canister_price": 0,
+    "packs": [
+      {
+        "id": "ind-mol-002-20",
+        "volume_l": 20,
+        "price_mdl": 0,
+        "label": "20 л"
+      },
+      {
+        "id": "ind-mol-002-208",
+        "volume_l": 208,
+        "price_mdl": 0,
+        "label": "208 л"
+      }
+    ]
+  },
+  {
+    "sku": "IND-MOL-003",
+    "name": "Компрессорное масло MOL Compressol R 46",
+    "category": "industrial-lubricants",
+    "brand": "MOL",
+    "price_on_request": true,
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
+    "volumes": [
+      10,
+      208
+    ],
+    "description": "Масло для ротационных винтовых и пластинчатых воздушных компрессоров с отличной термоокислительной стабильностью.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "ISO VG 46"
+      },
+      {
+        "label": "Спецификации",
+        "value": "ISO 6743-3 DAJ, DIN 51506 VBL/VCL"
+      }
+    ],
+    "canister_vol": 10,
+    "canister_price": 0,
+    "packs": [
+      {
+        "id": "ind-mol-003-10",
+        "volume_l": 10,
+        "price_mdl": 0,
+        "label": "10 л"
+      },
+      {
+        "id": "ind-mol-003-208",
+        "volume_l": 208,
+        "price_mdl": 0,
+        "label": "208 л"
+      }
+    ]
+  },
+  {
+    "sku": "IND-MOL-004",
+    "name": "Промышленное редукторное масло MOL Ultrans EP 220",
+    "category": "industrial-lubricants",
+    "brand": "MOL",
+    "price_on_request": true,
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
+    "volumes": [
+      20,
+      208
+    ],
+    "description": "Промышленное редукторное масло премиум-класса с противозадирными присадками (EP) для тяжелонагруженных промышленных передач.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "ISO VG 220"
+      },
+      {
+        "label": "Спецификации",
+        "value": "DIN 51517-3 (CLP), ISO 12925-1 CKC/CKD, US Steel 224"
+      }
+    ],
+    "canister_vol": 20,
+    "canister_price": 0,
+    "packs": [
+      {
+        "id": "ind-mol-004-20",
+        "volume_l": 20,
+        "price_mdl": 0,
+        "label": "20 л"
+      },
+      {
+        "id": "ind-mol-004-208",
+        "volume_l": 208,
+        "price_mdl": 0,
+        "label": "208 л"
+      }
+    ]
+  },
+  {
+    "sku": "IND-MOL-005",
+    "name": "Масло для направляющих MOL Multi SW 68",
+    "category": "industrial-lubricants",
+    "brand": "MOL",
+    "price_on_request": true,
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
+    "volumes": [
+      20,
+      208
+    ],
+    "description": "Специальное масло для смазки направляющих скольжения металлорежущих станков, предотвращающее скачкообразное движение.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "ISO VG 68"
+      },
+      {
+        "label": "Спецификации",
+        "value": "ISO 6743-13 GA/GB, DIN 51502 CGLP, Fives Cincinnati P-47"
+      }
+    ],
+    "canister_vol": 20,
+    "canister_price": 0,
+    "packs": [
+      {
+        "id": "ind-mol-005-20",
+        "volume_l": 20,
+        "price_mdl": 0,
+        "label": "20 л"
+      },
+      {
+        "id": "ind-mol-005-208",
+        "volume_l": 208,
+        "price_mdl": 0,
+        "label": "208 л"
+      }
+    ]
+  },
+  {
+    "sku": "IND-MOL-006",
+    "name": "Водорастворимая СОЖ MOL Emulcutt 160",
+    "category": "industrial-lubricants",
+    "brand": "MOL",
+    "price_on_request": true,
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
+    "volumes": [
+      20,
+      208
+    ],
+    "description": "Водорастворимая универсальная СОЖ для механической обработки металлов (точение, фрезерование, сверление).",
+    "specs": [
+      {
+        "label": "Спецификации",
+        "value": "ISO-L-MAE, DIN 51385 SEM"
+      },
+      {
+        "label": "Тип",
+        "value": "Эмульгируемая СОЖ"
+      }
+    ],
+    "canister_vol": 20,
+    "canister_price": 0,
+    "packs": [
+      {
+        "id": "ind-mol-006-20",
+        "volume_l": 20,
+        "price_mdl": 0,
+        "label": "20 л"
+      },
+      {
+        "id": "ind-mol-006-208",
+        "volume_l": 208,
+        "price_mdl": 0,
+        "label": "208 л"
+      }
+    ]
+  },
+  {
+    "sku": "IND-MOL-007",
+    "name": "Пищевая цепная смазка MOL Food Chain 220",
+    "category": "industrial-lubricants",
+    "brand": "MOL",
+    "price_on_request": true,
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
+    "volumes": [
+      10,
+      208
+    ],
+    "description": "Специальная смазка с допуском NSF H1 для приводных и конвейерных цепей пищевых и фармацевтических производств.",
+    "specs": [
+      {
+        "label": "Допуск",
+        "value": "NSF H1 (Пищевой допуск)"
+      },
+      {
+        "label": "Вязкость",
+        "value": "ISO VG 220"
+      }
+    ],
+    "canister_vol": 10,
+    "canister_price": 0,
+    "packs": [
+      {
+        "id": "ind-mol-007-10",
+        "volume_l": 10,
+        "price_mdl": 0,
+        "label": "10 л"
+      },
+      {
+        "id": "ind-mol-007-208",
+        "volume_l": 208,
+        "price_mdl": 0,
+        "label": "208 л"
       }
     ]
   }

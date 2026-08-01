@@ -511,6 +511,89 @@ h4 { font-size: 0.95rem; font-weight: 600; letter-spacing: 0; }
     color: var(--colour-accent);
 }
 
+/* Sidebar Category Accordion */
+.sidebar-cat-accordion {
+    border-bottom: 1px solid #F0F2F5;
+}
+
+.sidebar-cat-parent {
+    justify-content: space-between;
+}
+
+.cat-item-right {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.cat-accordion-toggle {
+    background: none;
+    border: none;
+    padding: 2px 4px;
+    cursor: pointer;
+    color: var(--colour-text-muted);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    transition: background 0.15s ease, transform 0.2s ease;
+}
+
+.cat-accordion-toggle:hover {
+    background: var(--colour-surface-2);
+    color: var(--colour-accent);
+}
+
+.sidebar-cat-accordion.open .cat-chevron-svg {
+    transform: rotate(180deg);
+}
+
+.sidebar-cat-sublist {
+    display: none;
+    background: #F8FAFC;
+    padding-left: 12px;
+}
+
+.sidebar-cat-accordion.open .sidebar-cat-sublist {
+    display: block;
+}
+
+.sidebar-subcat-item {
+    font-size: 0.82rem;
+    padding: 8px 16px 8px 12px;
+    border-bottom: 1px solid #F1F5F9;
+}
+
+.subcat-bullet {
+    color: var(--colour-accent);
+    font-size: 0.9rem;
+    margin-right: 2px;
+}
+
+/* Price on request & Call request button */
+.price-on-request {
+    color: #D97706 !important;
+    font-size: 0.92rem !important;
+    font-weight: 700 !important;
+}
+
+.btn-call-request {
+    background: #FEF3C7 !important;
+    color: #92400E !important;
+    border: 1px solid #FCD34D !important;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.82rem;
+    font-weight: 600;
+}
+
+.btn-call-request:hover {
+    background: #FDE68A !important;
+    color: #78350F !important;
+}
+
 /* Sidebar Divider */
 .sidebar-divider {
     height: 1px;
@@ -787,6 +870,10 @@ h4 { font-size: 0.95rem; font-weight: 600; letter-spacing: 0; }
 .product-tag-brand[data-brand="Wolf"] { background: #F3F4F6; color: #374151; border-color: #D1D5DB; }
 .product-tag-brand[data-brand="Wunder-Baum"] { background: #FEF08A; color: #854D0E; border-color: #FDE047; }
 .product-tag-brand[data-brand="IMAO Parfums"] { background: #FCE7F3; color: #9D174D; border-color: #F9A8D4; }
+.product-tag-brand[data-brand="PROFI MAX"] { background: #E0F2FE; color: #0369A1; border-color: #7DD3FC; }
+.product-tag-brand[data-brand="ADV"] { background: #FFEDD5; color: #C2410C; border-color: #FDBA74; }
+.product-tag-brand[data-brand="FOX"] { background: #F1F5F9; color: #334155; border-color: #CBD5E1; }
+.product-tag-brand[data-brand="Car Commerce"] { background: #DCFCE7; color: #15803D; border-color: #86EFAC; }
 
 /* Color Filter Swatches & Badges */
 .filter-color-item-wrap {

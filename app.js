@@ -27,17 +27,34 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // ==========================================================================
-    // CATEGORY LABEL MAP
+    // CATEGORY LABEL MAP & HIERARCHY
     // ==========================================================================
     const CATEGORY_LABELS = {
-        'all':          'Все товары',
-        'motor-oils':   'Автомобильные масла',
-        'coolants':     'Охлаждающие жидкости',
-        'autochemistry':'Автохимия и смазки',
-        'winter':       'Зимняя программа',
-        'accessories':  'Расходники и аксессуары',
-        'industrial':   'Промышленный сектор'
+        'all':                   'Все товары',
+        'lubricants':            'Смазочные материалы',
+        'motor-oils-pkw':        'Моторные масла для легковых (PKW)',
+        'motor-oils-lkw':        'Моторные масла для грузовых (LKW)',
+        'moto-oils':             'Мото масла',
+        'transmission-oils':     'Трансмиссионные масла',
+        'hydraulic-oils':        'Гидравлические масла',
+        'greases':               'Смазки',
+        'industrial-lubricants': 'Промышленные смазочные материалы',
+        'coolants':              'Охлаждающие жидкости',
+        'brake-fluids':          'Тормозные жидкости',
+        'auto-chemistry':        'Автохимия и автокосметика',
+        'accessories':           'Аксессуары',
+        'auto-lamps':            'Автолампы'
     };
+
+    const LUBRICANT_SUBCATEGORIES = [
+        'motor-oils-pkw',
+        'motor-oils-lkw',
+        'moto-oils',
+        'transmission-oils',
+        'hydraulic-oils',
+        'greases',
+        'industrial-lubricants'
+    ];
 
     // ==========================================================================
     // CATALOG STATE
@@ -71,7 +88,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // ==========================================================================
     const OFFLINE_PRODUCTS = [
         {
-            sku: '151201', name: 'MOL Essence 5W-30', category: 'motor-oils', brand: 'MOL',
+            sku: '151201', name: 'MOL Essence 5W-30', category: 'motor-oils-pkw', brand: 'MOL',
             photo_url: 'https://www.mol.com/o/MOL_Public_Content/images/products/mol-essence-5w30.png',
             volumes: [1, 4, 5, 20, 60, 208],
             description: 'Высокотехнологичное синтетическое масло для современных легковых автомобилей и фургонов, снижающее трение и износ.',
@@ -79,7 +96,7 @@ document.addEventListener('DOMContentLoaded', () => {
             canister_vol: 4, canister_price: 780, barrel_vol: 205, barrel_price: 28000
         },
         {
-            sku: '151205', name: 'MOL Dynamic Transit 10W-40', category: 'motor-oils', brand: 'MOL',
+            sku: '151205', name: 'MOL Dynamic Transit 10W-40', category: 'motor-oils-lkw', brand: 'MOL',
             photo_url: 'https://www.mol.com/o/MOL_Public_Content/images/products/mol-dynamic-transit-10w40.png',
             volumes: [4, 5, 20, 60, 208],
             description: 'Полусинтетическое масло для высоконагруженных дизельных двигателей коммерческого автотранспорта.',
@@ -93,43 +110,26 @@ document.addEventListener('DOMContentLoaded', () => {
             description: 'Профессиональный карбоксилатный антифриз нового поколения с увеличенным ресурсом эксплуатации.',
             specs: [{ label: 'Класс', value: 'G12+' }, { label: 'Цвет', value: 'Красный/Фиолетовый' }, { label: 't замерзания', value: '-40 °C' }],
             canister_vol: 5, canister_price: 220, barrel_vol: 220, barrel_price: 7500
-        },
-        {
-            sku: '180701', name: 'Prista Ultra 10W-40', category: 'motor-oils', brand: 'Prista',
-            photo_url: '',
-            volumes: [1, 4, 5, 20, 60, 208],
-            description: 'Универсальное полусинтетическое моторное масло для смешанных автопарков.',
-            specs: [{ label: 'Вязкость', value: '10W-40' }, { label: 'Допуски', value: 'API SN/CF, ACEA A3/B4' }],
-            canister_vol: 4, canister_price: 420, barrel_vol: 205, barrel_price: 15000
-        },
-        {
-            sku: '240901', name: 'Felix DOT-4', category: 'autochemistry', brand: 'Felix',
-            photo_url: 'https://felix-auto.ru/upload/iblock/felix-dot4-0.5l.png',
-            volumes: [0.25, 0.5, 1],
-            description: 'Синтетическая жидкость для гидравлических приводов сцепления и тормозов.',
-            specs: [{ label: 'Стандарт', value: 'FMVSS №116 DOT 4' }, { label: 't кипения', value: '> 230 °C' }],
-            canister_vol: 1, canister_price: 95, barrel_vol: 200, barrel_price: 12000
-        },
-        {
-            sku: '520101', name: 'Hepu Antifreeze G11', category: 'coolants', brand: 'Hepu',
-            photo_url: 'https://www.hepu.de/wp-content/uploads/hepu-antifreeze-g11-5l.jpg',
-            volumes: [1, 5, 10, 25],
-            description: 'Классический антифриз класса G11 на основе этиленгликоля с силикатными присадками.',
-            specs: [{ label: 'Класс', value: 'G11 / OAT' }, { label: 'Цвет', value: 'Зеленый' }, { label: 't замерзания', value: '-38 °C' }],
-            canister_vol: 5, canister_price: 195, barrel_vol: 25, barrel_price: 900
         }
     ];
 
     // ==========================================================================
-    // PRODUCT EMOJI PLACEHOLDERS (when no photo)
+    // PRODUCT SVG PLACEHOLDERS (when no photo)
     // ==========================================================================
     const CATEGORY_SVG = {
-        'motor-oils':   `<svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 8h11v12H4z"></path><path d="M15 11l4-2v6l-4-2"></path><path d="M7 8V5h4v3"></path><path d="M9.5 14a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"></path></svg>`,
-        'coolants':     `<svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2.5v19M2.5 12h19M5.2 5.2l13.6 13.6M5.2 18.8L18.8 5.2"></path><circle cx="12" cy="12" r="2.5" fill="var(--colour-surface)"></circle></svg>`,
-        'autochemistry':`<svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>`,
-        'winter':       `<svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 14.76V3.5a2.5 2.5 0 0 0-5 0v11.26a4.5 4.5 0 1 0 5 0z"></path></svg>`,
-        'accessories':  `<svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>`,
-        'industrial':   `<svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 20h20"></path><path d="M20 20V9l-6 4V9l-6 4V4H2v16"></path></svg>`
+        'lubricants':           `<svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path></svg>`,
+        'motor-oils-pkw':       `<svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 8h11v12H4z"></path><path d="M15 11l4-2v6l-4-2"></path><path d="M7 8V5h4v3"></path><circle cx="9.5" cy="14" r="1.5"></circle></svg>`,
+        'motor-oils-lkw':       `<svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 3h15v13H1z"></path><path d="M16 8h4l3 3v5h-7V8z"></path><circle cx="5.5" cy="18.5" r="2.5"></circle><circle cx="18.5" cy="18.5" r="2.5"></circle></svg>`,
+        'moto-oils':            `<svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="5.5" cy="17.5" r="3.5"></circle><circle cx="18.5" cy="17.5" r="3.5"></circle><path d="M15 6h5l-3.5 6.5L12 17.5H5.5M12 6L8.5 12"></path></svg>`,
+        'transmission-oils':    `<svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>`,
+        'hydraulic-oils':       `<svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>`,
+        'greases':              `<svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M8 2h8v4H8zM6 6h12v16H6zM10 10h4v4h-4z"></path></svg>`,
+        'industrial-lubricants':`<svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 20h20"></path><path d="M20 20V9l-6 4V9l-6 4V4H2v16"></path></svg>`,
+        'coolants':             `<svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2.5v19M2.5 12h19M5.2 5.2l13.6 13.6M5.2 18.8L18.8 5.2"></path><circle cx="12" cy="12" r="2.5" fill="var(--colour-surface)"></circle></svg>`,
+        'brake-fluids':         `<svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="9"></circle><circle cx="12" cy="12" r="4"></circle><path d="M12 3v3M12 18v3M3 12h3M18 12h3"></path></svg>`,
+        'auto-chemistry':       `<svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>`,
+        'accessories':          `<svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>`,
+        'auto-lamps':           `<svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 18h6M10 22h4M12 2a7 7 0 0 0-7 7c0 2.38 1.19 4.47 3 5.74V17a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2.26c1.81-1.27 3-3.36 3-5.74a7 7 0 0 0-7-7z"></path></svg>`
     };
 
     // ==========================================================================
@@ -150,11 +150,16 @@ document.addEventListener('DOMContentLoaded', () => {
     // ==========================================================================
     // SIDEBAR: CATEGORY COUNTS
     // ==========================================================================
+    // ==========================================================================
+    // SIDEBAR: CATEGORY COUNTS
+    // ==========================================================================
     function updateCategoryCounts(products) {
         const counts = {};
         products.forEach(p => {
             counts[p.category] = (counts[p.category] || 0) + 1;
         });
+        // Parent 'lubricants' sum of all subcategories
+        counts['lubricants'] = LUBRICANT_SUBCATEGORIES.reduce((sum, cat) => sum + (counts[cat] || 0), counts['lubricants'] || 0);
         counts['all'] = products.length;
 
         Object.keys(CATEGORY_LABELS).forEach(cat => {
@@ -175,9 +180,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const volumeOpts  = document.getElementById('filterVolumeOptions');
         if (!brandOpts || !volumeOpts || !brandGroup || !volumeGroup) return;
 
-        const filtered = catalogState.activeCategory === 'all'
-            ? products
-            : products.filter(p => p.category === catalogState.activeCategory);
+        const filtered = applyCategoryFilterOnly(products);
 
         // Collect unique colors with counts
         const colorMap = {};
@@ -276,13 +279,28 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    function applyCategoryFilterOnly(products) {
+        if (catalogState.activeCategory === 'all') return products;
+        if (catalogState.activeCategory === 'lubricants') {
+            return products.filter(p => LUBRICANT_SUBCATEGORIES.includes(p.category) || p.category === 'lubricants');
+        }
+        return products.filter(p => p.category === catalogState.activeCategory);
+    }
+
     // ==========================================================================
     // APPLY FILTERS & SEARCH
     // ==========================================================================
     function applyFilters(products) {
         return products.filter(p => {
-            // Category
-            const catMatch = catalogState.activeCategory === 'all' || p.category === catalogState.activeCategory;
+            // Category match logic
+            let catMatch = false;
+            if (catalogState.activeCategory === 'all') {
+                catMatch = true;
+            } else if (catalogState.activeCategory === 'lubricants') {
+                catMatch = LUBRICANT_SUBCATEGORIES.includes(p.category) || p.category === 'lubricants';
+            } else {
+                catMatch = (p.category === catalogState.activeCategory);
+            }
 
             // Color filter
             const colorMatch = catalogState.activeColors.size === 0 || catalogState.activeColors.has(p.color);
@@ -423,14 +441,22 @@ document.addEventListener('DOMContentLoaded', () => {
                     ${volTagsHtml}
                 </div>
                 <div class="product-card-footer">
-                    <div>
-                        <span class="product-price" id="price-${product.sku}">${displayPrice} MDL</span>
-                        <span class="product-price-unit">за ${firstVol >= 1 ? firstVol + ' л' : (firstVol * 1000) + ' мл'}</span>
-                    </div>
-                    <button class="btn-add-cart" data-sku="${product.sku}" data-name="${product.name}"
-                            data-price="${displayPrice}" data-vol="${firstVol}">
-                        + В заказ
-                    </button>
+                    ${product.category === 'industrial-lubricants' || product.price_on_request ? `
+                        <div>
+                            <span class="product-price price-on-request">по запросу</span>
+                            <span class="product-price-unit">Тел: +373 685 50 595</span>
+                        </div>
+                        <a href="tel:+37368550595" class="btn-add-cart btn-call-request">📞 Запросить</a>
+                    ` : `
+                        <div>
+                            <span class="product-price" id="price-${product.sku}">${displayPrice} MDL</span>
+                            <span class="product-price-unit">за ${firstVol >= 1 ? firstVol + ' л' : (firstVol * 1000) + ' мл'}</span>
+                        </div>
+                        <button class="btn-add-cart" data-sku="${product.sku}" data-name="${product.name}"
+                                data-price="${displayPrice}" data-vol="${firstVol}">
+                            + В заказ
+                        </button>
+                    `}
                 </div>
             </div>
         `;
@@ -584,16 +610,31 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // ==========================================================================
-    // SIDEBAR CATEGORY CLICK
+    // SIDEBAR CATEGORY CLICK & ACCORDION
     // ==========================================================================
     document.getElementById('sidebarCategoryList')?.addEventListener('click', e => {
+        const toggleBtn = e.target.closest('.cat-accordion-toggle');
+        const parentAcc = e.target.closest('.sidebar-cat-accordion');
+
+        if (toggleBtn && parentAcc) {
+            e.stopPropagation();
+            parentAcc.classList.toggle('open');
+            return;
+        }
+
         const item = e.target.closest('.sidebar-cat-item');
         if (!item) return;
+
         const cat = item.getAttribute('data-cat');
         catalogState.activeCategory = cat;
         catalogState.activeBrands.clear();
         catalogState.activeVolumes.clear();
         catalogState.activeColors.clear();
+
+        // If parent lubricants clicked, open accordion
+        if (cat === 'lubricants' && parentAcc) {
+            parentAcc.classList.add('open');
+        }
 
         // Update active state
         document.querySelectorAll('.sidebar-cat-item').forEach(i => i.classList.remove('active'));
@@ -1014,6 +1055,24 @@ document.addEventListener('DOMContentLoaded', () => {
         if (loader) loader.style.display = 'block';
 
         allProducts = await loadProducts();
+
+        // Check for URL parameter ?cat=...
+        const urlParams = new URLSearchParams(window.location.search);
+        const catParam = urlParams.get('cat');
+        if (catParam && CATEGORY_LABELS[catParam]) {
+            catalogState.activeCategory = catParam;
+            
+            // Set active class in sidebar
+            document.querySelectorAll('.sidebar-cat-item').forEach(i => {
+                i.classList.toggle('active', i.getAttribute('data-cat') === catParam);
+            });
+
+            // Open accordion if lubricant subcategory or parent lubricants
+            if (catParam === 'lubricants' || LUBRICANT_SUBCATEGORIES.includes(catParam)) {
+                const parentAcc = document.querySelector('.sidebar-cat-accordion');
+                if (parentAcc) parentAcc.classList.add('open');
+            }
+        }
 
         updateCategoryCounts(allProducts);
         renderSidebarFilters(allProducts);
