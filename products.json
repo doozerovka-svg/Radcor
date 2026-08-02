@@ -15214,5 +15214,873 @@
         "label": "205 л (Бочка)"
       }
     ]
+  },
+  {
+    "sku": "FW-3800125820876",
+    "name": "Ароматизатор Fresh Way Dry Apple & Cinnamon (Яблоко Корица)",
+    "category": "auto-chemistry",
+    "brand": "Fresh Way",
+    "photo_url": "images/products/fresh-way-airfresh.png",
+    "volumes": [
+      1
+    ],
+    "description": "Автомобильный и домашний освежитель воздуха Ароматизатор Fresh Way Dry Apple & Cinnamon (Яблоко Корица) (Штрихкод EAN: 3800125820876). Производство Fresh Way (Болгария).",
+    "specs": [
+      {
+        "label": "Штрихкод EAN",
+        "value": "3800125820876"
+      },
+      {
+        "label": "Производитель",
+        "value": "Fresh Way (Болгария)"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 12.0,
+    "packs": [
+      {
+        "id": "fw-3800125820876-pack",
+        "volume_l": 1,
+        "price_mdl": 12.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "FW-3800125820456",
+    "name": "Ароматизатор Fresh Way Cotton Dry (Свежий хлопок)",
+    "category": "auto-chemistry",
+    "brand": "Fresh Way",
+    "photo_url": "images/products/fresh-way-airfresh.png",
+    "volumes": [
+      1
+    ],
+    "description": "Автомобильный и домашний освежитель воздуха Ароматизатор Fresh Way Cotton Dry (Свежий хлопок) (Штрихкод EAN: 3800125820456). Производство Fresh Way (Болгария).",
+    "specs": [
+      {
+        "label": "Штрихкод EAN",
+        "value": "3800125820456"
+      },
+      {
+        "label": "Производитель",
+        "value": "Fresh Way (Болгария)"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 12.0,
+    "packs": [
+      {
+        "id": "fw-3800125820456-pack",
+        "volume_l": 1,
+        "price_mdl": 12.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "FW-3800125815186",
+    "name": "Ароматизатор Fresh Way Moldova Dry Airfreshner",
+    "category": "auto-chemistry",
+    "brand": "Fresh Way",
+    "photo_url": "images/products/fresh-way-airfresh.png",
+    "volumes": [
+      1
+    ],
+    "description": "Автомобильный и домашний освежитель воздуха Ароматизатор Fresh Way Moldova Dry Airfreshner (Штрихкод EAN: 3800125815186). Производство Fresh Way (Болгария).",
+    "specs": [
+      {
+        "label": "Штрихкод EAN",
+        "value": "3800125815186"
+      },
+      {
+        "label": "Производитель",
+        "value": "Fresh Way (Болгария)"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 11.0,
+    "packs": [
+      {
+        "id": "fw-3800125815186-pack",
+        "volume_l": 1,
+        "price_mdl": 11.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "FW-3800125814349",
+    "name": "Ароматизатор Fresh Way Dry Smile",
+    "category": "auto-chemistry",
+    "brand": "Fresh Way",
+    "photo_url": "images/products/fresh-way-airfresh.png",
+    "volumes": [
+      1
+    ],
+    "description": "Автомобильный и домашний освежитель воздуха Ароматизатор Fresh Way Dry Smile (Штрихкод EAN: 3800125814349). Производство Fresh Way (Болгария).",
+    "specs": [
+      {
+        "label": "Штрихкод EAN",
+        "value": "3800125814349"
+      },
+      {
+        "label": "Производитель",
+        "value": "Fresh Way (Болгария)"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 9.0,
+    "packs": [
+      {
+        "id": "fw-3800125814349-pack",
+        "volume_l": 1,
+        "price_mdl": 9.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "FW-3800125800014",
+    "name": "Ароматизатор Fresh Way Spa Dry",
+    "category": "auto-chemistry",
+    "brand": "Fresh Way",
+    "photo_url": "images/products/fresh-way-airfresh.png",
+    "volumes": [
+      1
+    ],
+    "description": "Автомобильный и домашний освежитель воздуха Ароматизатор Fresh Way Spa Dry (Штрихкод EAN: 3800125800014). Производство Fresh Way (Болгария).",
+    "specs": [
+      {
+        "label": "Штрихкод EAN",
+        "value": "3800125800014"
+      },
+      {
+        "label": "Производитель",
+        "value": "Fresh Way (Болгария)"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 9.0,
+    "packs": [
+      {
+        "id": "fw-3800125800014-pack",
+        "volume_l": 1,
+        "price_mdl": 9.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "FW-3800125810204",
+    "name": "Ароматизатор Fresh Way Sport Dry",
+    "category": "auto-chemistry",
+    "brand": "Fresh Way",
+    "photo_url": "images/products/fresh-way-airfresh.png",
+    "volumes": [
+      1
+    ],
+    "description": "Автомобильный и домашний освежитель воздуха Ароматизатор Fresh Way Sport Dry (Штрихкод EAN: 3800125810204). Производство Fresh Way (Болгария).",
+    "specs": [
+      {
+        "label": "Штрихкод EAN",
+        "value": "3800125810204"
+      },
+      {
+        "label": "Производитель",
+        "value": "Fresh Way (Болгария)"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 10.0,
+    "packs": [
+      {
+        "id": "fw-3800125810204-pack",
+        "volume_l": 1,
+        "price_mdl": 10.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "FW-3800125815421",
+    "name": "Ароматизатор Fresh Way X-Style Dry Airfreshner",
+    "category": "auto-chemistry",
+    "brand": "Fresh Way",
+    "photo_url": "images/products/fresh-way-airfresh.png",
+    "volumes": [
+      1
+    ],
+    "description": "Автомобильный и домашний освежитель воздуха Ароматизатор Fresh Way X-Style Dry Airfreshner (Штрихкод EAN: 3800125815421). Производство Fresh Way (Болгария).",
+    "specs": [
+      {
+        "label": "Штрихкод EAN",
+        "value": "3800125815421"
+      },
+      {
+        "label": "Производитель",
+        "value": "Fresh Way (Болгария)"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 20.0,
+    "packs": [
+      {
+        "id": "fw-3800125815421-pack",
+        "volume_l": 1,
+        "price_mdl": 20.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "FW-3800125800014-USD",
+    "name": "Ароматизатор Fresh Way Dry USD Dollar ($)",
+    "category": "auto-chemistry",
+    "brand": "Fresh Way",
+    "photo_url": "images/products/fresh-way-airfresh.png",
+    "volumes": [
+      1
+    ],
+    "description": "Автомобильный и домашний освежитель воздуха Ароматизатор Fresh Way Dry USD Dollar ($) (Штрихкод EAN: 3800125800014-USD). Производство Fresh Way (Болгария).",
+    "specs": [
+      {
+        "label": "Штрихкод EAN",
+        "value": "3800125800014-USD"
+      },
+      {
+        "label": "Производитель",
+        "value": "Fresh Way (Болгария)"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 9.0,
+    "packs": [
+      {
+        "id": "fw-3800125800014-usd-pack",
+        "volume_l": 1,
+        "price_mdl": 9.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "FW-3800125800014-EUR",
+    "name": "Ароматизатор Fresh Way Dry EURO (€)",
+    "category": "auto-chemistry",
+    "brand": "Fresh Way",
+    "photo_url": "images/products/fresh-way-airfresh.png",
+    "volumes": [
+      1
+    ],
+    "description": "Автомобильный и домашний освежитель воздуха Ароматизатор Fresh Way Dry EURO (€) (Штрихкод EAN: 3800125800014-EUR). Производство Fresh Way (Болгария).",
+    "specs": [
+      {
+        "label": "Штрихкод EAN",
+        "value": "3800125800014-EUR"
+      },
+      {
+        "label": "Производитель",
+        "value": "Fresh Way (Болгария)"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 9.0,
+    "packs": [
+      {
+        "id": "fw-3800125800014-eur-pack",
+        "volume_l": 1,
+        "price_mdl": 9.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "FW-3800125821118",
+    "name": "Ароматизатор Fresh Way Mandarin Dry (Мандарин)",
+    "category": "auto-chemistry",
+    "brand": "Fresh Way",
+    "photo_url": "images/products/fresh-way-airfresh.png",
+    "volumes": [
+      1
+    ],
+    "description": "Автомобильный и домашний освежитель воздуха Ароматизатор Fresh Way Mandarin Dry (Мандарин) (Штрихкод EAN: 3800125821118). Производство Fresh Way (Болгария).",
+    "specs": [
+      {
+        "label": "Штрихкод EAN",
+        "value": "3800125821118"
+      },
+      {
+        "label": "Производитель",
+        "value": "Fresh Way (Болгария)"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 12.0,
+    "packs": [
+      {
+        "id": "fw-3800125821118-pack",
+        "volume_l": 1,
+        "price_mdl": 12.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "FW-3800125800014-GEN",
+    "name": "Ароматизатор Fresh Way Dry Classic",
+    "category": "auto-chemistry",
+    "brand": "Fresh Way",
+    "photo_url": "images/products/fresh-way-airfresh.png",
+    "volumes": [
+      1
+    ],
+    "description": "Автомобильный и домашний освежитель воздуха Ароматизатор Fresh Way Dry Classic (Штрихкод EAN: 3800125800014-GEN). Производство Fresh Way (Болгария).",
+    "specs": [
+      {
+        "label": "Штрихкод EAN",
+        "value": "3800125800014-GEN"
+      },
+      {
+        "label": "Производитель",
+        "value": "Fresh Way (Болгария)"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 9.0,
+    "packs": [
+      {
+        "id": "fw-3800125800014-gen-pack",
+        "volume_l": 1,
+        "price_mdl": 9.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "FW-3800125817630",
+    "name": "Ароматизатор Fresh Way Dry Camouflage",
+    "category": "auto-chemistry",
+    "brand": "Fresh Way",
+    "photo_url": "images/products/fresh-way-airfresh.png",
+    "volumes": [
+      1
+    ],
+    "description": "Автомобильный и домашний освежитель воздуха Ароматизатор Fresh Way Dry Camouflage (Штрихкод EAN: 3800125817630). Производство Fresh Way (Болгария).",
+    "specs": [
+      {
+        "label": "Штрихкод EAN",
+        "value": "3800125817630"
+      },
+      {
+        "label": "Производитель",
+        "value": "Fresh Way (Болгария)"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 12.0,
+    "packs": [
+      {
+        "id": "fw-3800125817630-pack",
+        "volume_l": 1,
+        "price_mdl": 12.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "FW-3800125820142",
+    "name": "Ароматизатор Fresh Way Freshimals (Звери)",
+    "category": "auto-chemistry",
+    "brand": "Fresh Way",
+    "photo_url": "images/products/fresh-way-airfresh.png",
+    "volumes": [
+      1
+    ],
+    "description": "Автомобильный и домашний освежитель воздуха Ароматизатор Fresh Way Freshimals (Звери) (Штрихкод EAN: 3800125820142). Производство Fresh Way (Болгария).",
+    "specs": [
+      {
+        "label": "Штрихкод EAN",
+        "value": "3800125820142"
+      },
+      {
+        "label": "Производитель",
+        "value": "Fresh Way (Болгария)"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 54.0,
+    "packs": [
+      {
+        "id": "fw-3800125820142-pack",
+        "volume_l": 1,
+        "price_mdl": 54.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "FW-3800125815926",
+    "name": "Ароматизатор Fresh Way Dry Aces (Тузы)",
+    "category": "auto-chemistry",
+    "brand": "Fresh Way",
+    "photo_url": "images/products/fresh-way-airfresh.png",
+    "volumes": [
+      1
+    ],
+    "description": "Автомобильный и домашний освежитель воздуха Ароматизатор Fresh Way Dry Aces (Тузы) (Штрихкод EAN: 3800125815926). Производство Fresh Way (Болгария).",
+    "specs": [
+      {
+        "label": "Штрихкод EAN",
+        "value": "3800125815926"
+      },
+      {
+        "label": "Производитель",
+        "value": "Fresh Way (Болгария)"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 13.0,
+    "packs": [
+      {
+        "id": "fw-3800125815926-pack",
+        "volume_l": 1,
+        "price_mdl": 13.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "FW-3800125809826",
+    "name": "Ароматизатор Fresh Way Dry Triple",
+    "category": "auto-chemistry",
+    "brand": "Fresh Way",
+    "photo_url": "images/products/fresh-way-airfresh.png",
+    "volumes": [
+      1
+    ],
+    "description": "Автомобильный и домашний освежитель воздуха Ароматизатор Fresh Way Dry Triple (Штрихкод EAN: 3800125809826). Производство Fresh Way (Болгария).",
+    "specs": [
+      {
+        "label": "Штрихкод EAN",
+        "value": "3800125809826"
+      },
+      {
+        "label": "Производитель",
+        "value": "Fresh Way (Болгария)"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 15.0,
+    "packs": [
+      {
+        "id": "fw-3800125809826-pack",
+        "volume_l": 1,
+        "price_mdl": 15.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "FW-3800125815903",
+    "name": "Ароматизатор Fresh Way Pop Triple Dry",
+    "category": "auto-chemistry",
+    "brand": "Fresh Way",
+    "photo_url": "images/products/fresh-way-airfresh.png",
+    "volumes": [
+      1
+    ],
+    "description": "Автомобильный и домашний освежитель воздуха Ароматизатор Fresh Way Pop Triple Dry (Штрихкод EAN: 3800125815903). Производство Fresh Way (Болгария).",
+    "specs": [
+      {
+        "label": "Штрихкод EAN",
+        "value": "3800125815903"
+      },
+      {
+        "label": "Производитель",
+        "value": "Fresh Way (Болгария)"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 15.0,
+    "packs": [
+      {
+        "id": "fw-3800125815903-pack",
+        "volume_l": 1,
+        "price_mdl": 15.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "FW-3800125819320",
+    "name": "Ароматизатор Fresh Way Dry Saveur D'Orient (Восточный)",
+    "category": "auto-chemistry",
+    "brand": "Fresh Way",
+    "photo_url": "images/products/fresh-way-airfresh.png",
+    "volumes": [
+      1
+    ],
+    "description": "Автомобильный и домашний освежитель воздуха Ароматизатор Fresh Way Dry Saveur D'Orient (Восточный) (Штрихкод EAN: 3800125819320). Производство Fresh Way (Болгария).",
+    "specs": [
+      {
+        "label": "Штрихкод EAN",
+        "value": "3800125819320"
+      },
+      {
+        "label": "Производитель",
+        "value": "Fresh Way (Болгария)"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 17.0,
+    "packs": [
+      {
+        "id": "fw-3800125819320-pack",
+        "volume_l": 1,
+        "price_mdl": 17.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "FW-3800125803015",
+    "name": "Жидкий ароматизатор Fresh Way Liquid Bliss",
+    "category": "auto-chemistry",
+    "brand": "Fresh Way",
+    "photo_url": "images/products/fresh-way-airfresh.png",
+    "volumes": [
+      1
+    ],
+    "description": "Автомобильный и домашний освежитель воздуха Жидкий ароматизатор Fresh Way Liquid Bliss (Штрихкод EAN: 3800125803015). Производство Fresh Way (Болгария).",
+    "specs": [
+      {
+        "label": "Штрихкод EAN",
+        "value": "3800125803015"
+      },
+      {
+        "label": "Производитель",
+        "value": "Fresh Way (Болгария)"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 25.0,
+    "packs": [
+      {
+        "id": "fw-3800125803015-pack",
+        "volume_l": 1,
+        "price_mdl": 25.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "FW-3800125817562",
+    "name": "Ароматизатор в ампуле Fresh Way Ampule So Fresh",
+    "category": "auto-chemistry",
+    "brand": "Fresh Way",
+    "photo_url": "images/products/fresh-way-airfresh.png",
+    "volumes": [
+      1
+    ],
+    "description": "Автомобильный и домашний освежитель воздуха Ароматизатор в ампуле Fresh Way Ampule So Fresh (Штрихкод EAN: 3800125817562). Производство Fresh Way (Болгария).",
+    "specs": [
+      {
+        "label": "Штрихкод EAN",
+        "value": "3800125817562"
+      },
+      {
+        "label": "Производитель",
+        "value": "Fresh Way (Болгария)"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 20.0,
+    "packs": [
+      {
+        "id": "fw-3800125817562-pack",
+        "volume_l": 1,
+        "price_mdl": 20.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "FW-3800125819764",
+    "name": "Ароматизатор в ампуле Fresh Way Ampule Camouflage",
+    "category": "auto-chemistry",
+    "brand": "Fresh Way",
+    "photo_url": "images/products/fresh-way-airfresh.png",
+    "volumes": [
+      1
+    ],
+    "description": "Автомобильный и домашний освежитель воздуха Ароматизатор в ампуле Fresh Way Ampule Camouflage (Штрихкод EAN: 3800125819764). Производство Fresh Way (Болгария).",
+    "specs": [
+      {
+        "label": "Штрихкод EAN",
+        "value": "3800125819764"
+      },
+      {
+        "label": "Производитель",
+        "value": "Fresh Way (Болгария)"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 23.0,
+    "packs": [
+      {
+        "id": "fw-3800125819764-pack",
+        "volume_l": 1,
+        "price_mdl": 23.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "FW-3800125816770",
+    "name": "Ароматизатор в ампуле Fresh Way Ampule Sport",
+    "category": "auto-chemistry",
+    "brand": "Fresh Way",
+    "photo_url": "images/products/fresh-way-airfresh.png",
+    "volumes": [
+      1
+    ],
+    "description": "Автомобильный и домашний освежитель воздуха Ароматизатор в ампуле Fresh Way Ampule Sport (Штрихкод EAN: 3800125816770). Производство Fresh Way (Болгария).",
+    "specs": [
+      {
+        "label": "Штрихкод EAN",
+        "value": "3800125816770"
+      },
+      {
+        "label": "Производитель",
+        "value": "Fresh Way (Болгария)"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 25.0,
+    "packs": [
+      {
+        "id": "fw-3800125816770-pack",
+        "volume_l": 1,
+        "price_mdl": 25.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "FW-3800125809420",
+    "name": "Деревянный ароматизатор Fresh Way Dr.-Wood Liquid Blister",
+    "category": "auto-chemistry",
+    "brand": "Fresh Way",
+    "photo_url": "images/products/fresh-way-airfresh.png",
+    "volumes": [
+      1
+    ],
+    "description": "Автомобильный и домашний освежитель воздуха Деревянный ароматизатор Fresh Way Dr.-Wood Liquid Blister (Штрихкод EAN: 3800125809420). Производство Fresh Way (Болгария).",
+    "specs": [
+      {
+        "label": "Штрихкод EAN",
+        "value": "3800125809420"
+      },
+      {
+        "label": "Производитель",
+        "value": "Fresh Way (Болгария)"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 28.0,
+    "packs": [
+      {
+        "id": "fw-3800125809420-pack",
+        "volume_l": 1,
+        "price_mdl": 28.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "FW-3800125809628",
+    "name": "Деревянный ароматизатор Fresh Way Dr.-Wood Liquid +30% Gratis",
+    "category": "auto-chemistry",
+    "brand": "Fresh Way",
+    "photo_url": "images/products/fresh-way-airfresh.png",
+    "volumes": [
+      1
+    ],
+    "description": "Автомобильный и домашний освежитель воздуха Деревянный ароматизатор Fresh Way Dr.-Wood Liquid +30% Gratis (Штрихкод EAN: 3800125809628). Производство Fresh Way (Болгария).",
+    "specs": [
+      {
+        "label": "Штрихкод EAN",
+        "value": "3800125809628"
+      },
+      {
+        "label": "Производитель",
+        "value": "Fresh Way (Болгария)"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 35.0,
+    "packs": [
+      {
+        "id": "fw-3800125809628-pack",
+        "volume_l": 1,
+        "price_mdl": 35.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "FW-3800125815759",
+    "name": "Гелевые шарики Fresh Way Scented Pearls",
+    "category": "auto-chemistry",
+    "brand": "Fresh Way",
+    "photo_url": "images/products/fresh-way-airfresh.png",
+    "volumes": [
+      1
+    ],
+    "description": "Автомобильный и домашний освежитель воздуха Гелевые шарики Fresh Way Scented Pearls (Штрихкод EAN: 3800125815759). Производство Fresh Way (Болгария).",
+    "specs": [
+      {
+        "label": "Штрихкод EAN",
+        "value": "3800125815759"
+      },
+      {
+        "label": "Производитель",
+        "value": "Fresh Way (Болгария)"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 30.0,
+    "packs": [
+      {
+        "id": "fw-3800125815759-pack",
+        "volume_l": 1,
+        "price_mdl": 30.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "FW-3800125820357",
+    "name": "Диффузор парфюмерный Fresh Way Home Diffuser 50 мл",
+    "category": "auto-chemistry",
+    "brand": "Fresh Way",
+    "photo_url": "images/products/fresh-way-airfresh.png",
+    "volumes": [
+      1
+    ],
+    "description": "Автомобильный и домашний освежитель воздуха Диффузор парфюмерный Fresh Way Home Diffuser 50 мл (Штрихкод EAN: 3800125820357). Производство Fresh Way (Болгария).",
+    "specs": [
+      {
+        "label": "Штрихкод EAN",
+        "value": "3800125820357"
+      },
+      {
+        "label": "Производитель",
+        "value": "Fresh Way (Болгария)"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 80.0,
+    "packs": [
+      {
+        "id": "fw-3800125820357-pack",
+        "volume_l": 1,
+        "price_mdl": 80.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "FW-3800125813373",
+    "name": "Диффузор парфюмерный Fresh Way Home Diffuser 100 мл",
+    "category": "auto-chemistry",
+    "brand": "Fresh Way",
+    "photo_url": "images/products/fresh-way-airfresh.png",
+    "volumes": [
+      1
+    ],
+    "description": "Автомобильный и домашний освежитель воздуха Диффузор парфюмерный Fresh Way Home Diffuser 100 мл (Штрихкод EAN: 3800125813373). Производство Fresh Way (Болгария).",
+    "specs": [
+      {
+        "label": "Штрихкод EAN",
+        "value": "3800125813373"
+      },
+      {
+        "label": "Производитель",
+        "value": "Fresh Way (Болгария)"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 100.0,
+    "packs": [
+      {
+        "id": "fw-3800125813373-pack",
+        "volume_l": 1,
+        "price_mdl": 100.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "FW-3800125856646",
+    "name": "Диффузор парфюмерный Fresh Way Home Diffuser 150 мл",
+    "category": "auto-chemistry",
+    "brand": "Fresh Way",
+    "photo_url": "images/products/fresh-way-airfresh.png",
+    "volumes": [
+      1
+    ],
+    "description": "Автомобильный и домашний освежитель воздуха Диффузор парфюмерный Fresh Way Home Diffuser 150 мл (Штрихкод EAN: 3800125856646). Производство Fresh Way (Болгария).",
+    "specs": [
+      {
+        "label": "Штрихкод EAN",
+        "value": "3800125856646"
+      },
+      {
+        "label": "Производитель",
+        "value": "Fresh Way (Болгария)"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 140.0,
+    "packs": [
+      {
+        "id": "fw-3800125856646-pack",
+        "volume_l": 1,
+        "price_mdl": 140.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "FW-3800125",
+    "name": "Премиум ароматизатор Fresh Way Diamond Airfreshner",
+    "category": "auto-chemistry",
+    "brand": "Fresh Way",
+    "photo_url": "images/products/fresh-way-airfresh.png",
+    "volumes": [
+      1
+    ],
+    "description": "Автомобильный и домашний освежитель воздуха Премиум ароматизатор Fresh Way Diamond Airfreshner (Штрихкод EAN: 3800125). Производство Fresh Way (Болгария).",
+    "specs": [
+      {
+        "label": "Штрихкод EAN",
+        "value": "3800125"
+      },
+      {
+        "label": "Производитель",
+        "value": "Fresh Way (Болгария)"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 150.0,
+    "packs": [
+      {
+        "id": "fw-3800125-pack",
+        "volume_l": 1,
+        "price_mdl": 150.0,
+        "label": "1 шт"
+      }
+    ]
   }
 ]

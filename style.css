@@ -880,6 +880,7 @@ h4 { font-size: 0.95rem; font-weight: 600; letter-spacing: 0; }
 .product-tag-brand[data-brand="Allride"] { background: #CCFBF1; color: #115E59; border-color: #5EEAD4; }
 .product-tag-brand[data-brand="YUKO"] { background: #FEF3C7; color: #B45309; border-color: #FBBF24; }
 .product-tag-brand[data-brand="WD-40"] { background: #FEF3C7; color: #B45309; border-color: #F59E0B; }
+.product-tag-brand[data-brand="Fresh Way"] { background: #ECFDF5; color: #047857; border-color: #34D399; }
 
 /* Color Filter Swatches & Badges */
 .filter-color-item-wrap {
