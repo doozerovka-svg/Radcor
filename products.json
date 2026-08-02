@@ -4784,71 +4784,60 @@
   },
   {
     "sku": "MOL-TRANSIT-TDS-10W40",
-    "name": "MOL Transit TDS 10W-40",
+    "name": "Моторное масло MOL Transit TDS 10W-40 (LKW)",
     "category": "motor-oils-lkw",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
+    "photo_url": "images/products/mol-dynamic-truck.png",
     "volumes": [
       1,
       4,
       10,
-      20,
-      50,
-      202
+      57,
+      206
     ],
-    "description": "Высокоэффективное масло для коммерческого транспорта и смешанных парков.",
+    "description": "Полусинтетическое моторное масло MOL Transit TDS 10W-40 для дизельных моторов Euro III и Euro IV грузового транспорта.",
     "specs": [
       {
         "label": "Вязкость",
         "value": "10W-40"
       },
       {
-        "label": "Класс",
-        "value": "API CI-4/SL, ACEA E7"
-      },
-      {
         "label": "Допуски",
-        "value": "MB 228.3, MAN 3275"
+        "value": "ACEA A3/B3-12/E7, MAN 3275-1, Volvo VDS-3, MB 228.3, 229.1"
       }
     ],
     "canister_vol": 1,
-    "canister_price": 112,
+    "canister_price": 116.0,
     "packs": [
       {
-        "id": "p-1",
+        "id": "tds-10w40-1l",
         "volume_l": 1,
-        "price_mdl": 112,
+        "price_mdl": 116.0,
         "label": "1 л"
       },
       {
-        "id": "p-4",
+        "id": "tds-10w40-4l",
         "volume_l": 4,
-        "price_mdl": 445,
+        "price_mdl": 439.0,
         "label": "4 л"
       },
       {
-        "id": "p-10",
+        "id": "tds-10w40-10l",
         "volume_l": 10,
-        "price_mdl": 790,
+        "price_mdl": 795.0,
         "label": "10 л"
       },
       {
-        "id": "p-20",
-        "volume_l": 20,
-        "price_mdl": 1480,
-        "label": "20 л"
+        "id": "tds-10w40-57l",
+        "volume_l": 57,
+        "price_mdl": 4360.0,
+        "label": "57 л"
       },
       {
-        "id": "p-50",
-        "volume_l": 50,
-        "price_mdl": 4540,
-        "label": "50 л (Бочка)"
-      },
-      {
-        "id": "p-202",
-        "volume_l": 202,
-        "price_mdl": 17044,
-        "label": "202 л (Бочка)"
+        "id": "tds-10w40-206l",
+        "volume_l": 206,
+        "price_mdl": 13905.0,
+        "label": "206 л (Бочка)"
       }
     ],
     "barrel_vol": 202,
@@ -16080,6 +16069,440 @@
         "volume_l": 1,
         "price_mdl": 150.0,
         "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "MOL-TURBO-DIESEL-15W40",
+    "name": "Моторное масло MOL Turbo Diesel 15W-40 (LKW)",
+    "category": "motor-oils-lkw",
+    "brand": "MOL",
+    "photo_url": "images/products/mol-dynamic-truck.png",
+    "volumes": [
+      1,
+      4,
+      10,
+      57,
+      204
+    ],
+    "description": "Минеральное моторное масло MOL Turbo Diesel 15W-40 для высоконагруженных дизельных двигателей грузовых автомобилей.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "15W-40"
+      },
+      {
+        "label": "Допуски",
+        "value": "API CF-4/CF/SJ, ACEA E2-96 Issue 5, MAN 271, Volvo VDS"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 88.0,
+    "packs": [
+      {
+        "id": "turbo-d-15w40-1l",
+        "volume_l": 1,
+        "price_mdl": 88.0,
+        "label": "1 л"
+      },
+      {
+        "id": "turbo-d-15w40-4l",
+        "volume_l": 4,
+        "price_mdl": 342.0,
+        "label": "4 л"
+      },
+      {
+        "id": "turbo-d-15w40-10l",
+        "volume_l": 10,
+        "price_mdl": 695.0,
+        "label": "10 л"
+      },
+      {
+        "id": "turbo-d-15w40-57l",
+        "volume_l": 57,
+        "price_mdl": 3648.0,
+        "label": "57 л"
+      },
+      {
+        "id": "turbo-d-15w40-204l",
+        "volume_l": 204,
+        "price_mdl": 12240.0,
+        "label": "204 л (Бочка)"
+      }
+    ]
+  },
+  {
+    "sku": "MOL-TRANSIT-15W40",
+    "name": "Моторное масло MOL Transit 15W-40 (LKW)",
+    "category": "motor-oils-lkw",
+    "brand": "MOL",
+    "photo_url": "images/products/mol-dynamic-truck.png",
+    "volumes": [
+      10,
+      56,
+      203
+    ],
+    "description": "Минеральное моторное масло MOL Transit 15W-40 для дизельных двигателей стандартов Euro III и Euro IV.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "15W-40"
+      },
+      {
+        "label": "Допуски",
+        "value": "API CI-4/CF/SL, ACEA E7-12, E5-02, MB 228.3, MAN M 3275-1, Volvo VDS-3, Renault RLD-2, Cummins CES 20078"
+      }
+    ],
+    "canister_vol": 10,
+    "canister_price": 730.0,
+    "packs": [
+      {
+        "id": "transit-15w40-10l",
+        "volume_l": 10,
+        "price_mdl": 730.0,
+        "label": "10 л"
+      },
+      {
+        "id": "transit-15w40-56l",
+        "volume_l": 56,
+        "price_mdl": 4060.0,
+        "label": "56 л"
+      },
+      {
+        "id": "transit-15w40-203l",
+        "volume_l": 203,
+        "price_mdl": 13398.0,
+        "label": "203 л (Бочка)"
+      }
+    ]
+  },
+  {
+    "sku": "MOL-GLOBAL-DIESEL-15W40",
+    "name": "Моторное масло MOL Global Diesel 15W-40 (LKW)",
+    "category": "motor-oils-lkw",
+    "brand": "MOL",
+    "photo_url": "images/products/mol-dynamic-truck.png",
+    "volumes": [
+      10,
+      20,
+      57,
+      207
+    ],
+    "description": "Моторное масло MOL Global Diesel 15W-40 для дизельных двигателей грузовиков с увеличенным интервалом замены.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "15W-40"
+      },
+      {
+        "label": "Допуски",
+        "value": "API CJ-4/SM, CI-4 Plus, CK-4, MB 228.31, ACEA E7, MAN M 3275, Volvo VDS-4"
+      }
+    ],
+    "canister_vol": 10,
+    "canister_price": 1160.0,
+    "packs": [
+      {
+        "id": "global-d-15w40-10l",
+        "volume_l": 10,
+        "price_mdl": 1160.0,
+        "label": "10 л"
+      },
+      {
+        "id": "global-d-15w40-20l",
+        "volume_l": 20,
+        "price_mdl": 2320.0,
+        "label": "20 л"
+      },
+      {
+        "id": "global-d-15w40-57l",
+        "volume_l": 57,
+        "price_mdl": 5814.0,
+        "label": "57 л"
+      },
+      {
+        "id": "global-d-15w40-207l",
+        "volume_l": 207,
+        "price_mdl": 20286.0,
+        "label": "207 л (Бочка)"
+      }
+    ]
+  },
+  {
+    "sku": "MOL-SYNT-DIESEL-10W40",
+    "name": "Моторное масло MOL Synt Diesel 10W-40 (LKW)",
+    "category": "motor-oils-lkw",
+    "brand": "MOL",
+    "photo_url": "images/products/mol-dynamic-truck.png",
+    "volumes": [
+      10,
+      57,
+      195
+    ],
+    "description": "Синтетическое моторное масло MOL Synt Diesel 10W-40 для систем EGR/SCR дизелей Euro III, IV, V (до 100 000 км).",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "10W-40"
+      },
+      {
+        "label": "Допуски",
+        "value": "API CF, ACEA E7-08, E4-08, MB 228.5, Scania LDF-2, MAN 3277"
+      }
+    ],
+    "canister_vol": 10,
+    "canister_price": 1090.0,
+    "packs": [
+      {
+        "id": "synt-d-10w40-10l",
+        "volume_l": 10,
+        "price_mdl": 1090.0,
+        "label": "10 л"
+      },
+      {
+        "id": "synt-d-10w40-57l",
+        "volume_l": 57,
+        "price_mdl": 5643.0,
+        "label": "57 л"
+      },
+      {
+        "id": "synt-d-10w40-195l",
+        "volume_l": 195,
+        "price_mdl": 18135.0,
+        "label": "195 л (Бочка)"
+      }
+    ]
+  },
+  {
+    "sku": "MOL-MISTRAL-10W40",
+    "name": "Моторное масло MOL Mistral 10W-40 DPF (LKW)",
+    "category": "motor-oils-lkw",
+    "brand": "MOL",
+    "photo_url": "images/products/mol-dynamic-truck.png",
+    "volumes": [
+      10,
+      54,
+      197
+    ],
+    "description": "Синтетическое малозольное масло MOL Mistral 10W-40 DPF для дизельных двигателей Euro IV, Euro V с фильтром DPF/EGR/SCR.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "10W-40"
+      },
+      {
+        "label": "Допуски",
+        "value": "ACEA E6/E7/E4, MB 228.51, MAN 3477, Volvo VDS-3, Renault RXD"
+      }
+    ],
+    "canister_vol": 10,
+    "canister_price": 950.0,
+    "packs": [
+      {
+        "id": "mistral-10w40-10l",
+        "volume_l": 10,
+        "price_mdl": 950.0,
+        "label": "10 л"
+      },
+      {
+        "id": "mistral-10w40-54l",
+        "volume_l": 54,
+        "price_mdl": 4860.0,
+        "label": "54 л"
+      },
+      {
+        "id": "mistral-10w40-197l",
+        "volume_l": 197,
+        "price_mdl": 15464.0,
+        "label": "197 л (Бочка)"
+      }
+    ]
+  },
+  {
+    "sku": "MOL-MISTRAL-5W30",
+    "name": "Моторное масло MOL Mistral 5W-30 DPF Euro VI (LKW)",
+    "category": "motor-oils-lkw",
+    "brand": "MOL",
+    "photo_url": "images/products/mol-dynamic-truck.png",
+    "volumes": [
+      10,
+      55
+    ],
+    "description": "Высокоэффективное синтетическое малозольное масло MOL Mistral 5W-30 длявейших дизелей Euro VI (до 100 000 км).",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "5W-30"
+      },
+      {
+        "label": "Допуски",
+        "value": "ACEA E6/E7/E9, MB 228.51, MAN 3477, 3271-1, 3677, Volvo VDS-4, Renault RLD-3"
+      }
+    ],
+    "canister_vol": 10,
+    "canister_price": 1350.0,
+    "packs": [
+      {
+        "id": "mistral-5w30-10l",
+        "volume_l": 10,
+        "price_mdl": 1350.0,
+        "label": "10 л"
+      },
+      {
+        "id": "mistral-5w30-55l",
+        "volume_l": 55,
+        "price_mdl": 6655.0,
+        "label": "55 л"
+      }
+    ]
+  },
+  {
+    "sku": "MOL-MISTRAL-XTS-5W30",
+    "name": "Моторное масло MOL Mistral XTS 5W-30 (LKW)",
+    "category": "motor-oils-lkw",
+    "brand": "MOL",
+    "photo_url": "images/products/mol-dynamic-truck.png",
+    "volumes": [
+      55,
+      198
+    ],
+    "description": "Премиальное синтетическое масло MOL Mistral XTS 5W-30 для дизельных двигателей тяжелых грузовиков Scania, DAF, MAN, Volvo.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "5W-30"
+      },
+      {
+        "label": "Допуски",
+        "value": "ACEA E7-12, MB 228.5, MAN 3277, Volvo VDS-3, DAF, Scania LDF-3, Deutz DQC IV-10"
+      }
+    ],
+    "canister_vol": 55,
+    "canister_price": 6655.0,
+    "packs": [
+      {
+        "id": "mistral-xts-5w30-55l",
+        "volume_l": 55,
+        "price_mdl": 6655.0,
+        "label": "55 л"
+      },
+      {
+        "id": "mistral-xts-5w30-198l",
+        "volume_l": 198,
+        "price_mdl": 22869.0,
+        "label": "198 л (Бочка)"
+      }
+    ]
+  },
+  {
+    "sku": "MOL-LITON-00-GM-7KG",
+    "name": "Смазка MOL Liton 00 GM (7 кг)",
+    "category": "greases",
+    "brand": "MOL",
+    "canister_vol": 7,
+    "canister_price": 1475.0,
+    "packs": [
+      {
+        "id": "liton-00gm-7kg",
+        "volume_l": 7,
+        "price_mdl": 1475.0,
+        "label": "7 кг"
+      }
+    ]
+  },
+  {
+    "sku": "MOL-LITON-LT-2EP-0250",
+    "name": "Смазка MOL Liton LT 2 EP (250 г)",
+    "category": "greases",
+    "brand": "MOL",
+    "canister_vol": 0.25,
+    "canister_price": 78.0,
+    "packs": [
+      {
+        "id": "liton-2ep-0250",
+        "volume_l": 0.25,
+        "price_mdl": 78.0,
+        "label": "250 г"
+      }
+    ]
+  },
+  {
+    "sku": "MOL-LITON-LT-2EP-0400",
+    "name": "Смазка MOL Liton LT 2 EP (400 г картридж)",
+    "category": "greases",
+    "brand": "MOL",
+    "canister_vol": 0.4,
+    "canister_price": 88.5,
+    "packs": [
+      {
+        "id": "liton-2ep-0400",
+        "volume_l": 0.4,
+        "price_mdl": 88.5,
+        "label": "400 г"
+      }
+    ]
+  },
+  {
+    "sku": "MOL-LITON-LT-2EP-8KG",
+    "name": "Смазка MOL Liton LT 2 EP (8 кг)",
+    "category": "greases",
+    "brand": "MOL",
+    "canister_vol": 8,
+    "canister_price": 1365.0,
+    "packs": [
+      {
+        "id": "liton-2ep-8kg",
+        "volume_l": 8,
+        "price_mdl": 1365.0,
+        "label": "8 кг"
+      }
+    ]
+  },
+  {
+    "sku": "MOL-LITON-LT-2EP-18KG",
+    "name": "Смазка MOL Liton LT 2 EP (18 кг)",
+    "category": "greases",
+    "brand": "MOL",
+    "canister_vol": 18,
+    "canister_price": 2892.0,
+    "packs": [
+      {
+        "id": "liton-2ep-18kg",
+        "volume_l": 18,
+        "price_mdl": 2892.0,
+        "label": "18 кг"
+      }
+    ]
+  },
+  {
+    "sku": "MOL-FAVORIT-2-BLUE-8KG",
+    "name": "Смазка MOL Favorit 2 Blue (8 кг)",
+    "category": "greases",
+    "brand": "MOL",
+    "canister_vol": 8,
+    "canister_price": 1945.0,
+    "packs": [
+      {
+        "id": "favorit-2-8kg",
+        "volume_l": 8,
+        "price_mdl": 1945.0,
+        "label": "8 кг"
+      }
+    ]
+  },
+  {
+    "sku": "MOL-FAVORIT-2-BLUE-18KG",
+    "name": "Смазка MOL Favorit 2 Blue (18 кг ведро)",
+    "category": "greases",
+    "brand": "MOL",
+    "canister_vol": 18,
+    "canister_price": 4230.0,
+    "packs": [
+      {
+        "id": "favorit-2-18kg",
+        "volume_l": 18,
+        "price_mdl": 4230.0,
+        "label": "18 кг"
       }
     ]
   }
