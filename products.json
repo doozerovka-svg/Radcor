@@ -10809,5 +10809,287 @@
         "label": "1 шт"
       }
     ]
+  },
+  {
+    "sku": "MOL-ALYCOL-COOL-CONC",
+    "name": "Концентрат антифриза MOL AlycolCool Concentrate (Розовый)",
+    "category": "coolants",
+    "brand": "MOL",
+    "color": "Розовый",
+    "photo_url": "https://mollubricants.md/images/products/mol_evox_premium_g30.jpg",
+    "volumes": [
+      10,
+      58
+    ],
+    "description": "Концентрат охлаждающей жидкости MOL AlycolCool на основе моноэтиленгликоля без нитритов, аминов, силикатов, боратов и фосфатов.",
+    "specs": [
+      {
+        "label": "Спецификации",
+        "value": "ASTM D 3306, ASTM D 4985, SAE J 1034, BS 6580:2010"
+      },
+      {
+        "label": "Цвет",
+        "value": "Розовый"
+      },
+      {
+        "label": "Соотношение / t",
+        "value": "33/67% (-18°C), 40/60% (-25°C), 50/50% (-36°C), 67/33% (-60°C)"
+      }
+    ],
+    "canister_vol": 10,
+    "canister_price": 620,
+    "barrel_vol": 58,
+    "barrel_price": 3510,
+    "packs": [
+      {
+        "id": "mol-alycool-10l",
+        "volume_l": 10,
+        "price_mdl": 620,
+        "label": "10 л"
+      },
+      {
+        "id": "mol-alycool-58l",
+        "volume_l": 58,
+        "price_mdl": 3510,
+        "label": "58 л (65 кг)"
+      }
+    ]
+  },
+  {
+    "sku": "MOL-ALYCOL-COOL-READY35",
+    "name": "Антифриз MOL Alycol Cool Ready -35°C (Бочка 206 л)",
+    "category": "coolants",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/products/mol_evox_extra_ready35.jpg",
+    "volumes": [
+      206
+    ],
+    "description": "Готовая охлаждающая жидкость MOL Alycol Cool Ready -35°C в фасовке бочка 206 л (220 кг).",
+    "specs": [
+      {
+        "label": "Спецификации",
+        "value": "ASTM D 3306, BS 6580:2010"
+      },
+      {
+        "label": "t замерзания",
+        "value": "-35 °C"
+      }
+    ],
+    "canister_vol": 206,
+    "canister_price": 7150,
+    "packs": [
+      {
+        "id": "mol-alycool-ready-206l",
+        "volume_l": 206,
+        "price_mdl": 7150,
+        "label": "206 л (Бочка)"
+      }
+    ]
+  },
+  {
+    "sku": "MOL-EVOX-PREMIUM-CONC",
+    "name": "Концентрат антифриза MOL EVOX Premium Concentrate G12/G12+ (Красный)",
+    "category": "coolants",
+    "brand": "MOL",
+    "color": "Красный",
+    "photo_url": "https://mollubricants.md/images/products/mol_evox_premium_g30.jpg",
+    "volumes": [
+      1,
+      10,
+      58,
+      197
+    ],
+    "description": "Карбоксилатный концентрат антифриза высшего класса MOL EVOX Premium G12/G12+ для бензиновых и дизельных двигателей.",
+    "specs": [
+      {
+        "label": "Класс",
+        "value": "G12, G12+"
+      },
+      {
+        "label": "Допуски OEM",
+        "value": "MB 325.3, 326.3, MAN 324 SNF, FORD, CAT"
+      },
+      {
+        "label": "Цвет",
+        "value": "Красный"
+      },
+      {
+        "label": "Соотношение / t",
+        "value": "33/67% (-18°C), 40/60% (-25°C), 50/50% (-36°C), 67/33% (-60°C)"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 84,
+    "barrel_vol": 197,
+    "barrel_price": 12760,
+    "packs": [
+      {
+        "id": "evox-prem-1l",
+        "volume_l": 1,
+        "price_mdl": 84,
+        "label": "1 л"
+      },
+      {
+        "id": "evox-prem-10l",
+        "volume_l": 10,
+        "price_mdl": 680,
+        "label": "10 л"
+      },
+      {
+        "id": "evox-prem-58l",
+        "volume_l": 58,
+        "price_mdl": 4095,
+        "label": "58 л (65 кг)"
+      },
+      {
+        "id": "evox-prem-197l",
+        "volume_l": 197,
+        "price_mdl": 12760,
+        "label": "197 л (Бочка)"
+      }
+    ]
+  },
+  {
+    "sku": "MOL-EVOX-PREMIUM-READY35",
+    "name": "Антифриз MOL EVOX Premium Ready -35°C G12/G12+ (Бочка 205 л)",
+    "category": "coolants",
+    "brand": "MOL",
+    "color": "Красный",
+    "photo_url": "https://mollubricants.md/images/products/mol_evox_premium_g30.jpg",
+    "volumes": [
+      205
+    ],
+    "description": "Готовый карбоксилатный антифриз MOL EVOX Premium Ready -35°C класса G12/G12+ в промышленной фасовке 205 л (220 кг).",
+    "specs": [
+      {
+        "label": "Класс",
+        "value": "G12, G12+"
+      },
+      {
+        "label": "Допуски OEM",
+        "value": "MB 325.3, 326.3, MAN 324 SNF, FORD, CAT"
+      },
+      {
+        "label": "t замерзания",
+        "value": "-35 °C"
+      }
+    ],
+    "canister_vol": 205,
+    "canister_price": 8140,
+    "packs": [
+      {
+        "id": "evox-prem-ready-205l",
+        "volume_l": 205,
+        "price_mdl": 8140,
+        "label": "205 л (Бочка)"
+      }
+    ]
+  },
+  {
+    "sku": "MOL-ALYCOL-CHERRY-WINTER",
+    "name": "Стеклоомыватель зимний MOL Alycol Cherry -20°C (Вишня)",
+    "category": "auto-chemistry",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/products/mol_evox_winter_citrus.jpg",
+    "volumes": [
+      2,
+      4
+    ],
+    "description": "Высокоэффективная зимняя жидкость для омывателя стекла MOL Alycol с приятным ароматом вишни (до -20°C).",
+    "specs": [
+      {
+        "label": "Сезон",
+        "value": "Зима (-20°C)"
+      },
+      {
+        "label": "Аромат",
+        "value": "Вишня (Cherry)"
+      }
+    ],
+    "canister_vol": 2,
+    "canister_price": 77,
+    "packs": [
+      {
+        "id": "alycol-cherry-2l",
+        "volume_l": 2,
+        "price_mdl": 77,
+        "label": "2 л"
+      },
+      {
+        "id": "alycol-cherry-4l",
+        "volume_l": 4,
+        "price_mdl": 140,
+        "label": "4 л"
+      }
+    ]
+  },
+  {
+    "sku": "MOL-ALYCOL-SUMMER-CHERRY",
+    "name": "Стеклоомыватель летний MOL Alycol Summer Cherry (Вишня)",
+    "category": "auto-chemistry",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/products/mol_evox_winter_citrus.jpg",
+    "volumes": [
+      2,
+      4
+    ],
+    "description": "Летний концентрированный омыватель стекол MOL Alycol Summer Cherry для эффективного удаления следов насекомых и дорожной грязи.",
+    "specs": [
+      {
+        "label": "Сезон",
+        "value": "Лето"
+      },
+      {
+        "label": "Аромат",
+        "value": "Вишня (Cherry)"
+      }
+    ],
+    "canister_vol": 2,
+    "canister_price": 46,
+    "packs": [
+      {
+        "id": "alycol-summer-cherry-2l",
+        "volume_l": 2,
+        "price_mdl": 46,
+        "label": "2 л"
+      },
+      {
+        "id": "alycol-summer-cherry-4l",
+        "volume_l": 4,
+        "price_mdl": 81,
+        "label": "4 л"
+      }
+    ]
+  },
+  {
+    "sku": "MOL-ALYCOL-SUMMER-CITRUS",
+    "name": "Стеклоомыватель летний MOL Alycol Summer Citrus (Цитрус)",
+    "category": "auto-chemistry",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/products/mol_evox_winter_citrus.jpg",
+    "volumes": [
+      2
+    ],
+    "description": "Летняя стеклоомывающая жидкость MOL Alycol Summer Citrus с освежающим цитрусовым ароматом.",
+    "specs": [
+      {
+        "label": "Сезон",
+        "value": "Лето"
+      },
+      {
+        "label": "Аромат",
+        "value": "Цитрус (Citrus)"
+      }
+    ],
+    "canister_vol": 2,
+    "canister_price": 46,
+    "packs": [
+      {
+        "id": "alycol-summer-citrus-2l",
+        "volume_l": 2,
+        "price_mdl": 46,
+        "label": "2 л"
+      }
+    ]
   }
 ]
