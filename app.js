@@ -27,86 +27,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // ==========================================================================
-    // I18N SYSTEM
-    // ==========================================================================
-    let currentLang = localStorage.getItem('radcor_lang') || 'ru';
-
-    function getI18nText(key) {
-        if (window.I18N && window.I18N[currentLang] && window.I18N[currentLang][key]) {
-            return window.I18N[currentLang][key];
-        }
-        if (window.I18N && window.I18N['ru'] && window.I18N['ru'][key]) {
-            return window.I18N['ru'][key];
-        }
-        return key;
-    }
-
-    function applyLanguage(lang) {
-        currentLang = lang;
-        localStorage.setItem('radcor_lang', lang);
-        document.documentElement.lang = lang;
-
-        // Update CATEGORY_LABELS
-        Object.keys(CATEGORY_LABELS).forEach(catKey => {
-            const i18nKey = `cat_${catKey.replace(/-/g, '_')}`;
-            if (window.I18N && window.I18N[lang] && window.I18N[lang][i18nKey]) {
-                CATEGORY_LABELS[catKey] = window.I18N[lang][i18nKey];
-            }
-        });
-
-        // Translate elements with data-i18n attribute
-        document.querySelectorAll('[data-i18n]').forEach(el => {
-            const key = el.getAttribute('data-i18n');
-            const text = getI18nText(key);
-            if (text) el.textContent = text;
-        });
-
-        // Translate elements with data-i18n-placeholder
-        document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
-            const key = el.getAttribute('data-i18n-placeholder');
-            const text = getI18nText(key);
-            if (text) el.placeholder = text;
-        });
-
-        // Update language selector active states
-        document.querySelectorAll('.lang-selector').forEach(selector => {
-            const links = selector.querySelectorAll('a, span');
-            links.forEach(link => {
-                const text = link.textContent.trim().toUpperCase();
-                if (text === 'RU' || text === 'RO') {
-                    if ((text === 'RU' && lang === 'ru') || (text === 'RO' && lang === 'ro')) {
-                        link.className = 'active';
-                    } else {
-                        link.className = 'lang-link';
-                    }
-                }
-            });
-        });
-
-        // Re-render catalog and cart if present
-        if (allProducts && allProducts.length > 0) {
-            renderCatalog();
-        }
-        updateCartDrawer();
-        document.body.setAttribute('data-i18n-ready', 'true');
-    }
-
-    // Language switcher click handlers
-    document.addEventListener('click', (e) => {
-        const langLink = e.target.closest('.lang-selector a, .lang-link');
-        if (langLink) {
-            e.preventDefault();
-            const lang = langLink.textContent.trim().toLowerCase();
-            if (lang === 'ru' || lang === 'ro') {
-                applyLanguage(lang);
-            }
-        }
-    });
-
-    // Initial apply language
-    applyLanguage(currentLang);
-
-    // ==========================================================================
     // CATEGORY LABEL MAP & HIERARCHY
     // ==========================================================================
     const CATEGORY_LABELS = {
@@ -140,6 +60,91 @@ document.addEventListener('DOMContentLoaded', () => {
     // CATALOG STATE
     // ==========================================================================
     let allProducts = [];
+
+    // ==========================================================================
+    // I18N SYSTEM
+    // ==========================================================================
+    let currentLang = localStorage.getItem('radcor_lang') || 'ru';
+
+    function getI18nText(key) {
+        if (window.I18N && window.I18N[currentLang] && window.I18N[currentLang][key]) {
+            return window.I18N[currentLang][key];
+        }
+        if (window.I18N && window.I18N['ru'] && window.I18N['ru'][key]) {
+            return window.I18N['ru'][key];
+        }
+        return key;
+    }
+
+    function applyLanguage(lang) {
+        try {
+            currentLang = lang;
+            localStorage.setItem('radcor_lang', lang);
+            document.documentElement.lang = lang;
+
+            // Update CATEGORY_LABELS
+            Object.keys(CATEGORY_LABELS).forEach(catKey => {
+                const i18nKey = `cat_${catKey.replace(/-/g, '_')}`;
+                if (window.I18N && window.I18N[lang] && window.I18N[lang][i18nKey]) {
+                    CATEGORY_LABELS[catKey] = window.I18N[lang][i18nKey];
+                }
+            });
+
+            // Translate elements with data-i18n attribute
+            document.querySelectorAll('[data-i18n]').forEach(el => {
+                const key = el.getAttribute('data-i18n');
+                const text = getI18nText(key);
+                if (text) el.textContent = text;
+            });
+
+            // Translate elements with data-i18n-placeholder
+            document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
+                const key = el.getAttribute('data-i18n-placeholder');
+                const text = getI18nText(key);
+                if (text) el.placeholder = text;
+            });
+
+            // Update language selector active states
+            document.querySelectorAll('.lang-selector').forEach(selector => {
+                const links = selector.querySelectorAll('a, span');
+                links.forEach(link => {
+                    const text = link.textContent.trim().toUpperCase();
+                    if (text === 'RU' || text === 'RO') {
+                        if ((text === 'RU' && lang === 'ru') || (text === 'RO' && lang === 'ro')) {
+                            link.className = 'active';
+                        } else {
+                            link.className = 'lang-link';
+                        }
+                    }
+                });
+            });
+
+            // Re-render catalog and cart if present
+            if (typeof renderCatalog === 'function' && allProducts && allProducts.length > 0) {
+                renderCatalog(allProducts);
+            }
+            if (typeof renderCart === 'function') {
+                renderCart();
+            }
+        } catch (e) {
+            console.error('i18n error:', e);
+        }
+    }
+
+    // Language switcher click handlers
+    document.addEventListener('click', (e) => {
+        const langLink = e.target.closest('.lang-selector a, .lang-link');
+        if (langLink) {
+            e.preventDefault();
+            const lang = langLink.textContent.trim().toLowerCase();
+            if (lang === 'ru' || lang === 'ro') {
+                applyLanguage(lang);
+            }
+        }
+    });
+
+    // Initial apply language
+    applyLanguage(currentLang);
 
     const COLOR_CLASSES = {
         'Красный': 'color-dot-red',
