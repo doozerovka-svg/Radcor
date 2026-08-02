@@ -16,7 +16,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@500;700&family=Space+Mono&display=swap" rel="stylesheet">
     
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="style.css?v=25.0">
+    <link rel="stylesheet" href="style.css?v=26.0">
 </head>
 <body>
 
@@ -29,7 +29,7 @@
     <!-- B2B Cart Drawer -->
     <div class="cart-drawer" id="cartDrawer">
         <div class="drawer-header">
-            <h3>Корзина оптового заказа</h3>
+            <h3 data-i18n="cart_title">Корзина оптового заказа</h3>
             <button class="drawer-close" id="cartClose">&times;</button>
         </div>
         <div class="drawer-content">
@@ -40,19 +40,19 @@
         <div class="drawer-footer">
             <div class="cart-totals">
                 <div class="total-row">
-                    <span>Общий объем:</span>
+                    <span data-i18n="cart_total_volume">Общий объем:</span>
                     <span id="totalVolume" class="code-font text-amber">0 л</span>
                 </div>
                 <div class="total-row">
-                    <span>До бесплатной доставки:</span>
+                    <span data-i18n="cart_free_delivery">До бесплатной доставки:</span>
                     <span id="deliveryProgress" class="code-font text-green">Осталось 1 500 MDL</span>
                 </div>
                 <div class="total-row main-total">
-                    <span>Сумма заказа:</span>
+                    <span data-i18n="cart_order_total">Сумма заказа:</span>
                     <span id="cartTotalSum" class="code-font">0 MDL</span>
                 </div>
             </div>
-            <button class="btn btn-primary full-width" id="checkoutBtn">Сформировать заказ</button>
+            <button class="btn btn-primary full-width" id="checkoutBtn" data-i18n="cart_checkout">Сформировать заказ</button>
         </div>
     </div>
     <div class="cart-overlay" id="cartOverlay"></div>
@@ -62,21 +62,21 @@
         <div class="login-modal">
             <div class="login-modal-header">
                 <div>
-                    <h2>Личный кабинет</h2>
-                    <p>Войдите для просмотра заказов и специальных условий</p>
+                    <h2 data-i18n="login_title">Личный кабинет</h2>
+                    <p data-i18n="login_subtitle">Войдите для просмотра заказов и специальных условий</p>
                 </div>
                 <button class="modal-close" id="modalClose">&times;</button>
             </div>
             <form class="login-form" id="loginForm">
                 <div class="form-group">
-                    <label for="loginEmail">Email или телефон</label>
+                    <label for="loginEmail" data-i18n="login_email_label">Email или телефон</label>
                     <input type="text" id="loginEmail" placeholder="company@example.com" required>
                 </div>
                 <div class="form-group">
-                    <label for="loginPassword">Пароль</label>
+                    <label for="loginPassword" data-i18n="login_password_label">Пароль</label>
                     <input type="password" id="loginPassword" placeholder="••••••••" required>
                 </div>
-                <button type="submit" class="btn btn-primary full-width">Войти в кабинет</button>
+                <button type="submit" class="btn btn-primary full-width" data-i18n="login_submit">Войти в кабинет</button>
             </form>
             <div class="login-divider" style="margin: 20px 0;">или</div>
             <div class="login-b2b-note">
@@ -102,23 +102,23 @@
             
             <nav class="main-nav" id="mainNav">
                 <ul class="nav-links">
-                    <li><a href="catalog.html">Каталог</a></li>
-                    <li><a href="service.html">Автосервис</a></li>
-                    <li><a href="delivery.html">Доставка и оплата</a></li>
-                    <li><a href="returns.html">Гарантия и возврат</a></li>
-                    <li><a href="guides.html">Руководства</a></li>
-                    <li><a href="faq.html">FAQ</a></li>
-                    <li><a href="contacts.html">Контакты</a></li>
+                    <li><a href="catalog.html" data-i18n="nav_catalog">Каталог</a></li>
+                    <li><a href="service.html" data-i18n="nav_service">Автосервис</a></li>
+                    <li><a href="delivery.html" data-i18n="nav_delivery">Доставка и оплата</a></li>
+                    <li><a href="returns.html" data-i18n="nav_returns">Гарантия и возврат</a></li>
+                    <li><a href="guides.html" data-i18n="nav_guides">Руководства</a></li>
+                    <li><a href="faq.html" data-i18n="nav_faq">FAQ</a></li>
+                    <li><a href="contacts.html" data-i18n="nav_contacts">Контакты</a></li>
                 </ul>
                 <div class="nav-actions">
-                    <a href="admin.html" class="btn btn-secondary btn-sm">Управление</a>
-                    <a href="b2b-dashboard.html" class="btn-b2b">B2B Кабинет</a>
+                    <a href="admin.html" class="btn btn-secondary btn-sm" data-i18n="nav_admin">Управление</a>
+                    <a href="b2b-dashboard.html" class="btn-b2b" data-i18n="nav_b2b">B2B Кабинет</a>
                     <button class="btn-login" id="loginBtn">
                         <span class="login-avatar">👤</span>
-                        <span id="loginBtnLabel">Войти</span>
+                        <span id="loginBtnLabel" data-i18n="nav_login">Войти</span>
                     </button>
                     <div class="lang-selector">
-                        <span class="active">RU</span>
+                        <a href="#" class="lang-link active">RU</a>
                         <span>|</span>
                         <a href="#" class="lang-link">RO</a>
                     </div>
@@ -135,12 +135,12 @@
         <section class="hero-section">
             <div class="hero-container">
                 <div class="hero-content">
-                    <span class="hero-eyebrow">Radcor-Prim SRL</span>
-                    <h1 class="hero-title">Дистрибьютор смазочных материалов MOL в Молдове</h1>
-                    <p class="hero-lead">Официальный импорт и оптовые поставки смазочных материалов из Европы. Полный ассортимент оригинальных масел, антифризов и автохимии для вашего автобизнеса.</p>
+                    <span class="hero-eyebrow" data-i18n="hero_eyebrow">Radcor-Prim SRL</span>
+                    <h1 class="hero-title" data-i18n="hero_title">Дистрибьютор смазочных материалов MOL в Молдове</h1>
+                    <p class="hero-lead" data-i18n="hero_lead">Официальный импорт и оптовые поставки смазочных материалов из Европы. Полный ассортимент оригинальных масел, антифризов и автохимии для вашего автобизнеса.</p>
                     <div class="hero-actions">
-                        <a href="catalog.html" class="btn btn-primary">Перейти в каталог →</a>
-                        <a href="#b2b" class="btn btn-secondary">Стать партнером</a>
+                        <a href="catalog.html" class="btn btn-primary" data-i18n="hero_cta_catalog">Перейти в каталог →</a>
+                        <a href="#b2b" class="btn btn-secondary" data-i18n="hero_cta_partner">Стать партнером</a>
                     </div>
                 </div>
                 <div class="hero-visual">
@@ -448,6 +448,7 @@
     </footer>
 
     <!-- App Logic -->
-    <script src="app.js?v=25.0"></script>
+    <script src="i18n.js?v=26.0"></script>
+    <script src="app.js?v=26.0"></script>
 </body>
 </html>

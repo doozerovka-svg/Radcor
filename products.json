@@ -43,7 +43,9 @@
         "price_mdl": 157,
         "label": "10 кг"
       }
-    ]
+    ],
+    "name_ro": "Antifreeze Polar Way Красный",
+    "description_ro": "Lichid de răcire Polar Way красного цвета."
   },
   {
     "sku": "PW-1001-GRN",
@@ -89,7 +91,9 @@
         "price_mdl": 157,
         "label": "10 кг"
       }
-    ]
+    ],
+    "name_ro": "Antifreeze Polar Way Зелёный",
+    "description_ro": "Lichid de răcire Polar Way зелёного цвета."
   },
   {
     "sku": "PW-1001-BLU",
@@ -135,7 +139,9 @@
         "price_mdl": 157,
         "label": "10 кг"
       }
-    ]
+    ],
+    "name_ro": "Antifreeze Polar Way Синий",
+    "description_ro": "Lichid de răcire Polar Way синего цвета."
   },
   {
     "sku": "POL-1001-RED",
@@ -184,7 +190,9 @@
         "price_mdl": 274,
         "label": "10 кг"
       }
-    ]
+    ],
+    "name_ro": "Antifreeze Полярник Красный",
+    "description_ro": "Готовый к применению карбоксилатный антифриз класса G12 на основе этиленгликоля. Предназначен для современных высоконагруженных двигателей."
   },
   {
     "sku": "POL-1001-GRN",
@@ -233,7 +241,9 @@
         "price_mdl": 274,
         "label": "10 кг"
       }
-    ]
+    ],
+    "name_ro": "Antifreeze Полярник Зелёный",
+    "description_ro": "Гибридный антифриз класса G11 на основе моноэтиленгликоля с сочетанием силикатных и органических ингибиторов коррозии."
   },
   {
     "sku": "POL-1001-BLU",
@@ -282,7 +292,9 @@
         "price_mdl": 274,
         "label": "10 кг"
       }
-    ]
+    ],
+    "name_ro": "Antifreeze Полярник Синий",
+    "description_ro": "Lichid de răcire Полярник на основе моноэтиленгликоля pentru motoare pe benzină și diesel."
   },
   {
     "sku": "DZ-1001-RED",
@@ -324,7 +336,9 @@
         "price_mdl": 236,
         "label": "10 кг"
       }
-    ]
+    ],
+    "name_ro": "Antifreeze Dzerjinskii Красный",
+    "description_ro": "Традиционный антифриз Дзержинский красного цвета."
   },
   {
     "sku": "DZ-1001-GRN",
@@ -366,7 +380,9 @@
         "price_mdl": 236,
         "label": "10 кг"
       }
-    ]
+    ],
+    "name_ro": "Antifreeze Dzerjinskii Зелёный",
+    "description_ro": "Традиционный антифриз Дзержинский зелёного цвета."
   },
   {
     "sku": "DZ-1001-BLU",
@@ -408,7 +424,9 @@
         "price_mdl": 236,
         "label": "10 кг"
       }
-    ]
+    ],
+    "name_ro": "Antifreeze Dzerjinskii Синий",
+    "description_ro": "Традиционный антифриз Дзержинский синего цвета."
   },
   {
     "sku": "POL-1002",
@@ -450,7 +468,9 @@
         "label": "10 кг"
       }
     ],
-    "color": "Жёлтый"
+    "color": "Жёлтый",
+    "name_ro": "Antifreeze Полярник Жёлтый (Galben)",
+    "description_ro": "Lichid de răcire Полярник на основе моноэтиленгликоля pentru motoare pe benzină și diesel."
   },
   {
     "sku": "FLX-G11-GRN",
@@ -526,7 +546,9 @@
         "label": "230 кг (Бочка)"
       }
     ],
-    "color": "Зелёный"
+    "color": "Зелёный",
+    "name_ro": "FELIX Prolonger G11 (Зелёный)",
+    "description_ro": "Высококачественный гибридный антифриз G11 с усиленным пакетом антикоррозионных и антикавитационных присадок."
   },
   {
     "sku": "FLX-G12-RED",
@@ -602,7 +624,9 @@
         "label": "230 кг (Бочка)"
       }
     ],
-    "color": "Красный"
+    "color": "Красный",
+    "name_ro": "FELIX Carbox G12+ (Красный)",
+    "description_ro": "Профессиональный карбоксилатный антифриз высшей категории на основе этиленгликоля и карбоксилатных присадок. Ресурс 250 000 км."
   },
   {
     "sku": "FLX-G12-YLW",
@@ -657,7 +681,9 @@
         "label": "230 кг (Бочка)"
       }
     ],
-    "color": "Жёлтый"
+    "color": "Жёлтый",
+    "name_ro": "FELIX ENERGY G12+ (Жёлтый)",
+    "description_ro": "Профессиональный карбоксилатный антифриз высшей категории на основе этиленгликоля и карбоксилатных присадок. Ресурс 250 000 км."
   },
   {
     "sku": "FLX-G11-BLU",
@@ -703,7 +729,9 @@
         "label": "10 кг"
       }
     ],
-    "color": "Синий"
+    "color": "Синий",
+    "name_ro": "FELIX Expert G11 (Синий)",
+    "description_ro": "Высококачественный гибридный антифриз G11 с усиленным пакетом антикоррозионных и антикавитационных присадок."
   },
   {
     "sku": "FLX-JDM-GRN",
@@ -746,7 +774,9 @@
         "label": "5 кг"
       }
     ],
-    "color": "Зелёный"
+    "color": "Зелёный",
+    "name_ro": "FELIX JDM G12++ (Зелёный)",
+    "description_ro": "Профессиональный карбоксилатный антифриз высшей категории на основе этиленгликоля и карбоксилатных присадок. Ресурс 250 000 км."
   },
   {
     "sku": "FLX-JDM-PNK",
@@ -789,7 +819,9 @@
         "label": "5 кг"
       }
     ],
-    "color": "Розовый"
+    "color": "Розовый",
+    "name_ro": "FELIX JDM PINK G12++ (Розовый)",
+    "description_ro": "Профессиональный карбоксилатный антифриз высшей категории на основе этиленгликоля и карбоксилатных присадок. Ресурс 250 000 км."
   },
   {
     "sku": "FLX-TYPD-YLW",
@@ -832,7 +864,9 @@
         "label": "5 кг"
       }
     ],
-    "color": "Жёлтый"
+    "color": "Жёлтый",
+    "name_ro": "FELIX Type-D G12+ (Жёлтый)",
+    "description_ro": "Профессиональный карбоксилатный антифриз высшей категории на основе этиленгликоля и карбоксилатных присадок. Ресурс 250 000 км."
   },
   {
     "sku": "FLX-EVO-PRP",
@@ -875,7 +909,9 @@
         "label": "5 кг"
       }
     ],
-    "color": "Фиолетовый"
+    "color": "Фиолетовый",
+    "name_ro": "FELIX EVO (Фиолетово-розовый)",
+    "description_ro": "Инновационный лобридный антифриз Psi-OAT для автомобилей концерна VAG (Volkswagen, Skoda, Audi, Porsche)."
   },
   {
     "sku": "FLX-DRG-RED",
@@ -918,7 +954,9 @@
         "label": "5 кг"
       }
     ],
-    "color": "Красный"
+    "color": "Красный",
+    "name_ro": "FELIX Dragon G12+",
+    "description_ro": "Профессиональный карбоксилатный антифриз высшей категории на основе этиленгликоля и карбоксилатных присадок. Ресурс 250 000 км."
   },
   {
     "sku": "FLX-EVOLT-EV",
@@ -961,7 +999,9 @@
         "label": "5 кг"
       }
     ],
-    "color": "Зелёный"
+    "color": "Зелёный",
+    "name_ro": "FELIX EVOLT ELECTRIC CAR",
+    "description_ro": "Специальный карбоксилатный антифриз (OAT) для электрических и гибридных автомобилей."
   },
   {
     "sku": "FLX-SQ-TRK",
@@ -1020,7 +1060,9 @@
         "label": "230 кг (Бочка)"
       }
     ],
-    "color": "Красный"
+    "color": "Красный",
+    "name_ro": "FELIX Carbox SQ G12+ Special for Trucks (Красный)",
+    "description_ro": "Профессиональный карбоксилатный антифриз высшей категории на основе этиленгликоля и карбоксилатных присадок. Ресурс 250 000 км."
   },
   {
     "sku": "FLX-TOSOL-35",
@@ -1093,7 +1135,9 @@
         "label": "230 кг (Бочка)"
       }
     ],
-    "color": "Синий"
+    "color": "Синий",
+    "name_ro": "FELIX -35 EURO (Тосол)",
+    "description_ro": "Традиционный качественный тосол FELIX -35 EURO pentru motoare pe benzină și diesel."
   },
   {
     "sku": "ADV-DOT4",
@@ -1127,7 +1171,9 @@
         "price_mdl": 49.5,
         "label": "750 г"
       }
-    ]
+    ],
+    "name_ro": "Lichid de frână ADV DOT 4",
+    "description_ro": "Синтетическая тормозная жидкость высокого качества стандарта DOT 4."
   },
   {
     "sku": "FOX-DOT4",
@@ -1161,7 +1207,9 @@
         "price_mdl": 65,
         "label": "750 г"
       }
-    ]
+    ],
+    "name_ro": "Lichid de frână FOX ДОТ-4",
+    "description_ro": "Lichid de frână FOX ДОТ-4 для дисковых и барабанных тормозных систем."
   },
   {
     "sku": "MOL-DOT4PLUS",
@@ -1188,7 +1236,9 @@
         "price_mdl": 84,
         "label": "0.5 л"
       }
-    ]
+    ],
+    "name_ro": "Lichid de frână MOL DOT 4+",
+    "description_ro": "Синтетическая тормозная жидкость высшего качества MOL DOT 4+ для гидравлических тормозных систем."
   },
   {
     "sku": "MOL-DOT51",
@@ -1215,7 +1265,9 @@
         "price_mdl": 119,
         "label": "0.5 л"
       }
-    ]
+    ],
+    "name_ro": "Lichid de frână MOL DOT 5.1",
+    "description_ro": "Высокопроизводительная синтетическая тормозная жидкость MOL DOT 5.1 для систем с ABS, ESP и ASR."
   },
   {
     "sku": "MOL-1000",
@@ -1248,7 +1300,9 @@
         "price_mdl": 240,
         "label": "1 л"
       }
-    ]
+    ],
+    "name_ro": "MOL Dynamic Star 0W-30",
+    "description_ro": "Sintetic моторное масло премиум класса для самых современных автомобилей"
   },
   {
     "sku": "MOL-1001",
@@ -1277,7 +1331,9 @@
         "price_mdl": 180,
         "label": "1 л"
       }
-    ]
+    ],
+    "name_ro": "MOL ATF Synt TWS",
+    "description_ro": "Синтетическая жидкость высшего качества для автоматических трансмиссий"
   },
   {
     "sku": "MOL-1002",
@@ -1306,7 +1362,9 @@
         "price_mdl": 160,
         "label": "1 л"
       }
-    ]
+    ],
+    "name_ro": "MOL ATF Synt 3H",
+    "description_ro": "Синтетическая жидкость высшего качества для автоматических трансмиссий"
   },
   {
     "sku": "MOL-1003",
@@ -1342,7 +1400,9 @@
     "canister_vol": 4,
     "canister_price": 0,
     "barrel_vol": 208,
-    "barrel_price": 0
+    "barrel_price": 0,
+    "name_ro": "MOL ATF Synt",
+    "description_ro": "Синтетическая жидкость высшего качества для автоматических трансмиссий"
   },
   {
     "sku": "MOL-1004",
@@ -1400,7 +1460,9 @@
         "price_mdl": 14880,
         "label": "198 л (Бочка)"
       }
-    ]
+    ],
+    "name_ro": "MOL Dynamic Max 10W-40",
+    "description_ro": "Semisintetic моторное масло высшего сорта для большинства современных транспортных средств."
   },
   {
     "sku": "MOL-1005",
@@ -1436,7 +1498,9 @@
     "canister_vol": 4,
     "canister_price": 0,
     "barrel_vol": 208,
-    "barrel_price": 0
+    "barrel_price": 0,
+    "name_ro": "MOL Essence C3 5W-40",
+    "description_ro": "sintetic моторное масло"
   },
   {
     "sku": "MOL-1006",
@@ -1472,7 +1536,9 @@
     "canister_vol": 4,
     "canister_price": 0,
     "barrel_vol": 208,
-    "barrel_price": 0
+    "barrel_price": 0,
+    "name_ro": "MOL Dynamic Gold HEV 0W-20",
+    "description_ro": "моторное масло"
   },
   {
     "sku": "MOL-1007",
@@ -1512,7 +1578,9 @@
         "price_mdl": 4110,
         "label": "50 л (Бочка)"
       }
-    ]
+    ],
+    "name_ro": "MOL Hykomol K 80W-140",
+    "description_ro": "Автомобильные трансмиссионные масла"
   },
   {
     "sku": "MOL-1008",
@@ -1544,7 +1612,9 @@
     "canister_vol": 4,
     "canister_price": 0,
     "barrel_vol": 208,
-    "barrel_price": 0
+    "barrel_price": 0,
+    "name_ro": "EVOX Ultra Plus concentrate",
+    "description_ro": "Концентрат охлаждающей жидкости"
   },
   {
     "sku": "MOL-1009",
@@ -1580,7 +1650,9 @@
     "canister_vol": 4,
     "canister_price": 0,
     "barrel_vol": 208,
-    "barrel_price": 0
+    "barrel_price": 0,
+    "name_ro": "MOL DOT 3",
+    "description_ro": "Синтетическая тормозная жидкость"
   },
   {
     "sku": "MOL-1010",
@@ -1616,7 +1688,9 @@
     "canister_vol": 4,
     "canister_price": 0,
     "barrel_vol": 208,
-    "barrel_price": 0
+    "barrel_price": 0,
+    "name_ro": "MOL Essence Diesel 10W-40",
+    "description_ro": "Ulei de motor для увеличенного ресурса."
   },
   {
     "sku": "MOL-1011",
@@ -1688,7 +1762,9 @@
         "price_mdl": 26400,
         "label": "198 л (Бочка)"
       }
-    ]
+    ],
+    "name_ro": "MOL Dynamic Gold Longlife 5W-30",
+    "description_ro": "Sintetic моторное масло высшего сорта для большинства современных транспортных средств."
   },
   {
     "sku": "MOL-1012",
@@ -1724,7 +1800,9 @@
     "canister_vol": 4,
     "canister_price": 0,
     "barrel_vol": 208,
-    "barrel_price": 0
+    "barrel_price": 0,
+    "name_ro": "MOL ATF 3G",
+    "description_ro": "Жидкость для автоматических трансмиссий."
   },
   {
     "sku": "MOL-1013",
@@ -1760,7 +1838,9 @@
     "canister_vol": 4,
     "canister_price": 0,
     "barrel_vol": 208,
-    "barrel_price": 0
+    "barrel_price": 0,
+    "name_ro": "MOL Hykomol Syntrans V 75W-90",
+    "description_ro": "Sintetic редукторное/трансмиссионное масло для транспортной отрасли."
   },
   {
     "sku": "MOL-1014",
@@ -1788,7 +1868,9 @@
     "canister_vol": 4,
     "canister_price": 0,
     "barrel_vol": 208,
-    "barrel_price": 0
+    "barrel_price": 0,
+    "name_ro": "MOL EVOX Winter Apple Cinnamon -40",
+    "description_ro": "ароматизированная зимняя жидкость для стеклоомывателя"
   },
   {
     "sku": "MOL-1015",
@@ -1820,7 +1902,9 @@
     "canister_vol": 4,
     "canister_price": 0,
     "barrel_vol": 208,
-    "barrel_price": 0
+    "barrel_price": 0,
+    "name_ro": "ADBLUE®",
+    "description_ro": "Для систем избирательной каталитической нейтрализации с присадкой для снижения содержания окислов азота"
   },
   {
     "sku": "MOL-1016",
@@ -1848,7 +1932,9 @@
     "canister_vol": 4,
     "canister_price": 0,
     "barrel_vol": 208,
-    "barrel_price": 0
+    "barrel_price": 0,
+    "name_ro": "MOL EVOX 4 Season -10",
+    "description_ro": "жидкость для омывателя"
   },
   {
     "sku": "MOL-1017",
@@ -1884,7 +1970,9 @@
     "canister_vol": 4,
     "canister_price": 0,
     "barrel_vol": 208,
-    "barrel_price": 0
+    "barrel_price": 0,
+    "name_ro": "MOL EVOX Extra concentrate",
+    "description_ro": "Lichid de răcire MOL EVOX на основе моноэтиленгликоля по гибридной технологии HOAT для алюминиевых и чугунных двигателей."
   },
   {
     "sku": "MOL-1018",
@@ -1920,7 +2008,9 @@
     "canister_vol": 4,
     "canister_price": 0,
     "barrel_vol": 208,
-    "barrel_price": 0
+    "barrel_price": 0,
+    "name_ro": "MOL Dynamic Gold Longlife 0W-20",
+    "description_ro": "Sintetic моторное масло премиум класса для самых современных автомобилей."
   },
   {
     "sku": "MOL-1019",
@@ -1964,7 +2054,9 @@
         "price_mdl": 612,
         "label": "4 л"
       }
-    ]
+    ],
+    "name_ro": "MOL Dynamic Star VL 0W-20",
+    "description_ro": "Sintetic моторное масло премиум качества для самых современных автомобилей, предназначенное, в первую очередь, pentru autoturisme Volvo"
   },
   {
     "sku": "MOL-1020",
@@ -2015,7 +2107,9 @@
         "price_mdl": 4990,
         "label": "50 л (Бочка)"
       }
-    ]
+    ],
+    "name_ro": "MOL Hykomol K 80W-90",
+    "description_ro": "Автомобильные трансмиссионные масла"
   },
   {
     "sku": "MOL-1021",
@@ -2039,7 +2133,9 @@
     "canister_vol": 4,
     "canister_price": 0,
     "barrel_vol": 208,
-    "barrel_price": 0
+    "barrel_price": 0,
+    "name_ro": "MOL EVOX Ice Spray",
+    "description_ro": "Размораживающая жидкость"
   },
   {
     "sku": "MOL-1022",
@@ -2075,7 +2171,9 @@
     "canister_vol": 4,
     "canister_price": 0,
     "barrel_vol": 208,
-    "barrel_price": 0
+    "barrel_price": 0,
+    "name_ro": "MOL Dynamic Gold DX 0W-20",
+    "description_ro": "Sintetic моторное масло премиум качества для самых современных автомобилей"
   },
   {
     "sku": "MOL-1023",
@@ -2111,7 +2209,9 @@
     "canister_vol": 4,
     "canister_price": 0,
     "barrel_vol": 208,
-    "barrel_price": 0
+    "barrel_price": 0,
+    "name_ro": "MOL Dynamic Star PC 0W-30",
+    "description_ro": "Sintetic моторное масло премиум класса для автомобилей последнего поколения."
   },
   {
     "sku": "MOL-1024",
@@ -2130,7 +2230,9 @@
     "canister_vol": 4,
     "canister_price": 0,
     "barrel_vol": 208,
-    "barrel_price": 0
+    "barrel_price": 0,
+    "name_ro": "MOL EVOX Summer White tea & Ginger",
+    "description_ro": "scented summer screenwash"
   },
   {
     "sku": "MOL-1025",
@@ -2166,7 +2268,9 @@
     "canister_vol": 4,
     "canister_price": 0,
     "barrel_vol": 208,
-    "barrel_price": 0
+    "barrel_price": 0,
+    "name_ro": "MOL Botond 20W-50",
+    "description_ro": "Ulei de motor для транспортных средств более ранних моделей с большим пробегом."
   },
   {
     "sku": "MOL-1026",
@@ -2199,7 +2303,9 @@
     "canister_price": 0,
     "barrel_vol": 208,
     "barrel_price": 0,
-    "price_on_request": true
+    "price_on_request": true,
+    "name_ro": "MOL Favorit 2",
+    "description_ro": "Консистентная смазка с литиевым комплексом"
   },
   {
     "sku": "MOL-1027",
@@ -2253,7 +2359,9 @@
         "price_mdl": 12822,
         "label": "202 л (Бочка)"
       }
-    ]
+    ],
+    "name_ro": "MOL Hykomol 80W-90",
+    "description_ro": "Автомобильные трансмиссионные масла"
   },
   {
     "sku": "MOL-1028",
@@ -2289,7 +2397,9 @@
     "canister_vol": 4,
     "canister_price": 0,
     "barrel_vol": 208,
-    "barrel_price": 0
+    "barrel_price": 0,
+    "name_ro": "MOL Dynamic Synt 5W-30",
+    "description_ro": "Sintetic моторное масло высшего сорта для большинства современных транспортных средств."
   },
   {
     "sku": "MOL-1029",
@@ -2317,7 +2427,9 @@
     "canister_vol": 4,
     "canister_price": 0,
     "barrel_vol": 208,
-    "barrel_price": 0
+    "barrel_price": 0,
+    "name_ro": "MOL EVOX Winter Raspberry Mint -30",
+    "description_ro": "ароматизированная зимняя жидкость для стеклоомывателя"
   },
   {
     "sku": "MOL-1030",
@@ -2396,7 +2508,9 @@
         "price_mdl": 15392,
         "label": "202 л (Бочка)"
       }
-    ]
+    ],
+    "name_ro": "MOL Essence 10W-40",
+    "description_ro": "Ulei de motor для увеличенного ресурса."
   },
   {
     "sku": "MOL-1031",
@@ -2432,7 +2546,9 @@
     "canister_vol": 4,
     "canister_price": 0,
     "barrel_vol": 208,
-    "barrel_price": 0
+    "barrel_price": 0,
+    "name_ro": "MOL Dynamic Synt RN17 5W-30",
+    "description_ro": "sintetic моторное масло"
   },
   {
     "sku": "MOL-1032",
@@ -2468,7 +2584,9 @@
     "canister_vol": 4,
     "canister_price": 0,
     "barrel_vol": 208,
-    "barrel_price": 0
+    "barrel_price": 0,
+    "name_ro": "MOL Essence 15W-50",
+    "description_ro": "Ulei de motor для увеличения срока службы двигателя"
   },
   {
     "sku": "MOL-1033",
@@ -2519,7 +2637,9 @@
         "label": "18 кг"
       }
     ],
-    "price_on_request": true
+    "price_on_request": true,
+    "name_ro": "MOL Liton LT 2EP",
+    "description_ro": "Литиевые смазки"
   },
   {
     "sku": "MOL-1034",
@@ -2555,7 +2675,9 @@
     "canister_vol": 4,
     "canister_price": 0,
     "barrel_vol": 208,
-    "barrel_price": 0
+    "barrel_price": 0,
+    "name_ro": "MOL DOT 5.1",
+    "description_ro": "Синтетическая тормозная жидкость наивысшего качества для большинства современных транспортных средств"
   },
   {
     "sku": "MOL-1035",
@@ -2602,7 +2724,9 @@
         "price_mdl": 19992,
         "label": "198 л (Бочка)"
       }
-    ]
+    ],
+    "name_ro": "MOL Dynamic Star PC 5W-30",
+    "description_ro": "Sintetic моторное масло высшего сорта для большинства современных транспортных средств."
   },
   {
     "sku": "MOL-1036",
@@ -2663,7 +2787,9 @@
         "price_mdl": 34920,
         "label": "198 л (Бочка)"
       }
-    ]
+    ],
+    "name_ro": "MOL Hykomol Synt 75W-90",
+    "description_ro": "Semisintetic трансмиссионное масло"
   },
   {
     "sku": "MOL-1037",
@@ -2699,7 +2825,9 @@
     "canister_vol": 4,
     "canister_price": 0,
     "barrel_vol": 208,
-    "barrel_price": 0
+    "barrel_price": 0,
+    "name_ro": "MOL Dynamic Transit 10W-40",
+    "description_ro": "Идеальное моторное масло для смешанных автомобильных парков"
   },
   {
     "sku": "MOL-1038",
@@ -2735,7 +2863,9 @@
     "canister_vol": 4,
     "canister_price": 0,
     "barrel_vol": 208,
-    "barrel_price": 0
+    "barrel_price": 0,
+    "name_ro": "MOL Dynamic Gas Eco+ 15W-40",
+    "description_ro": "Масло высшего сорта для мобильных газовых двигателей автомобилей, работающих на газе."
   },
   {
     "sku": "MOL-1039",
@@ -2779,7 +2909,9 @@
         "label": "18 кг"
       }
     ],
-    "price_on_request": true
+    "price_on_request": true,
+    "name_ro": "MOL Favorit 2 Blue",
+    "description_ro": "Литий-комплексная консистентная смазка синего цвета"
   },
   {
     "sku": "MOL-1040",
@@ -2830,7 +2962,9 @@
         "price_mdl": 21600,
         "label": "198 л (Бочка)"
       }
-    ]
+    ],
+    "name_ro": "MOL Dynamic Synt RN 5W-30",
+    "description_ro": "Sintetic моторное масло высшего сорта для большинства современных транспортных средств."
   },
   {
     "sku": "MOL-1041",
@@ -2866,7 +3000,9 @@
     "canister_vol": 4,
     "canister_price": 0,
     "barrel_vol": 208,
-    "barrel_price": 0
+    "barrel_price": 0,
+    "name_ro": "EVOX Premium concentrate",
+    "description_ro": "Концентрат антифриза премиум-класса на основе моноэтиленгликоля по карбоксилатной технологии (G12/G12+ BASF Glysantin)."
   },
   {
     "sku": "MOL-1042",
@@ -2902,7 +3038,9 @@
     "canister_vol": 4,
     "canister_price": 0,
     "barrel_vol": 208,
-    "barrel_price": 0
+    "barrel_price": 0,
+    "name_ro": "MOL Arol 2T",
+    "description_ro": "Ulei de motor для двухтактных двигателей легковых автомобилей и мотоциклов более ранних моделей."
   },
   {
     "sku": "MOL-1043",
@@ -2960,7 +3098,9 @@
         "price_mdl": 19800,
         "label": "198 л (Бочка)"
       }
-    ]
+    ],
+    "name_ro": "MOL Dynamic Gold DX 5W-30",
+    "description_ro": "Sintetic моторное масло премиум класса для автомобилей последнего поколения."
   },
   {
     "sku": "MOL-1044",
@@ -2996,7 +3136,9 @@
     "canister_vol": 4,
     "canister_price": 0,
     "barrel_vol": 208,
-    "barrel_price": 0
+    "barrel_price": 0,
+    "name_ro": "MOL ATF 3H AP",
+    "description_ro": "Sintetic масло высшего сорта для автоматических коробок передач/трансмиссий."
   },
   {
     "sku": "MOL-1045",
@@ -3032,7 +3174,9 @@
     "canister_vol": 4,
     "canister_price": 0,
     "barrel_vol": 208,
-    "barrel_price": 0
+    "barrel_price": 0,
+    "name_ro": "MOL Dynamic Transit 15W-40",
+    "description_ro": "Идеальное моторное масло для смешанных автомобильных парков"
   },
   {
     "sku": "MOL-1046",
@@ -3068,7 +3212,9 @@
     "canister_vol": 4,
     "canister_price": 0,
     "barrel_vol": 208,
-    "barrel_price": 0
+    "barrel_price": 0,
+    "name_ro": "MOL Essence Longlife 5W-30",
+    "description_ro": "sintetic моторное масло"
   },
   {
     "sku": "MOL-1047",
@@ -3104,7 +3250,9 @@
     "canister_vol": 4,
     "canister_price": 0,
     "barrel_vol": 208,
-    "barrel_price": 0
+    "barrel_price": 0,
+    "name_ro": "MOL Dynamic Star F 0W-30",
+    "description_ro": "Sintetic премиальное моторное масло для самых современных автомобилей."
   },
   {
     "sku": "MOL-1048",
@@ -3140,7 +3288,9 @@
     "canister_vol": 4,
     "canister_price": 0,
     "barrel_vol": 208,
-    "barrel_price": 0
+    "barrel_price": 0,
+    "name_ro": "MOL ATF",
+    "description_ro": "Жидкость для автоматических трансмиссий"
   },
   {
     "sku": "MOL-1049",
@@ -3173,7 +3323,9 @@
     "canister_vol": 4,
     "canister_price": 0,
     "barrel_vol": 208,
-    "barrel_price": 0
+    "barrel_price": 0,
+    "name_ro": "MOL Hykomol K 85W-90",
+    "description_ro": "Автомобильные трансмиссионные масла"
   },
   {
     "sku": "MOL-1050",
@@ -3231,7 +3383,9 @@
         "price_mdl": 19992,
         "label": "202 л (Бочка)"
       }
-    ]
+    ],
+    "name_ro": "MOL Dynamic Star 5W-30",
+    "description_ro": "Sintetic моторное масло высшего сорта для большинства современных транспортных средств."
   },
   {
     "sku": "MOL-1051",
@@ -3264,7 +3418,9 @@
     "canister_vol": 4,
     "canister_price": 0,
     "barrel_vol": 208,
-    "barrel_price": 0
+    "barrel_price": 0,
+    "name_ro": "MOL EVOX Extra ready -35",
+    "description_ro": "Lichid de răcire MOL EVOX на основе моноэтиленгликоля по гибридной технологии HOAT для алюминиевых и чугунных двигателей."
   },
   {
     "sku": "MOL-1052",
@@ -3322,7 +3478,9 @@
         "price_mdl": 17832,
         "label": "198 л (Бочка)"
       }
-    ]
+    ],
+    "name_ro": "MOL Dynamic Gold 5W-30",
+    "description_ro": "Sintetic моторное масло высшего сорта для большинства современных транспортных средств."
   },
   {
     "sku": "MOL-1053",
@@ -3358,7 +3516,9 @@
     "canister_vol": 4,
     "canister_price": 0,
     "barrel_vol": 208,
-    "barrel_price": 0
+    "barrel_price": 0,
+    "name_ro": "MOL Essence Diesel 5W-40",
+    "description_ro": "Ulei de motor для увеличенного ресурса."
   },
   {
     "sku": "MOL-1054",
@@ -3394,7 +3554,9 @@
     "canister_vol": 4,
     "canister_price": 0,
     "barrel_vol": 208,
-    "barrel_price": 0
+    "barrel_price": 0,
+    "name_ro": "MOL DOT 4+",
+    "description_ro": "Синтетическая тормозная жидкость"
   },
   {
     "sku": "MOL-1055",
@@ -3430,7 +3592,9 @@
     "canister_vol": 4,
     "canister_price": 0,
     "barrel_vol": 208,
-    "barrel_price": 0
+    "barrel_price": 0,
+    "name_ro": "MOL MSE 15W-40",
+    "description_ro": "Ulei de motor для транспортных средств более ранних моделей с большим пробегом."
   },
   {
     "sku": "MOL-1056",
@@ -3481,7 +3645,9 @@
         "price_mdl": 11490,
         "label": "202 л (Бочка)"
       }
-    ]
+    ],
+    "name_ro": "MOL Essence 15W-40",
+    "description_ro": "Ulei de motor для увеличенного ресурса."
   },
   {
     "sku": "MOL-1057",
@@ -3517,7 +3683,9 @@
     "canister_vol": 4,
     "canister_price": 0,
     "barrel_vol": 208,
-    "barrel_price": 0
+    "barrel_price": 0,
+    "name_ro": "MOL Dynamic Transit 10W-30",
+    "description_ro": "Идеальное моторное масло для смешанных автопарков"
   },
   {
     "sku": "MOL-1058",
@@ -3536,7 +3704,9 @@
     "canister_vol": 4,
     "canister_price": 0,
     "barrel_vol": 208,
-    "barrel_price": 0
+    "barrel_price": 0,
+    "name_ro": "MOL Evox Summer Citrus Breeze",
+    "description_ro": "ароматизированный летний стеклоомыватель"
   },
   {
     "sku": "MOL-1059",
@@ -3568,7 +3738,9 @@
     "canister_vol": 4,
     "canister_price": 0,
     "barrel_vol": 208,
-    "barrel_price": 0
+    "barrel_price": 0,
+    "name_ro": "MOL Engine Flush PRO",
+    "description_ro": "Концентрат для промывки двигателя"
   },
   {
     "sku": "MOL-1060",
@@ -3604,7 +3776,9 @@
     "canister_vol": 4,
     "canister_price": 0,
     "barrel_vol": 208,
-    "barrel_price": 0
+    "barrel_price": 0,
+    "name_ro": "MOL Hykomol Arctic 75W-90",
+    "description_ro": "Ulei de transmisie для работы в условиях низких температур"
   },
   {
     "sku": "MOL-1061",
@@ -3640,7 +3814,9 @@
     "canister_vol": 4,
     "canister_price": 0,
     "barrel_vol": 208,
-    "barrel_price": 0
+    "barrel_price": 0,
+    "name_ro": "MOL Dynamic Gold Longlife 0W-30",
+    "description_ro": "Sintetic премиальное моторное масло для самых современных транспортных средств."
   },
   {
     "sku": "MOL-1062",
@@ -3698,7 +3874,9 @@
         "price_mdl": 19992,
         "label": "198 л (Бочка)"
       }
-    ]
+    ],
+    "name_ro": "MOL Dynamic Prima 5W-40",
+    "description_ro": "Синтетические моторные масла высшего сорта."
   },
   {
     "sku": "MOL-1063",
@@ -3734,7 +3912,9 @@
     "canister_vol": 4,
     "canister_price": 0,
     "barrel_vol": 208,
-    "barrel_price": 0
+    "barrel_price": 0,
+    "name_ro": "MOL Hykomol 85W-140",
+    "description_ro": "Автомобильные трансмиссионные масла"
   },
   {
     "sku": "MOL-1064",
@@ -3770,7 +3950,9 @@
     "canister_vol": 4,
     "canister_price": 0,
     "barrel_vol": 208,
-    "barrel_price": 0
+    "barrel_price": 0,
+    "name_ro": "MOL Dynamic Race R5",
+    "description_ro": ""
   },
   {
     "sku": "MOL-1065",
@@ -3806,7 +3988,9 @@
     "canister_vol": 4,
     "canister_price": 0,
     "barrel_vol": 208,
-    "barrel_price": 0
+    "barrel_price": 0,
+    "name_ro": "MOL Essence Multi Gas 5W-40",
+    "description_ro": "Ulei de motor для удлинённого срока службы"
   },
   {
     "sku": "MOL-1066",
@@ -3838,7 +4022,9 @@
     "canister_vol": 4,
     "canister_price": 0,
     "barrel_vol": 208,
-    "barrel_price": 0
+    "barrel_price": 0,
+    "name_ro": "MOL CVT Fluid",
+    "description_ro": "Масло для автоматических коробок передач"
   },
   {
     "sku": "MOL-1067",
@@ -3874,7 +4060,9 @@
     "canister_vol": 4,
     "canister_price": 0,
     "barrel_vol": 208,
-    "barrel_price": 0
+    "barrel_price": 0,
+    "name_ro": "MOL Dynamic Synt RN17FE 0W-20",
+    "description_ro": "sintetic моторное масло"
   },
   {
     "sku": "MOL-1068",
@@ -3910,7 +4098,9 @@
     "canister_vol": 4,
     "canister_price": 0,
     "barrel_vol": 208,
-    "barrel_price": 0
+    "barrel_price": 0,
+    "name_ro": "MOL Hykomol 90",
+    "description_ro": "Автомобильные трансмиссионные масла"
   },
   {
     "sku": "MOL-1069",
@@ -3934,7 +4124,9 @@
     "canister_vol": 4,
     "canister_price": 0,
     "barrel_vol": 208,
-    "barrel_price": 0
+    "barrel_price": 0,
+    "name_ro": "EVOX Terminator",
+    "description_ro": "Жидкость-растворитель для удаления насекомых"
   },
   {
     "sku": "MOL-1070",
@@ -3970,7 +4162,9 @@
     "canister_vol": 4,
     "canister_price": 0,
     "barrel_vol": 208,
-    "barrel_price": 0
+    "barrel_price": 0,
+    "name_ro": "MOL Dynamic Gold DX 5W-20",
+    "description_ro": "Sintetic моторное масло премиум качества для самых современных автомобилей"
   },
   {
     "sku": "MOL-1071",
@@ -4006,7 +4200,9 @@
     "canister_vol": 4,
     "canister_price": 0,
     "barrel_vol": 208,
-    "barrel_price": 0
+    "barrel_price": 0,
+    "name_ro": "MOL Essence 5W-30",
+    "description_ro": "Ulei de motor для увеличенного ресурса."
   },
   {
     "sku": "MOL-1072",
@@ -4038,7 +4234,9 @@
     "canister_vol": 4,
     "canister_price": 0,
     "barrel_vol": 208,
-    "barrel_price": 0
+    "barrel_price": 0,
+    "name_ro": "MOL EcoClean-S",
+    "description_ro": "Жидкость для очистки двигателя"
   },
   {
     "sku": "MOL-1073",
@@ -4074,7 +4272,9 @@
     "canister_vol": 4,
     "canister_price": 0,
     "barrel_vol": 208,
-    "barrel_price": 0
+    "barrel_price": 0,
+    "name_ro": "MOL Dynamic Gold Longlife 0W-30",
+    "description_ro": "Sintetic премиальное моторное масло для самых современных транспортных средств."
   },
   {
     "sku": "MOL-1074",
@@ -4110,7 +4310,9 @@
     "canister_vol": 4,
     "canister_price": 0,
     "barrel_vol": 208,
-    "barrel_price": 0
+    "barrel_price": 0,
+    "name_ro": "MOL Essence 5W-40",
+    "description_ro": "Ulei de motor для увеличенного ресурса."
   },
   {
     "sku": "MOL-1075",
@@ -4129,7 +4331,9 @@
     "canister_vol": 4,
     "canister_price": 0,
     "barrel_vol": 208,
-    "barrel_price": 0
+    "barrel_price": 0,
+    "name_ro": "MOL Evox Winter Citrus Breeze -30",
+    "description_ro": "Aроматизированная зимняя жидкость для стеклоомывателя"
   },
   {
     "sku": "MOL-1076",
@@ -4165,7 +4369,9 @@
     "canister_vol": 4,
     "canister_price": 0,
     "barrel_vol": 208,
-    "barrel_price": 0
+    "barrel_price": 0,
+    "name_ro": "MOL Hykomol Syntrans 75W-90",
+    "description_ro": "Автомобильное sintetic трансмиссионное масло высшего сорта."
   },
   {
     "sku": "MOL-1077",
@@ -4194,7 +4400,9 @@
         "price_mdl": 187,
         "label": "1 л"
       }
-    ]
+    ],
+    "name_ro": "MOL DSG / DCT Fluid",
+    "description_ro": "Sintetic трансмиссионное масло для коробок передач с двойным сцеплением"
   },
   {
     "sku": "MOL-DYN-ESS-5W30",
@@ -4248,7 +4456,9 @@
       }
     ],
     "barrel_vol": 198,
-    "barrel_price": 17226
+    "barrel_price": 17226,
+    "name_ro": "Ulei de motor MOL Dynamic Essence 5W-30",
+    "description_ro": "Высокотехнологичное sintetic масло MOL Dynamic Essence 5W-30 для бензиновых и дизельных моторов."
   },
   {
     "sku": "MOL-DYN-ESS-C2-5W30",
@@ -4306,7 +4516,9 @@
       }
     ],
     "barrel_vol": 198,
-    "barrel_price": 18880
+    "barrel_price": 18880,
+    "name_ro": "MOL Dynamic Essence C2 5W-30",
+    "description_ro": "Sintetic ресурсосберегающее масло для двигателей с требованиями ACEA C2."
   },
   {
     "sku": "MOL-DYN-ESS-DSL-5W40",
@@ -4364,7 +4576,9 @@
       }
     ],
     "barrel_vol": 198,
-    "barrel_price": 18880
+    "barrel_price": 18880,
+    "name_ro": "MOL Dynamic Essence Diesel 5W-40",
+    "description_ro": "Sintetic дизельное моторное масло повышенной надежности."
   },
   {
     "sku": "MOL-DYN-ESS-5W40",
@@ -4418,7 +4632,9 @@
       }
     ],
     "barrel_vol": 198,
-    "barrel_price": 18880
+    "barrel_price": 18880,
+    "name_ro": "Ulei de motor MOL Dynamic Essence 5W-40",
+    "description_ro": "Sintetic моторное масло MOL Dynamic Essence 5W-40 pentru motoare pe benzină și diesel легковых автомобилей."
   },
   {
     "sku": "MOL-DYN-ESS-DPF-5W40",
@@ -4476,7 +4692,9 @@
       }
     ],
     "barrel_vol": 198,
-    "barrel_price": 18880
+    "barrel_price": 18880,
+    "name_ro": "MOL Dynamic Essence DPF 5W-40",
+    "description_ro": "Sintetic малозольное моторное масло для систем с фильтрами DPF."
   },
   {
     "sku": "MOL-DYN-SYNT-RN-5W40",
@@ -4534,7 +4752,9 @@
       }
     ],
     "barrel_vol": 198,
-    "barrel_price": 19760
+    "barrel_price": 19760,
+    "name_ro": "MOL Dynamic Synt RN 5W-40",
+    "description_ro": "Высокоэффективное sintetic масло с допусками Renault RN0700/RN0710."
   },
   {
     "sku": "MOL-DYN-STAR-0W20",
@@ -4578,7 +4798,9 @@
       }
     ],
     "barrel_vol": 4,
-    "barrel_price": 684
+    "barrel_price": 684,
+    "name_ro": "MOL Dynamic Star 0W-20",
+    "description_ro": "Сверхлегкое sintetic масло с официальным допуском Ford EcoBoost."
   },
   {
     "sku": "MOL-DYN-GOLD-HUN-5W30",
@@ -4618,7 +4840,9 @@
       }
     ],
     "barrel_vol": 4,
-    "barrel_price": 482
+    "barrel_price": 482,
+    "name_ro": "MOL Dynamic Gold HUN 5W-30",
+    "description_ro": "Sintetic масло премиум-класса для азиатских и американских авто."
   },
   {
     "sku": "MOL-DYN-GOLD-0W20",
@@ -4658,7 +4882,9 @@
       }
     ],
     "barrel_vol": 4,
-    "barrel_price": 684
+    "barrel_price": 684,
+    "name_ro": "MOL Dynamic Gold 0W-20",
+    "description_ro": "Sintetic энергосберегающее масло для новейших бензиновых двигателей."
   },
   {
     "sku": "MOL-DYN-GOLD-0W30",
@@ -4698,7 +4924,9 @@
       }
     ],
     "barrel_vol": 4,
-    "barrel_price": 760
+    "barrel_price": 760,
+    "name_ro": "MOL Dynamic Gold 0W-30",
+    "description_ro": "Sintetic масло с допуском VW Longlife III и Porsche C30."
   },
   {
     "sku": "MOL-DYN-GOLD-0W20-VAG",
@@ -4729,7 +4957,9 @@
         "price_mdl": 219,
         "label": "1 л"
       }
-    ]
+    ],
+    "name_ro": "MOL Dynamic Gold 0W-20 VAG",
+    "description_ro": "Специализированное зеленое масло для новейших двигателей VAG (VW 508.00/509.00)."
   },
   {
     "sku": "MOL-DYN-ESS-DSL-10W40",
@@ -4780,7 +5010,9 @@
       }
     ],
     "barrel_vol": 50,
-    "barrel_price": 3792
+    "barrel_price": 3792,
+    "name_ro": "MOL Dynamic Essence Diesel 10W-40",
+    "description_ro": "Semisintetic моторное масло pentru motoare diesel."
   },
   {
     "sku": "MOL-TRANSIT-TDS-10W40",
@@ -4841,7 +5073,9 @@
       }
     ],
     "barrel_vol": 202,
-    "barrel_price": 17044
+    "barrel_price": 17044,
+    "name_ro": "Ulei de motor MOL Transit TDS 10W-40 (LKW camioane)",
+    "description_ro": "Semisintetic моторное масло MOL Transit TDS 10W-40 для дизельных моторов Euro III и Euro IV transport marfă."
   },
   {
     "sku": "MOL-15W40-MIN",
@@ -4895,7 +5129,9 @@
       }
     ],
     "barrel_vol": 198,
-    "barrel_price": 11880
+    "barrel_price": 11880,
+    "name_ro": "MOL 15W-40",
+    "description_ro": "Классическое mineral моторное масло."
   },
   {
     "sku": "MOL-TURBO-DSL-15W40",
@@ -4960,7 +5196,9 @@
       }
     ],
     "barrel_vol": 204,
-    "barrel_price": 12240
+    "barrel_price": 12240,
+    "name_ro": "MOL Turbo Diesel 15W-40",
+    "description_ro": "Mineral масло для тяжелонагруженных турбодизелей."
   },
   {
     "sku": "MOL-DYN-ESS-15W40",
@@ -5007,7 +5245,9 @@
       }
     ],
     "barrel_vol": 50,
-    "barrel_price": 3990
+    "barrel_price": 3990,
+    "name_ro": "MOL Dynamic Essence 15W-40",
+    "description_ro": "Надежное mineral масло для регулярного технического обслуживания."
   },
   {
     "sku": "MOL-HYK-K-85W140",
@@ -5068,7 +5308,9 @@
       }
     ],
     "barrel_vol": 198,
-    "barrel_price": 13860
+    "barrel_price": 13860,
+    "name_ro": "MOL Hykomol K 85W-140",
+    "description_ro": "Ulei de transmisie высокой вязкости для тяжелонагруженных редукторов."
   },
   {
     "sku": "MOL-HYK-TORSYN-75W90",
@@ -5112,7 +5354,9 @@
       }
     ],
     "barrel_vol": 50,
-    "barrel_price": 5040
+    "barrel_price": 5040,
+    "name_ro": "MOL Hykomol Torsyn 75W-90",
+    "description_ro": "Semisintetic трансмиссионное масло универсального применения."
   },
   {
     "sku": "MOL-ATF-III",
@@ -5162,7 +5406,9 @@
       }
     ],
     "barrel_vol": 198,
-    "barrel_price": 16746
+    "barrel_price": 16746,
+    "name_ro": "MOL ATF III",
+    "description_ro": "Жидкость для автоматических трансмиссий стандарта Dexron III."
   },
   {
     "sku": "MOL-ATF-II",
@@ -5205,7 +5451,9 @@
       }
     ],
     "barrel_vol": 50,
-    "barrel_price": 3940
+    "barrel_price": 3940,
+    "name_ro": "MOL ATF II",
+    "description_ro": "Ulei de transmisie для АКПП стандарта Dexron II."
   },
   {
     "sku": "MOL-LITON-00-GM",
@@ -5232,7 +5480,9 @@
         "price_mdl": 1470,
         "label": "7 кг"
       }
-    ]
+    ],
+    "name_ro": "MOL Liton 00 GM",
+    "description_ro": "Пластичная полужидкая смазка для централизованных систем смазки."
   },
   {
     "sku": "WB-TREE-001",
@@ -5267,7 +5517,9 @@
         "price_mdl": 22.5,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Освежитель Wunder-Baum Елочка Arctic White",
+    "description_ro": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Arctic White."
   },
   {
     "sku": "WB-TREE-002",
@@ -5302,7 +5554,9 @@
         "price_mdl": 22.5,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Освежитель Wunder-Baum Елочка Berry Burst",
+    "description_ro": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Berry Burst."
   },
   {
     "sku": "WB-TREE-003",
@@ -5337,7 +5591,9 @@
         "price_mdl": 22.5,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Освежитель Wunder-Baum Елочка Black Ice",
+    "description_ro": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Black Ice."
   },
   {
     "sku": "WB-TREE-004",
@@ -5372,7 +5628,9 @@
         "price_mdl": 22.5,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Освежитель Wunder-Baum Елочка Bubble Gum",
+    "description_ro": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Bubble Gum."
   },
   {
     "sku": "WB-TREE-005",
@@ -5407,7 +5665,9 @@
         "price_mdl": 22.5,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Освежитель Wunder-Baum Елочка Cafe",
+    "description_ro": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Cafe."
   },
   {
     "sku": "WB-TREE-006",
@@ -5442,7 +5702,9 @@
         "price_mdl": 22.5,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Освежитель Wunder-Baum Елочка Daisy Chain",
+    "description_ro": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Daisy Chain."
   },
   {
     "sku": "WB-TREE-007",
@@ -5477,7 +5739,9 @@
         "price_mdl": 22.5,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Освежитель Wunder-Baum Елочка Erdbeeren (Клубника)",
+    "description_ro": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Erdbeeren."
   },
   {
     "sku": "WB-TREE-008",
@@ -5512,7 +5776,9 @@
         "price_mdl": 22.5,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Освежитель Wunder-Baum Елочка Everfresh",
+    "description_ro": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Everfresh."
   },
   {
     "sku": "WB-TREE-009",
@@ -5547,7 +5813,9 @@
         "price_mdl": 22.5,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Освежитель Wunder-Baum Елочка Fizzy Limonade",
+    "description_ro": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Fizzy Limonade."
   },
   {
     "sku": "WB-TREE-010",
@@ -5582,7 +5850,9 @@
         "price_mdl": 22.5,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Освежитель Wunder-Baum Елочка Frosted Pine",
+    "description_ro": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Frosted Pine."
   },
   {
     "sku": "WB-TREE-011",
@@ -5617,7 +5887,9 @@
         "price_mdl": 22.5,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Освежитель Wunder-Baum Елочка Fruhling",
+    "description_ro": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Fruhling."
   },
   {
     "sku": "WB-TREE-012",
@@ -5652,7 +5924,9 @@
         "price_mdl": 22.5,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Освежитель Wunder-Baum Елочка Gruner Apfel (Зеленое Яблоко)",
+    "description_ro": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Gruner Apfel."
   },
   {
     "sku": "WB-TREE-013",
@@ -5687,7 +5961,9 @@
         "price_mdl": 22.5,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Освежитель Wunder-Baum Елочка Jungle Fever",
+    "description_ro": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Jungle Fever."
   },
   {
     "sku": "WB-TREE-014",
@@ -5722,7 +5998,9 @@
         "price_mdl": 22.5,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Освежитель Wunder-Baum Елочка Kirsche (Вишня)",
+    "description_ro": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Kirsche."
   },
   {
     "sku": "WB-TREE-015",
@@ -5757,7 +6035,9 @@
         "price_mdl": 22.5,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Освежитель Wunder-Baum Елочка Kokosnuss (Кокос)",
+    "description_ro": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Kokosnuss."
   },
   {
     "sku": "WB-TREE-016",
@@ -5792,7 +6072,9 @@
         "price_mdl": 22.5,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Освежитель Wunder-Baum Елочка Leather (Кожа)",
+    "description_ro": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Leather."
   },
   {
     "sku": "WB-TREE-017",
@@ -5827,7 +6109,9 @@
         "price_mdl": 22.5,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Освежитель Wunder-Baum Елочка Mai-Tai",
+    "description_ro": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Mai-Tai."
   },
   {
     "sku": "WB-TREE-018",
@@ -5862,7 +6146,9 @@
         "price_mdl": 22.5,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Освежитель Wunder-Baum Елочка Margarita",
+    "description_ro": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Margarita."
   },
   {
     "sku": "WB-TREE-019",
@@ -5897,7 +6183,9 @@
         "price_mdl": 22.5,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Освежитель Wunder-Baum Елочка Midnight Chick",
+    "description_ro": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Midnight Chick."
   },
   {
     "sku": "WB-TREE-020",
@@ -5932,7 +6220,9 @@
         "price_mdl": 22.5,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Освежитель Wunder-Baum Елочка Black Classic",
+    "description_ro": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Black Classic."
   },
   {
     "sku": "WB-TREE-021",
@@ -5967,7 +6257,9 @@
         "price_mdl": 22.5,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Освежитель Wunder-Baum Елочка New Car (Новое Авто)",
+    "description_ro": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом New Car."
   },
   {
     "sku": "WB-TREE-022",
@@ -6002,7 +6294,9 @@
         "price_mdl": 22.5,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Освежитель Wunder-Baum Елочка Ocean Paradise",
+    "description_ro": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Ocean Paradise."
   },
   {
     "sku": "WB-TREE-023",
@@ -6037,7 +6331,9 @@
         "price_mdl": 22.5,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Освежитель Wunder-Baum Елочка Orange Juice (Апельсиновый сок)",
+    "description_ro": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Orange Juice."
   },
   {
     "sku": "WB-TREE-024",
@@ -6072,7 +6368,9 @@
         "price_mdl": 22.5,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Освежитель Wunder-Baum Елочка Pina Colada",
+    "description_ro": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Pina Colada."
   },
   {
     "sku": "WB-TREE-025",
@@ -6107,7 +6405,9 @@
         "price_mdl": 22.5,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Освежитель Wunder-Baum Елочка Pure Steel",
+    "description_ro": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Pure Steel."
   },
   {
     "sku": "WB-TREE-026",
@@ -6142,7 +6442,9 @@
         "price_mdl": 22.5,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Освежитель Wunder-Baum Елочка Rose & Raspberry (Роза и малина)",
+    "description_ro": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Rose & Raspberry."
   },
   {
     "sku": "WB-TREE-027",
@@ -6177,7 +6479,9 @@
         "price_mdl": 22.5,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Освежитель Wunder-Baum Елочка Sportfrische",
+    "description_ro": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Sportfrische."
   },
   {
     "sku": "WB-TREE-028",
@@ -6212,7 +6516,9 @@
         "price_mdl": 22.5,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Освежитель Wunder-Baum Елочка Summer Cotton",
+    "description_ro": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Summer Cotton."
   },
   {
     "sku": "WB-TREE-029",
@@ -6247,7 +6553,9 @@
         "price_mdl": 22.5,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Освежитель Wunder-Baum Елочка Tropical",
+    "description_ro": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Tropical."
   },
   {
     "sku": "WB-TREE-030",
@@ -6282,7 +6590,9 @@
         "price_mdl": 22.5,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Освежитель Wunder-Baum Елочка Vanillaroma (Ваниль)",
+    "description_ro": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Vanillaroma."
   },
   {
     "sku": "WB-TREE-031",
@@ -6317,7 +6627,9 @@
         "price_mdl": 22.5,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Освежитель Wunder-Baum Елочка Wild Instinct",
+    "description_ro": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Wild Instinct."
   },
   {
     "sku": "WB-TREE-032",
@@ -6352,7 +6664,9 @@
         "price_mdl": 22.5,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Освежитель Wunder-Baum Елочка WoodWork (Дерево)",
+    "description_ro": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом WoodWork."
   },
   {
     "sku": "WB-TREE-033",
@@ -6387,7 +6701,9 @@
         "price_mdl": 22.5,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Освежитель Wunder-Baum Елочка Zimt Apfel (Яблоко с корицей)",
+    "description_ro": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Zimt Apfel."
   },
   {
     "sku": "WB-TREE-034",
@@ -6422,7 +6738,9 @@
         "price_mdl": 22.5,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Освежитель Wunder-Baum Елочка Zitrone (Лимон)",
+    "description_ro": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Zitrone."
   },
   {
     "sku": "WB-CLIP-001",
@@ -6457,7 +6775,9 @@
         "price_mdl": 56.25,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Освежитель-клипса Wunder-Baum Clip Black Ice",
+    "description_ro": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Black Ice."
   },
   {
     "sku": "WB-CLIP-002",
@@ -6492,7 +6812,9 @@
         "price_mdl": 56.25,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Освежитель-клипса Wunder-Baum Clip Bubble Gum",
+    "description_ro": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Bubble Gum."
   },
   {
     "sku": "WB-CLIP-003",
@@ -6527,7 +6849,9 @@
         "price_mdl": 56.25,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Освежитель-клипса Wunder-Baum Clip Cherry (Вишня)",
+    "description_ro": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Cherry."
   },
   {
     "sku": "WB-CLIP-004",
@@ -6562,7 +6886,9 @@
         "price_mdl": 56.25,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Освежитель-клипса Wunder-Baum Clip New Car",
+    "description_ro": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом New Car."
   },
   {
     "sku": "WB-CLIP-005",
@@ -6597,7 +6923,9 @@
         "price_mdl": 56.25,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Освежитель-клипса Wunder-Baum Clip Ocean Paradise",
+    "description_ro": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Ocean Paradise."
   },
   {
     "sku": "WB-CLIP-006",
@@ -6632,7 +6960,9 @@
         "price_mdl": 56.25,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Освежитель-клипса Wunder-Baum Clip Sport",
+    "description_ro": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Sport."
   },
   {
     "sku": "WB-CLIP-007",
@@ -6667,7 +6997,9 @@
         "price_mdl": 56.25,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Освежитель-клипса Wunder-Baum Clip Tropical",
+    "description_ro": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Tropical."
   },
   {
     "sku": "WB-CLIP-008",
@@ -6702,7 +7034,9 @@
         "price_mdl": 56.25,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Освежитель-клипса Wunder-Baum Clip Vanilla",
+    "description_ro": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Vanilla."
   },
   {
     "sku": "WB-CLIP-009",
@@ -6737,7 +7071,9 @@
         "price_mdl": 56.25,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Освежитель-клипса Wunder-Baum Clip Tribal",
+    "description_ro": "Оригинальный автомобильный освежитель воздуха Wunder-Baum со стойким ароматом Tribal."
   },
   {
     "sku": "HEPU-P900-RM11",
@@ -6796,7 +7132,9 @@
       }
     ],
     "barrel_vol": 200,
-    "barrel_price": 8900
+    "barrel_price": 8900,
+    "name_ro": "Antigel HEPU P900-RM11 Ready Mix Extra -38°C (Синий)",
+    "description_ro": "Готовый к применению синий антифриз HEPU Ready Mix Extra (-38°C) класса G11."
   },
   {
     "sku": "HEPU-P900-RM11-GRN",
@@ -6862,7 +7200,9 @@
       }
     ],
     "barrel_vol": 200,
-    "barrel_price": 10050
+    "barrel_price": 10050,
+    "name_ro": "Antigel HEPU P900-RM11 Ready Mix Extra -38°C (Зелёный)",
+    "description_ro": "Готовый к применению зелёный антифриз HEPU Ready Mix Extra (-38°C) класса G11."
   },
   {
     "sku": "HEPU-P900-RM-G12",
@@ -6928,7 +7268,9 @@
       }
     ],
     "barrel_vol": 200,
-    "barrel_price": 10750
+    "barrel_price": 10750,
+    "name_ro": "Antigel HEPU P900-RM-G12 Ready Mix Extra -37°C (Красный)",
+    "description_ro": "Готовый красная охлаждающая жидкость HEPU Ready Mix Extra (-37°C) класса G12."
   },
   {
     "sku": "HEPU-P900-RM-G12PLUS",
@@ -6994,7 +7336,9 @@
       }
     ],
     "barrel_vol": 200,
-    "barrel_price": 10850
+    "barrel_price": 10850,
+    "name_ro": "Antigel HEPU P900-RM-G12+ Ready Mix Extra -37°C (Фиолетовый)",
+    "description_ro": "Готовый фиолетовый антифриз HEPU Ready Mix Extra (-37°C) класса G12+."
   },
   {
     "sku": "HEPU-P900-RM-G13",
@@ -7039,7 +7383,9 @@
       }
     ],
     "barrel_vol": 5,
-    "barrel_price": 332
+    "barrel_price": 332,
+    "name_ro": "Antigel HEPU P900-RM-G13 Ready Mix Extra -35°C (Фиолетовый)",
+    "description_ro": "Готовый лобридный фиолетовый антифриз HEPU Ready Mix Extra (-35°C) класса G13."
   },
   {
     "sku": "HEPU-P900-RM-EVO12",
@@ -7084,7 +7430,9 @@
       }
     ],
     "barrel_vol": 5,
-    "barrel_price": 339
+    "barrel_price": 339,
+    "name_ro": "Antigel HEPU P900-RM-EVO12 Ready Mix -37°C (Фиолетовый)",
+    "description_ro": "Инновационный готовящийся лобридный антифриз HEPU G12evo (Si-OAT) нового поколения."
   },
   {
     "sku": "HEPU-P900-RM11-YLW",
@@ -7136,7 +7484,9 @@
       }
     ],
     "barrel_vol": 20,
-    "barrel_price": 1190
+    "barrel_price": 1190,
+    "name_ro": "Antigel HEPU P900-RM11 Ready Mix Extra -37°C (Жёлтый)",
+    "description_ro": "Готовый жёлтый антифриз HEPU Ready Mix Extra (-37°C) класса G11."
   },
   {
     "sku": "HEPU-P999-BLU",
@@ -7181,7 +7531,9 @@
       }
     ],
     "barrel_vol": 5,
-    "barrel_price": 359
+    "barrel_price": 359,
+    "name_ro": "Antigel HEPU P999 Концентрат (Синий)",
+    "description_ro": "Концентрированный синий антифриз высшего качества HEPU P999 класса G11."
   },
   {
     "sku": "HEPU-P999-GRN",
@@ -7226,7 +7578,9 @@
       }
     ],
     "barrel_vol": 5,
-    "barrel_price": 480
+    "barrel_price": 480,
+    "name_ro": "Antigel HEPU P999-GRN Концентрат (Зелёный)",
+    "description_ro": "Концентрированный зелёный антифриз HEPU P999-GRN класса G11."
   },
   {
     "sku": "HEPU-P999-G12",
@@ -7278,7 +7632,9 @@
       }
     ],
     "barrel_vol": 20,
-    "barrel_price": 1495
+    "barrel_price": 1495,
+    "name_ro": "Antigel HEPU P999-G12 Концентрат (Красный)",
+    "description_ro": "Концентрированный красная охлаждающая жидкость HEPU P999-G12 класса G12."
   },
   {
     "sku": "HEPU-P999-G12PLUS",
@@ -7323,7 +7679,9 @@
       }
     ],
     "barrel_vol": 5,
-    "barrel_price": 392
+    "barrel_price": 392,
+    "name_ro": "Antigel HEPU P999-G12+ Концентрат (Фиолетовый)",
+    "description_ro": "Концентрированный фиолетовый антифриз HEPU P999-G12+ класса G12+."
   },
   {
     "sku": "HEPU-P999-G12SUPERPLUS",
@@ -7368,7 +7726,9 @@
       }
     ],
     "barrel_vol": 5,
-    "barrel_price": 460
+    "barrel_price": 460,
+    "name_ro": "Antigel HEPU P999-G12++ Концентрат (Фиолетовый)",
+    "description_ro": "Концентрированный лобридный фиолетовый антифриз HEPU P999-G12++ (Superplus)."
   },
   {
     "sku": "HEPU-P999-G13",
@@ -7413,7 +7773,9 @@
       }
     ],
     "barrel_vol": 5,
-    "barrel_price": 425
+    "barrel_price": 425,
+    "name_ro": "Antigel HEPU P999-G13 Концентрат (Фиолетовый)",
+    "description_ro": "Концентрированный экологичный фиолетовый антифриз HEPU P999-G13 класса G13."
   },
   {
     "sku": "HEPU-P888-BLU",
@@ -7465,7 +7827,9 @@
       }
     ],
     "barrel_vol": 200,
-    "barrel_price": 7610
+    "barrel_price": 7610,
+    "name_ro": "Antigel HEPU P888 Ready Mix Extra -25°C (Синий)",
+    "description_ro": "Готовый синий антифриз HEPU Ready Mix Extra (-25°C) класса G11."
   },
   {
     "sku": "HEPU-P888-GRN",
@@ -7517,7 +7881,9 @@
       }
     ],
     "barrel_vol": 200,
-    "barrel_price": 8450
+    "barrel_price": 8450,
+    "name_ro": "Antigel HEPU P888-GRN Ready Mix Extra -25°C (Зелёный)",
+    "description_ro": "Готовый зелёный антифриз HEPU Ready Mix Extra (-25°C) класса G11."
   },
   {
     "sku": "HEPU-P888-G12",
@@ -7576,7 +7942,9 @@
       }
     ],
     "barrel_vol": 200,
-    "barrel_price": 8985
+    "barrel_price": 8985,
+    "name_ro": "Antigel HEPU P888-G12 Ready Mix Extra -25°C (Красный)",
+    "description_ro": "Готовая красная охлаждающая жидкость HEPU Ready Mix Extra (-25°C) класса G12."
   },
   {
     "sku": "HEPU-P888-G12PLUS",
@@ -7621,7 +7989,9 @@
       }
     ],
     "barrel_vol": 5,
-    "barrel_price": 280
+    "barrel_price": 280,
+    "name_ro": "Antigel HEPU P888-G12+ Ready Mix Extra -25°C (Фиолетовый)",
+    "description_ro": "Готовый фиолетовый антифриз HEPU Ready Mix Extra (-25°C) класса G12+."
   },
   {
     "sku": "IMAO-CARD-001",
@@ -7656,7 +8026,9 @@
         "price_mdl": 60.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Парфюмированная карточка IMAO Card Bali",
+    "description_ro": "Элитный французский автомобильный парфюм IMAO Parfums с ароматом Bali."
   },
   {
     "sku": "IMAO-CARD-002",
@@ -7691,7 +8063,9 @@
         "price_mdl": 60.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Парфюмированная карточка IMAO Card Bora Bora",
+    "description_ro": "Элитный французский автомобильный парфюм IMAO Parfums с ароматом Bora Bora."
   },
   {
     "sku": "IMAO-CARD-003",
@@ -7726,7 +8100,9 @@
         "price_mdl": 60.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Парфюмированная карточка IMAO Card Capri",
+    "description_ro": "Элитный французский автомобильный парфюм IMAO Parfums с ароматом Capri."
   },
   {
     "sku": "IMAO-CARD-004",
@@ -7761,7 +8137,9 @@
         "price_mdl": 60.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Парфюмированная карточка IMAO Card Costa Rica",
+    "description_ro": "Элитный французский автомобильный парфюм IMAO Parfums с ароматом Costa Rica."
   },
   {
     "sku": "IMAO-CARD-005",
@@ -7796,7 +8174,9 @@
         "price_mdl": 60.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Парфюмированная карточка IMAO Card Las Vegas",
+    "description_ro": "Элитный французский автомобильный парфюм IMAO Parfums с ароматом Las Vegas."
   },
   {
     "sku": "IMAO-CARD-006",
@@ -7831,7 +8211,9 @@
         "price_mdl": 60.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Парфюмированная карточка IMAO Card Madagascar",
+    "description_ro": "Элитный французский автомобильный парфюм IMAO Parfums с ароматом Madagascar."
   },
   {
     "sku": "IMAO-CARD-007",
@@ -7866,7 +8248,9 @@
         "price_mdl": 60.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Парфюмированная карточка IMAO Card Maiami",
+    "description_ro": "Элитный французский автомобильный парфюм IMAO Parfums с ароматом Maiami."
   },
   {
     "sku": "IMAO-CARD-008",
@@ -7901,7 +8285,9 @@
         "price_mdl": 60.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Парфюмированная карточка IMAO Card New York",
+    "description_ro": "Элитный французский автомобильный парфюм IMAO Parfums с ароматом New York."
   },
   {
     "sku": "IMAO-CARD-009",
@@ -7936,7 +8322,9 @@
         "price_mdl": 60.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Парфюмированная карточка IMAO Card Paris",
+    "description_ro": "Элитный французский автомобильный парфюм IMAO Parfums с ароматом Paris."
   },
   {
     "sku": "IMAO-CARD-010",
@@ -7971,7 +8359,9 @@
         "price_mdl": 60.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Парфюмированная карточка IMAO Card Saint-Tropez",
+    "description_ro": "Элитный французский автомобильный парфюм IMAO Parfums с ароматом Saint-Tropez."
   },
   {
     "sku": "IMAO-CARD-011",
@@ -8006,7 +8396,9 @@
         "price_mdl": 60.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Парфюмированная карточка IMAO Card Sri-Lanka",
+    "description_ro": "Элитный французский автомобильный парфюм IMAO Parfums с ароматом Sri-Lanka."
   },
   {
     "sku": "IMAO-CARD-012",
@@ -8041,7 +8433,9 @@
         "price_mdl": 60.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Парфюмированная карточка IMAO Card Sydney",
+    "description_ro": "Элитный французский автомобильный парфюм IMAO Parfums с ароматом Sydney."
   },
   {
     "sku": "IMAO-CARD-013",
@@ -8076,7 +8470,9 @@
         "price_mdl": 60.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Парфюмированная карточка IMAO Card Tokyo",
+    "description_ro": "Элитный французский автомобильный парфюм IMAO Parfums с ароматом Tokyo."
   },
   {
     "sku": "IMAO-DIFF-001",
@@ -8111,7 +8507,9 @@
         "price_mdl": 100.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Диффузор в дефлектор IMAO Diffuser Bali",
+    "description_ro": "Элитный французский автомобильный парфюм IMAO Parfums с ароматом Bali."
   },
   {
     "sku": "IMAO-DIFF-002",
@@ -8146,7 +8544,9 @@
         "price_mdl": 100.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Диффузор в дефлектор IMAO Diffuser Capri",
+    "description_ro": "Элитный французский автомобильный парфюм IMAO Parfums с ароматом Capri."
   },
   {
     "sku": "IMAO-DIFF-003",
@@ -8181,7 +8581,9 @@
         "price_mdl": 100.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Диффузор в дефлектор IMAO Diffuser Madagascar",
+    "description_ro": "Элитный французский автомобильный парфюм IMAO Parfums с ароматом Madagascar."
   },
   {
     "sku": "IMAO-DIFF-004",
@@ -8216,7 +8618,9 @@
         "price_mdl": 101.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Диффузор в дефлектор IMAO Diffuser New York",
+    "description_ro": "Элитный французский автомобильный парфюм IMAO Parfums с ароматом New York."
   },
   {
     "sku": "IMAO-DIFF-005",
@@ -8251,7 +8655,9 @@
         "price_mdl": 100.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Диффузор в дефлектор IMAO Diffuser Paris",
+    "description_ro": "Элитный французский автомобильный парфюм IMAO Parfums с ароматом Paris."
   },
   {
     "sku": "IMAO-DIFF-006",
@@ -8286,7 +8692,9 @@
         "price_mdl": 100.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Диффузор в дефлектор IMAO Diffuser Sri-Lanka",
+    "description_ro": "Элитный французский автомобильный парфюм IMAO Parfums с ароматом Sri-Lanka."
   },
   {
     "sku": "IMAO-DIFF-007",
@@ -8321,7 +8729,9 @@
         "price_mdl": 100.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Диффузор в дефлектор IMAO Diffuser Tokyo",
+    "description_ro": "Элитный французский автомобильный парфюм IMAO Parfums с ароматом Tokyo."
   },
   {
     "sku": "IMAO-KEY-001",
@@ -8356,7 +8766,9 @@
         "price_mdl": 70.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Odorizant auto-ключ IMAO Key Bora Bora",
+    "description_ro": "Элитный французский автомобильный парфюм IMAO Parfums с ароматом Bora Bora."
   },
   {
     "sku": "IMAO-KEY-002",
@@ -8391,7 +8803,9 @@
         "price_mdl": 70.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Odorizant auto-ключ IMAO Key Madagascar",
+    "description_ro": "Элитный французский автомобильный парфюм IMAO Parfums с ароматом Madagascar."
   },
   {
     "sku": "IMAO-KEY-003",
@@ -8426,7 +8840,9 @@
         "price_mdl": 70.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Odorizant auto-ключ IMAO Key New York",
+    "description_ro": "Элитный французский автомобильный парфюм IMAO Parfums с ароматом New York."
   },
   {
     "sku": "IMAO-KEY-004",
@@ -8461,7 +8877,9 @@
         "price_mdl": 70.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Odorizant auto-ключ IMAO Key Tokyo",
+    "description_ro": "Элитный французский автомобильный парфюм IMAO Parfums с ароматом Tokyo."
   },
   {
     "sku": "IMAO-SPRAY-001",
@@ -8496,7 +8914,9 @@
         "price_mdl": 120.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Автомобильный спрей IMAO Spray Bali (50мл)",
+    "description_ro": "Элитный французский автомобильный парфюм IMAO Parfums с ароматом Bali."
   },
   {
     "sku": "IMAO-SPRAY-002",
@@ -8531,7 +8951,9 @@
         "price_mdl": 120.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Автомобильный спрей IMAO Spray Bora Bora (50мл)",
+    "description_ro": "Элитный французский автомобильный парфюм IMAO Parfums с ароматом Bora Bora."
   },
   {
     "sku": "IMAO-SPRAY-003",
@@ -8566,7 +8988,9 @@
         "price_mdl": 120.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Автомобильный спрей IMAO Spray Capri (50мл)",
+    "description_ro": "Элитный французский автомобильный парфюм IMAO Parfums с ароматом Capri."
   },
   {
     "sku": "IMAO-SPRAY-004",
@@ -8601,7 +9025,9 @@
         "price_mdl": 120.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Автомобильный спрей IMAO Spray Las Vegas (50мл)",
+    "description_ro": "Элитный французский автомобильный парфюм IMAO Parfums с ароматом Las Vegas."
   },
   {
     "sku": "IMAO-SPRAY-005",
@@ -8636,7 +9062,9 @@
         "price_mdl": 120.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Автомобильный спрей IMAO Spray Madagascar (50мл)",
+    "description_ro": "Элитный французский автомобильный парфюм IMAO Parfums с ароматом Madagascar."
   },
   {
     "sku": "IMAO-SPRAY-006",
@@ -8671,7 +9099,9 @@
         "price_mdl": 120.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Автомобильный спрей IMAO Spray New York (50мл)",
+    "description_ro": "Элитный французский автомобильный парфюм IMAO Parfums с ароматом New York."
   },
   {
     "sku": "IMAO-SPRAY-007",
@@ -8706,7 +9136,9 @@
         "price_mdl": 120.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Автомобильный спрей IMAO Spray Paris (50мл)",
+    "description_ro": "Элитный французский автомобильный парфюм IMAO Parfums с ароматом Paris."
   },
   {
     "sku": "IMAO-SPRAY-008",
@@ -8741,7 +9173,9 @@
         "price_mdl": 120.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Автомобильный спрей IMAO Spray Sri-Lanka (50мл)",
+    "description_ro": "Элитный французский автомобильный парфюм IMAO Parfums с ароматом Sri-Lanka."
   },
   {
     "sku": "IMAO-SPRAY-009",
@@ -8776,7 +9210,9 @@
         "price_mdl": 120.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Автомобильный спрей IMAO Spray Tahiti (50мл)",
+    "description_ro": "Элитный французский автомобильный парфюм IMAO Parfums с ароматом Tahiti."
   },
   {
     "sku": "IMAO-SPRAY-010",
@@ -8811,7 +9247,9 @@
         "price_mdl": 120.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Автомобильный спрей IMAO Spray Tokyo (50мл)",
+    "description_ro": "Элитный французский автомобильный парфюм IMAO Parfums с ароматом Tokyo."
   },
   {
     "sku": "BF-PROFI-05",
@@ -8842,7 +9280,9 @@
         "price_mdl": 31.0,
         "label": "0.5 кг"
       }
-    ]
+    ],
+    "name_ro": "Lichid de frână PROFI MAX DOT-4 (0.5 кг)",
+    "description_ro": "Высокотемпературная тормозная жидкость PROFI MAX стандарта DOT-4 для дисковых и барабанных тормозных систем."
   },
   {
     "sku": "BF-PROFI-10",
@@ -8873,7 +9313,9 @@
         "price_mdl": 62.0,
         "label": "1 кг"
       }
-    ]
+    ],
+    "name_ro": "Lichid de frână PROFI MAX DOT-4 (1 кг)",
+    "description_ro": "Синтетическая тормозная жидкость PROFI MAX DOT-4 для гидравлических приводов тормозов и сцепления."
   },
   {
     "sku": "BF-ADV-038",
@@ -8904,7 +9346,9 @@
         "price_mdl": 25.5,
         "label": "380 г"
       }
-    ]
+    ],
+    "name_ro": "Lichid de frână ADV DOT-4 (380 г)",
+    "description_ro": "Надежная тормозная жидкость ADV DOT-4 с высокой температурой кипения и отличными антикоррозионными свойствами."
   },
   {
     "sku": "BF-ADV-075",
@@ -8935,7 +9379,9 @@
         "price_mdl": 49.5,
         "label": "750 г"
       }
-    ]
+    ],
+    "name_ro": "Lichid de frână ADV DOT-4 (750 г)",
+    "description_ro": "Высококачественная тормозная жидкость ADV DOT-4 для современных гидравлических тормозных систем."
   },
   {
     "sku": "BF-FOX-040",
@@ -8966,7 +9412,9 @@
         "price_mdl": 36.5,
         "label": "400 г"
       }
-    ]
+    ],
+    "name_ro": "Lichid de frână FOX DOT-4 (400 г)",
+    "description_ro": "Синтетическая тормозная жидкость FOX DOT-4 с защитой от паровых пробок при интенсивном торможении."
   },
   {
     "sku": "BF-FOX-075",
@@ -8997,7 +9445,9 @@
         "price_mdl": 65.0,
         "label": "750 г"
       }
-    ]
+    ],
+    "name_ro": "Lichid de frână FOX DOT-4 (750 г)",
+    "description_ro": "Lichid de frână FOX DOT-4 увеличенного объема 750 г для обслуживания тормозной системы."
   },
   {
     "sku": "BF-MOL-05",
@@ -9028,7 +9478,9 @@
         "price_mdl": 84.0,
         "label": "0.5 л"
       }
-    ]
+    ],
+    "name_ro": "Lichid de frână MOL DOT 4+ (0.5 л)",
+    "description_ro": "Премиальная синтетическая тормозная жидкость MOL DOT 4+ с повышенной температурой кипения для экстремальных нагрузок."
   },
   {
     "sku": "IND-MOL-001",
@@ -9067,7 +9519,9 @@
         "price_mdl": 0,
         "label": "208 л"
       }
-    ]
+    ],
+    "name_ro": "Гидравлическая жидкость MOL Pirohyd HFC",
+    "description_ro": "Огнестойкая гидравлическая жидкость типа HFC (водно-гликолевый раствор) для гидравлических систем, работающих в условиях повышенной пожароопасности."
   },
   {
     "sku": "IND-MOL-002",
@@ -9106,7 +9560,9 @@
         "price_mdl": 0,
         "label": "208 л"
       }
-    ]
+    ],
+    "name_ro": "Ulei hidraulic MOL Hydro HVI 46",
+    "description_ro": "Ulei hidraulic с высоким индексом вязкости (HVLP) для оборудования, работающего в условиях широких температурных колебаний."
   },
   {
     "sku": "IND-MOL-003",
@@ -9145,7 +9601,9 @@
         "price_mdl": 0,
         "label": "208 л"
       }
-    ]
+    ],
+    "name_ro": "Compresorное масло MOL Compressol R 46",
+    "description_ro": "Масло для ротационных винтовых и пластинчатых воздушных компрессоров с отличной термоокислительной стабильностью."
   },
   {
     "sku": "IND-MOL-004",
@@ -9184,7 +9642,9 @@
         "price_mdl": 0,
         "label": "208 л"
       }
-    ]
+    ],
+    "name_ro": "Промышленное редукторное масло MOL Ultrans EP 220",
+    "description_ro": "Промышленное редукторное масло премиум-класса с противозадирными присадками (EP) для тяжелонагруженных промышленных передач."
   },
   {
     "sku": "IND-MOL-005",
@@ -9223,7 +9683,9 @@
         "price_mdl": 0,
         "label": "208 л"
       }
-    ]
+    ],
+    "name_ro": "Масло для направляющих MOL Multi SW 68",
+    "description_ro": "Специальное масло для смазки направляющих скольжения металлорежущих станков, предотвращающее скачкообразное движение."
   },
   {
     "sku": "IND-MOL-006",
@@ -9262,7 +9724,9 @@
         "price_mdl": 0,
         "label": "208 л"
       }
-    ]
+    ],
+    "name_ro": "Водорастворимая СОЖ MOL Emulcutt 160",
+    "description_ro": "Водорастворимая универсальная СОЖ для механической обработки металлов (точение, фрезерование, сверление)."
   },
   {
     "sku": "IND-MOL-007",
@@ -9301,7 +9765,9 @@
         "price_mdl": 0,
         "label": "208 л"
       }
-    ]
+    ],
+    "name_ro": "Пищевая цепная смазка MOL Food Chain 220",
+    "description_ro": "Специальная смазка с допуском NSF H1 для приводных и конвейерных цепей пищевых и фармацевтических производств."
   },
   {
     "sku": "RP-03689",
@@ -9332,7 +9798,9 @@
         "price_mdl": 48.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Cirpa magica tub DUNLOP 36x27 cm",
+    "description_ro": "Cirpa magica tub DUNLOP 36x27 cm (Код: 03689, Штрихкод: 8711252036892)."
   },
   {
     "sku": "RP-05829",
@@ -9363,7 +9831,9 @@
         "price_mdl": 26.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Gripmat transparent 14.5 x 8.5 cm",
+    "description_ro": "Gripmat transparent 14.5 x 8.5 cm (Код: 05829, Штрихкод: 8711252058290)."
   },
   {
     "sku": "RP-05837",
@@ -9394,7 +9864,9 @@
         "price_mdl": 36.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Racleta de gheata DUNLOP 26/13/3 cm",
+    "description_ro": "Racleta de gheata DUNLOP 26/13/3 cm (Код: 05837, Штрихкод: 8711252058375)."
   },
   {
     "sku": "RP-05838",
@@ -9425,7 +9897,9 @@
         "price_mdl": 23.5,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Mini ICE Scraper Dunlop 18 cm",
+    "description_ro": "Mini ICE Scraper Dunlop 18 cm (Код: 05838, Штрихкод: 8711252058382)."
   },
   {
     "sku": "RP-41776",
@@ -9456,7 +9930,9 @@
         "price_mdl": 44.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "ICE Scraper Dunlop 10x32 см",
+    "description_ro": "ICE Scraper Dunlop 10x32 см (Код: 41776, Штрихкод: 871125241776)."
   },
   {
     "sku": "RP-48608",
@@ -9487,7 +9963,9 @@
         "price_mdl": 65.5,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Stergator p/u parbriz ALLRIDE",
+    "description_ro": "Stergator p/u parbriz ALLRIDE (Код: 48608, Штрихкод: 8711252486086)."
   },
   {
     "sku": "RP-49636",
@@ -9518,7 +9996,9 @@
         "price_mdl": 82.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Set sigurante 28 pcs DUNLOP",
+    "description_ro": "Set sigurante 28 pcs DUNLOP (Код: 49636, Штрихкод: 8711252496368)."
   },
   {
     "sku": "RP-06168",
@@ -9549,7 +10029,9 @@
         "price_mdl": 20.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Sigurante auto plug-in 6 buc Dunlop",
+    "description_ro": "Sigurante auto plug-in 6 buc Dunlop (Код: 06168, Штрихкод: 8711252061689)."
   },
   {
     "sku": "RP-06170",
@@ -9580,7 +10062,9 @@
         "price_mdl": 20.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Sigurante auto 10buc DUNLOP",
+    "description_ro": "Sigurante auto 10buc DUNLOP (Код: 06170, Штрихкод: 8711252061702)."
   },
   {
     "sku": "RP-06175",
@@ -9611,7 +10095,9 @@
         "price_mdl": 23.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Sigurante auto mini 10 buc DUNLOP",
+    "description_ro": "Sigurante auto mini 10 buc DUNLOP (Код: 06175, Штрихкод: 8711252061757)."
   },
   {
     "sku": "RP-06251",
@@ -9642,7 +10128,9 @@
         "price_mdl": 33.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Parasolar metalic/ alb 130x60 cm",
+    "description_ro": "Parasolar metalic/ alb 130x60 cm (Код: 06251, Штрихкод: 8711252062518)."
   },
   {
     "sku": "RP-06869",
@@ -9673,7 +10161,9 @@
         "price_mdl": 26.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Bureta p/u Torpedou",
+    "description_ro": "Bureta p/u Torpedou (Код: 06869, Штрихкод: 8711252068695)."
   },
   {
     "sku": "RP-07882",
@@ -9704,7 +10194,9 @@
         "price_mdl": 23.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Bureta p/u sticla DUNLOP Sponge",
+    "description_ro": "Bureta p/u sticla DUNLOP Sponge (Код: 07882, Штрихкод: 8711252078823)."
   },
   {
     "sku": "RP-10621",
@@ -9735,7 +10227,9 @@
         "price_mdl": 28.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Button Cell 2 buc CR2032 Philips",
+    "description_ro": "Button Cell 2 buc CR2032 Philips (Код: 10621, Штрихкод: 4895229106215)."
   },
   {
     "sku": "RP-10931",
@@ -9766,7 +10260,9 @@
         "price_mdl": 68.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Cablu de incarcare tip C DLC2103A Philips",
+    "description_ro": "Cablu de incarcare tip C DLC2103A Philips (Код: 10931, Штрихкод: 4895229109315)."
   },
   {
     "sku": "RP-11238",
@@ -9797,7 +10293,9 @@
         "price_mdl": 255.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Cablu USB DLC5204V/00 NY Philips",
+    "description_ro": "Cablu USB DLC5204V/00 NY Philips (Код: 11238, Штрихкод: 4895229112384)."
   },
   {
     "sku": "RP-11246",
@@ -9828,7 +10326,9 @@
         "price_mdl": 68.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Cablu USB2.0 DLC3104U Philips 1,2m",
+    "description_ro": "Cablu USB2.0 DLC3104U Philips 1,2m (Код: 11246, Штрихкод: 4895229112469)."
   },
   {
     "sku": "RP-47213",
@@ -9859,7 +10359,9 @@
         "price_mdl": 41.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Cablu audio stereo 3.5 mm GRUNDIG",
+    "description_ro": "Cablu audio stereo 3.5 mm GRUNDIG (Код: 47213, Штрихкод: 8711252472133)."
   },
   {
     "sku": "RP-11271",
@@ -9890,7 +10392,9 @@
         "price_mdl": 28.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Buton Cell 2buc CR2016 Philips",
+    "description_ro": "Buton Cell 2buc CR2016 Philips (Код: 11271, Штрихкод: 4895229112711)."
   },
   {
     "sku": "RP-11321",
@@ -9921,7 +10425,9 @@
         "price_mdl": 28.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Button Cell 2 buc CR2025 Philips",
+    "description_ro": "Button Cell 2 buc CR2025 Philips (Код: 11321, Штрихкод: 4895229113213)."
   },
   {
     "sku": "RP-12109",
@@ -9952,7 +10458,9 @@
         "price_mdl": 49.5,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Cablu USB 1,2m DLC3104A/03 Philips",
+    "description_ro": "Cablu USB 1,2m DLC3104A/03 Philips (Код: 12109, Штрихкод: 4895229121096)."
   },
   {
     "sku": "RP-12111",
@@ -9983,7 +10491,9 @@
         "price_mdl": 49.5,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Cablu USB Android 1,2m Philips",
+    "description_ro": "Cablu USB Android 1,2m Philips (Код: 12111, Штрихкод: 4895229121119)."
   },
   {
     "sku": "RP-13866",
@@ -10014,7 +10524,9 @@
         "price_mdl": 62.5,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "USB Incarcator dual 2.1A DUNLOP",
+    "description_ro": "USB Incarcator dual 2.1A DUNLOP (Код: 13866, Штрихкод: 8711252138664)."
   },
   {
     "sku": "RP-15126",
@@ -10045,7 +10557,9 @@
         "price_mdl": 42.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Laveta din microfibra interior DUNLOP 35x35 cm",
+    "description_ro": "Laveta din microfibra interior DUNLOP 35x35 cm (Код: 15126, Штрихкод: 8711252151267)."
   },
   {
     "sku": "RP-15128",
@@ -10076,7 +10590,9 @@
         "price_mdl": 38.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Laveta din microfibra Metal Polish",
+    "description_ro": "Laveta din microfibra Metal Polish (Код: 15128, Штрихкод: 8711252151281)."
   },
   {
     "sku": "RP-15129",
@@ -10107,7 +10623,9 @@
         "price_mdl": 23.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Cirpa din microfibra Window",
+    "description_ro": "Cirpa din microfibra Window (Код: 15129, Штрихкод: 8711252151298)."
   },
   {
     "sku": "RP-15130",
@@ -10138,7 +10656,9 @@
         "price_mdl": 25.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Cirpa din microfibra p/u piele Leather",
+    "description_ro": "Cirpa din microfibra p/u piele Leather (Код: 15130, Штрихкод: 8711252151304)."
   },
   {
     "sku": "RP-41812",
@@ -10169,7 +10689,9 @@
         "price_mdl": 67.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Laveta din microfibra 2buc DUNLOP",
+    "description_ro": "Laveta din microfibra 2buc DUNLOP (Код: 41812, Штрихкод: 8711252418124)."
   },
   {
     "sku": "RP-41813",
@@ -10200,7 +10722,9 @@
         "price_mdl": 36.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Laveta din microfibra MF",
+    "description_ro": "Laveta din microfibra MF (Код: 41813, Штрихкод: 8711252418131)."
   },
   {
     "sku": "RP-17823",
@@ -10231,7 +10755,9 @@
         "price_mdl": 82.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Laveta de curate 2 buc XL",
+    "description_ro": "Laveta de curate 2 buc XL (Код: 17823, Штрихкод: 8711252178233)."
   },
   {
     "sku": "RP-17829",
@@ -10262,7 +10788,9 @@
         "price_mdl": 75.5,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Laveta din microfibra 3buc DUNLOP",
+    "description_ro": "Laveta din microfibra 3buc DUNLOP (Код: 17829, Штрихкод: 8711252178295)."
   },
   {
     "sku": "RP-47701",
@@ -10293,7 +10821,9 @@
         "price_mdl": 124.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Set de curatare interioara 3as",
+    "description_ro": "Set de curatare interioara 3as (Код: 47701, Штрихкод: 8711252477015)."
   },
   {
     "sku": "RP-19637",
@@ -10324,7 +10854,9 @@
         "price_mdl": 84.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Suport magnetic telefon Holder",
+    "description_ro": "Suport magnetic telefon Holder (Код: 19637, Штрихкод: 8711252196374)."
   },
   {
     "sku": "RP-41800",
@@ -10355,7 +10887,9 @@
         "price_mdl": 46.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Airfresh Sport DUNLOP",
+    "description_ro": "Airfresh Sport DUNLOP (Код: 41800, Штрихкод: 8711252418001)."
   },
   {
     "sku": "RP-16576",
@@ -10386,7 +10920,9 @@
         "price_mdl": 45.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Airfresh Car 3x8 ml scents Dunlop",
+    "description_ro": "Airfresh Car 3x8 ml scents Dunlop (Код: 16576, Штрихкод: 8711252165769)."
   },
   {
     "sku": "RP-18075",
@@ -10417,7 +10953,9 @@
         "price_mdl": 52.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Airfreshener auto Twins 2 buc",
+    "description_ro": "Airfreshener auto Twins 2 buc (Код: 18075, Штрихкод: 8711252180755)."
   },
   {
     "sku": "RP-86898",
@@ -10448,7 +10986,9 @@
         "price_mdl": 67.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Cockpit cleaner Lemon 500ml DUNLOP",
+    "description_ro": "Cockpit cleaner Lemon 500ml DUNLOP (Код: 86898, Штрихкод: 8711252868981)."
   },
   {
     "sku": "RP-86899",
@@ -10479,7 +11019,9 @@
         "price_mdl": 67.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Cockpit cleaner Vanille 500ml DUNLOP",
+    "description_ro": "Cockpit cleaner Vanille 500ml DUNLOP (Код: 86899, Штрихкод: 8711252868998)."
   },
   {
     "sku": "RP-86900",
@@ -10510,7 +11052,9 @@
         "price_mdl": 63.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Glass cleaner 500ml DUNLOP",
+    "description_ro": "Glass cleaner 500ml DUNLOP (Код: 86900, Штрихкод: 8711252869001)."
   },
   {
     "sku": "RP-86962",
@@ -10541,7 +11085,9 @@
         "price_mdl": 70.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Leather cleaner 500ml DUNLOP",
+    "description_ro": "Leather cleaner 500ml DUNLOP (Код: 86962, Штрихкод: 8711252869629)."
   },
   {
     "sku": "RP-06814",
@@ -10572,7 +11118,9 @@
         "price_mdl": 45.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Polish torpedou 225 ml",
+    "description_ro": "Polish torpedou 225 ml (Код: 06814, Штрихкод: 8711252068145)."
   },
   {
     "sku": "RP-08164",
@@ -10603,7 +11151,9 @@
         "price_mdl": 95.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Polish torpedou 750 ml Lemon",
+    "description_ro": "Polish torpedou 750 ml Lemon (Код: 08164, Штрихкод: 8711252081649)."
   },
   {
     "sku": "RP-08936",
@@ -10634,7 +11184,9 @@
         "price_mdl": 95.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Polish torpedou 750 ml Neutral",
+    "description_ro": "Polish torpedou 750 ml Neutral (Код: 08936, Штрихкод: 8711252089362)."
   },
   {
     "sku": "RP-10055",
@@ -10665,7 +11217,9 @@
         "price_mdl": 45.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Gaz Butan Spray 227 gr",
+    "description_ro": "Gaz Butan Spray 227 gr (Код: 10055, Штрихкод: 8711252100555)."
   },
   {
     "sku": "RP-26810",
@@ -10696,7 +11250,9 @@
         "price_mdl": 65.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Servetele umede auto p/u interior 40 buc",
+    "description_ro": "Servetele umede auto p/u interior 40 buc (Код: 26810, Штрихкод: 8711252268101)."
   },
   {
     "sku": "RP-86783",
@@ -10727,7 +11283,9 @@
         "price_mdl": 72.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Solutie cu actiune multipla Dunlop",
+    "description_ro": "Solutie cu actiune multipla Dunlop (Код: 86783, Штрихкод: 8711252867830)."
   },
   {
     "sku": "RP-86797",
@@ -10758,7 +11316,9 @@
         "price_mdl": 70.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Solutie p/u plastic 500 ml Dunlop",
+    "description_ro": "Solutie p/u plastic 500 ml Dunlop (Код: 86797, Штрихкод: 8711252867977)."
   },
   {
     "sku": "RP-86955",
@@ -10789,7 +11349,9 @@
         "price_mdl": 70.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Solutie lustruire anvelope 500 ml Dunlop",
+    "description_ro": "Solutie lustruire anvelope 500 ml Dunlop (Код: 86955, Штрихкод: 8711252869551)."
   },
   {
     "sku": "MOL-ALYCOL-COOL-CONC",
@@ -10834,7 +11396,9 @@
         "price_mdl": 3510,
         "label": "58 л (65 кг)"
       }
-    ]
+    ],
+    "name_ro": "Концентрат антифриза MOL AlycolCool Concentrate (Розовый)",
+    "description_ro": "Концентрат охлаждающей жидкости MOL AlycolCool на основе моноэтиленгликоля без нитритов, аминов, силикатов, боратов и фосфатов."
   },
   {
     "sku": "MOL-ALYCOL-COOL-READY35",
@@ -10865,7 +11429,9 @@
         "price_mdl": 7150,
         "label": "206 л (Бочка)"
       }
-    ]
+    ],
+    "name_ro": "Antigel MOL Alycol Cool Ready -35°C (Бочка 206 л)",
+    "description_ro": "Готовая охлаждающая жидкость MOL Alycol Cool Ready -35°C в фасовке бочка 206 л (220 кг)."
   },
   {
     "sku": "MOL-EVOX-PREMIUM-CONC",
@@ -10928,7 +11494,9 @@
         "price_mdl": 12760,
         "label": "197 л (Бочка)"
       }
-    ]
+    ],
+    "name_ro": "Концентрат антифриза MOL EVOX Premium Concentrate G12/G12+ (Красный)",
+    "description_ro": "Карбоксилатный концентрат антифриза высшего класса MOL EVOX Premium G12/G12+ pentru motoare pe benzină și diesel."
   },
   {
     "sku": "MOL-EVOX-PREMIUM-READY35",
@@ -10964,7 +11532,9 @@
         "price_mdl": 7790,
         "label": "205 л (Бочка)"
       }
-    ]
+    ],
+    "name_ro": "Antigel MOL EVOX Premium Ready -35°C G12/G12+ (Бочка 205 л)",
+    "description_ro": "Готовый карбоксилатный антифриз MOL EVOX Premium Ready -35°C класса G12/G12+ в промышленной фасовке 205 л (220 кг)."
   },
   {
     "sku": "MOL-ALYCOL-CHERRY-WINTER",
@@ -11002,7 +11572,9 @@
         "price_mdl": 140,
         "label": "4 л"
       }
-    ]
+    ],
+    "name_ro": "Lichid de spălare parbriz зимний MOL Alycol Cherry -20°C (Вишня)",
+    "description_ro": "Высокоэффективная зимняя жидкость для омывателя стекла MOL Alycol с приятным ароматом вишни (до -20°C)."
   },
   {
     "sku": "MOL-ALYCOL-SUMMER-CHERRY",
@@ -11040,7 +11612,9 @@
         "price_mdl": 81,
         "label": "4 л"
       }
-    ]
+    ],
+    "name_ro": "Lichid de spălare parbriz летний MOL Alycol Summer Cherry (Вишня)",
+    "description_ro": "Летний концентрированный омыватель стекол MOL Alycol Summer Cherry для эффективного удаления следов насекомых и дорожной грязи."
   },
   {
     "sku": "MOL-ALYCOL-SUMMER-CITRUS",
@@ -11071,7 +11645,9 @@
         "price_mdl": 46,
         "label": "2 л"
       }
-    ]
+    ],
+    "name_ro": "Lichid de spălare parbriz летний MOL Alycol Summer Citrus (Цитрус)",
+    "description_ro": "Летняя стеклоомывающая жидкость MOL Alycol Summer Citrus с освежающим цитрусовым ароматом."
   },
   {
     "sku": "YUKO-SHRUS4-375G",
@@ -11106,7 +11682,9 @@
         "price_mdl": 60.0,
         "label": "375 г"
       }
-    ]
+    ],
+    "name_ro": "Vaselină YUKO ШРУС-4 (375 г дойпак)",
+    "description_ro": "Пластичная автомобильная смазка YUKO ШРУС-4 с дисульфидом молибдена в удобной упаковке дойпак со штуцером (375 г)."
   },
   {
     "sku": "YUKO-TAD17M-1L",
@@ -11137,7 +11715,9 @@
         "price_mdl": 65.0,
         "label": "1 л"
       }
-    ]
+    ],
+    "name_ro": "Масло трансмиссионное YUKO ТАД-17м 85W-90 GL-5 (1 л)",
+    "description_ro": "Универсальное mineral трансмиссионное масло YUKO ТАД-17м SAE 85W-90 класса API GL-5 для автомобильных трансмиссий."
   },
   {
     "sku": "YUKO-CLASSIC-15W40",
@@ -11171,7 +11751,9 @@
         "price_mdl": 229.0,
         "label": "4 л"
       }
-    ]
+    ],
+    "name_ro": "Ulei de motor YUKO CLASSIC 15W-40",
+    "description_ro": "Mineral моторное масло YUKO CLASSIC 15W-40 pentru motoare pe benzină și diesel автомобилей."
   },
   {
     "sku": "YUKO-VEGA-10W40",
@@ -11205,7 +11787,9 @@
         "price_mdl": 229.0,
         "label": "4 л"
       }
-    ]
+    ],
+    "name_ro": "Ulei de motor YUKO VEGA SYNT 10W-40",
+    "description_ro": "Semisintetic моторное масло YUKO VEGA SYNT 10W-40 свысокими защитными и моющими свойствами."
   },
   {
     "sku": "YUKO-SYNETIC-5W30",
@@ -11232,7 +11816,9 @@
         "price_mdl": 81.0,
         "label": "1 л"
       }
-    ]
+    ],
+    "name_ro": "Ulei de motor YUKO Synetic 5W-30 (1 л)",
+    "description_ro": "Современное sintetic моторное масло YUKO Synetic 5W-30 для легкого запуска и экономии топлива."
   },
   {
     "sku": "YUKO-SYNETIC-5W40",
@@ -11259,7 +11845,9 @@
         "price_mdl": 81.0,
         "label": "1 л"
       }
-    ]
+    ],
+    "name_ro": "Ulei de motor YUKO Synetic 5W-40 (1 л)",
+    "description_ro": "Sintetic моторное масло YUKO Synetic 5W-40 для максимальной защиты двигателя в широком диапазоне температур."
   },
   {
     "sku": "YUKO-VEGA-5W40",
@@ -11286,7 +11874,9 @@
         "price_mdl": 68.0,
         "label": "1 л"
       }
-    ]
+    ],
+    "name_ro": "Ulei de motor YUKO VEGA SYNT 5W-40 (1 л)",
+    "description_ro": "Semisintetic моторное масло YUKO VEGA SYNT 5W-40 для эффективной защиты современного автотранспорта."
   },
   {
     "sku": "YUKO-MOTOMIX-2T",
@@ -11313,7 +11903,9 @@
         "price_mdl": 60.0,
         "label": "1 л"
       }
-    ]
+    ],
+    "name_ro": "Масло моторное YUKO MOTOMIX 2T (1 л)",
+    "description_ro": "Специальное моторное масло YUKO MOTOMIX 2T для двухтактных двигателей бензопил, газонокосилок и мототехники."
   },
   {
     "sku": "YUKO-SCOOTER-2T",
@@ -11340,7 +11932,9 @@
         "price_mdl": 69.0,
         "label": "1 л"
       }
-    ]
+    ],
+    "name_ro": "Масло моторное YUKO SCOOTER SYNT 2T (1 л)",
+    "description_ro": "Sintetic моторное масло YUKO SCOOTER SYNT 2T для современных двухтактных скутеров и мопедов."
   },
   {
     "sku": "YUKO-4T-10W40",
@@ -11371,7 +11965,9 @@
         "price_mdl": 68.5,
         "label": "1 л"
       }
-    ]
+    ],
+    "name_ro": "Масло моторное YUKO SEMISYNTETIC 4T 10W-40 (1 л)",
+    "description_ro": "Semisintetic масло YUKO SEMISYNTETIC 4T SAE 10W-40 для четырехтактных двигателей мотоциклов и квадроциклов."
   },
   {
     "sku": "YUKO-PSF-1L",
@@ -11398,7 +11994,9 @@
         "price_mdl": 61.5,
         "label": "1 л"
       }
-    ]
+    ],
+    "name_ro": "Жидкость гидроусилителя руля YUKO PSF (1 л)",
+    "description_ro": "Специальная гидравлическая жидкость YUKO PSF для приводов гидроусилителя рулевого управления (ГУР)."
   },
   {
     "sku": "WD40-MULTI-SPRAY",
@@ -11474,7 +12072,9 @@
         "price_mdl": 155,
         "label": "450 мл (Smart Straw)"
       }
-    ]
+    ],
+    "name_ro": "Многофункциональная смазка WD-40 (Аэрозоль)",
+    "description_ro": "Легендарный многофункциональный аэрозоль WD-40: вытесняет влагу, защищает от коррозии, освобождает заржавевшие детали и устраняет скрип."
   },
   {
     "sku": "MOL-DYN-ESS-DIESEL-5W40",
@@ -11519,7 +12119,9 @@
         "price_mdl": 5005.0,
         "label": "57 л"
       }
-    ]
+    ],
+    "name_ro": "Ulei de motor MOL Dynamic Essence Diesel 5W-40",
+    "description_ro": "Sintetic моторное масло MOL Dynamic Essence Diesel 5W-40 для легковых дизельных двигателей."
   },
   {
     "sku": "MOL-DYN-PRIMA-5W40",
@@ -11571,7 +12173,9 @@
         "price_mdl": 22687.0,
         "label": "199 л (Бочка)"
       }
-    ]
+    ],
+    "name_ro": "Ulei de motor MOL Dynamic Prima 5W-40",
+    "description_ro": "Sintetic ulei Low SAPS MOL Dynamic Prima 5W-40 DPF для современных авто с фильтром сажи."
   },
   {
     "sku": "MOL-DYN-GOLD-5W40",
@@ -11623,7 +12227,9 @@
         "price_mdl": 22187.0,
         "label": "199 л (Бочка)"
       }
-    ]
+    ],
+    "name_ro": "Ulei de motor MOL Dynamic Gold 5W-40",
+    "description_ro": "Премиальное sintetic моторное масло MOL Dynamic Gold 5W-40 pentru motoare pe benzină și diesel."
   },
   {
     "sku": "MOL-DYN-GOLD-LONGLIFE-5W30",
@@ -11668,7 +12274,9 @@
         "price_mdl": 7480.0,
         "label": "55 л"
       }
-    ]
+    ],
+    "name_ro": "Ulei de motor MOL Dynamic Gold Longlife 5W-30",
+    "description_ro": "Sintetic моторное масло высшего качества MOL Dynamic Gold Longlife 5W-30 с официальными допусками VW 504 00/507 00."
   },
   {
     "sku": "MOL-ESSENCE-10W40",
@@ -11713,7 +12321,9 @@
         "price_mdl": 4936.0,
         "label": "57 л"
       }
-    ]
+    ],
+    "name_ro": "Ulei de motor MOL Essence 10W-40",
+    "description_ro": "Semisintetic моторное масло MOL Essence 10W-40 pentru motoare pe benzină și diesel."
   },
   {
     "sku": "MOL-DYN-MAX-10W40",
@@ -11765,7 +12375,9 @@
         "price_mdl": 16585.0,
         "label": "198 л (Бочка)"
       }
-    ]
+    ],
+    "name_ro": "Ulei de motor MOL Dynamic Max 10W-40 (LKW camioane)",
+    "description_ro": "Semisintetic масло MOL Dynamic Max 10W-40 pentru motoare diesel тяжелого коммерческого транспорта."
   },
   {
     "sku": "MOL-DYN-TRANSIT-10W40",
@@ -11810,7 +12422,9 @@
         "price_mdl": 15985.0,
         "label": "201 л (Бочка)"
       }
-    ]
+    ],
+    "name_ro": "Ulei de motor MOL Dynamic Transit 10W-40 (LKW camioane)",
+    "description_ro": "Универсальное масло MOL Dynamic Transit 10W-40 для высоконагруженных дизелей смешанных автопарков."
   },
   {
     "sku": "MOL-HYKOMOL-80W90",
@@ -11862,7 +12476,9 @@
         "price_mdl": 12122.0,
         "label": "201 л (Бочка)"
       }
-    ]
+    ],
+    "name_ro": "Ulei de transmisie MOL Hykomol 80W-90 GL-4",
+    "description_ro": "Ulei de transmisie MOL Hykomol SAE 80W-90 класса API GL-4 для механических коробок передач и редукторов."
   },
   {
     "sku": "MOL-HYKOMOL-K-80W90",
@@ -11914,7 +12530,9 @@
         "price_mdl": 12684.0,
         "label": "200 л (Бочка)"
       }
-    ]
+    ],
+    "name_ro": "Ulei de transmisie MOL Hykomol K 80W-90 GL-5",
+    "description_ro": "Ulei de transmisie MOL Hykomol K SAE 80W-90 класса API GL-5 для ведомых мостов и гипоидных передач."
   },
   {
     "sku": "MOL-HYKOMOL-SYNT-75W90",
@@ -11966,7 +12584,9 @@
         "price_mdl": 59610.0,
         "label": "195 л (Бочка)"
       }
-    ]
+    ],
+    "name_ro": "Ulei de transmisie MOL Hykomol Synt 75W-90 GL-4/GL-5",
+    "description_ro": "Sintetic трансмиссионное масло MOL Hykomol Synt 75W-90 высшего качества для всех типов коробок передач."
   },
   {
     "sku": "MOL-ATF-3G",
@@ -12000,7 +12620,9 @@
         "price_mdl": 5692.5,
         "label": "55 л"
       }
-    ]
+    ],
+    "name_ro": "Ulei de transmisie MOL ATF 3G (Dexron III)",
+    "description_ro": "Жидкость для автоматических коробок передач MOL ATF 3G класса Dexron III, MAN 339 V-1 / Z-1."
   },
   {
     "sku": "MOL-DSG-DCT-FLUID",
@@ -12027,7 +12649,9 @@
         "price_mdl": 218.0,
         "label": "1 л"
       }
-    ]
+    ],
+    "name_ro": "Ulei de transmisie MOL DSG / DCT Fluid (1 л)",
+    "description_ro": "Специальная жидкость MOL DSG / DCT Fluid для роботизированных коробок передач с двоичным сцеплением."
   },
   {
     "sku": "MOL-CVT-FLUID",
@@ -12054,7 +12678,9 @@
         "price_mdl": 187.0,
         "label": "1 л"
       }
-    ]
+    ],
+    "name_ro": "Ulei de transmisie MOL CVT Fluid (1 л)",
+    "description_ro": "Специальная трансмиссионная жидкость MOL CVT Fluid для бесступенчатых вариаторных коробок передач."
   },
   {
     "sku": "MOL-LITON-LT-2EP-0375",
@@ -12081,7 +12707,9 @@
         "price_mdl": 75.0,
         "label": "375 г"
       }
-    ]
+    ],
+    "name_ro": "Vaselină MOL Liton LT 2 EP (0.375 кг дойпак)",
+    "description_ro": "Многоцелевая литиевая пластичная смазка MOL Liton LT 2 EP в удобной упаковке дойпак 375 г."
   },
   {
     "sku": "MOL-FAVORIT-2-BLUE-0400",
@@ -12112,7 +12740,9 @@
         "price_mdl": 124.0,
         "label": "400 г"
       }
-    ]
+    ],
+    "name_ro": "Vaselină MOL Favorit 2 Blue (0.400 кг cartuș)",
+    "description_ro": "Высокотемпературная литиево-комплексная смазка синего цвета MOL Favorit 2 Blue для высоких нагрузок."
   },
   {
     "sku": "CC-61223",
@@ -12147,7 +12777,9 @@
         "price_mdl": 98.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Банка стеклянная Bociaga 3L с краном",
+    "description_ro": "Автомобильный аксессуар Car Commerce Банка стеклянная Bociaga 3L с краном (Артикул: 61223, Cod de bare EAN: 5907470612235)."
   },
   {
     "sku": "CC-61224",
@@ -12182,7 +12814,9 @@
         "price_mdl": 98.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Банка стеклянная Bociaga 5L с краном",
+    "description_ro": "Автомобильный аксессуар Car Commerce Банка стеклянная Bociaga 5L с краном (Артикул: 61224, Cod de bare EAN: 5907470612242)."
   },
   {
     "sku": "CC-61225",
@@ -12217,7 +12851,9 @@
         "price_mdl": 98.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Банка стеклянная Bociaga 6L с краном",
+    "description_ro": "Автомобильный аксессуар Car Commerce Банка стеклянная Bociaga 6L с краном (Артикул: 61225, Cod de bare EAN: 5907470612259)."
   },
   {
     "sku": "CC-61226",
@@ -12252,7 +12888,9 @@
         "price_mdl": 98.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Кувшин стеклянный Bociaga 3L",
+    "description_ro": "Автомобильный аксессуар Car Commerce Кувшин стеклянный Bociaga 3L (Артикул: 61226, Cod de bare EAN: 5907470612266)."
   },
   {
     "sku": "CC-61227",
@@ -12287,7 +12925,9 @@
         "price_mdl": 98.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Кувшин стеклянный Bociaga 5L",
+    "description_ro": "Автомобильный аксессуар Car Commerce Кувшин стеклянный Bociaga 5L (Артикул: 61227, Cod de bare EAN: 5907470612273)."
   },
   {
     "sku": "CC-61228",
@@ -12322,7 +12962,9 @@
         "price_mdl": 98.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Кувшин стеклянный Bociaga 6L",
+    "description_ro": "Автомобильный аксессуар Car Commerce Кувшин стеклянный Bociaga 6L (Артикул: 61228, Cod de bare EAN: 5907470612280)."
   },
   {
     "sku": "CC-42791",
@@ -12357,7 +12999,9 @@
         "price_mdl": 31.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Burete для мойки авто Car Commerce Sponge",
+    "description_ro": "Автомобильный аксессуар Car Commerce Губка для мойки авто Car Commerce Sponge (Артикул: 42791, Cod de bare EAN: 5907470427914)."
   },
   {
     "sku": "CC-42218",
@@ -12392,7 +13036,9 @@
         "price_mdl": 14.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Рукавица из микрофибры для мойки авто",
+    "description_ro": "Автомобильный аксессуар Car Commerce Рукавица из микрофибры для мойки авто (Артикул: 42218, Cod de bare EAN: 5907470422186)."
   },
   {
     "sku": "CC-42564",
@@ -12427,7 +13073,9 @@
         "price_mdl": 51.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Полотенце из микрофибры для сушки кузова",
+    "description_ro": "Автомобильный аксессуар Car Commerce Полотенце из микрофибры для сушки кузова (Артикул: 42564, Cod de bare EAN: 5907470425644)."
   },
   {
     "sku": "CC-42125",
@@ -12462,7 +13110,9 @@
         "price_mdl": 49.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Подушка-губка для мойки автомобиля",
+    "description_ro": "Автомобильный аксессуар Car Commerce Подушка-губка для мойки автомобиля (Артикул: 42125, Cod de bare EAN: 5907470421256)."
   },
   {
     "sku": "CC-42512",
@@ -12497,7 +13147,9 @@
         "price_mdl": 68.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Подушка-накидка на сиденье водонепроницаемая",
+    "description_ro": "Автомобильный аксессуар Car Commerce Подушка-накидка на сиденье водонепроницаемая (Артикул: 42512, Cod de bare EAN: 5907470425125)."
   },
   {
     "sku": "CC-42517",
@@ -12532,7 +13184,9 @@
         "price_mdl": 140.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Husă scaun auto с подогревом 12V",
+    "description_ro": "Автомобильный аксессуар Car Commerce Накидка на сиденье с подогревом 12V (Артикул: 42517, Cod de bare EAN: 5907470425170)."
   },
   {
     "sku": "CC-42520",
@@ -12567,7 +13221,9 @@
         "price_mdl": 179.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Накидка с подогревом 12V с регулятором",
+    "description_ro": "Автомобильный аксессуар Car Commerce Накидка с подогревом 12V с регулятором (Артикул: 42520, Cod de bare EAN: 5907470425200)."
   },
   {
     "sku": "CC-42522",
@@ -12602,7 +13258,9 @@
         "price_mdl": 117.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Массажная накидка на сиденье (бамбуковые шарики)",
+    "description_ro": "Автомобильный аксессуар Car Commerce Массажная накидка на сиденье (бамбуковые шарики) (Артикул: 42522, Cod de bare EAN: 5907470425224)."
   },
   {
     "sku": "CC-42103",
@@ -12637,7 +13295,9 @@
         "price_mdl": 17.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Скребок для льда с теплой перчаткой",
+    "description_ro": "Автомобильный аксессуар Car Commerce Скребок для льда с теплой перчаткой (Артикул: 42103, Cod de bare EAN: 5907470421034)."
   },
   {
     "sku": "CC-42223",
@@ -12672,7 +13332,9 @@
         "price_mdl": 30.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Perie для мойки авто со скребком",
+    "description_ro": "Автомобильный аксессуар Car Commerce Щетка для мойки авто со скребком (Артикул: 42223, Cod de bare EAN: 5907470422230)."
   },
   {
     "sku": "CC-42225",
@@ -12707,7 +13369,9 @@
         "price_mdl": 59.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Perie для мойки с телескопической рукояткой",
+    "description_ro": "Автомобильный аксессуар Car Commerce Щетка для мойки с телескопической рукояткой (Артикул: 42225, Cod de bare EAN: 5907470422254)."
   },
   {
     "sku": "CC-42144",
@@ -12742,7 +13406,9 @@
         "price_mdl": 52.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Cablu de tractare 3Т с крюками",
+    "description_ro": "Автомобильный аксессуар Car Commerce Трос буксировочный 3Т с крюками (Артикул: 42144, Cod de bare EAN: 5907470421447)."
   },
   {
     "sku": "CC-42220",
@@ -12777,7 +13443,9 @@
         "price_mdl": 117.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Cablu de tractare эластичный 3.5Т",
+    "description_ro": "Автомобильный аксессуар Car Commerce Трос буксировочный эластичный 3.5Т (Артикул: 42220, Cod de bare EAN: 5907470422209)."
   },
   {
     "sku": "CC-42109",
@@ -12812,7 +13480,9 @@
         "price_mdl": 17.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Рамка номерного знака Inox (Нержавейка)",
+    "description_ro": "Автомобильный аксессуар Car Commerce Рамка номерного знака Inox (Нержавейка) (Артикул: 42109, Cod de bare EAN: 5907470421096)."
   },
   {
     "sku": "CC-42116",
@@ -12847,7 +13517,9 @@
         "price_mdl": 27.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Вилка розетки прицепа 7-контактная",
+    "description_ro": "Автомобильный аксессуар Car Commerce Вилка розетки прицепа 7-контактная (Артикул: 42116, Cod de bare EAN: 5907470421164)."
   },
   {
     "sku": "CC-42500",
@@ -12882,7 +13554,9 @@
         "price_mdl": 90.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Набор ремней для багажа 2.5m 2шт 2T",
+    "description_ro": "Автомобильный аксессуар Car Commerce Набор ремней для багажа 2.5m 2шт 2T (Артикул: 42500, Cod de bare EAN: 5907470425002)."
   },
   {
     "sku": "CC-42501",
@@ -12917,7 +13591,9 @@
         "price_mdl": 213.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Набор стяжных ремней 5m 2шт 2T",
+    "description_ro": "Автомобильный аксессуар Car Commerce Набор стяжных ремней 5m 2шт 2T (Артикул: 42501, Cod de bare EAN: 5907470425019)."
   },
   {
     "sku": "CC-42171",
@@ -12952,7 +13628,9 @@
         "price_mdl": 47.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Насос ножной 1 поршневой",
+    "description_ro": "Автомобильный аксессуар Car Commerce Насос ножной 1 поршневой (Артикул: 42171, Cod de bare EAN: 5907470421714)."
   },
   {
     "sku": "CC-42119",
@@ -12987,7 +13665,9 @@
         "price_mdl": 72.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Насос ножной двухпоршневой с манометром 7 bar",
+    "description_ro": "Автомобильный аксессуар Car Commerce Насос ножной двухпоршневой с манометром 7 bar (Артикул: 42119, Cod de bare EAN: 5907470421195)."
   },
   {
     "sku": "CC-42114",
@@ -13022,7 +13702,9 @@
         "price_mdl": 72.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Насос ручной с манометром",
+    "description_ro": "Автомобильный аксессуар Car Commerce Насос ручной с манометром (Артикул: 42114, Cod de bare EAN: 5907470421140)."
   },
   {
     "sku": "CC-42188",
@@ -13057,7 +13739,9 @@
         "price_mdl": 74.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Аварийный LED знак-треугольник",
+    "description_ro": "Автомобильный аксессуар Car Commerce Аварийный LED знак-треугольник (Артикул: 42188, Cod de bare EAN: 5907470421882)."
   },
   {
     "sku": "CC-42189",
@@ -13092,7 +13776,9 @@
         "price_mdl": 60.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Сигнальная LED лампа аварийная",
+    "description_ro": "Автомобильный аксессуар Car Commerce Сигнальная LED лампа аварийная (Артикул: 42189, Cod de bare EAN: 5907470421899)."
   },
   {
     "sku": "CC-42190",
@@ -13127,7 +13813,9 @@
         "price_mdl": 60.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Сигнальная LED лампа на магните",
+    "description_ro": "Автомобильный аксессуар Car Commerce Сигнальная LED лампа на магните (Артикул: 42190, Cod de bare EAN: 5907470421905)."
   },
   {
     "sku": "CC-42191",
@@ -13162,7 +13850,9 @@
         "price_mdl": 44.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Сигнальная LED лампа на батарейках",
+    "description_ro": "Автомобильный аксессуар Car Commerce Сигнальная LED лампа на батарейках (Артикул: 42191, Cod de bare EAN: 5907470421912)."
   },
   {
     "sku": "CC-42192",
@@ -13197,7 +13887,9 @@
         "price_mdl": 60.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Сигнальная спецлампа LED 12-24V",
+    "description_ro": "Автомобильный аксессуар Car Commerce Сигнальная спецлампа LED 12-24V (Артикул: 42192, Cod de bare EAN: 5907470421929)."
   },
   {
     "sku": "CC-42193",
@@ -13232,7 +13924,9 @@
         "price_mdl": 61.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Магнитная импульсная LED лампа",
+    "description_ro": "Автомобильный аксессуар Car Commerce Магнитная импульсная LED лампа (Артикул: 42193, Cod de bare EAN: 5907470421936)."
   },
   {
     "sku": "CC-42194",
@@ -13267,7 +13961,9 @@
         "price_mdl": 91.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Сигнальная LED лампа на штыре",
+    "description_ro": "Автомобильный аксессуар Car Commerce Сигнальная LED лампа на штыре (Артикул: 42194, Cod de bare EAN: 5907470421943)."
   },
   {
     "sku": "CC-42195",
@@ -13302,7 +13998,9 @@
         "price_mdl": 91.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Магнитный LED маяк на штыре",
+    "description_ro": "Автомобильный аксессуар Car Commerce Магнитный LED маяк на штыре (Артикул: 42195, Cod de bare EAN: 5907470421950)."
   },
   {
     "sku": "CC-42527",
@@ -13337,7 +14035,9 @@
         "price_mdl": 127.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Лампа-гирофар светодиодная 12/24V на магните",
+    "description_ro": "Автомобильный аксессуар Car Commerce Лампа-гирофар светодиодная 12/24V на магните (Артикул: 42527, Cod de bare EAN: 5907470425279)."
   },
   {
     "sku": "CC-42528",
@@ -13372,7 +14072,9 @@
         "price_mdl": 127.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Лампа-гирофар светодиодная 12/24V на штыре",
+    "description_ro": "Автомобильный аксессуар Car Commerce Лампа-гирофар светодиодная 12/24V на штыре (Артикул: 42528, Cod de bare EAN: 5907470425286)."
   },
   {
     "sku": "CC-42105",
@@ -13407,7 +14109,9 @@
         "price_mdl": 7.5,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Воронка для заливки топлива",
+    "description_ro": "Автомобильный аксессуар Car Commerce Воронка для заливки топлива (Артикул: 42105, Cod de bare EAN: 5907470421058)."
   },
   {
     "sku": "CC-42444",
@@ -13442,7 +14146,9 @@
         "price_mdl": 272.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Cric hidraulic бутылочный 2Т",
+    "description_ro": "Автомобильный аксессуар Car Commerce Домкрат гидравлический бутылочный 2Т (Артикул: 42444, Cod de bare EAN: 5907470424443)."
   },
   {
     "sku": "CC-42475",
@@ -13477,7 +14183,9 @@
         "price_mdl": 253.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Cric hidraulic подкатной 2Т",
+    "description_ro": "Автомобильный аксессуар Car Commerce Домкрат гидравлический подкатной 2Т (Артикул: 42475, Cod de bare EAN: 5907470424757)."
   },
   {
     "sku": "CC-42485",
@@ -13512,7 +14220,9 @@
         "price_mdl": 243.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Cric hidraulic бутылочный 5Т",
+    "description_ro": "Автомобильный аксессуар Car Commerce Домкрат гидравлический бутылочный 5Т (Артикул: 42485, Cod de bare EAN: 5907470424856)."
   },
   {
     "sku": "CC-42391",
@@ -13547,7 +14257,9 @@
         "price_mdl": 122.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Зеркала мертвой зоны панорамные 2шт",
+    "description_ro": "Автомобильный аксессуар Car Commerce Зеркала мертвой зоны панорамные 2шт (Артикул: 42391, Cod de bare EAN: 5907470423916)."
   },
   {
     "sku": "CC-42392",
@@ -13582,7 +14294,9 @@
         "price_mdl": 143.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Зеркала мертвой зоны регулируемые 2шт",
+    "description_ro": "Автомобильный аксессуар Car Commerce Зеркала мертвой зоны регулируемые 2шт (Артикул: 42392, Cod de bare EAN: 5907470423923)."
   },
   {
     "sku": "CC-42428",
@@ -13617,7 +14331,9 @@
         "price_mdl": 188.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Зеркало заднего вида на клипсах",
+    "description_ro": "Автомобильный аксессуар Car Commerce Зеркало заднего вида на клипсах (Артикул: 42428, Cod de bare EAN: 5907470424283)."
   },
   {
     "sku": "CC-42507",
@@ -13652,7 +14368,9 @@
         "price_mdl": 96.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Зеркало заднего вида панорамное",
+    "description_ro": "Автомобильный аксессуар Car Commerce Зеркало заднего вида панорамное (Артикул: 42507, Cod de bare EAN: 5907470425071)."
   },
   {
     "sku": "CC-42099",
@@ -13687,7 +14405,9 @@
         "price_mdl": 181.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Зеркало салонное с регулировкой",
+    "description_ro": "Автомобильный аксессуар Car Commerce Зеркало салонное с регулировкой (Артикул: 42099, Cod de bare EAN: 5907470420990)."
   },
   {
     "sku": "CC-42133",
@@ -13722,7 +14442,9 @@
         "price_mdl": 20.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Наклейка «Ученик за рулем»",
+    "description_ro": "Автомобильный аксессуар Car Commerce Наклейка «Ученик за рулем» (Артикул: 42133, Cod de bare EAN: 5907470421331)."
   },
   {
     "sku": "CC-42152",
@@ -13757,7 +14479,9 @@
         "price_mdl": 6.8,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Mănuși рабочие с резиновым покрытием (размер 10 XL)",
+    "description_ro": "Автомобильный аксессуар Car Commerce Перчатки рабочие с резиновым покрытием (размер 10 XL) (Артикул: 42152, Cod de bare EAN: 5907470421522)."
   },
   {
     "sku": "CC-42308",
@@ -13792,7 +14516,9 @@
         "price_mdl": 11.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Диск тормозной декоративный / сувенирный 100mm 1шт",
+    "description_ro": "Автомобильный аксессуар Car Commerce Диск тормозной декоративный / сувенирный 100mm 1шт (Артикул: 42308, Cod de bare EAN: 5907470423081)."
   },
   {
     "sku": "CC-42309",
@@ -13827,7 +14553,9 @@
         "price_mdl": 20.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Диски отрезные по металлу 115mm 1шт",
+    "description_ro": "Автомобильный аксессуар Car Commerce Диски отрезные по металлу 115mm 1шт (Артикул: 42309, Cod de bare EAN: 5907470423098)."
   },
   {
     "sku": "CC-42157",
@@ -13862,7 +14590,9 @@
         "price_mdl": 21.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Диски отрезные по металлу 125mm 1шт",
+    "description_ro": "Автомобильный аксессуар Car Commerce Диски отрезные по металлу 125mm 1шт (Артикул: 42157, Cod de bare EAN: 5907470421577)."
   },
   {
     "sku": "CC-42168",
@@ -13897,7 +14627,9 @@
         "price_mdl": 25.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Диски отрезные по металлу 230mm 1шт",
+    "description_ro": "Автомобильный аксессуар Car Commerce Диски отрезные по металлу 230mm 1шт (Артикул: 42168, Cod de bare EAN: 5907470421683)."
   },
   {
     "sku": "CC-42161",
@@ -13932,7 +14664,9 @@
         "price_mdl": 13.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Выключатель массы аккумулятора",
+    "description_ro": "Автомобильный аксессуар Car Commerce Выключатель массы аккумулятора (Артикул: 42161, Cod de bare EAN: 5907470421614)."
   },
   {
     "sku": "CC-42487",
@@ -13967,7 +14701,9 @@
         "price_mdl": 34.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Термометр электронный авто с LCD дисплеем",
+    "description_ro": "Автомобильный аксессуар Car Commerce Термометр электронный авто с LCD дисплеем (Артикул: 42487, Cod de bare EAN: 5907470424870)."
   },
   {
     "sku": "CC-42176",
@@ -14002,7 +14738,9 @@
         "price_mdl": 55.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Знак аварийной остановки сертифицированный",
+    "description_ro": "Автомобильный аксессуар Car Commerce Знак аварийной остановки сертифицированный (Артикул: 42176, Cod de bare EAN: 5907470421765)."
   },
   {
     "sku": "CC-42403",
@@ -14037,7 +14775,9 @@
         "price_mdl": 15.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Предохранители керамические цилиндрические 10шт",
+    "description_ro": "Автомобильный аксессуар Car Commerce Предохранители керамические цилиндрические 10шт (Артикул: 42403, Cod de bare EAN: 5907470424036)."
   },
   {
     "sku": "CC-42405",
@@ -14072,7 +14812,9 @@
         "price_mdl": 20.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Предохранители флажковые Standard 10шт",
+    "description_ro": "Автомобильный аксессуар Car Commerce Предохранители флажковые Standard 10шт (Артикул: 42405, Cod de bare EAN: 5907470424050)."
   },
   {
     "sku": "CC-42407",
@@ -14107,7 +14849,9 @@
         "price_mdl": 19.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Предохранители флажковые Mini 10шт",
+    "description_ro": "Автомобильный аксессуар Car Commerce Предохранители флажковые Mini 10шт (Артикул: 42407, Cod de bare EAN: 5907470424074)."
   },
   {
     "sku": "CC-42408",
@@ -14142,7 +14886,9 @@
         "price_mdl": 20.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Предохранители флажковые Micro 10шт",
+    "description_ro": "Автомобильный аксессуар Car Commerce Предохранители флажковые Micro 10шт (Артикул: 42408, Cod de bare EAN: 5907470424081)."
   },
   {
     "sku": "CC-42566",
@@ -14177,7 +14923,9 @@
         "price_mdl": 30.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Провода пусковые (прикуриватель) 200A 2.5m",
+    "description_ro": "Автомобильный аксессуар Car Commerce Провода пусковые (прикуриватель) 200A 2.5m (Артикул: 42566, Cod de bare EAN: 5907470425668)."
   },
   {
     "sku": "CC-42568",
@@ -14212,7 +14960,9 @@
         "price_mdl": 38.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Провода пусковые 400A 3.5m",
+    "description_ro": "Автомобильный аксессуар Car Commerce Провода пусковые 400A 3.5m (Артикул: 42568, Cod de bare EAN: 5907470425682)."
   },
   {
     "sku": "CC-42570",
@@ -14247,7 +14997,9 @@
         "price_mdl": 50.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Провода пусковые 600A 3.5m",
+    "description_ro": "Автомобильный аксессуар Car Commerce Провода пусковые 600A 3.5m (Артикул: 42570, Cod de bare EAN: 5907470425705)."
   },
   {
     "sku": "CC-42572",
@@ -14282,7 +15034,9 @@
         "price_mdl": 79.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Провода пусковые 900A 4m",
+    "description_ro": "Автомобильный аксессуар Car Commerce Провода пусковые 900A 4m (Артикул: 42572, Cod de bare EAN: 5907470425729)."
   },
   {
     "sku": "CC-42583",
@@ -14317,7 +15071,9 @@
         "price_mdl": 50.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Провода пусковые профессиональные 400A 3.5m",
+    "description_ro": "Автомобильный аксессуар Car Commerce Провода пусковые профессиональные 400A 3.5m (Артикул: 42583, Cod de bare EAN: 5907470425835)."
   },
   {
     "sku": "CC-42585",
@@ -14352,7 +15108,9 @@
         "price_mdl": 70.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Провода пусковые профессиональные 600A 3.5m",
+    "description_ro": "Автомобильный аксессуар Car Commerce Провода пусковые профессиональные 600A 3.5m (Артикул: 42585, Cod de bare EAN: 5907470425859)."
   },
   {
     "sku": "CC-42207",
@@ -14387,7 +15145,9 @@
         "price_mdl": 24.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Манометр для измерения давления в шинах",
+    "description_ro": "Автомобильный аксессуар Car Commerce Манометр для измерения давления в шинах (Артикул: 42207, Cod de bare EAN: 5907470422070)."
   },
   {
     "sku": "CC-42524",
@@ -14422,7 +15182,9 @@
         "price_mdl": 12.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Столик автомобильный на руль/сиденье Car Commerce",
+    "description_ro": "Автомобильный аксессуар Car Commerce Столик автомобильный на руль/сиденье Car Commerce (Артикул: 42524, Cod de bare EAN: 5907470425248)."
   },
   {
     "sku": "CC-42515",
@@ -14457,7 +15219,9 @@
         "price_mdl": 12.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Perie для чистки колесных дисков",
+    "description_ro": "Автомобильный аксессуар Car Commerce Щетка для чистки колесных дисков (Артикул: 42515, Cod de bare EAN: 5907470425156)."
   },
   {
     "sku": "CC-42432",
@@ -14492,7 +15256,9 @@
         "price_mdl": 12.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Водосгон с губкой для мытья стекол 20см",
+    "description_ro": "Автомобильный аксессуар Car Commerce Водосгон с губкой для мытья стекол 20см (Артикул: 42432, Cod de bare EAN: 5907470424320)."
   },
   {
     "sku": "CC-42172",
@@ -14527,7 +15293,9 @@
         "price_mdl": 8.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Сетка багажная крепления груза",
+    "description_ro": "Автомобильный аксессуар Car Commerce Сетка багажная крепления груза (Артикул: 42172, Cod de bare EAN: 5907470421721)."
   },
   {
     "sku": "CC-42079",
@@ -14562,7 +15330,9 @@
         "price_mdl": 27.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Лента двухсторонняя клейкая автомобильная",
+    "description_ro": "Автомобильный аксессуар Car Commerce Лента двухсторонняя клейкая автомобильная (Артикул: 42079, Cod de bare EAN: 5907470420792)."
   },
   {
     "sku": "CC-42167",
@@ -14597,7 +15367,9 @@
         "price_mdl": 22.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Скребок для льда усиленный",
+    "description_ro": "Автомобильный аксессуар Car Commerce Скребок для льда усиленный (Артикул: 42167, Cod de bare EAN: 5907470421676)."
   },
   {
     "sku": "CC-42426",
@@ -14632,7 +15404,9 @@
         "price_mdl": 50.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Compresor автомобильный 12V 250PSI",
+    "description_ro": "Автомобильный аксессуар Car Commerce Компрессор автомобильный 12V 250PSI (Артикул: 42426, Cod de bare EAN: 5907470424269)."
   },
   {
     "sku": "CC-42141",
@@ -14667,7 +15441,9 @@
         "price_mdl": 60.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Compresor автомобильный 12V 300PSI",
+    "description_ro": "Автомобильный аксессуар Car Commerce Компрессор автомобильный 12V 300PSI (Артикул: 42141, Cod de bare EAN: 5907470421416)."
   },
   {
     "sku": "CC-42150",
@@ -14702,7 +15478,9 @@
         "price_mdl": 85.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Compresor авто 12V 35L/min 10 BAR",
+    "description_ro": "Автомобильный аксессуар Car Commerce Компрессор авто 12V 35L/min 10 BAR (Артикул: 42150, Cod de bare EAN: 5907470421508)."
   },
   {
     "sku": "CC-42147",
@@ -14737,7 +15515,9 @@
         "price_mdl": 80.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Încărcător acumulator auto АКБ 6V/12V 4A",
+    "description_ro": "Автомобильный аксессуар Car Commerce Зарядное устройство АКБ 6V/12V 4A (Артикул: 42147, Cod de bare EAN: 5907470421478)."
   },
   {
     "sku": "CC-42546",
@@ -14772,7 +15552,9 @@
         "price_mdl": 82.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Încărcător acumulator auto АКБ 12V 6A/8A LCD инвертор",
+    "description_ro": "Автомобильный аксессуар Car Commerce Зарядное устройство АКБ 12V 6A/8A LCD инвертор (Артикул: 42546, Cod de bare EAN: 5907470425461)."
   },
   {
     "sku": "CC-42143",
@@ -14807,7 +15589,9 @@
         "price_mdl": 125.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Încărcător acumulator auto АКБ 12V 4A с LCD дисплеем",
+    "description_ro": "Автомобильный аксессуар Car Commerce Зарядное устройство АКБ 12V 4A с LCD дисплеем (Артикул: 42143, Cod de bare EAN: 5907470421430)."
   },
   {
     "sku": "CC-42169",
@@ -14842,7 +15626,9 @@
         "price_mdl": 100.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Насос перекачки топлива и жидкостей",
+    "description_ro": "Автомобильный аксессуар Car Commerce Насос перекачки топлива и жидкостей (Артикул: 42169, Cod de bare EAN: 5907470421690)."
   },
   {
     "sku": "CC-42574",
@@ -14877,7 +15663,9 @@
         "price_mdl": 64.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Invertor auto 12V-220V 150W USB Car Commerce",
+    "description_ro": "Автомобильный аксессуар Car Commerce Инвертор автомобильный 12V-220V 150W USB Car Commerce (Артикул: 42574, Cod de bare EAN: 5907470425743)."
   },
   {
     "sku": "CC-42575",
@@ -14912,7 +15700,9 @@
         "price_mdl": 64.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Invertor auto 12V-220V 300W USB Car Commerce",
+    "description_ro": "Автомобильный аксессуар Car Commerce Инвертор автомобильный 12V-220V 300W USB Car Commerce (Артикул: 42575, Cod de bare EAN: 5907470425750)."
   },
   {
     "sku": "CC-42576",
@@ -14947,7 +15737,9 @@
         "price_mdl": 88.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Invertor auto 12V-220V 500W USB Car Commerce",
+    "description_ro": "Автомобильный аксессуар Car Commerce Инвертор автомобильный 12V-220V 500W USB Car Commerce (Артикул: 42576, Cod de bare EAN: 5907470425767)."
   },
   {
     "sku": "CC-42577",
@@ -14982,7 +15774,9 @@
         "price_mdl": 88.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Invertor auto 12V-220V 1000W USB Car Commerce",
+    "description_ro": "Автомобильный аксессуар Car Commerce Инвертор автомобильный 12V-220V 1000W USB Car Commerce (Артикул: 42577, Cod de bare EAN: 5907470425774)."
   },
   {
     "sku": "CC-42578",
@@ -15017,7 +15811,9 @@
         "price_mdl": 61.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Invertor auto 12V-220V 1500W USB Car Commerce",
+    "description_ro": "Автомобильный аксессуар Car Commerce Инвертор автомобильный 12V-220V 1500W USB Car Commerce (Артикул: 42578, Cod de bare EAN: 5907470425781)."
   },
   {
     "sku": "CC-42579",
@@ -15052,7 +15848,9 @@
         "price_mdl": 65.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Invertor auto 12V-220V 2000W USB Car Commerce",
+    "description_ro": "Автомобильный аксессуар Car Commerce Инвертор автомобильный 12V-220V 2000W USB Car Commerce (Артикул: 42579, Cod de bare EAN: 5907470425798)."
   },
   {
     "sku": "CC-42539",
@@ -15087,7 +15885,9 @@
         "price_mdl": 70.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Car Commerce Aerotermă auto 12V 150W 2 в 1 (Тепло/Обдув)",
+    "description_ro": "Автомобильный аксессуар Car Commerce Обогреватель салона 12V 150W 2 в 1 (Тепло/Обдув) (Артикул: 42539, Cod de bare EAN: 5907470425393)."
   },
   {
     "sku": "MOL-EVOX-EVO-READY35",
@@ -15148,7 +15948,9 @@
         "price_mdl": 7790.0,
         "label": "205 л (Бочка)"
       }
-    ]
+    ],
+    "name_ro": "Antigel MOL EVOX EVO Ready -35°C (Розовый G12 EVO / G12++ / G13)",
+    "description_ro": "Инновационный готовый лобридный антифриз MOL EVOX EVO Ready (-35°C) стандарта G12 EVO, G12++, G13 для современных автомобильных двигателей."
   },
   {
     "sku": "MOL-EVOX-EVO-CONC",
@@ -15202,7 +16004,9 @@
         "price_mdl": 12411.0,
         "label": "205 л (Бочка)"
       }
-    ]
+    ],
+    "name_ro": "Концентрат антифриза MOL EVOX EVO Concentrate (Розовый G12 EVO / G12++ / G13)",
+    "description_ro": "Концентрат лобридного антифриза высшего поколения MOL EVOX EVO Concentrate (G12 EVO, G12++, G13) pentru motoare pe benzină și diesel."
   },
   {
     "sku": "FW-3800125820876",
@@ -15233,7 +16037,9 @@
         "price_mdl": 12.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Odorizant auto Fresh Way Dry Apple & Cinnamon (Яблоко Корица)",
+    "description_ro": "Odorizant auto și de cameră Ароматизатор Fresh Way Dry Apple & Cinnamon (Яблоко Корица) (Cod de bare EAN: 3800125820876). Producție Fresh Way (Bulgaria)."
   },
   {
     "sku": "FW-3800125820456",
@@ -15264,7 +16070,9 @@
         "price_mdl": 12.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Odorizant auto Fresh Way Cotton Dry (Свежий хлопок)",
+    "description_ro": "Odorizant auto și de cameră Ароматизатор Fresh Way Cotton Dry (Свежий хлопок) (Cod de bare EAN: 3800125820456). Producție Fresh Way (Bulgaria)."
   },
   {
     "sku": "FW-3800125815186",
@@ -15295,7 +16103,9 @@
         "price_mdl": 11.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Odorizant auto Fresh Way Moldova Dry Airfreshner",
+    "description_ro": "Odorizant auto și de cameră Ароматизатор Fresh Way Moldova Dry Airfreshner (Cod de bare EAN: 3800125815186). Producție Fresh Way (Bulgaria)."
   },
   {
     "sku": "FW-3800125814349",
@@ -15326,7 +16136,9 @@
         "price_mdl": 9.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Odorizant auto Fresh Way Dry Smile",
+    "description_ro": "Odorizant auto și de cameră Ароматизатор Fresh Way Dry Smile (Cod de bare EAN: 3800125814349). Producție Fresh Way (Bulgaria)."
   },
   {
     "sku": "FW-3800125800014",
@@ -15357,7 +16169,9 @@
         "price_mdl": 9.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Odorizant auto Fresh Way Spa Dry",
+    "description_ro": "Odorizant auto și de cameră Ароматизатор Fresh Way Spa Dry (Cod de bare EAN: 3800125800014). Producție Fresh Way (Bulgaria)."
   },
   {
     "sku": "FW-3800125810204",
@@ -15388,7 +16202,9 @@
         "price_mdl": 10.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Odorizant auto Fresh Way Sport Dry",
+    "description_ro": "Odorizant auto și de cameră Ароматизатор Fresh Way Sport Dry (Cod de bare EAN: 3800125810204). Producție Fresh Way (Bulgaria)."
   },
   {
     "sku": "FW-3800125815421",
@@ -15419,7 +16235,9 @@
         "price_mdl": 20.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Odorizant auto Fresh Way X-Style Dry Airfreshner",
+    "description_ro": "Odorizant auto și de cameră Ароматизатор Fresh Way X-Style Dry Airfreshner (Cod de bare EAN: 3800125815421). Producție Fresh Way (Bulgaria)."
   },
   {
     "sku": "FW-3800125800014-USD",
@@ -15450,7 +16268,9 @@
         "price_mdl": 9.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Odorizant auto Fresh Way Dry USD Dollar ($)",
+    "description_ro": "Odorizant auto și de cameră Ароматизатор Fresh Way Dry USD Dollar ($) (Cod de bare EAN: 3800125800014-USD). Producție Fresh Way (Bulgaria)."
   },
   {
     "sku": "FW-3800125800014-EUR",
@@ -15481,7 +16301,9 @@
         "price_mdl": 9.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Odorizant auto Fresh Way Dry EURO (€)",
+    "description_ro": "Odorizant auto și de cameră Ароматизатор Fresh Way Dry EURO (€) (Cod de bare EAN: 3800125800014-EUR). Producție Fresh Way (Bulgaria)."
   },
   {
     "sku": "FW-3800125821118",
@@ -15512,7 +16334,9 @@
         "price_mdl": 12.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Odorizant auto Fresh Way Mandarin Dry (Мандарин)",
+    "description_ro": "Odorizant auto și de cameră Ароматизатор Fresh Way Mandarin Dry (Мандарин) (Cod de bare EAN: 3800125821118). Producție Fresh Way (Bulgaria)."
   },
   {
     "sku": "FW-3800125800014-GEN",
@@ -15543,7 +16367,9 @@
         "price_mdl": 9.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Odorizant auto Fresh Way Dry Classic",
+    "description_ro": "Odorizant auto și de cameră Ароматизатор Fresh Way Dry Classic (Cod de bare EAN: 3800125800014-GEN). Producție Fresh Way (Bulgaria)."
   },
   {
     "sku": "FW-3800125817630",
@@ -15574,7 +16400,9 @@
         "price_mdl": 12.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Odorizant auto Fresh Way Dry Camouflage",
+    "description_ro": "Odorizant auto și de cameră Ароматизатор Fresh Way Dry Camouflage (Cod de bare EAN: 3800125817630). Producție Fresh Way (Bulgaria)."
   },
   {
     "sku": "FW-3800125820142",
@@ -15605,7 +16433,9 @@
         "price_mdl": 54.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Odorizant auto Fresh Way Freshimals (Звери)",
+    "description_ro": "Odorizant auto și de cameră Ароматизатор Fresh Way Freshimals (Звери) (Cod de bare EAN: 3800125820142). Producție Fresh Way (Bulgaria)."
   },
   {
     "sku": "FW-3800125815926",
@@ -15636,7 +16466,9 @@
         "price_mdl": 13.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Odorizant auto Fresh Way Dry Aces (Тузы)",
+    "description_ro": "Odorizant auto și de cameră Ароматизатор Fresh Way Dry Aces (Тузы) (Cod de bare EAN: 3800125815926). Producție Fresh Way (Bulgaria)."
   },
   {
     "sku": "FW-3800125809826",
@@ -15667,7 +16499,9 @@
         "price_mdl": 15.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Odorizant auto Fresh Way Dry Triple",
+    "description_ro": "Odorizant auto și de cameră Ароматизатор Fresh Way Dry Triple (Cod de bare EAN: 3800125809826). Producție Fresh Way (Bulgaria)."
   },
   {
     "sku": "FW-3800125815903",
@@ -15698,7 +16532,9 @@
         "price_mdl": 15.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Odorizant auto Fresh Way Pop Triple Dry",
+    "description_ro": "Odorizant auto și de cameră Ароматизатор Fresh Way Pop Triple Dry (Cod de bare EAN: 3800125815903). Producție Fresh Way (Bulgaria)."
   },
   {
     "sku": "FW-3800125819320",
@@ -15729,7 +16565,9 @@
         "price_mdl": 17.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Odorizant auto Fresh Way Dry Saveur D'Orient (Восточный)",
+    "description_ro": "Odorizant auto și de cameră Ароматизатор Fresh Way Dry Saveur D'Orient (Восточный) (Cod de bare EAN: 3800125819320). Producție Fresh Way (Bulgaria)."
   },
   {
     "sku": "FW-3800125803015",
@@ -15760,7 +16598,9 @@
         "price_mdl": 25.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Odorizant auto lichid Fresh Way Liquid Bliss",
+    "description_ro": "Odorizant auto și de cameră Жидкий ароматизатор Fresh Way Liquid Bliss (Cod de bare EAN: 3800125803015). Producție Fresh Way (Bulgaria)."
   },
   {
     "sku": "FW-3800125817562",
@@ -15791,7 +16631,9 @@
         "price_mdl": 20.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Odorizant auto fiolă Fresh Way Ampule So Fresh",
+    "description_ro": "Odorizant auto și de cameră Ароматизатор в ампуле Fresh Way Ampule So Fresh (Cod de bare EAN: 3800125817562). Producție Fresh Way (Bulgaria)."
   },
   {
     "sku": "FW-3800125819764",
@@ -15822,7 +16664,9 @@
         "price_mdl": 23.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Odorizant auto fiolă Fresh Way Ampule Camouflage",
+    "description_ro": "Odorizant auto și de cameră Ароматизатор в ампуле Fresh Way Ampule Camouflage (Cod de bare EAN: 3800125819764). Producție Fresh Way (Bulgaria)."
   },
   {
     "sku": "FW-3800125816770",
@@ -15853,7 +16697,9 @@
         "price_mdl": 25.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Odorizant auto fiolă Fresh Way Ampule Sport",
+    "description_ro": "Odorizant auto și de cameră Ароматизатор в ампуле Fresh Way Ampule Sport (Cod de bare EAN: 3800125816770). Producție Fresh Way (Bulgaria)."
   },
   {
     "sku": "FW-3800125809420",
@@ -15884,7 +16730,9 @@
         "price_mdl": 28.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Odorizant auto din lemn Fresh Way Dr.-Wood Liquid Blister",
+    "description_ro": "Odorizant auto și de cameră Деревянный ароматизатор Fresh Way Dr.-Wood Liquid Blister (Cod de bare EAN: 3800125809420). Producție Fresh Way (Bulgaria)."
   },
   {
     "sku": "FW-3800125809628",
@@ -15915,7 +16763,9 @@
         "price_mdl": 35.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Odorizant auto din lemn Fresh Way Dr.-Wood Liquid +30% Gratis",
+    "description_ro": "Odorizant auto și de cameră Деревянный ароматизатор Fresh Way Dr.-Wood Liquid +30% Gratis (Cod de bare EAN: 3800125809628). Producție Fresh Way (Bulgaria)."
   },
   {
     "sku": "FW-3800125815759",
@@ -15946,7 +16796,9 @@
         "price_mdl": 30.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Bile gel odorizante Fresh Way Scented Pearls",
+    "description_ro": "Odorizant auto și de cameră Гелевые шарики Fresh Way Scented Pearls (Cod de bare EAN: 3800125815759). Producție Fresh Way (Bulgaria)."
   },
   {
     "sku": "FW-3800125820357",
@@ -15977,7 +16829,9 @@
         "price_mdl": 80.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Difuzor parfum Fresh Way Home Diffuser 50 мл",
+    "description_ro": "Odorizant auto și de cameră Диффузор парфюмерный Fresh Way Home Diffuser 50 мл (Cod de bare EAN: 3800125820357). Producție Fresh Way (Bulgaria)."
   },
   {
     "sku": "FW-3800125813373",
@@ -16008,7 +16862,9 @@
         "price_mdl": 100.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Difuzor parfum Fresh Way Home Diffuser 100 мл",
+    "description_ro": "Odorizant auto și de cameră Диффузор парфюмерный Fresh Way Home Diffuser 100 мл (Cod de bare EAN: 3800125813373). Producție Fresh Way (Bulgaria)."
   },
   {
     "sku": "FW-3800125856646",
@@ -16039,7 +16895,9 @@
         "price_mdl": 140.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Difuzor parfum Fresh Way Home Diffuser 150 мл",
+    "description_ro": "Odorizant auto și de cameră Диффузор парфюмерный Fresh Way Home Diffuser 150 мл (Cod de bare EAN: 3800125856646). Producție Fresh Way (Bulgaria)."
   },
   {
     "sku": "FW-3800125",
@@ -16070,7 +16928,9 @@
         "price_mdl": 150.0,
         "label": "1 шт"
       }
-    ]
+    ],
+    "name_ro": "Odorizant auto premium Fresh Way Diamond Airfreshner",
+    "description_ro": "Odorizant auto și de cameră Премиум ароматизатор Fresh Way Diamond Airfreshner (Cod de bare EAN: 3800125). Producție Fresh Way (Bulgaria)."
   },
   {
     "sku": "MOL-TURBO-DIESEL-15W40",
@@ -16129,7 +16989,9 @@
         "price_mdl": 12240.0,
         "label": "204 л (Бочка)"
       }
-    ]
+    ],
+    "name_ro": "Ulei de motor MOL Turbo Diesel 15W-40 (LKW camioane)",
+    "description_ro": "Mineral моторное масло MOL Turbo Diesel 15W-40 pentru motoare diesel de mare tonaj грузовых автомобилей."
   },
   {
     "sku": "MOL-TRANSIT-15W40",
@@ -16174,7 +17036,9 @@
         "price_mdl": 13398.0,
         "label": "203 л (Бочка)"
       }
-    ]
+    ],
+    "name_ro": "Ulei de motor MOL Transit 15W-40 (LKW camioane)",
+    "description_ro": "Mineral моторное масло MOL Transit 15W-40 pentru motoare diesel стандартов Euro III и Euro IV."
   },
   {
     "sku": "MOL-GLOBAL-DIESEL-15W40",
@@ -16226,7 +17090,9 @@
         "price_mdl": 20286.0,
         "label": "207 л (Бочка)"
       }
-    ]
+    ],
+    "name_ro": "Ulei de motor MOL Global Diesel 15W-40 (LKW camioane)",
+    "description_ro": "Ulei de motor MOL Global Diesel 15W-40 pentru motoare diesel грузовиков cu interval extins de schimb."
   },
   {
     "sku": "MOL-SYNT-DIESEL-10W40",
@@ -16271,7 +17137,9 @@
         "price_mdl": 18135.0,
         "label": "195 л (Бочка)"
       }
-    ]
+    ],
+    "name_ro": "Ulei de motor MOL Synt Diesel 10W-40 (LKW camioane)",
+    "description_ro": "Sintetic моторное масло MOL Synt Diesel 10W-40 для систем EGR/SCR дизелей Euro III, IV, V (до 100 000 км)."
   },
   {
     "sku": "MOL-MISTRAL-10W40",
@@ -16316,7 +17184,9 @@
         "price_mdl": 15464.0,
         "label": "197 л (Бочка)"
       }
-    ]
+    ],
+    "name_ro": "Ulei de motor MOL Mistral 10W-40 DPF (LKW camioane)",
+    "description_ro": "Sintetic ulei Low SAPS MOL Mistral 10W-40 DPF pentru motoare diesel Euro IV, Euro V с фильтром DPF/EGR/SCR."
   },
   {
     "sku": "MOL-MISTRAL-5W30",
@@ -16354,7 +17224,9 @@
         "price_mdl": 6655.0,
         "label": "55 л"
       }
-    ]
+    ],
+    "name_ro": "Ulei de motor MOL Mistral 5W-30 DPF Euro VI (LKW camioane)",
+    "description_ro": "Высокоэффективное sintetic ulei Low SAPS MOL Mistral 5W-30 длявейших дизелей Euro VI (до 100 000 км)."
   },
   {
     "sku": "MOL-MISTRAL-XTS-5W30",
@@ -16392,7 +17264,9 @@
         "price_mdl": 22869.0,
         "label": "198 л (Бочка)"
       }
-    ]
+    ],
+    "name_ro": "Ulei de motor MOL Mistral XTS 5W-30 (LKW camioane)",
+    "description_ro": "Премиальное sintetic масло MOL Mistral XTS 5W-30 pentru motoare diesel тяжелых грузовиков Scania, DAF, MAN, Volvo."
   },
   {
     "sku": "MOL-LITON-00-GM-7KG",
@@ -16408,7 +17282,9 @@
         "price_mdl": 1475.0,
         "label": "7 кг"
       }
-    ]
+    ],
+    "name_ro": "Vaselină MOL Liton 00 GM (7 кг)",
+    "description_ro": ""
   },
   {
     "sku": "MOL-LITON-LT-2EP-0250",
@@ -16424,7 +17300,9 @@
         "price_mdl": 78.0,
         "label": "250 г"
       }
-    ]
+    ],
+    "name_ro": "Vaselină MOL Liton LT 2 EP (250 г)",
+    "description_ro": ""
   },
   {
     "sku": "MOL-LITON-LT-2EP-0400",
@@ -16440,7 +17318,9 @@
         "price_mdl": 88.5,
         "label": "400 г"
       }
-    ]
+    ],
+    "name_ro": "Vaselină MOL Liton LT 2 EP (400 г cartuș)",
+    "description_ro": ""
   },
   {
     "sku": "MOL-LITON-LT-2EP-8KG",
@@ -16456,7 +17336,9 @@
         "price_mdl": 1365.0,
         "label": "8 кг"
       }
-    ]
+    ],
+    "name_ro": "Vaselină MOL Liton LT 2 EP (8 кг)",
+    "description_ro": ""
   },
   {
     "sku": "MOL-LITON-LT-2EP-18KG",
@@ -16472,7 +17354,9 @@
         "price_mdl": 2892.0,
         "label": "18 кг"
       }
-    ]
+    ],
+    "name_ro": "Vaselină MOL Liton LT 2 EP (18 кг)",
+    "description_ro": ""
   },
   {
     "sku": "MOL-FAVORIT-2-BLUE-8KG",
@@ -16488,7 +17372,9 @@
         "price_mdl": 1945.0,
         "label": "8 кг"
       }
-    ]
+    ],
+    "name_ro": "Vaselină MOL Favorit 2 Blue (8 кг)",
+    "description_ro": ""
   },
   {
     "sku": "MOL-FAVORIT-2-BLUE-18KG",
@@ -16504,6 +17390,8 @@
         "price_mdl": 4230.0,
         "label": "18 кг"
       }
-    ]
+    ],
+    "name_ro": "Vaselină MOL Favorit 2 Blue (18 кг găleată)",
+    "description_ro": ""
   }
 ]

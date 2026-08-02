@@ -27,6 +27,86 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // ==========================================================================
+    // I18N SYSTEM
+    // ==========================================================================
+    let currentLang = localStorage.getItem('radcor_lang') || 'ru';
+
+    function getI18nText(key) {
+        if (window.I18N && window.I18N[currentLang] && window.I18N[currentLang][key]) {
+            return window.I18N[currentLang][key];
+        }
+        if (window.I18N && window.I18N['ru'] && window.I18N['ru'][key]) {
+            return window.I18N['ru'][key];
+        }
+        return key;
+    }
+
+    function applyLanguage(lang) {
+        currentLang = lang;
+        localStorage.setItem('radcor_lang', lang);
+        document.documentElement.lang = lang;
+
+        // Update CATEGORY_LABELS
+        Object.keys(CATEGORY_LABELS).forEach(catKey => {
+            const i18nKey = `cat_${catKey.replace(/-/g, '_')}`;
+            if (window.I18N && window.I18N[lang] && window.I18N[lang][i18nKey]) {
+                CATEGORY_LABELS[catKey] = window.I18N[lang][i18nKey];
+            }
+        });
+
+        // Translate elements with data-i18n attribute
+        document.querySelectorAll('[data-i18n]').forEach(el => {
+            const key = el.getAttribute('data-i18n');
+            const text = getI18nText(key);
+            if (text) el.textContent = text;
+        });
+
+        // Translate elements with data-i18n-placeholder
+        document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
+            const key = el.getAttribute('data-i18n-placeholder');
+            const text = getI18nText(key);
+            if (text) el.placeholder = text;
+        });
+
+        // Update language selector active states
+        document.querySelectorAll('.lang-selector').forEach(selector => {
+            const links = selector.querySelectorAll('a, span');
+            links.forEach(link => {
+                const text = link.textContent.trim().toUpperCase();
+                if (text === 'RU' || text === 'RO') {
+                    if ((text === 'RU' && lang === 'ru') || (text === 'RO' && lang === 'ro')) {
+                        link.className = 'active';
+                    } else {
+                        link.className = 'lang-link';
+                    }
+                }
+            });
+        });
+
+        // Re-render catalog and cart if present
+        if (allProducts && allProducts.length > 0) {
+            renderCatalog();
+        }
+        updateCartDrawer();
+        document.body.setAttribute('data-i18n-ready', 'true');
+    }
+
+    // Language switcher click handlers
+    document.addEventListener('click', (e) => {
+        const langLink = e.target.closest('.lang-selector a, .lang-link');
+        if (langLink) {
+            e.preventDefault();
+            const lang = langLink.textContent.trim().toLowerCase();
+            if (lang === 'ru' || lang === 'ro') {
+                applyLanguage(lang);
+            }
+        }
+    });
+
+    // Initial apply language
+    applyLanguage(currentLang);
+
+    // ==========================================================================
     // CATEGORY LABEL MAP & HIERARCHY
     // ==========================================================================
     const CATEGORY_LABELS = {
@@ -392,17 +472,23 @@ document.addEventListener('DOMContentLoaded', () => {
         const hasExtraSpecs = drawerSpecs.filter(s => !['Допуски', 'Спецификации', 'Одобрения', 'Официальные допуски'].includes(s.label)).length > 0;
         let specActionBtnsHtml = '';
         if (approvalSpec || hasExtraSpecs) {
+            const approvalsLabel = getI18nText('product_btn_approvals');
+            const specsLabel = getI18nText('product_btn_specs');
             specActionBtnsHtml = `
                 <div class="product-card-spec-actions">
-                    ${approvalSpec ? `<button class="btn-card-spec-action btn-toggle-approvals" data-sku="${product.sku}">${shieldSvg}<span>Допуски</span></button>` : ''}
-                    ${hasExtraSpecs ? `<button class="btn-card-spec-action btn-toggle-details" data-sku="${product.sku}">${slidersSvg}<span>Характеристики</span></button>` : ''}
+                    ${approvalSpec ? `<button class="btn-card-spec-action btn-toggle-approvals" data-sku="${product.sku}">${shieldSvg}<span>${approvalsLabel}</span></button>` : ''}
+                    ${hasExtraSpecs ? `<button class="btn-card-spec-action btn-toggle-details" data-sku="${product.sku}">${slidersSvg}<span>${specsLabel}</span></button>` : ''}
                 </div>
             `;
         }
 
+        // Localized title & description
+        const prodName = currentLang === 'ro' && product.name_ro ? product.name_ro : product.name;
+        const prodDesc = currentLang === 'ro' && product.description_ro ? product.description_ro : product.description;
+
         // Image or placeholder
         const imgHtml = product.photo_url
-            ? `<img src="${product.photo_url}" alt="${product.name}" class="product-card-img" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            ? `<img src="${product.photo_url}" alt="${prodName}" class="product-card-img" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
                <span class="product-img-placeholder" style="display:none;">${svgIcon}</span>`
             : `<span class="product-img-placeholder">${svgIcon}</span>`;
 
@@ -419,6 +505,12 @@ document.addEventListener('DOMContentLoaded', () => {
         card.setAttribute('data-brand', product.brand || '');
         card.setAttribute('data-category', product.category || '');
 
+        const volLabel = currentLang === 'ro' ? 'Volum:' : 'Объём:';
+        const perLabel = currentLang === 'ro' ? 'per' : 'за';
+        const requestPriceLabel = getI18nText('product_price_request');
+        const requestBtnLabel = getI18nText('product_btn_request');
+        const addOrderLabel = getI18nText('cart_btn_add');
+
         card.innerHTML = `
             <div class="product-card-img-wrap">
                 ${imgHtml}
@@ -427,8 +519,8 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
             <div class="product-card-body">
                 <div class="product-sku code-font">${product.sku}</div>
-                <h3 class="product-card-title">${product.name}</h3>
-                ${product.description ? `<p class="product-card-desc">${product.description}</p>` : ''}
+                <h3 class="product-card-title">${prodName}</h3>
+                ${prodDesc ? `<p class="product-card-desc">${prodDesc}</p>` : ''}
                 ${mainSpecs.length > 0 ? `<div class="product-specs-mini">${specsHtml}</div>` : ''}
                 ${specActionBtnsHtml}
 
@@ -437,24 +529,24 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
 
                 <div class="product-volumes">
-                    <span class="volumes-label">Объём:</span>
+                    <span class="volumes-label">${volLabel}</span>
                     ${volTagsHtml}
                 </div>
                 <div class="product-card-footer">
                     ${product.category === 'industrial-lubricants' || product.price_on_request ? `
                         <div>
-                            <span class="product-price price-on-request">по запросу</span>
-                            <span class="product-price-unit">Тел: +373 685 50 595</span>
+                            <span class="product-price price-on-request">${requestPriceLabel}</span>
+                            <span class="product-price-unit">Tel: +373 685 50 595</span>
                         </div>
-                        <a href="tel:+37368550595" class="btn-add-cart btn-call-request">📞 Запросить</a>
+                        <a href="tel:+37368550595" class="btn-add-cart btn-call-request">📞 ${requestBtnLabel}</a>
                     ` : `
                         <div>
                             <span class="product-price" id="price-${product.sku}">${displayPrice} MDL</span>
-                            <span class="product-price-unit">за ${firstVol >= 1 ? firstVol + ' л' : (firstVol * 1000) + ' мл'}</span>
+                            <span class="product-price-unit">${perLabel} ${firstVol >= 1 ? firstVol + ' л' : (firstVol * 1000) + ' мл'}</span>
                         </div>
-                        <button class="btn-add-cart" data-sku="${product.sku}" data-name="${product.name}"
+                        <button class="btn-add-cart" data-sku="${product.sku}" data-name="${prodName}"
                                 data-price="${displayPrice}" data-vol="${firstVol}">
-                            + В заказ
+                            ${addOrderLabel}
                         </button>
                     `}
                 </div>
@@ -687,11 +779,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const keys = Object.keys(cartItems);
         if (keys.length === 0) {
-            list.innerHTML = '<p class="empty-cart-msg">Корзина пуста. Добавьте продукцию из каталога.</p>';
+            list.innerHTML = `<p class="empty-cart-msg">${getI18nText('cart_empty')}</p>`;
             if (count) count.textContent = '0';
             if (totalEl) totalEl.textContent = '0 MDL';
             if (volEl) volEl.textContent = '0 л';
-            if (delEl) delEl.textContent = `Осталось ${FREE_DELIVERY_THRESHOLD} MDL`;
+            const remText = currentLang === 'ro' ? 'Au rămas' : 'Осталось';
+            if (delEl) delEl.textContent = `${remText} ${FREE_DELIVERY_THRESHOLD} MDL`;
             return;
         }
 
@@ -702,13 +795,14 @@ document.addEventListener('DOMContentLoaded', () => {
             totalPrice += item.price * item.qty;
             totalVol   += item.vol * item.qty;
             const prod = allProducts.find(p => p.sku === item.sku);
+            const itemName = currentLang === 'ro' && prod && prod.name_ro ? prod.name_ro : item.name;
             const packMatch = prod && getProductPacks(prod).find(p => Number(p.volume_l) === Number(item.vol));
             const volLabel = (packMatch && packMatch.label) ? packMatch.label : (item.vol >= 1 ? `${item.vol} л` : `${item.vol * 1000} мл`);
             return `
             <div class="cart-item-row" data-key="${key}">
                 <div class="cart-item-info">
                     <div>
-                        <h4>${item.name}</h4>
+                        <h4>${itemName}</h4>
                         <span class="cart-item-sku">${item.sku} · ${volLabel}</span>
                     </div>
                     <span class="cart-item-price">${item.price * item.qty} MDL</span>
@@ -728,9 +822,11 @@ document.addEventListener('DOMContentLoaded', () => {
         if (totalEl) totalEl.textContent = `${totalPrice.toLocaleString()} MDL`;
         if (volEl) volEl.textContent = `${totalVol.toFixed(1)} л`;
         const remaining = Math.max(0, FREE_DELIVERY_THRESHOLD - totalPrice);
+        const remText = currentLang === 'ro' ? 'Au rămas' : 'Осталось';
+        const freeText = currentLang === 'ro' ? '✅ Livrare gratuită!' : '✅ Бесплатная доставка!';
         if (delEl) delEl.textContent = remaining > 0
-            ? `Осталось ${remaining.toLocaleString()} MDL`
-            : '✅ Бесплатная доставка!';
+            ? `${remText} ${remaining.toLocaleString()} MDL`
+            : freeText;
 
         // Event delegation on list
         list.querySelectorAll('.cart-qty-plus').forEach(btn => btn.addEventListener('click', () => {

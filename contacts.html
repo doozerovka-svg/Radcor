@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@500;700&family=Space+Mono&display=swap" rel="stylesheet">
     
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="style.css?v=25.0">
+    <link rel="stylesheet" href="style.css?v=26.0">
 </head>
 <body>
 
@@ -34,18 +34,18 @@
             
             <nav class="main-nav" id="mainNav">
                 <ul class="nav-links">
-                    <li><a href="catalog.html">Каталог</a></li>
-                    <li><a href="service.html">Автосервис</a></li>
-                    <li><a href="delivery.html">Доставка и оплата</a></li>
-                    <li><a href="returns.html">Гарантия и возврат</a></li>
-                    <li><a href="guides.html">Руководства</a></li>
-                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="catalog.html" data-i18n="nav_catalog">Каталог</a></li>
+                    <li><a href="service.html" data-i18n="nav_service">Автосервис</a></li>
+                    <li><a href="delivery.html" data-i18n="nav_delivery">Доставка и оплата</a></li>
+                    <li><a href="returns.html" data-i18n="nav_returns">Гарантия и возврат</a></li>
+                    <li><a href="guides.html" data-i18n="nav_guides">Руководства</a></li>
+                    <li><a href="faq.html" data-i18n="nav_faq">FAQ</a></li>
                     <li><a href="contacts.html" class="active">Контакты</a></li>
                 </ul>
                 <div class="nav-actions">
                     <a href="b2b-dashboard.html" class="btn-b2b double-border">B2B Кабинет</a>
                     <div class="lang-selector">
-                        <span class="active">RU</span>
+                        <a href="#" class="lang-link active">RU</a>
                         <span>|</span>
                         <a href="#" class="lang-link">RO</a>
                     </div>
@@ -150,6 +150,7 @@
     </footer>
 
     <!-- App Logic -->
-    <script src="app.js?v=25.0"></script>
+    <script src="i18n.js?v=26.0"></script>
+    <script src="app.js?v=26.0"></script>
 </body>
 </html>
