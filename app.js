@@ -461,10 +461,30 @@ document.addEventListener('DOMContentLoaded', () => {
               }).join('')
             : '<span class="volume-tag active" data-vol="1">—</span>';
 
+        const SPEC_LABEL_TRANSLATIONS = {
+            'Вязкость': 'Vâscozitate',
+            'Класс': 'Clasă',
+            'Объем': 'Volum',
+            'Допуски': 'Aprobări OEM',
+            'Спецификации': 'Specificații',
+            'Одобрения': 'Aprobări',
+            'Официальные допуски': 'Aprobări OEM',
+            'Производитель': 'Producător',
+            'Страна': 'Țară',
+            'Штрихкод EAN': 'Cod de bare EAN'
+        };
+
+        function getSpecLabel(label) {
+            if (currentLang === 'ro' && SPEC_LABEL_TRANSLATIONS[label]) {
+                return SPEC_LABEL_TRANSLATIONS[label];
+            }
+            return label;
+        }
+
         // Specs mini HTML (strictly 'Вязкость' and 'Класс' if present)
         const specsHtml = mainSpecs.map(s => `
             <div class="spec-mini-row">
-                <span class="spec-mini-label">${s.label}</span>
+                <span class="spec-mini-label">${getSpecLabel(s.label)}</span>
                 <span class="spec-mini-value">${s.value}</span>
             </div>
         `).join('');
@@ -635,13 +655,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 `;
             } else {
                 const drawerSpecs = (product.specs || []).filter(s => !['Вязкость', 'Класс', 'Допуски', 'Спецификации', 'Одобрения', 'Официальные допуски'].includes(s.label));
-                const specsRows = drawerSpecs.map(s => `
+                const specsRows = drawerSpecs.map(s => {
+                    const labelText = currentLang === 'ro' && s.label === 'Производитель' ? 'Producător' : s.label;
+                    return `
                     <div class="drawer-spec-row">
-                        <span class="drawer-spec-label">${s.label}:</span>
+                        <span class="drawer-spec-label">${labelText}:</span>
                         <span class="drawer-spec-val">${s.value}</span>
                     </div>
-                `).join('');
-                bodyEl.innerHTML = specsRows ? `<div class="drawer-specs-table">${specsRows}</div>` : '<div style="font-size:0.78rem;color:var(--colour-text-muted);">Нет дополнительных характеристик</div>';
+                    `;
+                }).join('');
+                bodyEl.innerHTML = specsRows ? `<div class="drawer-specs-table">${specsRows}</div>` : `<div style="font-size:0.78rem;color:var(--colour-text-muted);">${getI18nText('product_no_specs')}</div>`;
             }
 
             drawer.style.display = 'block';
@@ -697,10 +720,10 @@ document.addEventListener('DOMContentLoaded', () => {
             addToCart(sku, name, price, vol, pack?.id || 'canister');
 
             // Visual feedback
-            addBtn.textContent = '✓ Добавлено';
+            addBtn.textContent = getI18nText('cart_btn_added');
             addBtn.style.backgroundColor = 'var(--colour-green)';
             setTimeout(() => {
-                addBtn.textContent = '+ В заказ';
+                addBtn.textContent = getI18nText('cart_btn_add');
                 addBtn.style.backgroundColor = '';
             }, 1200);
         }
@@ -902,7 +925,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 Object.keys(cartItems).forEach(k => delete cartItems[k]);
                 renderCart();
                 closeCart();
-                alert('✅ Заказ успешно принят! Менеджер свяжется с вами для подтверждения.');
+                alert(getI18nText('msg_order_accepted'));
             } else {
                 throw new Error('API error');
             }
@@ -914,7 +937,7 @@ document.addEventListener('DOMContentLoaded', () => {
             Object.keys(cartItems).forEach(k => delete cartItems[k]);
             renderCart();
             closeCart();
-            alert('✅ Заказ сохранён! Он будет обработан при следующем подключении к серверу.');
+            alert(getI18nText('msg_order_saved_offline'));
         }
     });
 
@@ -965,7 +988,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Simple mock auth: accept any email with password length >= 4
         const pass  = document.getElementById('loginPassword')?.value;
         if (!pass || pass.length < 4) {
-            alert('Введите корректный пароль (минимум 4 символа).');
+            alert(getI18nText('msg_invalid_password'));
             return;
         }
         const userName = email.split('@')[0];
