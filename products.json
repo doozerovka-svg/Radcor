@@ -10967,12 +10967,12 @@
       }
     ],
     "canister_vol": 205,
-    "canister_price": 8140,
+    "canister_price": 7790,
     "packs": [
       {
         "id": "evox-prem-ready-205l",
         "volume_l": 205,
-        "price_mdl": 8140,
+        "price_mdl": 7790,
         "label": "205 л (Бочка)"
       }
     ]
@@ -10982,7 +10982,7 @@
     "name": "Стеклоомыватель зимний MOL Alycol Cherry -20°C (Вишня)",
     "category": "auto-chemistry",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/products/mol_evox_winter_citrus.jpg",
+    "photo_url": "images/products/mol-alycol-screenwash.png",
     "volumes": [
       2,
       4
@@ -11020,7 +11020,7 @@
     "name": "Стеклоомыватель летний MOL Alycol Summer Cherry (Вишня)",
     "category": "auto-chemistry",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/products/mol_evox_winter_citrus.jpg",
+    "photo_url": "images/products/mol-alycol-screenwash.png",
     "volumes": [
       2,
       4
@@ -11058,7 +11058,7 @@
     "name": "Стеклоомыватель летний MOL Alycol Summer Citrus (Цитрус)",
     "category": "auto-chemistry",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/products/mol_evox_winter_citrus.jpg",
+    "photo_url": "images/products/mol-alycol-screenwash.png",
     "volumes": [
       2
     ],
@@ -15097,6 +15097,121 @@
         "volume_l": 1,
         "price_mdl": 70.0,
         "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "MOL-EVOX-EVO-READY35",
+    "name": "Антифриз MOL EVOX EVO Ready -35°C (Розовый G12 EVO / G12++ / G13)",
+    "category": "coolants",
+    "brand": "MOL",
+    "color": "Розовый (Pink)",
+    "photo_url": "images/products/mol-evox-evo-pink.png",
+    "volumes": [
+      4,
+      10,
+      56,
+      205
+    ],
+    "description": "Инновационный готовый лобридный антифриз MOL EVOX EVO Ready (-35°C) стандарта G12 EVO, G12++, G13 для современных автомобильных двигателей.",
+    "specs": [
+      {
+        "label": "Класс",
+        "value": "G12 EVO, G12++, G13"
+      },
+      {
+        "label": "Допуски OEM",
+        "value": "MB 325.5, VOLVO, FORD, BMW"
+      },
+      {
+        "label": "Цвет",
+        "value": "Розовый (Pink)"
+      },
+      {
+        "label": "t замерзания",
+        "value": "-35 °C"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 179.5,
+    "packs": [
+      {
+        "id": "evox-evo-ready-4l",
+        "volume_l": 4,
+        "price_mdl": 179.5,
+        "label": "4 л"
+      },
+      {
+        "id": "evox-evo-ready-10l",
+        "volume_l": 10,
+        "price_mdl": 395.0,
+        "label": "10 л"
+      },
+      {
+        "id": "evox-evo-ready-56l",
+        "volume_l": 56,
+        "price_mdl": 2240.0,
+        "label": "56 л (60 кг)"
+      },
+      {
+        "id": "evox-evo-ready-205l",
+        "volume_l": 205,
+        "price_mdl": 7790.0,
+        "label": "205 л (Бочка)"
+      }
+    ]
+  },
+  {
+    "sku": "MOL-EVOX-EVO-CONC",
+    "name": "Концентрат антифриза MOL EVOX EVO Concentrate (Розовый G12 EVO / G12++ / G13)",
+    "category": "coolants",
+    "brand": "MOL",
+    "color": "Розовый (Pink)",
+    "photo_url": "images/products/mol-evox-evo-pink.png",
+    "volumes": [
+      10,
+      56,
+      205
+    ],
+    "description": "Концентрат лобридного антифриза высшего поколения MOL EVOX EVO Concentrate (G12 EVO, G12++, G13) для бензиновых и дизельных двигателей.",
+    "specs": [
+      {
+        "label": "Класс",
+        "value": "G12 EVO, G12++, G13"
+      },
+      {
+        "label": "Допуски OEM",
+        "value": "MB 325.5, VOLVO, FORD, BMW"
+      },
+      {
+        "label": "Цвет",
+        "value": "Розовый (Pink)"
+      },
+      {
+        "label": "Соотношение / t",
+        "value": "33/67% (-18°C), 40/60% (-25°C), 50/50% (-36°C), 67/33% (-60°C)"
+      }
+    ],
+    "canister_vol": 10,
+    "canister_price": 680.0,
+    "packs": [
+      {
+        "id": "evox-evo-conc-10l",
+        "volume_l": 10,
+        "price_mdl": 680.0,
+        "label": "10 л"
+      },
+      {
+        "id": "evox-evo-conc-56l",
+        "volume_l": 56,
+        "price_mdl": 3618.0,
+        "label": "56 л (60 кг)"
+      },
+      {
+        "id": "evox-evo-conc-205l",
+        "volume_l": 205,
+        "price_mdl": 12411.0,
+        "label": "205 л (Бочка)"
       }
     ]
   }
