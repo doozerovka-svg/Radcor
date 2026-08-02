@@ -9321,5 +9321,1493 @@
         "label": "208 л"
       }
     ]
+  },
+  {
+    "sku": "RP-03689",
+    "name": "Cirpa magica tub DUNLOP 36x27 cm",
+    "category": "accessories",
+    "brand": "Dunlop",
+    "photo_url": "",
+    "volumes": [
+      1
+    ],
+    "description": "Cirpa magica tub DUNLOP 36x27 cm (Код: 03689, Штрихкод: 8711252036892).",
+    "specs": [
+      {
+        "label": "Артикул / Код",
+        "value": "03689"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "8711252036892"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 48.0,
+    "packs": [
+      {
+        "id": "rp-03689-pack",
+        "volume_l": 1,
+        "price_mdl": 48.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "RP-05829",
+    "name": "Gripmat transparent 14.5 x 8.5 cm",
+    "category": "accessories",
+    "brand": "Dunlop",
+    "photo_url": "",
+    "volumes": [
+      1
+    ],
+    "description": "Gripmat transparent 14.5 x 8.5 cm (Код: 05829, Штрихкод: 8711252058290).",
+    "specs": [
+      {
+        "label": "Артикул / Код",
+        "value": "05829"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "8711252058290"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 26.0,
+    "packs": [
+      {
+        "id": "rp-05829-pack",
+        "volume_l": 1,
+        "price_mdl": 26.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "RP-05837",
+    "name": "Racleta de gheata DUNLOP 26/13/3 cm",
+    "category": "accessories",
+    "brand": "Dunlop",
+    "photo_url": "",
+    "volumes": [
+      1
+    ],
+    "description": "Racleta de gheata DUNLOP 26/13/3 cm (Код: 05837, Штрихкод: 8711252058375).",
+    "specs": [
+      {
+        "label": "Артикул / Код",
+        "value": "05837"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "8711252058375"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 36.0,
+    "packs": [
+      {
+        "id": "rp-05837-pack",
+        "volume_l": 1,
+        "price_mdl": 36.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "RP-05838",
+    "name": "Mini ICE Scraper Dunlop 18 cm",
+    "category": "accessories",
+    "brand": "Dunlop",
+    "photo_url": "",
+    "volumes": [
+      1
+    ],
+    "description": "Mini ICE Scraper Dunlop 18 cm (Код: 05838, Штрихкод: 8711252058382).",
+    "specs": [
+      {
+        "label": "Артикул / Код",
+        "value": "05838"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "8711252058382"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 23.5,
+    "packs": [
+      {
+        "id": "rp-05838-pack",
+        "volume_l": 1,
+        "price_mdl": 23.5,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "RP-41776",
+    "name": "ICE Scraper Dunlop 10x32 см",
+    "category": "accessories",
+    "brand": "Dunlop",
+    "photo_url": "",
+    "volumes": [
+      1
+    ],
+    "description": "ICE Scraper Dunlop 10x32 см (Код: 41776, Штрихкод: 871125241776).",
+    "specs": [
+      {
+        "label": "Артикул / Код",
+        "value": "41776"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "871125241776"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 44.0,
+    "packs": [
+      {
+        "id": "rp-41776-pack",
+        "volume_l": 1,
+        "price_mdl": 44.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "RP-48608",
+    "name": "Stergator p/u parbriz ALLRIDE",
+    "category": "accessories",
+    "brand": "Allride",
+    "photo_url": "",
+    "volumes": [
+      1
+    ],
+    "description": "Stergator p/u parbriz ALLRIDE (Код: 48608, Штрихкод: 8711252486086).",
+    "specs": [
+      {
+        "label": "Артикул / Код",
+        "value": "48608"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "8711252486086"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 65.5,
+    "packs": [
+      {
+        "id": "rp-48608-pack",
+        "volume_l": 1,
+        "price_mdl": 65.5,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "RP-49636",
+    "name": "Set sigurante 28 pcs DUNLOP",
+    "category": "accessories",
+    "brand": "Dunlop",
+    "photo_url": "",
+    "volumes": [
+      1
+    ],
+    "description": "Set sigurante 28 pcs DUNLOP (Код: 49636, Штрихкод: 8711252496368).",
+    "specs": [
+      {
+        "label": "Артикул / Код",
+        "value": "49636"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "8711252496368"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 82.0,
+    "packs": [
+      {
+        "id": "rp-49636-pack",
+        "volume_l": 1,
+        "price_mdl": 82.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "RP-06168",
+    "name": "Sigurante auto plug-in 6 buc Dunlop",
+    "category": "accessories",
+    "brand": "Dunlop",
+    "photo_url": "",
+    "volumes": [
+      1
+    ],
+    "description": "Sigurante auto plug-in 6 buc Dunlop (Код: 06168, Штрихкод: 8711252061689).",
+    "specs": [
+      {
+        "label": "Артикул / Код",
+        "value": "06168"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "8711252061689"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 20.0,
+    "packs": [
+      {
+        "id": "rp-06168-pack",
+        "volume_l": 1,
+        "price_mdl": 20.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "RP-06170",
+    "name": "Sigurante auto 10buc DUNLOP",
+    "category": "accessories",
+    "brand": "Dunlop",
+    "photo_url": "",
+    "volumes": [
+      1
+    ],
+    "description": "Sigurante auto 10buc DUNLOP (Код: 06170, Штрихкод: 8711252061702).",
+    "specs": [
+      {
+        "label": "Артикул / Код",
+        "value": "06170"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "8711252061702"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 20.0,
+    "packs": [
+      {
+        "id": "rp-06170-pack",
+        "volume_l": 1,
+        "price_mdl": 20.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "RP-06175",
+    "name": "Sigurante auto mini 10 buc DUNLOP",
+    "category": "accessories",
+    "brand": "Dunlop",
+    "photo_url": "",
+    "volumes": [
+      1
+    ],
+    "description": "Sigurante auto mini 10 buc DUNLOP (Код: 06175, Штрихкод: 8711252061757).",
+    "specs": [
+      {
+        "label": "Артикул / Код",
+        "value": "06175"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "8711252061757"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 23.0,
+    "packs": [
+      {
+        "id": "rp-06175-pack",
+        "volume_l": 1,
+        "price_mdl": 23.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "RP-06251",
+    "name": "Parasolar metalic/ alb 130x60 cm",
+    "category": "accessories",
+    "brand": "Dunlop",
+    "photo_url": "",
+    "volumes": [
+      1
+    ],
+    "description": "Parasolar metalic/ alb 130x60 cm (Код: 06251, Штрихкод: 8711252062518).",
+    "specs": [
+      {
+        "label": "Артикул / Код",
+        "value": "06251"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "8711252062518"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 33.0,
+    "packs": [
+      {
+        "id": "rp-06251-pack",
+        "volume_l": 1,
+        "price_mdl": 33.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "RP-06869",
+    "name": "Bureta p/u Torpedou",
+    "category": "accessories",
+    "brand": "Dunlop",
+    "photo_url": "",
+    "volumes": [
+      1
+    ],
+    "description": "Bureta p/u Torpedou (Код: 06869, Штрихкод: 8711252068695).",
+    "specs": [
+      {
+        "label": "Артикул / Код",
+        "value": "06869"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "8711252068695"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 26.0,
+    "packs": [
+      {
+        "id": "rp-06869-pack",
+        "volume_l": 1,
+        "price_mdl": 26.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "RP-07882",
+    "name": "Bureta p/u sticla DUNLOP Sponge",
+    "category": "accessories",
+    "brand": "Dunlop",
+    "photo_url": "",
+    "volumes": [
+      1
+    ],
+    "description": "Bureta p/u sticla DUNLOP Sponge (Код: 07882, Штрихкод: 8711252078823).",
+    "specs": [
+      {
+        "label": "Артикул / Код",
+        "value": "07882"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "8711252078823"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 23.0,
+    "packs": [
+      {
+        "id": "rp-07882-pack",
+        "volume_l": 1,
+        "price_mdl": 23.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "RP-10621",
+    "name": "Button Cell 2 buc CR2032 Philips",
+    "category": "accessories",
+    "brand": "Philips",
+    "photo_url": "",
+    "volumes": [
+      1
+    ],
+    "description": "Button Cell 2 buc CR2032 Philips (Код: 10621, Штрихкод: 4895229106215).",
+    "specs": [
+      {
+        "label": "Артикул / Код",
+        "value": "10621"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "4895229106215"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 28.0,
+    "packs": [
+      {
+        "id": "rp-10621-pack",
+        "volume_l": 1,
+        "price_mdl": 28.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "RP-10931",
+    "name": "Cablu de incarcare tip C DLC2103A Philips",
+    "category": "accessories",
+    "brand": "Philips",
+    "photo_url": "",
+    "volumes": [
+      1
+    ],
+    "description": "Cablu de incarcare tip C DLC2103A Philips (Код: 10931, Штрихкод: 4895229109315).",
+    "specs": [
+      {
+        "label": "Артикул / Код",
+        "value": "10931"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "4895229109315"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 68.0,
+    "packs": [
+      {
+        "id": "rp-10931-pack",
+        "volume_l": 1,
+        "price_mdl": 68.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "RP-11238",
+    "name": "Cablu USB DLC5204V/00 NY Philips",
+    "category": "accessories",
+    "brand": "Philips",
+    "photo_url": "",
+    "volumes": [
+      1
+    ],
+    "description": "Cablu USB DLC5204V/00 NY Philips (Код: 11238, Штрихкод: 4895229112384).",
+    "specs": [
+      {
+        "label": "Артикул / Код",
+        "value": "11238"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "4895229112384"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 255.0,
+    "packs": [
+      {
+        "id": "rp-11238-pack",
+        "volume_l": 1,
+        "price_mdl": 255.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "RP-11246",
+    "name": "Cablu USB2.0 DLC3104U Philips 1,2m",
+    "category": "accessories",
+    "brand": "Philips",
+    "photo_url": "",
+    "volumes": [
+      1
+    ],
+    "description": "Cablu USB2.0 DLC3104U Philips 1,2m (Код: 11246, Штрихкод: 4895229112469).",
+    "specs": [
+      {
+        "label": "Артикул / Код",
+        "value": "11246"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "4895229112469"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 68.0,
+    "packs": [
+      {
+        "id": "rp-11246-pack",
+        "volume_l": 1,
+        "price_mdl": 68.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "RP-47213",
+    "name": "Cablu audio stereo 3.5 mm GRUNDIG",
+    "category": "accessories",
+    "brand": "Grundig",
+    "photo_url": "",
+    "volumes": [
+      1
+    ],
+    "description": "Cablu audio stereo 3.5 mm GRUNDIG (Код: 47213, Штрихкод: 8711252472133).",
+    "specs": [
+      {
+        "label": "Артикул / Код",
+        "value": "47213"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "8711252472133"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 41.0,
+    "packs": [
+      {
+        "id": "rp-47213-pack",
+        "volume_l": 1,
+        "price_mdl": 41.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "RP-11271",
+    "name": "Buton Cell 2buc CR2016 Philips",
+    "category": "accessories",
+    "brand": "Philips",
+    "photo_url": "",
+    "volumes": [
+      1
+    ],
+    "description": "Buton Cell 2buc CR2016 Philips (Код: 11271, Штрихкод: 4895229112711).",
+    "specs": [
+      {
+        "label": "Артикул / Код",
+        "value": "11271"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "4895229112711"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 28.0,
+    "packs": [
+      {
+        "id": "rp-11271-pack",
+        "volume_l": 1,
+        "price_mdl": 28.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "RP-11321",
+    "name": "Button Cell 2 buc CR2025 Philips",
+    "category": "accessories",
+    "brand": "Philips",
+    "photo_url": "",
+    "volumes": [
+      1
+    ],
+    "description": "Button Cell 2 buc CR2025 Philips (Код: 11321, Штрихкод: 4895229113213).",
+    "specs": [
+      {
+        "label": "Артикул / Код",
+        "value": "11321"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "4895229113213"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 28.0,
+    "packs": [
+      {
+        "id": "rp-11321-pack",
+        "volume_l": 1,
+        "price_mdl": 28.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "RP-12109",
+    "name": "Cablu USB 1,2m DLC3104A/03 Philips",
+    "category": "accessories",
+    "brand": "Philips",
+    "photo_url": "",
+    "volumes": [
+      1
+    ],
+    "description": "Cablu USB 1,2m DLC3104A/03 Philips (Код: 12109, Штрихкод: 4895229121096).",
+    "specs": [
+      {
+        "label": "Артикул / Код",
+        "value": "12109"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "4895229121096"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 49.5,
+    "packs": [
+      {
+        "id": "rp-12109-pack",
+        "volume_l": 1,
+        "price_mdl": 49.5,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "RP-12111",
+    "name": "Cablu USB Android 1,2m Philips",
+    "category": "accessories",
+    "brand": "Philips",
+    "photo_url": "",
+    "volumes": [
+      1
+    ],
+    "description": "Cablu USB Android 1,2m Philips (Код: 12111, Штрихкод: 4895229121119).",
+    "specs": [
+      {
+        "label": "Артикул / Код",
+        "value": "12111"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "4895229121119"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 49.5,
+    "packs": [
+      {
+        "id": "rp-12111-pack",
+        "volume_l": 1,
+        "price_mdl": 49.5,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "RP-13866",
+    "name": "USB Incarcator dual 2.1A DUNLOP",
+    "category": "accessories",
+    "brand": "Dunlop",
+    "photo_url": "",
+    "volumes": [
+      1
+    ],
+    "description": "USB Incarcator dual 2.1A DUNLOP (Код: 13866, Штрихкод: 8711252138664).",
+    "specs": [
+      {
+        "label": "Артикул / Код",
+        "value": "13866"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "8711252138664"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 62.5,
+    "packs": [
+      {
+        "id": "rp-13866-pack",
+        "volume_l": 1,
+        "price_mdl": 62.5,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "RP-15126",
+    "name": "Laveta din microfibra interior DUNLOP 35x35 cm",
+    "category": "accessories",
+    "brand": "Dunlop",
+    "photo_url": "",
+    "volumes": [
+      1
+    ],
+    "description": "Laveta din microfibra interior DUNLOP 35x35 cm (Код: 15126, Штрихкод: 8711252151267).",
+    "specs": [
+      {
+        "label": "Артикул / Код",
+        "value": "15126"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "8711252151267"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 42.0,
+    "packs": [
+      {
+        "id": "rp-15126-pack",
+        "volume_l": 1,
+        "price_mdl": 42.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "RP-15128",
+    "name": "Laveta din microfibra Metal Polish",
+    "category": "accessories",
+    "brand": "Dunlop",
+    "photo_url": "",
+    "volumes": [
+      1
+    ],
+    "description": "Laveta din microfibra Metal Polish (Код: 15128, Штрихкод: 8711252151281).",
+    "specs": [
+      {
+        "label": "Артикул / Код",
+        "value": "15128"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "8711252151281"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 38.0,
+    "packs": [
+      {
+        "id": "rp-15128-pack",
+        "volume_l": 1,
+        "price_mdl": 38.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "RP-15129",
+    "name": "Cirpa din microfibra Window",
+    "category": "accessories",
+    "brand": "Dunlop",
+    "photo_url": "",
+    "volumes": [
+      1
+    ],
+    "description": "Cirpa din microfibra Window (Код: 15129, Штрихкод: 8711252151298).",
+    "specs": [
+      {
+        "label": "Артикул / Код",
+        "value": "15129"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "8711252151298"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 23.0,
+    "packs": [
+      {
+        "id": "rp-15129-pack",
+        "volume_l": 1,
+        "price_mdl": 23.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "RP-15130",
+    "name": "Cirpa din microfibra p/u piele Leather",
+    "category": "accessories",
+    "brand": "Dunlop",
+    "photo_url": "",
+    "volumes": [
+      1
+    ],
+    "description": "Cirpa din microfibra p/u piele Leather (Код: 15130, Штрихкод: 8711252151304).",
+    "specs": [
+      {
+        "label": "Артикул / Код",
+        "value": "15130"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "8711252151304"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 25.0,
+    "packs": [
+      {
+        "id": "rp-15130-pack",
+        "volume_l": 1,
+        "price_mdl": 25.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "RP-41812",
+    "name": "Laveta din microfibra 2buc DUNLOP",
+    "category": "accessories",
+    "brand": "Dunlop",
+    "photo_url": "",
+    "volumes": [
+      1
+    ],
+    "description": "Laveta din microfibra 2buc DUNLOP (Код: 41812, Штрихкод: 8711252418124).",
+    "specs": [
+      {
+        "label": "Артикул / Код",
+        "value": "41812"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "8711252418124"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 67.0,
+    "packs": [
+      {
+        "id": "rp-41812-pack",
+        "volume_l": 1,
+        "price_mdl": 67.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "RP-41813",
+    "name": "Laveta din microfibra MF",
+    "category": "accessories",
+    "brand": "Dunlop",
+    "photo_url": "",
+    "volumes": [
+      1
+    ],
+    "description": "Laveta din microfibra MF (Код: 41813, Штрихкод: 8711252418131).",
+    "specs": [
+      {
+        "label": "Артикул / Код",
+        "value": "41813"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "8711252418131"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 36.0,
+    "packs": [
+      {
+        "id": "rp-41813-pack",
+        "volume_l": 1,
+        "price_mdl": 36.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "RP-17823",
+    "name": "Laveta de curate 2 buc XL",
+    "category": "accessories",
+    "brand": "Dunlop",
+    "photo_url": "",
+    "volumes": [
+      1
+    ],
+    "description": "Laveta de curate 2 buc XL (Код: 17823, Штрихкод: 8711252178233).",
+    "specs": [
+      {
+        "label": "Артикул / Код",
+        "value": "17823"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "8711252178233"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 82.0,
+    "packs": [
+      {
+        "id": "rp-17823-pack",
+        "volume_l": 1,
+        "price_mdl": 82.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "RP-17829",
+    "name": "Laveta din microfibra 3buc DUNLOP",
+    "category": "accessories",
+    "brand": "Dunlop",
+    "photo_url": "",
+    "volumes": [
+      1
+    ],
+    "description": "Laveta din microfibra 3buc DUNLOP (Код: 17829, Штрихкод: 8711252178295).",
+    "specs": [
+      {
+        "label": "Артикул / Код",
+        "value": "17829"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "8711252178295"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 75.5,
+    "packs": [
+      {
+        "id": "rp-17829-pack",
+        "volume_l": 1,
+        "price_mdl": 75.5,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "RP-47701",
+    "name": "Set de curatare interioara 3as",
+    "category": "accessories",
+    "brand": "Dunlop",
+    "photo_url": "",
+    "volumes": [
+      1
+    ],
+    "description": "Set de curatare interioara 3as (Код: 47701, Штрихкод: 8711252477015).",
+    "specs": [
+      {
+        "label": "Артикул / Код",
+        "value": "47701"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "8711252477015"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 124.0,
+    "packs": [
+      {
+        "id": "rp-47701-pack",
+        "volume_l": 1,
+        "price_mdl": 124.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "RP-19637",
+    "name": "Suport magnetic telefon Holder",
+    "category": "accessories",
+    "brand": "Dunlop",
+    "photo_url": "",
+    "volumes": [
+      1
+    ],
+    "description": "Suport magnetic telefon Holder (Код: 19637, Штрихкод: 8711252196374).",
+    "specs": [
+      {
+        "label": "Артикул / Код",
+        "value": "19637"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "8711252196374"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 84.0,
+    "packs": [
+      {
+        "id": "rp-19637-pack",
+        "volume_l": 1,
+        "price_mdl": 84.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "RP-41800",
+    "name": "Airfresh Sport DUNLOP",
+    "category": "auto-chemistry",
+    "brand": "Dunlop",
+    "photo_url": "",
+    "volumes": [
+      1
+    ],
+    "description": "Airfresh Sport DUNLOP (Код: 41800, Штрихкод: 8711252418001).",
+    "specs": [
+      {
+        "label": "Артикул / Код",
+        "value": "41800"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "8711252418001"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 46.0,
+    "packs": [
+      {
+        "id": "rp-41800-pack",
+        "volume_l": 1,
+        "price_mdl": 46.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "RP-16576",
+    "name": "Airfresh Car 3x8 ml scents Dunlop",
+    "category": "auto-chemistry",
+    "brand": "Dunlop",
+    "photo_url": "",
+    "volumes": [
+      1
+    ],
+    "description": "Airfresh Car 3x8 ml scents Dunlop (Код: 16576, Штрихкод: 8711252165769).",
+    "specs": [
+      {
+        "label": "Артикул / Код",
+        "value": "16576"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "8711252165769"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 45.0,
+    "packs": [
+      {
+        "id": "rp-16576-pack",
+        "volume_l": 1,
+        "price_mdl": 45.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "RP-18075",
+    "name": "Airfreshener auto Twins 2 buc",
+    "category": "auto-chemistry",
+    "brand": "Dunlop",
+    "photo_url": "",
+    "volumes": [
+      1
+    ],
+    "description": "Airfreshener auto Twins 2 buc (Код: 18075, Штрихкод: 8711252180755).",
+    "specs": [
+      {
+        "label": "Артикул / Код",
+        "value": "18075"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "8711252180755"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 52.0,
+    "packs": [
+      {
+        "id": "rp-18075-pack",
+        "volume_l": 1,
+        "price_mdl": 52.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "RP-86898",
+    "name": "Cockpit cleaner Lemon 500ml DUNLOP",
+    "category": "auto-chemistry",
+    "brand": "Dunlop",
+    "photo_url": "",
+    "volumes": [
+      1
+    ],
+    "description": "Cockpit cleaner Lemon 500ml DUNLOP (Код: 86898, Штрихкод: 8711252868981).",
+    "specs": [
+      {
+        "label": "Артикул / Код",
+        "value": "86898"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "8711252868981"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 67.0,
+    "packs": [
+      {
+        "id": "rp-86898-pack",
+        "volume_l": 1,
+        "price_mdl": 67.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "RP-86899",
+    "name": "Cockpit cleaner Vanille 500ml DUNLOP",
+    "category": "auto-chemistry",
+    "brand": "Dunlop",
+    "photo_url": "",
+    "volumes": [
+      1
+    ],
+    "description": "Cockpit cleaner Vanille 500ml DUNLOP (Код: 86899, Штрихкод: 8711252868998).",
+    "specs": [
+      {
+        "label": "Артикул / Код",
+        "value": "86899"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "8711252868998"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 67.0,
+    "packs": [
+      {
+        "id": "rp-86899-pack",
+        "volume_l": 1,
+        "price_mdl": 67.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "RP-86900",
+    "name": "Glass cleaner 500ml DUNLOP",
+    "category": "auto-chemistry",
+    "brand": "Dunlop",
+    "photo_url": "",
+    "volumes": [
+      1
+    ],
+    "description": "Glass cleaner 500ml DUNLOP (Код: 86900, Штрихкод: 8711252869001).",
+    "specs": [
+      {
+        "label": "Артикул / Код",
+        "value": "86900"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "8711252869001"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 63.0,
+    "packs": [
+      {
+        "id": "rp-86900-pack",
+        "volume_l": 1,
+        "price_mdl": 63.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "RP-86962",
+    "name": "Leather cleaner 500ml DUNLOP",
+    "category": "auto-chemistry",
+    "brand": "Dunlop",
+    "photo_url": "",
+    "volumes": [
+      1
+    ],
+    "description": "Leather cleaner 500ml DUNLOP (Код: 86962, Штрихкод: 8711252869629).",
+    "specs": [
+      {
+        "label": "Артикул / Код",
+        "value": "86962"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "8711252869629"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 70.0,
+    "packs": [
+      {
+        "id": "rp-86962-pack",
+        "volume_l": 1,
+        "price_mdl": 70.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "RP-06814",
+    "name": "Polish torpedou 225 ml",
+    "category": "auto-chemistry",
+    "brand": "Dunlop",
+    "photo_url": "",
+    "volumes": [
+      1
+    ],
+    "description": "Polish torpedou 225 ml (Код: 06814, Штрихкод: 8711252068145).",
+    "specs": [
+      {
+        "label": "Артикул / Код",
+        "value": "06814"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "8711252068145"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 45.0,
+    "packs": [
+      {
+        "id": "rp-06814-pack",
+        "volume_l": 1,
+        "price_mdl": 45.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "RP-08164",
+    "name": "Polish torpedou 750 ml Lemon",
+    "category": "auto-chemistry",
+    "brand": "Dunlop",
+    "photo_url": "",
+    "volumes": [
+      1
+    ],
+    "description": "Polish torpedou 750 ml Lemon (Код: 08164, Штрихкод: 8711252081649).",
+    "specs": [
+      {
+        "label": "Артикул / Код",
+        "value": "08164"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "8711252081649"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 95.0,
+    "packs": [
+      {
+        "id": "rp-08164-pack",
+        "volume_l": 1,
+        "price_mdl": 95.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "RP-08936",
+    "name": "Polish torpedou 750 ml Neutral",
+    "category": "auto-chemistry",
+    "brand": "Dunlop",
+    "photo_url": "",
+    "volumes": [
+      1
+    ],
+    "description": "Polish torpedou 750 ml Neutral (Код: 08936, Штрихкод: 8711252089362).",
+    "specs": [
+      {
+        "label": "Артикул / Код",
+        "value": "08936"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "8711252089362"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 95.0,
+    "packs": [
+      {
+        "id": "rp-08936-pack",
+        "volume_l": 1,
+        "price_mdl": 95.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "RP-10055",
+    "name": "Gaz Butan Spray 227 gr",
+    "category": "auto-chemistry",
+    "brand": "Dunlop",
+    "photo_url": "",
+    "volumes": [
+      1
+    ],
+    "description": "Gaz Butan Spray 227 gr (Код: 10055, Штрихкод: 8711252100555).",
+    "specs": [
+      {
+        "label": "Артикул / Код",
+        "value": "10055"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "8711252100555"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 45.0,
+    "packs": [
+      {
+        "id": "rp-10055-pack",
+        "volume_l": 1,
+        "price_mdl": 45.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "RP-26810",
+    "name": "Servetele umede auto p/u interior 40 buc",
+    "category": "auto-chemistry",
+    "brand": "Dunlop",
+    "photo_url": "",
+    "volumes": [
+      1
+    ],
+    "description": "Servetele umede auto p/u interior 40 buc (Код: 26810, Штрихкод: 8711252268101).",
+    "specs": [
+      {
+        "label": "Артикул / Код",
+        "value": "26810"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "8711252268101"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 65.0,
+    "packs": [
+      {
+        "id": "rp-26810-pack",
+        "volume_l": 1,
+        "price_mdl": 65.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "RP-86783",
+    "name": "Solutie cu actiune multipla Dunlop",
+    "category": "auto-chemistry",
+    "brand": "Dunlop",
+    "photo_url": "",
+    "volumes": [
+      1
+    ],
+    "description": "Solutie cu actiune multipla Dunlop (Код: 86783, Штрихкод: 8711252867830).",
+    "specs": [
+      {
+        "label": "Артикул / Код",
+        "value": "86783"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "8711252867830"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 72.0,
+    "packs": [
+      {
+        "id": "rp-86783-pack",
+        "volume_l": 1,
+        "price_mdl": 72.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "RP-86797",
+    "name": "Solutie p/u plastic 500 ml Dunlop",
+    "category": "auto-chemistry",
+    "brand": "Dunlop",
+    "photo_url": "",
+    "volumes": [
+      1
+    ],
+    "description": "Solutie p/u plastic 500 ml Dunlop (Код: 86797, Штрихкод: 8711252867977).",
+    "specs": [
+      {
+        "label": "Артикул / Код",
+        "value": "86797"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "8711252867977"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 70.0,
+    "packs": [
+      {
+        "id": "rp-86797-pack",
+        "volume_l": 1,
+        "price_mdl": 70.0,
+        "label": "1 шт"
+      }
+    ]
+  },
+  {
+    "sku": "RP-86955",
+    "name": "Solutie lustruire anvelope 500 ml Dunlop",
+    "category": "auto-chemistry",
+    "brand": "Dunlop",
+    "photo_url": "",
+    "volumes": [
+      1
+    ],
+    "description": "Solutie lustruire anvelope 500 ml Dunlop (Код: 86955, Штрихкод: 8711252869551).",
+    "specs": [
+      {
+        "label": "Артикул / Код",
+        "value": "86955"
+      },
+      {
+        "label": "Штрихкод",
+        "value": "8711252869551"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 70.0,
+    "packs": [
+      {
+        "id": "rp-86955-pack",
+        "volume_l": 1,
+        "price_mdl": 70.0,
+        "label": "1 шт"
+      }
+    ]
   }
 ]

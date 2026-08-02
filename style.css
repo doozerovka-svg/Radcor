@@ -874,6 +874,10 @@ h4 { font-size: 0.95rem; font-weight: 600; letter-spacing: 0; }
 .product-tag-brand[data-brand="ADV"] { background: #FFEDD5; color: #C2410C; border-color: #FDBA74; }
 .product-tag-brand[data-brand="FOX"] { background: #F1F5F9; color: #334155; border-color: #CBD5E1; }
 .product-tag-brand[data-brand="Car Commerce"] { background: #DCFCE7; color: #15803D; border-color: #86EFAC; }
+.product-tag-brand[data-brand="Dunlop"] { background: #FEF08A; color: #713F12; border-color: #EAB308; }
+.product-tag-brand[data-brand="Philips"] { background: #E0E7FF; color: #3730A3; border-color: #A5B4FC; }
+.product-tag-brand[data-brand="Grundig"] { background: #F3E8FF; color: #6B21A8; border-color: #D8B4FE; }
+.product-tag-brand[data-brand="Allride"] { background: #CCFBF1; color: #115E59; border-color: #5EEAD4; }
 
 /* Color Filter Swatches & Badges */
 .filter-color-item-wrap {
