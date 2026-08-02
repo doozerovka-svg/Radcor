@@ -11418,5 +11418,81 @@
         "label": "1 л"
       }
     ]
+  },
+  {
+    "sku": "WD40-MULTI-SPRAY",
+    "name": "Многофункциональная смазка WD-40 (Аэрозоль)",
+    "category": "auto-chemistry",
+    "brand": "WD-40",
+    "photo_url": "https://m.media-amazon.com/images/I/61Sj2yTndhL._AC_SL1500_.jpg",
+    "volumes": [
+      0.1,
+      0.2,
+      0.4,
+      0.45
+    ],
+    "description": "Легендарный многофункциональный аэрозоль WD-40: вытесняет влагу, защищает от коррозии, освобождает заржавевшие детали и устраняет скрип.",
+    "specs": [
+      {
+        "label": "Тип",
+        "value": "Многофункциональная смазка-спрей"
+      },
+      {
+        "label": "Назначение",
+        "value": "Защита от коррозии, устранение скрипа, отвинчивание прикипевших деталей"
+      },
+      {
+        "label": "Штрихкод (100мл)",
+        "value": "5032227300019"
+      },
+      {
+        "label": "Штрихкод (200мл)",
+        "value": "5032227300026"
+      },
+      {
+        "label": "Штрихкод (400мл)",
+        "value": "5032227300040"
+      },
+      {
+        "label": "Штрихкод (450мл Smart Straw)",
+        "value": "5032227300378"
+      },
+      {
+        "label": "Видеоинструкция 1",
+        "value": "https://www.youtube.com/watch?v=QZHoZIPd5pM"
+      },
+      {
+        "label": "Видеоинструкция 2",
+        "value": "https://www.youtube.com/watch?v=b1pa_Ru2P5g"
+      }
+    ],
+    "canister_vol": 0.1,
+    "canister_price": 68,
+    "packs": [
+      {
+        "id": "wd40-100ml",
+        "volume_l": 0.1,
+        "price_mdl": 68,
+        "label": "100 мл"
+      },
+      {
+        "id": "wd40-200ml",
+        "volume_l": 0.2,
+        "price_mdl": 84,
+        "label": "200 мл"
+      },
+      {
+        "id": "wd40-400ml",
+        "volume_l": 0.4,
+        "price_mdl": 136,
+        "label": "400 мл"
+      },
+      {
+        "id": "wd40-450ml-smart",
+        "volume_l": 0.45,
+        "price_mdl": 155,
+        "label": "450 мл (Smart Straw)"
+      }
+    ]
   }
 ]
