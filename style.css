@@ -878,6 +878,7 @@ h4 { font-size: 0.95rem; font-weight: 600; letter-spacing: 0; }
 .product-tag-brand[data-brand="Philips"] { background: #E0E7FF; color: #3730A3; border-color: #A5B4FC; }
 .product-tag-brand[data-brand="Grundig"] { background: #F3E8FF; color: #6B21A8; border-color: #D8B4FE; }
 .product-tag-brand[data-brand="Allride"] { background: #CCFBF1; color: #115E59; border-color: #5EEAD4; }
+.product-tag-brand[data-brand="YUKO"] { background: #FEF3C7; color: #B45309; border-color: #FBBF24; }
 
 /* Color Filter Swatches & Badges */
 .filter-color-item-wrap {

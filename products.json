@@ -11091,5 +11091,332 @@
         "label": "2 л"
       }
     ]
+  },
+  {
+    "sku": "YUKO-SHRUS4-375G",
+    "name": "Смазка YUKO ШРУС-4 (375 г дойпак)",
+    "category": "greases",
+    "brand": "YUKO",
+    "photo_url": "https://yuko.eu/storage/products/shrus-4-doypack.png",
+    "volumes": [
+      0.375
+    ],
+    "description": "Пластичная автомобильная смазка YUKO ШРУС-4 с дисульфидом молибдена в удобной упаковке дойпак со штуцером (375 г).",
+    "specs": [
+      {
+        "label": "Класс NLGI",
+        "value": "NLGI 2, EP 2"
+      },
+      {
+        "label": "Масса",
+        "value": "375 г"
+      },
+      {
+        "label": "Упаковка",
+        "value": "Дойпак со штуцером"
+      }
+    ],
+    "canister_vol": 0.375,
+    "canister_price": 60.0,
+    "packs": [
+      {
+        "id": "yuko-shrus4-375g",
+        "volume_l": 0.375,
+        "price_mdl": 60.0,
+        "label": "375 г"
+      }
+    ]
+  },
+  {
+    "sku": "YUKO-TAD17M-1L",
+    "name": "Масло трансмиссионное YUKO ТАД-17м 85W-90 GL-5 (1 л)",
+    "category": "transmission-oils",
+    "brand": "YUKO",
+    "photo_url": "https://yuko.eu/storage/products/tad-17m-1l.png",
+    "volumes": [
+      1
+    ],
+    "description": "Универсальное минеральное трансмиссионное масло YUKO ТАД-17м SAE 85W-90 класса API GL-5 для автомобильных трансмиссий.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "85W-90"
+      },
+      {
+        "label": "Класс API",
+        "value": "GL-5"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 65.0,
+    "packs": [
+      {
+        "id": "yuko-tad17m-1l",
+        "volume_l": 1,
+        "price_mdl": 65.0,
+        "label": "1 л"
+      }
+    ]
+  },
+  {
+    "sku": "YUKO-CLASSIC-15W40",
+    "name": "Моторное масло YUKO CLASSIC 15W-40",
+    "category": "motor-oils-pkw",
+    "brand": "YUKO",
+    "photo_url": "https://yuko.eu/storage/products/classic-15w40-4l.png",
+    "volumes": [
+      1,
+      4
+    ],
+    "description": "Минеральное моторное масло YUKO CLASSIC 15W-40 для бензиновых и дизельных двигателей автомобилей.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "15W-40"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 60.0,
+    "packs": [
+      {
+        "id": "yuko-classic-1l",
+        "volume_l": 1,
+        "price_mdl": 60.0,
+        "label": "1 л"
+      },
+      {
+        "id": "yuko-classic-4l",
+        "volume_l": 4,
+        "price_mdl": 229.0,
+        "label": "4 л"
+      }
+    ]
+  },
+  {
+    "sku": "YUKO-VEGA-10W40",
+    "name": "Моторное масло YUKO VEGA SYNT 10W-40",
+    "category": "motor-oils-pkw",
+    "brand": "YUKO",
+    "photo_url": "https://yuko.eu/storage/products/vega-synt-10w40-4l.png",
+    "volumes": [
+      1,
+      4
+    ],
+    "description": "Полусинтетическое моторное масло YUKO VEGA SYNT 10W-40 свысокими защитными и моющими свойствами.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "10W-40"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 63.0,
+    "packs": [
+      {
+        "id": "yuko-vega-10w40-1l",
+        "volume_l": 1,
+        "price_mdl": 63.0,
+        "label": "1 л"
+      },
+      {
+        "id": "yuko-vega-10w40-4l",
+        "volume_l": 4,
+        "price_mdl": 229.0,
+        "label": "4 л"
+      }
+    ]
+  },
+  {
+    "sku": "YUKO-SYNETIC-5W30",
+    "name": "Моторное масло YUKO Synetic 5W-30 (1 л)",
+    "category": "motor-oils-pkw",
+    "brand": "YUKO",
+    "photo_url": "https://yuko.eu/storage/products/synetic-5w30-1l.png",
+    "volumes": [
+      1
+    ],
+    "description": "Современное синтетическое моторное масло YUKO Synetic 5W-30 для легкого запуска и экономии топлива.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "5W-30"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 81.0,
+    "packs": [
+      {
+        "id": "yuko-synetic-5w30-1l",
+        "volume_l": 1,
+        "price_mdl": 81.0,
+        "label": "1 л"
+      }
+    ]
+  },
+  {
+    "sku": "YUKO-SYNETIC-5W40",
+    "name": "Моторное масло YUKO Synetic 5W-40 (1 л)",
+    "category": "motor-oils-pkw",
+    "brand": "YUKO",
+    "photo_url": "https://yuko.eu/storage/products/synetic-5w40-1l.png",
+    "volumes": [
+      1
+    ],
+    "description": "Синтетическое моторное масло YUKO Synetic 5W-40 для максимальной защиты двигателя в широком диапазоне температур.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "5W-40"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 81.0,
+    "packs": [
+      {
+        "id": "yuko-synetic-5w40-1l",
+        "volume_l": 1,
+        "price_mdl": 81.0,
+        "label": "1 л"
+      }
+    ]
+  },
+  {
+    "sku": "YUKO-VEGA-5W40",
+    "name": "Моторное масло YUKO VEGA SYNT 5W-40 (1 л)",
+    "category": "motor-oils-pkw",
+    "brand": "YUKO",
+    "photo_url": "https://yuko.eu/storage/products/vega-synt-5w40-1l.png",
+    "volumes": [
+      1
+    ],
+    "description": "Полусинтетическое моторное масло YUKO VEGA SYNT 5W-40 для эффективной защиты современного автотранспорта.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "5W-40"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 68.0,
+    "packs": [
+      {
+        "id": "yuko-vega-5w40-1l",
+        "volume_l": 1,
+        "price_mdl": 68.0,
+        "label": "1 л"
+      }
+    ]
+  },
+  {
+    "sku": "YUKO-MOTOMIX-2T",
+    "name": "Масло моторное YUKO MOTOMIX 2T (1 л)",
+    "category": "moto-oils",
+    "brand": "YUKO",
+    "photo_url": "https://yuko.eu/storage/products/motomix-2t-1l.png",
+    "volumes": [
+      1
+    ],
+    "description": "Специальное моторное масло YUKO MOTOMIX 2T для двухтактных двигателей бензопил, газонокосилок и мототехники.",
+    "specs": [
+      {
+        "label": "Тип",
+        "value": "2Т (Двухтактное)"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 60.0,
+    "packs": [
+      {
+        "id": "yuko-motomix-2t-1l",
+        "volume_l": 1,
+        "price_mdl": 60.0,
+        "label": "1 л"
+      }
+    ]
+  },
+  {
+    "sku": "YUKO-SCOOTER-2T",
+    "name": "Масло моторное YUKO SCOOTER SYNT 2T (1 л)",
+    "category": "moto-oils",
+    "brand": "YUKO",
+    "photo_url": "https://yuko.eu/storage/products/scooter-synt-2t-1l.png",
+    "volumes": [
+      1
+    ],
+    "description": "Синтетическое моторное масло YUKO SCOOTER SYNT 2T для современных двухтактных скутеров и мопедов.",
+    "specs": [
+      {
+        "label": "Тип",
+        "value": "2Т Скутер Синтетика"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 69.0,
+    "packs": [
+      {
+        "id": "yuko-scooter-2t-1l",
+        "volume_l": 1,
+        "price_mdl": 69.0,
+        "label": "1 л"
+      }
+    ]
+  },
+  {
+    "sku": "YUKO-4T-10W40",
+    "name": "Масло моторное YUKO SEMISYNTETIC 4T 10W-40 (1 л)",
+    "category": "moto-oils",
+    "brand": "YUKO",
+    "photo_url": "https://yuko.eu/storage/products/4t-10w40-1l.png",
+    "volumes": [
+      1
+    ],
+    "description": "Полусинтетическое масло YUKO SEMISYNTETIC 4T SAE 10W-40 для четырехтактных двигателей мотоциклов и квадроциклов.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "10W-40"
+      },
+      {
+        "label": "Тип",
+        "value": "4Т (Четырехтактное)"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 68.5,
+    "packs": [
+      {
+        "id": "yuko-4t-10w40-1l",
+        "volume_l": 1,
+        "price_mdl": 68.5,
+        "label": "1 л"
+      }
+    ]
+  },
+  {
+    "sku": "YUKO-PSF-1L",
+    "name": "Жидкость гидроусилителя руля YUKO PSF (1 л)",
+    "category": "hydraulic-oils",
+    "brand": "YUKO",
+    "photo_url": "https://yuko.eu/storage/products/psf-1l.png",
+    "volumes": [
+      1
+    ],
+    "description": "Специальная гидравлическая жидкость YUKO PSF для приводов гидроусилителя рулевого управления (ГУР).",
+    "specs": [
+      {
+        "label": "Назначение",
+        "value": "Жидкость ГУР (PSF)"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 61.5,
+    "packs": [
+      {
+        "id": "yuko-psf-1l",
+        "volume_l": 1,
+        "price_mdl": 61.5,
+        "label": "1 л"
+      }
+    ]
   }
 ]
