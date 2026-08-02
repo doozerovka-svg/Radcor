@@ -4,14 +4,14 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Управление товарами — Radcor-Prim</title>
+    <title data-i18n="admin_text_title">Управление товарами — Radcor-Prim</title>
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
     
-    <link rel="stylesheet" href="style.css?v=28.0">
+    <link rel="stylesheet" href="style.css?v=29.0">
 
     <style>
         body {
@@ -195,18 +195,18 @@
     <header class="admin-header">
         <h1>Radcor-Prim Admin</h1>
         <div>
-            <a href="index.html" class="btn btn-outline" style="font-size: 14px;">На сайт</a>
+            <a href="index.html" class="btn btn-outline" style="font-size: 14px;" data-i18n="admin_text_a">На сайт</a>
         </div>
     </header>
 
     <div class="admin-toolbar">
-        <button id="btnOpenFile" class="btn btn-primary">📁 Открыть products.json</button>
-        <button id="btnSaveFile" class="btn btn-primary" style="display:none; background: var(--colour-mol-green);">💾 Сохранить изменения</button>
-        <button id="btnAdd" class="btn btn-outline" style="display:none;">+ Добавить товар</button>
+        <button id="btnOpenFile" class="btn btn-primary" data-i18n="admin_products_j">📁 Открыть products.json</button>
+        <button id="btnSaveFile" class="btn btn-primary" style="display:none; background: var(--colour-mol-green);" data-i18n="admin_text_button">💾 Сохранить изменения</button>
+        <button id="btnAdd" class="btn btn-outline" style="display:none;" data-i18n="admin_text_button_2">+ Добавить товар</button>
         
         <div class="file-status">
             <div id="statusIndicator" class="status-indicator"></div>
-            <span id="statusText">Файл не открыт</span>
+            <span id="statusText" data-i18n="admin_text_span">Файл не открыт</span>
         </div>
     </div>
 
@@ -215,19 +215,19 @@
             <table>
                 <thead>
                     <tr>
-                        <th style="width:60px">Фото</th>
-                        <th>Артикул</th>
-                        <th>Название</th>
-                        <th>Категория</th>
-                        <th>Объемы (Л)</th>
-                        <th style="text-align:right">Действия</th>
+                        <th style="width:60px" data-i18n="admin_text_th">Фото</th>
+                        <th data-i18n="admin_text_th_3">Артикул</th>
+                        <th data-i18n="admin_text_th_4">Название</th>
+                        <th data-i18n="admin_text_th_5">Категория</th>
+                        <th data-i18n="admin_text_th_6">Объемы (Л)</th>
+                        <th style="text-align:right" data-i18n="admin_text_th_7">Действия</th>
                     </tr>
                 </thead>
                 <tbody id="tableBody">
                     <tr>
                         <td colspan="6" style="text-align:center; padding: 40px; color: var(--colour-text-muted);">
                             Нажмите "Открыть products.json", чтобы начать работу.<br><br>
-                            <em>Этот интерфейс работает напрямую с вашим локальным файлом без использования сервера!</em>
+                            <em data-i18n="admin_text_em">Этот интерфейс работает напрямую с вашим локальным файлом без использования сервера!</em>
                         </td>
                     </tr>
                 </tbody>
@@ -238,50 +238,50 @@
     <!-- Modal -->
     <div class="modal-overlay" id="editModal">
         <div class="modal-card">
-            <h2 id="modalTitle">Редактирование товара</h2>
+            <h2 id="modalTitle" data-i18n="admin_text_h2">Редактирование товара</h2>
             <div class="form-grid">
                 <div class="form-group">
-                    <label>Артикул (SKU)</label>
+                    <label data-i18n="admin_sku">Артикул (SKU)</label>
                     <input type="text" id="f_sku">
                 </div>
                 <div class="form-group">
-                    <label>Категория</label>
+                    <label data-i18n="admin_text_th_5">Категория</label>
                     <select id="f_category">
-                        <option value="motor-oils">Автомобильные масла</option>
-                        <option value="coolants">Охлаждающие жидкости</option>
-                        <option value="autochemistry">Автохимия и смазки</option>
-                        <option value="winter">Зимняя программа</option>
-                        <option value="accessories">Расходники и аксессуары</option>
-                        <option value="industrial">Промышленный сектор</option>
+                        <option value="motor-oils" data-i18n="admin_text_option">Автомобильные масла</option>
+                        <option value="coolants" data-i18n="admin_text_option_8">Охлаждающие жидкости</option>
+                        <option value="autochemistry" data-i18n="admin_text_option_9">Автохимия и смазки</option>
+                        <option value="winter" data-i18n="admin_text_option_10">Зимняя программа</option>
+                        <option value="accessories" data-i18n="admin_text_option_11">Расходники и аксессуары</option>
+                        <option value="industrial" data-i18n="admin_text_option_12">Промышленный сектор</option>
                     </select>
                 </div>
                 <div class="form-group full">
-                    <label>Название товара</label>
+                    <label data-i18n="admin_text_label">Название товара</label>
                     <input type="text" id="f_name">
                 </div>
                 <div class="form-group full">
-                    <label>URL Фотографии</label>
+                    <label data-i18n="admin_url">URL Фотографии</label>
                     <input type="text" id="f_photo" placeholder="https://...">
                 </div>
                 <div class="form-group full">
-                    <label>Объемы (через запятую)</label>
+                    <label data-i18n="admin_text_label_13">Объемы (через запятую)</label>
                     <input type="text" id="f_volumes" placeholder="1, 4, 60, 208">
                 </div>
                 <div class="form-group full">
-                    <label>Краткое описание</label>
+                    <label data-i18n="admin_text_label_14">Краткое описание</label>
                     <textarea id="f_desc" rows="3"></textarea>
                 </div>
                 
                 <div class="form-group full">
-                    <label>Характеристики (Спецификации)</label>
+                    <label data-i18n="admin_text_label_15">Характеристики (Спецификации)</label>
                     <div id="specsContainer"></div>
-                    <button id="btnAddSpec" class="btn btn-outline" style="font-size: 12px; align-self: flex-start; margin-top: 5px;">+ Добавить характеристику</button>
+                    <button id="btnAddSpec" class="btn btn-outline" style="font-size: 12px; align-self: flex-start; margin-top: 5px;" data-i18n="admin_text_button_16">+ Добавить характеристику</button>
                 </div>
             </div>
             
             <div class="modal-actions">
-                <button class="btn btn-outline" onclick="closeModal()">Отмена</button>
-                <button class="btn btn-primary" id="btnSaveModal">Сохранить</button>
+                <button class="btn btn-outline" onclick="closeModal()" data-i18n="admin_text_button_17">Отмена</button>
+                <button class="btn btn-primary" id="btnSaveModal" data-i18n="admin_text_button_18">Сохранить</button>
             </div>
         </div>
     </div>
@@ -342,7 +342,7 @@
         function renderTable() {
             tableBody.innerHTML = '';
             if (productsData.length === 0) {
-                tableBody.innerHTML = '<tr><td colspan="6" style="text-align:center;">Нет товаров</td></tr>';
+                tableBody.innerHTML = '<tr><td colspan="6" style="text-align:center;" data-i18n="admin_text_td">Нет товаров</td></tr>';
                 return;
             }
 
@@ -358,8 +358,8 @@
                     <td>${volString}</td>
                     <td style="text-align:right">
                         <div class="actions" style="justify-content:flex-end">
-                            <button class="btn btn-outline" style="padding:4px 8px; font-size:12px" onclick="openModal(${index})">Изменить</button>
-                            <button class="btn btn-outline" style="padding:4px 8px; font-size:12px; color:var(--colour-mol-red); border-color:var(--colour-mol-red)" onclick="deleteProduct(${index})">Удалить</button>
+                            <button class="btn btn-outline" style="padding:4px 8px; font-size:12px" onclick="openModal(${index})" data-i18n="admin_text_button_19">Изменить</button>
+                            <button class="btn btn-outline" style="padding:4px 8px; font-size:12px; color:var(--colour-mol-red); border-color:var(--colour-mol-red)" onclick="deleteProduct(${index})" data-i18n="admin_text_button_20">Удалить</button>
                         </div>
                     </td>
                 `;
@@ -462,7 +462,7 @@
             }
         }
     </script>
-    <script src="i18n.js?v=28.0"></script>
-    <script src="app.js?v=28.0"></script>
+    <script src="i18n.js?v=29.0"></script>
+    <script src="app.js?v=29.0"></script>
 </body>
 </html>

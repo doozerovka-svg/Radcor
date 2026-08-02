@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Личный кабинет B2B партнера Radcor-Prim SRL. Баланс, прайс-листы, отслеживание заказов.">
-    <title>Личный кабинет B2B — Radcor-Prim</title>
+    <title data-i18n="b2b_dashboard_b2b">Личный кабинет B2B — Radcor-Prim</title>
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@500;700&family=Space+Mono&display=swap" rel="stylesheet">
     
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="style.css?v=28.0">
+    <link rel="stylesheet" href="style.css?v=29.0">
 </head>
 <body class="b2b-dashboard-body">
 
@@ -36,14 +36,14 @@
                 <div class="user-profile-info">
                     <span class="avatar-icon">🏢</span>
                     <div>
-                        <span class="company-name text-amber">ООО "АвтоБизнесМолдова"</span>
-                        <span class="user-role code-font">ID: 84920 (Дилер)</span>
+                        <span class="company-name text-amber" data-i18n="b2b_dashboard_text_span">ООО "АвтоБизнесМолдова"</span>
+                        <span class="user-role code-font" data-i18n="b2b_dashboard_id__84920">ID: 84920 (Дилер)</span>
                     </div>
                 </div>
                 <div class="nav-actions">
-                    <a href="admin.html" class="btn btn-secondary btn-sm double-border" style="margin-right: 8px;">Управление</a>
-                    <a href="catalog.html" class="btn btn-secondary btn-sm double-border">Вернуться в каталог</a>
-                    <a href="index.html" class="btn-logout code-font">Выйти</a>
+                    <a href="admin.html" class="btn btn-secondary btn-sm double-border" style="margin-right: 8px;" data-i18n="b2b_dashboard_text_a">Управление</a>
+                    <a href="catalog.html" class="btn btn-secondary btn-sm double-border" data-i18n="b2b_dashboard_text_a_21">Вернуться в каталог</a>
+                    <a href="index.html" class="btn-logout code-font" data-i18n="b2b_dashboard_text_a_22">Выйти</a>
                 </div>
             </nav>
         </div>
@@ -57,32 +57,32 @@
             
             <!-- Баланс и Долг -->
             <div class="dashboard-card widget-balance double-border">
-                <h3>Финансовое состояние</h3>
+                <h3 data-i18n="b2b_dashboard_text_h3">Финансовое состояние</h3>
                 <div class="balance-numbers">
                     <div class="bal-col">
-                        <span class="bal-label">Баланс взаиморасчетов</span>
+                        <span class="bal-label" data-i18n="b2b_dashboard_text_span_23">Баланс взаиморасчетов</span>
                         <span class="bal-value text-green">+45,200 MDL</span>
                     </div>
                     <div class="bal-col">
-                        <span class="bal-label">Текущий долг</span>
+                        <span class="bal-label" data-i18n="b2b_dashboard_text_span_24">Текущий долг</span>
                         <span class="bal-value text-red">12,000 MDL</span>
                     </div>
                 </div>
                 <div class="card-footer-action">
-                    <button class="btn btn-primary btn-sm full-width" id="payInvoiceBtn">Оплатить задолженность</button>
+                    <button class="btn btn-primary btn-sm full-width" id="payInvoiceBtn" data-i18n="b2b_dashboard_text_button">Оплатить задолженность</button>
                 </div>
             </div>
 
             <!-- Кредитный лимит -->
             <div class="dashboard-card widget-limits double-border">
-                <h3>Кредитная линия</h3>
+                <h3 data-i18n="b2b_dashboard_text_h3_25">Кредитная линия</h3>
                 <div class="limit-status">
                     <div class="limit-bar-wrap">
                         <div class="limit-bar-fill" style="width: 12%;"></div>
                     </div>
                     <div class="limit-details">
-                        <span>Использовано: 12,000 MDL</span>
-                        <span>Лимит: 100,000 MDL</span>
+                        <span data-i18n="b2b_dashboard_12_000">Использовано: 12,000 MDL</span>
+                        <span data-i18n="b2b_dashboard_100_000_mdl">Лимит: 100,000 MDL</span>
                     </div>
                 </div>
                 <div class="limit-alert code-font">
@@ -92,8 +92,8 @@
 
             <!-- Загрузка прайс-листов -->
             <div class="dashboard-card widget-downloads double-border">
-                <h3>Прайс-листы и каталоги</h3>
-                <p>Скачайте актуальные цены со скидкой дилера и остатки товаров на складе в Кишиневе.</p>
+                <h3 data-i18n="b2b_dashboard_text_h3_26">Прайс-листы и каталоги</h3>
+                <p data-i18n="b2b_dashboard_text_p">Скачайте актуальные цены со скидкой дилера и остатки товаров на складе в Кишиневе.</p>
                 <div class="download-buttons">
                     <button class="btn btn-secondary full-width btn-download double-border" id="downloadExcelBtn">
                         <span class="btn-icon">📊</span> Скачать прайс (Excel .xlsx)
@@ -102,20 +102,20 @@
                         <span class="btn-icon">📕</span> Скачать каталог масел MOL (PDF)
                     </a>
                 </div>
-                <span class="update-time code-font">Прайс-лист обновлен: сегодня в 08:15</span>
+                <span class="update-time code-font" data-i18n="b2b_dashboard_text_span_27">Прайс-лист обновлен: сегодня в 08:15</span>
             </div>
 
         </section>
 
         <!-- Средний сектор: Трекер доставки -->
         <section class="dashboard-card order-tracker-section double-border">
-            <h3>Отслеживание текущего заказа</h3>
+            <h3 data-i18n="b2b_dashboard_text_h3_28">Отслеживание текущего заказа</h3>
             <div class="tracker-header">
                 <div>
-                    <span class="tracker-title">Заказ №84920</span>
-                    <span class="tracker-meta code-font">Масла MOL (4 канистры), Антифриз Felix (2 бочки)</span>
+                    <span class="tracker-title" data-i18n="b2b_dashboard_84920">Заказ №84920</span>
+                    <span class="tracker-meta code-font" data-i18n="b2b_dashboard_mol__4">Масла MOL (4 канистры), Антифриз Felix (2 бочки)</span>
                 </div>
-                <span class="tracker-delivery-time text-amber">Доставка сегодня до 16:00 (Маршрут Кишинев-Бельцы)</span>
+                <span class="tracker-delivery-time text-amber" data-i18n="b2b_dashboard_text_span_29">Доставка сегодня до 16:00 (Маршрут Кишинев-Бельцы)</span>
             </div>
             
             <!-- Интерактивный прогресс-бар -->
@@ -126,23 +126,23 @@
                 <div class="timeline-steps">
                     <div class="step-point completed">
                         <span class="step-icon">✔</span>
-                        <span class="step-name">Принят</span>
+                        <span class="step-name" data-i18n="b2b_dashboard_text_span_30">Принят</span>
                         <span class="step-date code-font">08:30</span>
                     </div>
                     <div class="step-point completed">
                         <span class="step-icon">✔</span>
-                        <span class="step-name">Сборка на складе</span>
+                        <span class="step-name" data-i18n="b2b_dashboard_text_span_31">Сборка на складе</span>
                         <span class="step-date code-font">09:15</span>
                     </div>
                     <div class="step-point active">
                         <span class="step-icon">🚚</span>
-                        <span class="step-name">В пути</span>
-                        <span class="step-date code-font">10:30 (Выехал)</span>
+                        <span class="step-name" data-i18n="b2b_dashboard_text_span_32">В пути</span>
+                        <span class="step-date code-font" data-i18n="b2b_dashboard_10_30">10:30 (Выехал)</span>
                     </div>
                     <div class="step-point">
                         <span class="step-icon">🏁</span>
-                        <span class="step-name">Доставлен</span>
-                        <span class="step-date code-font">Ожидание</span>
+                        <span class="step-name" data-i18n="b2b_dashboard_text_span_33">Доставлен</span>
+                        <span class="step-date code-font" data-i18n="b2b_dashboard_text_span_34">Ожидание</span>
                     </div>
                 </div>
             </div>
@@ -153,36 +153,36 @@
             
             <!-- Быстрый заказ по артикулу -->
             <div class="dashboard-card quick-order-box double-border">
-                <h3>Быстрый заказ по SKU</h3>
-                <p>Добавьте товары в заказ напрямую по их коду (артикулу) без просмотра каталога.</p>
+                <h3 data-i18n="b2b_dashboard_sku">Быстрый заказ по SKU</h3>
+                <p data-i18n="b2b_dashboard_text_p_35">Добавьте товары в заказ напрямую по их коду (артикулу) без просмотра каталога.</p>
                 <form class="quick-order-form" id="quickOrderForm">
                     <div class="form-row">
                         <div class="form-group">
-                            <label for="skuCode">Артикул товара</label>
+                            <label for="skuCode" data-i18n="b2b_dashboard_text_label">Артикул товара</label>
                             <input type="text" id="skuCode" placeholder="Например, 151201" required>
                         </div>
                         <div class="form-group">
-                            <label for="skuQty">Кол-во (шт/коробки)</label>
+                            <label for="skuQty" data-i18n="b2b_dashboard_text_label_36">Кол-во (шт/коробки)</label>
                             <input type="number" id="skuQty" min="1" value="1" required>
                         </div>
                     </div>
-                    <button type="submit" class="btn btn-primary full-width">Добавить в корзину</button>
+                    <button type="submit" class="btn btn-primary full-width" data-i18n="b2b_dashboard_text_button_37">Добавить в корзину</button>
                 </form>
-                <div id="quickOrderMsg" class="form-success-msg">Товар добавлен в корзину заказа!</div>
+                <div id="quickOrderMsg" class="form-success-msg" data-i18n="b2b_dashboard_text_div_38">Товар добавлен в корзину заказа!</div>
             </div>
 
             <!-- История заказов -->
             <div class="dashboard-card orders-history-box double-border">
-                <h3>История последних заказов</h3>
+                <h3 data-i18n="b2b_dashboard_text_h3_39">История последних заказов</h3>
                 <div class="table-responsive">
                     <table class="orders-table">
                         <thead>
                             <tr>
-                                <th>Заказ</th>
-                                <th>Дата</th>
-                                <th>Сумма</th>
-                                <th>Статус оплаты</th>
-                                <th>Доставка</th>
+                                <th data-i18n="b2b_dashboard_text_th">Заказ</th>
+                                <th data-i18n="b2b_dashboard_text_th_40">Дата</th>
+                                <th data-i18n="b2b_dashboard_text_th_41">Сумма</th>
+                                <th data-i18n="b2b_dashboard_text_th_42">Статус оплаты</th>
+                                <th data-i18n="b2b_dashboard_text_th_43">Доставка</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -190,22 +190,22 @@
                                 <td class="code-font text-amber">№84920</td>
                                 <td>22.06.2026</td>
                                 <td>14,500 MDL</td>
-                                <td><span class="status-badge status-unpaid">Счет выставлен</span></td>
-                                <td><span class="status-badge status-shipping">В пути</span></td>
+                                <td><span class="status-badge status-unpaid" data-i18n="b2b_dashboard_text_span_44">Счет выставлен</span></td>
+                                <td><span class="status-badge status-shipping" data-i18n="b2b_dashboard_text_span_32">В пути</span></td>
                             </tr>
                             <tr>
                                 <td class="code-font text-amber">№84605</td>
                                 <td>15.06.2026</td>
                                 <td>8,200 MDL</td>
-                                <td><span class="status-badge status-paid">Оплачен</span></td>
-                                <td><span class="status-badge status-delivered">Доставлен</span></td>
+                                <td><span class="status-badge status-paid" data-i18n="b2b_dashboard_text_span_45">Оплачен</span></td>
+                                <td><span class="status-badge status-delivered" data-i18n="b2b_dashboard_text_span_33">Доставлен</span></td>
                             </tr>
                             <tr>
                                 <td class="code-font text-amber">№83910</td>
                                 <td>02.06.2026</td>
                                 <td>22,400 MDL</td>
-                                <td><span class="status-badge status-paid">Оплачен</span></td>
-                                <td><span class="status-badge status-delivered">Доставлен</span></td>
+                                <td><span class="status-badge status-paid" data-i18n="b2b_dashboard_text_span_45">Оплачен</span></td>
+                                <td><span class="status-badge status-delivered" data-i18n="b2b_dashboard_text_span_33">Доставлен</span></td>
                             </tr>
                         </tbody>
                     </table>
@@ -220,13 +220,13 @@
     <footer class="main-footer">
         <div class="container">
             <div class="footer-bottom">
-                <p>&copy; 2026 Radcor-Prim B2B. Все права защищены. Дилерская панель.</p>
+                <p data-i18n="b2b_dashboard_copy__2026_radcor_p">&copy; 2026 Radcor-Prim B2B. Все права защищены. Дилерская панель.</p>
             </div>
         </div>
     </footer>
 
     <!-- App Logic -->
-    <script src="i18n.js?v=28.0"></script>
-    <script src="app.js?v=28.0"></script>
+    <script src="i18n.js?v=29.0"></script>
+    <script src="app.js?v=29.0"></script>
 </body>
 </html>
