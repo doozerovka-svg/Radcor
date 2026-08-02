@@ -4198,57 +4198,53 @@
   },
   {
     "sku": "MOL-DYN-ESS-5W30",
-    "name": "MOL Dynamic Essence 5W-30",
+    "name": "Моторное масло MOL Dynamic Essence 5W-30",
     "category": "motor-oils-pkw",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
+    "photo_url": "https://www.mol.com/o/MOL_Public_Content/images/products/mol-essence-5w30.png",
     "volumes": [
       1,
       4,
-      50,
-      198
+      57,
+      199
     ],
-    "description": "Высокоэффективное синтетическое моторное масло для современных легковых автомобилей.",
+    "description": "Высокотехнологичное синтетическое масло MOL Dynamic Essence 5W-30 для бензиновых и дизельных моторов.",
     "specs": [
       {
         "label": "Вязкость",
         "value": "5W-30"
       },
       {
-        "label": "Класс",
-        "value": "API SN, ACEA C3"
-      },
-      {
         "label": "Допуски",
-        "value": "VW 504.00/507.00"
+        "value": "ACEA A3/B4-04, API SL/CF, VW 502 00/505 00, BMW Longlife-01"
       }
     ],
     "canister_vol": 1,
-    "canister_price": 120,
+    "canister_price": 122.0,
     "packs": [
       {
-        "id": "p-1",
+        "id": "mol-dyn-ess-5w30-1l",
         "volume_l": 1,
-        "price_mdl": 120,
+        "price_mdl": 122.0,
         "label": "1 л"
       },
       {
-        "id": "p-4",
+        "id": "mol-dyn-ess-5w30-4l",
         "volume_l": 4,
-        "price_mdl": 445,
+        "price_mdl": 479.0,
         "label": "4 л"
       },
       {
-        "id": "p-50",
-        "volume_l": 50,
-        "price_mdl": 5185,
-        "label": "50 л (Бочка)"
+        "id": "mol-dyn-ess-5w30-57l",
+        "volume_l": 57,
+        "price_mdl": 5396.0,
+        "label": "57 л"
       },
       {
-        "id": "p-198",
-        "volume_l": 198,
-        "price_mdl": 17226,
-        "label": "198 л (Бочка)"
+        "id": "mol-dyn-ess-5w30-199l",
+        "volume_l": 199,
+        "price_mdl": 18796.0,
+        "label": "199 л (Бочка)"
       }
     ],
     "barrel_vol": 198,
@@ -4372,56 +4368,52 @@
   },
   {
     "sku": "MOL-DYN-ESS-5W40",
-    "name": "MOL Dynamic Essence 5W-40",
+    "name": "Моторное масло MOL Dynamic Essence 5W-40",
     "category": "motor-oils-pkw",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
+    "photo_url": "https://www.mol.com/o/MOL_Public_Content/images/products/mol-essence-5w30.png",
     "volumes": [
       1,
       4,
-      50,
+      57,
       198
     ],
-    "description": "Универсальное синтетическое моторное масло для бензиновых и дизельных двигателей.",
+    "description": "Синтетическое моторное масло MOL Dynamic Essence 5W-40 для бензиновых и дизельных двигателей легковых автомобилей.",
     "specs": [
       {
         "label": "Вязкость",
         "value": "5W-40"
       },
       {
-        "label": "Класс",
-        "value": "API SN/CF, ACEA A3/B4-04"
-      },
-      {
         "label": "Допуски",
-        "value": "VW 502.00/505.00, MB 229.3, BMW Longlife-01"
+        "value": "API SN, ACEA A3/B4-08, VW 502 00/505 00, Renault RN0700/0710"
       }
     ],
     "canister_vol": 1,
-    "canister_price": 124,
+    "canister_price": 120.0,
     "packs": [
       {
-        "id": "p-1",
+        "id": "mol-dyn-ess-5w40-1l",
         "volume_l": 1,
-        "price_mdl": 124,
+        "price_mdl": 120.0,
         "label": "1 л"
       },
       {
-        "id": "p-4",
+        "id": "mol-dyn-ess-5w40-4l",
         "volume_l": 4,
-        "price_mdl": 470,
+        "price_mdl": 458.0,
         "label": "4 л"
       },
       {
-        "id": "p-50",
-        "volume_l": 50,
-        "price_mdl": 5180,
-        "label": "50 л (Бочка)"
+        "id": "mol-dyn-ess-5w40-57l",
+        "volume_l": 57,
+        "price_mdl": 4900.0,
+        "label": "57 л"
       },
       {
-        "id": "p-198",
+        "id": "mol-dyn-ess-5w40-198l",
         "volume_l": 198,
-        "price_mdl": 18880,
+        "price_mdl": 17025.0,
         "label": "198 л (Бочка)"
       }
     ],
@@ -11492,6 +11484,644 @@
         "volume_l": 0.45,
         "price_mdl": 155,
         "label": "450 мл (Smart Straw)"
+      }
+    ]
+  },
+  {
+    "sku": "MOL-DYN-ESS-DIESEL-5W40",
+    "name": "Моторное масло MOL Dynamic Essence Diesel 5W-40",
+    "category": "motor-oils-pkw",
+    "brand": "MOL",
+    "photo_url": "https://www.mol.com/o/MOL_Public_Content/images/products/mol-essence-5w30.png",
+    "volumes": [
+      1,
+      4,
+      57
+    ],
+    "description": "Синтетическое моторное масло MOL Dynamic Essence Diesel 5W-40 для легковых дизельных двигателей.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "5W-40"
+      },
+      {
+        "label": "Допуски",
+        "value": "API SN, ACEA A3/B4-08, VW 502 00/505 00"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 115.0,
+    "packs": [
+      {
+        "id": "mol-dyn-ess-d-5w40-1l",
+        "volume_l": 1,
+        "price_mdl": 115.0,
+        "label": "1 л"
+      },
+      {
+        "id": "mol-dyn-ess-d-5w40-4l",
+        "volume_l": 4,
+        "price_mdl": 444.0,
+        "label": "4 л"
+      },
+      {
+        "id": "mol-dyn-ess-d-5w40-57l",
+        "volume_l": 57,
+        "price_mdl": 5005.0,
+        "label": "57 л"
+      }
+    ]
+  },
+  {
+    "sku": "MOL-DYN-PRIMA-5W40",
+    "name": "Моторное масло MOL Dynamic Prima 5W-40",
+    "category": "motor-oils-pkw",
+    "brand": "MOL",
+    "photo_url": "https://www.mol.com/o/MOL_Public_Content/images/products/mol-essence-5w30.png",
+    "volumes": [
+      1,
+      4,
+      57,
+      199
+    ],
+    "description": "Синтетическое малозольное масло MOL Dynamic Prima 5W-40 DPF для современных авто с фильтром сажи.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "5W-40"
+      },
+      {
+        "label": "Допуски",
+        "value": "DPF, API SM/CF, ACEA C3, VW 502 00/505 00/505 01, MB 229.51"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 148.0,
+    "packs": [
+      {
+        "id": "mol-prima-5w40-1l",
+        "volume_l": 1,
+        "price_mdl": 148.0,
+        "label": "1 л"
+      },
+      {
+        "id": "mol-prima-5w40-4l",
+        "volume_l": 4,
+        "price_mdl": 568.0,
+        "label": "4 л"
+      },
+      {
+        "id": "mol-prima-5w40-57l",
+        "volume_l": 57,
+        "price_mdl": 6610.0,
+        "label": "57 л"
+      },
+      {
+        "id": "mol-prima-5w40-199l",
+        "volume_l": 199,
+        "price_mdl": 22687.0,
+        "label": "199 л (Бочка)"
+      }
+    ]
+  },
+  {
+    "sku": "MOL-DYN-GOLD-5W40",
+    "name": "Моторное масло MOL Dynamic Gold 5W-40",
+    "category": "motor-oils-pkw",
+    "brand": "MOL",
+    "photo_url": "https://www.mol.com/o/MOL_Public_Content/images/products/mol-essence-5w30.png",
+    "volumes": [
+      1,
+      4,
+      57,
+      199
+    ],
+    "description": "Премиальное синтетическое моторное масло MOL Dynamic Gold 5W-40 для бензиновых и дизельных двигателей.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "5W-40"
+      },
+      {
+        "label": "Допуски",
+        "value": "DPF, ACEA C3, API SN/CF, VW 502 00/505 01, MB 229.51"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 158.0,
+    "packs": [
+      {
+        "id": "mol-gold-5w40-1l",
+        "volume_l": 1,
+        "price_mdl": 158.0,
+        "label": "1 л"
+      },
+      {
+        "id": "mol-gold-5w40-4l",
+        "volume_l": 4,
+        "price_mdl": 598.0,
+        "label": "4 л"
+      },
+      {
+        "id": "mol-gold-5w40-57l",
+        "volume_l": 57,
+        "price_mdl": 6652.0,
+        "label": "57 л"
+      },
+      {
+        "id": "mol-gold-5w40-199l",
+        "volume_l": 199,
+        "price_mdl": 22187.0,
+        "label": "199 л (Бочка)"
+      }
+    ]
+  },
+  {
+    "sku": "MOL-DYN-GOLD-LONGLIFE-5W30",
+    "name": "Моторное масло MOL Dynamic Gold Longlife 5W-30",
+    "category": "motor-oils-pkw",
+    "brand": "MOL",
+    "photo_url": "https://www.mol.com/o/MOL_Public_Content/images/products/mol-essence-5w30.png",
+    "volumes": [
+      1,
+      4,
+      55
+    ],
+    "description": "Синтетическое моторное масло высшего качества MOL Dynamic Gold Longlife 5W-30 с официальными допусками VW 504 00/507 00.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "5W-30"
+      },
+      {
+        "label": "Допуски",
+        "value": "DPF, ACEA C3, VW 504 00/507 00, MB 229.51"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 184.0,
+    "packs": [
+      {
+        "id": "mol-gold-ll-5w30-1l",
+        "volume_l": 1,
+        "price_mdl": 184.0,
+        "label": "1 л"
+      },
+      {
+        "id": "mol-gold-ll-5w30-4l",
+        "volume_l": 4,
+        "price_mdl": 698.0,
+        "label": "4 л"
+      },
+      {
+        "id": "mol-gold-ll-5w30-55l",
+        "volume_l": 55,
+        "price_mdl": 7480.0,
+        "label": "55 л"
+      }
+    ]
+  },
+  {
+    "sku": "MOL-ESSENCE-10W40",
+    "name": "Моторное масло MOL Essence 10W-40",
+    "category": "motor-oils-pkw",
+    "brand": "MOL",
+    "photo_url": "https://www.mol.com/o/MOL_Public_Content/images/products/mol-essence-5w30.png",
+    "volumes": [
+      1,
+      4,
+      57
+    ],
+    "description": "Полусинтетическое моторное масло MOL Essence 10W-40 для бензиновых и дизельных двигателей.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "10W-40"
+      },
+      {
+        "label": "Допуски",
+        "value": "ACEA A3/B4-08, API SL/CF, VW 501 01/505 00"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 99.0,
+    "packs": [
+      {
+        "id": "mol-ess-10w40-1l",
+        "volume_l": 1,
+        "price_mdl": 99.0,
+        "label": "1 л"
+      },
+      {
+        "id": "mol-ess-10w40-4l",
+        "volume_l": 4,
+        "price_mdl": 392.0,
+        "label": "4 л"
+      },
+      {
+        "id": "mol-ess-10w40-57l",
+        "volume_l": 57,
+        "price_mdl": 4936.0,
+        "label": "57 л"
+      }
+    ]
+  },
+  {
+    "sku": "MOL-DYN-MAX-10W40",
+    "name": "Моторное масло MOL Dynamic Max 10W-40 (LKW)",
+    "category": "motor-oils-lkw",
+    "brand": "MOL",
+    "photo_url": "https://www.mol.com/o/MOL_Public_Content/images/products/mol-dynamic-transit-10w40.png",
+    "volumes": [
+      1,
+      4,
+      58,
+      198
+    ],
+    "description": "Полусинтетическое масло MOL Dynamic Max 10W-40 для дизельных двигателей тяжелого коммерческого транспорта.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "10W-40"
+      },
+      {
+        "label": "Допуски",
+        "value": "ACEA E7, API CI-4/SL, MB 228.3, MAN M 3275, Volvo VDS-3"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 118.5,
+    "packs": [
+      {
+        "id": "mol-max-10w40-1l",
+        "volume_l": 1,
+        "price_mdl": 118.5,
+        "label": "1 л"
+      },
+      {
+        "id": "mol-max-10w40-4l",
+        "volume_l": 4,
+        "price_mdl": 452.0,
+        "label": "4 л"
+      },
+      {
+        "id": "mol-max-10w40-58l",
+        "volume_l": 58,
+        "price_mdl": 4795.0,
+        "label": "58 л"
+      },
+      {
+        "id": "mol-max-10w40-198l",
+        "volume_l": 198,
+        "price_mdl": 16585.0,
+        "label": "198 л (Бочка)"
+      }
+    ]
+  },
+  {
+    "sku": "MOL-DYN-TRANSIT-10W40",
+    "name": "Моторное масло MOL Dynamic Transit 10W-40 (LKW)",
+    "category": "motor-oils-lkw",
+    "brand": "MOL",
+    "photo_url": "https://www.mol.com/o/MOL_Public_Content/images/products/mol-dynamic-transit-10w40.png",
+    "volumes": [
+      1,
+      4,
+      201
+    ],
+    "description": "Универсальное масло MOL Dynamic Transit 10W-40 для высоконагруженных дизелей смешанных автопарков.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "10W-40"
+      },
+      {
+        "label": "Допуски",
+        "value": "API CI-4/SL, MB 228.3, MAN M 3275, Volvo VDS-3"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 119.0,
+    "packs": [
+      {
+        "id": "mol-transit-10w40-1l",
+        "volume_l": 1,
+        "price_mdl": 119.0,
+        "label": "1 л"
+      },
+      {
+        "id": "mol-transit-10w40-4l",
+        "volume_l": 4,
+        "price_mdl": 449.0,
+        "label": "4 л"
+      },
+      {
+        "id": "mol-transit-10w40-201l",
+        "volume_l": 201,
+        "price_mdl": 15985.0,
+        "label": "201 л (Бочка)"
+      }
+    ]
+  },
+  {
+    "sku": "MOL-HYKOMOL-80W90",
+    "name": "Трансмиссионное масло MOL Hykomol 80W-90 GL-4",
+    "category": "transmission-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
+    "volumes": [
+      1,
+      4,
+      58,
+      201
+    ],
+    "description": "Трансмиссионное масло MOL Hykomol SAE 80W-90 класса API GL-4 для механических коробок передач и редукторов.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "80W-90"
+      },
+      {
+        "label": "Класс API",
+        "value": "GL-4"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 94.0,
+    "packs": [
+      {
+        "id": "hykomol-80w90-1l",
+        "volume_l": 1,
+        "price_mdl": 94.0,
+        "label": "1 л"
+      },
+      {
+        "id": "hykomol-80w90-4l",
+        "volume_l": 4,
+        "price_mdl": 348.0,
+        "label": "4 л"
+      },
+      {
+        "id": "hykomol-80w90-58l",
+        "volume_l": 58,
+        "price_mdl": 3752.0,
+        "label": "58 л"
+      },
+      {
+        "id": "hykomol-80w90-201l",
+        "volume_l": 201,
+        "price_mdl": 12122.0,
+        "label": "201 л (Бочка)"
+      }
+    ]
+  },
+  {
+    "sku": "MOL-HYKOMOL-K-80W90",
+    "name": "Трансмиссионное масло MOL Hykomol K 80W-90 GL-5",
+    "category": "transmission-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
+    "volumes": [
+      1,
+      4,
+      58,
+      200
+    ],
+    "description": "Трансмиссионное масло MOL Hykomol K SAE 80W-90 класса API GL-5 для ведомых мостов и гипоидных передач.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "80W-90"
+      },
+      {
+        "label": "Класс API",
+        "value": "GL-5"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 96.0,
+    "packs": [
+      {
+        "id": "hykomol-k-80w90-1l",
+        "volume_l": 1,
+        "price_mdl": 96.0,
+        "label": "1 л"
+      },
+      {
+        "id": "hykomol-k-80w90-4l",
+        "volume_l": 4,
+        "price_mdl": 358.0,
+        "label": "4 л"
+      },
+      {
+        "id": "hykomol-k-80w90-58l",
+        "volume_l": 58,
+        "price_mdl": 3856.0,
+        "label": "58 л"
+      },
+      {
+        "id": "hykomol-k-80w90-200l",
+        "volume_l": 200,
+        "price_mdl": 12684.0,
+        "label": "200 л (Бочка)"
+      }
+    ]
+  },
+  {
+    "sku": "MOL-HYKOMOL-SYNT-75W90",
+    "name": "Трансмиссионное масло MOL Hykomol Synt 75W-90 GL-4/GL-5",
+    "category": "transmission-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
+    "volumes": [
+      1,
+      10,
+      55,
+      195
+    ],
+    "description": "Синтетическое трансмиссионное масло MOL Hykomol Synt 75W-90 высшего качества для всех типов коробок передач.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "75W-90"
+      },
+      {
+        "label": "Класс API",
+        "value": "GL-4 / GL-5"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 208.0,
+    "packs": [
+      {
+        "id": "hykomol-synt-75w90-1l",
+        "volume_l": 1,
+        "price_mdl": 208.0,
+        "label": "1 л"
+      },
+      {
+        "id": "hykomol-synt-75w90-10l",
+        "volume_l": 10,
+        "price_mdl": 1620.0,
+        "label": "10 л"
+      },
+      {
+        "id": "hykomol-synt-75w90-55l",
+        "volume_l": 55,
+        "price_mdl": 9285.0,
+        "label": "55 л"
+      },
+      {
+        "id": "hykomol-synt-75w90-195l",
+        "volume_l": 195,
+        "price_mdl": 59610.0,
+        "label": "195 л (Бочка)"
+      }
+    ]
+  },
+  {
+    "sku": "MOL-ATF-3G",
+    "name": "Трансмиссионное масло MOL ATF 3G (Dexron III)",
+    "category": "transmission-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
+    "volumes": [
+      1,
+      55
+    ],
+    "description": "Жидкость для автоматических коробок передач MOL ATF 3G класса Dexron III, MAN 339 V-1 / Z-1.",
+    "specs": [
+      {
+        "label": "Спецификации",
+        "value": "Dexron III, MAN 339 V-1 / Z-1"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 137.0,
+    "packs": [
+      {
+        "id": "mol-atf-3g-1l",
+        "volume_l": 1,
+        "price_mdl": 137.0,
+        "label": "1 л"
+      },
+      {
+        "id": "mol-atf-3g-55l",
+        "volume_l": 55,
+        "price_mdl": 5692.5,
+        "label": "55 л"
+      }
+    ]
+  },
+  {
+    "sku": "MOL-DSG-DCT-FLUID",
+    "name": "Трансмиссионное масло MOL DSG / DCT Fluid (1 л)",
+    "category": "transmission-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
+    "volumes": [
+      1
+    ],
+    "description": "Специальная жидкость MOL DSG / DCT Fluid для роботизированных коробок передач с двоичным сцеплением.",
+    "specs": [
+      {
+        "label": "Назначение",
+        "value": "Роботизированные КПП (DSG / DCT)"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 218.0,
+    "packs": [
+      {
+        "id": "mol-dsg-fluid-1l",
+        "volume_l": 1,
+        "price_mdl": 218.0,
+        "label": "1 л"
+      }
+    ]
+  },
+  {
+    "sku": "MOL-CVT-FLUID",
+    "name": "Трансмиссионное масло MOL CVT Fluid (1 л)",
+    "category": "transmission-oils",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
+    "volumes": [
+      1
+    ],
+    "description": "Специальная трансмиссионная жидкость MOL CVT Fluid для бесступенчатых вариаторных коробок передач.",
+    "specs": [
+      {
+        "label": "Назначение",
+        "value": "Вариаторные КПП (CVT)"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 187.0,
+    "packs": [
+      {
+        "id": "mol-cvt-fluid-1l",
+        "volume_l": 1,
+        "price_mdl": 187.0,
+        "label": "1 л"
+      }
+    ]
+  },
+  {
+    "sku": "MOL-LITON-LT-2EP-0375",
+    "name": "Смазка MOL Liton LT 2 EP (0.375 кг дойпак)",
+    "category": "greases",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
+    "volumes": [
+      0.375
+    ],
+    "description": "Многоцелевая литиевая пластичная смазка MOL Liton LT 2 EP в удобной упаковке дойпак 375 г.",
+    "specs": [
+      {
+        "label": "Класс NLGI",
+        "value": "NLGI 2, DIN 51502 KP2K-30"
+      }
+    ],
+    "canister_vol": 0.375,
+    "canister_price": 75.0,
+    "packs": [
+      {
+        "id": "liton-2ep-0375",
+        "volume_l": 0.375,
+        "price_mdl": 75.0,
+        "label": "375 г"
+      }
+    ]
+  },
+  {
+    "sku": "MOL-FAVORIT-2-BLUE-0400",
+    "name": "Смазка MOL Favorit 2 Blue (0.400 кг картридж)",
+    "category": "greases",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
+    "volumes": [
+      0.4
+    ],
+    "description": "Высокотемпературная литиево-комплексная смазка синего цвета MOL Favorit 2 Blue для высоких нагрузок.",
+    "specs": [
+      {
+        "label": "Класс NLGI",
+        "value": "NLGI 2, DIN 51502 KP2N-30"
+      },
+      {
+        "label": "Цвет",
+        "value": "Синий"
+      }
+    ],
+    "canister_vol": 0.4,
+    "canister_price": 124.0,
+    "packs": [
+      {
+        "id": "favorit-2-0400",
+        "volume_l": 0.4,
+        "price_mdl": 124.0,
+        "label": "400 г"
       }
     ]
   }
