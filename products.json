@@ -11089,7 +11089,7 @@
     "name": "Смазка YUKO ШРУС-4 (375 г дойпак)",
     "category": "greases",
     "brand": "YUKO",
-    "photo_url": "https://yuko.eu/storage/products/shrus-4-doypack.png",
+    "photo_url": "images/products/yuko-shrus4.png",
     "volumes": [
       0.375
     ],
@@ -11124,7 +11124,7 @@
     "name": "Масло трансмиссионное YUKO ТАД-17м 85W-90 GL-5 (1 л)",
     "category": "transmission-oils",
     "brand": "YUKO",
-    "photo_url": "https://yuko.eu/storage/products/tad-17m-1l.png",
+    "photo_url": "images/products/yuko-canisters.png",
     "volumes": [
       1
     ],
@@ -11155,7 +11155,7 @@
     "name": "Моторное масло YUKO CLASSIC 15W-40",
     "category": "motor-oils-pkw",
     "brand": "YUKO",
-    "photo_url": "https://yuko.eu/storage/products/classic-15w40-4l.png",
+    "photo_url": "images/products/yuko-canisters.png",
     "volumes": [
       1,
       4
@@ -11189,7 +11189,7 @@
     "name": "Моторное масло YUKO VEGA SYNT 10W-40",
     "category": "motor-oils-pkw",
     "brand": "YUKO",
-    "photo_url": "https://yuko.eu/storage/products/vega-synt-10w40-4l.png",
+    "photo_url": "images/products/yuko-canisters.png",
     "volumes": [
       1,
       4
@@ -11223,7 +11223,7 @@
     "name": "Моторное масло YUKO Synetic 5W-30 (1 л)",
     "category": "motor-oils-pkw",
     "brand": "YUKO",
-    "photo_url": "https://yuko.eu/storage/products/synetic-5w30-1l.png",
+    "photo_url": "images/products/yuko-canisters.png",
     "volumes": [
       1
     ],
@@ -11250,7 +11250,7 @@
     "name": "Моторное масло YUKO Synetic 5W-40 (1 л)",
     "category": "motor-oils-pkw",
     "brand": "YUKO",
-    "photo_url": "https://yuko.eu/storage/products/synetic-5w40-1l.png",
+    "photo_url": "images/products/yuko-canisters.png",
     "volumes": [
       1
     ],
@@ -11277,7 +11277,7 @@
     "name": "Моторное масло YUKO VEGA SYNT 5W-40 (1 л)",
     "category": "motor-oils-pkw",
     "brand": "YUKO",
-    "photo_url": "https://yuko.eu/storage/products/vega-synt-5w40-1l.png",
+    "photo_url": "images/products/yuko-canisters.png",
     "volumes": [
       1
     ],
@@ -11304,7 +11304,7 @@
     "name": "Масло моторное YUKO MOTOMIX 2T (1 л)",
     "category": "moto-oils",
     "brand": "YUKO",
-    "photo_url": "https://yuko.eu/storage/products/motomix-2t-1l.png",
+    "photo_url": "images/products/yuko-canisters.png",
     "volumes": [
       1
     ],
@@ -11331,7 +11331,7 @@
     "name": "Масло моторное YUKO SCOOTER SYNT 2T (1 л)",
     "category": "moto-oils",
     "brand": "YUKO",
-    "photo_url": "https://yuko.eu/storage/products/scooter-synt-2t-1l.png",
+    "photo_url": "images/products/yuko-canisters.png",
     "volumes": [
       1
     ],
@@ -11358,7 +11358,7 @@
     "name": "Масло моторное YUKO SEMISYNTETIC 4T 10W-40 (1 л)",
     "category": "moto-oils",
     "brand": "YUKO",
-    "photo_url": "https://yuko.eu/storage/products/4t-10w40-1l.png",
+    "photo_url": "images/products/yuko-canisters.png",
     "volumes": [
       1
     ],
@@ -11389,7 +11389,7 @@
     "name": "Жидкость гидроусилителя руля YUKO PSF (1 л)",
     "category": "hydraulic-oils",
     "brand": "YUKO",
-    "photo_url": "https://yuko.eu/storage/products/psf-1l.png",
+    "photo_url": "images/products/yuko-canisters.png",
     "volumes": [
       1
     ],
@@ -11416,7 +11416,7 @@
     "name": "Многофункциональная смазка WD-40 (Аэрозоль)",
     "category": "auto-chemistry",
     "brand": "WD-40",
-    "photo_url": "https://m.media-amazon.com/images/I/61Sj2yTndhL._AC_SL1500_.jpg",
+    "photo_url": "images/products/wd40-cans.png",
     "volumes": [
       0.1,
       0.2,
@@ -12130,7 +12130,7 @@
     "name": "Car Commerce Банка стеклянная Bociaga 3L с краном",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/61223.jpg",
+    "photo_url": "images/products/carcommerce/cc-61223.png",
     "volumes": [
       1
     ],
@@ -12165,7 +12165,7 @@
     "name": "Car Commerce Банка стеклянная Bociaga 5L с краном",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/61224.jpg",
+    "photo_url": "images/products/carcommerce/cc-61224.png",
     "volumes": [
       1
     ],
@@ -12200,7 +12200,7 @@
     "name": "Car Commerce Банка стеклянная Bociaga 6L с краном",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/61225.jpg",
+    "photo_url": "images/products/carcommerce/cc-61225.png",
     "volumes": [
       1
     ],
@@ -12235,7 +12235,7 @@
     "name": "Car Commerce Кувшин стеклянный Bociaga 3L",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/61226.jpg",
+    "photo_url": "images/products/carcommerce/cc-61226.png",
     "volumes": [
       1
     ],
@@ -12270,7 +12270,7 @@
     "name": "Car Commerce Кувшин стеклянный Bociaga 5L",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/61227.jpg",
+    "photo_url": "images/products/carcommerce/cc-61227.png",
     "volumes": [
       1
     ],
@@ -12305,7 +12305,7 @@
     "name": "Car Commerce Кувшин стеклянный Bociaga 6L",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/61228.jpg",
+    "photo_url": "images/products/carcommerce/cc-61228.png",
     "volumes": [
       1
     ],
@@ -12340,7 +12340,7 @@
     "name": "Car Commerce Губка для мойки авто Car Commerce Sponge",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42791.jpg",
+    "photo_url": "images/products/carcommerce/cc-42791.png",
     "volumes": [
       1
     ],
@@ -12375,7 +12375,7 @@
     "name": "Car Commerce Рукавица из микрофибры для мойки авто",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42218.jpg",
+    "photo_url": "images/products/carcommerce/cc-42218.png",
     "volumes": [
       1
     ],
@@ -12410,7 +12410,7 @@
     "name": "Car Commerce Полотенце из микрофибры для сушки кузова",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42564.jpg",
+    "photo_url": "images/products/carcommerce/cc-42564.png",
     "volumes": [
       1
     ],
@@ -12445,7 +12445,7 @@
     "name": "Car Commerce Подушка-губка для мойки автомобиля",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42125.jpg",
+    "photo_url": "images/products/carcommerce/cc-42125.png",
     "volumes": [
       1
     ],
@@ -12480,7 +12480,7 @@
     "name": "Car Commerce Подушка-накидка на сиденье водонепроницаемая",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42512.jpg",
+    "photo_url": "images/products/carcommerce/cc-42512.png",
     "volumes": [
       1
     ],
@@ -12515,7 +12515,7 @@
     "name": "Car Commerce Накидка на сиденье с подогревом 12V",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42517.jpg",
+    "photo_url": "images/products/carcommerce/cc-42517.png",
     "volumes": [
       1
     ],
@@ -12550,7 +12550,7 @@
     "name": "Car Commerce Накидка с подогревом 12V с регулятором",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42520.jpg",
+    "photo_url": "images/products/carcommerce/cc-42520.png",
     "volumes": [
       1
     ],
@@ -12585,7 +12585,7 @@
     "name": "Car Commerce Массажная накидка на сиденье (бамбуковые шарики)",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42522.jpg",
+    "photo_url": "images/products/carcommerce/cc-42522.png",
     "volumes": [
       1
     ],
@@ -12620,7 +12620,7 @@
     "name": "Car Commerce Скребок для льда с теплой перчаткой",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42103.jpg",
+    "photo_url": "images/products/carcommerce/cc-42103.png",
     "volumes": [
       1
     ],
@@ -12655,7 +12655,7 @@
     "name": "Car Commerce Щетка для мойки авто со скребком",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42223.jpg",
+    "photo_url": "images/products/carcommerce/cc-42223.png",
     "volumes": [
       1
     ],
@@ -12690,7 +12690,7 @@
     "name": "Car Commerce Щетка для мойки с телескопической рукояткой",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42225.jpg",
+    "photo_url": "images/products/carcommerce/cc-42225.png",
     "volumes": [
       1
     ],
@@ -12725,7 +12725,7 @@
     "name": "Car Commerce Трос буксировочный 3Т с крюками",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42144.jpg",
+    "photo_url": "images/products/carcommerce/cc-42144.png",
     "volumes": [
       1
     ],
@@ -12760,7 +12760,7 @@
     "name": "Car Commerce Трос буксировочный эластичный 3.5Т",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42220.jpg",
+    "photo_url": "images/products/carcommerce/cc-42220.png",
     "volumes": [
       1
     ],
@@ -12795,7 +12795,7 @@
     "name": "Car Commerce Рамка номерного знака Inox (Нержавейка)",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42109.jpg",
+    "photo_url": "images/products/carcommerce/cc-42109.png",
     "volumes": [
       1
     ],
@@ -12830,7 +12830,7 @@
     "name": "Car Commerce Вилка розетки прицепа 7-контактная",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42116.jpg",
+    "photo_url": "images/products/carcommerce/cc-42116.png",
     "volumes": [
       1
     ],
@@ -12865,7 +12865,7 @@
     "name": "Car Commerce Набор ремней для багажа 2.5m 2шт 2T",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42500.jpg",
+    "photo_url": "images/products/carcommerce/cc-42500.png",
     "volumes": [
       1
     ],
@@ -12900,7 +12900,7 @@
     "name": "Car Commerce Набор стяжных ремней 5m 2шт 2T",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42501.jpg",
+    "photo_url": "images/products/carcommerce/cc-42501.png",
     "volumes": [
       1
     ],
@@ -12935,7 +12935,7 @@
     "name": "Car Commerce Насос ножной 1 поршневой",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42171.jpg",
+    "photo_url": "images/products/carcommerce/cc-42171.png",
     "volumes": [
       1
     ],
@@ -12970,7 +12970,7 @@
     "name": "Car Commerce Насос ножной двухпоршневой с манометром 7 bar",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42119.jpg",
+    "photo_url": "images/products/carcommerce/cc-42119.png",
     "volumes": [
       1
     ],
@@ -13005,7 +13005,7 @@
     "name": "Car Commerce Насос ручной с манометром",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42114.jpg",
+    "photo_url": "images/products/carcommerce/cc-42114.png",
     "volumes": [
       1
     ],
@@ -13040,7 +13040,7 @@
     "name": "Car Commerce Аварийный LED знак-треугольник",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42188.jpg",
+    "photo_url": "images/products/carcommerce/cc-42188.png",
     "volumes": [
       1
     ],
@@ -13075,7 +13075,7 @@
     "name": "Car Commerce Сигнальная LED лампа аварийная",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42189.jpg",
+    "photo_url": "images/products/carcommerce/cc-42189.png",
     "volumes": [
       1
     ],
@@ -13110,7 +13110,7 @@
     "name": "Car Commerce Сигнальная LED лампа на магните",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42190.jpg",
+    "photo_url": "images/products/carcommerce/cc-42190.png",
     "volumes": [
       1
     ],
@@ -13145,7 +13145,7 @@
     "name": "Car Commerce Сигнальная LED лампа на батарейках",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42191.jpg",
+    "photo_url": "images/products/carcommerce/cc-42191.png",
     "volumes": [
       1
     ],
@@ -13180,7 +13180,7 @@
     "name": "Car Commerce Сигнальная спецлампа LED 12-24V",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42192.jpg",
+    "photo_url": "images/products/carcommerce/cc-42192.png",
     "volumes": [
       1
     ],
@@ -13215,7 +13215,7 @@
     "name": "Car Commerce Магнитная импульсная LED лампа",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42193.jpg",
+    "photo_url": "images/products/carcommerce/cc-42193.png",
     "volumes": [
       1
     ],
@@ -13250,7 +13250,7 @@
     "name": "Car Commerce Сигнальная LED лампа на штыре",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42194.jpg",
+    "photo_url": "images/products/carcommerce/cc-42194.png",
     "volumes": [
       1
     ],
@@ -13285,7 +13285,7 @@
     "name": "Car Commerce Магнитный LED маяк на штыре",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42195.jpg",
+    "photo_url": "images/products/carcommerce/cc-42195.png",
     "volumes": [
       1
     ],
@@ -13320,7 +13320,7 @@
     "name": "Car Commerce Лампа-гирофар светодиодная 12/24V на магните",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42527.jpg",
+    "photo_url": "images/products/carcommerce/cc-42527.png",
     "volumes": [
       1
     ],
@@ -13355,7 +13355,7 @@
     "name": "Car Commerce Лампа-гирофар светодиодная 12/24V на штыре",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42528.jpg",
+    "photo_url": "images/products/carcommerce/cc-42528.png",
     "volumes": [
       1
     ],
@@ -13390,7 +13390,7 @@
     "name": "Car Commerce Воронка для заливки топлива",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42105.jpg",
+    "photo_url": "images/products/carcommerce/cc-42105.png",
     "volumes": [
       1
     ],
@@ -13425,7 +13425,7 @@
     "name": "Car Commerce Домкрат гидравлический бутылочный 2Т",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42444.jpg",
+    "photo_url": "images/products/carcommerce/cc-42444.png",
     "volumes": [
       1
     ],
@@ -13460,7 +13460,7 @@
     "name": "Car Commerce Домкрат гидравлический подкатной 2Т",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42475.jpg",
+    "photo_url": "images/products/carcommerce/cc-42475.png",
     "volumes": [
       1
     ],
@@ -13495,7 +13495,7 @@
     "name": "Car Commerce Домкрат гидравлический бутылочный 5Т",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42485.jpg",
+    "photo_url": "images/products/carcommerce/cc-42485.png",
     "volumes": [
       1
     ],
@@ -13530,7 +13530,7 @@
     "name": "Car Commerce Зеркала мертвой зоны панорамные 2шт",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42391.jpg",
+    "photo_url": "images/products/carcommerce/cc-42391.png",
     "volumes": [
       1
     ],
@@ -13565,7 +13565,7 @@
     "name": "Car Commerce Зеркала мертвой зоны регулируемые 2шт",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42392.jpg",
+    "photo_url": "images/products/carcommerce/cc-42392.png",
     "volumes": [
       1
     ],
@@ -13600,7 +13600,7 @@
     "name": "Car Commerce Зеркало заднего вида на клипсах",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42428.jpg",
+    "photo_url": "images/products/carcommerce/cc-42428.png",
     "volumes": [
       1
     ],
@@ -13635,7 +13635,7 @@
     "name": "Car Commerce Зеркало заднего вида панорамное",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42507.jpg",
+    "photo_url": "images/products/carcommerce/cc-42507.png",
     "volumes": [
       1
     ],
@@ -13670,7 +13670,7 @@
     "name": "Car Commerce Зеркало салонное с регулировкой",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42099.jpg",
+    "photo_url": "images/products/carcommerce/cc-42099.png",
     "volumes": [
       1
     ],
@@ -13705,7 +13705,7 @@
     "name": "Car Commerce Наклейка «Ученик за рулем»",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42133.jpg",
+    "photo_url": "images/products/carcommerce/cc-42133.png",
     "volumes": [
       1
     ],
@@ -13740,7 +13740,7 @@
     "name": "Car Commerce Перчатки рабочие с резиновым покрытием (размер 10 XL)",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42152.jpg",
+    "photo_url": "images/products/carcommerce/cc-42152.png",
     "volumes": [
       1
     ],
@@ -13775,7 +13775,7 @@
     "name": "Car Commerce Диск тормозной декоративный / сувенирный 100mm 1шт",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42308.jpg",
+    "photo_url": "images/products/carcommerce/cc-42308.png",
     "volumes": [
       1
     ],
@@ -13810,7 +13810,7 @@
     "name": "Car Commerce Диски отрезные по металлу 115mm 1шт",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42309.jpg",
+    "photo_url": "images/products/carcommerce/cc-42309.png",
     "volumes": [
       1
     ],
@@ -13845,7 +13845,7 @@
     "name": "Car Commerce Диски отрезные по металлу 125mm 1шт",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42157.jpg",
+    "photo_url": "images/products/carcommerce/cc-42157.png",
     "volumes": [
       1
     ],
@@ -13880,7 +13880,7 @@
     "name": "Car Commerce Диски отрезные по металлу 230mm 1шт",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42168.jpg",
+    "photo_url": "images/products/carcommerce/cc-42168.png",
     "volumes": [
       1
     ],
@@ -13915,7 +13915,7 @@
     "name": "Car Commerce Выключатель массы аккумулятора",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42161.jpg",
+    "photo_url": "images/products/carcommerce/cc-42161.png",
     "volumes": [
       1
     ],
@@ -13950,7 +13950,7 @@
     "name": "Car Commerce Термометр электронный авто с LCD дисплеем",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42487.jpg",
+    "photo_url": "images/products/carcommerce/cc-42487.png",
     "volumes": [
       1
     ],
@@ -13985,7 +13985,7 @@
     "name": "Car Commerce Знак аварийной остановки сертифицированный",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42176.jpg",
+    "photo_url": "images/products/carcommerce/cc-42176.png",
     "volumes": [
       1
     ],
@@ -14020,7 +14020,7 @@
     "name": "Car Commerce Предохранители керамические цилиндрические 10шт",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42403.jpg",
+    "photo_url": "images/products/carcommerce/cc-42403.png",
     "volumes": [
       1
     ],
@@ -14055,7 +14055,7 @@
     "name": "Car Commerce Предохранители флажковые Standard 10шт",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42405.jpg",
+    "photo_url": "images/products/carcommerce/cc-42405.png",
     "volumes": [
       1
     ],
@@ -14090,7 +14090,7 @@
     "name": "Car Commerce Предохранители флажковые Mini 10шт",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42407.jpg",
+    "photo_url": "images/products/carcommerce/cc-42407.png",
     "volumes": [
       1
     ],
@@ -14125,7 +14125,7 @@
     "name": "Car Commerce Предохранители флажковые Micro 10шт",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42408.jpg",
+    "photo_url": "images/products/carcommerce/cc-42408.png",
     "volumes": [
       1
     ],
@@ -14160,7 +14160,7 @@
     "name": "Car Commerce Провода пусковые (прикуриватель) 200A 2.5m",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42566.jpg",
+    "photo_url": "images/products/carcommerce/cc-42566.png",
     "volumes": [
       1
     ],
@@ -14195,7 +14195,7 @@
     "name": "Car Commerce Провода пусковые 400A 3.5m",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42568.jpg",
+    "photo_url": "images/products/carcommerce/cc-42568.png",
     "volumes": [
       1
     ],
@@ -14230,7 +14230,7 @@
     "name": "Car Commerce Провода пусковые 600A 3.5m",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42570.jpg",
+    "photo_url": "images/products/carcommerce/cc-42570.png",
     "volumes": [
       1
     ],
@@ -14265,7 +14265,7 @@
     "name": "Car Commerce Провода пусковые 900A 4m",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42572.jpg",
+    "photo_url": "images/products/carcommerce/cc-42572.png",
     "volumes": [
       1
     ],
@@ -14300,7 +14300,7 @@
     "name": "Car Commerce Провода пусковые профессиональные 400A 3.5m",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42583.jpg",
+    "photo_url": "images/products/carcommerce/cc-42583.png",
     "volumes": [
       1
     ],
@@ -14335,7 +14335,7 @@
     "name": "Car Commerce Провода пусковые профессиональные 600A 3.5m",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42585.jpg",
+    "photo_url": "images/products/carcommerce/cc-42585.png",
     "volumes": [
       1
     ],
@@ -14370,7 +14370,7 @@
     "name": "Car Commerce Манометр для измерения давления в шинах",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42207.jpg",
+    "photo_url": "images/products/carcommerce/cc-42207.png",
     "volumes": [
       1
     ],
@@ -14405,7 +14405,7 @@
     "name": "Car Commerce Столик автомобильный на руль/сиденье Car Commerce",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42524.jpg",
+    "photo_url": "images/products/carcommerce/cc-42524.png",
     "volumes": [
       1
     ],
@@ -14440,7 +14440,7 @@
     "name": "Car Commerce Щетка для чистки колесных дисков",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42515.jpg",
+    "photo_url": "images/products/carcommerce/cc-42515.png",
     "volumes": [
       1
     ],
@@ -14475,7 +14475,7 @@
     "name": "Car Commerce Водосгон с губкой для мытья стекол 20см",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42432.jpg",
+    "photo_url": "images/products/carcommerce/cc-42432.png",
     "volumes": [
       1
     ],
@@ -14510,7 +14510,7 @@
     "name": "Car Commerce Сетка багажная крепления груза",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42172.jpg",
+    "photo_url": "images/products/carcommerce/cc-42172.png",
     "volumes": [
       1
     ],
@@ -14545,7 +14545,7 @@
     "name": "Car Commerce Лента двухсторонняя клейкая автомобильная",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42079.jpg",
+    "photo_url": "images/products/carcommerce/cc-42079.png",
     "volumes": [
       1
     ],
@@ -14580,7 +14580,7 @@
     "name": "Car Commerce Скребок для льда усиленный",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42167.jpg",
+    "photo_url": "images/products/carcommerce/cc-42167.png",
     "volumes": [
       1
     ],
@@ -14615,7 +14615,7 @@
     "name": "Car Commerce Компрессор автомобильный 12V 250PSI",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42426.jpg",
+    "photo_url": "images/products/carcommerce/cc-42426.png",
     "volumes": [
       1
     ],
@@ -14650,7 +14650,7 @@
     "name": "Car Commerce Компрессор автомобильный 12V 300PSI",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42141.jpg",
+    "photo_url": "images/products/carcommerce/cc-42141.png",
     "volumes": [
       1
     ],
@@ -14685,7 +14685,7 @@
     "name": "Car Commerce Компрессор авто 12V 35L/min 10 BAR",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42150.jpg",
+    "photo_url": "images/products/carcommerce/cc-42150.png",
     "volumes": [
       1
     ],
@@ -14720,7 +14720,7 @@
     "name": "Car Commerce Зарядное устройство АКБ 6V/12V 4A",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42147.jpg",
+    "photo_url": "images/products/carcommerce/cc-42147.png",
     "volumes": [
       1
     ],
@@ -14755,7 +14755,7 @@
     "name": "Car Commerce Зарядное устройство АКБ 12V 6A/8A LCD инвертор",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42546.jpg",
+    "photo_url": "images/products/carcommerce/cc-42546.png",
     "volumes": [
       1
     ],
@@ -14790,7 +14790,7 @@
     "name": "Car Commerce Зарядное устройство АКБ 12V 4A с LCD дисплеем",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42143.jpg",
+    "photo_url": "images/products/carcommerce/cc-42143.png",
     "volumes": [
       1
     ],
@@ -14825,7 +14825,7 @@
     "name": "Car Commerce Насос перекачки топлива и жидкостей",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42169.jpg",
+    "photo_url": "images/products/carcommerce/cc-42169.png",
     "volumes": [
       1
     ],
@@ -14860,7 +14860,7 @@
     "name": "Car Commerce Инвертор автомобильный 12V-220V 150W USB Car Commerce",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42574.jpg",
+    "photo_url": "images/products/carcommerce/cc-42574.png",
     "volumes": [
       1
     ],
@@ -14895,7 +14895,7 @@
     "name": "Car Commerce Инвертор автомобильный 12V-220V 300W USB Car Commerce",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42575.jpg",
+    "photo_url": "images/products/carcommerce/cc-42575.png",
     "volumes": [
       1
     ],
@@ -14930,7 +14930,7 @@
     "name": "Car Commerce Инвертор автомобильный 12V-220V 500W USB Car Commerce",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42576.jpg",
+    "photo_url": "images/products/carcommerce/cc-42576.png",
     "volumes": [
       1
     ],
@@ -14965,7 +14965,7 @@
     "name": "Car Commerce Инвертор автомобильный 12V-220V 1000W USB Car Commerce",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42577.jpg",
+    "photo_url": "images/products/carcommerce/cc-42577.png",
     "volumes": [
       1
     ],
@@ -15000,7 +15000,7 @@
     "name": "Car Commerce Инвертор автомобильный 12V-220V 1500W USB Car Commerce",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42578.jpg",
+    "photo_url": "images/products/carcommerce/cc-42578.png",
     "volumes": [
       1
     ],
@@ -15035,7 +15035,7 @@
     "name": "Car Commerce Инвертор автомобильный 12V-220V 2000W USB Car Commerce",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42579.jpg",
+    "photo_url": "images/products/carcommerce/cc-42579.png",
     "volumes": [
       1
     ],
@@ -15070,7 +15070,7 @@
     "name": "Car Commerce Обогреватель салона 12V 150W 2 в 1 (Тепло/Обдув)",
     "category": "accessories",
     "brand": "Car Commerce",
-    "photo_url": "https://carcommerce.pl/wp-content/uploads/42539.jpg",
+    "photo_url": "images/products/carcommerce/cc-42539.png",
     "volumes": [
       1
     ],
