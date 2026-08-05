@@ -167,6 +167,7 @@ document.addEventListener('DOMContentLoaded', () => {
         activeVolumes:  new Set(),
         activeColors:   new Set(),
         activeApprovals: new Set(),
+        activeAcea:     new Set(),
         searchQuery:    ''
     };
 
@@ -199,6 +200,35 @@ document.addEventListener('DOMContentLoaded', () => {
         const specEntry = (p.specs || []).find(s => s && s.label && s.label.includes('Допуски'));
         if (!specEntry || !specEntry.value) return [];
         return specEntry.value.split(/[,;]+/).map(s => s.trim()).filter(Boolean);
+    }
+
+    const ALL_ACEA_STANDARDS = [
+        'A1', 'A2', 'A3', 'A5', 'A7',
+        'B1', 'B2', 'B3', 'B3-16', 'B4', 'B4-16', 'B5', 'B7',
+        'C1', 'C2', 'C3', 'C4', 'C5', 'C5-21', 'C6', 'C6-21', 'C7',
+        'E11', 'E2', 'E3', 'E4', 'E5', 'E6', 'E7', 'E8', 'E9', 'E9-16',
+        'F01', 'PD2'
+    ];
+
+    function getProductAceaSpecs(p) {
+        if (!p) return [];
+        const textParts = [];
+        if (Array.isArray(p.specs)) {
+            p.specs.forEach(s => { if (s && s.value) textParts.push(String(s.value)); });
+        }
+        if (p.name) textParts.push(p.name);
+        if (p.description) textParts.push(p.description);
+        const fullText = textParts.join(' ');
+
+        const results = new Set();
+        ALL_ACEA_STANDARDS.forEach(std => {
+            const cleanStd = std.replace('-', '[\\-\\–]?');
+            const regex = new RegExp('(?:ACEA[\\s\\/\\-–]*|(?:^|[^a-zA-Z0-9]))' + cleanStd + '(?:(?![0-9a-zA-Z])|(?=[\\/\\s,;\\-–]|$))', 'i');
+            if (regex.test(fullText)) {
+                results.add(std);
+            }
+        });
+        return Array.from(results);
     }
 
     // ==========================================================================
@@ -296,10 +326,12 @@ document.addEventListener('DOMContentLoaded', () => {
         const viscosityGroup = document.getElementById('filterViscosityGroup');
         const volumeGroup    = document.getElementById('filterVolumeGroup');
         const standardGroup  = document.getElementById('filterStandardGroup');
+        const aceaGroup      = document.getElementById('filterAceaGroup');
         const brandOpts      = document.getElementById('filterBrandOptions');
         const viscosityOpts  = document.getElementById('filterViscosityOptions');
         const volumeOpts     = document.getElementById('filterVolumeOptions');
         const standardOpts   = document.getElementById('filterStandardOptions');
+        const aceaOpts       = document.getElementById('filterAceaOptions');
         if (!brandOpts || !volumeOpts || !brandGroup || !volumeGroup) return;
 
         const filtered = applyCategoryFilterOnly(products);
@@ -336,6 +368,14 @@ document.addEventListener('DOMContentLoaded', () => {
         filtered.forEach(p => {
             getProductApprovals(p).forEach(a => {
                 approvalMap[a] = (approvalMap[a] || 0) + 1;
+            });
+        });
+
+        // Collect unique ACEA specifications with counts
+        const aceaMap = {};
+        filtered.forEach(p => {
+            getProductAceaSpecs(p).forEach(a => {
+                aceaMap[a] = (aceaMap[a] || 0) + 1;
             });
         });
 
@@ -434,6 +474,27 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
 
+        // Render ACEA checkboxes
+        if (aceaGroup && aceaOpts) {
+            const isMotorOilsCat = ['motor-oils-pkw', 'motor-oils-lkw', 'moto-oils', 'lubricants'].includes(catalogState.activeCategory);
+            const aceaList = isMotorOilsCat
+                ? ALL_ACEA_STANDARDS
+                : ALL_ACEA_STANDARDS.filter(a => aceaMap[a] > 0);
+
+            if (aceaList.length > 0) {
+                aceaOpts.innerHTML = aceaList.map(a => `
+                    <label class="filter-checkbox-label">
+                        <input type="checkbox" class="filter-acea-cb" value="${a}" ${catalogState.activeAcea.has(a) ? 'checked' : ''}>
+                        ${a}
+                        <span class="filter-count">${aceaMap[a] || 0}</span>
+                    </label>
+                `).join('');
+                aceaGroup.style.display = '';
+            } else {
+                aceaGroup.style.display = 'none';
+            }
+        }
+
         // Attach listeners to new checkboxes
         viscosityOpts?.querySelectorAll('.filter-viscosity-cb').forEach(cb => {
             cb.addEventListener('change', () => {
@@ -467,6 +528,13 @@ document.addEventListener('DOMContentLoaded', () => {
             cb.addEventListener('change', () => {
                 if (cb.checked) catalogState.activeApprovals.add(cb.value);
                 else catalogState.activeApprovals.delete(cb.value);
+                renderCatalog(allProducts);
+            });
+        });
+        aceaOpts?.querySelectorAll('.filter-acea-cb').forEach(cb => {
+            cb.addEventListener('change', () => {
+                if (cb.checked) catalogState.activeAcea.add(cb.value);
+                else catalogState.activeAcea.delete(cb.value);
                 renderCatalog(allProducts);
             });
         });
@@ -526,6 +594,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 approvalMatch = pApprovals.some(a => catalogState.activeApprovals.has(a));
             }
 
+            // ACEA filter
+            let aceaMatch = true;
+            if (catalogState.activeAcea && catalogState.activeAcea.size > 0) {
+                const pAcea = getProductAceaSpecs(p);
+                aceaMatch = pAcea.some(a => catalogState.activeAcea.has(a));
+            }
+
             // Volume filter
             const volMatch = catalogState.activeVolumes.size === 0 || (p.volumes || []).some(v => catalogState.activeVolumes.has(String(v)));
 
@@ -539,7 +614,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 || (p.color || '').toLowerCase().includes(q)
                 || (p.specs || []).some(s => s.value && s.value.toLowerCase().includes(q));
 
-            return catMatch && viscMatch && colorMatch && brandMatch && approvalMatch && volMatch && searchMatch;
+            return catMatch && viscMatch && colorMatch && brandMatch && aceaMatch && approvalMatch && volMatch && searchMatch;
         });
     }
 
@@ -885,6 +960,7 @@ document.addEventListener('DOMContentLoaded', () => {
         catalogState.activeVolumes.clear();
         catalogState.activeColors.clear();
         catalogState.activeApprovals.clear();
+        catalogState.activeAcea.clear();
 
         // If parent lubricants clicked, open accordion
         if (cat === 'lubricants' && parentAcc) {
