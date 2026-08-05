@@ -381,7 +381,9 @@ async function initDb() {
         canister_price REAL,
         barrel_vol REAL,
         barrel_price REAL,
-        gauge_markings TEXT
+        gauge_markings TEXT,
+        packs_json TEXT,
+        stock_status TEXT
       )
     `);
 
@@ -391,6 +393,8 @@ async function initDb() {
     };
     await migrateColumn('photo_url', 'TEXT');
     await migrateColumn('volumes', 'TEXT');
+    await migrateColumn('packs_json', 'TEXT');
+    await migrateColumn('stock_status', 'TEXT');
 
     // Create orders table
     await runQuery(`
@@ -405,10 +409,19 @@ async function initDb() {
         total_price REAL,
         total_volume REAL,
         total_weight REAL,
+        delivery_city TEXT,
+        delivery_address TEXT,
+        comment TEXT,
         status TEXT,
         created_at TEXT
       )
     `);
+    const migrateOrderColumn = async (col, type) => {
+      try { await runQuery(`ALTER TABLE orders ADD COLUMN ${col} ${type}`); } catch(e) { /* already exists */ }
+    };
+    await migrateOrderColumn('delivery_city', 'TEXT');
+    await migrateOrderColumn('delivery_address', 'TEXT');
+    await migrateOrderColumn('comment', 'TEXT');
     
     // Create order_items table
     await runQuery(`
@@ -419,9 +432,16 @@ async function initDb() {
         product_name TEXT,
         quantity INTEGER,
         price REAL,
+        pack_id TEXT,
+        volume_l REAL,
         FOREIGN KEY(order_id) REFERENCES orders(id)
       )
     `);
+    const migrateOrderItemColumn = async (col, type) => {
+      try { await runQuery(`ALTER TABLE order_items ADD COLUMN ${col} ${type}`); } catch(e) { /* already exists */ }
+    };
+    await migrateOrderItemColumn('pack_id', 'TEXT');
+    await migrateOrderItemColumn('volume_l', 'REAL');
     
     // Create partners table
     await runQuery(`
@@ -523,6 +543,32 @@ async function writeJsonDb(data) {
   await fs.writeFile(fallbackFile, JSON.stringify(data, null, 2), 'utf8');
 }
 
+function parseJson(value, fallback) {
+  if (!value) return fallback;
+  if (typeof value !== 'string') return value;
+  try { return JSON.parse(value); } catch { return fallback; }
+}
+
+function productPacks(product) {
+  const packs = parseJson(product.packs_json || product.packs, []);
+  if (Array.isArray(packs) && packs.length) return packs;
+
+  return [
+    { id: 'canister', volume_l: Number(product.canister_vol), price_mdl: Number(product.canister_price), min_qty: 1 },
+    { id: 'barrel', volume_l: Number(product.barrel_vol), price_mdl: Number(product.barrel_price), min_qty: 1 }
+  ].filter(pack => pack.volume_l > 0);
+}
+
+function presentProduct(product) {
+  return {
+    ...product,
+    specs: parseJson(product.specs_json, product.specs || []),
+    volumes: parseJson(product.volumes, product.volumes || []),
+    packs: productPacks(product),
+    stock_status: product.stock_status || 'on_request'
+  };
+}
+
 // Get all products
 async function getProductsList() {
   if (dbType === 'sqlite') {
@@ -530,21 +576,13 @@ async function getProductsList() {
       sqliteDb.all('SELECT * FROM products', (err, rows) => {
         if (err) return reject(err);
         // Parse specs_json and volumes back into objects for api
-        const parsedRows = rows.map(r => ({
-          ...r,
-          specs: r.specs_json ? JSON.parse(r.specs_json) : [],
-          volumes: r.volumes ? JSON.parse(r.volumes) : []
-        }));
+        const parsedRows = rows.map(presentProduct);
         resolve(parsedRows);
       });
     });
   } else {
     const data = await readJsonDb();
-    return data.products.map(p => ({
-      ...p,
-      specs: p.specs_json ? JSON.parse(p.specs_json) : [],
-      volumes: p.volumes ? (typeof p.volumes === 'string' ? JSON.parse(p.volumes) : p.volumes) : []
-    }));
+    return data.products.map(presentProduct);
   }
 }
 
@@ -555,20 +593,14 @@ async function getProductBySku(sku) {
       sqliteDb.get('SELECT * FROM products WHERE sku = ?', [sku], (err, row) => {
         if (err) return reject(err);
         if (!row) return resolve(null);
-        resolve({
-          ...row,
-          specs: row.specs_json ? JSON.parse(row.specs_json) : []
-        });
+        resolve(presentProduct(row));
       });
     });
   } else {
     const data = await readJsonDb();
     const product = data.products.find(p => p.sku === sku);
     if (!product) return null;
-    return {
-      ...product,
-      specs: product.specs_json ? JSON.parse(product.specs_json) : []
-    };
+    return presentProduct(product);
   }
 }
 
@@ -582,8 +614,9 @@ async function saveProduct(p) {
           fill_height, fill_color, badge_class, badge_text, 
           photo_url, volumes,
           description, specs_json, pack_desc, 
-          canister_vol, canister_price, barrel_vol, barrel_price, gauge_markings
-        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+          canister_vol, canister_price, barrel_vol, barrel_price, gauge_markings,
+          packs_json, stock_status
+        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         ON CONFLICT(sku) DO UPDATE SET
           name=excluded.name,
           category=excluded.category,
@@ -603,11 +636,14 @@ async function saveProduct(p) {
           canister_price=excluded.canister_price,
           barrel_vol=excluded.barrel_vol,
           barrel_price=excluded.barrel_price,
-          gauge_markings=excluded.gauge_markings
+          gauge_markings=excluded.gauge_markings,
+          packs_json=excluded.packs_json,
+          stock_status=excluded.stock_status
       `);
       
       const specsJson = typeof p.specs === 'object' ? JSON.stringify(p.specs) : (p.specs_json || '[]');
       const volumesJson = Array.isArray(p.volumes) ? JSON.stringify(p.volumes) : (p.volumes || '[]');
+      const packsJson = Array.isArray(p.packs) ? JSON.stringify(p.packs) : (p.packs_json || '[]');
 
       stmt.run(
         p.sku, p.name, p.category, p.brand, p.sectors, p.oems,
@@ -617,12 +653,14 @@ async function saveProduct(p) {
         parseFloat(p.canister_vol) || 0, parseFloat(p.canister_price) || 0,
         parseFloat(p.barrel_vol) || 0, parseFloat(p.barrel_price) || 0,
         p.gauge_markings || '4L,3L,2L,1L',
+        packsJson, p.stock_status || 'on_request',
         function(err) {
           if (err) return reject(err);
           resolve({
             ...p,
             specs: JSON.parse(specsJson),
-            volumes: JSON.parse(volumesJson)
+            volumes: JSON.parse(volumesJson),
+            packs: JSON.parse(packsJson)
           });
         }
       );
@@ -632,6 +670,7 @@ async function saveProduct(p) {
     const data = await readJsonDb();
     const specsJson = typeof p.specs === 'object' ? JSON.stringify(p.specs) : (p.specs_json || '[]');
     const volumesJson = Array.isArray(p.volumes) ? JSON.stringify(p.volumes) : (p.volumes || '[]');
+    const packsJson = Array.isArray(p.packs) ? JSON.stringify(p.packs) : (p.packs_json || '[]');
     const newProduct = {
       sku: p.sku,
       name: p.name,
@@ -653,6 +692,8 @@ async function saveProduct(p) {
       barrel_vol: parseFloat(p.barrel_vol) || 0,
       barrel_price: parseFloat(p.barrel_price) || 0,
       gauge_markings: p.gauge_markings || '4L,3L,2L,1L'
+      ,packs_json: packsJson,
+      stock_status: p.stock_status || 'on_request'
     };
 
     const index = data.products.findIndex(prod => prod.sku === p.sku);
@@ -666,7 +707,8 @@ async function saveProduct(p) {
     return {
       ...newProduct,
       specs: JSON.parse(specsJson),
-      volumes: JSON.parse(volumesJson)
+      volumes: JSON.parse(volumesJson),
+      packs: JSON.parse(packsJson)
     };
   }
 }
@@ -697,8 +739,8 @@ async function saveOrder(order, items) {
         INSERT INTO orders (
           company_name, contact_person, email, phone, 
           payment_method, delivery_method, total_price, 
-          total_volume, total_weight, status, created_at
-        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+          total_volume, total_weight, delivery_city, delivery_address, comment, status, created_at
+        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
       `, [
         order.company_name,
         order.contact_person,
@@ -709,6 +751,9 @@ async function saveOrder(order, items) {
         order.total_price,
         order.total_volume,
         order.total_weight,
+        order.delivery_city || '',
+        order.delivery_address || '',
+        order.comment || '',
         order.status || 'Pending',
         order.created_at || new Date().toISOString()
       ], function(err) {
@@ -726,14 +771,16 @@ async function saveOrder(order, items) {
         for (const item of items) {
           sqliteDb.run(`
             INSERT INTO order_items (
-              order_id, product_id, product_name, quantity, price
-            ) VALUES (?, ?, ?, ?, ?)
+              order_id, product_id, product_name, quantity, price, pack_id, volume_l
+            ) VALUES (?, ?, ?, ?, ?, ?, ?)
           `, [
             orderId,
             item.product_id,
             item.product_name,
             item.quantity,
-            item.price
+            item.price,
+            item.pack_id || '',
+            item.volume_l || 0
           ], function(itemErr) {
             if (itemErr) {
               hasError = true;
@@ -744,7 +791,9 @@ async function saveOrder(order, items) {
                 product_id: item.product_id,
                 product_name: item.product_name,
                 quantity: item.quantity,
-                price: item.price
+                price: item.price,
+                pack_id: item.pack_id || '',
+                volume_l: item.volume_l || 0
               });
             }
             completed++;
@@ -779,6 +828,9 @@ async function saveOrder(order, items) {
       total_price: order.total_price,
       total_volume: order.total_volume,
       total_weight: order.total_weight,
+      delivery_city: order.delivery_city || '',
+      delivery_address: order.delivery_address || '',
+      comment: order.comment || '',
       status: order.status || 'Pending',
       created_at: order.created_at || new Date().toISOString()
     };
@@ -790,7 +842,9 @@ async function saveOrder(order, items) {
       product_id: item.product_id,
       product_name: item.product_name,
       quantity: item.quantity,
-      price: item.price
+      price: item.price,
+      pack_id: item.pack_id || '',
+      volume_l: item.volume_l || 0
     }));
     
     data.orders.push(newOrder);

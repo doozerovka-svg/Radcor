@@ -32,8 +32,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const CATEGORY_LABELS = {
         'all':                   'Все товары',
         'lubricants':            'Смазочные материалы',
-        'motor-oils-pkw':        'Моторные масла для легковых (PKW)',
-        'motor-oils-lkw':        'Моторные масла для грузовых (LKW)',
+        'motor-oils-pkw':        'Легковые моторные масла',
+        'motor-oils-lkw':        'Грузовые моторные масла',
         'moto-oils':             'Мото масла',
         'transmission-oils':     'Трансмиссионные масла',
         'hydraulic-oils':        'Гидравлические масла',
@@ -163,10 +163,35 @@ document.addEventListener('DOMContentLoaded', () => {
     const catalogState = {
         activeCategory: 'all',
         activeBrands:   new Set(),
+        activeViscosities: new Set(),
         activeVolumes:  new Set(),
         activeColors:   new Set(),
         searchQuery:    ''
     };
+
+    function getProductViscosity(p) {
+        if (!p) return null;
+        if (p.viscosity) return String(p.viscosity).trim();
+        if (Array.isArray(p.specs)) {
+            const spec = p.specs.find(s => s && s.label && (s.label.includes('Вязкость') || s.label.toLowerCase().includes('viscosity')));
+            if (spec && spec.value) return String(spec.value).trim();
+        }
+        const saeList = ['0W-16', '0W-20', '0W-30', '5W-20', '5W-30', '5W-40', '10W-30', '10W-40', '15W-40', '20W-50'];
+        const str = ((p.name || '') + ' ' + (p.name_ro || '')).toUpperCase();
+        for (const sae of saeList) {
+            if (str.includes(sae.toUpperCase())) return sae;
+        }
+        return null;
+    }
+
+    function getVolumeLabel(v, pack) {
+        if (pack && pack.label) return pack.label;
+        const numV = Number(v);
+        if (numV === 983) return '983 л (Еврокуб)';
+        if (numV === 991) return '991 л';
+        if (numV === 994) return '994 л';
+        return numV >= 1 ? `${numV} л` : `${numV * 1000} мл`;
+    }
 
     // ==========================================================================
     // FALLBACK OFFLINE PRODUCT DATA
@@ -257,12 +282,14 @@ document.addEventListener('DOMContentLoaded', () => {
     // SIDEBAR: DYNAMIC FILTERS (brands & volumes for current category)
     // ==========================================================================
     function renderSidebarFilters(products) {
-        const colorGroup  = document.getElementById('filterColorGroup');
-        const colorOpts   = document.getElementById('filterColorOptions');
-        const brandGroup  = document.getElementById('filterBrandGroup');
-        const volumeGroup = document.getElementById('filterVolumeGroup');
-        const brandOpts   = document.getElementById('filterBrandOptions');
-        const volumeOpts  = document.getElementById('filterVolumeOptions');
+        const colorGroup     = document.getElementById('filterColorGroup');
+        const colorOpts      = document.getElementById('filterColorOptions');
+        const brandGroup     = document.getElementById('filterBrandGroup');
+        const viscosityGroup = document.getElementById('filterViscosityGroup');
+        const volumeGroup    = document.getElementById('filterVolumeGroup');
+        const brandOpts      = document.getElementById('filterBrandOptions');
+        const viscosityOpts  = document.getElementById('filterViscosityOptions');
+        const volumeOpts     = document.getElementById('filterVolumeOptions');
         if (!brandOpts || !volumeOpts || !brandGroup || !volumeGroup) return;
 
         const filtered = applyCategoryFilterOnly(products);
@@ -277,6 +304,13 @@ document.addEventListener('DOMContentLoaded', () => {
         const brandMap = {};
         filtered.forEach(p => {
             if (p.brand) brandMap[p.brand] = (brandMap[p.brand] || 0) + 1;
+        });
+
+        // Collect unique viscosities with counts
+        const viscosityMap = {};
+        filtered.forEach(p => {
+            const v = getProductViscosity(p);
+            if (v) viscosityMap[v] = (viscosityMap[v] || 0) + 1;
         });
 
         // Collect unique volumes with counts
@@ -326,7 +360,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const volumes = Object.keys(volumeMap).map(Number).sort((a, b) => a - b);
         if (volumes.length > 0) {
             volumeOpts.innerHTML = volumes.map(v => {
-                const label = v >= 1 ? `${v} л` : `${v * 1000} мл`;
+                const label = getVolumeLabel(v);
                 return `
                     <label class="filter-checkbox-label">
                         <input type="checkbox" class="filter-volume-cb" value="${v}" ${catalogState.activeVolumes.has(String(v)) ? 'checked' : ''}>
@@ -340,7 +374,39 @@ document.addEventListener('DOMContentLoaded', () => {
             volumeGroup.style.display = 'none';
         }
 
+        // Render viscosity checkboxes
+        if (viscosityGroup && viscosityOpts) {
+            const saeOrder = ['0W-16', '0W-20', '0W-30', '5W-20', '5W-30', '5W-40', '10W-30', '10W-40', '15W-40', '20W-50'];
+            const viscosities = Object.keys(viscosityMap).sort((a, b) => {
+                const ia = saeOrder.indexOf(a), ib = saeOrder.indexOf(b);
+                if (ia !== -1 && ib !== -1) return ia - ib;
+                if (ia !== -1) return -1;
+                if (ib !== -1) return 1;
+                return a.localeCompare(b);
+            });
+            const showViscosity = (catalogState.activeCategory === 'motor-oils-pkw' || viscosities.length > 0) && viscosities.length > 0;
+            if (showViscosity) {
+                viscosityOpts.innerHTML = viscosities.map(v => `
+                    <label class="filter-checkbox-label">
+                        <input type="checkbox" class="filter-viscosity-cb" value="${v}" ${catalogState.activeViscosities.has(v) ? 'checked' : ''}>
+                        ${v}
+                        <span class="filter-count">${viscosityMap[v]}</span>
+                    </label>
+                `).join('');
+                viscosityGroup.style.display = '';
+            } else {
+                viscosityGroup.style.display = 'none';
+            }
+        }
+
         // Attach listeners to new checkboxes
+        viscosityOpts?.querySelectorAll('.filter-viscosity-cb').forEach(cb => {
+            cb.addEventListener('change', () => {
+                if (cb.checked) catalogState.activeViscosities.add(cb.value);
+                else catalogState.activeViscosities.delete(cb.value);
+                renderCatalog(allProducts);
+            });
+        });
         colorOpts?.querySelectorAll('.filter-color-cb').forEach(cb => {
             cb.addEventListener('change', () => {
                 if (cb.checked) catalogState.activeColors.add(cb.value);
@@ -387,6 +453,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 catMatch = (p.category === catalogState.activeCategory);
             }
 
+            // Viscosity filter
+            let viscMatch = true;
+            if (catalogState.activeViscosities && catalogState.activeViscosities.size > 0) {
+                const pVisc = getProductViscosity(p);
+                viscMatch = pVisc ? catalogState.activeViscosities.has(pVisc) : false;
+            }
+
             // Color filter
             const colorMatch = catalogState.activeColors.size === 0 || catalogState.activeColors.has(p.color);
 
@@ -406,7 +479,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 || (p.color || '').toLowerCase().includes(q)
                 || (p.specs || []).some(s => s.value && s.value.toLowerCase().includes(q));
 
-            return catMatch && colorMatch && brandMatch && volMatch && searchMatch;
+            return catMatch && viscMatch && colorMatch && brandMatch && volMatch && searchMatch;
         });
     }
 
@@ -456,7 +529,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const volTagsHtml = volumes.length > 0
             ? volumes.map((v, i) => {
                 const pack = getProductPacks(product).find(p => Number(p.volume_l) === Number(v));
-                const label = (pack && pack.label) ? pack.label : (v >= 1 ? `${v} л` : `${v * 1000} мл`);
+                const label = getVolumeLabel(v, pack);
                 return `<span class="volume-tag ${i === 0 ? 'active' : ''}" data-vol="${v}" data-sku="${product.sku}">${label}</span>`;
               }).join('')
             : '<span class="volume-tag active" data-vol="1">—</span>';
@@ -748,6 +821,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const cat = item.getAttribute('data-cat');
         catalogState.activeCategory = cat;
         catalogState.activeBrands.clear();
+        catalogState.activeViscosities.clear();
         catalogState.activeVolumes.clear();
         catalogState.activeColors.clear();
 
@@ -825,7 +899,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const prod = allProducts.find(p => p.sku === item.sku);
             const itemName = currentLang === 'ro' && prod && prod.name_ro ? prod.name_ro : item.name;
             const packMatch = prod && getProductPacks(prod).find(p => Number(p.volume_l) === Number(item.vol));
-            const volLabel = (packMatch && packMatch.label) ? packMatch.label : (item.vol >= 1 ? `${item.vol} л` : `${item.vol * 1000} мл`);
+            const volLabel = getVolumeLabel(item.vol, packMatch);
             return `
             <div class="cart-item-row" data-key="${key}">
                 <div class="cart-item-info">

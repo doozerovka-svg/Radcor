@@ -1276,7 +1276,10 @@
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
     "volumes": [
-      1
+      1,
+      991,
+      983,
+      994
     ],
     "description": "Синтетическое моторное масло премиум класса для самых современных автомобилей",
     "specs": [
@@ -1299,6 +1302,24 @@
         "volume_l": 1,
         "price_mdl": 240,
         "label": "1 л"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 74325,
+        "label": "991 л"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
       }
     ],
     "name_ro": "MOL Dynamic Star 0W-30",
@@ -1414,7 +1435,10 @@
       1,
       4,
       50,
-      198
+      198,
+      983,
+      991,
+      994
     ],
     "description": "Полусинтетическое моторное масло высшего сорта для большинства современных транспортных средств.",
     "specs": [
@@ -1459,6 +1483,24 @@
         "volume_l": 198,
         "price_mdl": 14880,
         "label": "198 л (Бочка)"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 68810,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 74325,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 79520,
+        "label": "994 л"
       }
     ],
     "name_ro": "MOL Dynamic Max 10W-40",
@@ -1474,7 +1516,10 @@
       1,
       4,
       60,
-      208
+      208,
+      983,
+      994,
+      991
     ],
     "description": "синтетическое моторное масло",
     "specs": [
@@ -1500,7 +1545,27 @@
     "barrel_vol": 208,
     "barrel_price": 0,
     "name_ro": "MOL Essence C3 5W-40",
-    "description_ro": "sintetic моторное масло"
+    "description_ro": "sintetic моторное масло",
+    "packs": [
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 68810,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 79520,
+        "label": "994 л"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л"
+      }
+    ]
   },
   {
     "sku": "MOL-1006",
@@ -1512,7 +1577,10 @@
       1,
       4,
       60,
-      208
+      208,
+      983,
+      991,
+      994
     ],
     "description": "моторное масло",
     "specs": [
@@ -1538,7 +1606,27 @@
     "barrel_vol": 208,
     "barrel_price": 0,
     "name_ro": "MOL Dynamic Gold HEV 0W-20",
-    "description_ro": "моторное масло"
+    "description_ro": "моторное масло",
+    "packs": [
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 68810,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
+      }
+    ]
   },
   {
     "sku": "MOL-1007",
@@ -1664,7 +1752,10 @@
       1,
       4,
       60,
-      208
+      208,
+      983,
+      991,
+      994
     ],
     "description": "Моторное масло для увеличенного ресурса.",
     "specs": [
@@ -1690,7 +1781,51 @@
     "barrel_vol": 208,
     "barrel_price": 0,
     "name_ro": "MOL Essence Diesel 10W-40",
-    "description_ro": "Ulei de motor для увеличенного ресурса."
+    "description_ro": "Ulei de motor для увеличенного ресурса.",
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 50,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 200,
+        "label": "4 л"
+      },
+      {
+        "id": "p-60",
+        "volume_l": 60,
+        "price_mdl": 3000,
+        "label": "60 л"
+      },
+      {
+        "id": "p-208",
+        "volume_l": 208,
+        "price_mdl": 10400,
+        "label": "208 л"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
+      }
+    ]
   },
   {
     "sku": "MOL-1011",
@@ -1704,7 +1839,10 @@
       5,
       10,
       50,
-      198
+      198,
+      983,
+      991,
+      994
     ],
     "description": "Синтетическое моторное масло высшего сорта для большинства современных транспортных средств.",
     "specs": [
@@ -1761,6 +1899,24 @@
         "volume_l": 198,
         "price_mdl": 26400,
         "label": "198 л (Бочка)"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
       }
     ],
     "name_ro": "MOL Dynamic Gold Longlife 5W-30",
@@ -1984,7 +2140,10 @@
       1,
       4,
       60,
-      208
+      208,
+      983,
+      991,
+      994
     ],
     "description": "Синтетическое моторное масло премиум класса для самых современных автомобилей.",
     "specs": [
@@ -2010,7 +2169,51 @@
     "barrel_vol": 208,
     "barrel_price": 0,
     "name_ro": "MOL Dynamic Gold Longlife 0W-20",
-    "description_ro": "Sintetic моторное масло премиум класса для самых современных автомобилей."
+    "description_ro": "Sintetic моторное масло премиум класса для самых современных автомобилей.",
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 50,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 200,
+        "label": "4 л"
+      },
+      {
+        "id": "p-60",
+        "volume_l": 60,
+        "price_mdl": 3000,
+        "label": "60 л"
+      },
+      {
+        "id": "p-208",
+        "volume_l": 208,
+        "price_mdl": 10400,
+        "label": "208 л"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
+      }
+    ]
   },
   {
     "sku": "MOL-1019",
@@ -2020,7 +2223,10 @@
     "photo_url": "",
     "volumes": [
       1,
-      4
+      4,
+      983,
+      991,
+      994
     ],
     "description": "Синтетическое моторное масло премиум качества для самых современных автомобилей, предназначенное, в первую очередь, для легковых автомобилей Volvo",
     "specs": [
@@ -2053,6 +2259,24 @@
         "volume_l": 4,
         "price_mdl": 612,
         "label": "4 л"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
       }
     ],
     "name_ro": "MOL Dynamic Star VL 0W-20",
@@ -2147,7 +2371,10 @@
       1,
       4,
       60,
-      208
+      208,
+      983,
+      991,
+      994
     ],
     "description": "Синтетическое моторное масло премиум качества для самых современных автомобилей",
     "specs": [
@@ -2173,7 +2400,51 @@
     "barrel_vol": 208,
     "barrel_price": 0,
     "name_ro": "MOL Dynamic Gold DX 0W-20",
-    "description_ro": "Sintetic моторное масло премиум качества для самых современных автомобилей"
+    "description_ro": "Sintetic моторное масло премиум качества для самых современных автомобилей",
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 50,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 200,
+        "label": "4 л"
+      },
+      {
+        "id": "p-60",
+        "volume_l": 60,
+        "price_mdl": 3000,
+        "label": "60 л"
+      },
+      {
+        "id": "p-208",
+        "volume_l": 208,
+        "price_mdl": 10400,
+        "label": "208 л"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
+      }
+    ]
   },
   {
     "sku": "MOL-1023",
@@ -2185,7 +2456,10 @@
       1,
       4,
       60,
-      208
+      208,
+      983,
+      991,
+      994
     ],
     "description": "Синтетическое моторное масло премиум класса для автомобилей последнего поколения.",
     "specs": [
@@ -2211,7 +2485,51 @@
     "barrel_vol": 208,
     "barrel_price": 0,
     "name_ro": "MOL Dynamic Star PC 0W-30",
-    "description_ro": "Sintetic моторное масло премиум класса для автомобилей последнего поколения."
+    "description_ro": "Sintetic моторное масло премиум класса для автомобилей последнего поколения.",
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 50,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 200,
+        "label": "4 л"
+      },
+      {
+        "id": "p-60",
+        "volume_l": 60,
+        "price_mdl": 3000,
+        "label": "60 л"
+      },
+      {
+        "id": "p-208",
+        "volume_l": 208,
+        "price_mdl": 10400,
+        "label": "208 л"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
+      }
+    ]
   },
   {
     "sku": "MOL-1024",
@@ -2244,7 +2562,10 @@
       1,
       4,
       60,
-      208
+      208,
+      983,
+      991,
+      994
     ],
     "description": "Моторное масло для транспортных средств более ранних моделей с большим пробегом.",
     "specs": [
@@ -2270,7 +2591,27 @@
     "barrel_vol": 208,
     "barrel_price": 0,
     "name_ro": "MOL Botond 20W-50",
-    "description_ro": "Ulei de motor для транспортных средств более ранних моделей с большим пробегом."
+    "description_ro": "Ulei de motor для транспортных средств более ранних моделей с большим пробегом.",
+    "packs": [
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 68810,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 74325,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
+      }
+    ]
   },
   {
     "sku": "MOL-1026",
@@ -2373,7 +2714,10 @@
       1,
       4,
       60,
-      208
+      208,
+      983,
+      991,
+      994
     ],
     "description": "Синтетическое моторное масло высшего сорта для большинства современных транспортных средств.",
     "specs": [
@@ -2399,7 +2743,51 @@
     "barrel_vol": 208,
     "barrel_price": 0,
     "name_ro": "MOL Dynamic Synt 5W-30",
-    "description_ro": "Sintetic моторное масло высшего сорта для большинства современных транспортных средств."
+    "description_ro": "Sintetic моторное масло высшего сорта для большинства современных транспортных средств.",
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 50,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 200,
+        "label": "4 л"
+      },
+      {
+        "id": "p-60",
+        "volume_l": 60,
+        "price_mdl": 3000,
+        "label": "60 л"
+      },
+      {
+        "id": "p-208",
+        "volume_l": 208,
+        "price_mdl": 10400,
+        "label": "208 л"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
+      }
+    ]
   },
   {
     "sku": "MOL-1029",
@@ -2444,7 +2832,10 @@
       10,
       50,
       198,
-      202
+      202,
+      983,
+      991,
+      994
     ],
     "description": "Моторное масло для увеличенного ресурса.",
     "specs": [
@@ -2507,6 +2898,24 @@
         "volume_l": 202,
         "price_mdl": 15392,
         "label": "202 л (Бочка)"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
       }
     ],
     "name_ro": "MOL Essence 10W-40",
@@ -2522,7 +2931,10 @@
       1,
       4,
       60,
-      208
+      208,
+      983,
+      991,
+      994
     ],
     "description": "синтетическое моторное масло",
     "specs": [
@@ -2548,7 +2960,51 @@
     "barrel_vol": 208,
     "barrel_price": 0,
     "name_ro": "MOL Dynamic Synt RN17 5W-30",
-    "description_ro": "sintetic моторное масло"
+    "description_ro": "sintetic моторное масло",
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 50,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 200,
+        "label": "4 л"
+      },
+      {
+        "id": "p-60",
+        "volume_l": 60,
+        "price_mdl": 3000,
+        "label": "60 л"
+      },
+      {
+        "id": "p-208",
+        "volume_l": 208,
+        "price_mdl": 10400,
+        "label": "208 л"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
+      }
+    ]
   },
   {
     "sku": "MOL-1032",
@@ -2560,7 +3016,10 @@
       1,
       4,
       60,
-      208
+      208,
+      983,
+      991,
+      994
     ],
     "description": "Моторное масло для увеличения срока службы двигателя",
     "specs": [
@@ -2586,7 +3045,51 @@
     "barrel_vol": 208,
     "barrel_price": 0,
     "name_ro": "MOL Essence 15W-50",
-    "description_ro": "Ulei de motor для увеличения срока службы двигателя"
+    "description_ro": "Ulei de motor для увеличения срока службы двигателя",
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 50,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 200,
+        "label": "4 л"
+      },
+      {
+        "id": "p-60",
+        "volume_l": 60,
+        "price_mdl": 3000,
+        "label": "60 л"
+      },
+      {
+        "id": "p-208",
+        "volume_l": 208,
+        "price_mdl": 10400,
+        "label": "208 л"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
+      }
+    ]
   },
   {
     "sku": "MOL-1033",
@@ -2688,7 +3191,10 @@
     "volumes": [
       1,
       4,
-      198
+      198,
+      983,
+      991,
+      994
     ],
     "description": "Синтетическое моторное масло высшего сорта для большинства современных транспортных средств.",
     "specs": [
@@ -2723,6 +3229,24 @@
         "volume_l": 198,
         "price_mdl": 19992,
         "label": "198 л (Бочка)"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
       }
     ],
     "name_ro": "MOL Dynamic Star PC 5W-30",
@@ -2839,7 +3363,10 @@
       1,
       4,
       60,
-      208
+      208,
+      983,
+      991,
+      994
     ],
     "description": "Масло высшего сорта для мобильных газовых двигателей автомобилей, работающих на газе.",
     "specs": [
@@ -2865,7 +3392,51 @@
     "barrel_vol": 208,
     "barrel_price": 0,
     "name_ro": "MOL Dynamic Gas Eco+ 15W-40",
-    "description_ro": "Масло высшего сорта для мобильных газовых двигателей автомобилей, работающих на газе."
+    "description_ro": "Масло высшего сорта для мобильных газовых двигателей автомобилей, работающих на газе.",
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 50,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 200,
+        "label": "4 л"
+      },
+      {
+        "id": "p-60",
+        "volume_l": 60,
+        "price_mdl": 3000,
+        "label": "60 л"
+      },
+      {
+        "id": "p-208",
+        "volume_l": 208,
+        "price_mdl": 10400,
+        "label": "208 л"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
+      }
+    ]
   },
   {
     "sku": "MOL-1039",
@@ -2922,7 +3493,10 @@
     "volumes": [
       1,
       4,
-      198
+      198,
+      983,
+      991,
+      994
     ],
     "description": "Синтетическое моторное масло высшего сорта для большинства современных транспортных средств.",
     "specs": [
@@ -2961,6 +3535,24 @@
         "volume_l": 198,
         "price_mdl": 21600,
         "label": "198 л (Бочка)"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
       }
     ],
     "name_ro": "MOL Dynamic Synt RN 5W-30",
@@ -3014,7 +3606,10 @@
       1,
       4,
       60,
-      208
+      208,
+      983,
+      991,
+      994
     ],
     "description": "Моторное масло для двухтактных двигателей легковых автомобилей и мотоциклов более ранних моделей.",
     "specs": [
@@ -3040,7 +3635,51 @@
     "barrel_vol": 208,
     "barrel_price": 0,
     "name_ro": "MOL Arol 2T",
-    "description_ro": "Ulei de motor для двухтактных двигателей легковых автомобилей и мотоциклов более ранних моделей."
+    "description_ro": "Ulei de motor для двухтактных двигателей легковых автомобилей и мотоциклов более ранних моделей.",
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 50,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 200,
+        "label": "4 л"
+      },
+      {
+        "id": "p-60",
+        "volume_l": 60,
+        "price_mdl": 3000,
+        "label": "60 л"
+      },
+      {
+        "id": "p-208",
+        "volume_l": 208,
+        "price_mdl": 10400,
+        "label": "208 л"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
+      }
+    ]
   },
   {
     "sku": "MOL-1043",
@@ -3052,7 +3691,10 @@
       1,
       4,
       50,
-      198
+      198,
+      983,
+      991,
+      994
     ],
     "description": "Синтетическое моторное масло премиум класса для автомобилей последнего поколения.",
     "specs": [
@@ -3097,6 +3739,24 @@
         "volume_l": 198,
         "price_mdl": 19800,
         "label": "198 л (Бочка)"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
       }
     ],
     "name_ro": "MOL Dynamic Gold DX 5W-30",
@@ -3188,7 +3848,10 @@
       1,
       4,
       60,
-      208
+      208,
+      983,
+      991,
+      994
     ],
     "description": "синтетическое моторное масло",
     "specs": [
@@ -3214,7 +3877,51 @@
     "barrel_vol": 208,
     "barrel_price": 0,
     "name_ro": "MOL Essence Longlife 5W-30",
-    "description_ro": "sintetic моторное масло"
+    "description_ro": "sintetic моторное масло",
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 50,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 200,
+        "label": "4 л"
+      },
+      {
+        "id": "p-60",
+        "volume_l": 60,
+        "price_mdl": 3000,
+        "label": "60 л"
+      },
+      {
+        "id": "p-208",
+        "volume_l": 208,
+        "price_mdl": 10400,
+        "label": "208 л"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
+      }
+    ]
   },
   {
     "sku": "MOL-1047",
@@ -3226,7 +3933,10 @@
       1,
       4,
       60,
-      208
+      208,
+      983,
+      991,
+      994
     ],
     "description": "Синтетическое премиальное моторное масло для самых современных автомобилей.",
     "specs": [
@@ -3252,7 +3962,51 @@
     "barrel_vol": 208,
     "barrel_price": 0,
     "name_ro": "MOL Dynamic Star F 0W-30",
-    "description_ro": "Sintetic премиальное моторное масло для самых современных автомобилей."
+    "description_ro": "Sintetic премиальное моторное масло для самых современных автомобилей.",
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 50,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 200,
+        "label": "4 л"
+      },
+      {
+        "id": "p-60",
+        "volume_l": 60,
+        "price_mdl": 3000,
+        "label": "60 л"
+      },
+      {
+        "id": "p-208",
+        "volume_l": 208,
+        "price_mdl": 10400,
+        "label": "208 л"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
+      }
+    ]
   },
   {
     "sku": "MOL-1048",
@@ -3337,7 +4091,10 @@
       1,
       4,
       50,
-      202
+      202,
+      983,
+      991,
+      994
     ],
     "description": "Синтетическое моторное масло высшего сорта для большинства современных транспортных средств.",
     "specs": [
@@ -3382,6 +4139,24 @@
         "volume_l": 202,
         "price_mdl": 19992,
         "label": "202 л (Бочка)"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
       }
     ],
     "name_ro": "MOL Dynamic Star 5W-30",
@@ -3432,7 +4207,10 @@
       1,
       4,
       50,
-      198
+      198,
+      983,
+      991,
+      994
     ],
     "description": "Синтетическое моторное масло высшего сорта для большинства современных транспортных средств.",
     "specs": [
@@ -3477,6 +4255,24 @@
         "volume_l": 198,
         "price_mdl": 17832,
         "label": "198 л (Бочка)"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
       }
     ],
     "name_ro": "MOL Dynamic Gold 5W-30",
@@ -3492,7 +4288,10 @@
       1,
       4,
       60,
-      208
+      208,
+      983,
+      991,
+      994
     ],
     "description": "Моторное масло для увеличенного ресурса.",
     "specs": [
@@ -3518,7 +4317,51 @@
     "barrel_vol": 208,
     "barrel_price": 0,
     "name_ro": "MOL Essence Diesel 5W-40",
-    "description_ro": "Ulei de motor для увеличенного ресурса."
+    "description_ro": "Ulei de motor для увеличенного ресурса.",
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 50,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 200,
+        "label": "4 л"
+      },
+      {
+        "id": "p-60",
+        "volume_l": 60,
+        "price_mdl": 3000,
+        "label": "60 л"
+      },
+      {
+        "id": "p-208",
+        "volume_l": 208,
+        "price_mdl": 10400,
+        "label": "208 л"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
+      }
+    ]
   },
   {
     "sku": "MOL-1054",
@@ -3568,7 +4411,10 @@
       1,
       4,
       60,
-      208
+      208,
+      983,
+      991,
+      994
     ],
     "description": "Моторное масло для транспортных средств более ранних моделей с большим пробегом.",
     "specs": [
@@ -3594,7 +4440,51 @@
     "barrel_vol": 208,
     "barrel_price": 0,
     "name_ro": "MOL MSE 15W-40",
-    "description_ro": "Ulei de motor для транспортных средств более ранних моделей с большим пробегом."
+    "description_ro": "Ulei de motor для транспортных средств более ранних моделей с большим пробегом.",
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 50,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 200,
+        "label": "4 л"
+      },
+      {
+        "id": "p-60",
+        "volume_l": 60,
+        "price_mdl": 3000,
+        "label": "60 л"
+      },
+      {
+        "id": "p-208",
+        "volume_l": 208,
+        "price_mdl": 10400,
+        "label": "208 л"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
+      }
+    ]
   },
   {
     "sku": "MOL-1056",
@@ -3605,7 +4495,10 @@
     "volumes": [
       1,
       50,
-      202
+      202,
+      991,
+      994,
+      983
     ],
     "description": "Моторное масло для увеличенного ресурса.",
     "specs": [
@@ -3644,6 +4537,24 @@
         "volume_l": 202,
         "price_mdl": 11490,
         "label": "202 л (Бочка)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 74325,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 79520,
+        "label": "994 л"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
       }
     ],
     "name_ro": "MOL Essence 15W-40",
@@ -3790,7 +4701,10 @@
       1,
       4,
       60,
-      208
+      208,
+      983,
+      991,
+      994
     ],
     "description": "Синтетическое премиальное моторное масло для самых современных транспортных средств.",
     "specs": [
@@ -3816,7 +4730,51 @@
     "barrel_vol": 208,
     "barrel_price": 0,
     "name_ro": "MOL Dynamic Gold Longlife 0W-30",
-    "description_ro": "Sintetic премиальное моторное масло для самых современных транспортных средств."
+    "description_ro": "Sintetic премиальное моторное масло для самых современных транспортных средств.",
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 50,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 200,
+        "label": "4 л"
+      },
+      {
+        "id": "p-60",
+        "volume_l": 60,
+        "price_mdl": 3000,
+        "label": "60 л"
+      },
+      {
+        "id": "p-208",
+        "volume_l": 208,
+        "price_mdl": 10400,
+        "label": "208 л"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
+      }
+    ]
   },
   {
     "sku": "MOL-1062",
@@ -3828,7 +4786,10 @@
       1,
       4,
       50,
-      198
+      198,
+      983,
+      991,
+      994
     ],
     "description": "Синтетические моторные масла высшего сорта.",
     "specs": [
@@ -3873,6 +4834,24 @@
         "volume_l": 198,
         "price_mdl": 19992,
         "label": "198 л (Бочка)"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
       }
     ],
     "name_ro": "MOL Dynamic Prima 5W-40",
@@ -3926,7 +4905,10 @@
       1,
       4,
       60,
-      208
+      208,
+      983,
+      991,
+      994
     ],
     "description": "",
     "specs": [
@@ -3952,7 +4934,51 @@
     "barrel_vol": 208,
     "barrel_price": 0,
     "name_ro": "MOL Dynamic Race R5",
-    "description_ro": ""
+    "description_ro": "",
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 50,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 200,
+        "label": "4 л"
+      },
+      {
+        "id": "p-60",
+        "volume_l": 60,
+        "price_mdl": 3000,
+        "label": "60 л"
+      },
+      {
+        "id": "p-208",
+        "volume_l": 208,
+        "price_mdl": 10400,
+        "label": "208 л"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
+      }
+    ]
   },
   {
     "sku": "MOL-1065",
@@ -3964,7 +4990,10 @@
       1,
       4,
       60,
-      208
+      208,
+      983,
+      991,
+      994
     ],
     "description": "Моторное масло для удлинённого срока службы",
     "specs": [
@@ -3990,7 +5019,51 @@
     "barrel_vol": 208,
     "barrel_price": 0,
     "name_ro": "MOL Essence Multi Gas 5W-40",
-    "description_ro": "Ulei de motor для удлинённого срока службы"
+    "description_ro": "Ulei de motor для удлинённого срока службы",
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 50,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 200,
+        "label": "4 л"
+      },
+      {
+        "id": "p-60",
+        "volume_l": 60,
+        "price_mdl": 3000,
+        "label": "60 л"
+      },
+      {
+        "id": "p-208",
+        "volume_l": 208,
+        "price_mdl": 10400,
+        "label": "208 л"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
+      }
+    ]
   },
   {
     "sku": "MOL-1066",
@@ -4036,7 +5109,10 @@
       1,
       4,
       60,
-      208
+      208,
+      983,
+      991,
+      994
     ],
     "description": "синтетическое моторное масло",
     "specs": [
@@ -4062,7 +5138,51 @@
     "barrel_vol": 208,
     "barrel_price": 0,
     "name_ro": "MOL Dynamic Synt RN17FE 0W-20",
-    "description_ro": "sintetic моторное масло"
+    "description_ro": "sintetic моторное масло",
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 50,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 200,
+        "label": "4 л"
+      },
+      {
+        "id": "p-60",
+        "volume_l": 60,
+        "price_mdl": 3000,
+        "label": "60 л"
+      },
+      {
+        "id": "p-208",
+        "volume_l": 208,
+        "price_mdl": 10400,
+        "label": "208 л"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
+      }
+    ]
   },
   {
     "sku": "MOL-1068",
@@ -4138,7 +5258,10 @@
       1,
       4,
       60,
-      208
+      208,
+      994,
+      983,
+      991
     ],
     "description": "Синтетическое моторное масло премиум качества для самых современных автомобилей",
     "specs": [
@@ -4164,7 +5287,27 @@
     "barrel_vol": 208,
     "barrel_price": 0,
     "name_ro": "MOL Dynamic Gold DX 5W-20",
-    "description_ro": "Sintetic моторное масло премиум качества для самых современных автомобилей"
+    "description_ro": "Sintetic моторное масло премиум качества для самых современных автомобилей",
+    "packs": [
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 79520,
+        "label": "994 л"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л"
+      }
+    ]
   },
   {
     "sku": "MOL-1071",
@@ -4176,7 +5319,10 @@
       1,
       4,
       60,
-      208
+      208,
+      983,
+      991,
+      994
     ],
     "description": "Моторное масло для увеличенного ресурса.",
     "specs": [
@@ -4202,7 +5348,51 @@
     "barrel_vol": 208,
     "barrel_price": 0,
     "name_ro": "MOL Essence 5W-30",
-    "description_ro": "Ulei de motor для увеличенного ресурса."
+    "description_ro": "Ulei de motor для увеличенного ресурса.",
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 50,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 200,
+        "label": "4 л"
+      },
+      {
+        "id": "p-60",
+        "volume_l": 60,
+        "price_mdl": 3000,
+        "label": "60 л"
+      },
+      {
+        "id": "p-208",
+        "volume_l": 208,
+        "price_mdl": 10400,
+        "label": "208 л"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
+      }
+    ]
   },
   {
     "sku": "MOL-1072",
@@ -4248,7 +5438,10 @@
       1,
       4,
       60,
-      208
+      208,
+      983,
+      991,
+      994
     ],
     "description": "Синтетическое премиальное моторное масло для самых современных транспортных средств.",
     "specs": [
@@ -4274,7 +5467,51 @@
     "barrel_vol": 208,
     "barrel_price": 0,
     "name_ro": "MOL Dynamic Gold Longlife 0W-30",
-    "description_ro": "Sintetic премиальное моторное масло для самых современных транспортных средств."
+    "description_ro": "Sintetic премиальное моторное масло для самых современных транспортных средств.",
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 50,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 200,
+        "label": "4 л"
+      },
+      {
+        "id": "p-60",
+        "volume_l": 60,
+        "price_mdl": 3000,
+        "label": "60 л"
+      },
+      {
+        "id": "p-208",
+        "volume_l": 208,
+        "price_mdl": 10400,
+        "label": "208 л"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
+      }
+    ]
   },
   {
     "sku": "MOL-1074",
@@ -4286,7 +5523,10 @@
       1,
       4,
       60,
-      208
+      208,
+      983,
+      991,
+      994
     ],
     "description": "Моторное масло для увеличенного ресурса.",
     "specs": [
@@ -4312,7 +5552,51 @@
     "barrel_vol": 208,
     "barrel_price": 0,
     "name_ro": "MOL Essence 5W-40",
-    "description_ro": "Ulei de motor для увеличенного ресурса."
+    "description_ro": "Ulei de motor для увеличенного ресурса.",
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 50,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 200,
+        "label": "4 л"
+      },
+      {
+        "id": "p-60",
+        "volume_l": 60,
+        "price_mdl": 3000,
+        "label": "60 л"
+      },
+      {
+        "id": "p-208",
+        "volume_l": 208,
+        "price_mdl": 10400,
+        "label": "208 л"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
+      }
+    ]
   },
   {
     "sku": "MOL-1075",
@@ -4414,7 +5698,10 @@
       1,
       4,
       57,
-      199
+      199,
+      983,
+      991,
+      994
     ],
     "description": "Высокотехнологичное синтетическое масло MOL Dynamic Essence 5W-30 для бензиновых и дизельных моторов.",
     "specs": [
@@ -4428,31 +5715,49 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 122.0,
+    "canister_price": 122,
     "packs": [
       {
         "id": "mol-dyn-ess-5w30-1l",
         "volume_l": 1,
-        "price_mdl": 122.0,
+        "price_mdl": 122,
         "label": "1 л"
       },
       {
         "id": "mol-dyn-ess-5w30-4l",
         "volume_l": 4,
-        "price_mdl": 479.0,
+        "price_mdl": 479,
         "label": "4 л"
       },
       {
         "id": "mol-dyn-ess-5w30-57l",
         "volume_l": 57,
-        "price_mdl": 5396.0,
+        "price_mdl": 5396,
         "label": "57 л"
       },
       {
         "id": "mol-dyn-ess-5w30-199l",
         "volume_l": 199,
-        "price_mdl": 18796.0,
+        "price_mdl": 18796,
         "label": "199 л (Бочка)"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
       }
     ],
     "barrel_vol": 198,
@@ -4470,7 +5775,10 @@
       1,
       4,
       50,
-      198
+      198,
+      983,
+      991,
+      994
     ],
     "description": "Синтетическое ресурсосберегающее масло для двигателей с требованиями ACEA C2.",
     "specs": [
@@ -4513,6 +5821,24 @@
         "volume_l": 198,
         "price_mdl": 18880,
         "label": "198 л (Бочка)"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
       }
     ],
     "barrel_vol": 198,
@@ -4530,7 +5856,10 @@
       1,
       4,
       50,
-      198
+      198,
+      983,
+      991,
+      994
     ],
     "description": "Синтетическое дизельное моторное масло повышенной надежности.",
     "specs": [
@@ -4573,6 +5902,24 @@
         "volume_l": 198,
         "price_mdl": 18880,
         "label": "198 л (Бочка)"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
       }
     ],
     "barrel_vol": 198,
@@ -4590,7 +5937,10 @@
       1,
       4,
       57,
-      198
+      198,
+      983,
+      991,
+      994
     ],
     "description": "Синтетическое моторное масло MOL Dynamic Essence 5W-40 для бензиновых и дизельных двигателей легковых автомобилей.",
     "specs": [
@@ -4604,31 +5954,49 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 120.0,
+    "canister_price": 120,
     "packs": [
       {
         "id": "mol-dyn-ess-5w40-1l",
         "volume_l": 1,
-        "price_mdl": 120.0,
+        "price_mdl": 120,
         "label": "1 л"
       },
       {
         "id": "mol-dyn-ess-5w40-4l",
         "volume_l": 4,
-        "price_mdl": 458.0,
+        "price_mdl": 458,
         "label": "4 л"
       },
       {
         "id": "mol-dyn-ess-5w40-57l",
         "volume_l": 57,
-        "price_mdl": 4900.0,
+        "price_mdl": 4900,
         "label": "57 л"
       },
       {
         "id": "mol-dyn-ess-5w40-198l",
         "volume_l": 198,
-        "price_mdl": 17025.0,
+        "price_mdl": 17025,
         "label": "198 л (Бочка)"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
       }
     ],
     "barrel_vol": 198,
@@ -4646,7 +6014,10 @@
       1,
       4,
       50,
-      198
+      198,
+      983,
+      991,
+      994
     ],
     "description": "Синтетическое малозольное моторное масло для систем с фильтрами DPF.",
     "specs": [
@@ -4689,6 +6060,24 @@
         "volume_l": 198,
         "price_mdl": 18880,
         "label": "198 л (Бочка)"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
       }
     ],
     "barrel_vol": 198,
@@ -4706,7 +6095,10 @@
       1,
       4,
       50,
-      198
+      198,
+      983,
+      991,
+      994
     ],
     "description": "Высокоэффективное синтетическое масло с допусками Renault RN0700/RN0710.",
     "specs": [
@@ -4749,6 +6141,24 @@
         "volume_l": 198,
         "price_mdl": 19760,
         "label": "198 л (Бочка)"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
       }
     ],
     "barrel_vol": 198,
@@ -4764,7 +6174,10 @@
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
     "volumes": [
       1,
-      4
+      4,
+      983,
+      991,
+      994
     ],
     "description": "Сверхлегкое синтетическое масло с официальным допуском Ford EcoBoost.",
     "specs": [
@@ -4795,6 +6208,24 @@
         "volume_l": 4,
         "price_mdl": 684,
         "label": "4 л"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
       }
     ],
     "barrel_vol": 4,
@@ -4810,7 +6241,10 @@
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
     "volumes": [
       1,
-      4
+      4,
+      983,
+      991,
+      994
     ],
     "description": "Синтетическое масло премиум-класса для азиатских и американских авто.",
     "specs": [
@@ -4837,6 +6271,24 @@
         "volume_l": 4,
         "price_mdl": 482,
         "label": "4 л"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
       }
     ],
     "barrel_vol": 4,
@@ -4852,7 +6304,10 @@
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
     "volumes": [
       1,
-      4
+      4,
+      983,
+      991,
+      994
     ],
     "description": "Синтетическое энергосберегающее масло для новейших бензиновых двигателей.",
     "specs": [
@@ -4879,6 +6334,24 @@
         "volume_l": 4,
         "price_mdl": 684,
         "label": "4 л"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
       }
     ],
     "barrel_vol": 4,
@@ -4894,7 +6367,10 @@
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
     "volumes": [
       1,
-      4
+      4,
+      983,
+      991,
+      994
     ],
     "description": "Синтетическое масло с допуском VW Longlife III и Porsche C30.",
     "specs": [
@@ -4921,6 +6397,24 @@
         "volume_l": 4,
         "price_mdl": 760,
         "label": "4 л"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
       }
     ],
     "barrel_vol": 4,
@@ -4935,7 +6429,10 @@
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
     "volumes": [
-      1
+      1,
+      983,
+      991,
+      994
     ],
     "description": "Специализированное зеленое масло для новейших двигателей VAG (VW 508.00/509.00).",
     "specs": [
@@ -4956,6 +6453,24 @@
         "volume_l": 1,
         "price_mdl": 219,
         "label": "1 л"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
       }
     ],
     "name_ro": "MOL Dynamic Gold 0W-20 VAG",
@@ -4970,7 +6485,10 @@
     "volumes": [
       1,
       4,
-      50
+      50,
+      983,
+      991,
+      994
     ],
     "description": "Полусинтетическое моторное масло для дизельных двигателей.",
     "specs": [
@@ -5007,6 +6525,24 @@
         "volume_l": 50,
         "price_mdl": 3792,
         "label": "50 л (Бочка)"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
       }
     ],
     "barrel_vol": 50,
@@ -5039,36 +6575,36 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 116.0,
+    "canister_price": 116,
     "packs": [
       {
         "id": "tds-10w40-1l",
         "volume_l": 1,
-        "price_mdl": 116.0,
+        "price_mdl": 116,
         "label": "1 л"
       },
       {
         "id": "tds-10w40-4l",
         "volume_l": 4,
-        "price_mdl": 439.0,
+        "price_mdl": 439,
         "label": "4 л"
       },
       {
         "id": "tds-10w40-10l",
         "volume_l": 10,
-        "price_mdl": 795.0,
+        "price_mdl": 795,
         "label": "10 л"
       },
       {
         "id": "tds-10w40-57l",
         "volume_l": 57,
-        "price_mdl": 4360.0,
+        "price_mdl": 4360,
         "label": "57 л"
       },
       {
         "id": "tds-10w40-206l",
         "volume_l": 206,
-        "price_mdl": 13905.0,
+        "price_mdl": 13905,
         "label": "206 л (Бочка)"
       }
     ],
@@ -5087,7 +6623,10 @@
       1,
       4,
       50,
-      198
+      198,
+      983,
+      991,
+      994
     ],
     "description": "Классическое минеральное моторное масло.",
     "specs": [
@@ -5126,6 +6665,24 @@
         "volume_l": 198,
         "price_mdl": 11880,
         "label": "198 л (Бочка)"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
       }
     ],
     "barrel_vol": 198,
@@ -5209,7 +6766,10 @@
     "volumes": [
       1,
       4,
-      50
+      50,
+      983,
+      991,
+      994
     ],
     "description": "Надежное минеральное масло для регулярного технического обслуживания.",
     "specs": [
@@ -5242,6 +6802,24 @@
         "volume_l": 50,
         "price_mdl": 3990,
         "label": "50 л (Бочка)"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
       }
     ],
     "barrel_vol": 50,
@@ -8018,12 +9596,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 60.0,
+    "canister_price": 60,
     "packs": [
       {
         "id": "imao-card-001-1",
         "volume_l": 1,
-        "price_mdl": 60.0,
+        "price_mdl": 60,
         "label": "1 шт"
       }
     ],
@@ -8055,12 +9633,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 60.0,
+    "canister_price": 60,
     "packs": [
       {
         "id": "imao-card-002-1",
         "volume_l": 1,
-        "price_mdl": 60.0,
+        "price_mdl": 60,
         "label": "1 шт"
       }
     ],
@@ -8092,12 +9670,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 60.0,
+    "canister_price": 60,
     "packs": [
       {
         "id": "imao-card-003-1",
         "volume_l": 1,
-        "price_mdl": 60.0,
+        "price_mdl": 60,
         "label": "1 шт"
       }
     ],
@@ -8129,12 +9707,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 60.0,
+    "canister_price": 60,
     "packs": [
       {
         "id": "imao-card-004-1",
         "volume_l": 1,
-        "price_mdl": 60.0,
+        "price_mdl": 60,
         "label": "1 шт"
       }
     ],
@@ -8166,12 +9744,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 60.0,
+    "canister_price": 60,
     "packs": [
       {
         "id": "imao-card-005-1",
         "volume_l": 1,
-        "price_mdl": 60.0,
+        "price_mdl": 60,
         "label": "1 шт"
       }
     ],
@@ -8203,12 +9781,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 60.0,
+    "canister_price": 60,
     "packs": [
       {
         "id": "imao-card-006-1",
         "volume_l": 1,
-        "price_mdl": 60.0,
+        "price_mdl": 60,
         "label": "1 шт"
       }
     ],
@@ -8240,12 +9818,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 60.0,
+    "canister_price": 60,
     "packs": [
       {
         "id": "imao-card-007-1",
         "volume_l": 1,
-        "price_mdl": 60.0,
+        "price_mdl": 60,
         "label": "1 шт"
       }
     ],
@@ -8277,12 +9855,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 60.0,
+    "canister_price": 60,
     "packs": [
       {
         "id": "imao-card-008-1",
         "volume_l": 1,
-        "price_mdl": 60.0,
+        "price_mdl": 60,
         "label": "1 шт"
       }
     ],
@@ -8314,12 +9892,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 60.0,
+    "canister_price": 60,
     "packs": [
       {
         "id": "imao-card-009-1",
         "volume_l": 1,
-        "price_mdl": 60.0,
+        "price_mdl": 60,
         "label": "1 шт"
       }
     ],
@@ -8351,12 +9929,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 60.0,
+    "canister_price": 60,
     "packs": [
       {
         "id": "imao-card-010-1",
         "volume_l": 1,
-        "price_mdl": 60.0,
+        "price_mdl": 60,
         "label": "1 шт"
       }
     ],
@@ -8388,12 +9966,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 60.0,
+    "canister_price": 60,
     "packs": [
       {
         "id": "imao-card-011-1",
         "volume_l": 1,
-        "price_mdl": 60.0,
+        "price_mdl": 60,
         "label": "1 шт"
       }
     ],
@@ -8425,12 +10003,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 60.0,
+    "canister_price": 60,
     "packs": [
       {
         "id": "imao-card-012-1",
         "volume_l": 1,
-        "price_mdl": 60.0,
+        "price_mdl": 60,
         "label": "1 шт"
       }
     ],
@@ -8462,12 +10040,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 60.0,
+    "canister_price": 60,
     "packs": [
       {
         "id": "imao-card-013-1",
         "volume_l": 1,
-        "price_mdl": 60.0,
+        "price_mdl": 60,
         "label": "1 шт"
       }
     ],
@@ -8499,12 +10077,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 100.0,
+    "canister_price": 100,
     "packs": [
       {
         "id": "imao-diff-001-1",
         "volume_l": 1,
-        "price_mdl": 100.0,
+        "price_mdl": 100,
         "label": "1 шт"
       }
     ],
@@ -8536,12 +10114,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 100.0,
+    "canister_price": 100,
     "packs": [
       {
         "id": "imao-diff-002-1",
         "volume_l": 1,
-        "price_mdl": 100.0,
+        "price_mdl": 100,
         "label": "1 шт"
       }
     ],
@@ -8573,12 +10151,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 100.0,
+    "canister_price": 100,
     "packs": [
       {
         "id": "imao-diff-003-1",
         "volume_l": 1,
-        "price_mdl": 100.0,
+        "price_mdl": 100,
         "label": "1 шт"
       }
     ],
@@ -8610,12 +10188,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 101.0,
+    "canister_price": 101,
     "packs": [
       {
         "id": "imao-diff-004-1",
         "volume_l": 1,
-        "price_mdl": 101.0,
+        "price_mdl": 101,
         "label": "1 шт"
       }
     ],
@@ -8647,12 +10225,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 100.0,
+    "canister_price": 100,
     "packs": [
       {
         "id": "imao-diff-005-1",
         "volume_l": 1,
-        "price_mdl": 100.0,
+        "price_mdl": 100,
         "label": "1 шт"
       }
     ],
@@ -8684,12 +10262,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 100.0,
+    "canister_price": 100,
     "packs": [
       {
         "id": "imao-diff-006-1",
         "volume_l": 1,
-        "price_mdl": 100.0,
+        "price_mdl": 100,
         "label": "1 шт"
       }
     ],
@@ -8721,12 +10299,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 100.0,
+    "canister_price": 100,
     "packs": [
       {
         "id": "imao-diff-007-1",
         "volume_l": 1,
-        "price_mdl": 100.0,
+        "price_mdl": 100,
         "label": "1 шт"
       }
     ],
@@ -8758,12 +10336,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 70.0,
+    "canister_price": 70,
     "packs": [
       {
         "id": "imao-key-001-1",
         "volume_l": 1,
-        "price_mdl": 70.0,
+        "price_mdl": 70,
         "label": "1 шт"
       }
     ],
@@ -8795,12 +10373,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 70.0,
+    "canister_price": 70,
     "packs": [
       {
         "id": "imao-key-002-1",
         "volume_l": 1,
-        "price_mdl": 70.0,
+        "price_mdl": 70,
         "label": "1 шт"
       }
     ],
@@ -8832,12 +10410,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 70.0,
+    "canister_price": 70,
     "packs": [
       {
         "id": "imao-key-003-1",
         "volume_l": 1,
-        "price_mdl": 70.0,
+        "price_mdl": 70,
         "label": "1 шт"
       }
     ],
@@ -8869,12 +10447,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 70.0,
+    "canister_price": 70,
     "packs": [
       {
         "id": "imao-key-004-1",
         "volume_l": 1,
-        "price_mdl": 70.0,
+        "price_mdl": 70,
         "label": "1 шт"
       }
     ],
@@ -8906,12 +10484,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 120.0,
+    "canister_price": 120,
     "packs": [
       {
         "id": "imao-spray-001-1",
         "volume_l": 1,
-        "price_mdl": 120.0,
+        "price_mdl": 120,
         "label": "1 шт"
       }
     ],
@@ -8943,12 +10521,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 120.0,
+    "canister_price": 120,
     "packs": [
       {
         "id": "imao-spray-002-1",
         "volume_l": 1,
-        "price_mdl": 120.0,
+        "price_mdl": 120,
         "label": "1 шт"
       }
     ],
@@ -8980,12 +10558,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 120.0,
+    "canister_price": 120,
     "packs": [
       {
         "id": "imao-spray-003-1",
         "volume_l": 1,
-        "price_mdl": 120.0,
+        "price_mdl": 120,
         "label": "1 шт"
       }
     ],
@@ -9017,12 +10595,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 120.0,
+    "canister_price": 120,
     "packs": [
       {
         "id": "imao-spray-004-1",
         "volume_l": 1,
-        "price_mdl": 120.0,
+        "price_mdl": 120,
         "label": "1 шт"
       }
     ],
@@ -9054,12 +10632,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 120.0,
+    "canister_price": 120,
     "packs": [
       {
         "id": "imao-spray-005-1",
         "volume_l": 1,
-        "price_mdl": 120.0,
+        "price_mdl": 120,
         "label": "1 шт"
       }
     ],
@@ -9091,12 +10669,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 120.0,
+    "canister_price": 120,
     "packs": [
       {
         "id": "imao-spray-006-1",
         "volume_l": 1,
-        "price_mdl": 120.0,
+        "price_mdl": 120,
         "label": "1 шт"
       }
     ],
@@ -9128,12 +10706,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 120.0,
+    "canister_price": 120,
     "packs": [
       {
         "id": "imao-spray-007-1",
         "volume_l": 1,
-        "price_mdl": 120.0,
+        "price_mdl": 120,
         "label": "1 шт"
       }
     ],
@@ -9165,12 +10743,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 120.0,
+    "canister_price": 120,
     "packs": [
       {
         "id": "imao-spray-008-1",
         "volume_l": 1,
-        "price_mdl": 120.0,
+        "price_mdl": 120,
         "label": "1 шт"
       }
     ],
@@ -9202,12 +10780,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 120.0,
+    "canister_price": 120,
     "packs": [
       {
         "id": "imao-spray-009-1",
         "volume_l": 1,
-        "price_mdl": 120.0,
+        "price_mdl": 120,
         "label": "1 шт"
       }
     ],
@@ -9239,12 +10817,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 120.0,
+    "canister_price": 120,
     "packs": [
       {
         "id": "imao-spray-010-1",
         "volume_l": 1,
-        "price_mdl": 120.0,
+        "price_mdl": 120,
         "label": "1 шт"
       }
     ],
@@ -9272,12 +10850,12 @@
       }
     ],
     "canister_vol": 0.5,
-    "canister_price": 31.0,
+    "canister_price": 31,
     "packs": [
       {
         "id": "bf-profi-05-pack",
         "volume_l": 0.5,
-        "price_mdl": 31.0,
+        "price_mdl": 31,
         "label": "0.5 кг"
       }
     ],
@@ -9305,12 +10883,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 62.0,
+    "canister_price": 62,
     "packs": [
       {
         "id": "bf-profi-10-pack",
         "volume_l": 1,
-        "price_mdl": 62.0,
+        "price_mdl": 62,
         "label": "1 кг"
       }
     ],
@@ -9437,12 +11015,12 @@
       }
     ],
     "canister_vol": 0.75,
-    "canister_price": 65.0,
+    "canister_price": 65,
     "packs": [
       {
         "id": "bf-fox-075-pack",
         "volume_l": 0.75,
-        "price_mdl": 65.0,
+        "price_mdl": 65,
         "label": "750 г"
       }
     ],
@@ -9470,12 +11048,12 @@
       }
     ],
     "canister_vol": 0.5,
-    "canister_price": 84.0,
+    "canister_price": 84,
     "packs": [
       {
         "id": "bf-mol-05-pack",
         "volume_l": 0.5,
-        "price_mdl": 84.0,
+        "price_mdl": 84,
         "label": "0.5 л"
       }
     ],
@@ -9790,12 +11368,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 48.0,
+    "canister_price": 48,
     "packs": [
       {
         "id": "rp-03689-pack",
         "volume_l": 1,
-        "price_mdl": 48.0,
+        "price_mdl": 48,
         "label": "1 шт"
       }
     ],
@@ -9823,12 +11401,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 26.0,
+    "canister_price": 26,
     "packs": [
       {
         "id": "rp-05829-pack",
         "volume_l": 1,
-        "price_mdl": 26.0,
+        "price_mdl": 26,
         "label": "1 шт"
       }
     ],
@@ -9856,12 +11434,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 36.0,
+    "canister_price": 36,
     "packs": [
       {
         "id": "rp-05837-pack",
         "volume_l": 1,
-        "price_mdl": 36.0,
+        "price_mdl": 36,
         "label": "1 шт"
       }
     ],
@@ -9922,12 +11500,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 44.0,
+    "canister_price": 44,
     "packs": [
       {
         "id": "rp-41776-pack",
         "volume_l": 1,
-        "price_mdl": 44.0,
+        "price_mdl": 44,
         "label": "1 шт"
       }
     ],
@@ -9988,12 +11566,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 82.0,
+    "canister_price": 82,
     "packs": [
       {
         "id": "rp-49636-pack",
         "volume_l": 1,
-        "price_mdl": 82.0,
+        "price_mdl": 82,
         "label": "1 шт"
       }
     ],
@@ -10021,12 +11599,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 20.0,
+    "canister_price": 20,
     "packs": [
       {
         "id": "rp-06168-pack",
         "volume_l": 1,
-        "price_mdl": 20.0,
+        "price_mdl": 20,
         "label": "1 шт"
       }
     ],
@@ -10054,12 +11632,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 20.0,
+    "canister_price": 20,
     "packs": [
       {
         "id": "rp-06170-pack",
         "volume_l": 1,
-        "price_mdl": 20.0,
+        "price_mdl": 20,
         "label": "1 шт"
       }
     ],
@@ -10087,12 +11665,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 23.0,
+    "canister_price": 23,
     "packs": [
       {
         "id": "rp-06175-pack",
         "volume_l": 1,
-        "price_mdl": 23.0,
+        "price_mdl": 23,
         "label": "1 шт"
       }
     ],
@@ -10120,12 +11698,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 33.0,
+    "canister_price": 33,
     "packs": [
       {
         "id": "rp-06251-pack",
         "volume_l": 1,
-        "price_mdl": 33.0,
+        "price_mdl": 33,
         "label": "1 шт"
       }
     ],
@@ -10153,12 +11731,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 26.0,
+    "canister_price": 26,
     "packs": [
       {
         "id": "rp-06869-pack",
         "volume_l": 1,
-        "price_mdl": 26.0,
+        "price_mdl": 26,
         "label": "1 шт"
       }
     ],
@@ -10186,12 +11764,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 23.0,
+    "canister_price": 23,
     "packs": [
       {
         "id": "rp-07882-pack",
         "volume_l": 1,
-        "price_mdl": 23.0,
+        "price_mdl": 23,
         "label": "1 шт"
       }
     ],
@@ -10219,12 +11797,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 28.0,
+    "canister_price": 28,
     "packs": [
       {
         "id": "rp-10621-pack",
         "volume_l": 1,
-        "price_mdl": 28.0,
+        "price_mdl": 28,
         "label": "1 шт"
       }
     ],
@@ -10252,12 +11830,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 68.0,
+    "canister_price": 68,
     "packs": [
       {
         "id": "rp-10931-pack",
         "volume_l": 1,
-        "price_mdl": 68.0,
+        "price_mdl": 68,
         "label": "1 шт"
       }
     ],
@@ -10285,12 +11863,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 255.0,
+    "canister_price": 255,
     "packs": [
       {
         "id": "rp-11238-pack",
         "volume_l": 1,
-        "price_mdl": 255.0,
+        "price_mdl": 255,
         "label": "1 шт"
       }
     ],
@@ -10318,12 +11896,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 68.0,
+    "canister_price": 68,
     "packs": [
       {
         "id": "rp-11246-pack",
         "volume_l": 1,
-        "price_mdl": 68.0,
+        "price_mdl": 68,
         "label": "1 шт"
       }
     ],
@@ -10351,12 +11929,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 41.0,
+    "canister_price": 41,
     "packs": [
       {
         "id": "rp-47213-pack",
         "volume_l": 1,
-        "price_mdl": 41.0,
+        "price_mdl": 41,
         "label": "1 шт"
       }
     ],
@@ -10384,12 +11962,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 28.0,
+    "canister_price": 28,
     "packs": [
       {
         "id": "rp-11271-pack",
         "volume_l": 1,
-        "price_mdl": 28.0,
+        "price_mdl": 28,
         "label": "1 шт"
       }
     ],
@@ -10417,12 +11995,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 28.0,
+    "canister_price": 28,
     "packs": [
       {
         "id": "rp-11321-pack",
         "volume_l": 1,
-        "price_mdl": 28.0,
+        "price_mdl": 28,
         "label": "1 шт"
       }
     ],
@@ -10549,12 +12127,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 42.0,
+    "canister_price": 42,
     "packs": [
       {
         "id": "rp-15126-pack",
         "volume_l": 1,
-        "price_mdl": 42.0,
+        "price_mdl": 42,
         "label": "1 шт"
       }
     ],
@@ -10582,12 +12160,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 38.0,
+    "canister_price": 38,
     "packs": [
       {
         "id": "rp-15128-pack",
         "volume_l": 1,
-        "price_mdl": 38.0,
+        "price_mdl": 38,
         "label": "1 шт"
       }
     ],
@@ -10615,12 +12193,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 23.0,
+    "canister_price": 23,
     "packs": [
       {
         "id": "rp-15129-pack",
         "volume_l": 1,
-        "price_mdl": 23.0,
+        "price_mdl": 23,
         "label": "1 шт"
       }
     ],
@@ -10648,12 +12226,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 25.0,
+    "canister_price": 25,
     "packs": [
       {
         "id": "rp-15130-pack",
         "volume_l": 1,
-        "price_mdl": 25.0,
+        "price_mdl": 25,
         "label": "1 шт"
       }
     ],
@@ -10681,12 +12259,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 67.0,
+    "canister_price": 67,
     "packs": [
       {
         "id": "rp-41812-pack",
         "volume_l": 1,
-        "price_mdl": 67.0,
+        "price_mdl": 67,
         "label": "1 шт"
       }
     ],
@@ -10714,12 +12292,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 36.0,
+    "canister_price": 36,
     "packs": [
       {
         "id": "rp-41813-pack",
         "volume_l": 1,
-        "price_mdl": 36.0,
+        "price_mdl": 36,
         "label": "1 шт"
       }
     ],
@@ -10747,12 +12325,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 82.0,
+    "canister_price": 82,
     "packs": [
       {
         "id": "rp-17823-pack",
         "volume_l": 1,
-        "price_mdl": 82.0,
+        "price_mdl": 82,
         "label": "1 шт"
       }
     ],
@@ -10813,12 +12391,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 124.0,
+    "canister_price": 124,
     "packs": [
       {
         "id": "rp-47701-pack",
         "volume_l": 1,
-        "price_mdl": 124.0,
+        "price_mdl": 124,
         "label": "1 шт"
       }
     ],
@@ -10846,12 +12424,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 84.0,
+    "canister_price": 84,
     "packs": [
       {
         "id": "rp-19637-pack",
         "volume_l": 1,
-        "price_mdl": 84.0,
+        "price_mdl": 84,
         "label": "1 шт"
       }
     ],
@@ -10879,12 +12457,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 46.0,
+    "canister_price": 46,
     "packs": [
       {
         "id": "rp-41800-pack",
         "volume_l": 1,
-        "price_mdl": 46.0,
+        "price_mdl": 46,
         "label": "1 шт"
       }
     ],
@@ -10912,12 +12490,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 45.0,
+    "canister_price": 45,
     "packs": [
       {
         "id": "rp-16576-pack",
         "volume_l": 1,
-        "price_mdl": 45.0,
+        "price_mdl": 45,
         "label": "1 шт"
       }
     ],
@@ -10945,12 +12523,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 52.0,
+    "canister_price": 52,
     "packs": [
       {
         "id": "rp-18075-pack",
         "volume_l": 1,
-        "price_mdl": 52.0,
+        "price_mdl": 52,
         "label": "1 шт"
       }
     ],
@@ -10978,12 +12556,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 67.0,
+    "canister_price": 67,
     "packs": [
       {
         "id": "rp-86898-pack",
         "volume_l": 1,
-        "price_mdl": 67.0,
+        "price_mdl": 67,
         "label": "1 шт"
       }
     ],
@@ -11011,12 +12589,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 67.0,
+    "canister_price": 67,
     "packs": [
       {
         "id": "rp-86899-pack",
         "volume_l": 1,
-        "price_mdl": 67.0,
+        "price_mdl": 67,
         "label": "1 шт"
       }
     ],
@@ -11044,12 +12622,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 63.0,
+    "canister_price": 63,
     "packs": [
       {
         "id": "rp-86900-pack",
         "volume_l": 1,
-        "price_mdl": 63.0,
+        "price_mdl": 63,
         "label": "1 шт"
       }
     ],
@@ -11077,12 +12655,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 70.0,
+    "canister_price": 70,
     "packs": [
       {
         "id": "rp-86962-pack",
         "volume_l": 1,
-        "price_mdl": 70.0,
+        "price_mdl": 70,
         "label": "1 шт"
       }
     ],
@@ -11110,12 +12688,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 45.0,
+    "canister_price": 45,
     "packs": [
       {
         "id": "rp-06814-pack",
         "volume_l": 1,
-        "price_mdl": 45.0,
+        "price_mdl": 45,
         "label": "1 шт"
       }
     ],
@@ -11143,12 +12721,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 95.0,
+    "canister_price": 95,
     "packs": [
       {
         "id": "rp-08164-pack",
         "volume_l": 1,
-        "price_mdl": 95.0,
+        "price_mdl": 95,
         "label": "1 шт"
       }
     ],
@@ -11176,12 +12754,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 95.0,
+    "canister_price": 95,
     "packs": [
       {
         "id": "rp-08936-pack",
         "volume_l": 1,
-        "price_mdl": 95.0,
+        "price_mdl": 95,
         "label": "1 шт"
       }
     ],
@@ -11209,12 +12787,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 45.0,
+    "canister_price": 45,
     "packs": [
       {
         "id": "rp-10055-pack",
         "volume_l": 1,
-        "price_mdl": 45.0,
+        "price_mdl": 45,
         "label": "1 шт"
       }
     ],
@@ -11242,12 +12820,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 65.0,
+    "canister_price": 65,
     "packs": [
       {
         "id": "rp-26810-pack",
         "volume_l": 1,
-        "price_mdl": 65.0,
+        "price_mdl": 65,
         "label": "1 шт"
       }
     ],
@@ -11275,12 +12853,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 72.0,
+    "canister_price": 72,
     "packs": [
       {
         "id": "rp-86783-pack",
         "volume_l": 1,
-        "price_mdl": 72.0,
+        "price_mdl": 72,
         "label": "1 шт"
       }
     ],
@@ -11308,12 +12886,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 70.0,
+    "canister_price": 70,
     "packs": [
       {
         "id": "rp-86797-pack",
         "volume_l": 1,
-        "price_mdl": 70.0,
+        "price_mdl": 70,
         "label": "1 шт"
       }
     ],
@@ -11341,12 +12919,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 70.0,
+    "canister_price": 70,
     "packs": [
       {
         "id": "rp-86955-pack",
         "volume_l": 1,
-        "price_mdl": 70.0,
+        "price_mdl": 70,
         "label": "1 шт"
       }
     ],
@@ -11674,12 +13252,12 @@
       }
     ],
     "canister_vol": 0.375,
-    "canister_price": 60.0,
+    "canister_price": 60,
     "packs": [
       {
         "id": "yuko-shrus4-375g",
         "volume_l": 0.375,
-        "price_mdl": 60.0,
+        "price_mdl": 60,
         "label": "375 г"
       }
     ],
@@ -11707,12 +13285,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 65.0,
+    "canister_price": 65,
     "packs": [
       {
         "id": "yuko-tad17m-1l",
         "volume_l": 1,
-        "price_mdl": 65.0,
+        "price_mdl": 65,
         "label": "1 л"
       }
     ],
@@ -11727,7 +13305,10 @@
     "photo_url": "images/products/yuko-canisters.png",
     "volumes": [
       1,
-      4
+      4,
+      991,
+      983,
+      994
     ],
     "description": "Минеральное моторное масло YUKO CLASSIC 15W-40 для бензиновых и дизельных двигателей автомобилей.",
     "specs": [
@@ -11737,19 +13318,37 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 60.0,
+    "canister_price": 60,
     "packs": [
       {
         "id": "yuko-classic-1l",
         "volume_l": 1,
-        "price_mdl": 60.0,
+        "price_mdl": 60,
         "label": "1 л"
       },
       {
         "id": "yuko-classic-4l",
         "volume_l": 4,
-        "price_mdl": 229.0,
+        "price_mdl": 229,
         "label": "4 л"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 74325,
+        "label": "991 л"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
       }
     ],
     "name_ro": "Ulei de motor YUKO CLASSIC 15W-40",
@@ -11763,7 +13362,10 @@
     "photo_url": "images/products/yuko-canisters.png",
     "volumes": [
       1,
-      4
+      4,
+      983,
+      991,
+      994
     ],
     "description": "Полусинтетическое моторное масло YUKO VEGA SYNT 10W-40 свысокими защитными и моющими свойствами.",
     "specs": [
@@ -11773,19 +13375,37 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 63.0,
+    "canister_price": 63,
     "packs": [
       {
         "id": "yuko-vega-10w40-1l",
         "volume_l": 1,
-        "price_mdl": 63.0,
+        "price_mdl": 63,
         "label": "1 л"
       },
       {
         "id": "yuko-vega-10w40-4l",
         "volume_l": 4,
-        "price_mdl": 229.0,
+        "price_mdl": 229,
         "label": "4 л"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
       }
     ],
     "name_ro": "Ulei de motor YUKO VEGA SYNT 10W-40",
@@ -11798,7 +13418,10 @@
     "brand": "YUKO",
     "photo_url": "images/products/yuko-canisters.png",
     "volumes": [
-      1
+      1,
+      983,
+      991,
+      994
     ],
     "description": "Современное синтетическое моторное масло YUKO Synetic 5W-30 для легкого запуска и экономии топлива.",
     "specs": [
@@ -11808,13 +13431,31 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 81.0,
+    "canister_price": 81,
     "packs": [
       {
         "id": "yuko-synetic-5w30-1l",
         "volume_l": 1,
-        "price_mdl": 81.0,
+        "price_mdl": 81,
         "label": "1 л"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 68810,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 74325,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 79520,
+        "label": "994 л"
       }
     ],
     "name_ro": "Ulei de motor YUKO Synetic 5W-30 (1 л)",
@@ -11827,7 +13468,10 @@
     "brand": "YUKO",
     "photo_url": "images/products/yuko-canisters.png",
     "volumes": [
-      1
+      1,
+      983,
+      991,
+      994
     ],
     "description": "Синтетическое моторное масло YUKO Synetic 5W-40 для максимальной защиты двигателя в широком диапазоне температур.",
     "specs": [
@@ -11837,13 +13481,31 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 81.0,
+    "canister_price": 81,
     "packs": [
       {
         "id": "yuko-synetic-5w40-1l",
         "volume_l": 1,
-        "price_mdl": 81.0,
+        "price_mdl": 81,
         "label": "1 л"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 68810,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
       }
     ],
     "name_ro": "Ulei de motor YUKO Synetic 5W-40 (1 л)",
@@ -11856,7 +13518,10 @@
     "brand": "YUKO",
     "photo_url": "images/products/yuko-canisters.png",
     "volumes": [
-      1
+      1,
+      983,
+      991,
+      994
     ],
     "description": "Полусинтетическое моторное масло YUKO VEGA SYNT 5W-40 для эффективной защиты современного автотранспорта.",
     "specs": [
@@ -11866,13 +13531,31 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 68.0,
+    "canister_price": 68,
     "packs": [
       {
         "id": "yuko-vega-5w40-1l",
         "volume_l": 1,
-        "price_mdl": 68.0,
+        "price_mdl": 68,
         "label": "1 л"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
       }
     ],
     "name_ro": "Ulei de motor YUKO VEGA SYNT 5W-40 (1 л)",
@@ -11895,12 +13578,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 60.0,
+    "canister_price": 60,
     "packs": [
       {
         "id": "yuko-motomix-2t-1l",
         "volume_l": 1,
-        "price_mdl": 60.0,
+        "price_mdl": 60,
         "label": "1 л"
       }
     ],
@@ -11924,12 +13607,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 69.0,
+    "canister_price": 69,
     "packs": [
       {
         "id": "yuko-scooter-2t-1l",
         "volume_l": 1,
-        "price_mdl": 69.0,
+        "price_mdl": 69,
         "label": "1 л"
       }
     ],
@@ -12085,7 +13768,10 @@
     "volumes": [
       1,
       4,
-      57
+      57,
+      983,
+      991,
+      994
     ],
     "description": "Синтетическое моторное масло MOL Dynamic Essence Diesel 5W-40 для легковых дизельных двигателей.",
     "specs": [
@@ -12099,25 +13785,43 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 115.0,
+    "canister_price": 115,
     "packs": [
       {
         "id": "mol-dyn-ess-d-5w40-1l",
         "volume_l": 1,
-        "price_mdl": 115.0,
+        "price_mdl": 115,
         "label": "1 л"
       },
       {
         "id": "mol-dyn-ess-d-5w40-4l",
         "volume_l": 4,
-        "price_mdl": 444.0,
+        "price_mdl": 444,
         "label": "4 л"
       },
       {
         "id": "mol-dyn-ess-d-5w40-57l",
         "volume_l": 57,
-        "price_mdl": 5005.0,
+        "price_mdl": 5005,
         "label": "57 л"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
       }
     ],
     "name_ro": "Ulei de motor MOL Dynamic Essence Diesel 5W-40",
@@ -12133,7 +13837,10 @@
       1,
       4,
       57,
-      199
+      199,
+      983,
+      991,
+      994
     ],
     "description": "Синтетическое малозольное масло MOL Dynamic Prima 5W-40 DPF для современных авто с фильтром сажи.",
     "specs": [
@@ -12147,31 +13854,49 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 148.0,
+    "canister_price": 148,
     "packs": [
       {
         "id": "mol-prima-5w40-1l",
         "volume_l": 1,
-        "price_mdl": 148.0,
+        "price_mdl": 148,
         "label": "1 л"
       },
       {
         "id": "mol-prima-5w40-4l",
         "volume_l": 4,
-        "price_mdl": 568.0,
+        "price_mdl": 568,
         "label": "4 л"
       },
       {
         "id": "mol-prima-5w40-57l",
         "volume_l": 57,
-        "price_mdl": 6610.0,
+        "price_mdl": 6610,
         "label": "57 л"
       },
       {
         "id": "mol-prima-5w40-199l",
         "volume_l": 199,
-        "price_mdl": 22687.0,
+        "price_mdl": 22687,
         "label": "199 л (Бочка)"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
       }
     ],
     "name_ro": "Ulei de motor MOL Dynamic Prima 5W-40",
@@ -12187,7 +13912,10 @@
       1,
       4,
       57,
-      199
+      199,
+      983,
+      991,
+      994
     ],
     "description": "Премиальное синтетическое моторное масло MOL Dynamic Gold 5W-40 для бензиновых и дизельных двигателей.",
     "specs": [
@@ -12201,31 +13929,49 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 158.0,
+    "canister_price": 158,
     "packs": [
       {
         "id": "mol-gold-5w40-1l",
         "volume_l": 1,
-        "price_mdl": 158.0,
+        "price_mdl": 158,
         "label": "1 л"
       },
       {
         "id": "mol-gold-5w40-4l",
         "volume_l": 4,
-        "price_mdl": 598.0,
+        "price_mdl": 598,
         "label": "4 л"
       },
       {
         "id": "mol-gold-5w40-57l",
         "volume_l": 57,
-        "price_mdl": 6652.0,
+        "price_mdl": 6652,
         "label": "57 л"
       },
       {
         "id": "mol-gold-5w40-199l",
         "volume_l": 199,
-        "price_mdl": 22187.0,
+        "price_mdl": 22187,
         "label": "199 л (Бочка)"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
       }
     ],
     "name_ro": "Ulei de motor MOL Dynamic Gold 5W-40",
@@ -12240,7 +13986,10 @@
     "volumes": [
       1,
       4,
-      55
+      55,
+      983,
+      991,
+      994
     ],
     "description": "Синтетическое моторное масло высшего качества MOL Dynamic Gold Longlife 5W-30 с официальными допусками VW 504 00/507 00.",
     "specs": [
@@ -12254,25 +14003,43 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 184.0,
+    "canister_price": 184,
     "packs": [
       {
         "id": "mol-gold-ll-5w30-1l",
         "volume_l": 1,
-        "price_mdl": 184.0,
+        "price_mdl": 184,
         "label": "1 л"
       },
       {
         "id": "mol-gold-ll-5w30-4l",
         "volume_l": 4,
-        "price_mdl": 698.0,
+        "price_mdl": 698,
         "label": "4 л"
       },
       {
         "id": "mol-gold-ll-5w30-55l",
         "volume_l": 55,
-        "price_mdl": 7480.0,
+        "price_mdl": 7480,
         "label": "55 л"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
       }
     ],
     "name_ro": "Ulei de motor MOL Dynamic Gold Longlife 5W-30",
@@ -12287,7 +14054,10 @@
     "volumes": [
       1,
       4,
-      57
+      57,
+      983,
+      991,
+      994
     ],
     "description": "Полусинтетическое моторное масло MOL Essence 10W-40 для бензиновых и дизельных двигателей.",
     "specs": [
@@ -12301,25 +14071,43 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 99.0,
+    "canister_price": 99,
     "packs": [
       {
         "id": "mol-ess-10w40-1l",
         "volume_l": 1,
-        "price_mdl": 99.0,
+        "price_mdl": 99,
         "label": "1 л"
       },
       {
         "id": "mol-ess-10w40-4l",
         "volume_l": 4,
-        "price_mdl": 392.0,
+        "price_mdl": 392,
         "label": "4 л"
       },
       {
         "id": "mol-ess-10w40-57l",
         "volume_l": 57,
-        "price_mdl": 4936.0,
+        "price_mdl": 4936,
         "label": "57 л"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
       }
     ],
     "name_ro": "Ulei de motor MOL Essence 10W-40",
@@ -12360,19 +14148,19 @@
       {
         "id": "mol-max-10w40-4l",
         "volume_l": 4,
-        "price_mdl": 452.0,
+        "price_mdl": 452,
         "label": "4 л"
       },
       {
         "id": "mol-max-10w40-58l",
         "volume_l": 58,
-        "price_mdl": 4795.0,
+        "price_mdl": 4795,
         "label": "58 л"
       },
       {
         "id": "mol-max-10w40-198l",
         "volume_l": 198,
-        "price_mdl": 16585.0,
+        "price_mdl": 16585,
         "label": "198 л (Бочка)"
       }
     ],
@@ -12402,24 +14190,24 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 119.0,
+    "canister_price": 119,
     "packs": [
       {
         "id": "mol-transit-10w40-1l",
         "volume_l": 1,
-        "price_mdl": 119.0,
+        "price_mdl": 119,
         "label": "1 л"
       },
       {
         "id": "mol-transit-10w40-4l",
         "volume_l": 4,
-        "price_mdl": 449.0,
+        "price_mdl": 449,
         "label": "4 л"
       },
       {
         "id": "mol-transit-10w40-201l",
         "volume_l": 201,
-        "price_mdl": 15985.0,
+        "price_mdl": 15985,
         "label": "201 л (Бочка)"
       }
     ],
@@ -12450,30 +14238,30 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 94.0,
+    "canister_price": 94,
     "packs": [
       {
         "id": "hykomol-80w90-1l",
         "volume_l": 1,
-        "price_mdl": 94.0,
+        "price_mdl": 94,
         "label": "1 л"
       },
       {
         "id": "hykomol-80w90-4l",
         "volume_l": 4,
-        "price_mdl": 348.0,
+        "price_mdl": 348,
         "label": "4 л"
       },
       {
         "id": "hykomol-80w90-58l",
         "volume_l": 58,
-        "price_mdl": 3752.0,
+        "price_mdl": 3752,
         "label": "58 л"
       },
       {
         "id": "hykomol-80w90-201l",
         "volume_l": 201,
-        "price_mdl": 12122.0,
+        "price_mdl": 12122,
         "label": "201 л (Бочка)"
       }
     ],
@@ -12504,30 +14292,30 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 96.0,
+    "canister_price": 96,
     "packs": [
       {
         "id": "hykomol-k-80w90-1l",
         "volume_l": 1,
-        "price_mdl": 96.0,
+        "price_mdl": 96,
         "label": "1 л"
       },
       {
         "id": "hykomol-k-80w90-4l",
         "volume_l": 4,
-        "price_mdl": 358.0,
+        "price_mdl": 358,
         "label": "4 л"
       },
       {
         "id": "hykomol-k-80w90-58l",
         "volume_l": 58,
-        "price_mdl": 3856.0,
+        "price_mdl": 3856,
         "label": "58 л"
       },
       {
         "id": "hykomol-k-80w90-200l",
         "volume_l": 200,
-        "price_mdl": 12684.0,
+        "price_mdl": 12684,
         "label": "200 л (Бочка)"
       }
     ],
@@ -12558,30 +14346,30 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 208.0,
+    "canister_price": 208,
     "packs": [
       {
         "id": "hykomol-synt-75w90-1l",
         "volume_l": 1,
-        "price_mdl": 208.0,
+        "price_mdl": 208,
         "label": "1 л"
       },
       {
         "id": "hykomol-synt-75w90-10l",
         "volume_l": 10,
-        "price_mdl": 1620.0,
+        "price_mdl": 1620,
         "label": "10 л"
       },
       {
         "id": "hykomol-synt-75w90-55l",
         "volume_l": 55,
-        "price_mdl": 9285.0,
+        "price_mdl": 9285,
         "label": "55 л"
       },
       {
         "id": "hykomol-synt-75w90-195l",
         "volume_l": 195,
-        "price_mdl": 59610.0,
+        "price_mdl": 59610,
         "label": "195 л (Бочка)"
       }
     ],
@@ -12606,12 +14394,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 137.0,
+    "canister_price": 137,
     "packs": [
       {
         "id": "mol-atf-3g-1l",
         "volume_l": 1,
-        "price_mdl": 137.0,
+        "price_mdl": 137,
         "label": "1 л"
       },
       {
@@ -12641,12 +14429,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 218.0,
+    "canister_price": 218,
     "packs": [
       {
         "id": "mol-dsg-fluid-1l",
         "volume_l": 1,
-        "price_mdl": 218.0,
+        "price_mdl": 218,
         "label": "1 л"
       }
     ],
@@ -12670,12 +14458,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 187.0,
+    "canister_price": 187,
     "packs": [
       {
         "id": "mol-cvt-fluid-1l",
         "volume_l": 1,
-        "price_mdl": 187.0,
+        "price_mdl": 187,
         "label": "1 л"
       }
     ],
@@ -12699,12 +14487,12 @@
       }
     ],
     "canister_vol": 0.375,
-    "canister_price": 75.0,
+    "canister_price": 75,
     "packs": [
       {
         "id": "liton-2ep-0375",
         "volume_l": 0.375,
-        "price_mdl": 75.0,
+        "price_mdl": 75,
         "label": "375 г"
       }
     ],
@@ -12732,12 +14520,12 @@
       }
     ],
     "canister_vol": 0.4,
-    "canister_price": 124.0,
+    "canister_price": 124,
     "packs": [
       {
         "id": "favorit-2-0400",
         "volume_l": 0.4,
-        "price_mdl": 124.0,
+        "price_mdl": 124,
         "label": "400 г"
       }
     ],
@@ -12769,12 +14557,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 98.0,
+    "canister_price": 98,
     "packs": [
       {
         "id": "cc-61223-pack",
         "volume_l": 1,
-        "price_mdl": 98.0,
+        "price_mdl": 98,
         "label": "1 шт"
       }
     ],
@@ -12806,12 +14594,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 98.0,
+    "canister_price": 98,
     "packs": [
       {
         "id": "cc-61224-pack",
         "volume_l": 1,
-        "price_mdl": 98.0,
+        "price_mdl": 98,
         "label": "1 шт"
       }
     ],
@@ -12843,12 +14631,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 98.0,
+    "canister_price": 98,
     "packs": [
       {
         "id": "cc-61225-pack",
         "volume_l": 1,
-        "price_mdl": 98.0,
+        "price_mdl": 98,
         "label": "1 шт"
       }
     ],
@@ -12880,12 +14668,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 98.0,
+    "canister_price": 98,
     "packs": [
       {
         "id": "cc-61226-pack",
         "volume_l": 1,
-        "price_mdl": 98.0,
+        "price_mdl": 98,
         "label": "1 шт"
       }
     ],
@@ -12917,12 +14705,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 98.0,
+    "canister_price": 98,
     "packs": [
       {
         "id": "cc-61227-pack",
         "volume_l": 1,
-        "price_mdl": 98.0,
+        "price_mdl": 98,
         "label": "1 шт"
       }
     ],
@@ -12954,12 +14742,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 98.0,
+    "canister_price": 98,
     "packs": [
       {
         "id": "cc-61228-pack",
         "volume_l": 1,
-        "price_mdl": 98.0,
+        "price_mdl": 98,
         "label": "1 шт"
       }
     ],
@@ -12991,12 +14779,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 31.0,
+    "canister_price": 31,
     "packs": [
       {
         "id": "cc-42791-pack",
         "volume_l": 1,
-        "price_mdl": 31.0,
+        "price_mdl": 31,
         "label": "1 шт"
       }
     ],
@@ -13028,12 +14816,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 14.0,
+    "canister_price": 14,
     "packs": [
       {
         "id": "cc-42218-pack",
         "volume_l": 1,
-        "price_mdl": 14.0,
+        "price_mdl": 14,
         "label": "1 шт"
       }
     ],
@@ -13065,12 +14853,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 51.0,
+    "canister_price": 51,
     "packs": [
       {
         "id": "cc-42564-pack",
         "volume_l": 1,
-        "price_mdl": 51.0,
+        "price_mdl": 51,
         "label": "1 шт"
       }
     ],
@@ -13102,12 +14890,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 49.0,
+    "canister_price": 49,
     "packs": [
       {
         "id": "cc-42125-pack",
         "volume_l": 1,
-        "price_mdl": 49.0,
+        "price_mdl": 49,
         "label": "1 шт"
       }
     ],
@@ -13139,12 +14927,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 68.0,
+    "canister_price": 68,
     "packs": [
       {
         "id": "cc-42512-pack",
         "volume_l": 1,
-        "price_mdl": 68.0,
+        "price_mdl": 68,
         "label": "1 шт"
       }
     ],
@@ -13176,12 +14964,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 140.0,
+    "canister_price": 140,
     "packs": [
       {
         "id": "cc-42517-pack",
         "volume_l": 1,
-        "price_mdl": 140.0,
+        "price_mdl": 140,
         "label": "1 шт"
       }
     ],
@@ -13213,12 +15001,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 179.0,
+    "canister_price": 179,
     "packs": [
       {
         "id": "cc-42520-pack",
         "volume_l": 1,
-        "price_mdl": 179.0,
+        "price_mdl": 179,
         "label": "1 шт"
       }
     ],
@@ -13250,12 +15038,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 117.0,
+    "canister_price": 117,
     "packs": [
       {
         "id": "cc-42522-pack",
         "volume_l": 1,
-        "price_mdl": 117.0,
+        "price_mdl": 117,
         "label": "1 шт"
       }
     ],
@@ -13287,12 +15075,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 17.0,
+    "canister_price": 17,
     "packs": [
       {
         "id": "cc-42103-pack",
         "volume_l": 1,
-        "price_mdl": 17.0,
+        "price_mdl": 17,
         "label": "1 шт"
       }
     ],
@@ -13324,12 +15112,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 30.0,
+    "canister_price": 30,
     "packs": [
       {
         "id": "cc-42223-pack",
         "volume_l": 1,
-        "price_mdl": 30.0,
+        "price_mdl": 30,
         "label": "1 шт"
       }
     ],
@@ -13361,12 +15149,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 59.0,
+    "canister_price": 59,
     "packs": [
       {
         "id": "cc-42225-pack",
         "volume_l": 1,
-        "price_mdl": 59.0,
+        "price_mdl": 59,
         "label": "1 шт"
       }
     ],
@@ -13398,12 +15186,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 52.0,
+    "canister_price": 52,
     "packs": [
       {
         "id": "cc-42144-pack",
         "volume_l": 1,
-        "price_mdl": 52.0,
+        "price_mdl": 52,
         "label": "1 шт"
       }
     ],
@@ -13435,12 +15223,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 117.0,
+    "canister_price": 117,
     "packs": [
       {
         "id": "cc-42220-pack",
         "volume_l": 1,
-        "price_mdl": 117.0,
+        "price_mdl": 117,
         "label": "1 шт"
       }
     ],
@@ -13472,12 +15260,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 17.0,
+    "canister_price": 17,
     "packs": [
       {
         "id": "cc-42109-pack",
         "volume_l": 1,
-        "price_mdl": 17.0,
+        "price_mdl": 17,
         "label": "1 шт"
       }
     ],
@@ -13509,12 +15297,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 27.0,
+    "canister_price": 27,
     "packs": [
       {
         "id": "cc-42116-pack",
         "volume_l": 1,
-        "price_mdl": 27.0,
+        "price_mdl": 27,
         "label": "1 шт"
       }
     ],
@@ -13546,12 +15334,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 90.0,
+    "canister_price": 90,
     "packs": [
       {
         "id": "cc-42500-pack",
         "volume_l": 1,
-        "price_mdl": 90.0,
+        "price_mdl": 90,
         "label": "1 шт"
       }
     ],
@@ -13583,12 +15371,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 213.0,
+    "canister_price": 213,
     "packs": [
       {
         "id": "cc-42501-pack",
         "volume_l": 1,
-        "price_mdl": 213.0,
+        "price_mdl": 213,
         "label": "1 шт"
       }
     ],
@@ -13620,12 +15408,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 47.0,
+    "canister_price": 47,
     "packs": [
       {
         "id": "cc-42171-pack",
         "volume_l": 1,
-        "price_mdl": 47.0,
+        "price_mdl": 47,
         "label": "1 шт"
       }
     ],
@@ -13657,12 +15445,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 72.0,
+    "canister_price": 72,
     "packs": [
       {
         "id": "cc-42119-pack",
         "volume_l": 1,
-        "price_mdl": 72.0,
+        "price_mdl": 72,
         "label": "1 шт"
       }
     ],
@@ -13694,12 +15482,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 72.0,
+    "canister_price": 72,
     "packs": [
       {
         "id": "cc-42114-pack",
         "volume_l": 1,
-        "price_mdl": 72.0,
+        "price_mdl": 72,
         "label": "1 шт"
       }
     ],
@@ -13731,12 +15519,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 74.0,
+    "canister_price": 74,
     "packs": [
       {
         "id": "cc-42188-pack",
         "volume_l": 1,
-        "price_mdl": 74.0,
+        "price_mdl": 74,
         "label": "1 шт"
       }
     ],
@@ -13768,12 +15556,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 60.0,
+    "canister_price": 60,
     "packs": [
       {
         "id": "cc-42189-pack",
         "volume_l": 1,
-        "price_mdl": 60.0,
+        "price_mdl": 60,
         "label": "1 шт"
       }
     ],
@@ -13805,12 +15593,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 60.0,
+    "canister_price": 60,
     "packs": [
       {
         "id": "cc-42190-pack",
         "volume_l": 1,
-        "price_mdl": 60.0,
+        "price_mdl": 60,
         "label": "1 шт"
       }
     ],
@@ -13842,12 +15630,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 44.0,
+    "canister_price": 44,
     "packs": [
       {
         "id": "cc-42191-pack",
         "volume_l": 1,
-        "price_mdl": 44.0,
+        "price_mdl": 44,
         "label": "1 шт"
       }
     ],
@@ -13879,12 +15667,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 60.0,
+    "canister_price": 60,
     "packs": [
       {
         "id": "cc-42192-pack",
         "volume_l": 1,
-        "price_mdl": 60.0,
+        "price_mdl": 60,
         "label": "1 шт"
       }
     ],
@@ -13916,12 +15704,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 61.0,
+    "canister_price": 61,
     "packs": [
       {
         "id": "cc-42193-pack",
         "volume_l": 1,
-        "price_mdl": 61.0,
+        "price_mdl": 61,
         "label": "1 шт"
       }
     ],
@@ -13953,12 +15741,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 91.0,
+    "canister_price": 91,
     "packs": [
       {
         "id": "cc-42194-pack",
         "volume_l": 1,
-        "price_mdl": 91.0,
+        "price_mdl": 91,
         "label": "1 шт"
       }
     ],
@@ -13990,12 +15778,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 91.0,
+    "canister_price": 91,
     "packs": [
       {
         "id": "cc-42195-pack",
         "volume_l": 1,
-        "price_mdl": 91.0,
+        "price_mdl": 91,
         "label": "1 шт"
       }
     ],
@@ -14027,12 +15815,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 127.0,
+    "canister_price": 127,
     "packs": [
       {
         "id": "cc-42527-pack",
         "volume_l": 1,
-        "price_mdl": 127.0,
+        "price_mdl": 127,
         "label": "1 шт"
       }
     ],
@@ -14064,12 +15852,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 127.0,
+    "canister_price": 127,
     "packs": [
       {
         "id": "cc-42528-pack",
         "volume_l": 1,
-        "price_mdl": 127.0,
+        "price_mdl": 127,
         "label": "1 шт"
       }
     ],
@@ -14138,12 +15926,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 272.0,
+    "canister_price": 272,
     "packs": [
       {
         "id": "cc-42444-pack",
         "volume_l": 1,
-        "price_mdl": 272.0,
+        "price_mdl": 272,
         "label": "1 шт"
       }
     ],
@@ -14175,12 +15963,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 253.0,
+    "canister_price": 253,
     "packs": [
       {
         "id": "cc-42475-pack",
         "volume_l": 1,
-        "price_mdl": 253.0,
+        "price_mdl": 253,
         "label": "1 шт"
       }
     ],
@@ -14212,12 +16000,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 243.0,
+    "canister_price": 243,
     "packs": [
       {
         "id": "cc-42485-pack",
         "volume_l": 1,
-        "price_mdl": 243.0,
+        "price_mdl": 243,
         "label": "1 шт"
       }
     ],
@@ -14249,12 +16037,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 122.0,
+    "canister_price": 122,
     "packs": [
       {
         "id": "cc-42391-pack",
         "volume_l": 1,
-        "price_mdl": 122.0,
+        "price_mdl": 122,
         "label": "1 шт"
       }
     ],
@@ -14286,12 +16074,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 143.0,
+    "canister_price": 143,
     "packs": [
       {
         "id": "cc-42392-pack",
         "volume_l": 1,
-        "price_mdl": 143.0,
+        "price_mdl": 143,
         "label": "1 шт"
       }
     ],
@@ -14323,12 +16111,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 188.0,
+    "canister_price": 188,
     "packs": [
       {
         "id": "cc-42428-pack",
         "volume_l": 1,
-        "price_mdl": 188.0,
+        "price_mdl": 188,
         "label": "1 шт"
       }
     ],
@@ -14360,12 +16148,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 96.0,
+    "canister_price": 96,
     "packs": [
       {
         "id": "cc-42507-pack",
         "volume_l": 1,
-        "price_mdl": 96.0,
+        "price_mdl": 96,
         "label": "1 шт"
       }
     ],
@@ -14397,12 +16185,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 181.0,
+    "canister_price": 181,
     "packs": [
       {
         "id": "cc-42099-pack",
         "volume_l": 1,
-        "price_mdl": 181.0,
+        "price_mdl": 181,
         "label": "1 шт"
       }
     ],
@@ -14434,12 +16222,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 20.0,
+    "canister_price": 20,
     "packs": [
       {
         "id": "cc-42133-pack",
         "volume_l": 1,
-        "price_mdl": 20.0,
+        "price_mdl": 20,
         "label": "1 шт"
       }
     ],
@@ -14508,12 +16296,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 11.0,
+    "canister_price": 11,
     "packs": [
       {
         "id": "cc-42308-pack",
         "volume_l": 1,
-        "price_mdl": 11.0,
+        "price_mdl": 11,
         "label": "1 шт"
       }
     ],
@@ -14545,12 +16333,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 20.0,
+    "canister_price": 20,
     "packs": [
       {
         "id": "cc-42309-pack",
         "volume_l": 1,
-        "price_mdl": 20.0,
+        "price_mdl": 20,
         "label": "1 шт"
       }
     ],
@@ -14582,12 +16370,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 21.0,
+    "canister_price": 21,
     "packs": [
       {
         "id": "cc-42157-pack",
         "volume_l": 1,
-        "price_mdl": 21.0,
+        "price_mdl": 21,
         "label": "1 шт"
       }
     ],
@@ -14619,12 +16407,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 25.0,
+    "canister_price": 25,
     "packs": [
       {
         "id": "cc-42168-pack",
         "volume_l": 1,
-        "price_mdl": 25.0,
+        "price_mdl": 25,
         "label": "1 шт"
       }
     ],
@@ -14656,12 +16444,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 13.0,
+    "canister_price": 13,
     "packs": [
       {
         "id": "cc-42161-pack",
         "volume_l": 1,
-        "price_mdl": 13.0,
+        "price_mdl": 13,
         "label": "1 шт"
       }
     ],
@@ -14693,12 +16481,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 34.0,
+    "canister_price": 34,
     "packs": [
       {
         "id": "cc-42487-pack",
         "volume_l": 1,
-        "price_mdl": 34.0,
+        "price_mdl": 34,
         "label": "1 шт"
       }
     ],
@@ -14730,12 +16518,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 55.0,
+    "canister_price": 55,
     "packs": [
       {
         "id": "cc-42176-pack",
         "volume_l": 1,
-        "price_mdl": 55.0,
+        "price_mdl": 55,
         "label": "1 шт"
       }
     ],
@@ -14767,12 +16555,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 15.0,
+    "canister_price": 15,
     "packs": [
       {
         "id": "cc-42403-pack",
         "volume_l": 1,
-        "price_mdl": 15.0,
+        "price_mdl": 15,
         "label": "1 шт"
       }
     ],
@@ -14804,12 +16592,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 20.0,
+    "canister_price": 20,
     "packs": [
       {
         "id": "cc-42405-pack",
         "volume_l": 1,
-        "price_mdl": 20.0,
+        "price_mdl": 20,
         "label": "1 шт"
       }
     ],
@@ -14841,12 +16629,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 19.0,
+    "canister_price": 19,
     "packs": [
       {
         "id": "cc-42407-pack",
         "volume_l": 1,
-        "price_mdl": 19.0,
+        "price_mdl": 19,
         "label": "1 шт"
       }
     ],
@@ -14878,12 +16666,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 20.0,
+    "canister_price": 20,
     "packs": [
       {
         "id": "cc-42408-pack",
         "volume_l": 1,
-        "price_mdl": 20.0,
+        "price_mdl": 20,
         "label": "1 шт"
       }
     ],
@@ -14915,12 +16703,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 30.0,
+    "canister_price": 30,
     "packs": [
       {
         "id": "cc-42566-pack",
         "volume_l": 1,
-        "price_mdl": 30.0,
+        "price_mdl": 30,
         "label": "1 шт"
       }
     ],
@@ -14952,12 +16740,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 38.0,
+    "canister_price": 38,
     "packs": [
       {
         "id": "cc-42568-pack",
         "volume_l": 1,
-        "price_mdl": 38.0,
+        "price_mdl": 38,
         "label": "1 шт"
       }
     ],
@@ -14989,12 +16777,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 50.0,
+    "canister_price": 50,
     "packs": [
       {
         "id": "cc-42570-pack",
         "volume_l": 1,
-        "price_mdl": 50.0,
+        "price_mdl": 50,
         "label": "1 шт"
       }
     ],
@@ -15026,12 +16814,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 79.0,
+    "canister_price": 79,
     "packs": [
       {
         "id": "cc-42572-pack",
         "volume_l": 1,
-        "price_mdl": 79.0,
+        "price_mdl": 79,
         "label": "1 шт"
       }
     ],
@@ -15063,12 +16851,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 50.0,
+    "canister_price": 50,
     "packs": [
       {
         "id": "cc-42583-pack",
         "volume_l": 1,
-        "price_mdl": 50.0,
+        "price_mdl": 50,
         "label": "1 шт"
       }
     ],
@@ -15100,12 +16888,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 70.0,
+    "canister_price": 70,
     "packs": [
       {
         "id": "cc-42585-pack",
         "volume_l": 1,
-        "price_mdl": 70.0,
+        "price_mdl": 70,
         "label": "1 шт"
       }
     ],
@@ -15137,12 +16925,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 24.0,
+    "canister_price": 24,
     "packs": [
       {
         "id": "cc-42207-pack",
         "volume_l": 1,
-        "price_mdl": 24.0,
+        "price_mdl": 24,
         "label": "1 шт"
       }
     ],
@@ -15174,12 +16962,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 12.0,
+    "canister_price": 12,
     "packs": [
       {
         "id": "cc-42524-pack",
         "volume_l": 1,
-        "price_mdl": 12.0,
+        "price_mdl": 12,
         "label": "1 шт"
       }
     ],
@@ -15211,12 +16999,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 12.0,
+    "canister_price": 12,
     "packs": [
       {
         "id": "cc-42515-pack",
         "volume_l": 1,
-        "price_mdl": 12.0,
+        "price_mdl": 12,
         "label": "1 шт"
       }
     ],
@@ -15248,12 +17036,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 12.0,
+    "canister_price": 12,
     "packs": [
       {
         "id": "cc-42432-pack",
         "volume_l": 1,
-        "price_mdl": 12.0,
+        "price_mdl": 12,
         "label": "1 шт"
       }
     ],
@@ -15285,12 +17073,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 8.0,
+    "canister_price": 8,
     "packs": [
       {
         "id": "cc-42172-pack",
         "volume_l": 1,
-        "price_mdl": 8.0,
+        "price_mdl": 8,
         "label": "1 шт"
       }
     ],
@@ -15322,12 +17110,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 27.0,
+    "canister_price": 27,
     "packs": [
       {
         "id": "cc-42079-pack",
         "volume_l": 1,
-        "price_mdl": 27.0,
+        "price_mdl": 27,
         "label": "1 шт"
       }
     ],
@@ -15359,12 +17147,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 22.0,
+    "canister_price": 22,
     "packs": [
       {
         "id": "cc-42167-pack",
         "volume_l": 1,
-        "price_mdl": 22.0,
+        "price_mdl": 22,
         "label": "1 шт"
       }
     ],
@@ -15396,12 +17184,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 50.0,
+    "canister_price": 50,
     "packs": [
       {
         "id": "cc-42426-pack",
         "volume_l": 1,
-        "price_mdl": 50.0,
+        "price_mdl": 50,
         "label": "1 шт"
       }
     ],
@@ -15433,12 +17221,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 60.0,
+    "canister_price": 60,
     "packs": [
       {
         "id": "cc-42141-pack",
         "volume_l": 1,
-        "price_mdl": 60.0,
+        "price_mdl": 60,
         "label": "1 шт"
       }
     ],
@@ -15470,12 +17258,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 85.0,
+    "canister_price": 85,
     "packs": [
       {
         "id": "cc-42150-pack",
         "volume_l": 1,
-        "price_mdl": 85.0,
+        "price_mdl": 85,
         "label": "1 шт"
       }
     ],
@@ -15507,12 +17295,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 80.0,
+    "canister_price": 80,
     "packs": [
       {
         "id": "cc-42147-pack",
         "volume_l": 1,
-        "price_mdl": 80.0,
+        "price_mdl": 80,
         "label": "1 шт"
       }
     ],
@@ -15544,12 +17332,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 82.0,
+    "canister_price": 82,
     "packs": [
       {
         "id": "cc-42546-pack",
         "volume_l": 1,
-        "price_mdl": 82.0,
+        "price_mdl": 82,
         "label": "1 шт"
       }
     ],
@@ -15581,12 +17369,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 125.0,
+    "canister_price": 125,
     "packs": [
       {
         "id": "cc-42143-pack",
         "volume_l": 1,
-        "price_mdl": 125.0,
+        "price_mdl": 125,
         "label": "1 шт"
       }
     ],
@@ -15618,12 +17406,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 100.0,
+    "canister_price": 100,
     "packs": [
       {
         "id": "cc-42169-pack",
         "volume_l": 1,
-        "price_mdl": 100.0,
+        "price_mdl": 100,
         "label": "1 шт"
       }
     ],
@@ -15655,12 +17443,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 64.0,
+    "canister_price": 64,
     "packs": [
       {
         "id": "cc-42574-pack",
         "volume_l": 1,
-        "price_mdl": 64.0,
+        "price_mdl": 64,
         "label": "1 шт"
       }
     ],
@@ -15692,12 +17480,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 64.0,
+    "canister_price": 64,
     "packs": [
       {
         "id": "cc-42575-pack",
         "volume_l": 1,
-        "price_mdl": 64.0,
+        "price_mdl": 64,
         "label": "1 шт"
       }
     ],
@@ -15729,12 +17517,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 88.0,
+    "canister_price": 88,
     "packs": [
       {
         "id": "cc-42576-pack",
         "volume_l": 1,
-        "price_mdl": 88.0,
+        "price_mdl": 88,
         "label": "1 шт"
       }
     ],
@@ -15766,12 +17554,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 88.0,
+    "canister_price": 88,
     "packs": [
       {
         "id": "cc-42577-pack",
         "volume_l": 1,
-        "price_mdl": 88.0,
+        "price_mdl": 88,
         "label": "1 шт"
       }
     ],
@@ -15803,12 +17591,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 61.0,
+    "canister_price": 61,
     "packs": [
       {
         "id": "cc-42578-pack",
         "volume_l": 1,
-        "price_mdl": 61.0,
+        "price_mdl": 61,
         "label": "1 шт"
       }
     ],
@@ -15840,12 +17628,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 65.0,
+    "canister_price": 65,
     "packs": [
       {
         "id": "cc-42579-pack",
         "volume_l": 1,
-        "price_mdl": 65.0,
+        "price_mdl": 65,
         "label": "1 шт"
       }
     ],
@@ -15877,12 +17665,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 70.0,
+    "canister_price": 70,
     "packs": [
       {
         "id": "cc-42539-pack",
         "volume_l": 1,
-        "price_mdl": 70.0,
+        "price_mdl": 70,
         "label": "1 шт"
       }
     ],
@@ -15933,19 +17721,19 @@
       {
         "id": "evox-evo-ready-10l",
         "volume_l": 10,
-        "price_mdl": 395.0,
+        "price_mdl": 395,
         "label": "10 л"
       },
       {
         "id": "evox-evo-ready-56l",
         "volume_l": 56,
-        "price_mdl": 2240.0,
+        "price_mdl": 2240,
         "label": "56 л (60 кг)"
       },
       {
         "id": "evox-evo-ready-205l",
         "volume_l": 205,
-        "price_mdl": 7790.0,
+        "price_mdl": 7790,
         "label": "205 л (Бочка)"
       }
     ],
@@ -15984,24 +17772,24 @@
       }
     ],
     "canister_vol": 10,
-    "canister_price": 680.0,
+    "canister_price": 680,
     "packs": [
       {
         "id": "evox-evo-conc-10l",
         "volume_l": 10,
-        "price_mdl": 680.0,
+        "price_mdl": 680,
         "label": "10 л"
       },
       {
         "id": "evox-evo-conc-56l",
         "volume_l": 56,
-        "price_mdl": 3618.0,
+        "price_mdl": 3618,
         "label": "56 л (60 кг)"
       },
       {
         "id": "evox-evo-conc-205l",
         "volume_l": 205,
-        "price_mdl": 12411.0,
+        "price_mdl": 12411,
         "label": "205 л (Бочка)"
       }
     ],
@@ -16029,12 +17817,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 12.0,
+    "canister_price": 12,
     "packs": [
       {
         "id": "fw-3800125820876-pack",
         "volume_l": 1,
-        "price_mdl": 12.0,
+        "price_mdl": 12,
         "label": "1 шт"
       }
     ],
@@ -16062,12 +17850,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 12.0,
+    "canister_price": 12,
     "packs": [
       {
         "id": "fw-3800125820456-pack",
         "volume_l": 1,
-        "price_mdl": 12.0,
+        "price_mdl": 12,
         "label": "1 шт"
       }
     ],
@@ -16095,12 +17883,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 11.0,
+    "canister_price": 11,
     "packs": [
       {
         "id": "fw-3800125815186-pack",
         "volume_l": 1,
-        "price_mdl": 11.0,
+        "price_mdl": 11,
         "label": "1 шт"
       }
     ],
@@ -16128,12 +17916,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 9.0,
+    "canister_price": 9,
     "packs": [
       {
         "id": "fw-3800125814349-pack",
         "volume_l": 1,
-        "price_mdl": 9.0,
+        "price_mdl": 9,
         "label": "1 шт"
       }
     ],
@@ -16161,12 +17949,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 9.0,
+    "canister_price": 9,
     "packs": [
       {
         "id": "fw-3800125800014-pack",
         "volume_l": 1,
-        "price_mdl": 9.0,
+        "price_mdl": 9,
         "label": "1 шт"
       }
     ],
@@ -16194,12 +17982,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 10.0,
+    "canister_price": 10,
     "packs": [
       {
         "id": "fw-3800125810204-pack",
         "volume_l": 1,
-        "price_mdl": 10.0,
+        "price_mdl": 10,
         "label": "1 шт"
       }
     ],
@@ -16227,12 +18015,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 20.0,
+    "canister_price": 20,
     "packs": [
       {
         "id": "fw-3800125815421-pack",
         "volume_l": 1,
-        "price_mdl": 20.0,
+        "price_mdl": 20,
         "label": "1 шт"
       }
     ],
@@ -16260,12 +18048,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 9.0,
+    "canister_price": 9,
     "packs": [
       {
         "id": "fw-3800125800014-usd-pack",
         "volume_l": 1,
-        "price_mdl": 9.0,
+        "price_mdl": 9,
         "label": "1 шт"
       }
     ],
@@ -16293,12 +18081,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 9.0,
+    "canister_price": 9,
     "packs": [
       {
         "id": "fw-3800125800014-eur-pack",
         "volume_l": 1,
-        "price_mdl": 9.0,
+        "price_mdl": 9,
         "label": "1 шт"
       }
     ],
@@ -16326,12 +18114,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 12.0,
+    "canister_price": 12,
     "packs": [
       {
         "id": "fw-3800125821118-pack",
         "volume_l": 1,
-        "price_mdl": 12.0,
+        "price_mdl": 12,
         "label": "1 шт"
       }
     ],
@@ -16359,12 +18147,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 9.0,
+    "canister_price": 9,
     "packs": [
       {
         "id": "fw-3800125800014-gen-pack",
         "volume_l": 1,
-        "price_mdl": 9.0,
+        "price_mdl": 9,
         "label": "1 шт"
       }
     ],
@@ -16392,12 +18180,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 12.0,
+    "canister_price": 12,
     "packs": [
       {
         "id": "fw-3800125817630-pack",
         "volume_l": 1,
-        "price_mdl": 12.0,
+        "price_mdl": 12,
         "label": "1 шт"
       }
     ],
@@ -16425,12 +18213,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 54.0,
+    "canister_price": 54,
     "packs": [
       {
         "id": "fw-3800125820142-pack",
         "volume_l": 1,
-        "price_mdl": 54.0,
+        "price_mdl": 54,
         "label": "1 шт"
       }
     ],
@@ -16458,12 +18246,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 13.0,
+    "canister_price": 13,
     "packs": [
       {
         "id": "fw-3800125815926-pack",
         "volume_l": 1,
-        "price_mdl": 13.0,
+        "price_mdl": 13,
         "label": "1 шт"
       }
     ],
@@ -16491,12 +18279,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 15.0,
+    "canister_price": 15,
     "packs": [
       {
         "id": "fw-3800125809826-pack",
         "volume_l": 1,
-        "price_mdl": 15.0,
+        "price_mdl": 15,
         "label": "1 шт"
       }
     ],
@@ -16524,12 +18312,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 15.0,
+    "canister_price": 15,
     "packs": [
       {
         "id": "fw-3800125815903-pack",
         "volume_l": 1,
-        "price_mdl": 15.0,
+        "price_mdl": 15,
         "label": "1 шт"
       }
     ],
@@ -16557,12 +18345,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 17.0,
+    "canister_price": 17,
     "packs": [
       {
         "id": "fw-3800125819320-pack",
         "volume_l": 1,
-        "price_mdl": 17.0,
+        "price_mdl": 17,
         "label": "1 шт"
       }
     ],
@@ -16590,12 +18378,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 25.0,
+    "canister_price": 25,
     "packs": [
       {
         "id": "fw-3800125803015-pack",
         "volume_l": 1,
-        "price_mdl": 25.0,
+        "price_mdl": 25,
         "label": "1 шт"
       }
     ],
@@ -16623,12 +18411,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 20.0,
+    "canister_price": 20,
     "packs": [
       {
         "id": "fw-3800125817562-pack",
         "volume_l": 1,
-        "price_mdl": 20.0,
+        "price_mdl": 20,
         "label": "1 шт"
       }
     ],
@@ -16656,12 +18444,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 23.0,
+    "canister_price": 23,
     "packs": [
       {
         "id": "fw-3800125819764-pack",
         "volume_l": 1,
-        "price_mdl": 23.0,
+        "price_mdl": 23,
         "label": "1 шт"
       }
     ],
@@ -16689,12 +18477,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 25.0,
+    "canister_price": 25,
     "packs": [
       {
         "id": "fw-3800125816770-pack",
         "volume_l": 1,
-        "price_mdl": 25.0,
+        "price_mdl": 25,
         "label": "1 шт"
       }
     ],
@@ -16722,12 +18510,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 28.0,
+    "canister_price": 28,
     "packs": [
       {
         "id": "fw-3800125809420-pack",
         "volume_l": 1,
-        "price_mdl": 28.0,
+        "price_mdl": 28,
         "label": "1 шт"
       }
     ],
@@ -16755,12 +18543,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 35.0,
+    "canister_price": 35,
     "packs": [
       {
         "id": "fw-3800125809628-pack",
         "volume_l": 1,
-        "price_mdl": 35.0,
+        "price_mdl": 35,
         "label": "1 шт"
       }
     ],
@@ -16788,12 +18576,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 30.0,
+    "canister_price": 30,
     "packs": [
       {
         "id": "fw-3800125815759-pack",
         "volume_l": 1,
-        "price_mdl": 30.0,
+        "price_mdl": 30,
         "label": "1 шт"
       }
     ],
@@ -16821,12 +18609,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 80.0,
+    "canister_price": 80,
     "packs": [
       {
         "id": "fw-3800125820357-pack",
         "volume_l": 1,
-        "price_mdl": 80.0,
+        "price_mdl": 80,
         "label": "1 шт"
       }
     ],
@@ -16854,12 +18642,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 100.0,
+    "canister_price": 100,
     "packs": [
       {
         "id": "fw-3800125813373-pack",
         "volume_l": 1,
-        "price_mdl": 100.0,
+        "price_mdl": 100,
         "label": "1 шт"
       }
     ],
@@ -16887,12 +18675,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 140.0,
+    "canister_price": 140,
     "packs": [
       {
         "id": "fw-3800125856646-pack",
         "volume_l": 1,
-        "price_mdl": 140.0,
+        "price_mdl": 140,
         "label": "1 шт"
       }
     ],
@@ -16920,12 +18708,12 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 150.0,
+    "canister_price": 150,
     "packs": [
       {
         "id": "fw-3800125-pack",
         "volume_l": 1,
-        "price_mdl": 150.0,
+        "price_mdl": 150,
         "label": "1 шт"
       }
     ],
@@ -16957,36 +18745,36 @@
       }
     ],
     "canister_vol": 1,
-    "canister_price": 88.0,
+    "canister_price": 88,
     "packs": [
       {
         "id": "turbo-d-15w40-1l",
         "volume_l": 1,
-        "price_mdl": 88.0,
+        "price_mdl": 88,
         "label": "1 л"
       },
       {
         "id": "turbo-d-15w40-4l",
         "volume_l": 4,
-        "price_mdl": 342.0,
+        "price_mdl": 342,
         "label": "4 л"
       },
       {
         "id": "turbo-d-15w40-10l",
         "volume_l": 10,
-        "price_mdl": 695.0,
+        "price_mdl": 695,
         "label": "10 л"
       },
       {
         "id": "turbo-d-15w40-57l",
         "volume_l": 57,
-        "price_mdl": 3648.0,
+        "price_mdl": 3648,
         "label": "57 л"
       },
       {
         "id": "turbo-d-15w40-204l",
         "volume_l": 204,
-        "price_mdl": 12240.0,
+        "price_mdl": 12240,
         "label": "204 л (Бочка)"
       }
     ],
@@ -17016,24 +18804,24 @@
       }
     ],
     "canister_vol": 10,
-    "canister_price": 730.0,
+    "canister_price": 730,
     "packs": [
       {
         "id": "transit-15w40-10l",
         "volume_l": 10,
-        "price_mdl": 730.0,
+        "price_mdl": 730,
         "label": "10 л"
       },
       {
         "id": "transit-15w40-56l",
         "volume_l": 56,
-        "price_mdl": 4060.0,
+        "price_mdl": 4060,
         "label": "56 л"
       },
       {
         "id": "transit-15w40-203l",
         "volume_l": 203,
-        "price_mdl": 13398.0,
+        "price_mdl": 13398,
         "label": "203 л (Бочка)"
       }
     ],
@@ -17064,30 +18852,30 @@
       }
     ],
     "canister_vol": 10,
-    "canister_price": 1160.0,
+    "canister_price": 1160,
     "packs": [
       {
         "id": "global-d-15w40-10l",
         "volume_l": 10,
-        "price_mdl": 1160.0,
+        "price_mdl": 1160,
         "label": "10 л"
       },
       {
         "id": "global-d-15w40-20l",
         "volume_l": 20,
-        "price_mdl": 2320.0,
+        "price_mdl": 2320,
         "label": "20 л"
       },
       {
         "id": "global-d-15w40-57l",
         "volume_l": 57,
-        "price_mdl": 5814.0,
+        "price_mdl": 5814,
         "label": "57 л"
       },
       {
         "id": "global-d-15w40-207l",
         "volume_l": 207,
-        "price_mdl": 20286.0,
+        "price_mdl": 20286,
         "label": "207 л (Бочка)"
       }
     ],
@@ -17117,24 +18905,24 @@
       }
     ],
     "canister_vol": 10,
-    "canister_price": 1090.0,
+    "canister_price": 1090,
     "packs": [
       {
         "id": "synt-d-10w40-10l",
         "volume_l": 10,
-        "price_mdl": 1090.0,
+        "price_mdl": 1090,
         "label": "10 л"
       },
       {
         "id": "synt-d-10w40-57l",
         "volume_l": 57,
-        "price_mdl": 5643.0,
+        "price_mdl": 5643,
         "label": "57 л"
       },
       {
         "id": "synt-d-10w40-195l",
         "volume_l": 195,
-        "price_mdl": 18135.0,
+        "price_mdl": 18135,
         "label": "195 л (Бочка)"
       }
     ],
@@ -17164,24 +18952,24 @@
       }
     ],
     "canister_vol": 10,
-    "canister_price": 950.0,
+    "canister_price": 950,
     "packs": [
       {
         "id": "mistral-10w40-10l",
         "volume_l": 10,
-        "price_mdl": 950.0,
+        "price_mdl": 950,
         "label": "10 л"
       },
       {
         "id": "mistral-10w40-54l",
         "volume_l": 54,
-        "price_mdl": 4860.0,
+        "price_mdl": 4860,
         "label": "54 л"
       },
       {
         "id": "mistral-10w40-197l",
         "volume_l": 197,
-        "price_mdl": 15464.0,
+        "price_mdl": 15464,
         "label": "197 л (Бочка)"
       }
     ],
@@ -17210,18 +18998,18 @@
       }
     ],
     "canister_vol": 10,
-    "canister_price": 1350.0,
+    "canister_price": 1350,
     "packs": [
       {
         "id": "mistral-5w30-10l",
         "volume_l": 10,
-        "price_mdl": 1350.0,
+        "price_mdl": 1350,
         "label": "10 л"
       },
       {
         "id": "mistral-5w30-55l",
         "volume_l": 55,
-        "price_mdl": 6655.0,
+        "price_mdl": 6655,
         "label": "55 л"
       }
     ],
@@ -17250,18 +19038,18 @@
       }
     ],
     "canister_vol": 55,
-    "canister_price": 6655.0,
+    "canister_price": 6655,
     "packs": [
       {
         "id": "mistral-xts-5w30-55l",
         "volume_l": 55,
-        "price_mdl": 6655.0,
+        "price_mdl": 6655,
         "label": "55 л"
       },
       {
         "id": "mistral-xts-5w30-198l",
         "volume_l": 198,
-        "price_mdl": 22869.0,
+        "price_mdl": 22869,
         "label": "198 л (Бочка)"
       }
     ],
@@ -17274,12 +19062,12 @@
     "category": "greases",
     "brand": "MOL",
     "canister_vol": 7,
-    "canister_price": 1475.0,
+    "canister_price": 1475,
     "packs": [
       {
         "id": "liton-00gm-7kg",
         "volume_l": 7,
-        "price_mdl": 1475.0,
+        "price_mdl": 1475,
         "label": "7 кг"
       }
     ],
@@ -17292,12 +19080,12 @@
     "category": "greases",
     "brand": "MOL",
     "canister_vol": 0.25,
-    "canister_price": 78.0,
+    "canister_price": 78,
     "packs": [
       {
         "id": "liton-2ep-0250",
         "volume_l": 0.25,
-        "price_mdl": 78.0,
+        "price_mdl": 78,
         "label": "250 г"
       }
     ],
@@ -17328,12 +19116,12 @@
     "category": "greases",
     "brand": "MOL",
     "canister_vol": 8,
-    "canister_price": 1365.0,
+    "canister_price": 1365,
     "packs": [
       {
         "id": "liton-2ep-8kg",
         "volume_l": 8,
-        "price_mdl": 1365.0,
+        "price_mdl": 1365,
         "label": "8 кг"
       }
     ],
@@ -17346,12 +19134,12 @@
     "category": "greases",
     "brand": "MOL",
     "canister_vol": 18,
-    "canister_price": 2892.0,
+    "canister_price": 2892,
     "packs": [
       {
         "id": "liton-2ep-18kg",
         "volume_l": 18,
-        "price_mdl": 2892.0,
+        "price_mdl": 2892,
         "label": "18 кг"
       }
     ],
@@ -17364,12 +19152,12 @@
     "category": "greases",
     "brand": "MOL",
     "canister_vol": 8,
-    "canister_price": 1945.0,
+    "canister_price": 1945,
     "packs": [
       {
         "id": "favorit-2-8kg",
         "volume_l": 8,
-        "price_mdl": 1945.0,
+        "price_mdl": 1945,
         "label": "8 кг"
       }
     ],
@@ -17382,16 +19170,846 @@
     "category": "greases",
     "brand": "MOL",
     "canister_vol": 18,
-    "canister_price": 4230.0,
+    "canister_price": 4230,
     "packs": [
       {
         "id": "favorit-2-18kg",
         "volume_l": 18,
-        "price_mdl": 4230.0,
+        "price_mdl": 4230,
         "label": "18 кг"
       }
     ],
     "name_ro": "Vaselină MOL Favorit 2 Blue (18 кг găleată)",
     "description_ro": ""
+  },
+  {
+    "sku": "MOL-HYBRID-0W16",
+    "name": "MOL Dynamic Hybrid 0W-16",
+    "name_ro": "MOL Dynamic Hybrid 0W-16",
+    "category": "motor-oils-pkw",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Star_0W-30_c.jpg",
+    "description": "Инновационное гибридное моторное масло сверхнизкой вязкости 0W-16 для максимальной экономии топлива.",
+    "description_ro": "Ulei de motor inovator hibrid cu vâscozitate extrem de redusă 0W-16 pentru economie maximă de combustibil.",
+    "viscosity": "0W-16",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "0W-16"
+      },
+      {
+        "label": "Допуски",
+        "value": "API SP, ILSAC GF-6B"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 260,
+    "barrel_vol": 208,
+    "barrel_price": 18200,
+    "volumes": [
+      1,
+      4,
+      208,
+      983,
+      991,
+      994
+    ],
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 260,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 980,
+        "label": "4 л"
+      },
+      {
+        "id": "p-208",
+        "volume_l": 208,
+        "price_mdl": 18200,
+        "label": "208 л (Бочка)"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 68810,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
+      }
+    ]
+  },
+  {
+    "sku": "YUKO-HYBRID-0W16",
+    "name": "Моторное масло YUKO Super Hybrid 0W-16",
+    "name_ro": "Ulei de motor YUKO Super Hybrid 0W-16",
+    "category": "motor-oils-pkw",
+    "brand": "YUKO",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Star_0W-30_c.jpg",
+    "description": "Высокоэффективное синтетическое масло YUKO Super Hybrid 0W-16 для гибридных и современных бензиновых двигателей.",
+    "description_ro": "Ulei sintetic de înaltă eficiență YUKO Super Hybrid 0W-16 pentru motoare hibride și pe benzină.",
+    "viscosity": "0W-16",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "0W-16"
+      },
+      {
+        "label": "Допуски",
+        "value": "API SP, ILSAC GF-6B"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 210,
+    "barrel_vol": 208,
+    "barrel_price": 15400,
+    "volumes": [
+      1,
+      4,
+      991,
+      983,
+      994
+    ],
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 210,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 790,
+        "label": "4 л"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 74325,
+        "label": "991 л"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
+      }
+    ]
+  },
+  {
+    "sku": "MOL-SYNT-10W30",
+    "name": "MOL Dynamic Synt 10W-30",
+    "name_ro": "MOL Dynamic Synt 10W-30",
+    "category": "motor-oils-pkw",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Max_10W-40.jpg",
+    "description": "Всесезонное синтетическое моторное масло 10W-30 для легковых автомобилей.",
+    "description_ro": "Ulei de motor sintetic multiclasă 10W-30 pentru autoturisme.",
+    "viscosity": "10W-30",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "10W-30"
+      },
+      {
+        "label": "Допуски",
+        "value": "API SN/CF, ACEA A3/B4"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 180,
+    "barrel_vol": 208,
+    "barrel_price": 13500,
+    "volumes": [
+      1,
+      4,
+      208,
+      994,
+      983,
+      991
+    ],
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 180,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 680,
+        "label": "4 л"
+      },
+      {
+        "id": "p-208",
+        "volume_l": 208,
+        "price_mdl": 13500,
+        "label": "208 л (Бочка)"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 79520,
+        "label": "994 л"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л"
+      }
+    ]
+  },
+  {
+    "sku": "YUKO-SYNETIC-10W30",
+    "name": "Моторное масло YUKO Synetic 10W-30",
+    "name_ro": "Ulei de motor YUKO Synetic 10W-30",
+    "category": "motor-oils-pkw",
+    "brand": "YUKO",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Max_10W-40.jpg",
+    "description": "Высококачественное моторное масло YUKO Synetic 10W-30.",
+    "description_ro": "Ulei de motor de înaltă calitate YUKO Synetic 10W-30.",
+    "viscosity": "10W-30",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "10W-30"
+      },
+      {
+        "label": "Допуски",
+        "value": "API SN/CF, ACEA A3/B4"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 150,
+    "barrel_vol": 208,
+    "barrel_price": 11000,
+    "volumes": [
+      1,
+      4,
+      983,
+      991,
+      994
+    ],
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 150,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 560,
+        "label": "4 л"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 68810,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
+      }
+    ]
+  },
+  {
+    "sku": "MOL-1080",
+    "name": "MOL Dynamic Gold Ultra 0W-16",
+    "name_ro": "MOL Dynamic Gold Ultra 0W-16",
+    "category": "motor-oils-pkw",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
+    "volumes": [
+      1,
+      4,
+      208,
+      983,
+      991,
+      994
+    ],
+    "description": "Ультра-низковязкое синтетическое моторное масло последнего поколения для гибридных и высокоэффективных двигателей.",
+    "description_ro": "Ulei de motor sintetic ultra-fluid pentru vehicule hibride și moderne.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "0W-16"
+      },
+      {
+        "label": "Допуски",
+        "value": "API SP, ILSAC GF-6B"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 850,
+    "barrel_vol": 208,
+    "barrel_price": 31000,
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 260,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 850,
+        "label": "4 л"
+      },
+      {
+        "id": "p-208",
+        "volume_l": 208,
+        "price_mdl": 31000,
+        "label": "208 л (Бочка)"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 135000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 136000,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 137000,
+        "label": "994 л"
+      }
+    ]
+  },
+  {
+    "sku": "YUKO-SYNETIC-0W16",
+    "name": "Моторное масло YUKO Synetic 0W-16",
+    "name_ro": "Ulei de motor YUKO Synetic 0W-16",
+    "category": "motor-oils-pkw",
+    "brand": "YUKO",
+    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
+    "volumes": [
+      1,
+      4,
+      208,
+      983,
+      991,
+      994
+    ],
+    "description": "Инновационное синтетическое масло с высокими энергосберегающими свойствами.",
+    "description_ro": "Ulei de motor sintetic inovator pentru economie de combustibil.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "0W-16"
+      },
+      {
+        "label": "Допуски",
+        "value": "API SP, ILSAC GF-6B"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 680,
+    "barrel_vol": 208,
+    "barrel_price": 26000,
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 210,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 680,
+        "label": "4 л"
+      },
+      {
+        "id": "p-208",
+        "volume_l": 208,
+        "price_mdl": 26000,
+        "label": "208 л (Бочка)"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 120000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 121000,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 122000,
+        "label": "994 л"
+      }
+    ]
+  },
+  {
+    "sku": "MOL-1081",
+    "name": "MOL Dynamic Transit 10W-30",
+    "name_ro": "MOL Dynamic Transit 10W-30",
+    "category": "motor-oils-pkw",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
+    "volumes": [
+      1,
+      4,
+      208,
+      983,
+      991,
+      994
+    ],
+    "description": "Высококачественное всесезонное моторное масло для бензиновых и дизельных двигателей легковых автомобилей.",
+    "description_ro": "Ulei de motor de înaltă calitate pentru autoturisme.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "10W-30"
+      },
+      {
+        "label": "Допуски",
+        "value": "API SL/CF, ACEA A3/B3"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 520,
+    "barrel_vol": 208,
+    "barrel_price": 21000,
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 160,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 520,
+        "label": "4 л"
+      },
+      {
+        "id": "p-208",
+        "volume_l": 208,
+        "price_mdl": 21000,
+        "label": "208 л (Бочка)"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 110000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 111000,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 112000,
+        "label": "994 л"
+      }
+    ]
+  },
+  {
+    "sku": "YUKO-SEMISYNT-10W30",
+    "name": "Моторное масло YUKO Semisynt 10W-30",
+    "name_ro": "Ulei de motor YUKO Semisynt 10W-30",
+    "category": "motor-oils-pkw",
+    "brand": "YUKO",
+    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
+    "volumes": [
+      1,
+      4,
+      208,
+      983,
+      991,
+      994
+    ],
+    "description": "Полусинтетическое моторное масло для современных бензиновых и дизельных двигателей.",
+    "description_ro": "Ulei de motor semisintetic pentru motoare pe benzină și diesel.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "10W-30"
+      },
+      {
+        "label": "Допуски",
+        "value": "API SL/CF, ACEA A3/B4"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 480,
+    "barrel_vol": 208,
+    "barrel_price": 19500,
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 145,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 480,
+        "label": "4 л"
+      },
+      {
+        "id": "p-208",
+        "volume_l": 208,
+        "price_mdl": 19500,
+        "label": "208 л (Бочка)"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 105000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 106000,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 107000,
+        "label": "994 л"
+      }
+    ]
+  },
+  {
+    "sku": "YUKO-SYNETIC-0W20",
+    "name": "Моторное масло YUKO Synetic 0W-20",
+    "name_ro": "Ulei de motor YUKO Synetic 0W-20",
+    "category": "motor-oils-pkw",
+    "brand": "YUKO",
+    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
+    "volumes": [
+      1,
+      4,
+      208,
+      983,
+      991,
+      994
+    ],
+    "description": "Полностью синтетическое моторное масло для современного легкового транспорта.",
+    "description_ro": "Ulei de motor complet sintetic pentru autoturisme moderne.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "0W-20"
+      },
+      {
+        "label": "Допуски",
+        "value": "API SP, ILSAC GF-6A"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 640,
+    "barrel_vol": 208,
+    "barrel_price": 25000,
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 195,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 640,
+        "label": "4 л"
+      },
+      {
+        "id": "p-208",
+        "volume_l": 208,
+        "price_mdl": 25000,
+        "label": "208 л (Бочка)"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 118000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 119000,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 120000,
+        "label": "994 л"
+      }
+    ]
+  },
+  {
+    "sku": "YUKO-SYNETIC-0W30",
+    "name": "Моторное масло YUKO Synetic 0W-30",
+    "name_ro": "Ulei de motor YUKO Synetic 0W-30",
+    "category": "motor-oils-pkw",
+    "brand": "YUKO",
+    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
+    "volumes": [
+      1,
+      4,
+      208,
+      983,
+      991,
+      994
+    ],
+    "description": "Всесезонное синтетическое масло с продленным интервалом замены.",
+    "description_ro": "Ulei sintetic pentru toate anotimpurile cu interval extins de schimb.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "0W-30"
+      },
+      {
+        "label": "Допуски",
+        "value": "API SP, ACEA C3"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 660,
+    "barrel_vol": 208,
+    "barrel_price": 25500,
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 200,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 660,
+        "label": "4 л"
+      },
+      {
+        "id": "p-208",
+        "volume_l": 208,
+        "price_mdl": 25500,
+        "label": "208 л (Бочка)"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 122000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 123000,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 124000,
+        "label": "994 л"
+      }
+    ]
+  },
+  {
+    "sku": "YUKO-SYNETIC-5W20",
+    "name": "Моторное масло YUKO Synetic 5W-20",
+    "name_ro": "Ulei de motor YUKO Synetic 5W-20",
+    "category": "motor-oils-pkw",
+    "brand": "YUKO",
+    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
+    "volumes": [
+      1,
+      4,
+      208,
+      983,
+      991,
+      994
+    ],
+    "description": "Легкотекучее синтетическое масло для современных азиатских и американских автомобилей.",
+    "description_ro": "Ulei sintetic cu vâscozitate redusă pentru vehicule moderne.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "5W-20"
+      },
+      {
+        "label": "Допуски",
+        "value": "API SP, ILSAC GF-6A"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 580,
+    "barrel_vol": 208,
+    "barrel_price": 23000,
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 175,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 580,
+        "label": "4 л"
+      },
+      {
+        "id": "p-208",
+        "volume_l": 208,
+        "price_mdl": 23000,
+        "label": "208 л (Бочка)"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 115000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 116000,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 117000,
+        "label": "994 л"
+      }
+    ]
+  },
+  {
+    "sku": "YUKO-CLASSIC-20W50",
+    "name": "Моторное масло YUKO Classic 20W-50",
+    "name_ro": "Ulei de motor YUKO Classic 20W-50",
+    "category": "motor-oils-pkw",
+    "brand": "YUKO",
+    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
+    "volumes": [
+      1,
+      4,
+      208,
+      983,
+      991,
+      994
+    ],
+    "description": "Всесезонное минеральное масло высокой вязкости для автомобилей с большим пробегом.",
+    "description_ro": "Ulei mineral de înaltă vâscozitate pentru vehicule cu rulaj mare.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "20W-50"
+      },
+      {
+        "label": "Допуски",
+        "value": "API SF/CC"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 390,
+    "barrel_vol": 208,
+    "barrel_price": 16000,
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 120,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 390,
+        "label": "4 л"
+      },
+      {
+        "id": "p-208",
+        "volume_l": 208,
+        "price_mdl": 16000,
+        "label": "208 л (Бочка)"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 98000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 99000,
+        "label": "991 л"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 100000,
+        "label": "994 л"
+      }
+    ]
   }
 ]
