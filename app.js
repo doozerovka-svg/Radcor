@@ -166,6 +166,7 @@ document.addEventListener('DOMContentLoaded', () => {
         activeViscosities: new Set(),
         activeVolumes:  new Set(),
         activeColors:   new Set(),
+        activeApprovals: new Set(),
         searchQuery:    ''
     };
 
@@ -191,6 +192,13 @@ document.addEventListener('DOMContentLoaded', () => {
         if (numV === 991) return '991 л';
         if (numV === 994) return '994 л';
         return numV >= 1 ? `${numV} л` : `${numV * 1000} мл`;
+    }
+
+    function getProductApprovals(p) {
+        if (!p) return [];
+        const specEntry = (p.specs || []).find(s => s && s.label && s.label.includes('Допуски'));
+        if (!specEntry || !specEntry.value) return [];
+        return specEntry.value.split(/[,;]+/).map(s => s.trim()).filter(Boolean);
     }
 
     // ==========================================================================
@@ -287,9 +295,11 @@ document.addEventListener('DOMContentLoaded', () => {
         const brandGroup     = document.getElementById('filterBrandGroup');
         const viscosityGroup = document.getElementById('filterViscosityGroup');
         const volumeGroup    = document.getElementById('filterVolumeGroup');
+        const standardGroup  = document.getElementById('filterStandardGroup');
         const brandOpts      = document.getElementById('filterBrandOptions');
         const viscosityOpts  = document.getElementById('filterViscosityOptions');
         const volumeOpts     = document.getElementById('filterVolumeOptions');
+        const standardOpts   = document.getElementById('filterStandardOptions');
         if (!brandOpts || !volumeOpts || !brandGroup || !volumeGroup) return;
 
         const filtered = applyCategoryFilterOnly(products);
@@ -318,6 +328,14 @@ document.addEventListener('DOMContentLoaded', () => {
         filtered.forEach(p => {
             (p.volumes || []).forEach(v => {
                 volumeMap[v] = (volumeMap[v] || 0) + 1;
+            });
+        });
+
+        // Collect unique approvals/standards with counts
+        const approvalMap = {};
+        filtered.forEach(p => {
+            getProductApprovals(p).forEach(a => {
+                approvalMap[a] = (approvalMap[a] || 0) + 1;
             });
         });
 
@@ -399,6 +417,23 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
 
+        // Render standards/approvals checkboxes
+        if (standardGroup && standardOpts) {
+            const approvals = Object.keys(approvalMap).sort((a, b) => a.localeCompare(b));
+            if (approvals.length > 0) {
+                standardOpts.innerHTML = approvals.map(a => `
+                    <label class="filter-checkbox-label">
+                        <input type="checkbox" class="filter-standard-cb" value="${a.replace(/"/g, '&quot;')}" ${catalogState.activeApprovals.has(a) ? 'checked' : ''}>
+                        ${a}
+                        <span class="filter-count">${approvalMap[a]}</span>
+                    </label>
+                `).join('');
+                standardGroup.style.display = '';
+            } else {
+                standardGroup.style.display = 'none';
+            }
+        }
+
         // Attach listeners to new checkboxes
         viscosityOpts?.querySelectorAll('.filter-viscosity-cb').forEach(cb => {
             cb.addEventListener('change', () => {
@@ -425,6 +460,13 @@ document.addEventListener('DOMContentLoaded', () => {
             cb.addEventListener('change', () => {
                 if (cb.checked) catalogState.activeVolumes.add(cb.value);
                 else catalogState.activeVolumes.delete(cb.value);
+                renderCatalog(allProducts);
+            });
+        });
+        standardOpts?.querySelectorAll('.filter-standard-cb').forEach(cb => {
+            cb.addEventListener('change', () => {
+                if (cb.checked) catalogState.activeApprovals.add(cb.value);
+                else catalogState.activeApprovals.delete(cb.value);
                 renderCatalog(allProducts);
             });
         });
@@ -466,6 +508,13 @@ document.addEventListener('DOMContentLoaded', () => {
             // Brand filter
             const brandMatch = catalogState.activeBrands.size === 0 || catalogState.activeBrands.has(p.brand);
 
+            // Standards/Approvals filter
+            let approvalMatch = true;
+            if (catalogState.activeApprovals && catalogState.activeApprovals.size > 0) {
+                const pApprovals = getProductApprovals(p);
+                approvalMatch = pApprovals.some(a => catalogState.activeApprovals.has(a));
+            }
+
             // Volume filter
             const volMatch = catalogState.activeVolumes.size === 0 || (p.volumes || []).some(v => catalogState.activeVolumes.has(String(v)));
 
@@ -479,7 +528,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 || (p.color || '').toLowerCase().includes(q)
                 || (p.specs || []).some(s => s.value && s.value.toLowerCase().includes(q));
 
-            return catMatch && viscMatch && colorMatch && brandMatch && volMatch && searchMatch;
+            return catMatch && viscMatch && colorMatch && brandMatch && approvalMatch && volMatch && searchMatch;
         });
     }
 
@@ -824,6 +873,7 @@ document.addEventListener('DOMContentLoaded', () => {
         catalogState.activeViscosities.clear();
         catalogState.activeVolumes.clear();
         catalogState.activeColors.clear();
+        catalogState.activeApprovals.clear();
 
         // If parent lubricants clicked, open accordion
         if (cat === 'lubricants' && parentAcc) {

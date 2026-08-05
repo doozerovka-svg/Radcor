@@ -1,0 +1,1945 @@
+{
+  "scraped_at": "2026-07-14T05:19:38Z",
+  "products": [
+    {
+      "name": "MOL Dynamic Star 0W-30",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/motornye-masla/mol-dynamic-star-0w-30",
+      "category": "Моторные масла",
+      "image_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
+      "short_description": "Синтетическое моторное масло премиум класса для самых современных автомобилей",
+      "full_description": "Высокоэффективное, синтетическое, топливосберегающее моторное масло для самых современных легковых автомобилей. Обеспечивает увеличенный срок службы и высокую защиту двигателя, катализаторов и фильтров твердых частиц. Особенно рекомендовано для дизельных двигателей Ford и Jaguar последнего поколения, а также самых современных автомобилей японского и азиатского производства. Подходит для применения в автомобилях с гибридными силовыми установками и системой «старт-стоп».",
+      "approvals_and_performance": [
+        "ACEA C2",
+        "Ford WSS-M2C-950-A",
+        "Jaguar Land Rover STJLR.03.5007",
+        "VWC 53035"
+      ],
+      "characteristics": {
+        "Внешний вид": "коричневый, светлый, прозрачный",
+        "Плотность при 15°C [г/cм3]": "0,847",
+        "Кинематическая вязкость при 40°C [мм2/с]": "49,4",
+        "Кинематическая вязкость при 100°C [мм2/с]": "9,7",
+        "Температура застывания [°C]": "-45",
+        "Температура вспышки (по Кливленду) [°C]": "254"
+      }
+    },
+    {
+      "name": "MOL ATF Synt TWS",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/reduktornye-masla/mol-atf-synt-tws",
+      "category": "Редукторные масла",
+      "image_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/hajtomuolajok/1L_MOL_ATF_Synt_TWS.jpg",
+      "short_description": "Синтетическая жидкость высшего качества для автоматических трансмиссий",
+      "full_description": "Синтетическая жидкость для автоматических трансмиссий высшего сорта, специально разработанная в соответствии с требованиями современных легковых автомобилей, автомобилей для коммерческих перевозок японского и корейского производства; может применяться в широком диапазоне температур. Также соответствует требованиям к жидкостям для автоматических трансмиссий последнего поколения, устанавливаемых на автомобили Toyota.",
+      "approvals_and_performance": [
+        "GM Dexron-VI",
+        "JASO 1A LV",
+        "Toyota WS",
+        "Mazda FZ",
+        "Nissan Matic-W",
+        "Mitsubishi ATF J3",
+        "Mitsubishi SP-IV",
+        "VW G 055 540",
+        "VW G 055 005",
+        "VW G 055 162",
+        "BMW ATF 3+",
+        "BMW ATF6",
+        "Ford XT-6-QSP [SP]",
+        "Honda Type 3.0",
+        "Honda Type 3.1",
+        "Hyundai/KIA 040000C90SG",
+        "Hyundai/KIA SP4-M1",
+        "Hyundai/KIA SPH-IV",
+        "Mistsubishi Dia Queen ATF-MA1",
+        "Mistsubishi Dia Queen ATF-PA",
+        "Honda DW-1",
+        "Hyundai NWS-9638",
+        "Hyundai/Kia SP-IV",
+        "Nissan Matic-S",
+        "SAAB 93 165 147"
+      ],
+      "characteristics": {
+        "Плотность при 15°C [г/cм3]": "0,847",
+        "Кинематическая вязкость при 40°C [мм2/с]": "29,5",
+        "Кинематическая вязкость при 100°C [мм2/с]": "6,0",
+        "Индекс вязкости": "155",
+        "Температура застывания [°C]": "-49",
+        "Температура вспышки (по Кливленду) [°C]": "210"
+      }
+    },
+    {
+      "name": "MOL ATF Synt 3H",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/reduktornye-masla/mol-atf-synt-3h",
+      "category": "Редукторные масла",
+      "image_url": "",
+      "short_description": "Синтетическая жидкость высшего качества для автоматических трансмиссий",
+      "full_description": "Синтетическая жидкость для автоматических трансмиссий высшего сорта, предназначенная для смазывания и эксплуатации автоматических трансмиссий и сервооборудования легковых автомобилей и автомобилей для коммерческих перевозок, используемых в условиях особенно высоких нагрузок. Обеспечивает увеличенный интервал замены масла при использовании в трансмиссиях производства ZF и Voith.",
+      "approvals_and_performance": [
+        "ZF TE-ML 03D[ZF001895]",
+        "ZF TE-ML 04D[ZF001895]",
+        "ZF TE-ML 14B[ZF001895]",
+        "ZF TE-ML 17C[ZF001895]",
+        "ZF TE-ML 20B[ZF001895]",
+        "ZF TE-ML 25B[ZF001895]",
+        "Voith H55.6336",
+        "GM Dexron-IIIH",
+        "GM Dexron-IIIG",
+        "MAN 339 Typ L1",
+        "MAN 339 Typ V2",
+        "MAN 339 Typ Z2",
+        "MAN 339 Typ Z11",
+        "ZF TE-ML 14C",
+        "Allison C-4",
+        "Allison TES-295"
+      ],
+      "characteristics": {
+        "Плотность при 15°C [г/cм3]": "0,848",
+        "Кинематическая вязкость при 40°C [мм2/с]": "35,0",
+        "Кинематическая вязкость при 100°C [мм2/с]": "7,34",
+        "Индекс вязкости": "182",
+        "Температура застывания [°C]": "-42",
+        "Температура вспышки (по Кливленду) [°C]": "200"
+      }
+    },
+    {
+      "name": "MOL ATF Synt",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/reduktornye-masla/mol-atf-synt",
+      "category": "Редукторные масла",
+      "image_url": "",
+      "short_description": "Синтетическая жидкость высшего качества для автоматических трансмиссий",
+      "full_description": "Синтетическая жидкость для автоматических трансмиссий высшего сорта, предназначенная для смазывания и эксплуатации автоматических трансмиссий и сервооборудования легковых автомобилей и автомобилей для коммерческих перевозок, используемых в условиях особенно высоких нагрузок; подходит для широкого диапазона температур.",
+      "approvals_and_performance": [
+        "DTFR 13C150 (ex MB 236.8)",
+        "MAN 339 Typ L1",
+        "MAN 339 Typ Z2",
+        "ZF TE-ML 03D[ZF004917]",
+        "ZF TE-ML 04D[ZF004917]",
+        "ZF TE-ML 09X",
+        "ZF TE-ML 14B[ZF004917]",
+        "ZF TE-ML 17C[ZF004917]",
+        "Voith H55.6336",
+        "RBAS Lubricant Class TE-ML 09X[AS001155]",
+        "GM Dexron IIE",
+        "Ford Mercon",
+        "MAN 339 Typ V2",
+        "Volvo 97335",
+        "Caterpillar TO-2",
+        "Allison C-4",
+        "DTFR 13C150"
+      ],
+      "characteristics": {
+        "Плотность при 15°C [г/cм3]": "0,850",
+        "Кинематическая вязкость при 40°C [мм2/с]": "32,5",
+        "Кинематическая вязкость при 100°C [мм2/с]": "7,6",
+        "Индекс вязкости": "200",
+        "Температура застывания [°C]": "-51",
+        "Температура вспышки (по Кливленду) [°C]": "210"
+      }
+    },
+    {
+      "name": "MOL Dynamic Max 10W-40",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/motornye-masla/mol-dynamic-max-10w-40",
+      "category": "Моторные масла",
+      "image_url": "https://mollubricants.md//images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Max_10W-40.jpg",
+      "short_description": "Полусинтетическое моторное масло высшего сорта для большинства современных транспортных средств.",
+      "full_description": "Полусинтетическое моторное масло высшего сорта для широкого спектра легковых автомобилей и небольших автомобилей для коммерческих перевозок.",
+      "approvals_and_performance": [
+        "API SN",
+        "MB-Approval 229.3",
+        "TEDOM 258-1",
+        "ACEA A3/B4",
+        "ACEA A3/B3",
+        "API CF",
+        "API SL",
+        "VW 502 00/505 00",
+        "Renault RN0700",
+        "Renault RN0710",
+        "Fiat 9.55535-G2"
+      ],
+      "characteristics": {
+        "Плотность при 15°C [г/cм3]": "0,866",
+        "Кинематическая вязкость при 40°C [мм2/с]": "93",
+        "Кинематическая вязкость при 100°C [мм2/с]": "14,8",
+        "Индекс вязкости": "167",
+        "Температура застывания [°C]": "-45",
+        "Температура вспышки (по Кливленду) [°C]": "230",
+        "Щелочное число [мг KOH/г]": "8,5",
+        "Кислотное число [мг KOH/г]": "2,7"
+      }
+    },
+    {
+      "name": "MOL Essence C3 5W-40",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/motornye-masla/mol-essence-c3-5w-40",
+      "category": "Моторные масла",
+      "image_url": "https://mollubricants.md//images/mol_hu/lub/autosok/motorolajok/1L_MOl_Essence_C3_5W-40_persp_w.jpg",
+      "short_description": "синтетическое моторное масло",
+      "full_description": "MOL Essence C3 5W-40 — синтетическое дизельное моторное масло с низким содержанием золы (SAPS), произведенное с использованием сложной системы присадок для обеспечения тройной антиоксидантной защиты и высоких эксплуатационных характеристик моторного масла, требуемых европейскими и американскими спецификациями, разработанное для новейших дизельных легковых автомобилей и малых коммерческих транспортных средств.",
+      "approvals_and_performance": [
+        "ACEA C3",
+        "ACEA C2",
+        "API SN/CF",
+        "VW 502 00/505 01",
+        "Renault RN0700",
+        "Renault RN0710"
+      ],
+      "characteristics": {
+        "Плотность при 15°C [г/cм3]": "0,849",
+        "Кинематическая вязкость при 100°C [мм2/с]": "15,5",
+        "Индекс вязкости": "169",
+        "Температура застывания [°C]": "-33",
+        "Температура вспышки (по Кливленду) [°C]": "235"
+      }
+    },
+    {
+      "name": "MOL Dynamic Gold HEV 0W-20",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/motornye-masla/mol-dynamic-gold-hev-0w-20",
+      "category": "Моторные масла",
+      "image_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Gold_HEV_0W-20.jpg",
+      "short_description": "моторное масло",
+      "full_description": "Высокоэффективное синтетическое, топливосберегающее моторное масло для самых современных двигателей легковых автомобилей, производимое на основе технологии двойной масляной пленки с применением синтетических базовых масел комплексного пакета присадок. Обладает превосходными характеристиками текучести. Наибольшая эффективность применения достигается в двигателях, спроектированных с малыми тепловыми зазорами. Продукт является маловязким и не подходит для определенного типа двигателей. При выборе смазочного материала руководствуйтесь требованиями эксплуатационной документации оборудования!",
+      "approvals_and_performance": [
+        "API SP",
+        "API SP (RC)",
+        "ILSAC GF-6A"
+      ],
+      "characteristics": {
+        "Кинематическая вязкость при 40°C [мм2/с]": "41,3",
+        "Кинематическая вязкость при 100°C [мм2/с]": "7,9",
+        "Индекс вязкости": "167",
+        "Температура застывания [°C]": "-45",
+        "Температура вспышки (по Кливленду) [°C]": "226",
+        "Плотность при 15°С [г/cм3]": "0,843"
+      }
+    },
+    {
+      "name": "MOL Hykomol K 80W-140",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/reduktornye-masla/mol-hykomol-k-80w-140",
+      "category": "Редукторные масла",
+      "image_url": "",
+      "short_description": "Автомобильные трансмиссионные масла",
+      "full_description": "Высокоэффективное противозадирное редукторное масло, разработанное для редукторов, работающих под умеренными или высокими нагрузками.",
+      "approvals_and_performance": [
+        "API MT-1",
+        "API GL-5",
+        "SAE J 2360",
+        "Scania STO 1:0",
+        "Mack GO-J",
+        "ZF TE-ML 07A",
+        "ZF TE-ML 08"
+      ],
+      "characteristics": {
+        "Плотность при 15°C [г/cм3]": "0,892",
+        "Кинематическая вязкость при 40°C [мм2/с]": "221,0",
+        "Кинематическая вязкость при 100°C [мм2/с]": "29,2",
+        "Индекс вязкости": "160",
+        "Температура застывания [°C]": "-33",
+        "Температура вспышки (по Кливленду) [°C]": "205"
+      }
+    },
+    {
+      "name": "EVOX Ultra Plus concentrate",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/ohlazdausie-zidkosti-s-ponizennoj-temperaturoj-zamerzania/evox-ultra-plus-concentrate",
+      "category": "Охлаждающие жидкости с пониженной температурой замерзания",
+      "image_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/fagyallo_hutofolyadek/evox_ultra_plus_conc_1l.png",
+      "short_description": "Концентрат охлаждающей жидкости",
+      "full_description": "Охлаждающая жидкость высшего качества с увеличенным интервалом замены, соответствующая требованиям спецификации VW G13 и специально разработанная для современных легковых автомобилей и легкого коммерческого транспорта . Обеспечивает наивысшую защиту от коррозии, замерзания и перегрева, предотвращает образование накипи, осадка и кавитационную эррозию системы охлаждения.",
+      "approvals_and_performance": [
+        "VW/Audi/Seat/Skoda G13 (TL 774-J)"
+      ],
+      "characteristics": {
+        "Внешний вид": "прозрачная жидкость",
+        "Цвет": "светло-красный",
+        "Плотность при 15°C [г/cм3]": "1,135",
+        "Значение рН (1:2 дистиллированная вода)": "8.3",
+        "Значение рН": "8.6",
+        "Индекс рефракции при 20°C": "1.434",
+        "Щелочность [ml 0,1M HCl/10 ml]": "5,7",
+        "Температура замерзания (50% раствор в дистиллированной воде) [°C]": "-35"
+      }
+    },
+    {
+      "name": "MOL DOT 3",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/tormoznye-zidkosti/mol-dot-3",
+      "category": "Тормозные жидкости",
+      "image_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/fekfolyadekok/mol_dot_3_side.jpg",
+      "short_description": "Синтетическая тормозная жидкость",
+      "full_description": "Отлично подходит для гидравлических тормозных устройств и систем сцеплений всех легковых автомобилей, грузопассажирских автомобилей и строительной техники, если руководством по эксплуатации предписана тормозная жидкость класса DOT 3 или ее эквивалент.",
+      "approvals_and_performance": [
+        "SAE J 1703",
+        "FMVSS 116",
+        "DOT 3",
+        "ISO 4925 Class 3"
+      ],
+      "characteristics": {
+        "Внешний вид": "желтый",
+        "Кинематическая вязкость при -40°C [мм2/с]": "1270",
+        "Кинематическая вязкость при 100°C [мм2/с]": "2,2",
+        "Плотность при 20°C [г/cм3]": "1,031",
+        "Водородный показатель pH": "9,0",
+        "Температура кипения [°C]": "243",
+        "Температура кипения увлажненной жидкости [°C]": "151"
+      }
+    },
+    {
+      "name": "MOL Essence Diesel 10W-40",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/motornye-masla/mol-essence-diesel-10w-40",
+      "category": "Моторные масла",
+      "image_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Essence_10W-40.jpg",
+      "short_description": "Моторное масло для увеличенного ресурса.",
+      "full_description": "Синтетическое моторное масло для обеспечения тройной антиокислительной защиты, продления ресурса и превосходной защиты двигателей всасывающего типа и дизельных двигателей с турбонагнетателем, которые устанавливаются на современные транспортные средства и подвержены высоким нагрузкам в экстремальных условиях эксплуатации.",
+      "approvals_and_performance": [
+        "ACEA A3/B4",
+        "ACEA A3/B3",
+        "API CF/SL",
+        "VW 505 00"
+      ],
+      "characteristics": {
+        "Плотность при 15°C [г/cм3]": "0,871",
+        "Кинематическая вязкость при 40°C [мм2/с]": "93,4",
+        "Кинематическая вязкость при 100°C [мм2/с]": "14,1",
+        "Температура застывания [°C]": "-33",
+        "Температура вспышки (по Кливленду) [°C]": "220"
+      }
+    },
+    {
+      "name": "MOL Dynamic Gold Longlife 5W-30",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/motornye-masla/mol-dynamic-gold-longlife-5w-30",
+      "category": "Моторные масла",
+      "image_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Gold_Longlife_5W-30.jpg",
+      "short_description": "Синтетическое моторное масло высшего сорта для большинства современных транспортных средств.",
+      "full_description": "Малозольное синтетическое моторное масло высшего сорта для увеличенных интервалов слива масла, одобренное Volkswagen Group (VW, Audi, SEAT, Skoda) для увеличенных периодов обслуживания. Может использоваться для двигателей пассажирских автомобилей и небольших грузопассажирских автомобилей, оборудованных дизельным сажевым фильтром (DPF) и трехступенчатой контролируемой каталитической системой.",
+      "approvals_and_performance": [
+        "API SN",
+        "VW 504 00/507 00",
+        "MB-Approval 229.51",
+        "ACEA C3",
+        "API SP",
+        "BMW Longlife-04"
+      ],
+      "characteristics": {
+        "Плотность при 15°C [г/cм3]": "0,852",
+        "Кинематическая вязкость при 40°C [мм2/с]": "68,9",
+        "Кинематическая вязкость при 100°C [мм2/с]": "11,5",
+        "Индекс вязкости": "162",
+        "Температура застывания [°C]": "-42",
+        "Температура вспышки (по Кливленду) [°C]": "210",
+        "Кислотное число [мг KOH/г]": "1,6"
+      }
+    },
+    {
+      "name": "MOL ATF 3G",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/reduktornye-masla/mol-atf-3g",
+      "category": "Редукторные масла",
+      "image_url": "https://mollubricants.md/images/mol_hu/lub/autosok/hajtomuolajok/1L_MOL_ATF_3G.jpg",
+      "short_description": "Жидкость для автоматических трансмиссий.",
+      "full_description": "Жидкость для автоматических трансмиссий, предназначенная для надежного смазывания и эксплуатации полуавтоматических и автоматических коробок передач и гидравлических систем современных автомобилей для коммерческих перевозок, используемых в широком диапазоне температур. MOL ATF 3 G обеспечивает длительный ресурс и легкий холодный запуск двигателя.",
+      "approvals_and_performance": [
+        "MAN 339 Typ L1",
+        "MAN 339 Typ V1",
+        "MAN 339 Typ Z1",
+        "ZF TE-ML 04D[ZF001179]",
+        "ZF TE-ML 14A[ZF001179]",
+        "Voith H55.6335",
+        "ZETOR",
+        "GM Dexron-IIIG",
+        "Ford Mercon",
+        "ZF TE-ML 05L",
+        "ZF TE-ML 09",
+        "ZF TE-ML 11B",
+        "Allison C-4",
+        "Volvo CE 97341"
+      ],
+      "characteristics": {
+        "Плотность при 15°C [г/cм3]": "0,855",
+        "Кинематическая вязкость при 40°C [мм2/с]": "34,8",
+        "Кинематическая вязкость при 100°C [мм2/с]": "7,2",
+        "Индекс вязкости": "182",
+        "Температура застывания [°C]": "-51",
+        "Температура вспышки (по Кливленду) [°C]": "210"
+      }
+    },
+    {
+      "name": "MOL Hykomol Syntrans V 75W-90",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/reduktornye-masla/mol-hykomol-syntrans-v-75w-90",
+      "category": "Редукторные масла",
+      "image_url": "",
+      "short_description": "Синтетическое редукторное/трансмиссионное масло для транспортной отрасли.",
+      "full_description": "Полностью синтетическое противозадирное всесезонное масло для редукторов/агрегатов трансмиссии, предназначенное, главным образом, для ручных коробок передач легковых и небольших грузопассажирских автомобилей производства VW. Может успешно применяться для большинства современных переднеприводных автомобилей, где коробка передач и дифференциал образуют единый агрегат.",
+      "approvals_and_performance": [
+        "API GL-4",
+        "VW 501 50"
+      ],
+      "characteristics": {
+        "Плотность при 15°C [г/cм3]": "0,858",
+        "Кинематическая вязкость при 40°C [мм2/с]": "102",
+        "Кинематическая вязкость при 100°C [мм2/с]": "15,0",
+        "Индекс вязкости": "176",
+        "Температура застывания [°C]": "-45",
+        "Температура вспышки (по Кливленду) [°C]": "215"
+      }
+    },
+    {
+      "name": "MOL EVOX Winter Apple Cinnamon -40",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/stekloomyvausie-zidkosti/mol-evox-winter-apple-cinnamon-40",
+      "category": "Стеклоомывающие жидкости",
+      "image_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/szelvedomoso/3l_mol_evox_apple_cinnamon_winter_screenwash.jpg",
+      "short_description": "ароматизированная зимняя жидкость для стеклоомывателя",
+      "full_description": "MOL EVOX Winter Fruit Garden -30 – это прозрачная жидкость с ягодным ароматом, содержащая высокую долю спирта. Дальнейшее разбавление не рекомендуется, так как это может уменьшить способность жидкости к очищению и таянию льда. Не содержит метиловый спирт.",
+      "approvals_and_performance": [],
+      "characteristics": {
+        "Внешний вид": "синяя, прозрачная жидкость",
+        "Запах": "alma-fahéj",
+        "Плотность при 20°C [г/cм3]": "0.855",
+        "Температура замерзания [°C]": "-41"
+      }
+    },
+    {
+      "name": "ADBLUE®",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/adblue/adblue",
+      "category": "AdBlue",
+      "image_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/adblue/adblue_5l.jpg",
+      "short_description": "Для систем избирательной каталитической нейтрализации с присадкой для снижения содержания окислов азота",
+      "full_description": "Присадка для снижения содержания окислов азота AdBlue® предназначена для снижения уровня окислов азота в выхлопных газах автомобилей, оборудованных системами избирательной каталитической нейтрализации (SCR). Немецкая ассоциация автомобильной промышленности (VDA) гарантирует высокое и стабильное качество AdBlue ® .",
+      "approvals_and_performance": [
+        "ISO 22241-1:2006",
+        "DIN 70070",
+        "German Automobile Association (VDA)"
+      ],
+      "characteristics": {
+        "Плотность при 20°C [г/cм3]": "1,087 - 1,093",
+        "Температура замерзания [°C]": "-11,5",
+        "pH (10%-os deszt.vizes oldat)": "9,5"
+      }
+    },
+    {
+      "name": "MOL EVOX 4 Season -10",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/stekloomyvausie-zidkosti/mol-evox-4-season-10",
+      "category": "Стеклоомывающие жидкости",
+      "image_url": "https://mollubricants.md//images/mol_hu/lub/szallitmanyozas/szelvedomoso/2l_mol_evox_4season.jpg",
+      "short_description": "жидкость для омывателя",
+      "full_description": "MOL EVOX 4 Season -10 представляет собой специальную жидкость без отдушек и красителей, содержащую оптимизированное количество спирта, а также систему добавок для усиления очищающего действия. Дополнительное разбавление не рекомендуется, поскольку это приведет к снижению чистящих и антиобледенительных характеристик жидкости. Не содержит метилового спирта.",
+      "approvals_and_performance": [],
+      "characteristics": {
+        "Внешний вид": "бесцветная, прозрачная жидкость",
+        "Плотность при 20°C [г/cм3]": "0.98",
+        "Запах": "легкий спиртовой",
+        "Температура замерзания [°C]": "-10"
+      }
+    },
+    {
+      "name": "MOL EVOX Extra concentrate",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/ohlazdausie-zidkosti-s-ponizennoj-temperaturoj-zamerzania/mol-evox-extra-concentrate",
+      "category": "Охлаждающие жидкости с пониженной температурой замерзания",
+      "image_url": "https://mollubricants.md//images/mol_hu/lub/szallitmanyozas/fagyallo_hutofolyadek/1L_MOL_EVOX_EXTRA_coolant_concentrate.jpg",
+      "short_description": "антифриз-концентрат",
+      "full_description": "Концентрат охлаждающей жидкости на основе моноэтиленгликоля MOL EVOX Extra concentrate изготавливается по карбоксилатной технологии гибридных присадок с силикатсодержащими компонентами (OAT). Не содержит нитритов, аминов, фосфатов и подходит для использования в системах охлаждения двигателей внутреннего сгорания. MOL EVOX Extra concentrate допускает смешивание с другими низкотемпературными охлаждающими жидкостями на основе моноэтиленгликоля и монопропиленгликоля без каких-либо ограничений. Перед использованием необходимо развести концентрат низкотемпературной охлаждающей жидкости MOL EVOX Extra concentrate водой! Совместим с жесткой водой и может смешиваться даже с водопроводной водой* в подходящем соотношении для получения раствора с концентрацией 33-50% (по объему). Использование в неразбавленном виде не допускается! *Для приготовления охлаждающей жидкости используйте чистую, не слишком жесткую воду. Запрещается использовать шахтные сточные воды, морскую воду, соленую воду, полусоленую воду или промышленные сточные воды. Убедитесь в том, что параметры воды не превышают следующих предельных значений: Жесткость воды: 0 - 20°nK (0 - 3,6 ммоль/л) Содержание хлоридов: макс. 100 мг/л Содержание сульфатов: макс. 100 мг/л Если параметры воды превышают данные значения, необходимо обработать воду соответствующим способом, например, путем добавления в нее чистой дистиллированной или деионизированной воды, чтобы достичь содержания хлоридов и/или сульфатов ниже указанных предельных значений. Не допускается смешивание низкотемпературной охлаждающей жидкости MOL EVOX Extra с другими марками бессиликатных охлаждающих жидкостей для двигателей, содержащих органические ингибиторы (OAT). Большинство охлаждающих жидкостей представляют собой тщательно сбалансированные смеси различных ингибиторов коррозии. Смешивание охлаждающих жидкостей, содержащих разные ингибиторы коррозии, может привести к снижению степени противокоррозионной защиты. Наши эксплуатационные испытания показали, что концентрат MOL EVOX Extra может без каких-либо проблем применяться в охлаждающих системах дизельных двигателей большой мощности Caterpillar.",
+      "approvals_and_performance": [
+        "BS 6580:2010",
+        "ASTM D 3306",
+        "AFNOR R-15-601",
+        "German Army: TL 6850-0038/1",
+        "VW/Audi/Seat/Skoda G11 (TL 774-C)",
+        "DTFR 29C120 (ex MB 325.5)",
+        "Ford ESD-M97B49-A",
+        "MAN 324 Typ NF",
+        "MAN 324 Typ Si-OAT",
+        "MTU MTL 5048",
+        "MWM 0199-99-2091/12",
+        "Iveco 18-1830",
+        "Case JIC-501",
+        "Deutz DQC CA-14",
+        "Cummins 85T8-2",
+        "MAN 324NF",
+        "Volvo Construction 128 6083/002",
+        "Volvo Trucks 128 6083/002"
+      ],
+      "characteristics": {
+        "Внешний вид": "светлая, прозрачная жидкость",
+        "Цвет": "темно-синяя",
+        "Плотность при 15°C [г/cм3]": "1,120",
+        "литой алюминий [mg]": "0",
+        "чугун [mg]": "1",
+        "медь [mg]": "0",
+        "латунь [mg]": "0",
+        "сталь [mg]": "0",
+        "силумин [mg]": "0",
+        "Значение рН": "8.5",
+        "Запас щелочности [ml]": "9.1",
+        "Содержание воды (по Карлу Фишеру) [% масс.]": "5",
+        "Индекс рефракции при 20°C": "1.432",
+        "Температура кипения [°C]": "min. 163",
+        "Температура замерзания (50% раствор в дистиллированной воде) [°C]": "max. -36",
+        "Hamutartalom (autochemic) [% масс.]": "max. 5"
+      }
+    },
+    {
+      "name": "MOL Dynamic Gold Longlife 0W-20",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/motornye-masla/mol-dynamic-gold-longlife-0w-20",
+      "category": "Моторные масла",
+      "image_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Gold_Longlife_0W-20_web.jpg",
+      "short_description": "Синтетическое моторное масло премиум класса для самых современных автомобилей.",
+      "full_description": "Высокоэффективное моторное масло увеличенного интервала замены и повышенными топливосберегающими свойствами для автомобилей производства Volkswagen Group (VW, Audi, SEAT, Skoda). Обеспечивает быструю прокачиваемость и эффективный холодный запуск. Технология двойной масляной пленки позволяет поддерживать гидродинамический режим смазки и защищает от износа даже в условиях экстремальных нагрузок.",
+      "approvals_and_performance": [
+        "ACEA C5",
+        "API SN Plus",
+        "VW 508 00/509 00"
+      ],
+      "characteristics": {
+        "Внешний вид": "светлая, чистая",
+        "Плотность при 15°C [г/cм3]": "0,836",
+        "Кинематическая вязкость при 40°C [мм2/с]": "39,0",
+        "Кинематическая вязкость при 100°C [мм2/с]": "7,9",
+        "Температура застывания [°C]": "-51",
+        "Температура вспышки (по Кливленду) [°C]": "230"
+      }
+    },
+    {
+      "name": "MOL Dynamic Star VL 0W-20",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/motornye-masla/mol-dynamic-star-vl-0w-20",
+      "category": "Моторные масла",
+      "image_url": "",
+      "short_description": "Синтетическое моторное масло премиум качества для самых современных автомобилей, предназначенное, в первую очередь, для легковых автомобилей Volvo",
+      "full_description": "Топливосберегающее моторное масло наивысшей степени эффективности для самых современных легковых автомобилей Volvo. Полностью соответствует требованиям спецификации Volvo VCC RBS0-2AE. Отличная окислительная стабильность обеспечивает долговременную устойчивость к деградации масла и увеличенный интервал его замены, даже при использовании биодизельного топлива. Технология двойной масляной пленки предотвращает контакт и износ металлических поверхностей даже в условиях экстремальных нагрузок.",
+      "approvals_and_performance": [
+        "ACEA C5",
+        "API SN",
+        "Volvo VCC RBS0-2AE"
+      ],
+      "characteristics": {
+        "Внешний вид": "светлая, чистая",
+        "Плотность при 15°C [г/cм3]": "0,846",
+        "Кинематическая вязкость при 40°C [мм2/с]": "45,8",
+        "Кинематическая вязкость при 100°C [мм2/с]": "8,8",
+        "Индекс вязкости": "167",
+        "Температура застывания [°C]": "-42",
+        "Температура вспышки (по Кливленду) [°C]": "230"
+      }
+    },
+    {
+      "name": "MOL Hykomol K 80W-90",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/reduktornye-masla/mol-hykomol-k-80w-90",
+      "category": "Редукторные масла",
+      "image_url": "https://mollubricants.md/images/mol_hu/lub/autosok/hajtomuolajok/1L_MOL_Hykomol_K_80W-90.jpg",
+      "short_description": "Автомобильные трансмиссионные масла",
+      "full_description": "Высокоэффективное противозадирное редукторное масло, разработанное для редукторов, работающих под умеренными или высокими нагрузками.",
+      "approvals_and_performance": [
+        "API GL-5",
+        "MIL-L-2105D",
+        "ZETOR"
+      ],
+      "characteristics": {
+        "Плотность при 15°C [г/cм3]": "0,895",
+        "Кинематическая вязкость при 40°C [мм2/с]": "143",
+        "Кинематическая вязкость при 100°C [мм2/с]": "14,6",
+        "Индекс вязкости": "101",
+        "Температура застывания [°C]": "-27",
+        "Температура вспышки (по Кливленду) [°C]": "230"
+      }
+    },
+    {
+      "name": "MOL EVOX Ice Spray",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/stekloomyvausie-zidkosti/evox-ice-spray",
+      "category": "Стеклоомывающие жидкости",
+      "image_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/szelvedomoso/MOL_EVOX_Ice-spray.png",
+      "short_description": "Размораживающая жидкость",
+      "full_description": "Жидкость для размораживания ветровых стекол, зеркал заднего вида и других стеклянных поверхностей автомобилей.",
+      "approvals_and_performance": [],
+      "characteristics": {
+        "Внешний вид": "синяя жидкость",
+        "Запах": "свежий запах",
+        "Плотность при 20°С [г/cм3]": "0,890"
+      }
+    },
+    {
+      "name": "MOL Dynamic Gold DX 0W-20",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/motornye-masla/mol-dynamic-gold-dx-0w-20",
+      "category": "Моторные масла",
+      "image_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Gold_DX_0W-20.jpg",
+      "short_description": "Синтетическое моторное масло премиум качества для самых современных автомобилей",
+      "full_description": "Высокоэффективное, синтетическое моторное масло на основе технологии двойной масляной пленки для легковых автомобилей и микроавтобусов, оборудованных самыми современными бензиновыми двигателями с турбонаддувом и непосредственным впрыском топлива. Обеспечивает великолепную защиту при преждевременном воспламенении топлива в цилиндрах (LSPI). Полностью соответствует требованиям спецификации Dexos1 Gen2 и, в первую очередь, рекомендовано для автомобилей Opel, GM и Chevrolet.",
+      "approvals_and_performance": [
+        "API SN",
+        "API SP",
+        "Opel OV 040 1547 - A20",
+        "ILSAC GF-5",
+        "ILSAC GF-6A"
+      ],
+      "characteristics": {
+        "Плотность при 15°C [г/cм3]": "0,847",
+        "Кинематическая вязкость при 40°C [мм2/с]": "43,7",
+        "Кинематическая вязкость при 100°C [мм2/с]": "8,3",
+        "Индекс вязкости": "169",
+        "Температура застывания [°C]": "-45",
+        "Температура вспышки (по Кливленду) [°C]": "230",
+        "Кислотное число [мг KOH/г]": "2,3"
+      }
+    },
+    {
+      "name": "MOL Dynamic Star PC 0W-30",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/motornye-masla/mol-dynamic-star-pc-0w-30",
+      "category": "Моторные масла",
+      "image_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1l_mol_dynamic_star_pc_0w-30_resized.png",
+      "short_description": "Синтетическое моторное масло премиум класса для автомобилей последнего поколения.",
+      "full_description": "Высокопроизводительное топливосберегающее синтетическое моторное масло для легковых автомобилей последнего поколения. MOL Dynamic Star PC 0W-30 обеспечивает превосходную долговременную защиту двигателей и каталитических нейтрализаторов. В первую очередь рекомендовано для автомобилей марки PSA (Peugeot and Citroën) последнего поколения, оборудованных бензиновыми двигателями с узкими зазорами между сопряженными деталями и каталитическими нейтрализаторами, а также дизельными двигателями с фильтрами твердых частиц.",
+      "approvals_and_performance": [
+        "ACEA C2",
+        "PSA B71 2312"
+      ],
+      "characteristics": {
+        "Плотность при 15°C [г/cм3]": "0,844",
+        "Кинематическая вязкость при 40°C [мм2/с]": "54,3",
+        "Кинематическая вязкость при 100°C [мм2/с]": "9,7",
+        "Индекс вязкости": "165",
+        "Температура застывания [°C]": "-48",
+        "Температура вспышки (по Кливленду) [°C]": "220"
+      }
+    },
+    {
+      "name": "MOL EVOX Summer White tea & Ginger",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/stekloomyvausie-zidkosti/mol-evox-summer-white-tea-ginger",
+      "category": "Стеклоомывающие жидкости",
+      "image_url": "https://mollubricants.md//images/mol_hu/lub/szallitmanyozas/szelvedomoso/3L_MOL_EVOX_White%20tea%20&%20Ginger_Summer_screenwash.jpg",
+      "short_description": "scented summer screenwash",
+      "full_description": "MOL EVOX Summer White tea & Ginger is a clear, white tea and ginger scented environmentally friendly liquid for cleaning glass and polycarbonate surfaces, prepared with an additive which improves the cleaning efficiency.",
+      "approvals_and_performance": [],
+      "characteristics": {}
+    },
+    {
+      "name": "MOL Botond 20W-50",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/motornye-masla/mol-botond-20w-50",
+      "category": "Моторные масла",
+      "image_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Botond_20W-50.jpg",
+      "short_description": "Моторное масло для транспортных средств более ранних моделей с большим пробегом.",
+      "full_description": "Особое моторное масло для легковых автомобилей и небольших грузопассажирских автомобилей, выпущенных до 1989 г. Может использоваться для двигателей более ранней конструкции с чрезмерным износом.",
+      "approvals_and_performance": [
+        "API SF/CC",
+        "MIL-L-46152B"
+      ],
+      "characteristics": {
+        "Плотность при 15°C [г/cм3]": "0,887",
+        "Кинематическая вязкость при 40°C [мм2/с]": "165,5",
+        "Кинематическая вязкость при 100°C [мм2/с]": "18,01",
+        "Индекс вязкости": "120",
+        "Температура застывания [°C]": "-27",
+        "Температура вспышки (по Кливленду) [°C]": "240",
+        "Щелочное число [мг KOH/г]": "5,1"
+      }
+    },
+    {
+      "name": "MOL Favorit 2",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/konsistentnye-smazki/mol-favorit-2",
+      "category": "Консистентные смазки",
+      "image_url": "https://mollubricants.md/images/mol_ru/lub/avtomobili/konsistentnye_smazki/400g_MOL_Favorit2.jpg",
+      "short_description": "Консистентная смазка с литиевым комплексом",
+      "full_description": "Многоцелевая густая смазка с хорошей механической стабильностью, обеспечивающая надлежащую смазку на более долгий срок.",
+      "approvals_and_performance": [
+        "DIN 51502: KP2N-30",
+        "ISO 6743-9: L-XCDEB 2"
+      ],
+      "characteristics": {
+        "Внешний вид": "коричневато-жёлтая, липкая",
+        "Вязкость базового масла при 40°C [мм2/с]": "200",
+        "Температура каплепадения [°C]": "270",
+        "Изменение пенетрации после 60 циклов при 25°C [0,1 mm]": "280",
+        "Изменение пенетрации после 10000 циклов при 25°C [0,1 mm]": "20",
+        "Изменение пенетрации, тест Shell Roll stability (100°C/24 ч) [0,1 mm]": "30",
+        "ЧШМТ, нагрузка сваривания [N]": "2800",
+        "Нагрузка по Тимкену (Timken OK load) [Lb]": "40",
+        "Окислительная стабильность, 100 ч/100°C, падение давления [kPa]": "25",
+        "Коррозия меди (100°C, 24 ч) [степень]": "1",
+        "Динамическая водостойкость при 79°C [% масс.]": "2",
+        "Статическая водостойкость при 90°C [класс]": "1-90",
+        "Отделение масла [% масс.]": "0,5",
+        "Потеря смазки из подшипника [% масс.]": "0,5"
+      }
+    },
+    {
+      "name": "MOL Hykomol 80W-90",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/reduktornye-masla/mol-hykomol-80w-90",
+      "category": "Редукторные масла",
+      "image_url": "https://mollubricants.md/images/mol_hu/lub/autosok/hajtomuolajok/4L_MOL_Hykomol_80W-90_.jpg",
+      "short_description": "Автомобильные трансмиссионные масла",
+      "full_description": "Высокоэффективное редукторное масло для трансмиссий и разнообразных применений.",
+      "approvals_and_performance": [
+        "API GL-4",
+        "MIL-L-2105"
+      ],
+      "characteristics": {
+        "Плотность при 15°C [г/cм3]": "0,891",
+        "Кинематическая вязкость при 40°C [мм2/с]": "145,3",
+        "Кинематическая вязкость при 100°C [мм2/с]": "14,6",
+        "Индекс вязкости": "99",
+        "Температура застывания [°C]": "-30",
+        "Температура вспышки (по Кливленду) [°C]": "230"
+      }
+    },
+    {
+      "name": "MOL Dynamic Synt 5W-30",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/motornye-masla/mol-dynamic-synt-5w-30",
+      "category": "Моторные масла",
+      "image_url": "https://mollubricants.md/images/mol_hu/lub/szervizek/motorolajok/1L_MOL_Dynamic_Synt_5W-30.jpg",
+      "short_description": "Синтетическое моторное масло высшего сорта для большинства современных транспортных средств.",
+      "full_description": "Синтетическое моторное масло высшего сорта для современных легковых автомобилей. Особенно рекомендовано для автомобилей производства General Motors (Opel, Chevrolet, Daewoo) и BMW с целью увеличения интервалов замены масла.",
+      "approvals_and_performance": [
+        "ACEA A3/B4",
+        "API SL/CF",
+        "ILSAC GF-4",
+        "VW 502 00/505 00",
+        "GM-LL-A-025",
+        "GM-LL-B-025",
+        "BMW Longlife-01"
+      ],
+      "characteristics": {
+        "Плотность при 15°C [г/cм3]": "0,855",
+        "Кинематическая вязкость при 40°C [мм2/с]": "71,0",
+        "Кинематическая вязкость при 100°C [мм2/с]": "11,7",
+        "Индекс вязкости": "160",
+        "Температура застывания [°C]": "-39",
+        "Температура вспышки (по Кливленду) [°C]": "225",
+        "Щелочное число [мг KOH/г]": "10,7",
+        "Кислотное число [мг KOH/г]": "2,4"
+      }
+    },
+    {
+      "name": "MOL EVOX Winter Raspberry Mint -30",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/stekloomyvausie-zidkosti/mol-evox-winter-raspberry-mint-30",
+      "category": "Стеклоомывающие жидкости",
+      "image_url": "https://mollubricants.md/images/mol_hu/lub/autosok/szelvedomoso/3L_MOL_EVOX_Winter_Raspberry_Mint_screenwash.jpg",
+      "short_description": "ароматизированная зимняя жидкость для стеклоомывателя",
+      "full_description": "MOL EVOX Winter Citrus Breeze - 30 – это прозрачная жидкость с цитрусовым ароматом, содержащая высокую долю спирта. Дальнейшее разбавление не рекомендуется, так как это может уменьшить способность жидкости к очищению и таянию льда. Не содержит метиловый спирт.",
+      "approvals_and_performance": [],
+      "characteristics": {
+        "Внешний вид": "világoslila, tiszta folyadék",
+        "Плотность при 15°C [г/cм3]": "0,962",
+        "Запах": "málna-mentol",
+        "Температура замерзания [°C]": "-31"
+      }
+    },
+    {
+      "name": "MOL Essence 10W-40",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/motornye-masla/mol-essence-10w-40",
+      "category": "Моторные масла",
+      "image_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Essence_10W-40.jpg",
+      "short_description": "Моторное масло для увеличенного ресурса.",
+      "full_description": "Моторное масло для обеспечения тройной антиокислительной защиты и продления ресурса двигателей современных пассажирских автомобилей и небольших автомобилей для коммерческих перевозок. Особенно рекомендуется для улучшения производительности автомобилей, оборудованных бензиновыми инжекторными двигателями с катализатором и дизельными двигателями с непосредственным впрыском топлива.",
+      "approvals_and_performance": [
+        "API SL",
+        "ACEA A3/B4",
+        "ACEA A3/B3",
+        "API SL/CF",
+        "VW 501 01/505 00"
+      ],
+      "characteristics": {
+        "Плотность при 15°C [г/cм3]": "0,871",
+        "Кинематическая вязкость при 40°C [мм2/с]": "93,4",
+        "Кинематическая вязкость при 100°C [мм2/с]": "14,1",
+        "Температура застывания [°C]": "-33",
+        "Температура вспышки (по Кливленду) [°C]": "220"
+      }
+    },
+    {
+      "name": "MOL Dynamic Synt RN17 5W-30",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/motornye-masla/mol-dynamic-synt-rn17-5w-30",
+      "category": "Моторные масла",
+      "image_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Synt_RN17_5W-30.jpg",
+      "short_description": "синтетическое моторное масло",
+      "full_description": "MOL Dynamic Synt RN17 5W-30 - синтетическое малозольное моторное масло премиум-класса с отличными свойствами текучести, изготовленное по технологии образования двойной смазочной пленки с использованием комплексной системы присадок для обеспечения высочайшего уровня эксплуатационных характеристик автомобиля.",
+      "approvals_and_performance": [
+        "ACEA C3",
+        "ACEA C2",
+        "Renault RN17",
+        "API SP",
+        "MB 229.51",
+        "MB 229.52",
+        "MB 229.31",
+        "Renault RN0700",
+        "Renault RN0710",
+        "Fiat 9.55535-S1",
+        "MB 226.52",
+        "ILSAC GF-6A"
+      ],
+      "characteristics": {
+        "Плотность при 15°C [г/cм3]": "0,854",
+        "Кинематическая вязкость при 40°C [мм2/с]": "68,2",
+        "Кинематическая вязкость при 100°C [мм2/с]": "11,7",
+        "Индекс вязкости": "167",
+        "кажущаяся вязкость (CCS) при - 30 °С [мПа.с]": "5891",
+        "Температура застывания [°C]": "-45",
+        "Температура вспышки (по Кливленду) [°C]": "234"
+      }
+    },
+    {
+      "name": "MOL Essence 15W-50",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/motornye-masla/mol-essence-15w-50",
+      "category": "Моторные масла",
+      "image_url": "",
+      "short_description": "Моторное масло для увеличения срока службы двигателя",
+      "full_description": "Моторное масло, гарантирующее тройную защиту от окисления и увеличение срока службы двигателя легковых и небольших коммерческих автомобилей.",
+      "approvals_and_performance": [
+        "API SJ/CF"
+      ],
+      "characteristics": {
+        "Плотность при 15°C [г/cм3]": "0,879",
+        "Кинематическая вязкость при 40°C [мм2/с]": "138,4",
+        "Кинематическая вязкость при 100°C [мм2/с]": "18,4",
+        "Температура застывания [°C]": "-24",
+        "Температура вспышки (по Кливленду) [°C]": "220"
+      }
+    },
+    {
+      "name": "MOL Liton LT 2EP",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/konsistentnye-smazki/mol-liton-lt-2ep",
+      "category": "Консистентные смазки",
+      "image_url": "https://mollubricants.md/images/mol_ru/lub/avtomobili/konsistentnye_smazki/400g_MOL_Liton_LT_2EP.jpg",
+      "short_description": "Литиевые смазки",
+      "full_description": "Многоцелевая консистентная смазка с высокой допустимой нагрузкой и водостойкостью, которая обеспечивает защиту от коррозии, а также низкий уровень трения и износа.",
+      "approvals_and_performance": [
+        "ZETOR",
+        "DIN 51502: KP2K-30",
+        "DIN 51825: KP2K-30",
+        "ISO 6743-9: L-XCCEB 2"
+      ],
+      "characteristics": {
+        "Внешний вид": "коричневый, однородный",
+        "Вязкость базового масла при 40°C [мм2/с]": "200",
+        "Температура каплепадения [°C]": "195",
+        "Изменение пенетрации после 60 циклов при 25°C [0,1 mm]": "280",
+        "Изменение пенетрации после 10000 циклов при 25°C [0,1 mm]": "10",
+        "ЧШМТ, нагрузка сваривания [N]": "2800",
+        "ЧШМТ, 60 мин/400 Н, диаметр износа [mm]": "0,6",
+        "Тест на ресурс подшипника SKF ROF+ L50 [ч]": "min. 1000 óra (6000 f/perc, 120 °C)",
+        "Окислительная стабильность, 100 ч/100°C, падение давления [kPa]": "25",
+        "Коррозия при 100°C/ 24 ч (сталь)": "выдерживает",
+        "Коррозия меди (100°C, 24 ч) [степень]": "1",
+        "Тест EMCOR [степень]": "0",
+        "Динамическая водостойкость при 79°C [% масс.]": "4",
+        "Статическая водостойкость при 90°C [класс]": "1-90",
+        "Отделение масла [% масс.]": "3",
+        "Давление течения при -20°C [mbar]": "700"
+      }
+    },
+    {
+      "name": "MOL DOT 5.1",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/tormoznye-zidkosti/mol-dot-5-1",
+      "category": "Тормозные жидкости",
+      "image_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/fekfolyadekok/mol_dot_5_side.jpg",
+      "short_description": "Синтетическая тормозная жидкость наивысшего качества для большинства современных транспортных средств",
+      "full_description": "Особо рекомендовано для гидравлических тормозных устройств легковых автомобилей, автомобилей для коммерческих перевозок и строительной техники, оборудованных антиблокировочными системами тормозов (ABS) и активными системами курсовой устойчивости (ASC), где предписанная «сухая» точка кипения для тормозной жидкости класса DOT 5.1 составляет 260 °C или выше, а «мокрая» точка кипения - 180 °C или выше.",
+      "approvals_and_performance": [
+        "SAE J 1704",
+        "FMVSS 116",
+        "DOT 5.1",
+        "ISO 4925 Class 5-1"
+      ],
+      "characteristics": {
+        "Внешний вид": "желтый",
+        "Кинематическая вязкость при 100°C [мм2/с]": "2,16",
+        "Кинематическая вязкость при -40°C [мм2/с]": "810",
+        "Плотность при 20°C [г/cм3]": "1,069",
+        "Водородный показатель pH": "7,49",
+        "Температура кипения [°C]": "269",
+        "Температура кипения увлажненной жидкости [°C]": "187"
+      }
+    },
+    {
+      "name": "MOL Dynamic Star PC 5W-30",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/motornye-masla/mol-dynamic-star-pc-5w-30",
+      "category": "Моторные масла",
+      "image_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Star_PC_5W-30.jpg",
+      "short_description": "Синтетическое моторное масло высшего сорта для большинства современных транспортных средств.",
+      "full_description": "Синтетическое топливосберегающее моторное масло высшего сорта для большинства современных легковых автомобилей. Обеспечивает длительный ресурс и высокий уровень защиты двигателей и катализаторов. Рекомендовано, в первую очередь, для новейших двигателей с искровым воспламенением и катализатором, а также для дизельных двигателей с сажевыми фильтрами производства PSA (Peugeot и Citroën).",
+      "approvals_and_performance": [
+        "ACEA C2",
+        "ACEA A5/B5",
+        "ACEA A1/B1",
+        "API SN/CF",
+        "Renault RN0700",
+        "PSA B71 2290",
+        "Fiat 9.55535-S1",
+        "Iveco 18-1811 Classe S1"
+      ],
+      "characteristics": {
+        "Плотность при 15°C [г/cм3]": "0,854",
+        "Кинематическая вязкость при 40°C [мм2/с]": "65,5",
+        "Кинематическая вязкость при 100°C [мм2/с]": "10,6",
+        "Индекс вязкости": "160",
+        "Температура застывания [°C]": "-48",
+        "Температура вспышки (по Кливленду) [°C]": "230",
+        "Щелочное число [мг KOH/г]": "8,0",
+        "Кислотное число [мг KOH/г]": "2,4"
+      }
+    },
+    {
+      "name": "MOL Hykomol Synt 75W-90",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/reduktornye-masla/mol-hykomol-synt-75w-90",
+      "category": "Редукторные масла",
+      "image_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/hajtomuolajok/1L_MOL_Hykomol_Synt_75W-90.jpg",
+      "short_description": "Полусинтетическое трансмиссионное масло",
+      "full_description": "Высокоэффективное трансмиссионное масло увеличенного интервала замены с противозадирными свойствами для механических КПП, задних осей, дифференциалов и редукторов рулевых механизмов легковых и грузовых автомобилей.",
+      "approvals_and_performance": [
+        "API GL-5",
+        "API GL-4",
+        "MIL-L-2105D",
+        "Tatra TDS 80/32",
+        "ZF TE-ML 07A",
+        "ZF TE-ML 08",
+        "ZF TE-ML 17B"
+      ],
+      "characteristics": {
+        "Плотность при 15°C [г/cм3]": "0,859",
+        "Кинематическая вязкость при 40°C [мм2/с]": "109,3",
+        "Кинематическая вязкость при 100°C [мм2/с]": "15,4",
+        "Индекс вязкости": "147",
+        "Температура застывания [°C]": "-45",
+        "Температура вспышки (по Кливленду) [°C]": "215",
+        "Кислотное число [мг KOH/г]": "0,46"
+      }
+    },
+    {
+      "name": "MOL Dynamic Transit 10W-40",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/motornye-masla/mol-dynamic-transit-10w-40",
+      "category": "Моторные масла",
+      "image_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/motorolajok/1L_MOL_Dynamic_Transit_10W-40.jpg",
+      "short_description": "Идеальное моторное масло для смешанных автомобильных парков",
+      "full_description": "Полусинтетическое моторное масло для бензиновых и дизельных двигателей современных легковых автомобилей и автомобилей для коммерческих перевозок. Особенно рекомендовано для смешанных автомобильных парков, а также для автомобилей для коммерческих перевозок, не относящихся к классу Евро-III и не оборудованных дизельными сажевыми фильтрами экологического класса защиты Евро-IV и Евро-V.",
+      "approvals_and_performance": [
+        "API CI-4",
+        "API SL",
+        "DTFR 15B110 (ex MB 228.3)",
+        "Volvo VDS-3",
+        "Renault RLD-2",
+        "MTU Type 2",
+        "Mack EO-N",
+        "ACEA E7",
+        "Global DHD-1",
+        "MAN M 3275-1",
+        "Tatra TDS 30/12",
+        "MACK EO-M Plus",
+        "DDC 93K215",
+        "Deutz DQC III-10"
+      ],
+      "characteristics": {
+        "Плотность при 15°C [г/cм3]": "0,872",
+        "Кинематическая вязкость при 40°C [мм2/с]": "95,3",
+        "Кинематическая вязкость при 100°C [мм2/с]": "14,2",
+        "Индекс вязкости": "153",
+        "Температура застывания [°C]": "-39",
+        "Температура вспышки (по Кливленду) [°C]": "230",
+        "Щелочное число [мг KOH/г]": "10,1"
+      }
+    },
+    {
+      "name": "MOL Dynamic Gas Eco+ 15W-40",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/motornye-masla/mol-dynamic-gas-eco-15w-40",
+      "category": "Моторные масла",
+      "image_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Gas-eco+_15W-40.jpg",
+      "short_description": "Масло высшего сорта для мобильных газовых двигателей автомобилей, работающих на газе.",
+      "full_description": "Высокоэффективное всесезонное моторное масло для легковых автомобилей, небольших грузовиков и микроавтобусов, вилочных погрузчиков и стационарных двигателей, работающих на автомобильном газе. Может применяться для легковых автомобилей, небольших грузовиков и микроавтобусов с дизельными или бензиновыми двигателями.",
+      "approvals_and_performance": [
+        "ACEA E7",
+        "API CI-4/SL"
+      ],
+      "characteristics": {
+        "Плотность при 15°C [г/cм3]": "0,885",
+        "Кинематическая вязкость при 40°C [мм2/с]": "108,5",
+        "Кинематическая вязкость при 100°C [мм2/с]": "14,4",
+        "Индекс вязкости": "135",
+        "Температура застывания [°C]": "-33",
+        "Температура вспышки (по Кливленду) [°C]": "225",
+        "Щелочное число [мг KOH/г]": "10,7"
+      }
+    },
+    {
+      "name": "MOL Favorit 2 Blue",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/konsistentnye-smazki/mol-favorit-2-blue",
+      "category": "Консистентные смазки",
+      "image_url": "",
+      "short_description": "Литий-комплексная консистентная смазка синего цвета",
+      "full_description": "Многофункциональная консистентная смазка синего цвета с хорошей механической стабильностью, обеспечивает достаточное смазывание длительный период времени.",
+      "approvals_and_performance": [
+        "DIN 51502: KP2N-30",
+        "ISO 6743-9: L-XCDEB 2"
+      ],
+      "characteristics": {
+        "Внешний вид": "темно-синяя",
+        "Вязкость базового масла при 40°C [мм2/с]": "200",
+        "Температура каплепадения [°C]": "270",
+        "Изменение пенетрации после 60 циклов при 25°C [0,1 mm]": "280",
+        "Изменение пенетрации после 10000 циклов при 25°C [0,1 mm]": "20",
+        "Изменение пенетрации после 100000 циклов при 25°C [0,1 mm]": "30",
+        "Изменение пенетрации, тест Shell Roll stability (100°C/24 ч) [0,1 mm]": "30",
+        "ЧШМТ, нагрузка сваривания [N]": "2800",
+        "Нагрузка по Тимкену (Timken OK load) [Lb]": "40",
+        "Окислительная стабильность, 100 ч/100°C, падение давления [kPa]": "25",
+        "Коррозия меди (100°C, 24 ч) [степень]": "1",
+        "Динамическая водостойкость при 79°C [% масс.]": "2",
+        "Отделение масла [% масс.]": "0,5",
+        "Потеря смазки из подшипника [% масс.]": "0,5"
+      }
+    },
+    {
+      "name": "MOL Dynamic Synt RN 5W-30",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/motornye-masla/mol-dynamic-synt-rn-5w-30",
+      "category": "Моторные масла",
+      "image_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Synt_RN_5W-30.jpg",
+      "short_description": "Синтетическое моторное масло высшего сорта для большинства современных транспортных средств.",
+      "full_description": "Синтетическое моторное масло высшего сорта для большинства современных легковых автомобилей. Особенно рекомендовано для автомобилей Renault и Nissan.",
+      "approvals_and_performance": [
+        "MB-Approval 226.51",
+        "ACEA C4",
+        "Renault RN0720"
+      ],
+      "characteristics": {
+        "Плотность при 15°C [г/cм3]": "0,853",
+        "Кинематическая вязкость при 40°C [мм2/с]": "68,1",
+        "Кинематическая вязкость при 100°C [мм2/с]": "11,9",
+        "Температура застывания [°C]": "-39",
+        "Температура вспышки (по Кливленду) [°C]": "230"
+      }
+    },
+    {
+      "name": "EVOX Premium concentrate",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/ohlazdausie-zidkosti-s-ponizennoj-temperaturoj-zamerzania/evox-premium-concentrate",
+      "category": "Охлаждающие жидкости с пониженной температурой замерзания",
+      "image_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/fagyallo_hutofolyadek/evox_premium_concentrate_1l.jpg",
+      "short_description": "Концентрат низкотемпературной охлаждающей жидкости",
+      "full_description": "Концентрат низкотемпературной охлаждающей жидкости наивысшего качества с увеличенным сроком службы, специально предназначенный для передовых высокопроизводительных двигателей из алюминия. Обеспечивает максимальную защиту от коррозии, замерзания и перегрева, а также предупреждает образование накипи, отложений и кавитацию в двигателе и охлаждающей системе.",
+      "approvals_and_performance": [
+        "DAF 74002",
+        "BS 6580:2010",
+        "ASTM D 3306",
+        "ASTM D 4985",
+        "ASTM D 6210",
+        "Saab B 040 1065",
+        "VW/Audi/Seat/Skoda G12 (TL 774-D)",
+        "VW/Audi/Seat/Skoda G12+ (TL 774-F)",
+        "DTFR 29C110 (ex MB 325.3)",
+        "Ford WSS-M97B44-D",
+        "MAN Diesel & Turbo SE",
+        "MAN 324 Typ SNF",
+        "MAN D36 5600",
+        "TEDOM",
+        "CNH MAT 3624",
+        "MTU MTL 5048",
+        "Fendt",
+        "Caterpillar 0199-99-2091/12.",
+        "Caterpillar MAK A4.05.09.01",
+        "Caterpillar GCM34",
+        "Cummins CES 14603",
+        "Cummins CES 14439",
+        "Cummins IS series u N14",
+        "Mack 014 GS 17009",
+        "Jenbacher TI 1000-0201",
+        "MWM 0199-99-2091/12",
+        "Detroit DFS93K217",
+        "Fiat 9.55523",
+        "Isuzu",
+        "Mitsubishi MHI",
+        "Hitachi",
+        "Liebherr MD1-36-130",
+        "Deutz DQC CB-14",
+        "Jaguar CMR 8229",
+        "STJLR 651.5003",
+        "Wartsila 32-9011",
+        "SKODA 61-0-0257",
+        "SACM Diesel DLP799861",
+        "Kobelco",
+        "Komatsu 07.892 (2009)",
+        "Van Hool",
+        "Valtra",
+        "Claas",
+        "Detroit Diesel Power Cool Plus",
+        "Deutz 0199-99-1115/6",
+        "Foton Q-FPT 2313005-2013",
+        "GM 6277M",
+        "John Deere JDMH5",
+        "Renault 41-01-001/-S Type D",
+        "Volvo Trucks",
+        "Volvo Trucks 128 6083/002",
+        "Waukesha"
+      ],
+      "characteristics": {
+        "Внешний вид": "розовый, прозрачная, светлая",
+        "Плотность при 20°C [г/cм3]": "1,113",
+        "Температура вспышки (по Кливленду) [°C]": "128",
+        "Значение рН": "8,9",
+        "Щелочность [ml 0,1M HCl/10 ml]": "6,0",
+        "Содержание воды (по Карлу Фишеру) [% масс.]": "3,1",
+        "Индекс рефракции при 20°C": "1,4320",
+        "Температура кипения [°C]": "180"
+      }
+    },
+    {
+      "name": "MOL Arol 2T",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/motornye-masla/mol-arol-2t",
+      "category": "Моторные масла",
+      "image_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/05_arol_2t.jpg",
+      "short_description": "Моторное масло для двухтактных двигателей легковых автомобилей и мотоциклов более ранних моделей.",
+      "full_description": "Традиционное смазочное масло для легковых автомобилей и мотоциклов, оборудованных двухтактными бензиновыми двигателями, смазываемыми смесью бензина-масла.",
+      "approvals_and_performance": [
+        "API TA"
+      ],
+      "characteristics": {
+        "Плотность при 15°C [г/cм3]": "0,868",
+        "Кинематическая вязкость при 20°C [мм2/с]": "78,7",
+        "Кинематическая вязкость при 40°C [мм2/с]": "31,0",
+        "Температура застывания [°C]": "-27",
+        "Температура вспышки (по Кливленду) [°C]": "95",
+        "Сульфатная зольность [% масс.]": "0,23",
+        "Кислотное число [мг KOH/г]": "0,3"
+      }
+    },
+    {
+      "name": "MOL Dynamic Gold DX 5W-30",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/motornye-masla/mol-dynamic-gold-dx-5w-30",
+      "category": "Моторные масла",
+      "image_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Gold_DX_5W-30-nnn.jpg",
+      "short_description": "Синтетическое моторное масло премиум класса для автомобилей последнего поколения.",
+      "full_description": "Высокопроизводительное синтетическое моторное масло с технологией двойной масляной пленки для двигателей автомобилей последнего поколения, оборудованных системами турбонаддува и прямого впрыска топлива. В первую очередь рекомендовано для применения в двигателях автомобилей марок Opel, GM и Chevrolet, т.к. полностью соответствует требованиям спецификации Dexos 1 Gen 2.",
+      "approvals_and_performance": [
+        "API SP",
+        "Opel OV 040 1547 - G30",
+        "ILSAC GF-6A"
+      ],
+      "characteristics": {
+        "Плотность при 15°C [г/cм3]": "0,850",
+        "Кинематическая вязкость при 40°C [мм2/с]": "61,1",
+        "Кинематическая вязкость при 100°C [мм2/с]": "10,9",
+        "Индекс вязкости": "172",
+        "Температура застывания [°C]": "-45",
+        "Температура вспышки (по Кливленду) [°C]": "230",
+        "Кислотное число [мг KOH/г]": "2,3"
+      }
+    },
+    {
+      "name": "MOL ATF 3H AP",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/reduktornye-masla/mol-atf-3h-ap",
+      "category": "Редукторные масла",
+      "image_url": "https://mollubricants.md/images/mol_hu/lub/autosok/hajtomuolajok/1LMOL_ATF_3H_AP.jpg",
+      "short_description": "Синтетическое масло высшего сорта для автоматических коробок передач/трансмиссий.",
+      "full_description": "Высокоэффективное и высококачественное масло для автоматических коробок передач/агрегатов трансмиссии, специально разработанное в соответствии с требованиями к двигателям японского и корейского производства. Обладает отличными антифрикционными свойствами и текучестью и обеспечивает полное соответствие жестким ТУ азиатских производителей и компании General Motors.",
+      "approvals_and_performance": [
+        "GM Dexron-IIIH",
+        "JASO M315 1A",
+        "Ford Mercon",
+        "MAN 339 Typ Z1",
+        "Volvo 97340",
+        "Toyota T-III",
+        "Toyota T-IV",
+        "Toyota Type D-2",
+        "Toyota WS",
+        "Mazda ATF D-III",
+        "Mazda ATF M-3",
+        "Suzuki ATF Oil",
+        "Suzuki ATF Oil Special",
+        "Subaru ATF",
+        "Nissan Matic-D",
+        "Nissan Matic-J",
+        "Mitsubishi Diamond SP-II",
+        "Mitsubishi Diamond SP-III",
+        "Kia",
+        "Hyundai",
+        "ZF TE-ML 14A",
+        "Voith H55.6335",
+        "Allison C-4",
+        "JWS 3309 (JWS 3317 till 2006)"
+      ],
+      "characteristics": {
+        "Плотность при 15°C [г/cм3]": "0,850",
+        "Кинематическая вязкость при 40°C [мм2/с]": "36,6",
+        "Кинематическая вязкость при 100°C [мм2/с]": "7,3",
+        "Индекс вязкости": "167",
+        "Температура застывания [°C]": "-48",
+        "Температура вспышки (по Кливленду) [°C]": "215"
+      }
+    },
+    {
+      "name": "MOL Dynamic Transit 15W-40",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/motornye-masla/mol-dynamic-transit-15w-40",
+      "category": "Моторные масла",
+      "image_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Transit_15W-40.jpg",
+      "short_description": "Идеальное моторное масло для смешанных автомобильных парков",
+      "full_description": "Универсальное моторное масло для бензиновых и дизельных двигателей легковых автомобилей и автомобилей для коммерческих перевозок. Особенно рекомендовано для смешанных автомобильных парков и автомобилей для коммерческих перевозок экологического класса защиты Евро-IV и Евро-V, а также для автомобилей, не относящихся к классу Евро-III и не оборудованных дизельными сажевыми фильтрами.",
+      "approvals_and_performance": [
+        "API CI-4/SL",
+        "DTFR 15B110 (ex MB 228.3)",
+        "Volvo VDS-3",
+        "Renault RLD-2",
+        "Cummins CES 20078",
+        "Mack EO-N",
+        "ACEA E7",
+        "MIL-L-2104E",
+        "Global DHD-1",
+        "MAN M 3275-1",
+        "Tatra TDS 30/12",
+        "MTU Type 2",
+        "Caterpillar ECF-2",
+        "MACK EO-M Plus",
+        "Deutz DQC III-18",
+        "KAMAZ"
+      ],
+      "characteristics": {
+        "Плотность при 15°C [г/cм3]": "0,885",
+        "Кинематическая вязкость при 40°C [мм2/с]": "108,5",
+        "Кинематическая вязкость при 100°C [мм2/с]": "14,4",
+        "Индекс вязкости": "135",
+        "Температура застывания [°C]": "-33",
+        "Температура вспышки (по Кливленду) [°C]": "225",
+        "Щелочное число [мг KOH/г]": "10,7",
+        "Сульфатная зольность [% масс.]": "1,41",
+        "Кислотное число [мг KOH/г]": "3"
+      }
+    },
+    {
+      "name": "MOL Essence Longlife 5W-30",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/motornye-masla/mol-essence-longlife-5w-30",
+      "category": "Моторные масла",
+      "image_url": "https://mollubricants.md//images/mol_hu/lub/autosok/motorolajok/1L_MOL_Essence_Longlife_5W-30_persp_w.jpg",
+      "short_description": "синтетическое моторное масло",
+      "full_description": "MOL Essence Longlife 5W-30 - это высокоэффективное малозольное синтетическое моторное масло с отличными текучими свойствами, произведенное с использованием комплексной системы присадок для обеспечения высочайших эксплуатационных характеристик автомобиля и длительных интервалов замены масла.",
+      "approvals_and_performance": [
+        "ACEA C3",
+        "API SN",
+        "VW 504 00/507 00",
+        "BMW Longlife-04"
+      ],
+      "characteristics": {
+        "Плотность при 15°C [г/cм3]": "0,852",
+        "Кинематическая вязкость при 40°C [мм2/с]": "72,0",
+        "Кинематическая вязкость при 100°C [мм2/с]": "11,9",
+        "Индекс вязкости": "163",
+        "Температура застывания [°C]": "-45",
+        "Температура вспышки (по Кливленду) [°C]": "220",
+        "Щелочное число [мг KOH/г]": "10,2",
+        "Párolgási veszteség Noack szerint [% масс.]": "7,1",
+        "Кислотное число [мг KOH/г]": "2,49"
+      }
+    },
+    {
+      "name": "MOL Dynamic Star F 0W-30",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/motornye-masla/mol-dynamic-star-f-0w-30",
+      "category": "Моторные масла",
+      "image_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/dynamic_star_f0w_30_1L.jpg",
+      "short_description": "Синтетическое премиальное моторное масло для самых современных автомобилей.",
+      "full_description": "Синтетическое энергосберегающее моторное масло премиального качества для самых современных легковых автомобилей и транспортных средств с новейшими бензиновыми и дизельными двигателями. В первую очередь рекомендуется для автомобилей Fiat, Lancia и Alfa Romeo. Масло обеспечивает длительный срок службы с высоким уровнем защиты двигателя, катализатора и сажевого фильтра.",
+      "approvals_and_performance": [
+        "ACEA C2",
+        "Fiat 9.55535-DS1",
+        "Fiat 9.55535-GS1"
+      ],
+      "characteristics": {
+        "Внешний вид": "коричневый, светлый, прозрачный",
+        "Плотность при 15°C [г/cм3]": "0,844",
+        "Кинематическая вязкость при 40°C [мм2/с]": "52,1",
+        "Кинематическая вязкость при 100°C [мм2/с]": "10,2",
+        "Индекс вязкости": "188",
+        "Температура застывания [°C]": "-54",
+        "Температура вспышки (по Кливленду) [°C]": "230"
+      }
+    },
+    {
+      "name": "MOL ATF",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/reduktornye-masla/mol-atf",
+      "category": "Редукторные масла",
+      "image_url": "https://mollubricants.md/images/mol_hu/lub/autosok/hajtomuolajok/1L_MOL_ATF.jpg",
+      "short_description": "Жидкость для автоматических трансмиссий",
+      "full_description": "Высокоэффективная жидкость для автоматических трансмиссий, предназначенная для надежного смазывания и эксплуатации полуавтоматических и автоматических трансмиссий, а также гидравлических систем современных автомобилей для коммерческих перевозок и обеспечивающая длительный ресурс оборудования в широком диапазоне температур.",
+      "approvals_and_performance": [
+        "MAN 339 Typ L2",
+        "MAN 339 Typ V1",
+        "MAN 339 Typ Z1",
+        "ZF TE-ML 04D[ZF001251]",
+        "ZF TE-ML 14A[ZF001251]",
+        "ZF TE-ML 17C[ZF001251]",
+        "GM Dexron-IID",
+        "GM Type A Suffix A",
+        "Ford Mercon",
+        "ZF TE-ML 02F",
+        "ZF TE-ML 03D",
+        "ZF TE-ML 05L",
+        "ZF TE-ML 09",
+        "ZF TE-ML 11A",
+        "Voith H55.6335",
+        "Allison C-4"
+      ],
+      "characteristics": {
+        "Плотность при 15°C [г/cм3]": "0,863",
+        "Кинематическая вязкость при 40°C [мм2/с]": "37,7",
+        "Кинематическая вязкость при 100°C [мм2/с]": "8,00",
+        "Индекс вязкости": "175",
+        "Температура застывания [°C]": "-42",
+        "Температура вспышки (по Кливленду) [°C]": "210"
+      }
+    },
+    {
+      "name": "MOL Hykomol K 85W-90",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/reduktornye-masla/mol-hykomol-k-85w-90",
+      "category": "Редукторные масла",
+      "image_url": "https://mollubricants.md/images/mol_hu/lub/autosok/hajtomuolajok/4L_MOL_Hykomol_80W-90_.jpg",
+      "short_description": "Автомобильные трансмиссионные масла",
+      "full_description": "Высокоэффективное противозадирное редукторное масло, разработанное для редукторов, работающих под умеренными или высокими нагрузками.",
+      "approvals_and_performance": [
+        "DTFR 12B100 (ex MB 235.0)",
+        "ZF TE-ML 16C[ZF001113]",
+        "ZF TE-ML 17B[ZF001113]",
+        "ZF TE-ML 19B[ZF001113]",
+        "ZF TE-ML 21A[ZF001113]",
+        "API GL-5",
+        "MIL-L-2105D",
+        "Ford SQ-M2C9002-AA",
+        "MAN 342 Typ M1",
+        "Volvo 97310",
+        "ZF TE-ML 07A",
+        "ZF TE-ML 16B"
+      ],
+      "characteristics": {
+        "Плотность при 15°C [г/cм3]": "0,901",
+        "Кинематическая вязкость при 40°C [мм2/с]": "214,1",
+        "Кинематическая вязкость при 100°C [мм2/с]": "17,8",
+        "Индекс вязкости": "90",
+        "Температура застывания [°C]": "-24",
+        "Температура вспышки (по Кливленду) [°C]": "230"
+      }
+    },
+    {
+      "name": "MOL Dynamic Star 5W-30",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/motornye-masla/mol-dynamic-star-5w-30",
+      "category": "Моторные масла",
+      "image_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Star_5W-30.jpg",
+      "short_description": "Синтетическое моторное масло высшего сорта для большинства современных транспортных средств.",
+      "full_description": "Синтетическое энергосберегающее моторное масло высшего сорта для большинства современных легковых автомобилей и небольших автомобилей для коммерческих перевозок. Полностью отвечает жестким техническим условиям на современные двигатели с низким потреблением топлива, устанавливаемые на автомобилях Ford.",
+      "approvals_and_performance": [
+        "API SL",
+        "ACEA A5/B5",
+        "API SL/CF",
+        "Ford WSS M2C913-C",
+        "Ford WSS M2C913-D",
+        "Renault RN0700",
+        "Jaguar Land Rover STJLR.03.5003",
+        "VWC 53036"
+      ],
+      "characteristics": {
+        "Плотность при 15°C [г/cм3]": "0,850",
+        "Кинематическая вязкость при 40°C [мм2/с]": "57,24",
+        "Кинематическая вязкость при 100°C [мм2/с]": "10,1",
+        "Индекс вязкости": "165",
+        "Температура застывания [°C]": "-45",
+        "Температура вспышки (по Кливленду) [°C]": "232",
+        "Щелочное число [мг KOH/г]": "8,5",
+        "Кислотное число [мг KOH/г]": "2,6"
+      }
+    },
+    {
+      "name": "MOL EVOX Extra ready -35",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/ohlazdausie-zidkosti-s-ponizennoj-temperaturoj-zamerzania/mol-evox-extra-ready-35",
+      "category": "Охлаждающие жидкости с пониженной температурой замерзания",
+      "image_url": "https://mollubricants.md//images/mol_hu/lub/szallitmanyozas/fagyallo_hutofolyadek/4L_MOL_EVOX_EXTRA_COOLANT_READY-35.jpg",
+      "short_description": "охлаждающая жидкость, готовая к применению",
+      "full_description": "MOL EVOX Extra ready -35 представляет собой готовый к использованию концентрат низкотемпературной охлаждающей жидкости на основе моноэтиленгликоля, изготовленный по карбоксилатной технологии гибридных присадок с силикатсодержащими компонентами (OAT). Не содержит нитритов, аминов, фосфатов и подходит для использования в системах охлаждения двигателей внутреннего сгорания. MOL EVOX Extra ready -35 допускает смешивание с другими низкотемпературными охлаждающими жидкостями на основе моноэтиленгликоля и монопропиленгликоля без каких-либо ограничений.",
+      "approvals_and_performance": [
+        "BS 6580:2010",
+        "ASTM D 3306",
+        "AFNOR R-15-601",
+        "German Army: TL 6850-0038/1",
+        "VW/Audi/Seat/Skoda G11 (TL 774-C)",
+        "DTFR 29D120 (ex MB 326.5)",
+        "Ford ESD-M97B49-A",
+        "MAN 324 Typ NF",
+        "MAN 324 Typ Si-OAT",
+        "MTU MTL 5048",
+        "MWM 0199-99-2091/12",
+        "Iveco 18-1830",
+        "Case JIC-501",
+        "Deutz DQC CA-14",
+        "Cummins 85T8-2",
+        "Volvo Construction 128 6083/002",
+        "Volvo Trucks 128 6083/002"
+      ],
+      "characteristics": {
+        "Внешний вид": "синий",
+        "Плотность при 15°C [г/cм3]": "1,071",
+        "Значение рН": "8,2",
+        "Температура замерзания [°C]": "-36",
+        "Щелочность [ml 0,1M HCl/10 ml]": "4,5",
+        "Температура кипения [°C]": "109",
+        "Индекс рефракции при 20°C": "1,386",
+        "Плотность при 20°С [г/cм3]": "1,07"
+      }
+    },
+    {
+      "name": "MOL Dynamic Gold 5W-30",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/motornye-masla/mol-dynamic-gold-5w-30",
+      "category": "Моторные масла",
+      "image_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Gold_5W-30-nnn.jpg",
+      "short_description": "Синтетическое моторное масло высшего сорта для большинства современных транспортных средств.",
+      "full_description": "Синтетическое энергосберегающее моторное масло высшего сорта для большинства современных легковых автомобилей и транспортных средств, оборудованных двигателями всасывающего типа или двигателями с турбонагнетателем. Полностью соответствует последним техническим условиям dexos2 компании General Motors на европейские транспортные средства и на обычные интервалы замены масла, установленные для двигателей PD TDI производства Volkswagen Group.",
+      "approvals_and_performance": [
+        "API SN",
+        "MB-Approval 229.52",
+        "ACEA C3",
+        "ACEA C2",
+        "API SM",
+        "API SL/CF",
+        "Opel OV 040 1547 - D30",
+        "VW 502 00/505 01",
+        "VW 505 00",
+        "BMW Longlife-04"
+      ],
+      "characteristics": {
+        "Плотность при 15°C [г/cм3]": "0,854",
+        "Кинематическая вязкость при 40°C [мм2/с]": "70,3",
+        "Кинематическая вязкость при 100°C [мм2/с]": "11,7",
+        "Индекс вязкости": "162",
+        "Температура застывания [°C]": "-42",
+        "Температура вспышки (по Кливленду) [°C]": "230",
+        "Щелочное число [мг KOH/г]": "7",
+        "Кислотное число [мг KOH/г]": "2"
+      }
+    },
+    {
+      "name": "MOL Essence Diesel 5W-40",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/motornye-masla/mol-essence-diesel-5w-40",
+      "category": "Моторные масла",
+      "image_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Essence_5W-40_Diesel.jpg",
+      "short_description": "Моторное масло для увеличенного ресурса.",
+      "full_description": "Синтетическое малозольное моторное масло для дизельных двигателей, обеспечивающее тройную антиокислительную защиту и продление ресурса двигателей современных пассажирских автомобилей и небольших автомобилей для коммерческих перевозок. Способно одновременно обеспечить полную защиту и длительный ресурс системы нейтрализации отработанных газов и двигателя.",
+      "approvals_and_performance": [
+        "ACEA C3",
+        "API CF/SM",
+        "API SN/CF",
+        "VW 505 00",
+        "VW 505 01",
+        "Ford WSS M2C917-A"
+      ],
+      "characteristics": {
+        "Плотность при 15°C [г/cм3]": "0,854",
+        "Кинематическая вязкость при 40°C [мм2/с]": "79",
+        "Кинематическая вязкость при 100°C [мм2/с]": "13,6",
+        "Температура застывания [°C]": "-39",
+        "Температура вспышки (по Кливленду) [°C]": "240"
+      }
+    },
+    {
+      "name": "MOL DOT 4+",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/tormoznye-zidkosti/mol-dot-4",
+      "category": "Тормозные жидкости",
+      "image_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/fekfolyadekok/mol_dot_4_side.jpg",
+      "short_description": "Синтетическая тормозная жидкость",
+      "full_description": "Особо рекомендовано для гидравлических тормозных устройств пассажирских автомобилей, автомобилей для коммерческих перевозок и строительной техники, оборудованных антиблокировочными системами тормозов (ABS) и активными системами курсовой устойчивости (ASC), где предписанная «сухая» точка кипения для тормозной жидкости класса DOT 4 составляет 265 °C или выше, а «мокрая» точка кипения - 170 °C или выше.",
+      "approvals_and_performance": [
+        "SAE J 1704",
+        "FMVSS 116",
+        "DOT 4",
+        "ISO 4925 Class 4"
+      ],
+      "characteristics": {
+        "Внешний вид": "желтый",
+        "Кинематическая вязкость при 100°C [мм2/с]": "2,34",
+        "Кинематическая вязкость при -40°C [мм2/с]": "1315",
+        "Плотность при 20°C [г/cм3]": "1,04",
+        "Водородный показатель pH": "8,9",
+        "Температура кипения [°C]": "270",
+        "Температура кипения увлажненной жидкости [°C]": "163"
+      }
+    },
+    {
+      "name": "MOL MSE 15W-40",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/motornye-masla/mol-mse-15w-40",
+      "category": "Моторные масла",
+      "image_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_MSE_15W-40.jpg",
+      "short_description": "Моторное масло для транспортных средств более ранних моделей с большим пробегом.",
+      "full_description": "Моторное масло для легковых автомобилей и небольших грузопассажирских автомобилей с бензиновыми двигателями, выпущенных до 1989 г.",
+      "approvals_and_performance": [
+        "API SF/CC",
+        "MIL-L-46152B"
+      ],
+      "characteristics": {
+        "Плотность при 15°C [г/cм3]": "0,879",
+        "Кинематическая вязкость при 40°C [мм2/с]": "106",
+        "Кинематическая вязкость при 100°C [мм2/с]": "14,1",
+        "Индекс вязкости": "135",
+        "Температура застывания [°C]": "-27",
+        "Температура вспышки (по Кливленду) [°C]": "225",
+        "Щелочное число [мг KOH/г]": "5,1"
+      }
+    },
+    {
+      "name": "MOL Essence 15W-40",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/motornye-masla/mol-essence-15w-40",
+      "category": "Моторные масла",
+      "image_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Essence_15W-40.jpg",
+      "short_description": "Моторное масло для увеличенного ресурса.",
+      "full_description": "Моторное масло для обеспечения тройной антиокислительной защиты и продления ресурса двигателей современных пассажирских автомобилей и небольших автомобилей для коммерческих перевозок.",
+      "approvals_and_performance": [
+        "API SJ/CF"
+      ],
+      "characteristics": {
+        "Плотность при 15°C [г/cм3]": "0,879",
+        "Кинематическая вязкость при 40°C [мм2/с]": "107",
+        "Кинематическая вязкость при 100°C [мм2/с]": "14,15",
+        "Температура застывания [°C]": "-27",
+        "Температура вспышки (по Кливленду) [°C]": "230"
+      }
+    },
+    {
+      "name": "MOL Dynamic Transit 10W-30",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/motornye-masla/mol-dynamic-transit-10w-30",
+      "category": "Моторные масла",
+      "image_url": "",
+      "short_description": "Идеальное моторное масло для смешанных автопарков",
+      "full_description": "Высокопроизводительное, универсальное моторное масло для легковых автомобилей, оснащённых бензиновыми двигателями и коммерческой техники с дизельными двигателями, оснащённых системами EGR и SCR. Масло особенно рекомендуется для смешанных автопарков.",
+      "approvals_and_performance": [
+        "ACEA E7",
+        "API CI-4",
+        "API SL",
+        "Global DHD-1",
+        "MAN M 3275",
+        "Volvo VDS-3",
+        "Renault RLD-2",
+        "MTU Type 2",
+        "MACK EO-M Plus",
+        "Deutz DQC III-10",
+        "Mack EO-N"
+      ],
+      "characteristics": {
+        "Плотность при 15°C [г/cм3]": "0,872",
+        "Кинематическая вязкость при 40°C [мм2/с]": "76,7",
+        "Кинематическая вязкость при 100°C [мм2/с]": "11,9",
+        "Индекс вязкости": "150",
+        "Температура застывания [°C]": "-39",
+        "Температура вспышки (по Кливленду) [°C]": "230",
+        "Щелочное число [мг KOH/г]": "10,1",
+        "Кислотное число [мг KOH/г]": "2,6"
+      }
+    },
+    {
+      "name": "MOL Evox Summer Citrus Breeze",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/stekloomyvausie-zidkosti/mol-evox-summer-citrus-breeze",
+      "category": "Стеклоомывающие жидкости",
+      "image_url": "https://mollubricants.md//images/mol_hu/lub/szallitmanyozas/szelvedomoso/2L_MOL_EVOX_Citrus_Breeze_Summer_screenwash.jpg",
+      "short_description": "ароматизированный летний стеклоомыватель",
+      "full_description": "MOL EVOX Summer Citrus Breeze – это прозрачная, экологически чистая жидкость с ароматом цитрусовых, для очистки стеклянных и поликарбонатных поверхностей, произведённая с присадкой, которая улучшает эффективность очистки.",
+      "approvals_and_performance": [],
+      "characteristics": {}
+    },
+    {
+      "name": "MOL Engine Flush PRO",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/drugie-produkty/mol-engine-flush-pro",
+      "category": "Другие продукты",
+      "image_url": "https://mollubricants.md/images/mol_hu/lub/autosok/egyeb/350ml_MOL_Engine_Flush_Pro.jpg",
+      "short_description": "Концентрат для промывки двигателя",
+      "full_description": "MOL Engine Flush PRO - концентрат для промывки двигателя, предназначенный для промывки системы смазки четырехтактных двигателей внутреннего сгорания при замене масла. Содержит моющие и диспергирующие присадки. Помогает удалять отложения, грязь и продукты износа из двигателя и его компонентов. Для всех 4-тактных бензиновых и дизельных двигателей с турбокомпрессорами или без турбокомпрессоров. Безопасно для использования с каталитическими конвертерами и сажевыми фильтрами (GPF/DPF). Не подходит для использования на мотоциклах с мокрым сцеплением. При использовании данного продукта рекомендуется следовать следующим инструкциям: Залейте в прогретый двигатель необходимое количество концентрата для промывки двигателя Запустите двигатель и дайте ему поработать на холостом ходу в течение 5-10 минут Остановите двигатель Слейте отработанное моторное масло Замените масляный фильтр Залейте в двигатель свежее моторное масло\\\" 350 мл концентрата достаточно для 6 литров моторного масла.",
+      "approvals_and_performance": [],
+      "characteristics": {
+        "Внешний вид": "светлая, чистая",
+        "Плотность при 15°C [г/cм3]": "0,810",
+        "Кинематическая вязкость при 40°C [мм2/с]": "1,8",
+        "Температура застывания [°C]": "-60",
+        "Температура вспышки (по Кливленду) [°C]": "73",
+        "Щелочное число [мг KOH/г]": "5,3"
+      }
+    },
+    {
+      "name": "MOL Hykomol Arctic 75W-90",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/reduktornye-masla/mol-hykomol-arctic-75w-90",
+      "category": "Редукторные масла",
+      "image_url": "",
+      "short_description": "Трансмиссионное масло для работы в условиях низких температур",
+      "full_description": "Высокоэффективное трансмиссионное масло для механических КПП, а также широкого спектра применений. Обеспечивает надежное смазывание даже в условиях экстремально низких температур.",
+      "approvals_and_performance": [
+        "API GL-4"
+      ],
+      "characteristics": {
+        "Плотность при 15°C [г/cм3]": "0,846",
+        "Кинематическая вязкость при 40°C [мм2/с]": "100",
+        "Кинематическая вязкость при 100°C [мм2/с]": "16,0",
+        "Индекс вязкости": "172",
+        "Температура застывания [°C]": "-51",
+        "Температура вспышки (по Кливленду) [°C]": "215"
+      }
+    },
+    {
+      "name": "MOL Dynamic Gold Longlife 0W-30",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/motornye-masla/mol-dynamic-gold-longlife-0w-30",
+      "category": "Моторные масла",
+      "image_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Gold Longlife_0W-30_web.jpg",
+      "short_description": "Синтетическое премиальное моторное масло для самых современных транспортных средств.",
+      "full_description": "Низкозольное синтетическое моторное масло премиального качества для увеличенных интервалов замены, одобренное Фольксваген Групп (VW, Audi, SEAT, Skoda) для увеличенных сервисных интервалов. Обеспечивает быстрое смазывание и эффективный холодный запуск. Благодаря технологии двойной плёнки предотвращает контакт и износ металлических поверхностей даже в случае экстремальных нагрузок.",
+      "approvals_and_performance": [
+        "VW 504 00/507 00",
+        "ACEA C3",
+        "BMW Longlife-04"
+      ],
+      "characteristics": {
+        "Внешний вид": "светлая, чистая",
+        "Плотность при 15°C [г/cм3]": "0,843",
+        "Кинематическая вязкость при 40°C [мм2/с]": "60,6",
+        "Кинематическая вязкость при 100°C [мм2/с]": "12,3",
+        "Температура застывания [°C]": "-45",
+        "Температура вспышки (по Кливленду) [°C]": "240"
+      }
+    },
+    {
+      "name": "MOL Dynamic Prima 5W-40",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/motornye-masla/mol-dynamic-prima-5w-40",
+      "category": "Моторные масла",
+      "image_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Prima_5W-40.jpg",
+      "short_description": "Синтетические моторные масла высшего сорта.",
+      "full_description": "Синтетическое моторное масло высшего сорта, которое может применяться для широкого спектра легковых автомобилей и легких коммерческих автомобилей, оборудованных современными двигателями с искровым воспламенением и дизельными двигателями (PD TDI). Обеспечивает длительный ресурс и высокий уровень защиты двигателя.",
+      "approvals_and_performance": [
+        "API SN",
+        "VW 505 01",
+        "MB-Approval 229.51",
+        "ACEA C3",
+        "API SN/CF",
+        "API SM/CF",
+        "VW 502 00/505 00",
+        "BMW Longlife-04",
+        "Ford WSS M2C917-A",
+        "Renault RN0700",
+        "Renault RN0710",
+        "Fiat 9.55535-S2"
+      ],
+      "characteristics": {
+        "Плотность при 15°C [г/cм3]": "0,854",
+        "Кинематическая вязкость при 40°C [мм2/с]": "86,7",
+        "Кинематическая вязкость при 100°C [мм2/с]": "14,1",
+        "Индекс вязкости": "168",
+        "Температура застывания [°C]": "-39",
+        "Температура вспышки (по Кливленду) [°C]": "240",
+        "Щелочное число [мг KOH/г]": "8,1",
+        "Кислотное число [мг KOH/г]": "2,5"
+      }
+    },
+    {
+      "name": "MOL Hykomol 85W-140",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/reduktornye-masla/mol-hykomol-85w-140",
+      "category": "Редукторные масла",
+      "image_url": "",
+      "short_description": "Автомобильные трансмиссионные масла",
+      "full_description": "Высокоэффективное редукторное масло для трансмиссий и разнообразных применений.",
+      "approvals_and_performance": [
+        "API GL-4",
+        "MIL-L-2105"
+      ],
+      "characteristics": {
+        "Плотность при 15°C [г/cм3]": "0,904",
+        "Кинематическая вязкость при 40°C [мм2/с]": "425",
+        "Кинематическая вязкость при 100°C [мм2/с]": "27,2",
+        "Индекс вязкости": "88",
+        "Температура застывания [°C]": "-12",
+        "Температура вспышки (по Кливленду) [°C]": "260"
+      }
+    },
+    {
+      "name": "MOL Dynamic Race R5",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/motornye-masla/mol-dynamic-race-r5",
+      "category": "Моторные масла",
+      "image_url": "",
+      "short_description": "",
+      "full_description": "",
+      "approvals_and_performance": [
+        "ACEA A3/B4",
+        "API SL/CF"
+      ],
+      "characteristics": {
+        "Плотность при 15°C [г/cм3]": "0,860",
+        "Кинематическая вязкость при 40°C [мм2/с]": "159,8",
+        "Кинематическая вязкость при 100°C [мм2/с]": "22,9",
+        "Индекс вязкости": "172",
+        "Температура застывания [°C]": "-45",
+        "Температура вспышки (по Кливленду) [°C]": "245",
+        "Кислотное число [мг KOH/г]": "2,5"
+      }
+    },
+    {
+      "name": "MOL Essence Multi Gas 5W-40",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/motornye-masla/mol-essence-multi-gas-5w-40",
+      "category": "Моторные масла",
+      "image_url": "https://mollubricants.md/images/mol_ru/lub/avtomobili/motornye-masla/1L_MOL_Essence_Multi-Gas_5W-40.jpg",
+      "short_description": "Моторное масло для удлинённого срока службы",
+      "full_description": "Синтетическое и низкозольное моторное масло обеспечивает тройную антиокислительную защиту и удлинённый срок службы двигателя для легковых автомобилей, оснащённых специальными двигателями на сжатом природном газе и сжиженном газе и современными дизельными двигателями, а также для малой коммерческой техники",
+      "approvals_and_performance": [
+        "ACEA C3",
+        "API SN/CF",
+        "API SM/CF",
+        "VW 502 00/505 00",
+        "VW 505 01",
+        "Ford WSS M2C917-A",
+        "Renault RN0710",
+        "Fiat 9.55535-S2"
+      ],
+      "characteristics": {
+        "Плотность при 15°C [г/cм3]": "0,854",
+        "Кинематическая вязкость при 40°C [мм2/с]": "86,7",
+        "Кинематическая вязкость при 100°C [мм2/с]": "14,1",
+        "Температура застывания [°C]": "-39",
+        "Температура вспышки (по Кливленду) [°C]": "240",
+        "Щелочное число [мг KOH/г]": "8,1"
+      }
+    },
+    {
+      "name": "MOL CVT Fluid",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/reduktornye-masla/mol-cvt-fluid",
+      "category": "Редукторные масла",
+      "image_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1l_mol_cvt_fluid.jpg",
+      "short_description": "Масло для автоматических коробок передач",
+      "full_description": "Высокоэффективное синтетическое трансмиссионное масло, произведённое с использованием формулы специальных присадок для ремённых и цепных систем. Оно обеспечивает противоскользящее соединение, которое позволяет передавать максимальный крутящий момент, а также бесшумную и безвибрационную работу сцепления.",
+      "approvals_and_performance": [
+        "BMW 8322 0 136 376",
+        "BMW 8322 0 429 154",
+        "Chrysler NS-2/CVTF+4",
+        "Daihatsu Amix CVTF-DC",
+        "Ford WSS-M2C933-A",
+        "GM (Saturn) DEX-CVT",
+        "Honda HMMF/HCF-2",
+        "Hyundai/Kia SP-CVT 1",
+        "Mazda CVTF 3320",
+        "MERCON C",
+        "Mini Cooper EZL 799/EZL 799A/ZF CVT V1",
+        "Mitsubishi CVTF-J1",
+        "Mitsubishi CVTF-J4",
+        "Nissan NS-1/NS-2",
+        "Punch EZL 799/EZL 799A",
+        "Subaru i-CVTF/e-CVTF",
+        "Suzuki CVTF 3320/TC/NS-2/CVTF Green 1",
+        "Toyota/Lexus TC",
+        "VW G 052 180 (TL 52 180)",
+        "VW G 052 516 (TL 52 516)"
+      ],
+      "characteristics": {
+        "Внешний вид": "светло-коричневая, прозрачная, светлая",
+        "Плотность при 15°C [г/cм3]": "0,851",
+        "Кинематическая вязкость при 40°C [мм2/с]": "32,0",
+        "Кинематическая вязкость при 100°C [мм2/с]": "7,1",
+        "Температура застывания [°C]": "-45",
+        "Кислотное число [мг KOH/г]": "1,4"
+      }
+    },
+    {
+      "name": "MOL Dynamic Synt RN17FE 0W-20",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/motornye-masla/mol-dynamic-synt-rn17fe-0w-20",
+      "category": "Моторные масла",
+      "image_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Synt_RN17FE_0W-20.jpg",
+      "short_description": "синтетическое моторное масло",
+      "full_description": "MOL Dynamic Synt RN17FE 0W-20 — это высокоэффективное, полностью синтетическое, экономичное моторное масло с низким содержанием золы, обладающее превосходными текучестью и произведенное с использованием технологии двойной смазочной пленки и сложной системы присадок, которая обеспечивает высочайшие эксплуатационные характеристики автомобилей и длительные межзаменные интервалы.",
+      "approvals_and_performance": [
+        "ACEA C5",
+        "Renault RN17FE"
+      ],
+      "characteristics": {
+        "Плотность при 15°C [г/cм3]": "0,842",
+        "Кинематическая вязкость при 40°C [мм2/с]": "46,5",
+        "Кинематическая вязкость при 100°C [мм2/с]": "8,9",
+        "Индекс вязкости": "175",
+        "Látszólagos viszk. (CCS) -35°C-on [мПа.с]": "4650",
+        "Температура застывания [°C]": "-54",
+        "Температура вспышки (по Кливленду) [°C]": "232"
+      }
+    },
+    {
+      "name": "MOL Hykomol 90",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/reduktornye-masla/mol-hykomol-90",
+      "category": "Редукторные масла",
+      "image_url": "",
+      "short_description": "Автомобильные трансмиссионные масла",
+      "full_description": "Высокоэффективное редукторное масло для трансмиссий и разнообразных применений.",
+      "approvals_and_performance": [
+        "API GL-4",
+        "MIL-L-2105"
+      ],
+      "characteristics": {
+        "Плотность при 15°C [г/cм3]": "0,894",
+        "Кинематическая вязкость при 40°C [мм2/с]": "165",
+        "Кинематическая вязкость при 100°C [мм2/с]": "15,4",
+        "Индекс вязкости": "85",
+        "Температура застывания [°C]": "-24",
+        "Температура вспышки (по Кливленду) [°C]": "240"
+      }
+    },
+    {
+      "name": "EVOX Terminator",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/stekloomyvausie-zidkosti/evox-terminator",
+      "category": "Стеклоомывающие жидкости",
+      "image_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/szelvedomoso/evox_terminator_bug_spray_172x455.jpg",
+      "short_description": "Жидкость-растворитель для удаления насекомых",
+      "full_description": "Содержит ПАВ и высокоэффективные чистящие добавки для удаления загрязнений с ветрового стекла.",
+      "approvals_and_performance": [],
+      "characteristics": {
+        "Внешний вид": "желтый",
+        "Плотность при 15°C [г/cм3]": "0,960",
+        "Запах": "лимон"
+      }
+    },
+    {
+      "name": "MOL Dynamic Gold DX 5W-20",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/motornye-masla/mol-dynamic-gold-dx-5w-20",
+      "category": "Моторные масла",
+      "image_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Gold_DX_5W-20.jpg",
+      "short_description": "Синтетическое моторное масло премиум качества для самых современных автомобилей",
+      "full_description": "Высокоэффективное, синтетическое моторное масло на основе технологии двойной масляной пленки для легковых автомобилей и микроавтобусов, оборудованных самыми современными бензиновыми двигателями с турбонаддувом и непосредственным впрыском топлива. Полностью соответствует требованиям спецификации Chrysler MS-6395 и, в первую очередь, рекомендовано для автомобилей Chrysler, Dodge и Jeep, произведенных после 2005.",
+      "approvals_and_performance": [
+        "API SP",
+        "Opel OV 040 1547 - A20",
+        "Ford WSS-M2C-960-A1",
+        "Chrysler MS-6395",
+        "ILSAC GF-6A"
+      ],
+      "characteristics": {
+        "Плотность при 15°C [г/cм3]": "0,847",
+        "Кинематическая вязкость при 40°C [мм2/с]": "45,4",
+        "Кинематическая вязкость при 100°C [мм2/с]": "8,2",
+        "Индекс вязкости": "156",
+        "Температура застывания [°C]": "-39",
+        "Температура вспышки (по Кливленду) [°C]": "230"
+      }
+    },
+    {
+      "name": "MOL Essence 5W-30",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/motornye-masla/mol-essence-5w-30",
+      "category": "Моторные масла",
+      "image_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Essence_5W-30.jpg",
+      "short_description": "Моторное масло для увеличенного ресурса.",
+      "full_description": "Синтетическое топливосберегающее моторное масло для обеспечения тройной антиокислительной защиты и продления ресурса двигателей современных легковых автомобилей и небольших автомобилей для коммерческих перевозок.",
+      "approvals_and_performance": [
+        "API SL",
+        "ACEA A3/B4",
+        "API SL/CF",
+        "VW 502 00/505 00",
+        "GM-LL-B-025"
+      ],
+      "characteristics": {
+        "Плотность при 15°C [г/cм3]": "0,855",
+        "Кинематическая вязкость при 40°C [мм2/с]": "70,87",
+        "Кинематическая вязкость при 100°C [мм2/с]": "12,00",
+        "Температура застывания [°C]": "-36",
+        "Температура вспышки (по Кливленду) [°C]": "220",
+        "Щелочное число [мг KOH/г]": "10,2",
+        "Кислотное число [мг KOH/г]": "2,49"
+      }
+    },
+    {
+      "name": "MOL EcoClean-S",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/drugie-produkty/mol-ecoclean-s",
+      "category": "Другие продукты",
+      "image_url": "",
+      "short_description": "Жидкость для очистки двигателя",
+      "full_description": "Обезжиривающая жидкость на основе растворителя, обеспечивающая эффективную очистку ходовой части автомобиля и шасси, двигателей, компонентов и деталей, тяжелого сельскохозяйственного и электрического оборудования, железнодорожных цистерн и подземных резервуаров для хранения, загрязненных маслом, смазкой или битумом, а также удаление фрагментов стружки с металлических обрабатываемых деталей.",
+      "approvals_and_performance": [],
+      "characteristics": {
+        "Внешний вид": "светло-зеленая, прозрачная жидкость",
+        "Плотность при 15°C [г/cм3]": "0,810",
+        "Температура воспламенения (по Кливленду) [°C]": "250",
+        "Температура вспышки (по Пенски-Мартенсу) [°C]": "61",
+        "Эмульгирующая способность (10% расствор / 20 dH°)": "молочно-белого цвета"
+      }
+    },
+    {
+      "name": "MOL Dynamic Gold Longlife 0W-30",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/motornye-masla/mol-dynamic-gold-longlife-0w-30/",
+      "category": "Моторные масла",
+      "image_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Gold Longlife_0W-30_web.jpg",
+      "short_description": "Синтетическое премиальное моторное масло для самых современных транспортных средств.",
+      "full_description": "Низкозольное синтетическое моторное масло премиального качества для увеличенных интервалов замены, одобренное Фольксваген Групп (VW, Audi, SEAT, Skoda) для увеличенных сервисных интервалов. Обеспечивает быстрое смазывание и эффективный холодный запуск. Благодаря технологии двойной плёнки предотвращает контакт и износ металлических поверхностей даже в случае экстремальных нагрузок.",
+      "approvals_and_performance": [
+        "VW 504 00/507 00",
+        "ACEA C3",
+        "BMW Longlife-04"
+      ],
+      "characteristics": {
+        "Внешний вид": "светлая, чистая",
+        "Плотность при 15°C [г/cм3]": "0,843",
+        "Кинематическая вязкость при 40°C [мм2/с]": "60,6",
+        "Кинематическая вязкость при 100°C [мм2/с]": "12,3",
+        "Температура застывания [°C]": "-45",
+        "Температура вспышки (по Кливленду) [°C]": "240"
+      }
+    },
+    {
+      "name": "MOL Essence 5W-40",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/motornye-masla/mol-essence-5w-40",
+      "category": "Моторные масла",
+      "image_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Essence_5W-40.jpg",
+      "short_description": "Моторное масло для увеличенного ресурса.",
+      "full_description": "Синтетическое моторное масло для обеспечения тройной антиокислительной защиты и продления ресурса двигателей современных бензиновых автомобилей, оборудованных катализатором, а также дизельных двигателей с непосредственным впрыском топлива.",
+      "approvals_and_performance": [
+        "MB-Approval 229.3",
+        "ACEA A3/B4",
+        "API SM/CF",
+        "VW 502 00/505 00",
+        "GM-LL-B-025",
+        "Renault RN0700",
+        "Renault RN0710"
+      ],
+      "characteristics": {
+        "Плотность при 15°C [г/cм3]": "0,857",
+        "Кинематическая вязкость при 40°C [мм2/с]": "84,5",
+        "Кинематическая вязкость при 100°C [мм2/с]": "14,2",
+        "Температура застывания [°C]": "-42",
+        "Температура вспышки (по Кливленду) [°C]": "230"
+      }
+    },
+    {
+      "name": "MOL Evox Winter Citrus Breeze -30",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/stekloomyvausie-zidkosti/mol-evox-winter-citrus-breeze-30",
+      "category": "Стеклоомывающие жидкости",
+      "image_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/szelvedomoso/mol_evox_winter_citrus_breeze_-30.jpg",
+      "short_description": "Aроматизированная зимняя жидкость для стеклоомывателя",
+      "full_description": "MOL EVOX Winter Citrus Breeze - 30 – это прозрачная жидкость с цитрусовым ароматом, содержащая высокую долю спирта. Дальнейшее разбавление не рекомендуется, так как это может уменьшить способность жидкости к очищению и таянию льда. Не содержит метиловый спирт.",
+      "approvals_and_performance": [],
+      "characteristics": {}
+    },
+    {
+      "name": "MOL Hykomol Syntrans 75W-90",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/reduktornye-masla/mol-hykomol-syntrans-75w-90",
+      "category": "Редукторные масла",
+      "image_url": "",
+      "short_description": "Автомобильное синтетическое трансмиссионное масло высшего сорта.",
+      "full_description": "Высокоэффективное синтетическое трансмиссионное масло для автомобилей для коммерческих перевозок, оборудованных механическими коробками передач.",
+      "approvals_and_performance": [
+        "API GL-4",
+        "MAN 341 Typ MB",
+        "Tatra TDS 80/32",
+        "ZF TE-ML 08"
+      ],
+      "characteristics": {
+        "Плотность при 15°C [г/cм3]": "0,847",
+        "Кинематическая вязкость при 40°C [мм2/с]": "96,5",
+        "Кинематическая вязкость при 100°C [мм2/с]": "14,5",
+        "Температура застывания [°C]": "-45",
+        "Температура вспышки (по Кливленду) [°C]": "220"
+      }
+    },
+    {
+      "name": "MOL DSG / DCT Fluid",
+      "url": "https://mollubricants.md/ru/smazochnye-materialy-i-avtohimija/avtomobili/reduktornye-masla/mol-dsg-dct-fluid",
+      "category": "Редукторные масла",
+      "image_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1l_mol_dsg-dct_fluid.jpg",
+      "short_description": "Синтетическое трансмиссионное масло для коробок передач с двойным сцеплением",
+      "full_description": "Высокоэффективное синтетическое трансмиссионное масло, произведённое с использованием формулы специальных присадок. Оно одновременно обеспечивает отличную защиту от износа деталей сцепления, а также бесшумную и безвибрационную работу сцепления.",
+      "approvals_and_performance": [
+        "VW G 052 182 (TL 52 182)",
+        "VW G 052 529 (TL 52 529)",
+        "BMW 83 22 0 440 214",
+        "BMW 83 22 2 147 477",
+        "BMW 83 22 2 148 578",
+        "BMW 83 22 2 148 579",
+        "Ford M2C936A",
+        "MZ320065 Dia-Queen SSTF-I",
+        "PSA 9734.S2",
+        "Porsche Oil No. 999.917.080.00",
+        "Volvo 1161838/1161839",
+        "Nissan 999MP-GTRT00P",
+        "VW G 055 529"
+      ],
+      "characteristics": {
+        "Внешний вид": "желтый, прозрачный, светлый",
+        "Плотность при 15°C [г/cм3]": "0,854",
+        "Кинематическая вязкость при 40°C [мм2/с]": "34,3",
+        "Кинематическая вязкость при 100°C [мм2/с]": "7,20",
+        "Температура застывания [°C]": "-42",
+        "Температура вспышки (по Кливленду) [°C]": "200",
+        "Кислотное число [мг KOH/г]": "1,8"
+      }
+    }
+  ]
+}
