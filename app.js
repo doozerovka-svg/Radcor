@@ -168,6 +168,7 @@ document.addEventListener('DOMContentLoaded', () => {
         activeColors:   new Set(),
         activeApprovals: new Set(),
         activeAcea:     new Set(),
+        activeApi:      new Set(),
         searchQuery:    ''
     };
 
@@ -224,6 +225,35 @@ document.addEventListener('DOMContentLoaded', () => {
         ALL_ACEA_STANDARDS.forEach(std => {
             const cleanStd = std.replace('-', '[\\-\\–]?');
             const regex = new RegExp('(?:ACEA[\\s\\/\\-–]*|(?:^|[^a-zA-Z0-9]))' + cleanStd + '(?:(?![0-9a-zA-Z])|(?=[\\/\\s,;\\-–]|$))', 'i');
+            if (regex.test(fullText)) {
+                results.add(std);
+            }
+        });
+        return Array.from(results);
+    }
+
+    const ALL_API_STANDARDS = [
+        'CB', 'CC', 'CD', 'CE', 'CF', 'CF-2', 'CF-4', 'CG-4', 'CH-4', 'CI-4', 'CI-4+', 'CJ-4', 'CK-4', 'CL-4', 'FA-4',
+        'GL-3', 'GL-4', 'GL-4+', 'GL-5',
+        'ILSAC GF-2', 'ILSAC GF-3', 'ILSAC GF-4', 'ILSAC GF-5', 'ILSAC GF-6', 'ILSAC GF-6A', 'ILSAC GF-6B', 'ILSAC GF-7', 'ILSAC GF-7A', 'ILSAC GF-7B',
+        'RC', 'SA', 'SB', 'SC', 'SD', 'SE', 'SF', 'SG', 'SH', 'SJ', 'SL', 'SM', 'SN', 'SN+', 'SP', 'SQ',
+        'TA', 'TB', 'TC', 'TC+', 'TD', 'TSC4'
+    ];
+
+    function getProductApiSpecs(p) {
+        if (!p) return [];
+        const textParts = [];
+        if (Array.isArray(p.specs)) {
+            p.specs.forEach(s => { if (s && s.value) textParts.push(String(s.value)); });
+        }
+        if (p.name) textParts.push(p.name);
+        if (p.description) textParts.push(p.description);
+        const fullText = textParts.join(' ');
+
+        const results = new Set();
+        ALL_API_STANDARDS.forEach(std => {
+            const cleanStd = std.replace('+', '\\+').replace('-', '[\\-\\–]?');
+            const regex = new RegExp('(?:API|ILSAC|GL|\\b)' + cleanStd + '(?:(?![0-9a-zA-Z])|(?=[\\/\\s,;\\-–]|$))', 'i');
             if (regex.test(fullText)) {
                 results.add(std);
             }
@@ -327,11 +357,13 @@ document.addEventListener('DOMContentLoaded', () => {
         const volumeGroup    = document.getElementById('filterVolumeGroup');
         const standardGroup  = document.getElementById('filterStandardGroup');
         const aceaGroup      = document.getElementById('filterAceaGroup');
+        const apiGroup       = document.getElementById('filterApiGroup');
         const brandOpts      = document.getElementById('filterBrandOptions');
         const viscosityOpts  = document.getElementById('filterViscosityOptions');
         const volumeOpts     = document.getElementById('filterVolumeOptions');
         const standardOpts   = document.getElementById('filterStandardOptions');
         const aceaOpts       = document.getElementById('filterAceaOptions');
+        const apiOpts        = document.getElementById('filterApiOptions');
         if (!brandOpts || !volumeOpts || !brandGroup || !volumeGroup) return;
 
         const filtered = applyCategoryFilterOnly(products);
@@ -376,6 +408,14 @@ document.addEventListener('DOMContentLoaded', () => {
         filtered.forEach(p => {
             getProductAceaSpecs(p).forEach(a => {
                 aceaMap[a] = (aceaMap[a] || 0) + 1;
+            });
+        });
+
+        // Collect unique API specifications with counts
+        const apiMap = {};
+        filtered.forEach(p => {
+            getProductApiSpecs(p).forEach(a => {
+                apiMap[a] = (apiMap[a] || 0) + 1;
             });
         });
 
@@ -495,6 +535,27 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
 
+        // Render API checkboxes
+        if (apiGroup && apiOpts) {
+            const isMotorOilsCat = ['motor-oils-pkw', 'motor-oils-lkw', 'moto-oils', 'lubricants', 'transmission-oils', 'hydraulic-oils'].includes(catalogState.activeCategory);
+            const apiList = isMotorOilsCat
+                ? ALL_API_STANDARDS
+                : ALL_API_STANDARDS.filter(a => apiMap[a] > 0);
+
+            if (apiList.length > 0) {
+                apiOpts.innerHTML = apiList.map(a => `
+                    <label class="filter-checkbox-label">
+                        <input type="checkbox" class="filter-api-cb" value="${a.replace(/"/g, '&quot;')}" ${catalogState.activeApi.has(a) ? 'checked' : ''}>
+                        ${a}
+                        <span class="filter-count">${apiMap[a] || 0}</span>
+                    </label>
+                `).join('');
+                apiGroup.style.display = '';
+            } else {
+                apiGroup.style.display = 'none';
+            }
+        }
+
         // Attach listeners to new checkboxes
         viscosityOpts?.querySelectorAll('.filter-viscosity-cb').forEach(cb => {
             cb.addEventListener('change', () => {
@@ -535,6 +596,13 @@ document.addEventListener('DOMContentLoaded', () => {
             cb.addEventListener('change', () => {
                 if (cb.checked) catalogState.activeAcea.add(cb.value);
                 else catalogState.activeAcea.delete(cb.value);
+                renderCatalog(allProducts);
+            });
+        });
+        apiOpts?.querySelectorAll('.filter-api-cb').forEach(cb => {
+            cb.addEventListener('change', () => {
+                if (cb.checked) catalogState.activeApi.add(cb.value);
+                else catalogState.activeApi.delete(cb.value);
                 renderCatalog(allProducts);
             });
         });
@@ -601,6 +669,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 aceaMatch = pAcea.some(a => catalogState.activeAcea.has(a));
             }
 
+            // API filter
+            let apiMatch = true;
+            if (catalogState.activeApi && catalogState.activeApi.size > 0) {
+                const pApi = getProductApiSpecs(p);
+                apiMatch = pApi.some(a => catalogState.activeApi.has(a));
+            }
+
             // Volume filter
             const volMatch = catalogState.activeVolumes.size === 0 || (p.volumes || []).some(v => catalogState.activeVolumes.has(String(v)));
 
@@ -614,7 +689,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 || (p.color || '').toLowerCase().includes(q)
                 || (p.specs || []).some(s => s.value && s.value.toLowerCase().includes(q));
 
-            return catMatch && viscMatch && colorMatch && brandMatch && aceaMatch && approvalMatch && volMatch && searchMatch;
+            return catMatch && viscMatch && colorMatch && brandMatch && aceaMatch && apiMatch && approvalMatch && volMatch && searchMatch;
         });
     }
 
@@ -961,6 +1036,7 @@ document.addEventListener('DOMContentLoaded', () => {
         catalogState.activeColors.clear();
         catalogState.activeApprovals.clear();
         catalogState.activeAcea.clear();
+        catalogState.activeApi.clear();
 
         // If parent lubricants clicked, open accordion
         if (cat === 'lubricants' && parentAcc) {
