@@ -472,6 +472,17 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    function initFilterAccordion() {
+        const container = document.getElementById('sidebarFilters');
+        if (!container) return;
+        container.addEventListener('click', (e) => {
+            const title = e.target.closest('.filter-group-title');
+            if (!title) return;
+            const group = title.closest('.filter-group');
+            if (group) group.classList.toggle('open');
+        });
+    }
+
     function applyCategoryFilterOnly(products) {
         if (catalogState.activeCategory === 'all') return products;
         if (catalogState.activeCategory === 'lubricants') {
@@ -1324,6 +1335,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         updateCategoryCounts(allProducts);
         renderSidebarFilters(allProducts);
+        initFilterAccordion();
         renderCatalog(allProducts);
         renderCart();
     }

@@ -607,18 +607,52 @@ h4 { font-size: 0.95rem; font-weight: 600; letter-spacing: 0; }
 }
 
 .filter-group {
-    padding: 12px 20px;
+    padding: 0;
     border-top: 1px solid var(--colour-border);
 }
 
 .filter-group-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     font-size: 0.78rem;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.08em;
     color: var(--colour-text-faint);
-    margin-bottom: 10px;
+    padding: 11px 20px;
+    margin-bottom: 0;
+    cursor: pointer;
+    user-select: none;
+    transition: color 0.15s;
 }
+.filter-group-title:hover { color: var(--colour-text); }
+.filter-group-title::after {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-right: 1.5px solid currentColor;
+    border-bottom: 1.5px solid currentColor;
+    transform: rotate(45deg);
+    transition: transform 0.2s ease;
+    flex-shrink: 0;
+    margin-left: 8px;
+}
+.filter-group.open .filter-group-title::after {
+    transform: rotate(-135deg);
+}
+.filter-group-body {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.25s ease, padding 0.2s ease;
+    padding: 0 20px;
+}
+.filter-group.open .filter-group-body {
+    max-height: 400px;
+    padding: 0 20px 12px;
+}
+
 
 .filter-options {
     display: flex;
