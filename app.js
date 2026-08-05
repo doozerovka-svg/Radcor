@@ -179,12 +179,25 @@ document.addEventListener('DOMContentLoaded', () => {
             const spec = p.specs.find(s => s && s.label && (s.label.includes('Вязкость') || s.label.toLowerCase().includes('viscosity')));
             if (spec && spec.value) return String(spec.value).trim();
         }
-        const saeList = ['0W-16', '0W-20', '0W-30', '5W-20', '5W-30', '5W-40', '10W-30', '10W-40', '15W-40', '20W-50'];
-        const str = ((p.name || '') + ' ' + (p.name_ro || '')).toUpperCase();
-        for (const sae of saeList) {
-            if (str.includes(sae.toUpperCase())) return sae;
-        }
+        const str = ((p.name || '') + ' ' + (p.name_ro || '') + ' ' + (p.description || '')).toUpperCase();
+        const match = str.match(/\b(\d+W-\d+|\d+W)\b/);
+        if (match) return match[1];
         return null;
+    }
+
+    function parseViscosityWeight(v) {
+        if (!v) return 9999;
+        const match = v.match(/(\d+)W(?:-(\d+))?/i);
+        if (match) {
+            const w = parseInt(match[1], 10);
+            const hot = parseInt(match[2] || '0', 10);
+            return w * 100 + hot;
+        }
+        const singleMatch = v.match(/SAE\s*(\d+)/i) || v.match(/^(\d+)$/);
+        if (singleMatch) {
+            return 500 + parseInt(singleMatch[1], 10);
+        }
+        return 9000;
     }
 
     function getVolumeLabel(v, pack) {
@@ -873,6 +886,19 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!grid) return;
 
         const visible = applyFilters(products);
+
+        // Sort products by viscosity (ascending from 0W-16 upwards) in motor oil subcategories
+        const isMotorOilsCat = ['motor-oils-pkw', 'motor-oils-lkw', 'moto-oils', 'lubricants'].includes(catalogState.activeCategory);
+        if (isMotorOilsCat) {
+            visible.sort((a, b) => {
+                const va = getProductViscosity(a);
+                const vb = getProductViscosity(b);
+                const wa = parseViscosityWeight(va);
+                const wb = parseViscosityWeight(vb);
+                if (wa !== wb) return wa - wb;
+                return (a.name || '').localeCompare(b.name || '');
+            });
+        }
 
         // Update breadcrumb
         const titleEl = document.getElementById('catalogBreadcrumbTitle');
