@@ -585,6 +585,7 @@ h4 { font-size: 0.95rem; font-weight: 600; letter-spacing: 0; }
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    gap: 6px;
     font-size: 0.82rem;
     font-weight: 600;
 }

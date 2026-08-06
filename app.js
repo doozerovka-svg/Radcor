@@ -57,9 +57,11 @@ document.addEventListener('DOMContentLoaded', () => {
     ];
 
     // ==========================================================================
-    // CATALOG STATE
+    // CATALOG & CART STATE
     // ==========================================================================
     let allProducts = [];
+    const cartItems = JSON.parse(localStorage.getItem('radcor_cart_v2') || '{}'); // { sku_pack: { name, price, vol, packId, qty } }
+    const FREE_DELIVERY_THRESHOLD = 1500;
 
     // ==========================================================================
     // I18N SYSTEM
@@ -246,7 +248,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     const ALL_API_STANDARDS = [
-        'CB', 'CC', 'CD', 'CE', 'CF', 'CF-2', 'CF-4', 'CG-4', 'CH-4', 'CI-4', 'CI-4+', 'CJ-4', 'CK-4', 'CL-4', 'FA-4',
+        'CA', 'CB', 'CC', 'CD', 'CE', 'CF', 'CF-2', 'CF-4', 'CG-4', 'CH-4', 'CI-4', 'CI-4+', 'CJ-4', 'CK-4', 'CL-4', 'FA-4',
         'GL-3', 'GL-4', 'GL-4+', 'GL-5',
         'ILSAC GF-2', 'ILSAC GF-3', 'ILSAC GF-4', 'ILSAC GF-5', 'ILSAC GF-6', 'ILSAC GF-6A', 'ILSAC GF-6B', 'ILSAC GF-7', 'ILSAC GF-7A', 'ILSAC GF-7B',
         'RC', 'SA', 'SB', 'SC', 'SD', 'SE', 'SF', 'SG', 'SH', 'SJ', 'SL', 'SM', 'SN', 'SN+', 'SP', 'SQ',
@@ -859,7 +861,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             <span class="product-price price-on-request">${requestPriceLabel}</span>
                             <span class="product-price-unit">Tel: +373 685 50 595</span>
                         </div>
-                        <a href="tel:+37368550595" class="btn-add-cart btn-call-request">📞 ${requestBtnLabel}</a>
+                        <a href="tel:+37368550595" class="btn-add-cart btn-call-request"><svg class="icon-phone" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg> ${requestBtnLabel}</a>
                     ` : `
                         <div>
                             <span class="product-price" id="price-${product.sku}">${displayPrice} MDL</span>
@@ -916,7 +918,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (visible.length === 0) {
             const empty = document.createElement('div');
             empty.className = 'catalog-empty';
-            empty.innerHTML = `<span class="catalog-empty-icon">🔍</span>
+            empty.innerHTML = `<svg class="catalog-empty-icon" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
                 <strong>Ничего не найдено</strong><br>
                 <span style="font-size:0.85rem;margin-top:6px;display:block;">Попробуйте изменить фильтры или поисковый запрос</span>`;
             grid.appendChild(empty);
@@ -1095,9 +1097,6 @@ document.addEventListener('DOMContentLoaded', () => {
     // ==========================================================================
     // CART LOGIC
     // ==========================================================================
-    const cartItems = JSON.parse(localStorage.getItem('radcor_cart_v2') || '{}'); // { sku_pack: { name, price, vol, packId, qty } }
-    const FREE_DELIVERY_THRESHOLD = 1500;
-
     function addToCart(sku, name, price, vol, packId = 'canister') {
         const key = `${sku}_${packId}`;
         if (cartItems[key]) {
@@ -1154,7 +1153,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <span class="qty-input">${item.qty}</span>
                         <button class="qty-btn cart-qty-plus" data-key="${key}">+</button>
                     </div>
-                    <button class="item-remove-btn cart-remove" data-key="${key}" title="Удалить">🗑</button>
+                    <button class="item-remove-btn cart-remove" data-key="${key}" title="Удалить"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg></button>
                 </div>
             </div>`;
         }).join('');
@@ -1164,7 +1163,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (volEl) volEl.textContent = `${totalVol.toFixed(1)} л`;
         const remaining = Math.max(0, FREE_DELIVERY_THRESHOLD - totalPrice);
         const remText = currentLang === 'ro' ? 'Au rămas' : 'Осталось';
-        const freeText = currentLang === 'ro' ? '✅ Livrare gratuită!' : '✅ Бесплатная доставка!';
+        const freeText = currentLang === 'ro' ? 'Livrare gratuită!' : 'Бесплатная доставка!';
         if (delEl) delEl.textContent = remaining > 0
             ? `${remText} ${remaining.toLocaleString()} MDL`
             : freeText;
@@ -1308,7 +1307,7 @@ document.addEventListener('DOMContentLoaded', () => {
         localStorage.setItem('radcor_user', JSON.stringify({ email, name: userName }));
         if (loginBtnLabel) loginBtnLabel.textContent = userName;
         closeLoginModal();
-        alert(`✅ Добро пожаловать, ${userName}! Функция личного кабинета будет доступна в ближайшее время.`);
+        alert(`Добро пожаловать, ${userName}! Функция личного кабинета будет доступна в ближайшее время.`);
     });
 
     // ==========================================================================
@@ -1338,6 +1337,32 @@ document.addEventListener('DOMContentLoaded', () => {
         if (successEl) { successEl.style.display = 'block'; }
         e.target.reset();
     });
+
+    // ==========================================================================
+    // CONTACT FORM
+    // ==========================================================================
+    const contactForm = document.getElementById('contactForm');
+    if (contactForm) {
+        contactForm.addEventListener('submit', e => {
+            e.preventDefault();
+            const cName = document.getElementById('cName')?.value.trim();
+            const cEmail = document.getElementById('cEmail')?.value.trim();
+            const cText = document.getElementById('cText')?.value.trim();
+
+            if (!cName || !cEmail || !cText) {
+                return;
+            }
+            if (contactForm.checkValidity && !contactForm.checkValidity()) {
+                return;
+            }
+
+            const successEl = document.getElementById('contactSuccess');
+            if (successEl) {
+                successEl.style.display = 'block';
+            }
+            contactForm.reset();
+        });
+    }
 
     // ==========================================================================
     // VIN DECODER

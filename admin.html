@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
     
-    <link rel="stylesheet" href="style.css?v=36.0">
+    <link rel="stylesheet" href="style.css?v=37.0">
 
     <style>
         body {
@@ -194,14 +194,19 @@
 
     <header class="admin-header">
         <h1>Radcor-Prim Admin</h1>
-        <div>
+        <div style="display: flex; align-items: center; gap: 15px;">
             <a href="index.html" class="btn btn-outline" style="font-size: 14px;" data-i18n="admin_text_a">На сайт</a>
+            <div class="lang-selector">
+                <a href="#" class="lang-link active">RU</a>
+                <span>|</span>
+                <a href="#" class="lang-link">RO</a>
+            </div>
         </div>
     </header>
 
     <div class="admin-toolbar">
-        <button id="btnOpenFile" class="btn btn-primary" data-i18n="admin_products_j">📁 Открыть products.json</button>
-        <button id="btnSaveFile" class="btn btn-primary" style="display:none; background: var(--colour-mol-green);" data-i18n="admin_text_button">💾 Сохранить изменения</button>
+        <button id="btnOpenFile" class="btn btn-primary" data-i18n="admin_products_j">Открыть products.json</button>
+        <button id="btnSaveFile" class="btn btn-primary" style="display:none; background: var(--colour-mol-green);" data-i18n="admin_text_button">Сохранить изменения</button>
         <button id="btnAdd" class="btn btn-outline" style="display:none;" data-i18n="admin_text_button_2">+ Добавить товар</button>
         
         <div class="file-status">
@@ -247,12 +252,12 @@
                 <div class="form-group">
                     <label data-i18n="admin_text_th_5">Категория</label>
                     <select id="f_category">
-                        <option value="motor-oils" data-i18n="admin_text_option" data-i18n="admin_cat_oils">Автомобильные масла</option>
-                        <option value="coolants" data-i18n="admin_text_option_8" data-i18n="admin_cat_coolants">Охлаждающие жидкости</option>
-                        <option value="autochemistry" data-i18n="admin_text_option_9" data-i18n="admin_cat_chemistry">Автохимия и смазки</option>
-                        <option value="winter" data-i18n="admin_text_option_10" data-i18n="admin_cat_winter">Зимняя программа</option>
-                        <option value="accessories" data-i18n="admin_text_option_11" data-i18n="admin_cat_consumables">Расходники и аксессуары</option>
-                        <option value="industrial" data-i18n="admin_text_option_12" data-i18n="admin_cat_industrial">Промышленный сектор</option>
+                        <option value="motor-oils" data-i18n="admin_cat_oils">Автомобильные масла</option>
+                        <option value="coolants" data-i18n="admin_cat_coolants">Охлаждающие жидкости</option>
+                        <option value="autochemistry" data-i18n="admin_cat_chemistry">Автохимия и смазки</option>
+                        <option value="winter" data-i18n="admin_cat_winter">Зимняя программа</option>
+                        <option value="accessories" data-i18n="admin_cat_consumables">Расходники и аксессуары</option>
+                        <option value="industrial" data-i18n="admin_cat_industrial">Промышленный сектор</option>
                     </select>
                 </div>
                 <div class="form-group full">
@@ -286,6 +291,8 @@
         </div>
     </div>
 
+    <script src="i18n.js?v=37.0"></script>
+    <script src="app.js?v=37.0"></script>
     <script>
         let fileHandle = null;
         let productsData = [];
@@ -462,7 +469,5 @@
             }
         }
     </script>
-    <script src="i18n.js?v=36.0"></script>
-    <script src="app.js?v=36.0"></script>
 </body>
 </html>
