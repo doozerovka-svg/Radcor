@@ -1,21 +1,24 @@
-# Project: RADCOR Catalog Category & Intercars-Style Filter Update
+# Project: RADCOR E2E Testing & Audit Project
 
 ## Architecture
-- RADCOR web application catalog (vanilla HTML/JS/CSS, `app.js`, `i18n.js`, `products.json`, `style.css`).
-- Dual language support (Russian `ru`, Romanian `ro`) managed via `i18n.js`.
-- Category hierarchy defined in `app.js` and `i18n.js`.
-- Sidebar filters dynamically rendered for categories and subcategories in `app.js`.
+- 11 HTML pages: `index.html`, `catalog.html`, `checkout.html`, `b2b-dashboard.html`, `admin.html`, `delivery.html`, `returns.html`, `service.html`, `faq.html`, `guides.html`, `contacts.html`.
+- Core JS modules: `app.js`, `i18n.js`, data: `products.json`, styles: `style.css`.
+- Dual language support: Russian (`ru`), Romanian (`ro`).
 
 ## Milestones
 | # | Name | Scope | Dependencies | Status |
 |---|------|-------|-------------|--------|
-| 1 | Exploration | Codebase investigation, locating i18n strings, filter logic, products data structure | none | IN_PROGRESS |
-| 2 | R1 Category Naming | Update subcategory labels `motor-oils-pkw` and `motor-oils-lkw` in RU and RO in `i18n.js` and `app.js` | M1 | PLANNED |
-| 3 | R2 & R3 Filters & Packs | Implement Intercars-style sidebar filter for PKW motor oils (Brand, Viscosity, IBC Tote Volume 983L/991L/994L) & products.json updates | M2 | PLANNED |
-| 4 | Verification & Audit | Multi-perspective Reviewer, Challenger, and Forensic Auditor verification | M3 | PLANNED |
+| 1 | Exploration & Strategy | Codebase & HTML page structure inspection, test runner setup | none | IN_PROGRESS |
+| 2 | R1 Catalog, Sorting & Filtering Audit | Test category switching, dynamic sidebar filters, viscosity sorting (0W-16 up), search filtering | M1 | PLANNED |
+| 3 | R2 UI Components & Drawers Audit | Pack size selection, price updating, Price on Request, drawers, B2B UI compliance (no emojis, SVG icons, exact OEM approvals) | M1 | PLANNED |
+| 4 | R3 Cart & Localization Audit | Add to cart, quantity, removal, totals, language switcher (ru<->ro across 11 pages) | M1 | PLANNED |
+| 5 | R4 Page Integrity & Checkout Flow Audit | Form validation (checkout, contacts), script tags, asset versioning (?v=36.0 across all 11 pages), console errors | M1 | PLANNED |
+| 6 | Verification & Forensic Audit | Challenger empirical testing & Forensic Auditor integrity verification | M2, M3, M4, M5 | PLANNED |
 
-## Interface Contracts & Layout
-- `i18n.js`: Translation dictionary keys for subcategories (`motor-oils-pkw`, `motor-oils-lkw`, etc.) in `ru` and `ro`.
-- `app.js`: Filter logic, subcategory rendering, viscosity tags, volume tags filtering (`983L`, `991L`, `994L`), volume tag text formatting.
-- `products.json`: Product entries, `volume` or `volumes` array/options, `category` / `subcategory` keys, `price_on_request`.
-- HTML files (`index.html`, etc.): `?v=XX.X` script/style cache busting updates.
+## Code Layout & Standards
+- Root directory: `c:\Users\DenCrut\Documents\radcor.md\`
+- 11 HTML pages: `index.html`, `catalog.html`, `checkout.html`, `b2b-dashboard.html`, `admin.html`, `delivery.html`, `returns.html`, `service.html`, `faq.html`, `guides.html`, `contacts.html`
+- Core scripts: `app.js`, `i18n.js`
+- Product database: `products.json`
+- Stylesheet: `style.css`
+- Rules: `AGENTS.md` (Strict B2B UI, zero emojis, SVG icons, exact OEM specs, price on request)

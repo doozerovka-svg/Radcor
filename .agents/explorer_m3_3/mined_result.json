@@ -1,0 +1,627 @@
+[
+  {
+    "index": 1,
+    "sku": "MOL-1004",
+    "name": "MOL Dynamic Max 10W-40",
+    "name_ro": "MOL Dynamic Max 10W-40",
+    "brand": "MOL",
+    "description_ru": "Полусинтетическое моторное масло высшего сорта для большинства современных транспортных средств.",
+    "description_ro": "Semisintetic моторное масло высшего сорта для большинства современных транспортных средств.",
+    "scrapedMatch": "MOL Dynamic Max 10W-40",
+    "specMap": {
+      "Вязкость": "10W-40",
+      "Класс": "API SL/CF, ACEA A3/B4-08",
+      "Допуски": "MB 229.3, VW 502.00/505.00",
+      "Плотность при 15°C": "0,866",
+      "Температура застывания": "-45",
+      "Температура вспышки (по Кливленду)": "230"
+    }
+  },
+  {
+    "index": 2,
+    "sku": "MOL-1005",
+    "name": "MOL Essence C3 5W-40",
+    "name_ro": "MOL Essence C3 5W-40",
+    "brand": "MOL",
+    "description_ru": "синтетическое моторное масло",
+    "description_ro": "sintetic моторное масло",
+    "scrapedMatch": "MOL Essence C3 5W-40",
+    "specMap": {
+      "Допуски": "ACEA C3, ACEA C2, API SN/CF, VW 502 00/505 01, Renault RN0700, Renault RN0710",
+      "Плотность при 15°C": "0,849",
+      "Температура застывания": "-33",
+      "Температура вспышки (по Кливленду)": "235"
+    }
+  },
+  {
+    "index": 3,
+    "sku": "MOL-1006",
+    "name": "MOL Dynamic Gold HEV 0W-20",
+    "name_ro": "MOL Dynamic Gold HEV 0W-20",
+    "brand": "MOL",
+    "description_ru": "моторное масло",
+    "description_ro": "моторное масло",
+    "scrapedMatch": "MOL Dynamic Gold HEV 0W-20",
+    "specMap": {
+      "Допуски": "API SP, API SP (RC), ILSAC GF-6A",
+      "Температура застывания": "-45",
+      "Температура вспышки (по Кливленду)": "226",
+      "Плотность при 15°C": "0,843"
+    }
+  },
+  {
+    "index": 4,
+    "sku": "MOL-1011",
+    "name": "MOL Dynamic Gold Longlife 5W-30",
+    "name_ro": "MOL Dynamic Gold Longlife 5W-30",
+    "brand": "MOL",
+    "description_ru": "Синтетическое моторное масло высшего сорта для большинства современных транспортных средств.",
+    "description_ro": "Sintetic моторное масло высшего сорта для большинства современных транспортных средств.",
+    "scrapedMatch": "MOL Dynamic Gold Longlife 5W-30",
+    "specMap": {
+      "Вязкость": "5W-30",
+      "Класс": "API SN/CF, ACEA A3/B4-04",
+      "Допуски": "VW 504.00/507.00, MB 229.51",
+      "Плотность при 15°C": "0,852",
+      "Температура застывания": "-42",
+      "Температура вспышки (по Кливленду)": "210"
+    }
+  },
+  {
+    "index": 5,
+    "sku": "MOL-1018",
+    "name": "MOL Dynamic Gold Longlife 0W-20",
+    "name_ro": "MOL Dynamic Gold Longlife 0W-20",
+    "brand": "MOL",
+    "description_ru": "Синтетическое моторное масло премиум класса для самых современных автомобилей.",
+    "description_ro": "Sintetic моторное масло премиум класса для самых современных автомобилей.",
+    "scrapedMatch": "MOL Dynamic Gold Longlife 0W-20",
+    "specMap": {
+      "Допуски": "ACEA C5, API SN Plus, VW 508 00/509 00",
+      "Плотность при 15°C": "0,836",
+      "Температура застывания": "-51",
+      "Температура вспышки (по Кливленду)": "230"
+    }
+  },
+  {
+    "index": 6,
+    "sku": "MOL-1019",
+    "name": "MOL Dynamic Star VL 0W-20",
+    "name_ro": "MOL Dynamic Star VL 0W-20",
+    "brand": "MOL",
+    "description_ru": "Синтетическое моторное масло премиум качества для самых современных автомобилей, предназначенное, в первую очередь, для легковых автомобилей Volvo",
+    "description_ro": "Sintetic моторное масло премиум качества для самых современных автомобилей, предназначенное, в первую очередь, pentru autoturisme Volvo",
+    "scrapedMatch": "MOL Dynamic Star VL 0W-20",
+    "specMap": {
+      "Вязкость": "0W-20",
+      "Класс": "ACEA C5",
+      "Допуски": "Volvo VCC RBS0-2AE",
+      "Плотность при 15°C": "0,846",
+      "Температура застывания": "-42",
+      "Температура вспышки (по Кливленду)": "230"
+    }
+  },
+  {
+    "index": 7,
+    "sku": "MOL-1022",
+    "name": "MOL Dynamic Gold DX 0W-20",
+    "name_ro": "MOL Dynamic Gold DX 0W-20",
+    "brand": "MOL",
+    "description_ru": "Синтетическое моторное масло премиум качества для самых современных автомобилей",
+    "description_ro": "Sintetic моторное масло премиум качества для самых современных автомобилей",
+    "scrapedMatch": "MOL Dynamic Gold DX 0W-20",
+    "specMap": {
+      "Допуски": "API SN, API SP, Opel OV 040 1547 - A20, ILSAC GF-5, ILSAC GF-6A",
+      "Плотность при 15°C": "0,847",
+      "Температура застывания": "-45",
+      "Температура вспышки (по Кливленду)": "230"
+    }
+  },
+  {
+    "index": 8,
+    "sku": "MOL-1023",
+    "name": "MOL Dynamic Star PC 0W-30",
+    "name_ro": "MOL Dynamic Star PC 0W-30",
+    "brand": "MOL",
+    "description_ru": "Синтетическое моторное масло премиум класса для автомобилей последнего поколения.",
+    "description_ro": "Sintetic моторное масло премиум класса для автомобилей последнего поколения.",
+    "scrapedMatch": "MOL Dynamic Star PC 0W-30",
+    "specMap": {
+      "Допуски": "ACEA C2, PSA B71 2312",
+      "Плотность при 15°C": "0,844",
+      "Температура застывания": "-48",
+      "Температура вспышки (по Кливленду)": "220"
+    }
+  },
+  {
+    "index": 9,
+    "sku": "MOL-1025",
+    "name": "MOL Botond 20W-50",
+    "name_ro": "MOL Botond 20W-50",
+    "brand": "MOL",
+    "description_ru": "Моторное масло для транспортных средств более ранних моделей с большим пробегом.",
+    "description_ro": "Ulei de motor для транспортных средств более ранних моделей с большим пробегом.",
+    "scrapedMatch": "MOL Botond 20W-50",
+    "specMap": {
+      "Допуски": "API SF/CC, MIL-L-46152B",
+      "Плотность при 15°C": "0,887",
+      "Температура застывания": "-27",
+      "Температура вспышки (по Кливленду)": "240"
+    }
+  },
+  {
+    "index": 10,
+    "sku": "MOL-1030",
+    "name": "MOL Essence 10W-40",
+    "name_ro": "MOL Essence 10W-40",
+    "brand": "MOL",
+    "description_ru": "Моторное масло для увеличенного ресурса.",
+    "description_ro": "Ulei de motor для увеличенного ресурса.",
+    "scrapedMatch": "MOL Essence 10W-40",
+    "specMap": {
+      "Вязкость": "10W-40",
+      "Класс": "API SL/CF, ACEA A3/B4-08",
+      "Допуски": "VW 501.01/505.00",
+      "Плотность при 15°C": "0,871",
+      "Температура застывания": "-33",
+      "Температура вспышки (по Кливленду)": "220"
+    }
+  },
+  {
+    "index": 11,
+    "sku": "MOL-1031",
+    "name": "MOL Dynamic Synt RN17 5W-30",
+    "name_ro": "MOL Dynamic Synt RN17 5W-30",
+    "brand": "MOL",
+    "description_ru": "синтетическое моторное масло",
+    "description_ro": "sintetic моторное масло",
+    "scrapedMatch": "MOL Dynamic Synt RN17 5W-30",
+    "specMap": {
+      "Допуски": "ACEA C3, ACEA C2, Renault RN17, API SP, MB 229.51, MB 229.52, MB 229.31, Renault RN0700, Renault RN0710, Fiat 9.55535-S1, MB 226.52, ILSAC GF-6A",
+      "Плотность при 15°C": "0,854",
+      "Температура застывания": "-45",
+      "Температура вспышки (по Кливленду)": "234"
+    }
+  },
+  {
+    "index": 12,
+    "sku": "MOL-1032",
+    "name": "MOL Essence 15W-50",
+    "name_ro": "MOL Essence 15W-50",
+    "brand": "MOL",
+    "description_ru": "Моторное масло для увеличения срока службы двигателя",
+    "description_ro": "Ulei de motor для увеличения срока службы двигателя",
+    "scrapedMatch": "MOL Essence 15W-50",
+    "specMap": {
+      "Допуски": "API SJ/CF",
+      "Плотность при 15°C": "0,879",
+      "Температура застывания": "-24",
+      "Температура вспышки (по Кливленду)": "220"
+    }
+  },
+  {
+    "index": 13,
+    "sku": "MOL-1035",
+    "name": "MOL Dynamic Star PC 5W-30",
+    "name_ro": "MOL Dynamic Star PC 5W-30",
+    "brand": "MOL",
+    "description_ru": "Синтетическое моторное масло высшего сорта для большинства современных транспортных средств.",
+    "description_ro": "Sintetic моторное масло высшего сорта для большинства современных транспортных средств.",
+    "scrapedMatch": "MOL Dynamic Star PC 5W-30",
+    "specMap": {
+      "Вязкость": "5W-30",
+      "Допуски": "PSA Peugeot Citroen B71 2290, Fiat 9.55535-S1",
+      "Плотность при 15°C": "0,854",
+      "Температура застывания": "-48",
+      "Температура вспышки (по Кливленду)": "230"
+    }
+  },
+  {
+    "index": 14,
+    "sku": "MOL-1038",
+    "name": "MOL Dynamic Gas Eco+ 15W-40",
+    "name_ro": "MOL Dynamic Gas Eco+ 15W-40",
+    "brand": "MOL",
+    "description_ru": "Масло высшего сорта для мобильных газовых двигателей автомобилей, работающих на газе.",
+    "description_ro": "Масло высшего сорта для мобильных газовых двигателей автомобилей, работающих на газе.",
+    "scrapedMatch": "MOL Dynamic Gas Eco+ 15W-40",
+    "specMap": {
+      "Допуски": "ACEA E7, API CI-4/SL",
+      "Плотность при 15°C": "0,885",
+      "Температура застывания": "-33",
+      "Температура вспышки (по Кливленду)": "225"
+    }
+  },
+  {
+    "index": 15,
+    "sku": "MOL-1040",
+    "name": "MOL Dynamic Synt RN 5W-30",
+    "name_ro": "MOL Dynamic Synt RN 5W-30",
+    "brand": "MOL",
+    "description_ru": "Синтетическое моторное масло высшего сорта для большинства современных транспортных средств.",
+    "description_ro": "Sintetic моторное масло высшего сорта для большинства современных транспортных средств.",
+    "scrapedMatch": "MOL Dynamic Synt RN 5W-30",
+    "specMap": {
+      "Вязкость": "5W-30",
+      "Класс": "ACEA C4",
+      "Допуски": "Renault RN0720",
+      "Плотность при 15°C": "0,853",
+      "Температура застывания": "-39",
+      "Температура вспышки (по Кливленду)": "230"
+    }
+  },
+  {
+    "index": 16,
+    "sku": "MOL-1043",
+    "name": "MOL Dynamic Gold DX 5W-30",
+    "name_ro": "MOL Dynamic Gold DX 5W-30",
+    "brand": "MOL",
+    "description_ru": "Синтетическое моторное масло премиум класса для автомобилей последнего поколения.",
+    "description_ro": "Sintetic моторное масло премиум класса для автомобилей последнего поколения.",
+    "scrapedMatch": "MOL Dynamic Gold DX 5W-30",
+    "specMap": {
+      "Вязкость": "5W-30",
+      "Класс": "API SN",
+      "Допуски": "GM dexos1 Gen2",
+      "Плотность при 15°C": "0,850",
+      "Температура застывания": "-45",
+      "Температура вспышки (по Кливленду)": "230"
+    }
+  },
+  {
+    "index": 17,
+    "sku": "MOL-1046",
+    "name": "MOL Essence Longlife 5W-30",
+    "name_ro": "MOL Essence Longlife 5W-30",
+    "brand": "MOL",
+    "description_ru": "синтетическое моторное масло",
+    "description_ro": "sintetic моторное масло",
+    "scrapedMatch": "MOL Essence Longlife 5W-30",
+    "specMap": {
+      "Допуски": "ACEA C3, API SN, VW 504 00/507 00, BMW Longlife-04",
+      "Плотность при 15°C": "0,852",
+      "Температура застывания": "-45",
+      "Температура вспышки (по Кливленду)": "220"
+    }
+  },
+  {
+    "index": 18,
+    "sku": "MOL-1047",
+    "name": "MOL Dynamic Star F 0W-30",
+    "name_ro": "MOL Dynamic Star F 0W-30",
+    "brand": "MOL",
+    "description_ru": "Синтетическое премиальное моторное масло для самых современных автомобилей.",
+    "description_ro": "Sintetic премиальное моторное масло для самых современных автомобилей.",
+    "scrapedMatch": "MOL Dynamic Star F 0W-30",
+    "specMap": {
+      "Допуски": "ACEA C2, Fiat 9.55535-DS1, Fiat 9.55535-GS1",
+      "Плотность при 15°C": "0,844",
+      "Температура застывания": "-54",
+      "Температура вспышки (по Кливленду)": "230"
+    }
+  },
+  {
+    "index": 19,
+    "sku": "MOL-1050",
+    "name": "MOL Dynamic Star 5W-30",
+    "name_ro": "MOL Dynamic Star 5W-30",
+    "brand": "MOL",
+    "description_ru": "Синтетическое моторное масло высшего сорта для большинства современных транспортных средств.",
+    "description_ro": "Sintetic моторное масло высшего сорта для большинства современных транспортных средств.",
+    "scrapedMatch": "MOL Dynamic Star 5W-30",
+    "specMap": {
+      "Вязкость": "5W-30",
+      "Класс": "ACEA C3, API SN/CF",
+      "Допуски": "MB 229.51, BMW Longlife-04",
+      "Плотность при 15°C": "0,850",
+      "Температура застывания": "-45",
+      "Температура вспышки (по Кливленду)": "232"
+    }
+  },
+  {
+    "index": 20,
+    "sku": "MOL-1052",
+    "name": "MOL Dynamic Gold 5W-30",
+    "name_ro": "MOL Dynamic Gold 5W-30",
+    "brand": "MOL",
+    "description_ru": "Синтетическое моторное масло высшего сорта для большинства современных транспортных средств.",
+    "description_ro": "Sintetic моторное масло высшего сорта для большинства современных транспортных средств.",
+    "scrapedMatch": "MOL Dynamic Gold 5W-30",
+    "specMap": {
+      "Вязкость": "5W-30",
+      "Класс": "API SN/CF, ACEA A3/B4",
+      "Допуски": "MB 229.5, VW 502.00/505.00",
+      "Плотность при 15°C": "0,854",
+      "Температура застывания": "-42",
+      "Температура вспышки (по Кливленду)": "230"
+    }
+  },
+  {
+    "index": 21,
+    "sku": "MOL-1055",
+    "name": "MOL MSE 15W-40",
+    "name_ro": "MOL MSE 15W-40",
+    "brand": "MOL",
+    "description_ru": "Моторное масло для транспортных средств более ранних моделей с большим пробегом.",
+    "description_ro": "Ulei de motor для транспортных средств более ранних моделей с большим пробегом.",
+    "scrapedMatch": "MOL MSE 15W-40",
+    "specMap": {
+      "Допуски": "API SF/CC, MIL-L-46152B",
+      "Плотность при 15°C": "0,879",
+      "Температура застывания": "-27",
+      "Температура вспышки (по Кливленду)": "225"
+    }
+  },
+  {
+    "index": 22,
+    "sku": "MOL-1061",
+    "name": "MOL Dynamic Gold Longlife 0W-30",
+    "name_ro": "MOL Dynamic Gold Longlife 0W-30",
+    "brand": "MOL",
+    "description_ru": "Синтетическое премиальное моторное масло для самых современных транспортных средств.",
+    "description_ro": "Sintetic премиальное моторное масло для самых современных транспортных средств.",
+    "scrapedMatch": "MOL Dynamic Gold Longlife 0W-30",
+    "specMap": {
+      "Допуски": "VW 504 00/507 00, ACEA C3, BMW Longlife-04",
+      "Плотность при 15°C": "0,843",
+      "Температура застывания": "-45",
+      "Температура вспышки (по Кливленду)": "240"
+    }
+  },
+  {
+    "index": 23,
+    "sku": "MOL-1070",
+    "name": "MOL Dynamic Gold DX 5W-20",
+    "name_ro": "MOL Dynamic Gold DX 5W-20",
+    "brand": "MOL",
+    "description_ru": "Синтетическое моторное масло премиум качества для самых современных автомобилей",
+    "description_ro": "Sintetic моторное масло премиум качества для самых современных автомобилей",
+    "scrapedMatch": "MOL Dynamic Gold DX 5W-20",
+    "specMap": {
+      "Допуски": "API SP, Opel OV 040 1547 - A20, Ford WSS-M2C-960-A1, Chrysler MS-6395, ILSAC GF-6A",
+      "Плотность при 15°C": "0,847",
+      "Температура застывания": "-39",
+      "Температура вспышки (по Кливленду)": "230"
+    }
+  },
+  {
+    "index": 24,
+    "sku": "MOL-DYN-ESS-5W30",
+    "name": "MOL Essence 5W-30",
+    "name_ro": "Ulei de motor MOL Dynamic Essence 5W-30",
+    "brand": "MOL",
+    "description_ru": "Высокотехнологичное синтетическое масло MOL Dynamic Essence 5W-30 для бензиновых и дизельных моторов.",
+    "description_ro": "Высокотехнологичное sintetic масло MOL Dynamic Essence 5W-30 для бензиновых и дизельных моторов.",
+    "scrapedMatch": "MOL Essence 5W-30",
+    "specMap": {
+      "Вязкость": "5W-30",
+      "Допуски": "ACEA A3/B4-04, API SL/CF, VW 502 00/505 00, BMW Longlife-01",
+      "Плотность при 15°C": "0,855",
+      "Температура застывания": "-36",
+      "Температура вспышки (по Кливленду)": "220"
+    }
+  },
+  {
+    "index": 25,
+    "sku": "MOL-DYN-ESS-C2-5W30",
+    "name": "MOL Essence DPF 5W-30",
+    "name_ro": "MOL Dynamic Essence C2 5W-30",
+    "brand": "MOL",
+    "description_ru": "Синтетическое ресурсосберегающее масло для двигателей с требованиями ACEA C2.",
+    "description_ro": "Sintetic ресурсосберегающее масло для двигателей с требованиями ACEA C2.",
+    "scrapedMatch": null,
+    "specMap": {
+      "Вязкость": "5W-30",
+      "Класс": "API SN/CF, ACEA C2",
+      "Допуски": "VW 502.00/505.00, Renault RN0700"
+    }
+  },
+  {
+    "index": 26,
+    "sku": "MOL-DYN-ESS-DSL-5W40",
+    "name": "MOL Essence Diesel 5W-40",
+    "name_ro": "MOL Dynamic Essence Diesel 5W-40",
+    "brand": "MOL",
+    "description_ru": "Синтетическое дизельное моторное масло повышенной надежности.",
+    "description_ro": "Sintetic дизельное моторное масло повышенной надежности.",
+    "scrapedMatch": "MOL Essence Diesel 5W-40",
+    "specMap": {
+      "Вязкость": "5W-40",
+      "Класс": "API SN/CF, ACEA A3/B4-08",
+      "Допуски": "VW 502.00/505.00",
+      "Плотность при 15°C": "0,854",
+      "Температура застывания": "-39",
+      "Температура вспышки (по Кливленду)": "240"
+    }
+  },
+  {
+    "index": 27,
+    "sku": "MOL-DYN-ESS-5W40",
+    "name": "MOL Essence 5W-40",
+    "name_ro": "Ulei de motor MOL Dynamic Essence 5W-40",
+    "brand": "MOL",
+    "description_ru": "Синтетическое моторное масло MOL Dynamic Essence 5W-40 для бензиновых и дизельных двигателей легковых автомобилей.",
+    "description_ro": "Sintetic моторное масло MOL Dynamic Essence 5W-40 pentru motoare pe benzină și diesel легковых автомобилей.",
+    "scrapedMatch": "MOL Essence 5W-40",
+    "specMap": {
+      "Вязкость": "5W-40",
+      "Допуски": "API SN, ACEA A3/B4-08, VW 502 00/505 00, Renault RN0700/0710",
+      "Плотность при 15°C": "0,857",
+      "Температура застывания": "-42",
+      "Температура вспышки (по Кливленду)": "230"
+    }
+  },
+  {
+    "index": 28,
+    "sku": "MOL-DYN-STAR-0W20",
+    "name": "MOL Dynamic Gold NG 0W-20",
+    "name_ro": "MOL Dynamic Star 0W-20",
+    "brand": "MOL",
+    "description_ru": "Сверхлегкое синтетическое масло с официальным допуском Ford EcoBoost.",
+    "description_ro": "Сверхлегкое sintetic масло с официальным допуском Ford EcoBoost.",
+    "scrapedMatch": null,
+    "specMap": {
+      "Вязкость": "0W-20",
+      "Класс": "ACEA C5",
+      "Допуски": "Ford WSS-M2C-948-B"
+    }
+  },
+  {
+    "index": 29,
+    "sku": "MOL-DYN-ESS-DSL-10W40",
+    "name": "MOL Essence Diesel 10W-40",
+    "name_ro": "MOL Dynamic Essence Diesel 10W-40",
+    "brand": "MOL",
+    "description_ru": "Полусинтетическое моторное масло для дизельных двигателей.",
+    "description_ro": "Semisintetic моторное масло pentru motoare diesel.",
+    "scrapedMatch": "MOL Essence Diesel 10W-40",
+    "specMap": {
+      "Вязкость": "10W-40",
+      "Класс": "API CF/SL, ACEA A3/B4",
+      "Допуски": "VW 505.00",
+      "Плотность при 15°C": "0,871",
+      "Температура застывания": "-33",
+      "Температура вспышки (по Кливленду)": "220"
+    }
+  },
+  {
+    "index": 30,
+    "sku": "MOL-DYN-ESS-15W40",
+    "name": "MOL Essence 15W-40",
+    "name_ro": "MOL Dynamic Essence 15W-40",
+    "brand": "MOL",
+    "description_ru": "Надежное минеральное масло для регулярного технического обслуживания.",
+    "description_ro": "Надежное mineral масло для регулярного технического обслуживания.",
+    "scrapedMatch": "MOL Essence 15W-40",
+    "specMap": {
+      "Вязкость": "15W-40",
+      "Класс": "API SJ/CF",
+      "Допуски": "API SJ/CF",
+      "Плотность при 15°C": "0,879",
+      "Температура застывания": "-27",
+      "Температура вспышки (по Кливленду)": "230"
+    }
+  },
+  {
+    "index": 31,
+    "sku": "YUKO-CLASSIC-15W40",
+    "name": "Yuko Dynamic 15W-40",
+    "name_ro": "Ulei de motor YUKO CLASSIC 15W-40",
+    "brand": "YUKO",
+    "description_ru": "Минеральное моторное масло YUKO CLASSIC 15W-40 для бензиновых и дизельных двигателей автомобилей.",
+    "description_ro": "Mineral моторное масло YUKO CLASSIC 15W-40 pentru motoare pe benzină și diesel автомобилей.",
+    "scrapedMatch": null,
+    "specMap": {
+      "Вязкость": "15W-40"
+    }
+  },
+  {
+    "index": 32,
+    "sku": "YUKO-VEGA-10W40",
+    "name": "Моторное масло YUKO VEGA SYNT 10W-40",
+    "name_ro": "Ulei de motor YUKO VEGA SYNT 10W-40",
+    "brand": "YUKO",
+    "description_ru": "Полусинтетическое моторное масло YUKO VEGA SYNT 10W-40 свысокими защитными и моющими свойствами.",
+    "description_ro": "Semisintetic моторное масло YUKO VEGA SYNT 10W-40 свысокими защитными и моющими свойствами.",
+    "scrapedMatch": null,
+    "specMap": {
+      "Вязкость": "10W-40"
+    }
+  },
+  {
+    "index": 33,
+    "sku": "YUKO-SYNETIC-5W30",
+    "name": "Моторное масло YUKO Synetic 5W-30 (1 л)",
+    "name_ro": "Ulei de motor YUKO Synetic 5W-30 (1 л)",
+    "brand": "YUKO",
+    "description_ru": "Современное синтетическое моторное масло YUKO Synetic 5W-30 для легкого запуска и экономии топлива.",
+    "description_ro": "Современное sintetic моторное масло YUKO Synetic 5W-30 для легкого запуска и экономии топлива.",
+    "scrapedMatch": null,
+    "specMap": {
+      "Вязкость": "5W-30"
+    }
+  },
+  {
+    "index": 34,
+    "sku": "YUKO-SYNETIC-5W40",
+    "name": "Yuko Synthetic 5W-40",
+    "name_ro": "Ulei de motor YUKO Synetic 5W-40 (1 л)",
+    "brand": "YUKO",
+    "description_ru": "Синтетическое моторное масло YUKO Synetic 5W-40 для максимальной защиты двигателя в широком диапазоне температур.",
+    "description_ro": "Sintetic моторное масло YUKO Synetic 5W-40 для максимальной защиты двигателя в широком диапазоне температур.",
+    "scrapedMatch": null,
+    "specMap": {
+      "Вязкость": "5W-40"
+    }
+  },
+  {
+    "index": 35,
+    "sku": "MOL-DYN-PRIMA-5W40",
+    "name": "MOL Prima 5W-40",
+    "name_ro": "Ulei de motor MOL Dynamic Prima 5W-40",
+    "brand": "MOL",
+    "description_ru": "Синтетическое малозольное масло MOL Dynamic Prima 5W-40 DPF для современных авто с фильтром сажи.",
+    "description_ro": "Sintetic ulei Low SAPS MOL Dynamic Prima 5W-40 DPF для современных авто с фильтром сажи.",
+    "scrapedMatch": "MOL Dynamic Prima 5W-40",
+    "specMap": {
+      "Вязкость": "5W-40",
+      "Допуски": "DPF, API SM/CF, ACEA C3, VW 502 00/505 00/505 01, MB 229.51",
+      "Плотность при 15°C": "0,854",
+      "Температура застывания": "-39",
+      "Температура вспышки (по Кливленду)": "240"
+    }
+  },
+  {
+    "index": 36,
+    "sku": "MOL-HYBRID-0W16",
+    "name": "MOL Dynamic Gold NG 0W-16",
+    "name_ro": "MOL Dynamic Hybrid 0W-16",
+    "brand": "MOL",
+    "description_ru": "Инновационное гибридное моторное масло сверхнизкой вязкости 0W-16 для максимальной экономии топлива.",
+    "description_ro": "Ulei de motor inovator hibrid cu vâscozitate extrem de redusă 0W-16 pentru economie maximă de combustibil.",
+    "scrapedMatch": "MOL Dynamic Gold Longlife 0W-30",
+    "specMap": {
+      "Вязкость": "0W-16",
+      "Допуски": "API SP, ILSAC GF-6B",
+      "Плотность при 15°C": "0,843",
+      "Температура застывания": "-45",
+      "Температура вспышки (по Кливленду)": "240"
+    }
+  },
+  {
+    "index": 37,
+    "sku": "MOL-DYN-STAR-VL-0W30",
+    "name": "MOL Dynamic Star VL 0W-30",
+    "name_ro": "MOL Dynamic Star VL 0W-30",
+    "brand": "MOL",
+    "description_ru": "Синтетическое энергосберегающее моторное масло высшего качества для современных бензиновых и дизельных двигателей легковых автомобилей Volvo.",
+    "description_ro": "Ulei de motor sintetic de calitate superioară pentru motoarele moderne pe benzină și motorină ale autoturismelor Volvo.",
+    "scrapedMatch": "MOL Dynamic Star 0W-30",
+    "specMap": {
+      "Вязкость": "0W-30",
+      "Класс": "ACEA A5/B5, A1/B1",
+      "Допуски": "Volvo VCC 95200377",
+      "Плотность при 15°C": "0,847",
+      "Температура застывания": "-45",
+      "Температура вспышки (по Кливленду)": "254"
+    }
+  },
+  {
+    "index": 38,
+    "sku": "MOL-ESSENCE-SL-10W40",
+    "name": "MOL Essence SL 10W-40",
+    "name_ro": "MOL Essence SL 10W-40",
+    "brand": "MOL",
+    "description_ru": "Полусинтетическое моторное масло с высоким уровнем защиты от износа для бензиновых и дизельных двигателей легковых автомобилей.",
+    "description_ro": "Ulei de motor semisintetic cu nivel înalt de protecție împotriva uzurii pentru motoare pe benzină și motorină ale autoturismelor.",
+    "scrapedMatch": "MOL Essence 10W-40",
+    "specMap": {
+      "Вязкость": "10W-40",
+      "Класс": "API SL/CF, ACEA A3/B4",
+      "Допуски": "VW 501.01/505.00",
+      "Плотность при 15°C": "0,871",
+      "Температура застывания": "-33",
+      "Температура вспышки (по Кливленду)": "220"
+    }
+  }
+]

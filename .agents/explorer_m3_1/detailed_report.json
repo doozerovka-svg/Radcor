@@ -1,0 +1,1236 @@
+{
+  "totalCount": 38,
+  "completeSpecs": [],
+  "incompleteSpecs": [
+    {
+      "index": 1,
+      "sku": "MOL-1004",
+      "name": "MOL Dynamic Max 10W-40",
+      "name_ro": "MOL Dynamic Max 10W-40",
+      "brand": "MOL",
+      "specsCount": 3,
+      "presentKeys": [
+        "Вязкость",
+        "Класс",
+        "Допуски"
+      ],
+      "missingKeys": [
+        "Плотность при 15°C",
+        "Температура вспышки (по Кливленду)",
+        "Температура застывания"
+      ],
+      "oemApprovalRaw": "MB 229.3, VW 502.00/505.00",
+      "viscosityRaw": "10W-40",
+      "classRaw": "API SL/CF, ACEA A3/B4-08",
+      "densityRaw": null,
+      "flashPointRaw": null,
+      "pourPointRaw": null,
+      "hasDescriptionRU": true,
+      "hasDescriptionRO": true
+    },
+    {
+      "index": 2,
+      "sku": "MOL-1005",
+      "name": "MOL Essence C3 5W-40",
+      "name_ro": "MOL Essence C3 5W-40",
+      "brand": "MOL",
+      "specsCount": 4,
+      "presentKeys": [
+        "Допуски",
+        "Плотность при 15°C",
+        "Температура вспышки (по Кливленду)",
+        "Температура застывания"
+      ],
+      "missingKeys": [
+        "Вязкость",
+        "Класс"
+      ],
+      "oemApprovalRaw": "ACEA C3, ACEA C2, API SN/CF, VW 502 00/505 01, Renault RN0700, Renault RN0710",
+      "viscosityRaw": null,
+      "classRaw": null,
+      "densityRaw": "0,849",
+      "flashPointRaw": "235",
+      "pourPointRaw": "-33",
+      "hasDescriptionRU": true,
+      "hasDescriptionRO": true
+    },
+    {
+      "index": 3,
+      "sku": "MOL-1006",
+      "name": "MOL Dynamic Gold HEV 0W-20",
+      "name_ro": "MOL Dynamic Gold HEV 0W-20",
+      "brand": "MOL",
+      "specsCount": 4,
+      "presentKeys": [
+        "Допуски",
+        "Температура вспышки (по Кливленду)",
+        "Температура застывания"
+      ],
+      "missingKeys": [
+        "Вязкость",
+        "Класс",
+        "Плотность при 15°C"
+      ],
+      "oemApprovalRaw": "API SP, API SP (RC), ILSAC GF-6A",
+      "viscosityRaw": null,
+      "classRaw": null,
+      "densityRaw": null,
+      "flashPointRaw": "226",
+      "pourPointRaw": "-45",
+      "hasDescriptionRU": true,
+      "hasDescriptionRO": true
+    },
+    {
+      "index": 4,
+      "sku": "MOL-1011",
+      "name": "MOL Dynamic Gold Longlife 5W-30",
+      "name_ro": "MOL Dynamic Gold Longlife 5W-30",
+      "brand": "MOL",
+      "specsCount": 3,
+      "presentKeys": [
+        "Вязкость",
+        "Класс",
+        "Допуски"
+      ],
+      "missingKeys": [
+        "Плотность при 15°C",
+        "Температура вспышки (по Кливленду)",
+        "Температура застывания"
+      ],
+      "oemApprovalRaw": "VW 504.00/507.00, MB 229.51",
+      "viscosityRaw": "5W-30",
+      "classRaw": "API SN/CF, ACEA A3/B4-04",
+      "densityRaw": null,
+      "flashPointRaw": null,
+      "pourPointRaw": null,
+      "hasDescriptionRU": true,
+      "hasDescriptionRO": true
+    },
+    {
+      "index": 5,
+      "sku": "MOL-1018",
+      "name": "MOL Dynamic Gold Longlife 0W-20",
+      "name_ro": "MOL Dynamic Gold Longlife 0W-20",
+      "brand": "MOL",
+      "specsCount": 4,
+      "presentKeys": [
+        "Допуски",
+        "Плотность при 15°C",
+        "Температура вспышки (по Кливленду)",
+        "Температура застывания"
+      ],
+      "missingKeys": [
+        "Вязкость",
+        "Класс"
+      ],
+      "oemApprovalRaw": "ACEA C5, API SN Plus, VW 508 00/509 00",
+      "viscosityRaw": null,
+      "classRaw": null,
+      "densityRaw": "0,836",
+      "flashPointRaw": "230",
+      "pourPointRaw": "-51",
+      "hasDescriptionRU": true,
+      "hasDescriptionRO": true
+    },
+    {
+      "index": 6,
+      "sku": "MOL-1019",
+      "name": "MOL Dynamic Star VL 0W-20",
+      "name_ro": "MOL Dynamic Star VL 0W-20",
+      "brand": "MOL",
+      "specsCount": 3,
+      "presentKeys": [
+        "Вязкость",
+        "Класс",
+        "Допуски"
+      ],
+      "missingKeys": [
+        "Плотность при 15°C",
+        "Температура вспышки (по Кливленду)",
+        "Температура застывания"
+      ],
+      "oemApprovalRaw": "Volvo VCC RBS0-2AE",
+      "viscosityRaw": "0W-20",
+      "classRaw": "ACEA C5",
+      "densityRaw": null,
+      "flashPointRaw": null,
+      "pourPointRaw": null,
+      "hasDescriptionRU": true,
+      "hasDescriptionRO": true
+    },
+    {
+      "index": 7,
+      "sku": "MOL-1022",
+      "name": "MOL Dynamic Gold DX 0W-20",
+      "name_ro": "MOL Dynamic Gold DX 0W-20",
+      "brand": "MOL",
+      "specsCount": 4,
+      "presentKeys": [
+        "Допуски",
+        "Плотность при 15°C",
+        "Температура вспышки (по Кливленду)",
+        "Температура застывания"
+      ],
+      "missingKeys": [
+        "Вязкость",
+        "Класс"
+      ],
+      "oemApprovalRaw": "API SN, API SP, Opel OV 040 1547 - A20, ILSAC GF-5, ILSAC GF-6A",
+      "viscosityRaw": null,
+      "classRaw": null,
+      "densityRaw": "0,847",
+      "flashPointRaw": "230",
+      "pourPointRaw": "-45",
+      "hasDescriptionRU": true,
+      "hasDescriptionRO": true
+    },
+    {
+      "index": 8,
+      "sku": "MOL-1023",
+      "name": "MOL Dynamic Star PC 0W-30",
+      "name_ro": "MOL Dynamic Star PC 0W-30",
+      "brand": "MOL",
+      "specsCount": 4,
+      "presentKeys": [
+        "Допуски",
+        "Плотность при 15°C",
+        "Температура вспышки (по Кливленду)",
+        "Температура застывания"
+      ],
+      "missingKeys": [
+        "Вязкость",
+        "Класс"
+      ],
+      "oemApprovalRaw": "ACEA C2, PSA B71 2312",
+      "viscosityRaw": null,
+      "classRaw": null,
+      "densityRaw": "0,844",
+      "flashPointRaw": "220",
+      "pourPointRaw": "-48",
+      "hasDescriptionRU": true,
+      "hasDescriptionRO": true
+    },
+    {
+      "index": 9,
+      "sku": "MOL-1025",
+      "name": "MOL Botond 20W-50",
+      "name_ro": "MOL Botond 20W-50",
+      "brand": "MOL",
+      "specsCount": 4,
+      "presentKeys": [
+        "Допуски",
+        "Плотность при 15°C",
+        "Температура вспышки (по Кливленду)",
+        "Температура застывания"
+      ],
+      "missingKeys": [
+        "Вязкость",
+        "Класс"
+      ],
+      "oemApprovalRaw": "API SF/CC, MIL-L-46152B",
+      "viscosityRaw": null,
+      "classRaw": null,
+      "densityRaw": "0,887",
+      "flashPointRaw": "240",
+      "pourPointRaw": "-27",
+      "hasDescriptionRU": true,
+      "hasDescriptionRO": true
+    },
+    {
+      "index": 10,
+      "sku": "MOL-1030",
+      "name": "MOL Essence 10W-40",
+      "name_ro": "MOL Essence 10W-40",
+      "brand": "MOL",
+      "specsCount": 3,
+      "presentKeys": [
+        "Вязкость",
+        "Класс",
+        "Допуски"
+      ],
+      "missingKeys": [
+        "Плотность при 15°C",
+        "Температура вспышки (по Кливленду)",
+        "Температура застывания"
+      ],
+      "oemApprovalRaw": "VW 501.01/505.00",
+      "viscosityRaw": "10W-40",
+      "classRaw": "API SL/CF, ACEA A3/B4-08",
+      "densityRaw": null,
+      "flashPointRaw": null,
+      "pourPointRaw": null,
+      "hasDescriptionRU": true,
+      "hasDescriptionRO": true
+    },
+    {
+      "index": 11,
+      "sku": "MOL-1031",
+      "name": "MOL Dynamic Synt RN17 5W-30",
+      "name_ro": "MOL Dynamic Synt RN17 5W-30",
+      "brand": "MOL",
+      "specsCount": 4,
+      "presentKeys": [
+        "Допуски",
+        "Плотность при 15°C",
+        "Температура вспышки (по Кливленду)",
+        "Температура застывания"
+      ],
+      "missingKeys": [
+        "Вязкость",
+        "Класс"
+      ],
+      "oemApprovalRaw": "ACEA C3, ACEA C2, Renault RN17, API SP, MB 229.51, MB 229.52, MB 229.31, Renault RN0700, Renault RN0710, Fiat 9.55535-S1, MB 226.52, ILSAC GF-6A",
+      "viscosityRaw": null,
+      "classRaw": null,
+      "densityRaw": "0,854",
+      "flashPointRaw": "234",
+      "pourPointRaw": "-45",
+      "hasDescriptionRU": true,
+      "hasDescriptionRO": true
+    },
+    {
+      "index": 12,
+      "sku": "MOL-1032",
+      "name": "MOL Essence 15W-50",
+      "name_ro": "MOL Essence 15W-50",
+      "brand": "MOL",
+      "specsCount": 4,
+      "presentKeys": [
+        "Допуски",
+        "Плотность при 15°C",
+        "Температура вспышки (по Кливленду)",
+        "Температура застывания"
+      ],
+      "missingKeys": [
+        "Вязкость",
+        "Класс"
+      ],
+      "oemApprovalRaw": "API SJ/CF",
+      "viscosityRaw": null,
+      "classRaw": null,
+      "densityRaw": "0,879",
+      "flashPointRaw": "220",
+      "pourPointRaw": "-24",
+      "hasDescriptionRU": true,
+      "hasDescriptionRO": true
+    },
+    {
+      "index": 13,
+      "sku": "MOL-1035",
+      "name": "MOL Dynamic Star PC 5W-30",
+      "name_ro": "MOL Dynamic Star PC 5W-30",
+      "brand": "MOL",
+      "specsCount": 2,
+      "presentKeys": [
+        "Вязкость",
+        "Допуски"
+      ],
+      "missingKeys": [
+        "Класс",
+        "Плотность при 15°C",
+        "Температура вспышки (по Кливленду)",
+        "Температура застывания"
+      ],
+      "oemApprovalRaw": "PSA Peugeot Citroen B71 2290, Fiat 9.55535-S1",
+      "viscosityRaw": "5W-30",
+      "classRaw": null,
+      "densityRaw": null,
+      "flashPointRaw": null,
+      "pourPointRaw": null,
+      "hasDescriptionRU": true,
+      "hasDescriptionRO": true
+    },
+    {
+      "index": 14,
+      "sku": "MOL-1038",
+      "name": "MOL Dynamic Gas Eco+ 15W-40",
+      "name_ro": "MOL Dynamic Gas Eco+ 15W-40",
+      "brand": "MOL",
+      "specsCount": 4,
+      "presentKeys": [
+        "Допуски",
+        "Плотность при 15°C",
+        "Температура вспышки (по Кливленду)",
+        "Температура застывания"
+      ],
+      "missingKeys": [
+        "Вязкость",
+        "Класс"
+      ],
+      "oemApprovalRaw": "ACEA E7, API CI-4/SL",
+      "viscosityRaw": null,
+      "classRaw": null,
+      "densityRaw": "0,885",
+      "flashPointRaw": "225",
+      "pourPointRaw": "-33",
+      "hasDescriptionRU": true,
+      "hasDescriptionRO": true
+    },
+    {
+      "index": 15,
+      "sku": "MOL-1040",
+      "name": "MOL Dynamic Synt RN 5W-30",
+      "name_ro": "MOL Dynamic Synt RN 5W-30",
+      "brand": "MOL",
+      "specsCount": 3,
+      "presentKeys": [
+        "Вязкость",
+        "Класс",
+        "Допуски"
+      ],
+      "missingKeys": [
+        "Плотность при 15°C",
+        "Температура вспышки (по Кливленду)",
+        "Температура застывания"
+      ],
+      "oemApprovalRaw": "Renault RN0720",
+      "viscosityRaw": "5W-30",
+      "classRaw": "ACEA C4",
+      "densityRaw": null,
+      "flashPointRaw": null,
+      "pourPointRaw": null,
+      "hasDescriptionRU": true,
+      "hasDescriptionRO": true
+    },
+    {
+      "index": 16,
+      "sku": "MOL-1043",
+      "name": "MOL Dynamic Gold DX 5W-30",
+      "name_ro": "MOL Dynamic Gold DX 5W-30",
+      "brand": "MOL",
+      "specsCount": 3,
+      "presentKeys": [
+        "Вязкость",
+        "Класс",
+        "Допуски"
+      ],
+      "missingKeys": [
+        "Плотность при 15°C",
+        "Температура вспышки (по Кливленду)",
+        "Температура застывания"
+      ],
+      "oemApprovalRaw": "GM dexos1 Gen2",
+      "viscosityRaw": "5W-30",
+      "classRaw": "API SN",
+      "densityRaw": null,
+      "flashPointRaw": null,
+      "pourPointRaw": null,
+      "hasDescriptionRU": true,
+      "hasDescriptionRO": true
+    },
+    {
+      "index": 17,
+      "sku": "MOL-1046",
+      "name": "MOL Essence Longlife 5W-30",
+      "name_ro": "MOL Essence Longlife 5W-30",
+      "brand": "MOL",
+      "specsCount": 4,
+      "presentKeys": [
+        "Допуски",
+        "Плотность при 15°C",
+        "Температура вспышки (по Кливленду)",
+        "Температура застывания"
+      ],
+      "missingKeys": [
+        "Вязкость",
+        "Класс"
+      ],
+      "oemApprovalRaw": "ACEA C3, API SN, VW 504 00/507 00, BMW Longlife-04",
+      "viscosityRaw": null,
+      "classRaw": null,
+      "densityRaw": "0,852",
+      "flashPointRaw": "220",
+      "pourPointRaw": "-45",
+      "hasDescriptionRU": true,
+      "hasDescriptionRO": true
+    },
+    {
+      "index": 18,
+      "sku": "MOL-1047",
+      "name": "MOL Dynamic Star F 0W-30",
+      "name_ro": "MOL Dynamic Star F 0W-30",
+      "brand": "MOL",
+      "specsCount": 4,
+      "presentKeys": [
+        "Допуски",
+        "Плотность при 15°C",
+        "Температура вспышки (по Кливленду)",
+        "Температура застывания"
+      ],
+      "missingKeys": [
+        "Вязкость",
+        "Класс"
+      ],
+      "oemApprovalRaw": "ACEA C2, Fiat 9.55535-DS1, Fiat 9.55535-GS1",
+      "viscosityRaw": null,
+      "classRaw": null,
+      "densityRaw": "0,844",
+      "flashPointRaw": "230",
+      "pourPointRaw": "-54",
+      "hasDescriptionRU": true,
+      "hasDescriptionRO": true
+    },
+    {
+      "index": 19,
+      "sku": "MOL-1050",
+      "name": "MOL Dynamic Star 5W-30",
+      "name_ro": "MOL Dynamic Star 5W-30",
+      "brand": "MOL",
+      "specsCount": 3,
+      "presentKeys": [
+        "Вязкость",
+        "Класс",
+        "Допуски"
+      ],
+      "missingKeys": [
+        "Плотность при 15°C",
+        "Температура вспышки (по Кливленду)",
+        "Температура застывания"
+      ],
+      "oemApprovalRaw": "MB 229.51, BMW Longlife-04",
+      "viscosityRaw": "5W-30",
+      "classRaw": "ACEA C3, API SN/CF",
+      "densityRaw": null,
+      "flashPointRaw": null,
+      "pourPointRaw": null,
+      "hasDescriptionRU": true,
+      "hasDescriptionRO": true
+    },
+    {
+      "index": 20,
+      "sku": "MOL-1052",
+      "name": "MOL Dynamic Gold 5W-30",
+      "name_ro": "MOL Dynamic Gold 5W-30",
+      "brand": "MOL",
+      "specsCount": 3,
+      "presentKeys": [
+        "Вязкость",
+        "Класс",
+        "Допуски"
+      ],
+      "missingKeys": [
+        "Плотность при 15°C",
+        "Температура вспышки (по Кливленду)",
+        "Температура застывания"
+      ],
+      "oemApprovalRaw": "MB 229.5, VW 502.00/505.00",
+      "viscosityRaw": "5W-30",
+      "classRaw": "API SN/CF, ACEA A3/B4",
+      "densityRaw": null,
+      "flashPointRaw": null,
+      "pourPointRaw": null,
+      "hasDescriptionRU": true,
+      "hasDescriptionRO": true
+    },
+    {
+      "index": 21,
+      "sku": "MOL-1055",
+      "name": "MOL MSE 15W-40",
+      "name_ro": "MOL MSE 15W-40",
+      "brand": "MOL",
+      "specsCount": 4,
+      "presentKeys": [
+        "Допуски",
+        "Плотность при 15°C",
+        "Температура вспышки (по Кливленду)",
+        "Температура застывания"
+      ],
+      "missingKeys": [
+        "Вязкость",
+        "Класс"
+      ],
+      "oemApprovalRaw": "API SF/CC, MIL-L-46152B",
+      "viscosityRaw": null,
+      "classRaw": null,
+      "densityRaw": "0,879",
+      "flashPointRaw": "225",
+      "pourPointRaw": "-27",
+      "hasDescriptionRU": true,
+      "hasDescriptionRO": true
+    },
+    {
+      "index": 22,
+      "sku": "MOL-1061",
+      "name": "MOL Dynamic Gold Longlife 0W-30",
+      "name_ro": "MOL Dynamic Gold Longlife 0W-30",
+      "brand": "MOL",
+      "specsCount": 4,
+      "presentKeys": [
+        "Допуски",
+        "Плотность при 15°C",
+        "Температура вспышки (по Кливленду)",
+        "Температура застывания"
+      ],
+      "missingKeys": [
+        "Вязкость",
+        "Класс"
+      ],
+      "oemApprovalRaw": "VW 504 00/507 00, ACEA C3, BMW Longlife-04",
+      "viscosityRaw": null,
+      "classRaw": null,
+      "densityRaw": "0,843",
+      "flashPointRaw": "240",
+      "pourPointRaw": "-45",
+      "hasDescriptionRU": true,
+      "hasDescriptionRO": true
+    },
+    {
+      "index": 23,
+      "sku": "MOL-1070",
+      "name": "MOL Dynamic Gold DX 5W-20",
+      "name_ro": "MOL Dynamic Gold DX 5W-20",
+      "brand": "MOL",
+      "specsCount": 4,
+      "presentKeys": [
+        "Допуски",
+        "Плотность при 15°C",
+        "Температура вспышки (по Кливленду)",
+        "Температура застывания"
+      ],
+      "missingKeys": [
+        "Вязкость",
+        "Класс"
+      ],
+      "oemApprovalRaw": "API SP, Opel OV 040 1547 - A20, Ford WSS-M2C-960-A1, Chrysler MS-6395, ILSAC GF-6A",
+      "viscosityRaw": null,
+      "classRaw": null,
+      "densityRaw": "0,847",
+      "flashPointRaw": "230",
+      "pourPointRaw": "-39",
+      "hasDescriptionRU": true,
+      "hasDescriptionRO": true
+    },
+    {
+      "index": 24,
+      "sku": "MOL-DYN-ESS-5W30",
+      "name": "MOL Essence 5W-30",
+      "name_ro": "Ulei de motor MOL Dynamic Essence 5W-30",
+      "brand": "MOL",
+      "specsCount": 2,
+      "presentKeys": [
+        "Вязкость",
+        "Допуски"
+      ],
+      "missingKeys": [
+        "Класс",
+        "Плотность при 15°C",
+        "Температура вспышки (по Кливленду)",
+        "Температура застывания"
+      ],
+      "oemApprovalRaw": "ACEA A3/B4-04, API SL/CF, VW 502 00/505 00, BMW Longlife-01",
+      "viscosityRaw": "5W-30",
+      "classRaw": null,
+      "densityRaw": null,
+      "flashPointRaw": null,
+      "pourPointRaw": null,
+      "hasDescriptionRU": true,
+      "hasDescriptionRO": true
+    },
+    {
+      "index": 25,
+      "sku": "MOL-DYN-ESS-C2-5W30",
+      "name": "MOL Essence DPF 5W-30",
+      "name_ro": "MOL Dynamic Essence C2 5W-30",
+      "brand": "MOL",
+      "specsCount": 3,
+      "presentKeys": [
+        "Вязкость",
+        "Класс",
+        "Допуски"
+      ],
+      "missingKeys": [
+        "Плотность при 15°C",
+        "Температура вспышки (по Кливленду)",
+        "Температура застывания"
+      ],
+      "oemApprovalRaw": "VW 502.00/505.00, Renault RN0700",
+      "viscosityRaw": "5W-30",
+      "classRaw": "API SN/CF, ACEA C2",
+      "densityRaw": null,
+      "flashPointRaw": null,
+      "pourPointRaw": null,
+      "hasDescriptionRU": true,
+      "hasDescriptionRO": true
+    },
+    {
+      "index": 26,
+      "sku": "MOL-DYN-ESS-DSL-5W40",
+      "name": "MOL Essence Diesel 5W-40",
+      "name_ro": "MOL Dynamic Essence Diesel 5W-40",
+      "brand": "MOL",
+      "specsCount": 3,
+      "presentKeys": [
+        "Вязкость",
+        "Класс",
+        "Допуски"
+      ],
+      "missingKeys": [
+        "Плотность при 15°C",
+        "Температура вспышки (по Кливленду)",
+        "Температура застывания"
+      ],
+      "oemApprovalRaw": "VW 502.00/505.00",
+      "viscosityRaw": "5W-40",
+      "classRaw": "API SN/CF, ACEA A3/B4-08",
+      "densityRaw": null,
+      "flashPointRaw": null,
+      "pourPointRaw": null,
+      "hasDescriptionRU": true,
+      "hasDescriptionRO": true
+    },
+    {
+      "index": 27,
+      "sku": "MOL-DYN-ESS-5W40",
+      "name": "MOL Essence 5W-40",
+      "name_ro": "Ulei de motor MOL Dynamic Essence 5W-40",
+      "brand": "MOL",
+      "specsCount": 2,
+      "presentKeys": [
+        "Вязкость",
+        "Допуски"
+      ],
+      "missingKeys": [
+        "Класс",
+        "Плотность при 15°C",
+        "Температура вспышки (по Кливленду)",
+        "Температура застывания"
+      ],
+      "oemApprovalRaw": "API SN, ACEA A3/B4-08, VW 502 00/505 00, Renault RN0700/0710",
+      "viscosityRaw": "5W-40",
+      "classRaw": null,
+      "densityRaw": null,
+      "flashPointRaw": null,
+      "pourPointRaw": null,
+      "hasDescriptionRU": true,
+      "hasDescriptionRO": true
+    },
+    {
+      "index": 28,
+      "sku": "MOL-DYN-STAR-0W20",
+      "name": "MOL Dynamic Gold NG 0W-20",
+      "name_ro": "MOL Dynamic Star 0W-20",
+      "brand": "MOL",
+      "specsCount": 3,
+      "presentKeys": [
+        "Вязкость",
+        "Класс",
+        "Допуски"
+      ],
+      "missingKeys": [
+        "Плотность при 15°C",
+        "Температура вспышки (по Кливленду)",
+        "Температура застывания"
+      ],
+      "oemApprovalRaw": "Ford WSS-M2C-948-B",
+      "viscosityRaw": "0W-20",
+      "classRaw": "ACEA C5",
+      "densityRaw": null,
+      "flashPointRaw": null,
+      "pourPointRaw": null,
+      "hasDescriptionRU": true,
+      "hasDescriptionRO": true
+    },
+    {
+      "index": 29,
+      "sku": "MOL-DYN-ESS-DSL-10W40",
+      "name": "MOL Essence Diesel 10W-40",
+      "name_ro": "MOL Dynamic Essence Diesel 10W-40",
+      "brand": "MOL",
+      "specsCount": 3,
+      "presentKeys": [
+        "Вязкость",
+        "Класс",
+        "Допуски"
+      ],
+      "missingKeys": [
+        "Плотность при 15°C",
+        "Температура вспышки (по Кливленду)",
+        "Температура застывания"
+      ],
+      "oemApprovalRaw": "VW 505.00",
+      "viscosityRaw": "10W-40",
+      "classRaw": "API CF/SL, ACEA A3/B4",
+      "densityRaw": null,
+      "flashPointRaw": null,
+      "pourPointRaw": null,
+      "hasDescriptionRU": true,
+      "hasDescriptionRO": true
+    },
+    {
+      "index": 30,
+      "sku": "MOL-DYN-ESS-15W40",
+      "name": "MOL Essence 15W-40",
+      "name_ro": "MOL Dynamic Essence 15W-40",
+      "brand": "MOL",
+      "specsCount": 2,
+      "presentKeys": [
+        "Вязкость",
+        "Класс"
+      ],
+      "missingKeys": [
+        "Допуски",
+        "Плотность при 15°C",
+        "Температура вспышки (по Кливленду)",
+        "Температура застывания"
+      ],
+      "oemApprovalRaw": null,
+      "viscosityRaw": "15W-40",
+      "classRaw": "API SJ/CF",
+      "densityRaw": null,
+      "flashPointRaw": null,
+      "pourPointRaw": null,
+      "hasDescriptionRU": true,
+      "hasDescriptionRO": true
+    },
+    {
+      "index": 31,
+      "sku": "YUKO-CLASSIC-15W40",
+      "name": "Yuko Dynamic 15W-40",
+      "name_ro": "Ulei de motor YUKO CLASSIC 15W-40",
+      "brand": "YUKO",
+      "specsCount": 1,
+      "presentKeys": [
+        "Вязкость"
+      ],
+      "missingKeys": [
+        "Класс",
+        "Допуски",
+        "Плотность при 15°C",
+        "Температура вспышки (по Кливленду)",
+        "Температура застывания"
+      ],
+      "oemApprovalRaw": null,
+      "viscosityRaw": "15W-40",
+      "classRaw": null,
+      "densityRaw": null,
+      "flashPointRaw": null,
+      "pourPointRaw": null,
+      "hasDescriptionRU": true,
+      "hasDescriptionRO": true
+    },
+    {
+      "index": 32,
+      "sku": "YUKO-VEGA-10W40",
+      "name": "Моторное масло YUKO VEGA SYNT 10W-40",
+      "name_ro": "Ulei de motor YUKO VEGA SYNT 10W-40",
+      "brand": "YUKO",
+      "specsCount": 1,
+      "presentKeys": [
+        "Вязкость"
+      ],
+      "missingKeys": [
+        "Класс",
+        "Допуски",
+        "Плотность при 15°C",
+        "Температура вспышки (по Кливленду)",
+        "Температура застывания"
+      ],
+      "oemApprovalRaw": null,
+      "viscosityRaw": "10W-40",
+      "classRaw": null,
+      "densityRaw": null,
+      "flashPointRaw": null,
+      "pourPointRaw": null,
+      "hasDescriptionRU": true,
+      "hasDescriptionRO": true
+    },
+    {
+      "index": 33,
+      "sku": "YUKO-SYNETIC-5W30",
+      "name": "Моторное масло YUKO Synetic 5W-30 (1 л)",
+      "name_ro": "Ulei de motor YUKO Synetic 5W-30 (1 л)",
+      "brand": "YUKO",
+      "specsCount": 1,
+      "presentKeys": [
+        "Вязкость"
+      ],
+      "missingKeys": [
+        "Класс",
+        "Допуски",
+        "Плотность при 15°C",
+        "Температура вспышки (по Кливленду)",
+        "Температура застывания"
+      ],
+      "oemApprovalRaw": null,
+      "viscosityRaw": "5W-30",
+      "classRaw": null,
+      "densityRaw": null,
+      "flashPointRaw": null,
+      "pourPointRaw": null,
+      "hasDescriptionRU": true,
+      "hasDescriptionRO": true
+    },
+    {
+      "index": 34,
+      "sku": "YUKO-SYNETIC-5W40",
+      "name": "Yuko Synthetic 5W-40",
+      "name_ro": "Ulei de motor YUKO Synetic 5W-40 (1 л)",
+      "brand": "YUKO",
+      "specsCount": 1,
+      "presentKeys": [
+        "Вязкость"
+      ],
+      "missingKeys": [
+        "Класс",
+        "Допуски",
+        "Плотность при 15°C",
+        "Температура вспышки (по Кливленду)",
+        "Температура застывания"
+      ],
+      "oemApprovalRaw": null,
+      "viscosityRaw": "5W-40",
+      "classRaw": null,
+      "densityRaw": null,
+      "flashPointRaw": null,
+      "pourPointRaw": null,
+      "hasDescriptionRU": true,
+      "hasDescriptionRO": true
+    },
+    {
+      "index": 35,
+      "sku": "MOL-DYN-PRIMA-5W40",
+      "name": "MOL Prima 5W-40",
+      "name_ro": "Ulei de motor MOL Dynamic Prima 5W-40",
+      "brand": "MOL",
+      "specsCount": 2,
+      "presentKeys": [
+        "Вязкость",
+        "Допуски"
+      ],
+      "missingKeys": [
+        "Класс",
+        "Плотность при 15°C",
+        "Температура вспышки (по Кливленду)",
+        "Температура застывания"
+      ],
+      "oemApprovalRaw": "DPF, API SM/CF, ACEA C3, VW 502 00/505 00/505 01, MB 229.51",
+      "viscosityRaw": "5W-40",
+      "classRaw": null,
+      "densityRaw": null,
+      "flashPointRaw": null,
+      "pourPointRaw": null,
+      "hasDescriptionRU": true,
+      "hasDescriptionRO": true
+    },
+    {
+      "index": 36,
+      "sku": "MOL-HYBRID-0W16",
+      "name": "MOL Dynamic Gold NG 0W-16",
+      "name_ro": "MOL Dynamic Hybrid 0W-16",
+      "brand": "MOL",
+      "specsCount": 2,
+      "presentKeys": [
+        "Вязкость",
+        "Допуски"
+      ],
+      "missingKeys": [
+        "Класс",
+        "Плотность при 15°C",
+        "Температура вспышки (по Кливленду)",
+        "Температура застывания"
+      ],
+      "oemApprovalRaw": "API SP, ILSAC GF-6B",
+      "viscosityRaw": "0W-16",
+      "classRaw": null,
+      "densityRaw": null,
+      "flashPointRaw": null,
+      "pourPointRaw": null,
+      "hasDescriptionRU": true,
+      "hasDescriptionRO": true
+    },
+    {
+      "index": 37,
+      "sku": "MOL-DYN-STAR-VL-0W30",
+      "name": "MOL Dynamic Star VL 0W-30",
+      "name_ro": "MOL Dynamic Star VL 0W-30",
+      "brand": "MOL",
+      "specsCount": 3,
+      "presentKeys": [
+        "Вязкость",
+        "Класс",
+        "Допуски"
+      ],
+      "missingKeys": [
+        "Плотность при 15°C",
+        "Температура вспышки (по Кливленду)",
+        "Температура застывания"
+      ],
+      "oemApprovalRaw": "Volvo VCC 95200377",
+      "viscosityRaw": "0W-30",
+      "classRaw": "ACEA A5/B5, A1/B1",
+      "densityRaw": null,
+      "flashPointRaw": null,
+      "pourPointRaw": null,
+      "hasDescriptionRU": true,
+      "hasDescriptionRO": true
+    },
+    {
+      "index": 38,
+      "sku": "MOL-ESSENCE-SL-10W40",
+      "name": "MOL Essence SL 10W-40",
+      "name_ro": "MOL Essence SL 10W-40",
+      "brand": "MOL",
+      "specsCount": 3,
+      "presentKeys": [
+        "Вязкость",
+        "Класс",
+        "Допуски"
+      ],
+      "missingKeys": [
+        "Плотность при 15°C",
+        "Температура вспышки (по Кливленду)",
+        "Температура застывания"
+      ],
+      "oemApprovalRaw": "VW 501.01/505.00",
+      "viscosityRaw": "10W-40",
+      "classRaw": "API SL/CF, ACEA A3/B4",
+      "densityRaw": null,
+      "flashPointRaw": null,
+      "pourPointRaw": null,
+      "hasDescriptionRU": true,
+      "hasDescriptionRO": true
+    }
+  ],
+  "zeroSpecs": [],
+  "rule2Compliance": [
+    {
+      "sku": "MOL-1004",
+      "name": "MOL Dynamic Max 10W-40",
+      "oemApproval": "MB 229.3, VW 502.00/505.00",
+      "isRawString": true,
+      "containsOriginalSeparators": true
+    },
+    {
+      "sku": "MOL-1005",
+      "name": "MOL Essence C3 5W-40",
+      "oemApproval": "ACEA C3, ACEA C2, API SN/CF, VW 502 00/505 01, Renault RN0700, Renault RN0710",
+      "isRawString": true,
+      "containsOriginalSeparators": true
+    },
+    {
+      "sku": "MOL-1006",
+      "name": "MOL Dynamic Gold HEV 0W-20",
+      "oemApproval": "API SP, API SP (RC), ILSAC GF-6A",
+      "isRawString": true,
+      "containsOriginalSeparators": true
+    },
+    {
+      "sku": "MOL-1011",
+      "name": "MOL Dynamic Gold Longlife 5W-30",
+      "oemApproval": "VW 504.00/507.00, MB 229.51",
+      "isRawString": true,
+      "containsOriginalSeparators": true
+    },
+    {
+      "sku": "MOL-1018",
+      "name": "MOL Dynamic Gold Longlife 0W-20",
+      "oemApproval": "ACEA C5, API SN Plus, VW 508 00/509 00",
+      "isRawString": true,
+      "containsOriginalSeparators": true
+    },
+    {
+      "sku": "MOL-1019",
+      "name": "MOL Dynamic Star VL 0W-20",
+      "oemApproval": "Volvo VCC RBS0-2AE",
+      "isRawString": true,
+      "containsOriginalSeparators": true
+    },
+    {
+      "sku": "MOL-1022",
+      "name": "MOL Dynamic Gold DX 0W-20",
+      "oemApproval": "API SN, API SP, Opel OV 040 1547 - A20, ILSAC GF-5, ILSAC GF-6A",
+      "isRawString": true,
+      "containsOriginalSeparators": true
+    },
+    {
+      "sku": "MOL-1023",
+      "name": "MOL Dynamic Star PC 0W-30",
+      "oemApproval": "ACEA C2, PSA B71 2312",
+      "isRawString": true,
+      "containsOriginalSeparators": true
+    },
+    {
+      "sku": "MOL-1025",
+      "name": "MOL Botond 20W-50",
+      "oemApproval": "API SF/CC, MIL-L-46152B",
+      "isRawString": true,
+      "containsOriginalSeparators": true
+    },
+    {
+      "sku": "MOL-1030",
+      "name": "MOL Essence 10W-40",
+      "oemApproval": "VW 501.01/505.00",
+      "isRawString": true,
+      "containsOriginalSeparators": true
+    },
+    {
+      "sku": "MOL-1031",
+      "name": "MOL Dynamic Synt RN17 5W-30",
+      "oemApproval": "ACEA C3, ACEA C2, Renault RN17, API SP, MB 229.51, MB 229.52, MB 229.31, Renault RN0700, Renault RN0710, Fiat 9.55535-S1, MB 226.52, ILSAC GF-6A",
+      "isRawString": true,
+      "containsOriginalSeparators": true
+    },
+    {
+      "sku": "MOL-1032",
+      "name": "MOL Essence 15W-50",
+      "oemApproval": "API SJ/CF",
+      "isRawString": true,
+      "containsOriginalSeparators": true
+    },
+    {
+      "sku": "MOL-1035",
+      "name": "MOL Dynamic Star PC 5W-30",
+      "oemApproval": "PSA Peugeot Citroen B71 2290, Fiat 9.55535-S1",
+      "isRawString": true,
+      "containsOriginalSeparators": true
+    },
+    {
+      "sku": "MOL-1038",
+      "name": "MOL Dynamic Gas Eco+ 15W-40",
+      "oemApproval": "ACEA E7, API CI-4/SL",
+      "isRawString": true,
+      "containsOriginalSeparators": true
+    },
+    {
+      "sku": "MOL-1040",
+      "name": "MOL Dynamic Synt RN 5W-30",
+      "oemApproval": "Renault RN0720",
+      "isRawString": true,
+      "containsOriginalSeparators": false
+    },
+    {
+      "sku": "MOL-1043",
+      "name": "MOL Dynamic Gold DX 5W-30",
+      "oemApproval": "GM dexos1 Gen2",
+      "isRawString": true,
+      "containsOriginalSeparators": false
+    },
+    {
+      "sku": "MOL-1046",
+      "name": "MOL Essence Longlife 5W-30",
+      "oemApproval": "ACEA C3, API SN, VW 504 00/507 00, BMW Longlife-04",
+      "isRawString": true,
+      "containsOriginalSeparators": true
+    },
+    {
+      "sku": "MOL-1047",
+      "name": "MOL Dynamic Star F 0W-30",
+      "oemApproval": "ACEA C2, Fiat 9.55535-DS1, Fiat 9.55535-GS1",
+      "isRawString": true,
+      "containsOriginalSeparators": true
+    },
+    {
+      "sku": "MOL-1050",
+      "name": "MOL Dynamic Star 5W-30",
+      "oemApproval": "MB 229.51, BMW Longlife-04",
+      "isRawString": true,
+      "containsOriginalSeparators": true
+    },
+    {
+      "sku": "MOL-1052",
+      "name": "MOL Dynamic Gold 5W-30",
+      "oemApproval": "MB 229.5, VW 502.00/505.00",
+      "isRawString": true,
+      "containsOriginalSeparators": true
+    },
+    {
+      "sku": "MOL-1055",
+      "name": "MOL MSE 15W-40",
+      "oemApproval": "API SF/CC, MIL-L-46152B",
+      "isRawString": true,
+      "containsOriginalSeparators": true
+    },
+    {
+      "sku": "MOL-1061",
+      "name": "MOL Dynamic Gold Longlife 0W-30",
+      "oemApproval": "VW 504 00/507 00, ACEA C3, BMW Longlife-04",
+      "isRawString": true,
+      "containsOriginalSeparators": true
+    },
+    {
+      "sku": "MOL-1070",
+      "name": "MOL Dynamic Gold DX 5W-20",
+      "oemApproval": "API SP, Opel OV 040 1547 - A20, Ford WSS-M2C-960-A1, Chrysler MS-6395, ILSAC GF-6A",
+      "isRawString": true,
+      "containsOriginalSeparators": true
+    },
+    {
+      "sku": "MOL-DYN-ESS-5W30",
+      "name": "MOL Essence 5W-30",
+      "oemApproval": "ACEA A3/B4-04, API SL/CF, VW 502 00/505 00, BMW Longlife-01",
+      "isRawString": true,
+      "containsOriginalSeparators": true
+    },
+    {
+      "sku": "MOL-DYN-ESS-C2-5W30",
+      "name": "MOL Essence DPF 5W-30",
+      "oemApproval": "VW 502.00/505.00, Renault RN0700",
+      "isRawString": true,
+      "containsOriginalSeparators": true
+    },
+    {
+      "sku": "MOL-DYN-ESS-DSL-5W40",
+      "name": "MOL Essence Diesel 5W-40",
+      "oemApproval": "VW 502.00/505.00",
+      "isRawString": true,
+      "containsOriginalSeparators": true
+    },
+    {
+      "sku": "MOL-DYN-ESS-5W40",
+      "name": "MOL Essence 5W-40",
+      "oemApproval": "API SN, ACEA A3/B4-08, VW 502 00/505 00, Renault RN0700/0710",
+      "isRawString": true,
+      "containsOriginalSeparators": true
+    },
+    {
+      "sku": "MOL-DYN-STAR-0W20",
+      "name": "MOL Dynamic Gold NG 0W-20",
+      "oemApproval": "Ford WSS-M2C-948-B",
+      "isRawString": true,
+      "containsOriginalSeparators": true
+    },
+    {
+      "sku": "MOL-DYN-ESS-DSL-10W40",
+      "name": "MOL Essence Diesel 10W-40",
+      "oemApproval": "VW 505.00",
+      "isRawString": true,
+      "containsOriginalSeparators": false
+    },
+    {
+      "sku": "MOL-DYN-PRIMA-5W40",
+      "name": "MOL Prima 5W-40",
+      "oemApproval": "DPF, API SM/CF, ACEA C3, VW 502 00/505 00/505 01, MB 229.51",
+      "isRawString": true,
+      "containsOriginalSeparators": true
+    },
+    {
+      "sku": "MOL-HYBRID-0W16",
+      "name": "MOL Dynamic Gold NG 0W-16",
+      "oemApproval": "API SP, ILSAC GF-6B",
+      "isRawString": true,
+      "containsOriginalSeparators": true
+    },
+    {
+      "sku": "MOL-DYN-STAR-VL-0W30",
+      "name": "MOL Dynamic Star VL 0W-30",
+      "oemApproval": "Volvo VCC 95200377",
+      "isRawString": true,
+      "containsOriginalSeparators": false
+    },
+    {
+      "sku": "MOL-ESSENCE-SL-10W40",
+      "name": "MOL Essence SL 10W-40",
+      "oemApproval": "VW 501.01/505.00",
+      "isRawString": true,
+      "containsOriginalSeparators": true
+    }
+  ],
+  "keyCoverage": {
+    "Вязкость": 24,
+    "Класс": 15,
+    "Допуски": 33,
+    "Плотность при 15°C": 13,
+    "Температура вспышки (по Кливленду)": 14,
+    "Температура застывания": 14
+  }
+}

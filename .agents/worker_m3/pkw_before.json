@@ -1,0 +1,2819 @@
+[
+  {
+    "sku": "MOL-1004",
+    "name": "MOL Dynamic Max 10W-40",
+    "category": "motor-oils-pkw",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md//images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Max_10W-40.jpg",
+    "volumes": [
+      1,
+      4,
+      50,
+      198,
+      983,
+      991,
+      994
+    ],
+    "description": "Полусинтетическое моторное масло высшего сорта для большинства современных транспортных средств.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "10W-40"
+      },
+      {
+        "label": "Класс",
+        "value": "API SL/CF, ACEA A3/B4-08"
+      },
+      {
+        "label": "Допуски",
+        "value": "MB 229.3, VW 502.00/505.00"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 124,
+    "barrel_vol": 198,
+    "barrel_price": 14880,
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 124,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 462,
+        "label": "4 л"
+      },
+      {
+        "id": "p-50",
+        "volume_l": 50,
+        "price_mdl": 4792,
+        "label": "50 л (Бочка)"
+      },
+      {
+        "id": "p-198",
+        "volume_l": 198,
+        "price_mdl": 14880,
+        "label": "198 л (Бочка)"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 68810,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 74325,
+        "label": "991 л (Еврокуб)"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 79520,
+        "label": "994 л"
+      }
+    ],
+    "name_ro": "MOL Dynamic Max 10W-40",
+    "description_ro": "Semisintetic моторное масло высшего сорта для большинства современных транспортных средств."
+  },
+  {
+    "sku": "MOL-1005",
+    "name": "MOL Essence C3 5W-40",
+    "category": "motor-oils-pkw",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md//images/mol_hu/lub/autosok/motorolajok/1L_MOl_Essence_C3_5W-40_persp_w.jpg",
+    "volumes": [
+      983,
+      994,
+      991
+    ],
+    "description": "синтетическое моторное масло",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "ACEA C3, ACEA C2, API SN/CF, VW 502 00/505 01, Renault RN0700, Renault RN0710"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,849"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-33"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "235"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0,
+    "name_ro": "MOL Essence C3 5W-40",
+    "description_ro": "sintetic моторное масло",
+    "packs": [
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 68810,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 79520,
+        "label": "994 л"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л (Еврокуб)"
+      }
+    ]
+  },
+  {
+    "sku": "MOL-1006",
+    "name": "MOL Dynamic Gold HEV 0W-20",
+    "category": "motor-oils-pkw",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Gold_HEV_0W-20.jpg",
+    "volumes": [
+      983,
+      991,
+      994
+    ],
+    "description": "моторное масло",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "API SP, API SP (RC), ILSAC GF-6A"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-45"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "226"
+      },
+      {
+        "label": "Плотность при 15°С",
+        "value": "0,843"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0,
+    "name_ro": "MOL Dynamic Gold HEV 0W-20",
+    "description_ro": "моторное масло",
+    "packs": [
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 68810,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л (Еврокуб)"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
+      }
+    ]
+  },
+  {
+    "sku": "MOL-1011",
+    "name": "MOL Dynamic Gold Longlife 5W-30",
+    "category": "motor-oils-pkw",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Gold_Longlife_5W-30.jpg",
+    "volumes": [
+      1,
+      4,
+      5,
+      10,
+      50,
+      198,
+      983,
+      991,
+      994
+    ],
+    "description": "Синтетическое моторное масло высшего сорта для большинства современных транспортных средств.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "5W-30"
+      },
+      {
+        "label": "Класс",
+        "value": "API SN/CF, ACEA A3/B4-04"
+      },
+      {
+        "label": "Допуски",
+        "value": "VW 504.00/507.00, MB 229.51"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 154,
+    "barrel_vol": 198,
+    "barrel_price": 26400,
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 154,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 564,
+        "label": "4 л"
+      },
+      {
+        "id": "p-5",
+        "volume_l": 5,
+        "price_mdl": 700,
+        "label": "5 л"
+      },
+      {
+        "id": "p-10",
+        "volume_l": 10,
+        "price_mdl": 1380,
+        "label": "10 л"
+      },
+      {
+        "id": "p-50",
+        "volume_l": 50,
+        "price_mdl": 7488,
+        "label": "50 л (Бочка)"
+      },
+      {
+        "id": "p-198",
+        "volume_l": 198,
+        "price_mdl": 26400,
+        "label": "198 л (Бочка)"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л (Еврокуб)"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
+      }
+    ],
+    "name_ro": "MOL Dynamic Gold Longlife 5W-30",
+    "description_ro": "Sintetic моторное масло высшего сорта для большинства современных транспортных средств."
+  },
+  {
+    "sku": "MOL-1018",
+    "name": "MOL Dynamic Gold Longlife 0W-20",
+    "category": "motor-oils-pkw",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Gold_Longlife_0W-20_web.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208,
+      983,
+      991,
+      994
+    ],
+    "description": "Синтетическое моторное масло премиум класса для самых современных автомобилей.",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "ACEA C5, API SN Plus, VW 508 00/509 00"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,836"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-51"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "230"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0,
+    "name_ro": "MOL Dynamic Gold Longlife 0W-20",
+    "description_ro": "Sintetic моторное масло премиум класса для самых современных автомобилей.",
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 50,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 200,
+        "label": "4 л"
+      },
+      {
+        "id": "p-60",
+        "volume_l": 60,
+        "price_mdl": 3000,
+        "label": "60 л"
+      },
+      {
+        "id": "p-208",
+        "volume_l": 208,
+        "price_mdl": 10400,
+        "label": "208 л"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л (Еврокуб)"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
+      }
+    ]
+  },
+  {
+    "sku": "MOL-1019",
+    "name": "MOL Dynamic Star VL 0W-20",
+    "category": "motor-oils-pkw",
+    "brand": "MOL",
+    "photo_url": "",
+    "volumes": [
+      1,
+      4,
+      983,
+      991,
+      994
+    ],
+    "description": "Синтетическое моторное масло премиум качества для самых современных автомобилей, предназначенное, в первую очередь, для легковых автомобилей Volvo",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "0W-20"
+      },
+      {
+        "label": "Класс",
+        "value": "ACEA C5"
+      },
+      {
+        "label": "Допуски",
+        "value": "Volvo VCC RBS0-2AE"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 171,
+    "barrel_vol": 4,
+    "barrel_price": 612,
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 171,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 612,
+        "label": "4 л"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л (Еврокуб)"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
+      }
+    ],
+    "name_ro": "MOL Dynamic Star VL 0W-20",
+    "description_ro": "Sintetic моторное масло премиум качества для самых современных автомобилей, предназначенное, в первую очередь, pentru autoturisme Volvo"
+  },
+  {
+    "sku": "MOL-1022",
+    "name": "MOL Dynamic Gold DX 0W-20",
+    "category": "motor-oils-pkw",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Gold_DX_0W-20.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208,
+      983,
+      991,
+      994
+    ],
+    "description": "Синтетическое моторное масло премиум качества для самых современных автомобилей",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "API SN, API SP, Opel OV 040 1547 - A20, ILSAC GF-5, ILSAC GF-6A"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,847"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-45"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "230"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0,
+    "name_ro": "MOL Dynamic Gold DX 0W-20",
+    "description_ro": "Sintetic моторное масло премиум качества для самых современных автомобилей",
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 50,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 200,
+        "label": "4 л"
+      },
+      {
+        "id": "p-60",
+        "volume_l": 60,
+        "price_mdl": 3000,
+        "label": "60 л"
+      },
+      {
+        "id": "p-208",
+        "volume_l": 208,
+        "price_mdl": 10400,
+        "label": "208 л"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л (Еврокуб)"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
+      }
+    ]
+  },
+  {
+    "sku": "MOL-1023",
+    "name": "MOL Dynamic Star PC 0W-30",
+    "category": "motor-oils-pkw",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1l_mol_dynamic_star_pc_0w-30_resized.png",
+    "volumes": [
+      1,
+      4,
+      60,
+      208,
+      983,
+      991,
+      994
+    ],
+    "description": "Синтетическое моторное масло премиум класса для автомобилей последнего поколения.",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "ACEA C2, PSA B71 2312"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,844"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-48"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "220"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0,
+    "name_ro": "MOL Dynamic Star PC 0W-30",
+    "description_ro": "Sintetic моторное масло премиум класса для автомобилей последнего поколения.",
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 50,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 200,
+        "label": "4 л"
+      },
+      {
+        "id": "p-60",
+        "volume_l": 60,
+        "price_mdl": 3000,
+        "label": "60 л"
+      },
+      {
+        "id": "p-208",
+        "volume_l": 208,
+        "price_mdl": 10400,
+        "label": "208 л"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л (Еврокуб)"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
+      }
+    ]
+  },
+  {
+    "sku": "MOL-1025",
+    "name": "MOL Botond 20W-50",
+    "category": "motor-oils-pkw",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Botond_20W-50.jpg",
+    "volumes": [
+      983,
+      991,
+      994
+    ],
+    "description": "Моторное масло для транспортных средств более ранних моделей с большим пробегом.",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "API SF/CC, MIL-L-46152B"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,887"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-27"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "240"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0,
+    "name_ro": "MOL Botond 20W-50",
+    "description_ro": "Ulei de motor для транспортных средств более ранних моделей с большим пробегом.",
+    "packs": [
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 68810,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 74325,
+        "label": "991 л (Еврокуб)"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
+      }
+    ]
+  },
+  {
+    "sku": "MOL-1030",
+    "name": "MOL Essence 10W-40",
+    "category": "motor-oils-pkw",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Essence_10W-40.jpg",
+    "volumes": [
+      1,
+      4,
+      5,
+      10,
+      50,
+      198,
+      202,
+      983,
+      991,
+      994
+    ],
+    "description": "Моторное масло для увеличенного ресурса.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "10W-40"
+      },
+      {
+        "label": "Класс",
+        "value": "API SL/CF, ACEA A3/B4-08"
+      },
+      {
+        "label": "Допуски",
+        "value": "VW 501.01/505.00"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 95,
+    "barrel_vol": 202,
+    "barrel_price": 15392,
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 95,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 357,
+        "label": "4 л"
+      },
+      {
+        "id": "p-5",
+        "volume_l": 5,
+        "price_mdl": 440,
+        "label": "5 л"
+      },
+      {
+        "id": "p-10",
+        "volume_l": 10,
+        "price_mdl": 780,
+        "label": "10 л"
+      },
+      {
+        "id": "p-50",
+        "volume_l": 50,
+        "price_mdl": 3940,
+        "label": "50 л (Бочка)"
+      },
+      {
+        "id": "p-198",
+        "volume_l": 198,
+        "price_mdl": 14880,
+        "label": "198 л (Бочка)"
+      },
+      {
+        "id": "p-202",
+        "volume_l": 202,
+        "price_mdl": 15392,
+        "label": "202 л (Бочка)"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л (Еврокуб)"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
+      }
+    ],
+    "name_ro": "MOL Essence 10W-40",
+    "description_ro": "Ulei de motor для увеличенного ресурса."
+  },
+  {
+    "sku": "MOL-1031",
+    "name": "MOL Dynamic Synt RN17 5W-30",
+    "category": "motor-oils-pkw",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Synt_RN17_5W-30.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208,
+      983,
+      991,
+      994
+    ],
+    "description": "синтетическое моторное масло",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "ACEA C3, ACEA C2, Renault RN17, API SP, MB 229.51, MB 229.52, MB 229.31, Renault RN0700, Renault RN0710, Fiat 9.55535-S1, MB 226.52, ILSAC GF-6A"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,854"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-45"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "234"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0,
+    "name_ro": "MOL Dynamic Synt RN17 5W-30",
+    "description_ro": "sintetic моторное масло",
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 50,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 200,
+        "label": "4 л"
+      },
+      {
+        "id": "p-60",
+        "volume_l": 60,
+        "price_mdl": 3000,
+        "label": "60 л"
+      },
+      {
+        "id": "p-208",
+        "volume_l": 208,
+        "price_mdl": 10400,
+        "label": "208 л"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л (Еврокуб)"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
+      }
+    ]
+  },
+  {
+    "sku": "MOL-1032",
+    "name": "MOL Essence 15W-50",
+    "category": "motor-oils-pkw",
+    "brand": "MOL",
+    "photo_url": "",
+    "volumes": [
+      1,
+      4,
+      60,
+      208,
+      983,
+      991,
+      994
+    ],
+    "description": "Моторное масло для увеличения срока службы двигателя",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "API SJ/CF"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,879"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-24"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "220"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0,
+    "name_ro": "MOL Essence 15W-50",
+    "description_ro": "Ulei de motor для увеличения срока службы двигателя",
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 50,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 200,
+        "label": "4 л"
+      },
+      {
+        "id": "p-60",
+        "volume_l": 60,
+        "price_mdl": 3000,
+        "label": "60 л"
+      },
+      {
+        "id": "p-208",
+        "volume_l": 208,
+        "price_mdl": 10400,
+        "label": "208 л"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л (Еврокуб)"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
+      }
+    ]
+  },
+  {
+    "sku": "MOL-1035",
+    "name": "MOL Dynamic Star PC 5W-30",
+    "category": "motor-oils-pkw",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Star_PC_5W-30.jpg",
+    "volumes": [
+      1,
+      4,
+      198,
+      983,
+      991,
+      994
+    ],
+    "description": "Синтетическое моторное масло высшего сорта для большинства современных транспортных средств.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "5W-30"
+      },
+      {
+        "label": "Допуски",
+        "value": "PSA Peugeot Citroen B71 2290, Fiat 9.55535-S1"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 136,
+    "barrel_vol": 198,
+    "barrel_price": 19992,
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 136,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 494,
+        "label": "4 л"
+      },
+      {
+        "id": "p-198",
+        "volume_l": 198,
+        "price_mdl": 19992,
+        "label": "198 л (Бочка)"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л (Еврокуб)"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
+      }
+    ],
+    "name_ro": "MOL Dynamic Star PC 5W-30",
+    "description_ro": "Sintetic моторное масло высшего сорта для большинства современных транспортных средств."
+  },
+  {
+    "sku": "MOL-1038",
+    "name": "MOL Dynamic Gas Eco+ 15W-40",
+    "category": "motor-oils-pkw",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Gas-eco+_15W-40.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208,
+      983,
+      991,
+      994
+    ],
+    "description": "Масло высшего сорта для мобильных газовых двигателей автомобилей, работающих на газе.",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "ACEA E7, API CI-4/SL"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,885"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-33"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "225"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0,
+    "name_ro": "MOL Dynamic Gas Eco+ 15W-40",
+    "description_ro": "Масло высшего сорта для мобильных газовых двигателей автомобилей, работающих на газе.",
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 50,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 200,
+        "label": "4 л"
+      },
+      {
+        "id": "p-60",
+        "volume_l": 60,
+        "price_mdl": 3000,
+        "label": "60 л"
+      },
+      {
+        "id": "p-208",
+        "volume_l": 208,
+        "price_mdl": 10400,
+        "label": "208 л"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л (Еврокуб)"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
+      }
+    ]
+  },
+  {
+    "sku": "MOL-1040",
+    "name": "MOL Dynamic Synt RN 5W-30",
+    "category": "motor-oils-pkw",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Synt_RN_5W-30.jpg",
+    "volumes": [
+      1,
+      4,
+      198,
+      983,
+      991,
+      994
+    ],
+    "description": "Синтетическое моторное масло высшего сорта для большинства современных транспортных средств.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "5W-30"
+      },
+      {
+        "label": "Класс",
+        "value": "ACEA C4"
+      },
+      {
+        "label": "Допуски",
+        "value": "Renault RN0720"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 130,
+    "barrel_vol": 198,
+    "barrel_price": 21600,
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 130,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 474,
+        "label": "4 л"
+      },
+      {
+        "id": "p-198",
+        "volume_l": 198,
+        "price_mdl": 21600,
+        "label": "198 л (Бочка)"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л (Еврокуб)"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
+      }
+    ],
+    "name_ro": "MOL Dynamic Synt RN 5W-30",
+    "description_ro": "Sintetic моторное масло высшего сорта для большинства современных транспортных средств."
+  },
+  {
+    "sku": "MOL-1043",
+    "name": "MOL Dynamic Gold DX 5W-30",
+    "category": "motor-oils-pkw",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Gold_DX_5W-30-nnn.jpg",
+    "volumes": [
+      1,
+      4,
+      50,
+      198,
+      983,
+      991,
+      994
+    ],
+    "description": "Синтетическое моторное масло премиум класса для автомобилей последнего поколения.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "5W-30"
+      },
+      {
+        "label": "Класс",
+        "value": "API SN"
+      },
+      {
+        "label": "Допуски",
+        "value": "GM dexos1 Gen2"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 135,
+    "barrel_vol": 198,
+    "barrel_price": 19800,
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 135,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 492,
+        "label": "4 л"
+      },
+      {
+        "id": "p-50",
+        "volume_l": 50,
+        "price_mdl": 5688,
+        "label": "50 л (Бочка)"
+      },
+      {
+        "id": "p-198",
+        "volume_l": 198,
+        "price_mdl": 19800,
+        "label": "198 л (Бочка)"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л (Еврокуб)"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
+      }
+    ],
+    "name_ro": "MOL Dynamic Gold DX 5W-30",
+    "description_ro": "Sintetic моторное масло премиум класса для автомобилей последнего поколения."
+  },
+  {
+    "sku": "MOL-1046",
+    "name": "MOL Essence Longlife 5W-30",
+    "category": "motor-oils-pkw",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md//images/mol_hu/lub/autosok/motorolajok/1L_MOL_Essence_Longlife_5W-30_persp_w.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208,
+      983,
+      991,
+      994
+    ],
+    "description": "синтетическое моторное масло",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "ACEA C3, API SN, VW 504 00/507 00, BMW Longlife-04"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,852"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-45"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "220"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0,
+    "name_ro": "MOL Essence Longlife 5W-30",
+    "description_ro": "sintetic моторное масло",
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 50,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 200,
+        "label": "4 л"
+      },
+      {
+        "id": "p-60",
+        "volume_l": 60,
+        "price_mdl": 3000,
+        "label": "60 л"
+      },
+      {
+        "id": "p-208",
+        "volume_l": 208,
+        "price_mdl": 10400,
+        "label": "208 л"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л (Еврокуб)"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
+      }
+    ]
+  },
+  {
+    "sku": "MOL-1047",
+    "name": "MOL Dynamic Star F 0W-30",
+    "category": "motor-oils-pkw",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/dynamic_star_f0w_30_1L.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208,
+      983,
+      991,
+      994
+    ],
+    "description": "Синтетическое премиальное моторное масло для самых современных автомобилей.",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "ACEA C2, Fiat 9.55535-DS1, Fiat 9.55535-GS1"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,844"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-54"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "230"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0,
+    "name_ro": "MOL Dynamic Star F 0W-30",
+    "description_ro": "Sintetic премиальное моторное масло для самых современных автомобилей.",
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 50,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 200,
+        "label": "4 л"
+      },
+      {
+        "id": "p-60",
+        "volume_l": 60,
+        "price_mdl": 3000,
+        "label": "60 л"
+      },
+      {
+        "id": "p-208",
+        "volume_l": 208,
+        "price_mdl": 10400,
+        "label": "208 л"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л (Еврокуб)"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
+      }
+    ]
+  },
+  {
+    "sku": "MOL-1050",
+    "name": "MOL Dynamic Star 5W-30",
+    "category": "motor-oils-pkw",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Star_5W-30.jpg",
+    "volumes": [
+      1,
+      4,
+      50,
+      202,
+      983,
+      991,
+      994
+    ],
+    "description": "Синтетическое моторное масло высшего сорта для большинства современных транспортных средств.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "5W-30"
+      },
+      {
+        "label": "Класс",
+        "value": "ACEA C3, API SN/CF"
+      },
+      {
+        "label": "Допуски",
+        "value": "MB 229.51, BMW Longlife-04"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 146,
+    "barrel_vol": 202,
+    "barrel_price": 19992,
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 146,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 538,
+        "label": "4 л"
+      },
+      {
+        "id": "p-50",
+        "volume_l": 50,
+        "price_mdl": 6050,
+        "label": "50 л (Бочка)"
+      },
+      {
+        "id": "p-202",
+        "volume_l": 202,
+        "price_mdl": 19992,
+        "label": "202 л (Бочка)"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л (Еврокуб)"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
+      }
+    ],
+    "name_ro": "MOL Dynamic Star 5W-30",
+    "description_ro": "Sintetic моторное масло высшего сорта для большинства современных транспортных средств."
+  },
+  {
+    "sku": "MOL-1052",
+    "name": "MOL Dynamic Gold 5W-30",
+    "category": "motor-oils-pkw",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Gold_5W-30-nnn.jpg",
+    "volumes": [
+      1,
+      4,
+      50,
+      198,
+      983,
+      991,
+      994
+    ],
+    "description": "Синтетическое моторное масло высшего сорта для большинства современных транспортных средств.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "5W-30"
+      },
+      {
+        "label": "Класс",
+        "value": "API SN/CF, ACEA A3/B4"
+      },
+      {
+        "label": "Допуски",
+        "value": "MB 229.5, VW 502.00/505.00"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 124,
+    "barrel_vol": 198,
+    "barrel_price": 17832,
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 124,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 470,
+        "label": "4 л"
+      },
+      {
+        "id": "p-50",
+        "volume_l": 50,
+        "price_mdl": 4680,
+        "label": "50 л (Бочка)"
+      },
+      {
+        "id": "p-198",
+        "volume_l": 198,
+        "price_mdl": 17832,
+        "label": "198 л (Бочка)"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л (Еврокуб)"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
+      }
+    ],
+    "name_ro": "MOL Dynamic Gold 5W-30",
+    "description_ro": "Sintetic моторное масло высшего сорта для большинства современных транспортных средств."
+  },
+  {
+    "sku": "MOL-1055",
+    "name": "MOL MSE 15W-40",
+    "category": "motor-oils-pkw",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_MSE_15W-40.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208,
+      983,
+      991,
+      994
+    ],
+    "description": "Моторное масло для транспортных средств более ранних моделей с большим пробегом.",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "API SF/CC, MIL-L-46152B"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,879"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-27"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "225"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0,
+    "name_ro": "MOL MSE 15W-40",
+    "description_ro": "Ulei de motor для транспортных средств более ранних моделей с большим пробегом.",
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 50,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 200,
+        "label": "4 л"
+      },
+      {
+        "id": "p-60",
+        "volume_l": 60,
+        "price_mdl": 3000,
+        "label": "60 л"
+      },
+      {
+        "id": "p-208",
+        "volume_l": 208,
+        "price_mdl": 10400,
+        "label": "208 л"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л (Еврокуб)"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
+      }
+    ]
+  },
+  {
+    "sku": "MOL-1061",
+    "name": "MOL Dynamic Gold Longlife 0W-30",
+    "category": "motor-oils-pkw",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Gold Longlife_0W-30_web.jpg",
+    "volumes": [
+      1,
+      4,
+      60,
+      208,
+      983,
+      991,
+      994
+    ],
+    "description": "Синтетическое премиальное моторное масло для самых современных транспортных средств.",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "VW 504 00/507 00, ACEA C3, BMW Longlife-04"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,843"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-45"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "240"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0,
+    "name_ro": "MOL Dynamic Gold Longlife 0W-30",
+    "description_ro": "Sintetic премиальное моторное масло для самых современных транспортных средств.",
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 50,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 200,
+        "label": "4 л"
+      },
+      {
+        "id": "p-60",
+        "volume_l": 60,
+        "price_mdl": 3000,
+        "label": "60 л"
+      },
+      {
+        "id": "p-208",
+        "volume_l": 208,
+        "price_mdl": 10400,
+        "label": "208 л"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л (Еврокуб)"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
+      }
+    ]
+  },
+  {
+    "sku": "MOL-1070",
+    "name": "MOL Dynamic Gold DX 5W-20",
+    "category": "motor-oils-pkw",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Gold_DX_5W-20.jpg",
+    "volumes": [
+      994,
+      983,
+      991
+    ],
+    "description": "Синтетическое моторное масло премиум качества для самых современных автомобилей",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "API SP, Opel OV 040 1547 - A20, Ford WSS-M2C-960-A1, Chrysler MS-6395, ILSAC GF-6A"
+      },
+      {
+        "label": "Плотность при 15°C",
+        "value": "0,847"
+      },
+      {
+        "label": "Температура застывания",
+        "value": "-39"
+      },
+      {
+        "label": "Температура вспышки (по Кливленду)",
+        "value": "230"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 0,
+    "barrel_vol": 208,
+    "barrel_price": 0,
+    "name_ro": "MOL Dynamic Gold DX 5W-20",
+    "description_ro": "Sintetic моторное масло премиум качества для самых современных автомобилей",
+    "packs": [
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 79520,
+        "label": "994 л"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л (Еврокуб)"
+      }
+    ]
+  },
+  {
+    "sku": "MOL-DYN-ESS-5W30",
+    "name": "MOL Essence 5W-30",
+    "category": "motor-oils-pkw",
+    "brand": "MOL",
+    "photo_url": "https://www.mol.com/o/MOL_Public_Content/images/products/mol-essence-5w30.png",
+    "volumes": [
+      1,
+      4,
+      57,
+      199,
+      983,
+      991,
+      994
+    ],
+    "description": "Высокотехнологичное синтетическое масло MOL Dynamic Essence 5W-30 для бензиновых и дизельных моторов.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "5W-30"
+      },
+      {
+        "label": "Допуски",
+        "value": "ACEA A3/B4-04, API SL/CF, VW 502 00/505 00, BMW Longlife-01"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 122,
+    "packs": [
+      {
+        "id": "mol-dyn-ess-5w30-1l",
+        "volume_l": 1,
+        "price_mdl": 122,
+        "label": "1 л"
+      },
+      {
+        "id": "mol-dyn-ess-5w30-4l",
+        "volume_l": 4,
+        "price_mdl": 479,
+        "label": "4 л"
+      },
+      {
+        "id": "mol-dyn-ess-5w30-57l",
+        "volume_l": 57,
+        "price_mdl": 5396,
+        "label": "57 л"
+      },
+      {
+        "id": "mol-dyn-ess-5w30-199l",
+        "volume_l": 199,
+        "price_mdl": 18796,
+        "label": "199 л (Бочка)"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л (Еврокуб)"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
+      }
+    ],
+    "barrel_vol": 198,
+    "barrel_price": 17226,
+    "name_ro": "Ulei de motor MOL Dynamic Essence 5W-30",
+    "description_ro": "Высокотехнологичное sintetic масло MOL Dynamic Essence 5W-30 для бензиновых и дизельных моторов."
+  },
+  {
+    "sku": "MOL-DYN-ESS-C2-5W30",
+    "name": "MOL Essence DPF 5W-30",
+    "category": "motor-oils-pkw",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
+    "volumes": [
+      1,
+      4,
+      50,
+      198,
+      983,
+      991,
+      994
+    ],
+    "description": "Синтетическое ресурсосберегающее масло для двигателей с требованиями ACEA C2.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "5W-30"
+      },
+      {
+        "label": "Класс",
+        "value": "API SN/CF, ACEA C2"
+      },
+      {
+        "label": "Допуски",
+        "value": "VW 502.00/505.00, Renault RN0700"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 130,
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 130,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 480,
+        "label": "4 л"
+      },
+      {
+        "id": "p-50",
+        "volume_l": 50,
+        "price_mdl": 5040,
+        "label": "50 л (Бочка)"
+      },
+      {
+        "id": "p-198",
+        "volume_l": 198,
+        "price_mdl": 18880,
+        "label": "198 л (Бочка)"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л (Еврокуб)"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
+      }
+    ],
+    "barrel_vol": 198,
+    "barrel_price": 18880,
+    "name_ro": "MOL Dynamic Essence C2 5W-30",
+    "description_ro": "Sintetic ресурсосберегающее масло для двигателей с требованиями ACEA C2."
+  },
+  {
+    "sku": "MOL-DYN-ESS-DSL-5W40",
+    "name": "MOL Essence Diesel 5W-40",
+    "category": "motor-oils-pkw",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
+    "volumes": [
+      1,
+      4,
+      50,
+      198,
+      983,
+      991,
+      994
+    ],
+    "description": "Синтетическое дизельное моторное масло повышенной надежности.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "5W-40"
+      },
+      {
+        "label": "Класс",
+        "value": "API SN/CF, ACEA A3/B4-08"
+      },
+      {
+        "label": "Допуски",
+        "value": "VW 502.00/505.00"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 125,
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 125,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 464,
+        "label": "4 л"
+      },
+      {
+        "id": "p-50",
+        "volume_l": 50,
+        "price_mdl": 5040,
+        "label": "50 л (Бочка)"
+      },
+      {
+        "id": "p-198",
+        "volume_l": 198,
+        "price_mdl": 18880,
+        "label": "198 л (Бочка)"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л (Еврокуб)"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
+      }
+    ],
+    "barrel_vol": 198,
+    "barrel_price": 18880,
+    "name_ro": "MOL Dynamic Essence Diesel 5W-40",
+    "description_ro": "Sintetic дизельное моторное масло повышенной надежности."
+  },
+  {
+    "sku": "MOL-DYN-ESS-5W40",
+    "name": "MOL Essence 5W-40",
+    "category": "motor-oils-pkw",
+    "brand": "MOL",
+    "photo_url": "https://www.mol.com/o/MOL_Public_Content/images/products/mol-essence-5w30.png",
+    "volumes": [
+      1,
+      4,
+      57,
+      198,
+      983,
+      991,
+      994
+    ],
+    "description": "Синтетическое моторное масло MOL Dynamic Essence 5W-40 для бензиновых и дизельных двигателей легковых автомобилей.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "5W-40"
+      },
+      {
+        "label": "Допуски",
+        "value": "API SN, ACEA A3/B4-08, VW 502 00/505 00, Renault RN0700/0710"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 120,
+    "packs": [
+      {
+        "id": "mol-dyn-ess-5w40-1l",
+        "volume_l": 1,
+        "price_mdl": 120,
+        "label": "1 л"
+      },
+      {
+        "id": "mol-dyn-ess-5w40-4l",
+        "volume_l": 4,
+        "price_mdl": 458,
+        "label": "4 л"
+      },
+      {
+        "id": "mol-dyn-ess-5w40-57l",
+        "volume_l": 57,
+        "price_mdl": 4900,
+        "label": "57 л"
+      },
+      {
+        "id": "mol-dyn-ess-5w40-198l",
+        "volume_l": 198,
+        "price_mdl": 17025,
+        "label": "198 л (Бочка)"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л (Еврокуб)"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
+      }
+    ],
+    "barrel_vol": 198,
+    "barrel_price": 18880,
+    "name_ro": "Ulei de motor MOL Dynamic Essence 5W-40",
+    "description_ro": "Sintetic моторное масло MOL Dynamic Essence 5W-40 pentru motoare pe benzină și diesel легковых автомобилей."
+  },
+  {
+    "sku": "MOL-DYN-STAR-0W20",
+    "name": "MOL Dynamic Gold NG 0W-20",
+    "category": "motor-oils-pkw",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
+    "volumes": [
+      1,
+      4,
+      983,
+      991,
+      994
+    ],
+    "description": "Сверхлегкое синтетическое масло с официальным допуском Ford EcoBoost.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "0W-20"
+      },
+      {
+        "label": "Класс",
+        "value": "ACEA C5"
+      },
+      {
+        "label": "Допуски",
+        "value": "Ford WSS-M2C-948-B"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 184,
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 184,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 684,
+        "label": "4 л"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л (Еврокуб)"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
+      }
+    ],
+    "barrel_vol": 4,
+    "barrel_price": 684,
+    "name_ro": "MOL Dynamic Star 0W-20",
+    "description_ro": "Сверхлегкое sintetic масло с официальным допуском Ford EcoBoost."
+  },
+  {
+    "sku": "MOL-DYN-ESS-DSL-10W40",
+    "name": "MOL Essence Diesel 10W-40",
+    "category": "motor-oils-pkw",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
+    "volumes": [
+      1,
+      4,
+      50,
+      983,
+      991,
+      994
+    ],
+    "description": "Полусинтетическое моторное масло для дизельных двигателей.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "10W-40"
+      },
+      {
+        "label": "Класс",
+        "value": "API CF/SL, ACEA A3/B4"
+      },
+      {
+        "label": "Допуски",
+        "value": "VW 505.00"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 107,
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 107,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 410,
+        "label": "4 л"
+      },
+      {
+        "id": "p-50",
+        "volume_l": 50,
+        "price_mdl": 3792,
+        "label": "50 л (Бочка)"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л (Еврокуб)"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
+      }
+    ],
+    "barrel_vol": 50,
+    "barrel_price": 3792,
+    "name_ro": "MOL Dynamic Essence Diesel 10W-40",
+    "description_ro": "Semisintetic моторное масло pentru motoare diesel."
+  },
+  {
+    "sku": "MOL-DYN-ESS-15W40",
+    "name": "MOL Essence 15W-40",
+    "category": "motor-oils-pkw",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
+    "volumes": [
+      1,
+      4,
+      50,
+      983,
+      991,
+      994
+    ],
+    "description": "Надежное минеральное масло для регулярного технического обслуживания.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "15W-40"
+      },
+      {
+        "label": "Класс",
+        "value": "API SJ/CF"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 89,
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 89,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 324,
+        "label": "4 л"
+      },
+      {
+        "id": "p-50",
+        "volume_l": 50,
+        "price_mdl": 3990,
+        "label": "50 л (Бочка)"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л (Еврокуб)"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
+      }
+    ],
+    "barrel_vol": 50,
+    "barrel_price": 3990,
+    "name_ro": "MOL Dynamic Essence 15W-40",
+    "description_ro": "Надежное mineral масло для регулярного технического обслуживания."
+  },
+  {
+    "sku": "YUKO-CLASSIC-15W40",
+    "name": "Yuko Dynamic 15W-40",
+    "category": "motor-oils-pkw",
+    "brand": "YUKO",
+    "photo_url": "images/products/yuko-canisters.png",
+    "volumes": [
+      1,
+      4,
+      991,
+      983,
+      994
+    ],
+    "description": "Минеральное моторное масло YUKO CLASSIC 15W-40 для бензиновых и дизельных двигателей автомобилей.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "15W-40"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 60,
+    "packs": [
+      {
+        "id": "yuko-classic-1l",
+        "volume_l": 1,
+        "price_mdl": 60,
+        "label": "1 л"
+      },
+      {
+        "id": "yuko-classic-4l",
+        "volume_l": 4,
+        "price_mdl": 229,
+        "label": "4 л"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 74325,
+        "label": "991 л (Еврокуб)"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
+      }
+    ],
+    "name_ro": "Ulei de motor YUKO CLASSIC 15W-40",
+    "description_ro": "Mineral моторное масло YUKO CLASSIC 15W-40 pentru motoare pe benzină și diesel автомобилей."
+  },
+  {
+    "sku": "YUKO-VEGA-10W40",
+    "name": "Моторное масло YUKO VEGA SYNT 10W-40",
+    "category": "motor-oils-pkw",
+    "brand": "YUKO",
+    "photo_url": "images/products/yuko-canisters.png",
+    "volumes": [
+      1,
+      4,
+      983,
+      991,
+      994
+    ],
+    "description": "Полусинтетическое моторное масло YUKO VEGA SYNT 10W-40 свысокими защитными и моющими свойствами.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "10W-40"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 63,
+    "packs": [
+      {
+        "id": "yuko-vega-10w40-1l",
+        "volume_l": 1,
+        "price_mdl": 63,
+        "label": "1 л"
+      },
+      {
+        "id": "yuko-vega-10w40-4l",
+        "volume_l": 4,
+        "price_mdl": 229,
+        "label": "4 л"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л (Еврокуб)"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
+      }
+    ],
+    "name_ro": "Ulei de motor YUKO VEGA SYNT 10W-40",
+    "description_ro": "Semisintetic моторное масло YUKO VEGA SYNT 10W-40 свысокими защитными и моющими свойствами."
+  },
+  {
+    "sku": "YUKO-SYNETIC-5W30",
+    "name": "Моторное масло YUKO Synetic 5W-30 (1 л)",
+    "category": "motor-oils-pkw",
+    "brand": "YUKO",
+    "photo_url": "images/products/yuko-canisters.png",
+    "volumes": [
+      1,
+      983,
+      991,
+      994
+    ],
+    "description": "Современное синтетическое моторное масло YUKO Synetic 5W-30 для легкого запуска и экономии топлива.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "5W-30"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 81,
+    "packs": [
+      {
+        "id": "yuko-synetic-5w30-1l",
+        "volume_l": 1,
+        "price_mdl": 81,
+        "label": "1 л"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 68810,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 74325,
+        "label": "991 л (Еврокуб)"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 79520,
+        "label": "994 л"
+      }
+    ],
+    "name_ro": "Ulei de motor YUKO Synetic 5W-30 (1 л)",
+    "description_ro": "Современное sintetic моторное масло YUKO Synetic 5W-30 для легкого запуска и экономии топлива."
+  },
+  {
+    "sku": "YUKO-SYNETIC-5W40",
+    "name": "Yuko Synthetic 5W-40",
+    "category": "motor-oils-pkw",
+    "brand": "YUKO",
+    "photo_url": "images/products/yuko-canisters.png",
+    "volumes": [
+      1,
+      983,
+      991,
+      994
+    ],
+    "description": "Синтетическое моторное масло YUKO Synetic 5W-40 для максимальной защиты двигателя в широком диапазоне температур.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "5W-40"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 81,
+    "packs": [
+      {
+        "id": "yuko-synetic-5w40-1l",
+        "volume_l": 1,
+        "price_mdl": 81,
+        "label": "1 л"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 68810,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л (Еврокуб)"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
+      }
+    ],
+    "name_ro": "Ulei de motor YUKO Synetic 5W-40 (1 л)",
+    "description_ro": "Sintetic моторное масло YUKO Synetic 5W-40 для максимальной защиты двигателя в широком диапазоне температур."
+  },
+  {
+    "sku": "MOL-DYN-PRIMA-5W40",
+    "name": "MOL Prima 5W-40",
+    "category": "motor-oils-pkw",
+    "brand": "MOL",
+    "photo_url": "https://www.mol.com/o/MOL_Public_Content/images/products/mol-essence-5w30.png",
+    "volumes": [
+      1,
+      4,
+      57,
+      199,
+      983,
+      991,
+      994
+    ],
+    "description": "Синтетическое малозольное масло MOL Dynamic Prima 5W-40 DPF для современных авто с фильтром сажи.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "5W-40"
+      },
+      {
+        "label": "Допуски",
+        "value": "DPF, API SM/CF, ACEA C3, VW 502 00/505 00/505 01, MB 229.51"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 148,
+    "packs": [
+      {
+        "id": "mol-prima-5w40-1l",
+        "volume_l": 1,
+        "price_mdl": 148,
+        "label": "1 л"
+      },
+      {
+        "id": "mol-prima-5w40-4l",
+        "volume_l": 4,
+        "price_mdl": 568,
+        "label": "4 л"
+      },
+      {
+        "id": "mol-prima-5w40-57l",
+        "volume_l": 57,
+        "price_mdl": 6610,
+        "label": "57 л"
+      },
+      {
+        "id": "mol-prima-5w40-199l",
+        "volume_l": 199,
+        "price_mdl": 22687,
+        "label": "199 л (Бочка)"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 125000,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л (Еврокуб)"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
+      }
+    ],
+    "name_ro": "Ulei de motor MOL Dynamic Prima 5W-40",
+    "description_ro": "Sintetic ulei Low SAPS MOL Dynamic Prima 5W-40 DPF для современных авто с фильтром сажи."
+  },
+  {
+    "sku": "MOL-HYBRID-0W16",
+    "name": "MOL Dynamic Gold NG 0W-16",
+    "name_ro": "MOL Dynamic Hybrid 0W-16",
+    "category": "motor-oils-pkw",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Star_0W-30_c.jpg",
+    "description": "Инновационное гибридное моторное масло сверхнизкой вязкости 0W-16 для максимальной экономии топлива.",
+    "description_ro": "Ulei de motor inovator hibrid cu vâscozitate extrem de redusă 0W-16 pentru economie maximă de combustibil.",
+    "viscosity": "0W-16",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "0W-16"
+      },
+      {
+        "label": "Допуски",
+        "value": "API SP, ILSAC GF-6B"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 260,
+    "barrel_vol": 208,
+    "barrel_price": 18200,
+    "volumes": [
+      1,
+      4,
+      208,
+      983,
+      991,
+      994
+    ],
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 260,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 980,
+        "label": "4 л"
+      },
+      {
+        "id": "p-208",
+        "volume_l": 208,
+        "price_mdl": 18200,
+        "label": "208 л (Бочка)"
+      },
+      {
+        "id": "p-983",
+        "volume_l": 983,
+        "price_mdl": 68810,
+        "label": "983 л (Еврокуб)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 126000,
+        "label": "991 л (Еврокуб)"
+      },
+      {
+        "id": "p-994",
+        "volume_l": 994,
+        "price_mdl": 127000,
+        "label": "994 л"
+      }
+    ]
+  },
+  {
+    "sku": "MOL-DYN-STAR-VL-0W30",
+    "name": "MOL Dynamic Star VL 0W-30",
+    "category": "motor-oils-pkw",
+    "brand": "MOL",
+    "photo_url": "",
+    "volumes": [
+      1,
+      4
+    ],
+    "description": "Синтетическое энергосберегающее моторное масло высшего качества для современных бензиновых и дизельных двигателей легковых автомобилей Volvo.",
+    "name_ro": "MOL Dynamic Star VL 0W-30",
+    "description_ro": "Ulei de motor sintetic de calitate superioară pentru motoarele moderne pe benzină și motorină ale autoturismelor Volvo.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "0W-30"
+      },
+      {
+        "label": "Класс",
+        "value": "ACEA A5/B5, A1/B1"
+      },
+      {
+        "label": "Допуски",
+        "value": "Volvo VCC 95200377"
+      }
+    ],
+    "canister_vol": 1,
+    "canister_price": 210,
+    "barrel_vol": 4,
+    "barrel_price": 780,
+    "packs": [
+      {
+        "id": "p-1",
+        "volume_l": 1,
+        "price_mdl": 210,
+        "label": "1 л"
+      },
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 780,
+        "label": "4 л"
+      }
+    ]
+  },
+  {
+    "sku": "MOL-ESSENCE-SL-10W40",
+    "name": "MOL Essence SL 10W-40",
+    "category": "motor-oils-pkw",
+    "brand": "MOL",
+    "photo_url": "",
+    "volumes": [
+      4,
+      5,
+      20,
+      54,
+      196,
+      991
+    ],
+    "description": "Полусинтетическое моторное масло с высоким уровнем защиты от износа для бензиновых и дизельных двигателей легковых автомобилей.",
+    "name_ro": "MOL Essence SL 10W-40",
+    "description_ro": "Ulei de motor semisintetic cu nivel înalt de protecție împotriva uzurii pentru motoare pe benzină și motorină ale autoturismelor.",
+    "specs": [
+      {
+        "label": "Вязкость",
+        "value": "10W-40"
+      },
+      {
+        "label": "Класс",
+        "value": "API SL/CF, ACEA A3/B4"
+      },
+      {
+        "label": "Допуски",
+        "value": "VW 501.01/505.00"
+      }
+    ],
+    "canister_vol": 4,
+    "canister_price": 390,
+    "barrel_vol": 196,
+    "barrel_price": 16500,
+    "packs": [
+      {
+        "id": "p-4",
+        "volume_l": 4,
+        "price_mdl": 390,
+        "label": "4 л"
+      },
+      {
+        "id": "p-5",
+        "volume_l": 5,
+        "price_mdl": 475,
+        "label": "5 л BiB"
+      },
+      {
+        "id": "p-20",
+        "volume_l": 20,
+        "price_mdl": 1820,
+        "label": "20 л BiB"
+      },
+      {
+        "id": "p-54",
+        "volume_l": 54,
+        "price_mdl": 4700,
+        "label": "54 л (Бочка)"
+      },
+      {
+        "id": "p-196",
+        "volume_l": 196,
+        "price_mdl": 16500,
+        "label": "196 л (Бочка)"
+      },
+      {
+        "id": "p-991",
+        "volume_l": 991,
+        "price_mdl": 79000,
+        "label": "991 л (Еврокуб)"
+      }
+    ]
+  }
+]

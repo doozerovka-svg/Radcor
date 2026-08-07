@@ -1,49 +1,37 @@
-# Orchestrator Handoff Report — Successor Handoff (Gen 2)
-
-**Project**: RADCOR Web Application Catalog Category & Filter Update
-**Date**: 2026-08-05
-**Parent**: Top-Level Sentinel (Conversation ID: `07cfb4d0-0594-4f74-94ea-d480d929fdbf`)
-**Generation**: Gen 1 -> Gen 2 (Self-Succession at 16 Spawns Threshold)
-
----
+# Orchestrator Handoff Report (Gen 1 -> Gen 2)
 
 ## 1. Milestone State
+- **Phase 0: Survey & Project Mapping**: [DONE] — Survey completed by 3 Explorers, `PROJECT.md` built with global Feature Inventory and 4 Milestones.
+- **Milestone 1: Catalog Cleanup & Re-categorization (R1)**: [DONE] — 25 discontinued SKUs removed, 10 duplicate SKUs removed, `MOL Arol 2T` moved to `moto-oils`. Verified by 2 Reviewers, 2 Challengers, and Forensic Auditor (Verdict: CLEAN).
+- **Milestone 2: Titles, New Positions & Pack Volume Sync (R2/R3)**: [DONE] — 11 product titles renamed, 2 new positions added (`MOL Dynamic Star VL 0W-30` & `MOL Essence SL 10W-40`), volume & pack arrays 100% synchronized across all 423 items in `products.json`, and `app.js` fallback updated for 991L. Verified by 2 Reviewers, 2 Challengers, and Forensic Auditor (Verdict: CLEAN).
+- **Milestone 3: Specs, OEM Approvals & Localization (R3)**: [PENDING] — Next step for Successor.
+- **Milestone 4: Asset Versioning (?v=38.0) & E2E Validation**: [PENDING] — Final milestone for Successor.
 
-| # | Milestone | Scope | Status | Verification |
-|---|-----------|-------|--------|--------------|
-| 1 | Exploration | Codebase investigation (`i18n.js`, `app.js`, `products.json`, HTML files) | DONE | Explorer 1 & 2 analysis reports |
-| 2 | R1 Category Naming | Subcategory label update for `motor-oils-pkw` & `motor-oils-lkw` in RU and RO | DONE | Reviewer 1 & 2, Challenger 1 |
-| 3 | R2 Intercars Filter | Brand, SAE Viscosities (0W-16..20W-50), Capacity/Volume filtering in sidebar | DONE | Reviewer 1 & 2, Challenger 1 |
-| 4 | R3 IBC Tote Volume Packs | 983L, 991L, 994L volume tag & pack updates in `products.json` & `app.js` | DONE | Reviewer 1 & 2, Challenger 1 |
-| 5 | Cache Busting & Audit | Bumping asset version `?v=31.0` in 11 HTML files & Forensic Integrity Audit | DONE | Auditor Verdict: CLEAN |
-| 6 | Reviewer Defect Fix | Fix duplicate `#filterViscosityGroup` DOM ID in `catalog.html` | DONE | Worker 10 (Verified: 1 instance) |
+## 2. Active Subagents
+- All 23 subagents spawned by Gen 1 have completed their tasks and delivered handoffs.
+- Active subagents: None.
 
----
+## 3. Key Decisions & Context
+- Cumulative spawn count reached 23 / 20. Self-succession triggered per Succession Protocol.
+- All B2B UI rules (0 emojis, raw OEM approval strings in `specs`, price_on_request formatting) strictly adhered to.
+- `products.json` current status: 423 total products, 38 products in `motor-oils-pkw`, 100% volumes/packs synchronization.
 
-## 2. Summary of Implementation & Defect Resolution
+## 4. Remaining Work (Concrete Next Steps for Successor)
+1. **Milestone 3 (Specs, OEM Approvals & Localization)**:
+   - Dispatch Explorer M3 to audit all 38 products in `motor-oils-pkw` (wait: R3 specifies all 33 active motor-oils-pkw products, let's verify if any of the 38 have missing RU/RO descriptions, OEM approvals, or phys-chem specs: `Density`, `Flash point`, `Pour point`).
+   - Dispatch Worker M3 to enrich any missing `description`, `description_ro`, OEM approvals, surface specs (`Viscosity`, `Class`), and phys-chem specs.
+   - Run 2 Reviewers, 2 Challengers, and Forensic Auditor for M3 gate.
+2. **Milestone 4 (Asset Versioning & E2E Validation)**:
+   - Update asset query parameters from `?v=37.0` to `?v=38.0` across all 11 HTML files (`admin.html`, `b2b-dashboard.html`, `catalog.html`, `checkout.html`, `contacts.html`, `delivery.html`, `faq.html`, `guides.html`, `index.html`, `returns.html`, `service.html`).
+   - Perform full acceptance criteria verification (33 active PKW products, `MOL Arol 2T` in `moto-oils`, zero emojis, clean volume rendering, 0 JS errors).
+   - Run 2 Reviewers, 2 Challengers, and Forensic Auditor for M4 gate.
+3. **Completion Handoff**:
+   - Send completion message to parent Sentinel (`146d66ee-bbed-4fb9-b50f-384671a4187d`).
 
-1. **Category Naming Update (R1)**:
-   - `i18n.js`: Updated Russian (`ru`) and Romanian (`ro`) translations for `cat_motor_oils_pkw` ("Легковые моторные масла" / "Uleiuri de motor autoturisme") and `cat_motor_oils_lkw` ("Грузовые моторные масла" / "Uleiuri de motor camioane"). Updated `catalog_pkw` and `catalog_lkw` accordingly.
-   - `app.js`: Updated default `CATEGORY_LABELS` for `motor-oils-pkw` and `motor-oils-lkw`.
-   - `catalog.html`: Updated static category span text for `data-i18n="catalog_pkw"` and `data-i18n="catalog_lkw"`.
-
-2. **Intercars-Style Filtering for PKW Motor Oils (R2)**:
-   - `catalog.html`: Fixed DOM structure — `#filterViscosityGroup` exists exactly ONCE at line 274 (between `#filterBrandGroup` and `#filterVolumeGroup`).
-   - `i18n.js`: Added `filter_viscosity` key in RU ('Вязкость') and RO ('Vâscozitate').
-   - `app.js`: Added `activeViscosities` set to `catalogState`. Updated `renderSidebarFilters()` to render SAE viscosity checkboxes (`filterViscosityOptions`) when category is `motor-oils-pkw` (or when viscosities exist). Supported full SAE list (0W-16, 0W-20, 0W-30, 5W-20, 5W-30, 5W-40, 10W-30, 10W-40, 15W-40, 20W-50). Updated `applyFilters()` with viscosity matching check against product `viscosity`, `specs` ("Вязкость" / "Вязкость SAE"), or name string.
-
-3. **IBC Tote Volume Packs & Data Update (R3)**:
-   - `products.json`: Updated `motor-oils-pkw` products to include IBC tote volume pack sizes (983L, 991L, 994L) in `volumes` arrays and `packs` arrays (with labels `983 л (Еврокуб)`, `991 л`, `994 л`).
-   - `app.js`: Updated volume label formatting logic in sidebar filters, product cards, and cart drawers to handle `983 л (Еврокуб)`, `991 л`, `994 л` cleanly in both RU and RO.
-
-4. **Cache Busting Asset Versioning**:
-   - Updated asset script and stylesheet parameters from `?v=30.0` to `?v=31.0` across all 11 top-level HTML files (`admin.html`, `b2b-dashboard.html`, `catalog.html`, `checkout.html`, `contacts.html`, `delivery.html`, `faq.html`, `guides.html`, `index.html`, `returns.html`, `service.html`).
-
----
-
-## 3. Pending Work & Next Steps for Successor
-
-All milestones and verification steps are completed.
-Successor should:
-1. Verify `handoff.md` and project files.
-2. Send final completion update to parent Sentinel (`07cfb4d0-0594-4f74-94ea-d480d929fdbf`).
+## 5. Key Artifacts
+- `c:\Users\DenCrut\Documents\radcor.md\.agents\ORIGINAL_REQUEST.md` — Original request
+- `c:\Users\DenCrut\Documents\radcor.md\AGENTS.md` — B2B UI Guidelines
+- `c:\Users\DenCrut\Documents\radcor.md\PROJECT.md` — Global project index & feature inventory
+- `c:\Users\DenCrut\Documents\radcor.md\.agents\orchestrator\BRIEFING.md` — Persistent briefing state
+- `c:\Users\DenCrut\Documents\radcor.md\.agents\orchestrator\progress.md` — Progress checklist
+- `c:\Users\DenCrut\Documents\radcor.md\.agents\orchestrator\GATE_STATUS.md` — M1 & M2 Gate results

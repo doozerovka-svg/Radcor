@@ -1,38 +1,30 @@
-# BRIEFING — 2026-08-05T19:23:10Z
+# BRIEFING — 2026-08-06
 
 ## Mission
-Monitor RADCOR catalog category and filter updates project, manage orchestrator lifecycle, run cron monitoring, and trigger victory audit upon completion.
+Orchestrate and sentinel-monitor the update of the Passenger Car Motor Oils (motor-oils-pkw) catalog according to the 66-point specification.
 
 ## 🔒 My Identity
 - Archetype: sentinel
 - Working directory: c:\Users\DenCrut\Documents\radcor.md\.agents\sentinel
-- Orchestrator: f658e5fe-f078-44d4-a741-5841b63cfc55
-- Victory Auditor: 50d8ec60-2d21-426d-862d-41e8946a3fa1
+- Orchestrator: 2f592501-4957-49da-a3c4-5f752be04ab5
+- Victory Auditor: to be spawned on victory claim
 
 ## 🔒 Key Constraints
 - No technical decisions — relay only
 - Victory Audit is MANDATORY before reporting completion
-- Must not write code or make technical decisions
 
 ## User Context
-- **Last user request**: Update category names ("Легковые моторные масла", "Грузовые моторные масла"), Intercars-style filter panel for Passenger Car Motor Oils with expanded Viscosity (0W-16 to 20W-50) and IBC Tote volume packs (983L, 991L, 994L).
+- **Last user request**: Update Passenger Car Motor Oils catalog in products.json per 66-point spec.
 - **Pending clarifications**: none
-- **Delivered results**:
-  - Category Naming Update in RU & RO ("Легковые моторные масла", "Грузовые моторные масла")
-  - Intercars-style viscosity & brand filtering (0W-16 to 20W-50)
-  - IBC Tote volume packs (983L, 991L, 994L) in catalog and products.json
-  - Cache busting `?v=31.0` in HTML files
-  - 100% PASS in independent Victory Audit
+- **Delivered results**: none
 
 ## Project Status
-- **Phase**: complete
+- **Phase**: in progress
 
 ## Victory Audit Status
-- **Triggered**: yes
-- **Verdict**: VICTORY CONFIRMED
+- **Triggered**: no
+- **Verdict**: pending
 - **Retry count**: 0
 
 ## Artifact Index
 - c:\Users\DenCrut\Documents\radcor.md\.agents\ORIGINAL_REQUEST.md — Original User Request
-- c:\Users\DenCrut\Documents\radcor.md\.agents\orchestrator\handoff.md — Orchestrator Handoff Report
-- c:\Users\DenCrut\Documents\radcor.md\.agents\auditor_1\handoff.md — Victory Audit Report

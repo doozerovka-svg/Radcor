@@ -1,0 +1,196 @@
+FULL AUDIT SUMMARY FOR MOTOR-OILS-PKW (38 PRODUCTS)
+
+[1/38] SKU: MOL-1004 | Name: "MOL Dynamic Max 10W-40"
+  RU: "Полусинтетическое моторное масло высшего сорта для большинства современных транспортных средств."
+  RO: "Semisintetic моторное масло высшего сорта для большинства современных транспортных средств."
+  ❌ ISSUES: RO description MIXED/UNTRANSLATED (contains Cyrillic text: "моторное, масло, высшего, сорта, для, большинства, современных, транспортных, средств")
+
+[2/38] SKU: MOL-1005 | Name: "MOL Essence C3 5W-40"
+  RU: "синтетическое моторное масло"
+  RO: "sintetic моторное масло"
+  ❌ ISSUES: RO description MIXED/UNTRANSLATED (contains Cyrillic text: "моторное, масло")
+
+[3/38] SKU: MOL-1006 | Name: "MOL Dynamic Gold HEV 0W-20"
+  RU: "моторное масло"
+  RO: "моторное масло"
+  ❌ ISSUES: RO description 100% UNTRANSLATED (identical to RU)
+
+[4/38] SKU: MOL-1011 | Name: "MOL Dynamic Gold Longlife 5W-30"
+  RU: "Синтетическое моторное масло высшего сорта для большинства современных транспортных средств."
+  RO: "Sintetic моторное масло высшего сорта для большинства современных транспортных средств."
+  ❌ ISSUES: RO description MIXED/UNTRANSLATED (contains Cyrillic text: "моторное, масло, высшего, сорта, для, большинства, современных, транспортных, средств")
+
+[5/38] SKU: MOL-1018 | Name: "MOL Dynamic Gold Longlife 0W-20"
+  RU: "Синтетическое моторное масло премиум класса для самых современных автомобилей."
+  RO: "Sintetic моторное масло премиум класса для самых современных автомобилей."
+  ❌ ISSUES: RO description MIXED/UNTRANSLATED (contains Cyrillic text: "моторное, масло, премиум, класса, для, самых, современных, автомобилей")
+
+[6/38] SKU: MOL-1019 | Name: "MOL Dynamic Star VL 0W-20"
+  RU: "Синтетическое моторное масло премиум качества для самых современных автомобилей, предназначенное, в первую очередь, для легковых автомобилей Volvo"
+  RO: "Sintetic моторное масло премиум качества для самых современных автомобилей, предназначенное, в первую очередь, pentru autoturisme Volvo"
+  ❌ ISSUES: RO description MIXED/UNTRANSLATED (contains Cyrillic text: "моторное, масло, премиум, качества, для, самых, современных, автомобилей, предназначенное, в, первую, очередь")
+
+[7/38] SKU: MOL-1022 | Name: "MOL Dynamic Gold DX 0W-20"
+  RU: "Синтетическое моторное масло премиум качества для самых современных автомобилей"
+  RO: "Sintetic моторное масло премиум качества для самых современных автомобилей"
+  ❌ ISSUES: RO description MIXED/UNTRANSLATED (contains Cyrillic text: "моторное, масло, премиум, качества, для, самых, современных, автомобилей")
+
+[8/38] SKU: MOL-1023 | Name: "MOL Dynamic Star PC 0W-30"
+  RU: "Синтетическое моторное масло премиум класса для автомобилей последнего поколения."
+  RO: "Sintetic моторное масло премиум класса для автомобилей последнего поколения."
+  ❌ ISSUES: RO description MIXED/UNTRANSLATED (contains Cyrillic text: "моторное, масло, премиум, класса, для, автомобилей, последнего, поколения")
+
+[9/38] SKU: MOL-1025 | Name: "MOL Botond 20W-50"
+  RU: "Моторное масло для транспортных средств более ранних моделей с большим пробегом."
+  RO: "Ulei de motor для транспортных средств более ранних моделей с большим пробегом."
+  ❌ ISSUES: RO description MIXED/UNTRANSLATED (contains Cyrillic text: "для, транспортных, средств, более, ранних, моделей, с, большим, пробегом")
+
+[10/38] SKU: MOL-1030 | Name: "MOL Essence 10W-40"
+  RU: "Моторное масло для увеличенного ресурса."
+  RO: "Ulei de motor для увеличенного ресурса."
+  ❌ ISSUES: RO description MIXED/UNTRANSLATED (contains Cyrillic text: "для, увеличенного, ресурса")
+
+[11/38] SKU: MOL-1031 | Name: "MOL Dynamic Synt RN17 5W-30"
+  RU: "синтетическое моторное масло"
+  RO: "sintetic моторное масло"
+  ❌ ISSUES: RO description MIXED/UNTRANSLATED (contains Cyrillic text: "моторное, масло")
+
+[12/38] SKU: MOL-1032 | Name: "MOL Essence 15W-50"
+  RU: "Моторное масло для увеличения срока службы двигателя"
+  RO: "Ulei de motor для увеличения срока службы двигателя"
+  ❌ ISSUES: RO description MIXED/UNTRANSLATED (contains Cyrillic text: "для, увеличения, срока, службы, двигателя")
+
+[13/38] SKU: MOL-1035 | Name: "MOL Dynamic Star PC 5W-30"
+  RU: "Синтетическое моторное масло высшего сорта для большинства современных транспортных средств."
+  RO: "Sintetic моторное масло высшего сорта для большинства современных транспортных средств."
+  ❌ ISSUES: RO description MIXED/UNTRANSLATED (contains Cyrillic text: "моторное, масло, высшего, сорта, для, большинства, современных, транспортных, средств")
+
+[14/38] SKU: MOL-1038 | Name: "MOL Dynamic Gas Eco+ 15W-40"
+  RU: "Масло высшего сорта для мобильных газовых двигателей автомобилей, работающих на газе."
+  RO: "Масло высшего сорта для мобильных газовых двигателей автомобилей, работающих на газе."
+  ❌ ISSUES: RO description 100% UNTRANSLATED (identical to RU)
+
+[15/38] SKU: MOL-1040 | Name: "MOL Dynamic Synt RN 5W-30"
+  RU: "Синтетическое моторное масло высшего сорта для большинства современных транспортных средств."
+  RO: "Sintetic моторное масло высшего сорта для большинства современных транспортных средств."
+  ❌ ISSUES: RO description MIXED/UNTRANSLATED (contains Cyrillic text: "моторное, масло, высшего, сорта, для, большинства, современных, транспортных, средств")
+
+[16/38] SKU: MOL-1043 | Name: "MOL Dynamic Gold DX 5W-30"
+  RU: "Синтетическое моторное масло премиум класса для автомобилей последнего поколения."
+  RO: "Sintetic моторное масло премиум класса для автомобилей последнего поколения."
+  ❌ ISSUES: RO description MIXED/UNTRANSLATED (contains Cyrillic text: "моторное, масло, премиум, класса, для, автомобилей, последнего, поколения")
+
+[17/38] SKU: MOL-1046 | Name: "MOL Essence Longlife 5W-30"
+  RU: "синтетическое моторное масло"
+  RO: "sintetic моторное масло"
+  ❌ ISSUES: RO description MIXED/UNTRANSLATED (contains Cyrillic text: "моторное, масло")
+
+[18/38] SKU: MOL-1047 | Name: "MOL Dynamic Star F 0W-30"
+  RU: "Синтетическое премиальное моторное масло для самых современных автомобилей."
+  RO: "Sintetic премиальное моторное масло для самых современных автомобилей."
+  ❌ ISSUES: RO description MIXED/UNTRANSLATED (contains Cyrillic text: "премиальное, моторное, масло, для, самых, современных, автомобилей")
+
+[19/38] SKU: MOL-1050 | Name: "MOL Dynamic Star 5W-30"
+  RU: "Синтетическое моторное масло высшего сорта для большинства современных транспортных средств."
+  RO: "Sintetic моторное масло высшего сорта для большинства современных транспортных средств."
+  ❌ ISSUES: RO description MIXED/UNTRANSLATED (contains Cyrillic text: "моторное, масло, высшего, сорта, для, большинства, современных, транспортных, средств")
+
+[20/38] SKU: MOL-1052 | Name: "MOL Dynamic Gold 5W-30"
+  RU: "Синтетическое моторное масло высшего сорта для большинства современных транспортных средств."
+  RO: "Sintetic моторное масло высшего сорта для большинства современных транспортных средств."
+  ❌ ISSUES: RO description MIXED/UNTRANSLATED (contains Cyrillic text: "моторное, масло, высшего, сорта, для, большинства, современных, транспортных, средств")
+
+[21/38] SKU: MOL-1055 | Name: "MOL MSE 15W-40"
+  RU: "Моторное масло для транспортных средств более ранних моделей с большим пробегом."
+  RO: "Ulei de motor для транспортных средств более ранних моделей с большим пробегом."
+  ❌ ISSUES: RO description MIXED/UNTRANSLATED (contains Cyrillic text: "для, транспортных, средств, более, ранних, моделей, с, большим, пробегом")
+
+[22/38] SKU: MOL-1061 | Name: "MOL Dynamic Gold Longlife 0W-30"
+  RU: "Синтетическое премиальное моторное масло для самых современных транспортных средств."
+  RO: "Sintetic премиальное моторное масло для самых современных транспортных средств."
+  ❌ ISSUES: RO description MIXED/UNTRANSLATED (contains Cyrillic text: "премиальное, моторное, масло, для, самых, современных, транспортных, средств")
+
+[23/38] SKU: MOL-1070 | Name: "MOL Dynamic Gold DX 5W-20"
+  RU: "Синтетическое моторное масло премиум качества для самых современных автомобилей"
+  RO: "Sintetic моторное масло премиум качества для самых современных автомобилей"
+  ❌ ISSUES: RO description MIXED/UNTRANSLATED (contains Cyrillic text: "моторное, масло, премиум, качества, для, самых, современных, автомобилей")
+
+[24/38] SKU: MOL-DYN-ESS-5W30 | Name: "MOL Essence 5W-30"
+  RU: "Высокотехнологичное синтетическое масло MOL Dynamic Essence 5W-30 для бензиновых и дизельных моторов."
+  RO: "Высокотехнологичное sintetic масло MOL Dynamic Essence 5W-30 для бензиновых и дизельных моторов."
+  ❌ ISSUES: RO description MIXED/UNTRANSLATED (contains Cyrillic text: "Высокотехнологичное, масло, для, бензиновых, и, дизельных, моторов")
+  ⚠️ WARNINGS: RU description contains legacy product name "MOL Dynamic Essence" (should be "MOL Essence") | RO description contains legacy product name "MOL Dynamic Essence"
+
+[25/38] SKU: MOL-DYN-ESS-C2-5W30 | Name: "MOL Essence DPF 5W-30"
+  RU: "Синтетическое ресурсосберегающее масло для двигателей с требованиями ACEA C2."
+  RO: "Sintetic ресурсосберегающее масло для двигателей с требованиями ACEA C2."
+  ❌ ISSUES: RO description MIXED/UNTRANSLATED (contains Cyrillic text: "ресурсосберегающее, масло, для, двигателей, с, требованиями")
+
+[26/38] SKU: MOL-DYN-ESS-DSL-5W40 | Name: "MOL Essence Diesel 5W-40"
+  RU: "Синтетическое дизельное моторное масло повышенной надежности."
+  RO: "Sintetic дизельное моторное масло повышенной надежности."
+  ❌ ISSUES: RO description MIXED/UNTRANSLATED (contains Cyrillic text: "дизельное, моторное, масло, повышенной, надежности")
+
+[27/38] SKU: MOL-DYN-ESS-5W40 | Name: "MOL Essence 5W-40"
+  RU: "Синтетическое моторное масло MOL Dynamic Essence 5W-40 для бензиновых и дизельных двигателей легковых автомобилей."
+  RO: "Sintetic моторное масло MOL Dynamic Essence 5W-40 pentru motoare pe benzină și diesel легковых автомобилей."
+  ❌ ISSUES: RO description MIXED/UNTRANSLATED (contains Cyrillic text: "моторное, масло, легковых, автомобилей")
+  ⚠️ WARNINGS: RU description contains legacy product name "MOL Dynamic Essence" (should be "MOL Essence") | RO description contains legacy product name "MOL Dynamic Essence"
+
+[28/38] SKU: MOL-DYN-STAR-0W20 | Name: "MOL Dynamic Gold NG 0W-20"
+  RU: "Сверхлегкое синтетическое масло с официальным допуском Ford EcoBoost."
+  RO: "Сверхлегкое sintetic масло с официальным допуском Ford EcoBoost."
+  ❌ ISSUES: RO description MIXED/UNTRANSLATED (contains Cyrillic text: "Сверхлегкое, масло, с, официальным, допуском")
+
+[29/38] SKU: MOL-DYN-ESS-DSL-10W40 | Name: "MOL Essence Diesel 10W-40"
+  RU: "Полусинтетическое моторное масло для дизельных двигателей."
+  RO: "Semisintetic моторное масло pentru motoare diesel."
+  ❌ ISSUES: RO description MIXED/UNTRANSLATED (contains Cyrillic text: "моторное, масло")
+
+[30/38] SKU: MOL-DYN-ESS-15W40 | Name: "MOL Essence 15W-40"
+  RU: "Надежное минеральное масло для регулярного технического обслуживания."
+  RO: "Надежное mineral масло для регулярного технического обслуживания."
+  ❌ ISSUES: RO description MIXED/UNTRANSLATED (contains Cyrillic text: "Надежное, масло, для, регулярного, технического, обслуживания")
+
+[31/38] SKU: YUKO-CLASSIC-15W40 | Name: "Yuko Dynamic 15W-40"
+  RU: "Минеральное моторное масло YUKO CLASSIC 15W-40 для бензиновых и дизельных двигателей автомобилей."
+  RO: "Mineral моторное масло YUKO CLASSIC 15W-40 pentru motoare pe benzină și diesel автомобилей."
+  ❌ ISSUES: RO description MIXED/UNTRANSLATED (contains Cyrillic text: "моторное, масло, автомобилей")
+  ⚠️ WARNINGS: RU description contains legacy product name "YUKO CLASSIC" (should be "Yuko Dynamic") | RO description contains legacy product name "YUKO CLASSIC"
+
+[32/38] SKU: YUKO-VEGA-10W40 | Name: "Моторное масло YUKO VEGA SYNT 10W-40"
+  RU: "Полусинтетическое моторное масло YUKO VEGA SYNT 10W-40 свысокими защитными и моющими свойствами."
+  RO: "Semisintetic моторное масло YUKO VEGA SYNT 10W-40 свысокими защитными и моющими свойствами."
+  ❌ ISSUES: RO description MIXED/UNTRANSLATED (contains Cyrillic text: "моторное, масло, свысокими, защитными, и, моющими, свойствами")
+
+[33/38] SKU: YUKO-SYNETIC-5W30 | Name: "Моторное масло YUKO Synetic 5W-30 (1 л)"
+  RU: "Современное синтетическое моторное масло YUKO Synetic 5W-30 для легкого запуска и экономии топлива."
+  RO: "Современное sintetic моторное масло YUKO Synetic 5W-30 для легкого запуска и экономии топлива."
+  ❌ ISSUES: RO description MIXED/UNTRANSLATED (contains Cyrillic text: "Современное, моторное, масло, для, легкого, запуска, и, экономии, топлива")
+
+[34/38] SKU: YUKO-SYNETIC-5W40 | Name: "Yuko Synthetic 5W-40"
+  RU: "Синтетическое моторное масло YUKO Synetic 5W-40 для максимальной защиты двигателя в широком диапазоне температур."
+  RO: "Sintetic моторное масло YUKO Synetic 5W-40 для максимальной защиты двигателя в широком диапазоне температур."
+  ❌ ISSUES: RO description MIXED/UNTRANSLATED (contains Cyrillic text: "моторное, масло, для, максимальной, защиты, двигателя, в, широком, диапазоне, температур")
+
+[35/38] SKU: MOL-DYN-PRIMA-5W40 | Name: "MOL Prima 5W-40"
+  RU: "Синтетическое малозольное масло MOL Dynamic Prima 5W-40 DPF для современных авто с фильтром сажи."
+  RO: "Sintetic ulei Low SAPS MOL Dynamic Prima 5W-40 DPF для современных авто с фильтром сажи."
+  ❌ ISSUES: RO description MIXED/UNTRANSLATED (contains Cyrillic text: "для, современных, авто, с, фильтром, сажи")
+  ⚠️ WARNINGS: RU description contains legacy product name "MOL Dynamic Prima" (should be "MOL Prima") | RO description contains legacy product name "MOL Dynamic Prima"
+
+[36/38] SKU: MOL-HYBRID-0W16 | Name: "MOL Dynamic Gold NG 0W-16"
+  RU: "Инновационное гибридное моторное масло сверхнизкой вязкости 0W-16 для максимальной экономии топлива."
+  RO: "Ulei de motor inovator hibrid cu vâscozitate extrem de redusă 0W-16 pentru economie maximă de combustibil."
+  ✅ STATUS: Clean
+
+[37/38] SKU: MOL-DYN-STAR-VL-0W30 | Name: "MOL Dynamic Star VL 0W-30"
+  RU: "Синтетическое энергосберегающее моторное масло высшего качества для современных бензиновых и дизельных двигателей легковых автомобилей Volvo."
+  RO: "Ulei de motor sintetic de calitate superioară pentru motoarele moderne pe benzină și motorină ale autoturismelor Volvo."
+  ✅ STATUS: Clean
+
+[38/38] SKU: MOL-ESSENCE-SL-10W40 | Name: "MOL Essence SL 10W-40"
+  RU: "Полусинтетическое моторное масло с высоким уровнем защиты от износа для бензиновых и дизельных двигателей легковых автомобилей."
+  RO: "Ulei de motor semisintetic cu nivel înalt de protecție împotriva uzurii pentru motoare pe benzină și motorină ale autoturismelor."
+  ✅ STATUS: Clean
+

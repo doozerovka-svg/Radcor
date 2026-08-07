@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const vm = require('vm');
 
+const EXPECTED_VERSION = '?v=38.0';
 const ROOT_DIR = path.resolve(__dirname, '..');
 
 const HTML_PAGES = [
@@ -54,7 +55,7 @@ HTML_PAGES.forEach(page => {
     if (hrefMatch) {
       const href = hrefMatch[1];
       if (href.includes('.css') && !href.startsWith('http')) {
-        assert(href.includes('?v=37.0'), `${page}: CSS link '${href}' includes ?v=37.0`);
+        assert(href.includes(EXPECTED_VERSION), `${page}: CSS link '${href}' includes ${EXPECTED_VERSION}`);
       }
     }
   });
@@ -66,7 +67,7 @@ HTML_PAGES.forEach(page => {
     if (srcMatch) {
       const src = srcMatch[1];
       if (src.includes('.js') && !src.startsWith('http')) {
-        assert(src.includes('?v=37.0'), `${page}: JS script '${src}' includes ?v=37.0`);
+        assert(src.includes(EXPECTED_VERSION), `${page}: JS script '${src}' includes ${EXPECTED_VERSION}`);
       }
     }
   });
@@ -80,8 +81,8 @@ console.log('');
 console.log('--- SECTION 2: Script Loading Order for admin.html ---');
 
 const adminHtml = fs.readFileSync(path.join(ROOT_DIR, 'admin.html'), 'utf8');
-const i18nPos = adminHtml.indexOf('i18n.js?v=37.0');
-const appPos = adminHtml.indexOf('app.js?v=37.0');
+const i18nPos = adminHtml.indexOf(`i18n.js${EXPECTED_VERSION}`);
+const appPos = adminHtml.indexOf(`app.js${EXPECTED_VERSION}`);
 
 // Find the first inline <script> block (not having a src attribute)
 const inlineScriptMatches = [...adminHtml.matchAll(/<script(?![^>]*src=)[^>]*>/gi)];

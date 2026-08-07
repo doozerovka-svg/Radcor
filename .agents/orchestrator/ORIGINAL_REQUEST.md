@@ -32,6 +32,27 @@ Integrity mode: development
 - [ ] Subcategory names in sidebar and breadcrumbs display "Легковые моторные масла" and "Грузовые моторные масла" (in RO: "Uleiuri de motor autoturisme", "Uleiuri de motor camioane").
 - [ ] No broken category links or broken category counts.
 
-### Filter Functionality
-- [ ] Filtering by brand, viscosity (0W-16 through 20W-50), and volume (including 983L, 991L, 994L) updates the catalog grid accurately.
-- [ ] Selection of 983L / 991L / 994L volume tags displays correct volume labels ("983 л (Еврокуб)", "991 л", "994 л").
+
+## 2026-08-06T05:39:12Z
+
+Orchestrate a comprehensive, end-to-end automated test suite and audit of the RADCOR web application across all 11 HTML pages (index.html, catalog.html, checkout.html, b2b-dashboard.html, admin.html, delivery.html, returns.html, service.html, faq.html, guides.html, contacts.html).
+
+Key Requirements to test & audit:
+R1. Catalog, Sorting & Filtering Audit:
+- Test category switching (Lubricants accordion with all subcategories, Coolants, Brake Fluids, Auto Chemistry, Accessories, Auto Lamps).
+- Verify dynamic sidebar filters (Brand, Viscosity 0W-16 to 20W-50, ACEA 34 items, API 52 items, OEM Standards, Volume Packs including 983L/991L/994L Eurocubes, Antifreeze Colors).
+- Verify motor oil sorting logic (viscosity ascending starting from 0W-16).
+- Test search bar filtering by SKU, name, brand, spec value.
+
+R2. UI Components & Drawers Audit:
+- Test product card interaction: Pack size selection, price updating, Price on Request ("по запросу" / "+373 685 50 595" button for industrial-lubricants / price_on_request), Approvals drawer toggle, Specs drawer toggle.
+- Verify 100% compliance with B2B UI Invariants (AGENTS.md): Zero emojis in category names/buttons/badges, monochrome SVG icons, exact verbatim OEM approval strings.
+
+R3. Cart & Localization (RU/RO) Audit:
+- Test Add to Cart, quantity modification, item removal, persistent state, cart drawer totals.
+- Test language switcher (ru <-> ro) across all 11 pages. Ensure all text nodes and placeholders translate dynamically.
+
+R4. Page Integrity & Checkout Flow Audit:
+- Validate form inputs and submission in checkout.html and contacts.html.
+- Audit script tags, asset versioning (?v=36.0 across all 11 HTML pages), and console error logs across all 11 HTML pages.
+

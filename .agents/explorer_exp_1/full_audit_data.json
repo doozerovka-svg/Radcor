@@ -1,0 +1,1085 @@
+{
+  "index.html": {
+    "links": [
+      "<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">",
+      "<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>",
+      "<link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@500;700&family=Space+Mono&display=swap\" rel=\"stylesheet\">",
+      "<link rel=\"stylesheet\" href=\"style.css?v=36.0\">"
+    ],
+    "scripts": [
+      {
+        "full": "<script src=\"i18n.js?v=36.0\"></script>",
+        "src": "i18n.js?v=36.0",
+        "inlineSnippet": null
+      },
+      {
+        "full": "<script src=\"app.js?v=36.0\"></script>",
+        "src": "app.js?v=36.0",
+        "inlineSnippet": null
+      }
+    ],
+    "langSwitcher": {
+      "hasContainer": false,
+      "containerHTML": null,
+      "langLinks": [
+        {
+          "full": "<a href=\"#\" class=\"lang-link active\">RU</a>",
+          "text": "RU"
+        },
+        {
+          "full": "<a href=\"#\" class=\"lang-link\">RO</a>",
+          "text": "RO"
+        }
+      ]
+    },
+    "i18n": {
+      "dataI18n": [
+        "catalog_radcor_prim",
+        "cart_title",
+        "catalog_text_p",
+        "cart_total_volume",
+        "catalog_0",
+        "cart_free_delivery",
+        "catalog_1_500_mdl",
+        "cart_order_total",
+        "cart_checkout",
+        "login_title",
+        "login_subtitle",
+        "login_email_label",
+        "login_password_label",
+        "login_submit",
+        "catalog_text_div",
+        "catalog_text_a",
+        "catalog_text_a_46",
+        "nav_catalog",
+        "nav_service",
+        "nav_delivery",
+        "nav_returns",
+        "nav_guides",
+        "nav_faq",
+        "nav_contacts",
+        "nav_admin",
+        "nav_b2b",
+        "nav_login",
+        "hero_eyebrow",
+        "hero_title",
+        "hero_lead",
+        "hero_cta_catalog",
+        "hero_cta_partner",
+        "index_text_h4",
+        "index_text_p",
+        "index_text_h4_150",
+        "index_text_p_151",
+        "index_text_h4_152",
+        "index_text_p_153",
+        "index_text_span",
+        "index_text_h2",
+        "index_text_p_154",
+        "catalog_text_span_49",
+        "index_pkw_lkw",
+        "admin_text_option_8",
+        "index_text_p_155",
+        "catalog_text_span_55",
+        "index_text_p_156",
+        "catalog_text_span_56",
+        "index_text_p_157",
+        "catalog_text_span_57",
+        "index_text_p_158",
+        "catalog_text_span_58",
+        "index_text_p_159",
+        "catalog_text_h2",
+        "catalog_text_h3",
+        "catalog_text_p_64",
+        "catalog_1",
+        "catalog_text_button_65",
+        "catalog_text_button_66",
+        "catalog_text_button_67",
+        "catalog_2",
+        "catalog_5w_30",
+        "catalog_10w_40",
+        "catalog_mol",
+        "catalog_text_p_68",
+        "catalog_text_button_69",
+        "catalog_text_button_70",
+        "catalog_text_span_71",
+        "catalog_b2b",
+        "catalog_radcor_prim_72",
+        "catalog_text_h4",
+        "catalog_text_p_73",
+        "catalog_text_h4_74",
+        "catalog_text_p_75",
+        "catalog_text_h4_76",
+        "catalog_text_p_77",
+        "catalog_radc",
+        "catalog_text_p_78",
+        "catalog_text_label",
+        "catalog_text_label_79",
+        "catalog_text_label_80",
+        "catalog_text_button_81",
+        "catalog_text_div_82",
+        "catalog_text_h2_83",
+        "catalog_text_p_84",
+        "catalog_text_p_85",
+        "catalog_8_00___18_00",
+        "catalog_text_h4_86",
+        "catalog_84_1",
+        "catalog_text_a_87",
+        "catalog_copy__2026_radcor_p"
+      ],
+      "dataI18nPlaceholder": [
+        "label_company_placeholder",
+        "label_name_placeholder"
+      ],
+      "dataI18nTitle": []
+    },
+    "forms": [
+      {
+        "formTag": "<form class=\"login-form\" id=\"loginForm\">",
+        "inputs": [
+          "<input type=\"text\" id=\"loginEmail\" placeholder=\"company@example.com\" required>",
+          "<input type=\"password\" id=\"loginPassword\" placeholder=\"••••••••\" required>",
+          "<button type=\"submit\" class=\"btn btn-primary full-width\" data-i18n=\"login_submit\">"
+        ]
+      },
+      {
+        "formTag": "<form class=\"b2b-form\" id=\"b2bForm\">",
+        "inputs": [
+          "<input type=\"text\" id=\"compName\" required placeholder=\"ООО Автобизнес\" data-i18n-placeholder=\"label_company_placeholder\">",
+          "<input type=\"text\" id=\"contactPerson\" required placeholder=\"Иван Петров\" data-i18n-placeholder=\"label_name_placeholder\">",
+          "<input type=\"tel\" id=\"phone\" required placeholder=\"+373 69X XX XX\">",
+          "<button type=\"submit\" class=\"btn btn-primary full-width\" data-i18n=\"catalog_text_button_81\">"
+        ]
+      }
+    ],
+    "standaloneInputs": [
+      "<button class=\"drawer-close\" id=\"cartClose\">",
+      "<button class=\"btn btn-primary full-width\" id=\"checkoutBtn\" data-i18n=\"cart_checkout\">",
+      "<button class=\"modal-close\" id=\"modalClose\">",
+      "<button class=\"nav-toggle\" aria-label=\"Открыть меню\" id=\"navToggle\">",
+      "<button class=\"btn-login\" id=\"loginBtn\">",
+      "<button type=\"button\" class=\"btn wizard-next-btn\" data-val=\"passenger\" data-i18n=\"catalog_text_button_65\">",
+      "<button type=\"button\" class=\"btn wizard-next-btn\" data-val=\"commercial\" data-i18n=\"catalog_text_button_66\">",
+      "<button type=\"button\" class=\"btn wizard-next-btn\" data-val=\"agro\" data-i18n=\"catalog_text_button_67\">",
+      "<button type=\"button\" class=\"btn wizard-next-btn\" data-val=\"5w-30\" data-i18n=\"catalog_5w_30\">",
+      "<button type=\"button\" class=\"btn wizard-next-btn\" data-val=\"10w-40\" data-i18n=\"catalog_10w_40\">",
+      "<button type=\"button\" class=\"btn btn-primary btn-sm\" id=\"wizardAddCartBtn\" style=\"margin-top: 14px; margin-right: 10px;\" data-i18n=\"catalog_text_button_69\">",
+      "<button type=\"button\" class=\"btn btn-secondary btn-sm\" id=\"wizardRestartBtn\" style=\"margin-top: 14px;\" data-i18n=\"catalog_text_button_70\">"
+    ]
+  },
+  "catalog.html": {
+    "links": [
+      "<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">",
+      "<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>",
+      "<link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@500;700&family=Space+Mono&display=swap\" rel=\"stylesheet\">",
+      "<link rel=\"stylesheet\" href=\"style.css?v=36.0\">"
+    ],
+    "scripts": [
+      {
+        "full": "<script src=\"i18n.js?v=36.0\"></script>",
+        "src": "i18n.js?v=36.0",
+        "inlineSnippet": null
+      },
+      {
+        "full": "<script src=\"app.js?v=36.0\"></script>",
+        "src": "app.js?v=36.0",
+        "inlineSnippet": null
+      }
+    ],
+    "langSwitcher": {
+      "hasContainer": false,
+      "containerHTML": null,
+      "langLinks": [
+        {
+          "full": "<a href=\"#\" class=\"lang-link active\">RU</a>",
+          "text": "RU"
+        },
+        {
+          "full": "<a href=\"#\" class=\"lang-link\">RO</a>",
+          "text": "RO"
+        }
+      ]
+    },
+    "i18n": {
+      "dataI18n": [
+        "catalog_radcor_prim",
+        "cart_title",
+        "catalog_text_p",
+        "cart_total_volume",
+        "catalog_0",
+        "cart_free_delivery",
+        "catalog_1_500_mdl",
+        "cart_order_total",
+        "cart_checkout",
+        "login_title",
+        "login_subtitle",
+        "login_email_label",
+        "login_password_label",
+        "login_submit",
+        "catalog_text_div",
+        "catalog_text_a",
+        "catalog_text_a_46",
+        "catalog_text_a_47",
+        "nav_service",
+        "nav_delivery",
+        "nav_returns",
+        "nav_guides",
+        "nav_faq",
+        "nav_contacts",
+        "nav_admin",
+        "nav_b2b",
+        "nav_login",
+        "catalog_text_div_48",
+        "catalog_text_span",
+        "catalog_text_span_49",
+        "catalog_pkw",
+        "catalog_lkw",
+        "catalog_text_span_50",
+        "catalog_text_span_51",
+        "catalog_text_span_52",
+        "catalog_text_span_53",
+        "catalog_text_span_54",
+        "admin_text_option_8",
+        "catalog_text_span_55",
+        "catalog_text_span_56",
+        "catalog_text_span_57",
+        "catalog_text_span_58",
+        "catalog_text_div_59",
+        "catalog_text_div_60",
+        "filter_viscosity",
+        "filter_acea",
+        "filter_api",
+        "filter_standard",
+        "catalog_text_div_61",
+        "catalog_text_span_62",
+        "catalog_text_span",
+        "catalog_vin",
+        "catalog_om_651_95",
+        "catalog_text_span_63",
+        "catalog_text_button",
+        "catalog_text_h2",
+        "catalog_text_h3",
+        "catalog_text_p_64",
+        "catalog_1",
+        "catalog_text_button_65",
+        "catalog_text_button_66",
+        "catalog_text_button_67",
+        "catalog_2",
+        "catalog_5w_30",
+        "catalog_10w_40",
+        "catalog_mol",
+        "catalog_text_p_68",
+        "catalog_text_button_69",
+        "catalog_text_button_70",
+        "catalog_text_span_71",
+        "catalog_b2b",
+        "catalog_radcor_prim_72",
+        "catalog_text_h4",
+        "catalog_text_p_73",
+        "catalog_text_h4_74",
+        "catalog_text_p_75",
+        "catalog_text_h4_76",
+        "catalog_text_p_77",
+        "catalog_radc",
+        "catalog_text_p_78",
+        "catalog_text_label",
+        "catalog_text_label_79",
+        "catalog_text_label_80",
+        "catalog_text_button_81",
+        "catalog_text_div_82",
+        "catalog_text_h2_83",
+        "catalog_text_p_84",
+        "catalog_text_p_85",
+        "catalog_8_00___18_00",
+        "catalog_text_h4_86",
+        "catalog_84_1",
+        "catalog_text_a_87",
+        "catalog_copy__2026_radcor_p"
+      ],
+      "dataI18nPlaceholder": [
+        "search_placeholder",
+        "label_company_placeholder",
+        "label_name_placeholder"
+      ],
+      "dataI18nTitle": []
+    },
+    "forms": [
+      {
+        "formTag": "<form class=\"login-form\" id=\"loginForm\">",
+        "inputs": [
+          "<input type=\"text\" id=\"loginEmail\" placeholder=\"company@example.com\" required>",
+          "<input type=\"password\" id=\"loginPassword\" placeholder=\"••••••••\" required>",
+          "<button type=\"submit\" class=\"btn btn-primary full-width\" data-i18n=\"login_submit\">"
+        ]
+      },
+      {
+        "formTag": "<form class=\"b2b-form\" id=\"b2bForm\">",
+        "inputs": [
+          "<input type=\"text\" id=\"compName\" required placeholder=\"ООО Автобизнес\" data-i18n-placeholder=\"label_company_placeholder\">",
+          "<input type=\"text\" id=\"contactPerson\" required placeholder=\"Иван Петров\" data-i18n-placeholder=\"label_name_placeholder\">",
+          "<input type=\"tel\" id=\"phone\" required placeholder=\"+373 69X XX XX\">",
+          "<button type=\"submit\" class=\"btn btn-primary full-width\" data-i18n=\"catalog_text_button_81\">"
+        ]
+      }
+    ],
+    "standaloneInputs": [
+      "<button class=\"drawer-close\" id=\"cartClose\">",
+      "<button class=\"btn btn-primary full-width\" id=\"checkoutBtn\" data-i18n=\"cart_checkout\">",
+      "<button class=\"modal-close\" id=\"modalClose\">",
+      "<button class=\"nav-toggle\" aria-label=\"Открыть меню\" id=\"navToggle\">",
+      "<button class=\"btn-login\" id=\"loginBtn\">",
+      "<button class=\"cat-accordion-toggle\" aria-label=\"Раскрыть подкатегории\">",
+      "<input type=\"text\" id=\"catalogSearch\" placeholder=\"Поиск по названию, бренду, артикулу, допускам...\" data-i18n-placeholder=\"search_placeholder\">",
+      "<button class=\"btn btn-primary btn-sm\" id=\"addAllVinFluidsBtn\" data-i18n=\"catalog_text_button\">",
+      "<button type=\"button\" class=\"btn wizard-next-btn\" data-val=\"passenger\" data-i18n=\"catalog_text_button_65\">",
+      "<button type=\"button\" class=\"btn wizard-next-btn\" data-val=\"commercial\" data-i18n=\"catalog_text_button_66\">",
+      "<button type=\"button\" class=\"btn wizard-next-btn\" data-val=\"agro\" data-i18n=\"catalog_text_button_67\">",
+      "<button type=\"button\" class=\"btn wizard-next-btn\" data-val=\"5w-30\" data-i18n=\"catalog_5w_30\">",
+      "<button type=\"button\" class=\"btn wizard-next-btn\" data-val=\"10w-40\" data-i18n=\"catalog_10w_40\">",
+      "<button type=\"button\" class=\"btn btn-primary btn-sm\" id=\"wizardAddCartBtn\" style=\"margin-top: 14px; margin-right: 10px;\" data-i18n=\"catalog_text_button_69\">",
+      "<button type=\"button\" class=\"btn btn-secondary btn-sm\" id=\"wizardRestartBtn\" style=\"margin-top: 14px;\" data-i18n=\"catalog_text_button_70\">"
+    ]
+  },
+  "checkout.html": {
+    "links": [
+      "<link rel=\"stylesheet\" href=\"style.css?v=36.0\">"
+    ],
+    "scripts": [
+      {
+        "full": "<script src=\"i18n.js?v=36.0\"></script>",
+        "src": "i18n.js?v=36.0",
+        "inlineSnippet": null
+      },
+      {
+        "full": "<script src=\"app.js?v=36.0\"></script>",
+        "src": "app.js?v=36.0",
+        "inlineSnippet": null
+      },
+      {
+        "full": "<script src=\"checkout.js?v=36.0\"></script>",
+        "src": "checkout.js?v=36.0",
+        "inlineSnippet": null
+      }
+    ],
+    "langSwitcher": {
+      "hasContainer": false,
+      "containerHTML": null,
+      "langLinks": []
+    },
+    "i18n": {
+      "dataI18n": [
+        "checkout_text_title",
+        "nav_catalog",
+        "nav_delivery",
+        "nav_contacts",
+        "checkout_b2b",
+        "checkout_text_h1",
+        "checkout_text_p",
+        "checkout_1",
+        "checkout_text_label",
+        "catalog_text_label_79",
+        "catalog_text_label_80",
+        "checkout_2",
+        "checkout_text_label_88",
+        "checkout_text_option",
+        "opt_pickup",
+        "b2b_dashboard_text_th_43",
+        "opt_delivery",
+        "checkout_text_label_89",
+        "checkout_text_label_90",
+        "checkout_text_label_91",
+        "checkout_text_option_92",
+        "opt_invoice",
+        "checkout_text_option_93",
+        "opt_contract",
+        "checkout_text_label_94",
+        "checkout_text_button",
+        "checkout_text_h2",
+        "b2b_dashboard_text_a_21"
+      ],
+      "dataI18nPlaceholder": [],
+      "dataI18nTitle": []
+    },
+    "forms": [
+      {
+        "formTag": "<form id=\"checkoutForm\" novalidate>",
+        "inputs": [
+          "<input id=\"companyName\" required autocomplete=\"organization\">",
+          "<input id=\"contactName\" required autocomplete=\"name\">",
+          "<input id=\"orderPhone\" required type=\"tel\" autocomplete=\"tel\">",
+          "<input id=\"orderEmail\" type=\"email\" autocomplete=\"email\">",
+          "<select id=\"deliveryMethod\">",
+          "<input id=\"deliveryCity\">",
+          "<input id=\"deliveryAddress\">",
+          "<select id=\"paymentMethod\">",
+          "<textarea id=\"orderComment\" rows=\"3\">",
+          "<button class=\"btn btn-primary\" type=\"submit\" data-i18n=\"checkout_text_button\">"
+        ]
+      }
+    ],
+    "standaloneInputs": []
+  },
+  "b2b-dashboard.html": {
+    "links": [
+      "<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">",
+      "<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>",
+      "<link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@500;700&family=Space+Mono&display=swap\" rel=\"stylesheet\">",
+      "<link rel=\"stylesheet\" href=\"style.css?v=36.0\">"
+    ],
+    "scripts": [
+      {
+        "full": "<script src=\"i18n.js?v=36.0\"></script>",
+        "src": "i18n.js?v=36.0",
+        "inlineSnippet": null
+      },
+      {
+        "full": "<script src=\"app.js?v=36.0\"></script>",
+        "src": "app.js?v=36.0",
+        "inlineSnippet": null
+      }
+    ],
+    "langSwitcher": {
+      "hasContainer": false,
+      "containerHTML": null,
+      "langLinks": []
+    },
+    "i18n": {
+      "dataI18n": [
+        "b2b_dashboard_b2b",
+        "b2b_dashboard_text_span",
+        "b2b_dashboard_id__84920",
+        "b2b_dashboard_text_a",
+        "b2b_dashboard_text_a_21",
+        "b2b_dashboard_text_a_22",
+        "b2b_dashboard_text_h3",
+        "b2b_dashboard_text_span_23",
+        "b2b_dashboard_text_span_24",
+        "b2b_dashboard_text_button",
+        "b2b_dashboard_text_h3_25",
+        "b2b_dashboard_12_000",
+        "b2b_dashboard_100_000_mdl",
+        "b2b_dashboard_text_h3_26",
+        "b2b_dashboard_text_p",
+        "b2b_dashboard_text_span_27",
+        "b2b_dashboard_text_h3_28",
+        "b2b_dashboard_84920",
+        "b2b_dashboard_mol__4",
+        "b2b_dashboard_text_span_29",
+        "b2b_dashboard_text_span_30",
+        "b2b_dashboard_text_span_31",
+        "b2b_dashboard_text_span_32",
+        "b2b_dashboard_10_30",
+        "b2b_dashboard_text_span_33",
+        "b2b_dashboard_text_span_34",
+        "b2b_dashboard_sku",
+        "b2b_dashboard_text_p_35",
+        "b2b_dashboard_text_label",
+        "b2b_dashboard_text_label_36",
+        "b2b_dashboard_text_button_37",
+        "b2b_dashboard_text_div_38",
+        "b2b_dashboard_text_h3_39",
+        "b2b_dashboard_text_th",
+        "b2b_dashboard_text_th_40",
+        "b2b_dashboard_text_th_41",
+        "b2b_dashboard_text_th_42",
+        "b2b_dashboard_text_th_43",
+        "b2b_dashboard_text_span_44",
+        "b2b_dashboard_text_span_32",
+        "b2b_dashboard_text_span_45",
+        "b2b_dashboard_text_span_33",
+        "b2b_dashboard_text_span_45",
+        "b2b_dashboard_text_span_33",
+        "b2b_dashboard_copy__2026_radcor_p"
+      ],
+      "dataI18nPlaceholder": [
+        "b2b_order_ph"
+      ],
+      "dataI18nTitle": []
+    },
+    "forms": [
+      {
+        "formTag": "<form class=\"quick-order-form\" id=\"quickOrderForm\">",
+        "inputs": [
+          "<input type=\"text\" id=\"skuCode\" placeholder=\"Например, 151201\" data-i18n-placeholder=\"b2b_order_ph\" required>",
+          "<input type=\"number\" id=\"skuQty\" min=\"1\" value=\"1\" required>",
+          "<button type=\"submit\" class=\"btn btn-primary full-width\" data-i18n=\"b2b_dashboard_text_button_37\">"
+        ]
+      }
+    ],
+    "standaloneInputs": [
+      "<button class=\"nav-toggle\" aria-label=\"Открыть меню\" id=\"navToggle\">",
+      "<button class=\"btn btn-primary btn-sm full-width\" id=\"payInvoiceBtn\" data-i18n=\"b2b_dashboard_text_button\">",
+      "<button class=\"btn btn-secondary full-width btn-download double-border\" id=\"downloadExcelBtn\">"
+    ]
+  },
+  "admin.html": {
+    "links": [
+      "<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">",
+      "<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>",
+      "<link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@500;700&display=swap\" rel=\"stylesheet\">",
+      "<link rel=\"stylesheet\" href=\"style.css?v=36.0\">"
+    ],
+    "scripts": [
+      {
+        "full": "<script>\r         let fileHandle = null;\r         let productsData = [];\r         let editingIndex = -1;\r \r         const tableBody = document.getElementById('tableBody');\r         const statusIndicator = document.getElementById('statusIndicator');\r         const statusText = document.getElementById('statusText');\r \r         // Check if File System Access API is supported\r         if (!window.showOpenFilePicker) {\r             alert(\"Ваш браузер не поддерживает File System Access API. Пожалуйста, используйте Chrome, Edge или Opera на ПК.\");\r         }\r \r         document.getElementById('btnOpenFile').addEventListener('click', async () => {\r             try {\r                 [fileHandle] = await window.showOpenFilePicker({\r                     types: [{\r                         description: 'JSON Files',\r                         accept: {'application/json': ['.json']}\r                     }],\r                     multiple: false\r                 });\r \r                 const file = await fileHandle.getFile();\r                 const contents = await file.text();\r                 productsData = JSON.parse(contents);\r \r                 statusIndicator.classList.add('active');\r                 statusText.innerText = \"Открыт файл: \" + file.name;\r                 \r                 document.getElementById('btnSaveFile').style.display = 'block';\r                 document.getElementById('btnAdd').style.display = 'block';\r \r                 renderTable();\r             } catch (err) {\r                 console.error(err);\r             }\r         });\r \r         document.getElementById('btnSaveFile').addEventListener('click', async () => {\r             if (!fileHandle) return;\r             try {\r                 const writable = await fileHandle.createWritable();\r                 await writable.write(JSON.stringify(productsData, null, 2));\r                 await writable.close();\r                 alert(\"Успешно сохранено в файл!\");\r             } catch (err) {\r                 console.error(err);\r                 alert(\"Ошибка при сохранении: \" + err.message);\r             }\r         });\r \r         function renderTable() {\r             tableBody.innerHTML = '';\r             if (productsData.length === 0) {\r                 tableBody.innerHTML = '<tr><td colspan=\"6\" style=\"text-align:center;\" data-i18n=\"admin_text_td\">Нет товаров</td></tr>';\r                 return;\r             }\r \r             productsData.forEach((p, index) => {\r                 const tr = document.createElement('tr');\r                 const volString = Array.isArray(p.volumes) ? p.volumes.join(', ') : p.volumes;\r                 \r                 tr.innerHTML = `\r                     <td><img src=\"${p.photo_url || ''}\" class=\"prod-img-min\" onerror=\"this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0iI2YwZjBmMCIvPjwvc3ZnPg=='\"></td>\r                     <td style=\"font-family: var(--font-code); font-size:13px\">${p.sku}</td>\r                     <td style=\"font-weight:500\">${p.name}</td>\r                     <td>${p.category}</td>\r                     <td>${volString}</td>\r                     <td style=\"text-align:right\">\r                         <div class=\"actions\" style=\"justify-content:flex-end\">\r                             <button class=\"btn btn-outline\" style=\"padding:4px 8px; font-size:12px\" onclick=\"openModal(${index})\" data-i18n=\"admin_text_button_19\">Изменить</button>\r                             <button class=\"btn btn-outline\" style=\"padding:4px 8px; font-size:12px; color:var(--colour-mol-red); border-color:var(--colour-mol-red)\" onclick=\"deleteProduct(${index})\" data-i18n=\"admin_text_button_20\">Удалить</button>\r                         </div>\r                     </td>\r                 `;\r                 tableBody.appendChild(tr);\r             });\r         }\r \r         // ===================== MODAL LOGIC =====================\r         const modal = document.getElementById('editModal');\r         \r         document.getElementById('btnAdd').addEventListener('click', () => {\r             openModal(-1);\r         });\r \r         function openModal(index) {\r             editingIndex = index;\r             document.getElementById('specsContainer').innerHTML = '';\r             \r             if (index === -1) {\r                 document.getElementById('modalTitle').innerText = 'Добавление товара';\r                 document.getElementById('f_sku').value = `MOL-${Math.floor(1000 + Math.random()*9000)}`;\r                 document.getElementById('f_name').value = '';\r                 document.getElementById('f_category').value = 'motor-oils';\r                 document.getElementById('f_photo').value = '';\r                 document.getElementById('f_volumes').value = '1, 4, 60, 208';\r                 document.getElementById('f_desc').value = '';\r             } else {\r                 document.getElementById('modalTitle').innerText = 'Редактирование товара';\r                 const p = productsData[index];\r                 document.getElementById('f_sku').value = p.sku || '';\r                 document.getElementById('f_name').value = p.name || '';\r                 document.getElementById('f_category').value = p.category || 'motor-oils';\r                 document.getElementById('f_photo').value = p.photo_url || '';\r                 document.getElementById('f_volumes').value = Array.isArray(p.volumes) ? p.volumes.join(', ') : (p.volumes || '');\r                 document.getElementById('f_desc').value = p.description || '';\r                 \r                 if (Array.isArray(p.specs)) {\r                     p.specs.forEach(s => addSpecRow(s.label, s.value));\r                 }\r             }\r             modal.classList.add('active');\r         }\r \r         function closeModal() {\r             modal.classList.remove('active');\r         }\r \r         document.getElementById('btnAddSpec').addEventListener('click', () => {\r             addSpecRow('', '');\r         });\r \r         function addSpecRow(label, value) {\r             const div = document.createElement('div');\r             div.className = 'spec-row';\r             div.innerHTML = `\r                 <input type=\"text\" placeholder=\"Название (напр. Вязкость)\" data-i18n-placeholder=\"admin_spec_label_ph\" value=\"${label.replace(/\"/g, '&quot;')}\">\r                 <input type=\"text\" placeholder=\"Значение (напр. 5W-30)\" data-i18n-placeholder=\"admin_spec_val_ph\" value=\"${value.replace(/\"/g, '&quot;')}\">\r                 <button class=\"btn btn-outline\" style=\"padding:0 10px; border-color:var(--colour-mol-red); color:var(--colour-mol-red)\" onclick=\"this.parentElement.remove()\">X</button>\r             `;\r             document.getElementById('specsContainer').appendChild(div);\r         }\r \r         document.getElementById('btnSaveModal').addEventListener('click', () => {\r             const sku = document.getElementById('f_sku').value;\r             const name = document.getElementById('f_name').value;\r             const category = document.getElementById('f_category').value;\r             const photo_url = document.getElementById('f_photo').value;\r             const desc = document.getElementById('f_desc').value;\r             \r             const volsRaw = document.getElementById('f_volumes').value;\r             const volumes = volsRaw.split(',').map(s => s.trim()).filter(s => s !== '').map(s => isNaN(s) ? s : Number(s));\r \r             const specs = [];\r             document.querySelectorAll('#specsContainer .spec-row').forEach(row => {\r                 const inputs = row.querySelectorAll('input');\r                 if (inputs[0].value.trim() !== '') {\r                     specs.push({ label: inputs[0].value.trim(), value: inputs[1].value.trim() });\r                 }\r             });\r \r             const newProduct = {\r                 sku, name, category, photo_url, volumes, description: desc, specs\r             };\r \r             if (editingIndex === -1) {\r                 productsData.unshift(newProduct);\r             } else {\r                 // merge with existing to preserve hidden fields like prices if they exist\r                 productsData[editingIndex] = { ...productsData[editingIndex], ...newProduct };\r             }\r \r             closeModal();\r             renderTable();\r         });\r \r         function deleteProduct(index) {\r             if (confirm(\"Вы уверены, что хотите удалить этот товар?\")) {\r                 productsData.splice(index, 1);\r                 renderTable();\r             }\r         }\r     </script>",
+        "src": "${p.photo_url || ",
+        "inlineSnippet": "let fileHandle = null;\r\n        let productsData = [];\r\n        let editingIndex = -1;\r\n\r\n        co..."
+      },
+      {
+        "full": "<script src=\"i18n.js?v=36.0\"></script>",
+        "src": "i18n.js?v=36.0",
+        "inlineSnippet": null
+      },
+      {
+        "full": "<script src=\"app.js?v=36.0\"></script>",
+        "src": "app.js?v=36.0",
+        "inlineSnippet": null
+      }
+    ],
+    "langSwitcher": {
+      "hasContainer": false,
+      "containerHTML": null,
+      "langLinks": []
+    },
+    "i18n": {
+      "dataI18n": [
+        "admin_text_title",
+        "admin_text_a",
+        "admin_products_j",
+        "admin_text_button",
+        "admin_text_button_2",
+        "admin_text_span",
+        "admin_text_th",
+        "admin_text_th_3",
+        "admin_text_th_4",
+        "admin_text_th_5",
+        "admin_text_th_6",
+        "admin_text_th_7",
+        "admin_text_em",
+        "admin_text_h2",
+        "admin_sku",
+        "admin_text_th_5",
+        "admin_text_option",
+        "admin_cat_oils",
+        "admin_text_option_8",
+        "admin_cat_coolants",
+        "admin_text_option_9",
+        "admin_cat_chemistry",
+        "admin_text_option_10",
+        "admin_cat_winter",
+        "admin_text_option_11",
+        "admin_cat_consumables",
+        "admin_text_option_12",
+        "admin_cat_industrial",
+        "admin_text_label",
+        "admin_url",
+        "admin_text_label_13",
+        "admin_text_label_14",
+        "admin_text_label_15",
+        "admin_text_button_16",
+        "admin_text_button_17",
+        "admin_text_button_18",
+        "admin_text_td",
+        "admin_text_button_19",
+        "admin_text_button_20"
+      ],
+      "dataI18nPlaceholder": [
+        "admin_spec_label_ph",
+        "admin_spec_val_ph"
+      ],
+      "dataI18nTitle": []
+    },
+    "forms": [],
+    "standaloneInputs": [
+      "<button id=\"btnOpenFile\" class=\"btn btn-primary\" data-i18n=\"admin_products_j\">",
+      "<button id=\"btnSaveFile\" class=\"btn btn-primary\" style=\"display:none; background: var(--colour-mol-green);\" data-i18n=\"admin_text_button\">",
+      "<button id=\"btnAdd\" class=\"btn btn-outline\" style=\"display:none;\" data-i18n=\"admin_text_button_2\">",
+      "<input type=\"text\" id=\"f_sku\">",
+      "<select id=\"f_category\">",
+      "<input type=\"text\" id=\"f_name\">",
+      "<input type=\"text\" id=\"f_photo\" placeholder=\"https://...\">",
+      "<input type=\"text\" id=\"f_volumes\" placeholder=\"1, 4, 60, 208\">",
+      "<textarea id=\"f_desc\" rows=\"3\">",
+      "<button id=\"btnAddSpec\" class=\"btn btn-outline\" style=\"font-size: 12px; align-self: flex-start; margin-top: 5px;\" data-i18n=\"admin_text_button_16\">",
+      "<button class=\"btn btn-outline\" onclick=\"closeModal()\" data-i18n=\"admin_text_button_17\">",
+      "<button class=\"btn btn-primary\" id=\"btnSaveModal\" data-i18n=\"admin_text_button_18\">",
+      "<button class=\"btn btn-outline\" style=\"padding:4px 8px; font-size:12px\" onclick=\"openModal(${index})\" data-i18n=\"admin_text_button_19\">",
+      "<button class=\"btn btn-outline\" style=\"padding:4px 8px; font-size:12px; color:var(--colour-mol-red); border-color:var(--colour-mol-red)\" onclick=\"deleteProduct(${index})\" data-i18n=\"admin_text_button_20\">",
+      "<input type=\"text\" placeholder=\"Название (напр. Вязкость)\" data-i18n-placeholder=\"admin_spec_label_ph\" value=\"${label.replace(/\"/g, '&quot;')}\">",
+      "<input type=\"text\" placeholder=\"Значение (напр. 5W-30)\" data-i18n-placeholder=\"admin_spec_val_ph\" value=\"${value.replace(/\"/g, '&quot;')}\">",
+      "<button class=\"btn btn-outline\" style=\"padding:0 10px; border-color:var(--colour-mol-red); color:var(--colour-mol-red)\" onclick=\"this.parentElement.remove()\">"
+    ]
+  },
+  "delivery.html": {
+    "links": [
+      "<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">",
+      "<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>",
+      "<link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@500;700&family=Space+Mono&display=swap\" rel=\"stylesheet\">",
+      "<link rel=\"stylesheet\" href=\"style.css?v=36.0\">"
+    ],
+    "scripts": [
+      {
+        "full": "<script src=\"i18n.js?v=36.0\"></script>",
+        "src": "i18n.js?v=36.0",
+        "inlineSnippet": null
+      },
+      {
+        "full": "<script src=\"app.js?v=36.0\"></script>",
+        "src": "app.js?v=36.0",
+        "inlineSnippet": null
+      }
+    ],
+    "langSwitcher": {
+      "hasContainer": false,
+      "containerHTML": null,
+      "langLinks": [
+        {
+          "full": "<a href=\"#\" class=\"lang-link active\">RU</a>",
+          "text": "RU"
+        },
+        {
+          "full": "<a href=\"#\" class=\"lang-link\">RO</a>",
+          "text": "RO"
+        }
+      ]
+    },
+    "i18n": {
+      "dataI18n": [
+        "delivery_text_title",
+        "nav_catalog",
+        "nav_service",
+        "delivery_text_a",
+        "nav_returns",
+        "nav_guides",
+        "nav_faq",
+        "nav_contacts",
+        "contacts_b2b",
+        "delivery_text_span",
+        "delivery_text_h2",
+        "delivery_radcor_prim",
+        "delivery_text_h3",
+        "delivery_text_h4",
+        "delivery_text_p",
+        "delivery_text_h4_104",
+        "delivery_text_p_105",
+        "delivery_text_h3_106",
+        "delivery_text_h4_107",
+        "delivery_text_p_108",
+        "delivery_text_h4_109",
+        "delivery_text_p_110",
+        "delivery_text_h3_111",
+        "delivery_text_p_112",
+        "delivery_text_strong",
+        "delivery_text_strong_113",
+        "delivery_text_strong_114",
+        "delivery_text_h3_115",
+        "delivery_text_p_116",
+        "delivery_text_th",
+        "delivery_text_th_117",
+        "delivery_text_th_118",
+        "delivery_text_th_119",
+        "delivery_text_th_120",
+        "delivery_text_td",
+        "delivery_text_td_121",
+        "delivery_text_td_122",
+        "delivery_text_span_123",
+        "delivery_text_td_124",
+        "delivery_text_td_125",
+        "delivery_text_td_122",
+        "delivery_text_span_123",
+        "delivery_text_td_126",
+        "delivery_text_td_127",
+        "delivery_text_td_122",
+        "delivery_text_span_123",
+        "delivery_text_td_128",
+        "delivery_text_td_129",
+        "delivery_text_td_122",
+        "delivery_text_span_123",
+        "contacts_copy__2026_radcor_p"
+      ],
+      "dataI18nPlaceholder": [],
+      "dataI18nTitle": []
+    },
+    "forms": [],
+    "standaloneInputs": [
+      "<button class=\"nav-toggle\" aria-label=\"Открыть меню\" id=\"navToggle\">"
+    ]
+  },
+  "returns.html": {
+    "links": [
+      "<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">",
+      "<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>",
+      "<link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@500;700&family=Space+Mono&display=swap\" rel=\"stylesheet\">",
+      "<link rel=\"stylesheet\" href=\"style.css?v=36.0\">"
+    ],
+    "scripts": [
+      {
+        "full": "<script src=\"i18n.js?v=36.0\"></script>",
+        "src": "i18n.js?v=36.0",
+        "inlineSnippet": null
+      },
+      {
+        "full": "<script src=\"app.js?v=36.0\"></script>",
+        "src": "app.js?v=36.0",
+        "inlineSnippet": null
+      }
+    ],
+    "langSwitcher": {
+      "hasContainer": false,
+      "containerHTML": null,
+      "langLinks": [
+        {
+          "full": "<a href=\"#\" class=\"lang-link active\">RU</a>",
+          "text": "RU"
+        },
+        {
+          "full": "<a href=\"#\" class=\"lang-link\">RO</a>",
+          "text": "RO"
+        }
+      ]
+    },
+    "i18n": {
+      "dataI18n": [
+        "returns_text_title",
+        "nav_catalog",
+        "nav_service",
+        "nav_delivery",
+        "returns_text_a",
+        "nav_guides",
+        "nav_faq",
+        "nav_contacts",
+        "contacts_b2b",
+        "returns_text_span",
+        "returns_text_h2",
+        "returns_radcor_prim",
+        "returns_text_h3",
+        "returns_text_h4",
+        "returns_text_p",
+        "returns_text_h4_160",
+        "returns_text_p_161",
+        "returns_text_h3_162",
+        "returns_text_h4_163",
+        "returns_text_p_164",
+        "returns_text_h4_165",
+        "returns_text_p_166",
+        "returns_text_h3_167",
+        "returns_text_p_168",
+        "returns_text_strong",
+        "returns_text_strong_169",
+        "returns_text_strong_170",
+        "returns_text_h3_171",
+        "returns_text_p_172",
+        "returns_text_h4_173",
+        "returns_text_p_174",
+        "returns_text_h4_175",
+        "returns_text_p_176",
+        "returns_text_h4_177",
+        "returns_text_p_178",
+        "contacts_copy__2026_radcor_p"
+      ],
+      "dataI18nPlaceholder": [],
+      "dataI18nTitle": []
+    },
+    "forms": [],
+    "standaloneInputs": [
+      "<button class=\"nav-toggle\" aria-label=\"Открыть меню\" id=\"navToggle\">"
+    ]
+  },
+  "service.html": {
+    "links": [
+      "<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">",
+      "<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>",
+      "<link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@500;700&family=Space+Mono&display=swap\" rel=\"stylesheet\">",
+      "<link rel=\"stylesheet\" href=\"style.css?v=36.0\">"
+    ],
+    "scripts": [
+      {
+        "full": "<script src=\"i18n.js?v=36.0\"></script>",
+        "src": "i18n.js?v=36.0",
+        "inlineSnippet": null
+      },
+      {
+        "full": "<script src=\"app.js?v=36.0\"></script>",
+        "src": "app.js?v=36.0",
+        "inlineSnippet": null
+      }
+    ],
+    "langSwitcher": {
+      "hasContainer": false,
+      "containerHTML": null,
+      "langLinks": [
+        {
+          "full": "<a href=\"#\" class=\"lang-link active\">RU</a>",
+          "text": "RU"
+        },
+        {
+          "full": "<a href=\"#\" class=\"lang-link\">RO</a>",
+          "text": "RO"
+        }
+      ]
+    },
+    "i18n": {
+      "dataI18n": [
+        "service_text_title",
+        "nav_catalog",
+        "service_text_a",
+        "nav_delivery",
+        "nav_returns",
+        "nav_guides",
+        "nav_faq",
+        "nav_contacts",
+        "contacts_b2b",
+        "service_text_span",
+        "service_text_h2",
+        "service_radcor_prim",
+        "service_text_h3",
+        "service_text_h4",
+        "service_text_p",
+        "service_text_h4_179",
+        "service_text_p_180",
+        "service_text_h3_181",
+        "service_text_h4_182",
+        "service_text_p_183",
+        "service_text_h4_184",
+        "service_text_p_185",
+        "service_text_h3_186",
+        "service_text_p_187",
+        "service_text_strong",
+        "service_text_strong_188",
+        "service_text_strong_189",
+        "service_text_h3_190",
+        "service_text_p_191",
+        "service_text_a_192",
+        "contacts_copy__2026_radcor_p"
+      ],
+      "dataI18nPlaceholder": [],
+      "dataI18nTitle": []
+    },
+    "forms": [],
+    "standaloneInputs": [
+      "<button class=\"nav-toggle\" aria-label=\"Открыть меню\" id=\"navToggle\">"
+    ]
+  },
+  "faq.html": {
+    "links": [
+      "<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">",
+      "<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>",
+      "<link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@500;700&family=Space+Mono&display=swap\" rel=\"stylesheet\">",
+      "<link rel=\"stylesheet\" href=\"style.css?v=36.0\">"
+    ],
+    "scripts": [
+      {
+        "full": "<script src=\"i18n.js?v=36.0\"></script>",
+        "src": "i18n.js?v=36.0",
+        "inlineSnippet": null
+      },
+      {
+        "full": "<script src=\"app.js?v=36.0\"></script>",
+        "src": "app.js?v=36.0",
+        "inlineSnippet": null
+      }
+    ],
+    "langSwitcher": {
+      "hasContainer": false,
+      "containerHTML": null,
+      "langLinks": [
+        {
+          "full": "<a href=\"#\" class=\"lang-link active\">RU</a>",
+          "text": "RU"
+        },
+        {
+          "full": "<a href=\"#\" class=\"lang-link\">RO</a>",
+          "text": "RO"
+        }
+      ]
+    },
+    "i18n": {
+      "dataI18n": [
+        "faq_fa",
+        "nav_catalog",
+        "nav_service",
+        "nav_delivery",
+        "nav_returns",
+        "nav_guides",
+        "nav_contacts",
+        "contacts_b2b",
+        "faq_text_span",
+        "faq_faq",
+        "faq_text_p",
+        "faq_text_h4",
+        "faq_text_p_130",
+        "faq_text_h4_131",
+        "faq_text_p_132",
+        "faq_text_h4_133",
+        "faq_text_p_134",
+        "faq_text_h4_135",
+        "faq_text_p_136",
+        "faq_text_h4_137",
+        "faq_radcor_prim",
+        "contacts_copy__2026_radcor_p"
+      ],
+      "dataI18nPlaceholder": [],
+      "dataI18nTitle": []
+    },
+    "forms": [],
+    "standaloneInputs": [
+      "<button class=\"nav-toggle\" aria-label=\"Открыть меню\" id=\"navToggle\">"
+    ]
+  },
+  "guides.html": {
+    "links": [
+      "<link rel=\"stylesheet\" href=\"style.css?v=36.0\">"
+    ],
+    "scripts": [
+      {
+        "full": "<script src=\"i18n.js?v=36.0\"></script>",
+        "src": "i18n.js?v=36.0",
+        "inlineSnippet": null
+      },
+      {
+        "full": "<script src=\"app.js?v=36.0\"></script>",
+        "src": "app.js?v=36.0",
+        "inlineSnippet": null
+      }
+    ],
+    "langSwitcher": {
+      "hasContainer": false,
+      "containerHTML": null,
+      "langLinks": [
+        {
+          "full": "<a href=\"#\" class=\"lang-link active\">RU</a>",
+          "text": "RU"
+        },
+        {
+          "full": "<a href=\"#\" class=\"lang-link\">RO</a>",
+          "text": "RO"
+        }
+      ]
+    },
+    "i18n": {
+      "dataI18n": [
+        "guides_radcor",
+        "nav_catalog",
+        "nav_service",
+        "nav_delivery",
+        "nav_returns",
+        "guides_text_a",
+        "nav_faq",
+        "nav_contacts",
+        "nav_b2b",
+        "nav_login",
+        "guides_text_span",
+        "guides_text_a",
+        "guides_text_p",
+        "guides_text_h2",
+        "guides_text_p_138",
+        "guides_text_a_139",
+        "guides_text_h2_140",
+        "guides_text_p_141",
+        "guides_text_a_142",
+        "delivery_text_a",
+        "guides_text_p_143",
+        "delivery_text_h3_106",
+        "guides_text_h2_144",
+        "guides_text_p_145",
+        "guides_text_a_146",
+        "guides_text_h2_147",
+        "guides_text_p_148",
+        "guides_text_a_149"
+      ],
+      "dataI18nPlaceholder": [],
+      "dataI18nTitle": []
+    },
+    "forms": [],
+    "standaloneInputs": [
+      "<button class=\"nav-toggle\" aria-label=\"Открыть меню\" id=\"navToggle\">",
+      "<button class=\"btn-login\" id=\"loginBtn\">"
+    ]
+  },
+  "contacts.html": {
+    "links": [
+      "<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">",
+      "<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>",
+      "<link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@500;700&family=Space+Mono&display=swap\" rel=\"stylesheet\">",
+      "<link rel=\"stylesheet\" href=\"style.css?v=36.0\">"
+    ],
+    "scripts": [
+      {
+        "full": "<script src=\"i18n.js?v=36.0\"></script>",
+        "src": "i18n.js?v=36.0",
+        "inlineSnippet": null
+      },
+      {
+        "full": "<script src=\"app.js?v=36.0\"></script>",
+        "src": "app.js?v=36.0",
+        "inlineSnippet": null
+      }
+    ],
+    "langSwitcher": {
+      "hasContainer": false,
+      "containerHTML": null,
+      "langLinks": [
+        {
+          "full": "<a href=\"#\" class=\"lang-link active\">RU</a>",
+          "text": "RU"
+        },
+        {
+          "full": "<a href=\"#\" class=\"lang-link\">RO</a>",
+          "text": "RO"
+        }
+      ]
+    },
+    "i18n": {
+      "dataI18n": [
+        "contacts_radcor_pr",
+        "nav_catalog",
+        "nav_service",
+        "nav_delivery",
+        "nav_returns",
+        "nav_guides",
+        "nav_faq",
+        "contacts_text_a",
+        "contacts_b2b",
+        "contacts_text_span",
+        "contacts_text_a",
+        "contacts_text_p",
+        "contacts_text_h4",
+        "contacts_text_p_95",
+        "contacts_text_h4_96",
+        "contacts_text_h4_97",
+        "contacts_text_h4_98",
+        "contacts_text_p_99",
+        "contacts_08_00___15",
+        "contacts_text_p_100",
+        "contacts_text_h3",
+        "contacts_text_p_101",
+        "contacts_text_label",
+        "contacts_text_label_102",
+        "contacts_text_h3",
+        "contacts_text_div",
+        "contacts_radcor",
+        "catalog_text_p_85",
+        "contacts_text_a_103",
+        "contacts_copy__2026_radcor_p"
+      ],
+      "dataI18nPlaceholder": [
+        "contact_name_ph",
+        "contact_msg_ph"
+      ],
+      "dataI18nTitle": []
+    },
+    "forms": [
+      {
+        "formTag": "<form class=\"b2b-form\" id=\"contactForm\">",
+        "inputs": [
+          "<input type=\"text\" id=\"cName\" required placeholder=\"Ваше имя\" data-i18n-placeholder=\"contact_name_ph\">",
+          "<input type=\"email\" id=\"cEmail\" required placeholder=\"name@company.md\">",
+          "<input type=\"text\" id=\"cText\" required placeholder=\"Введите текст вашего сообщения...\" data-i18n-placeholder=\"contact_msg_ph\">",
+          "<button type=\"submit\" class=\"btn btn-primary full-width\" data-i18n=\"contacts_text_h3\">"
+        ]
+      }
+    ],
+    "standaloneInputs": [
+      "<button class=\"nav-toggle\" aria-label=\"Открыть меню\" id=\"navToggle\">"
+    ]
+  }
+}

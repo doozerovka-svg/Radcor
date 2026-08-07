@@ -1,0 +1,464 @@
+[
+  {
+    "num": 1,
+    "sku": "MOL-1004",
+    "name": "MOL Dynamic Max 10W-40",
+    "desc_ru": "Полусинтетическое моторное масло высшего сорта для большинства современных транспортных средств.",
+    "desc_ro": "Semisintetic моторное масло высшего сорта для большинства современных транспортных средств.",
+    "issues": [
+      "RO description MIXED/UNTRANSLATED (contains Cyrillic text: \"моторное, масло, высшего, сорта, для, большинства, современных, транспортных, средств\")"
+    ],
+    "warnings": [],
+    "needs_update": true
+  },
+  {
+    "num": 2,
+    "sku": "MOL-1005",
+    "name": "MOL Essence C3 5W-40",
+    "desc_ru": "синтетическое моторное масло",
+    "desc_ro": "sintetic моторное масло",
+    "issues": [
+      "RO description MIXED/UNTRANSLATED (contains Cyrillic text: \"моторное, масло\")"
+    ],
+    "warnings": [],
+    "needs_update": true
+  },
+  {
+    "num": 3,
+    "sku": "MOL-1006",
+    "name": "MOL Dynamic Gold HEV 0W-20",
+    "desc_ru": "моторное масло",
+    "desc_ro": "моторное масло",
+    "issues": [
+      "RO description 100% UNTRANSLATED (identical to RU)"
+    ],
+    "warnings": [],
+    "needs_update": true
+  },
+  {
+    "num": 4,
+    "sku": "MOL-1011",
+    "name": "MOL Dynamic Gold Longlife 5W-30",
+    "desc_ru": "Синтетическое моторное масло высшего сорта для большинства современных транспортных средств.",
+    "desc_ro": "Sintetic моторное масло высшего сорта для большинства современных транспортных средств.",
+    "issues": [
+      "RO description MIXED/UNTRANSLATED (contains Cyrillic text: \"моторное, масло, высшего, сорта, для, большинства, современных, транспортных, средств\")"
+    ],
+    "warnings": [],
+    "needs_update": true
+  },
+  {
+    "num": 5,
+    "sku": "MOL-1018",
+    "name": "MOL Dynamic Gold Longlife 0W-20",
+    "desc_ru": "Синтетическое моторное масло премиум класса для самых современных автомобилей.",
+    "desc_ro": "Sintetic моторное масло премиум класса для самых современных автомобилей.",
+    "issues": [
+      "RO description MIXED/UNTRANSLATED (contains Cyrillic text: \"моторное, масло, премиум, класса, для, самых, современных, автомобилей\")"
+    ],
+    "warnings": [],
+    "needs_update": true
+  },
+  {
+    "num": 6,
+    "sku": "MOL-1019",
+    "name": "MOL Dynamic Star VL 0W-20",
+    "desc_ru": "Синтетическое моторное масло премиум качества для самых современных автомобилей, предназначенное, в первую очередь, для легковых автомобилей Volvo",
+    "desc_ro": "Sintetic моторное масло премиум качества для самых современных автомобилей, предназначенное, в первую очередь, pentru autoturisme Volvo",
+    "issues": [
+      "RO description MIXED/UNTRANSLATED (contains Cyrillic text: \"моторное, масло, премиум, качества, для, самых, современных, автомобилей, предназначенное, в, первую, очередь\")"
+    ],
+    "warnings": [],
+    "needs_update": true
+  },
+  {
+    "num": 7,
+    "sku": "MOL-1022",
+    "name": "MOL Dynamic Gold DX 0W-20",
+    "desc_ru": "Синтетическое моторное масло премиум качества для самых современных автомобилей",
+    "desc_ro": "Sintetic моторное масло премиум качества для самых современных автомобилей",
+    "issues": [
+      "RO description MIXED/UNTRANSLATED (contains Cyrillic text: \"моторное, масло, премиум, качества, для, самых, современных, автомобилей\")"
+    ],
+    "warnings": [],
+    "needs_update": true
+  },
+  {
+    "num": 8,
+    "sku": "MOL-1023",
+    "name": "MOL Dynamic Star PC 0W-30",
+    "desc_ru": "Синтетическое моторное масло премиум класса для автомобилей последнего поколения.",
+    "desc_ro": "Sintetic моторное масло премиум класса для автомобилей последнего поколения.",
+    "issues": [
+      "RO description MIXED/UNTRANSLATED (contains Cyrillic text: \"моторное, масло, премиум, класса, для, автомобилей, последнего, поколения\")"
+    ],
+    "warnings": [],
+    "needs_update": true
+  },
+  {
+    "num": 9,
+    "sku": "MOL-1025",
+    "name": "MOL Botond 20W-50",
+    "desc_ru": "Моторное масло для транспортных средств более ранних моделей с большим пробегом.",
+    "desc_ro": "Ulei de motor для транспортных средств более ранних моделей с большим пробегом.",
+    "issues": [
+      "RO description MIXED/UNTRANSLATED (contains Cyrillic text: \"для, транспортных, средств, более, ранних, моделей, с, большим, пробегом\")"
+    ],
+    "warnings": [],
+    "needs_update": true
+  },
+  {
+    "num": 10,
+    "sku": "MOL-1030",
+    "name": "MOL Essence 10W-40",
+    "desc_ru": "Моторное масло для увеличенного ресурса.",
+    "desc_ro": "Ulei de motor для увеличенного ресурса.",
+    "issues": [
+      "RO description MIXED/UNTRANSLATED (contains Cyrillic text: \"для, увеличенного, ресурса\")"
+    ],
+    "warnings": [],
+    "needs_update": true
+  },
+  {
+    "num": 11,
+    "sku": "MOL-1031",
+    "name": "MOL Dynamic Synt RN17 5W-30",
+    "desc_ru": "синтетическое моторное масло",
+    "desc_ro": "sintetic моторное масло",
+    "issues": [
+      "RO description MIXED/UNTRANSLATED (contains Cyrillic text: \"моторное, масло\")"
+    ],
+    "warnings": [],
+    "needs_update": true
+  },
+  {
+    "num": 12,
+    "sku": "MOL-1032",
+    "name": "MOL Essence 15W-50",
+    "desc_ru": "Моторное масло для увеличения срока службы двигателя",
+    "desc_ro": "Ulei de motor для увеличения срока службы двигателя",
+    "issues": [
+      "RO description MIXED/UNTRANSLATED (contains Cyrillic text: \"для, увеличения, срока, службы, двигателя\")"
+    ],
+    "warnings": [],
+    "needs_update": true
+  },
+  {
+    "num": 13,
+    "sku": "MOL-1035",
+    "name": "MOL Dynamic Star PC 5W-30",
+    "desc_ru": "Синтетическое моторное масло высшего сорта для большинства современных транспортных средств.",
+    "desc_ro": "Sintetic моторное масло высшего сорта для большинства современных транспортных средств.",
+    "issues": [
+      "RO description MIXED/UNTRANSLATED (contains Cyrillic text: \"моторное, масло, высшего, сорта, для, большинства, современных, транспортных, средств\")"
+    ],
+    "warnings": [],
+    "needs_update": true
+  },
+  {
+    "num": 14,
+    "sku": "MOL-1038",
+    "name": "MOL Dynamic Gas Eco+ 15W-40",
+    "desc_ru": "Масло высшего сорта для мобильных газовых двигателей автомобилей, работающих на газе.",
+    "desc_ro": "Масло высшего сорта для мобильных газовых двигателей автомобилей, работающих на газе.",
+    "issues": [
+      "RO description 100% UNTRANSLATED (identical to RU)"
+    ],
+    "warnings": [],
+    "needs_update": true
+  },
+  {
+    "num": 15,
+    "sku": "MOL-1040",
+    "name": "MOL Dynamic Synt RN 5W-30",
+    "desc_ru": "Синтетическое моторное масло высшего сорта для большинства современных транспортных средств.",
+    "desc_ro": "Sintetic моторное масло высшего сорта для большинства современных транспортных средств.",
+    "issues": [
+      "RO description MIXED/UNTRANSLATED (contains Cyrillic text: \"моторное, масло, высшего, сорта, для, большинства, современных, транспортных, средств\")"
+    ],
+    "warnings": [],
+    "needs_update": true
+  },
+  {
+    "num": 16,
+    "sku": "MOL-1043",
+    "name": "MOL Dynamic Gold DX 5W-30",
+    "desc_ru": "Синтетическое моторное масло премиум класса для автомобилей последнего поколения.",
+    "desc_ro": "Sintetic моторное масло премиум класса для автомобилей последнего поколения.",
+    "issues": [
+      "RO description MIXED/UNTRANSLATED (contains Cyrillic text: \"моторное, масло, премиум, класса, для, автомобилей, последнего, поколения\")"
+    ],
+    "warnings": [],
+    "needs_update": true
+  },
+  {
+    "num": 17,
+    "sku": "MOL-1046",
+    "name": "MOL Essence Longlife 5W-30",
+    "desc_ru": "синтетическое моторное масло",
+    "desc_ro": "sintetic моторное масло",
+    "issues": [
+      "RO description MIXED/UNTRANSLATED (contains Cyrillic text: \"моторное, масло\")"
+    ],
+    "warnings": [],
+    "needs_update": true
+  },
+  {
+    "num": 18,
+    "sku": "MOL-1047",
+    "name": "MOL Dynamic Star F 0W-30",
+    "desc_ru": "Синтетическое премиальное моторное масло для самых современных автомобилей.",
+    "desc_ro": "Sintetic премиальное моторное масло для самых современных автомобилей.",
+    "issues": [
+      "RO description MIXED/UNTRANSLATED (contains Cyrillic text: \"премиальное, моторное, масло, для, самых, современных, автомобилей\")"
+    ],
+    "warnings": [],
+    "needs_update": true
+  },
+  {
+    "num": 19,
+    "sku": "MOL-1050",
+    "name": "MOL Dynamic Star 5W-30",
+    "desc_ru": "Синтетическое моторное масло высшего сорта для большинства современных транспортных средств.",
+    "desc_ro": "Sintetic моторное масло высшего сорта для большинства современных транспортных средств.",
+    "issues": [
+      "RO description MIXED/UNTRANSLATED (contains Cyrillic text: \"моторное, масло, высшего, сорта, для, большинства, современных, транспортных, средств\")"
+    ],
+    "warnings": [],
+    "needs_update": true
+  },
+  {
+    "num": 20,
+    "sku": "MOL-1052",
+    "name": "MOL Dynamic Gold 5W-30",
+    "desc_ru": "Синтетическое моторное масло высшего сорта для большинства современных транспортных средств.",
+    "desc_ro": "Sintetic моторное масло высшего сорта для большинства современных транспортных средств.",
+    "issues": [
+      "RO description MIXED/UNTRANSLATED (contains Cyrillic text: \"моторное, масло, высшего, сорта, для, большинства, современных, транспортных, средств\")"
+    ],
+    "warnings": [],
+    "needs_update": true
+  },
+  {
+    "num": 21,
+    "sku": "MOL-1055",
+    "name": "MOL MSE 15W-40",
+    "desc_ru": "Моторное масло для транспортных средств более ранних моделей с большим пробегом.",
+    "desc_ro": "Ulei de motor для транспортных средств более ранних моделей с большим пробегом.",
+    "issues": [
+      "RO description MIXED/UNTRANSLATED (contains Cyrillic text: \"для, транспортных, средств, более, ранних, моделей, с, большим, пробегом\")"
+    ],
+    "warnings": [],
+    "needs_update": true
+  },
+  {
+    "num": 22,
+    "sku": "MOL-1061",
+    "name": "MOL Dynamic Gold Longlife 0W-30",
+    "desc_ru": "Синтетическое премиальное моторное масло для самых современных транспортных средств.",
+    "desc_ro": "Sintetic премиальное моторное масло для самых современных транспортных средств.",
+    "issues": [
+      "RO description MIXED/UNTRANSLATED (contains Cyrillic text: \"премиальное, моторное, масло, для, самых, современных, транспортных, средств\")"
+    ],
+    "warnings": [],
+    "needs_update": true
+  },
+  {
+    "num": 23,
+    "sku": "MOL-1070",
+    "name": "MOL Dynamic Gold DX 5W-20",
+    "desc_ru": "Синтетическое моторное масло премиум качества для самых современных автомобилей",
+    "desc_ro": "Sintetic моторное масло премиум качества для самых современных автомобилей",
+    "issues": [
+      "RO description MIXED/UNTRANSLATED (contains Cyrillic text: \"моторное, масло, премиум, качества, для, самых, современных, автомобилей\")"
+    ],
+    "warnings": [],
+    "needs_update": true
+  },
+  {
+    "num": 24,
+    "sku": "MOL-DYN-ESS-5W30",
+    "name": "MOL Essence 5W-30",
+    "desc_ru": "Высокотехнологичное синтетическое масло MOL Dynamic Essence 5W-30 для бензиновых и дизельных моторов.",
+    "desc_ro": "Высокотехнологичное sintetic масло MOL Dynamic Essence 5W-30 для бензиновых и дизельных моторов.",
+    "issues": [
+      "RO description MIXED/UNTRANSLATED (contains Cyrillic text: \"Высокотехнологичное, масло, для, бензиновых, и, дизельных, моторов\")"
+    ],
+    "warnings": [
+      "RU description contains legacy product name \"MOL Dynamic Essence\" (should be \"MOL Essence\")",
+      "RO description contains legacy product name \"MOL Dynamic Essence\""
+    ],
+    "needs_update": true
+  },
+  {
+    "num": 25,
+    "sku": "MOL-DYN-ESS-C2-5W30",
+    "name": "MOL Essence DPF 5W-30",
+    "desc_ru": "Синтетическое ресурсосберегающее масло для двигателей с требованиями ACEA C2.",
+    "desc_ro": "Sintetic ресурсосберегающее масло для двигателей с требованиями ACEA C2.",
+    "issues": [
+      "RO description MIXED/UNTRANSLATED (contains Cyrillic text: \"ресурсосберегающее, масло, для, двигателей, с, требованиями\")"
+    ],
+    "warnings": [],
+    "needs_update": true
+  },
+  {
+    "num": 26,
+    "sku": "MOL-DYN-ESS-DSL-5W40",
+    "name": "MOL Essence Diesel 5W-40",
+    "desc_ru": "Синтетическое дизельное моторное масло повышенной надежности.",
+    "desc_ro": "Sintetic дизельное моторное масло повышенной надежности.",
+    "issues": [
+      "RO description MIXED/UNTRANSLATED (contains Cyrillic text: \"дизельное, моторное, масло, повышенной, надежности\")"
+    ],
+    "warnings": [],
+    "needs_update": true
+  },
+  {
+    "num": 27,
+    "sku": "MOL-DYN-ESS-5W40",
+    "name": "MOL Essence 5W-40",
+    "desc_ru": "Синтетическое моторное масло MOL Dynamic Essence 5W-40 для бензиновых и дизельных двигателей легковых автомобилей.",
+    "desc_ro": "Sintetic моторное масло MOL Dynamic Essence 5W-40 pentru motoare pe benzină și diesel легковых автомобилей.",
+    "issues": [
+      "RO description MIXED/UNTRANSLATED (contains Cyrillic text: \"моторное, масло, легковых, автомобилей\")"
+    ],
+    "warnings": [
+      "RU description contains legacy product name \"MOL Dynamic Essence\" (should be \"MOL Essence\")",
+      "RO description contains legacy product name \"MOL Dynamic Essence\""
+    ],
+    "needs_update": true
+  },
+  {
+    "num": 28,
+    "sku": "MOL-DYN-STAR-0W20",
+    "name": "MOL Dynamic Gold NG 0W-20",
+    "desc_ru": "Сверхлегкое синтетическое масло с официальным допуском Ford EcoBoost.",
+    "desc_ro": "Сверхлегкое sintetic масло с официальным допуском Ford EcoBoost.",
+    "issues": [
+      "RO description MIXED/UNTRANSLATED (contains Cyrillic text: \"Сверхлегкое, масло, с, официальным, допуском\")"
+    ],
+    "warnings": [],
+    "needs_update": true
+  },
+  {
+    "num": 29,
+    "sku": "MOL-DYN-ESS-DSL-10W40",
+    "name": "MOL Essence Diesel 10W-40",
+    "desc_ru": "Полусинтетическое моторное масло для дизельных двигателей.",
+    "desc_ro": "Semisintetic моторное масло pentru motoare diesel.",
+    "issues": [
+      "RO description MIXED/UNTRANSLATED (contains Cyrillic text: \"моторное, масло\")"
+    ],
+    "warnings": [],
+    "needs_update": true
+  },
+  {
+    "num": 30,
+    "sku": "MOL-DYN-ESS-15W40",
+    "name": "MOL Essence 15W-40",
+    "desc_ru": "Надежное минеральное масло для регулярного технического обслуживания.",
+    "desc_ro": "Надежное mineral масло для регулярного технического обслуживания.",
+    "issues": [
+      "RO description MIXED/UNTRANSLATED (contains Cyrillic text: \"Надежное, масло, для, регулярного, технического, обслуживания\")"
+    ],
+    "warnings": [],
+    "needs_update": true
+  },
+  {
+    "num": 31,
+    "sku": "YUKO-CLASSIC-15W40",
+    "name": "Yuko Dynamic 15W-40",
+    "desc_ru": "Минеральное моторное масло YUKO CLASSIC 15W-40 для бензиновых и дизельных двигателей автомобилей.",
+    "desc_ro": "Mineral моторное масло YUKO CLASSIC 15W-40 pentru motoare pe benzină și diesel автомобилей.",
+    "issues": [
+      "RO description MIXED/UNTRANSLATED (contains Cyrillic text: \"моторное, масло, автомобилей\")"
+    ],
+    "warnings": [
+      "RU description contains legacy product name \"YUKO CLASSIC\" (should be \"Yuko Dynamic\")",
+      "RO description contains legacy product name \"YUKO CLASSIC\""
+    ],
+    "needs_update": true
+  },
+  {
+    "num": 32,
+    "sku": "YUKO-VEGA-10W40",
+    "name": "Моторное масло YUKO VEGA SYNT 10W-40",
+    "desc_ru": "Полусинтетическое моторное масло YUKO VEGA SYNT 10W-40 свысокими защитными и моющими свойствами.",
+    "desc_ro": "Semisintetic моторное масло YUKO VEGA SYNT 10W-40 свысокими защитными и моющими свойствами.",
+    "issues": [
+      "RO description MIXED/UNTRANSLATED (contains Cyrillic text: \"моторное, масло, свысокими, защитными, и, моющими, свойствами\")"
+    ],
+    "warnings": [],
+    "needs_update": true
+  },
+  {
+    "num": 33,
+    "sku": "YUKO-SYNETIC-5W30",
+    "name": "Моторное масло YUKO Synetic 5W-30 (1 л)",
+    "desc_ru": "Современное синтетическое моторное масло YUKO Synetic 5W-30 для легкого запуска и экономии топлива.",
+    "desc_ro": "Современное sintetic моторное масло YUKO Synetic 5W-30 для легкого запуска и экономии топлива.",
+    "issues": [
+      "RO description MIXED/UNTRANSLATED (contains Cyrillic text: \"Современное, моторное, масло, для, легкого, запуска, и, экономии, топлива\")"
+    ],
+    "warnings": [],
+    "needs_update": true
+  },
+  {
+    "num": 34,
+    "sku": "YUKO-SYNETIC-5W40",
+    "name": "Yuko Synthetic 5W-40",
+    "desc_ru": "Синтетическое моторное масло YUKO Synetic 5W-40 для максимальной защиты двигателя в широком диапазоне температур.",
+    "desc_ro": "Sintetic моторное масло YUKO Synetic 5W-40 для максимальной защиты двигателя в широком диапазоне температур.",
+    "issues": [
+      "RO description MIXED/UNTRANSLATED (contains Cyrillic text: \"моторное, масло, для, максимальной, защиты, двигателя, в, широком, диапазоне, температур\")"
+    ],
+    "warnings": [],
+    "needs_update": true
+  },
+  {
+    "num": 35,
+    "sku": "MOL-DYN-PRIMA-5W40",
+    "name": "MOL Prima 5W-40",
+    "desc_ru": "Синтетическое малозольное масло MOL Dynamic Prima 5W-40 DPF для современных авто с фильтром сажи.",
+    "desc_ro": "Sintetic ulei Low SAPS MOL Dynamic Prima 5W-40 DPF для современных авто с фильтром сажи.",
+    "issues": [
+      "RO description MIXED/UNTRANSLATED (contains Cyrillic text: \"для, современных, авто, с, фильтром, сажи\")"
+    ],
+    "warnings": [
+      "RU description contains legacy product name \"MOL Dynamic Prima\" (should be \"MOL Prima\")",
+      "RO description contains legacy product name \"MOL Dynamic Prima\""
+    ],
+    "needs_update": true
+  },
+  {
+    "num": 36,
+    "sku": "MOL-HYBRID-0W16",
+    "name": "MOL Dynamic Gold NG 0W-16",
+    "desc_ru": "Инновационное гибридное моторное масло сверхнизкой вязкости 0W-16 для максимальной экономии топлива.",
+    "desc_ro": "Ulei de motor inovator hibrid cu vâscozitate extrem de redusă 0W-16 pentru economie maximă de combustibil.",
+    "issues": [],
+    "warnings": [],
+    "needs_update": false
+  },
+  {
+    "num": 37,
+    "sku": "MOL-DYN-STAR-VL-0W30",
+    "name": "MOL Dynamic Star VL 0W-30",
+    "desc_ru": "Синтетическое энергосберегающее моторное масло высшего качества для современных бензиновых и дизельных двигателей легковых автомобилей Volvo.",
+    "desc_ro": "Ulei de motor sintetic de calitate superioară pentru motoarele moderne pe benzină și motorină ale autoturismelor Volvo.",
+    "issues": [],
+    "warnings": [],
+    "needs_update": false
+  },
+  {
+    "num": 38,
+    "sku": "MOL-ESSENCE-SL-10W40",
+    "name": "MOL Essence SL 10W-40",
+    "desc_ru": "Полусинтетическое моторное масло с высоким уровнем защиты от износа для бензиновых и дизельных двигателей легковых автомобилей.",
+    "desc_ro": "Ulei de motor semisintetic cu nivel înalt de protecție împotriva uzurii pentru motoare pe benzină și motorină ale autoturismelor.",
+    "issues": [],
+    "warnings": [],
+    "needs_update": false
+  }
+]

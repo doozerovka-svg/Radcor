@@ -206,7 +206,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (pack && pack.label) return pack.label;
         const numV = Number(v);
         if (numV === 983) return '983 л (Еврокуб)';
-        if (numV === 991) return '991 л';
+        if (numV === 991) return '991 л (Еврокуб)';
         if (numV === 994) return '994 л';
         return numV >= 1 ? `${numV} л` : `${numV * 1000} мл`;
     }
