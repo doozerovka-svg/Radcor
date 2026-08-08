@@ -1253,6 +1253,14 @@
       {
         "label": "Температура кипения увлажнённой жидкости",
         "value": "163"
+      },
+      {
+        "label": "Допуски",
+        "value": "SAE J 1704, FMVSS 116, DOT 4, ISO 4925 Class 4"
+      },
+      {
+        "label": "Кинематическая вязкость (-40°C)",
+        "value": "1315 мм²/с"
       }
     ],
     "canister_vol": 0.5,
@@ -1266,7 +1274,7 @@
       }
     ],
     "name_ro": "Lichid de frână MOL DOT 4+",
-    "description_ro": "Синтетическая тормозная жидкость высшего качества MOL DOT 4+ для гидравлических тормозных систем."
+    "description_ro": "Recomandat în special pentru blocurile de frână hidraulice ale autoturismelor, camioanelor şi maşinilor de construcţii echipate cu sisteme de antiblocare a roţilor (ABS) şi sisteme de control activ al stabilităţii (ASC), la care punctul de fierbere uscat prescris pentru lichide de frână de calitate DOT 4 este cel puţin 265°C, iar punctul de fierbere umed este cel puţin 170°C."
   },
   {
     "sku": "MOL-DOT51",
@@ -1310,6 +1318,14 @@
       {
         "label": "Температура кипения увлажнённой жидкости",
         "value": "187"
+      },
+      {
+        "label": "Допуски",
+        "value": "SAE J 1704, FMVSS 116, DOT 5.1, ISO 4925 Class 5-1"
+      },
+      {
+        "label": "Кинематическая вязкость (-40°C)",
+        "value": "810 мм²/с"
       }
     ],
     "canister_vol": 0.5,
@@ -1323,7 +1339,7 @@
       }
     ],
     "name_ro": "Lichid de frână MOL DOT 5.1",
-    "description_ro": "Высокопроизводительная синтетическая тормозная жидкость MOL DOT 5.1 для систем с ABS, ESP и ASR."
+    "description_ro": "Recomandat în special pentru blocurile de frână hidraulice ale autoturismelor, camioanelor şi maşinilor de construcţii echipate cu sisteme de antiblocare a roţilor (ABS) şi sisteme de control activ al stabilităţii (ASC), la care punctul de fierbere uscat prescris pentru lichide de frână de calitate DOT 5.1 este cel puţin 260°C, iar punctul de fierbere umed este cel puţin 180°C."
   },
   {
     "sku": "MOL-1001",
@@ -1363,6 +1379,10 @@
       {
         "label": "Температура вспышки",
         "value": "210 °C"
+      },
+      {
+        "label": "Допуски",
+        "value": "GM Dexron-VI, JASO 1A LV, Toyota WS, Mazda FZ, Nissan Matic-W, Mitsubishi ATF J3, Mitsubishi SP-IV, VW G 055 540, VW G 055 005, VW G 055 162, BMW ATF 3+, BMW ATF6, Ford XT-6-QSP [SP], Honda Type 3.0, Honda Type 3.1, Hyundai/KIA 040000C90SG, Hyundai/KIA SP4-M1, Hyundai/KIA SPH-IV, Mistsubishi Dia Queen ATF-MA1, Mistsubishi Dia Queen ATF-PA, Honda DW-1, Hyundai NWS-9638, Hyundai/Kia SP-IV, Nissan Matic-S, SAAB 93 165 147"
       }
     ],
     "canister_vol": 1,
@@ -1378,7 +1398,7 @@
       }
     ],
     "name_ro": "MOL ATF Synt TWS",
-    "description_ro": "Синтетическая жидкость высшего качества для автоматических трансмиссий"
+    "description_ro": "Fluid sintetic pentru transmisii automate, de calitate premium, elaborat în special pentru a corespunde cerinţelor autoturismelor şi camioanelor moderne, de fabricaţie japoneză sau coreeană, utilizabil într-un interval larg de temperaturi. Corespunde de asemenea cu cerinţele fluidelor de transmisie automată de ultima generaţie a vehiculelor Toyota."
   },
   {
     "sku": "MOL-1002",
@@ -1418,6 +1438,10 @@
       {
         "label": "Температура вспышки",
         "value": "200 °C"
+      },
+      {
+        "label": "Допуски",
+        "value": "ZF TE-ML 03D[ZF001895], ZF TE-ML 04D[ZF001895], ZF TE-ML 14B[ZF001895], ZF TE-ML 17C[ZF001895], ZF TE-ML 20B[ZF001895], ZF TE-ML 25B[ZF001895], Voith H55.6336, GM Dexron-IIIH, GM Dexron-IIIG, MAN 339 Typ L1, MAN 339 Typ V2, MAN 339 Typ Z2, MAN 339 Typ Z11, ZF TE-ML 14C, Allison C-4, Allison TES-295"
       }
     ],
     "canister_vol": 1,
@@ -1433,7 +1457,7 @@
       }
     ],
     "name_ro": "MOL ATF Synt 3H",
-    "description_ro": "Синтетическая жидкость высшего качества для автоматических трансмиссий"
+    "description_ro": "Fluid sintetic pentru transmisii automate, de calitate premium, destinat lubrifierii şi funcţionării transmisiilor automate şi echipamentelor servo ale autoturismelor şi camioanelor care operează în condiţii deosebit de grele. Asigură un interval de schimb al uleiului prelungit dacă este utilizat cu transmisii ZF şi Voith."
   },
   {
     "sku": "MOL-1003",
@@ -1451,7 +1475,7 @@
     "specs": [
       {
         "label": "Допуски",
-        "value": "DTFR 13C150 (ex MB 236.8), MAN 339 Typ L1, MAN 339 Typ Z2, ZF TE-ML 03D[ZF004917], ZF TE-ML 04D[ZF004917], ZF TE-ML 09X, ZF TE-ML 14B[ZF004917], ZF TE-ML 17C[ZF004917], Voith H55.6336, RBAS Lubricant Class TE-ML 09X[AS001155], GM Dexron IIE, Ford Mercon, MAN 339 Typ V2, Volvo 97335, Caterpillar TO-2, Allison C-4, DTFR 13C150"
+        "value": "GM Dexron-VI, JASO 1A LV, Toyota WS, Mazda FZ, Nissan Matic-W, Mitsubishi ATF J3, Mitsubishi SP-IV, VW G 055 540, VW G 055 005, VW G 055 162, BMW ATF 3+, BMW ATF6, Ford XT-6-QSP [SP], Honda Type 3.0, Honda Type 3.1, Hyundai/KIA 040000C90SG, Hyundai/KIA SP4-M1, Hyundai/KIA SPH-IV, Mistsubishi Dia Queen ATF-MA1, Mistsubishi Dia Queen ATF-PA, Honda DW-1, Hyundai NWS-9638, Hyundai/Kia SP-IV, Nissan Matic-S, SAAB 93 165 147"
       },
       {
         "label": "Плотность при 15°C",
@@ -1487,7 +1511,7 @@
     "barrel_vol": 208,
     "barrel_price": 0,
     "name_ro": "MOL ATF Synt",
-    "description_ro": "Синтетическая жидкость высшего качества для автоматических трансмиссий",
+    "description_ro": "Fluid sintetic pentru transmisii automate, de calitate premium, elaborat în special pentru a corespunde cerinţelor autoturismelor şi camioanelor moderne, de fabricaţie japoneză sau coreeană, utilizabil într-un interval larg de temperaturi. Corespunde de asemenea cu cerinţele fluidelor de transmisie automată de ultima generaţie a vehiculelor Toyota.",
     "packs": [
       {
         "id": "p-1",
@@ -1798,6 +1822,10 @@
       {
         "label": "Температура вспышки",
         "value": "205 °C"
+      },
+      {
+        "label": "Допуски",
+        "value": "API MT-1, API GL-5, SAE J 2360, Scania STO 1:0, Mack GO-J, ZF TE-ML 07A, ZF TE-ML 08"
       }
     ],
     "canister_vol": 1,
@@ -1819,7 +1847,7 @@
       }
     ],
     "name_ro": "MOL Hykomol K 80W-140",
-    "description_ro": "Автомобильные трансмиссионные масла"
+    "description_ro": "Ulei de transmisie EP de înaltă performanţă, dezvoltat pentru transmisii care operează cu încărcare medie sau grea."
   },
   {
     "sku": "MOL-1008",
@@ -1854,6 +1882,10 @@
       {
         "label": "Температура замерзания",
         "value": "-35 °C"
+      },
+      {
+        "label": "Значение pH",
+        "value": "8.3"
       }
     ],
     "canister_vol": 4,
@@ -1861,7 +1893,7 @@
     "barrel_vol": 208,
     "barrel_price": 0,
     "name_ro": "EVOX Ultra Plus concentrate",
-    "description_ro": "Концентрат охлаждающей жидкости",
+    "description_ro": "Lichid antigel concentrat, cu calitate de vârf, cu durată îndelungată de funcţionare care îndeplineşte specificaţia G 13 VW.Este formulat special pentru autoturismele şi vehiculele comerciale uşoare moderne, asigurând protecţie maximă împotriva coroziunii, îngheţării şi supraîncălzirii sistemului de răcire, prevenind depunerile de tartru şi sedimente sau fenomenul de cavitaţie.",
     "packs": [
       {
         "id": "p-1",
@@ -1938,6 +1970,10 @@
       {
         "label": "Температура кипения увлажнённой жидкости",
         "value": "151"
+      },
+      {
+        "label": "Кинематическая вязкость (-40°C)",
+        "value": "1270 мм²/с"
       }
     ],
     "canister_vol": 4,
@@ -1945,7 +1981,7 @@
     "barrel_vol": 208,
     "barrel_price": 0,
     "name_ro": "MOL DOT 3",
-    "description_ro": "Синтетическая тормозная жидкость",
+    "description_ro": "Excelent pentru sistemele de frânare hidraulice şi sistemele de ambreiaj a tuturor autoturismelor, vehiculelor utilitare şi maşinilor de construcţii, dacă manualul de utilizare recomandă lichid de frână de calitate DOT 3 sau echivalent cu aceasta.",
     "packs": [
       {
         "id": "p-1",
@@ -2121,7 +2157,7 @@
     "barrel_vol": 208,
     "barrel_price": 0,
     "name_ro": "MOL ATF 3G",
-    "description_ro": "Жидкость для автоматических трансмиссий.",
+    "description_ro": "Fluid pentru transmisii automate pentru lubrifierea şi funcţionarea fiabilă a cutiilor de transmisii semi-automate sau automate şi sistemelor hidraulice ale camioanelor moderne, utilizate într-un interval larg de temperaturi. MOL ATF 3 G asigură motorului durată de viaţă lungă şi pornire uşoară la rece.",
     "packs": [
       {
         "id": "p-1",
@@ -2261,7 +2297,7 @@
     "barrel_vol": 208,
     "barrel_price": 0,
     "name_ro": "MOL EVOX Winter Apple Cinnamon -40",
-    "description_ro": "ароматизированная зимняя жидкость для стеклоомывателя",
+    "description_ro": "MOL EVOX Winter Fruit Garden -30 este un lichid limpede, cu parfum de fructe. Are un continut ridicat de alcool. Pachetul de aditivare este formulat pe baza de nanotehnologie. Nu se recomanda diluarea produsului, pentru ca ar diminua abilitatea lichidului de topire si curatare a ghetii. Nu contine alcool metilic !",
     "packs": [
       {
         "id": "p-1",
@@ -2325,7 +2361,7 @@
     "barrel_vol": 208,
     "barrel_price": 0,
     "name_ro": "ADBLUE®",
-    "description_ro": "Для систем избирательной каталитической нейтрализации с присадкой для снижения содержания окислов азота",
+    "description_ro": "Aditivul de reducere a NOx, AdBlue® este destinat reducerii emisiei de oxid de azot a vehiculelor echipate cu sisteme SCR (reducere catalitică selectivă). Asociaţia Automobiliştilor Germani (VDA) garantează calitatea ridicată şi constantă a aditivului AdBlue ® .",
     "packs": [
       {
         "id": "p-1",
@@ -2385,7 +2421,7 @@
     "barrel_vol": 208,
     "barrel_price": 0,
     "name_ro": "MOL EVOX 4 Season -10",
-    "description_ro": "жидкость для омывателя",
+    "description_ro": "MOL EVOX 4 Season -10 este un lichid preparat special, fără parfum şi agenţi coloranţi, cu conţinut optimizat de alcool, precum şi un sistem de aditivi pentru îmbunătăţirea efectului de curăţire. Nu se recomandă diluarea pentru că ar reduce capacitatea de curăţire şi de dezgheţare a lichidului. Nu conţine metanol.",
     "packs": [
       {
         "id": "p-1",
@@ -2450,6 +2486,10 @@
       {
         "label": "Температура замерзания",
         "value": "max. -36 °C"
+      },
+      {
+        "label": "Значение pH",
+        "value": "8.5"
       }
     ],
     "canister_vol": 4,
@@ -2457,7 +2497,7 @@
     "barrel_vol": 208,
     "barrel_price": 0,
     "name_ro": "MOL EVOX Extra concentrate",
-    "description_ro": "Lichid de răcire MOL EVOX на основе моноэтиленгликоля по гибридной технологии HOAT для алюминиевых и чугунных двигателей.",
+    "description_ro": "MOL EVOX Extra concentrate este un lichid de răcire concentrat pe bază de monoetilenglicol, produs cu un sistem de aditivi hibrid silicaţi-OAT. Nu conţine nitriţi, amine, fosfaţi şi este indicat pentru umplerea sistemelor de răcire a motoarelor cu ardere internă. MOL EVOX Extra concentrate poate fi amestecat fără limitare cu alte lichide de răcire antigel pe bază de monoetilenglicol sau monopropilenglicol. Lichidul de răcire concentrat antigel MOL EVOX Extra trebuie diluat cu apă înainte de întrebuinţare! Este compatibil cu apa dură, poate fi amestecat chiar şi cu apa de la robinet* cu un raport de amestec corespunzător, astfel încât soluţia să aibă o concentraţie de 33-50 % (V/V). A nu se folosi fără diluare! * Folosiţi apă curată, nu prea dură pentru prepararea lichidului de răcire. Nu folosiţi apă de mină, apă de mare, apă sărată, semi-sărată sau apă sau ape industriale uzate. Asiguraţi-vă că parametrii apei nu depăşesc următoarele valori limită: Duritatea apei: 0–20°nK (0–3,6 mmol/l) Conţinut de clorură: max. 100 ppm Conţinut de sulfaţi: max. 100 ppm Dacă parametrii apei depăşesc aceste valori, trataţi apa cu ajutorul unei metode adecvate, de exemplu prin adăugare de apă curată distilată sau deionizată, pentru a reduce nivelul clorurii şi/sau sulfaţilor sub valorile limită specificate. Lichidul de răcire antigel MOL EVOX Extra nu poate fi amestecat cu lichidele altor mărci, destinate răcirii motoarelor, fără silicaţi şi cu conţinut de inhibitori organici (OAT). Majoritatea lichidelor de răcire conţin amestecuri echilibrate cu grijă, compuse din diferite substanţe anticorosive. Amestecarea lichidelor de răcire conţinând anticorosivi diferiţi poate reduce efectul anticoroziune. Testele de funcţionare indică faptul că MOL EVOX Extra concentrate poate fi utilizat fără probleme în sistemele de răcire de înaltă performanţă a motoarelor diesel Caterpillar.",
     "packs": [
       {
         "id": "p-1",
@@ -2650,7 +2690,7 @@
       },
       {
         "label": "Допуски",
-        "value": "MB 235.0, MAN 342"
+        "value": "API GL-5, MIL-L-2105D, ZETOR"
       },
       {
         "label": "Плотность при 15°C",
@@ -2702,7 +2742,7 @@
       }
     ],
     "name_ro": "MOL Hykomol K 80W-90",
-    "description_ro": "Автомобильные трансмиссионные масла"
+    "description_ro": "Ulei de transmisie EP de înaltă performanţă, dezvoltat pentru transmisii care operează cu încărcare medie sau grea."
   },
   {
     "sku": "MOL-1021",
@@ -2736,7 +2776,7 @@
     "barrel_vol": 208,
     "barrel_price": 0,
     "name_ro": "MOL EVOX Ice Spray",
-    "description_ro": "Размораживающая жидкость",
+    "description_ro": "Lichid pentru dezgheţarea parbrizelor, oglinzilor retrovizoare şi altor suprafeţe din sticlă ale vehiculelor.",
     "packs": [
       {
         "id": "p-1",
@@ -2930,7 +2970,7 @@
     "barrel_vol": 208,
     "barrel_price": 0,
     "name_ro": "MOL EVOX Summer White tea & Ginger",
-    "description_ro": "scented summer screenwash",
+    "description_ro": "MOL EVOX Summer White tea & Ginger is a clear, white tea and ginger scented environmentally friendly liquid for cleaning glass and polycarbonate surfaces, prepared with an additive which improves the cleaning efficiency.",
     "packs": [
       {
         "id": "p-1",
@@ -3050,7 +3090,7 @@
     "specs": [
       {
         "label": "Допуски",
-        "value": "DIN 51502: KP2N-30, ISO 6743-9: L-XCDEB 2"
+        "value": "DIN 51502: KP2N-30, ISO 6743-9: L-XCDEB 2, Gradul de consistenta NLGI: NLGI 2"
       },
       {
         "label": "Вязкость базового масла при 40°C",
@@ -3075,7 +3115,7 @@
     "barrel_price": 0,
     "price_on_request": true,
     "name_ro": "MOL Favorit 2",
-    "description_ro": "Консистентная смазка с литиевым комплексом",
+    "description_ro": "Unsoare lubrifiantă multifuncţională cu o stabilitate mecanică bună, asigurând lubrifiere adecvată pentru un timp mai lung.",
     "packs": [
       {
         "id": "p-1",
@@ -3148,6 +3188,10 @@
       {
         "label": "Температура вспышки",
         "value": "230 °C"
+      },
+      {
+        "label": "Допуски",
+        "value": "API GL-4, MIL-L-2105"
       }
     ],
     "canister_vol": 1,
@@ -3181,7 +3225,7 @@
       }
     ],
     "name_ro": "MOL Hykomol 80W-90",
-    "description_ro": "Автомобильные трансмиссионные масла"
+    "description_ro": "Ulei de transmisie de înaltă performanţă pentru transmisii şi o gamă largă de aplicaţii."
   },
   {
     "sku": "MOL-1029",
@@ -3215,7 +3259,7 @@
     "barrel_vol": 208,
     "barrel_price": 0,
     "name_ro": "MOL EVOX Winter Raspberry Mint -30",
-    "description_ro": "ароматизированная зимняя жидкость для стеклоомывателя",
+    "description_ro": "MOL EVOX Winter Citrus Breeze - 30 este un lichid limpede, cu parfum de grapefruit. Are un continut ridicat de alcool. Pachetul de aditivare este formulat pe baza de nanotehnologie. Nu se recomanda diluarea produsului, pentru ca ar diminua abilitatea lichidului de topire si curatare a ghetii. Nu contine alcool metilic !",
     "packs": [
       {
         "id": "p-1",
@@ -3424,6 +3468,10 @@
       {
         "label": "Температура каплепадения",
         "value": "195 °C"
+      },
+      {
+        "label": "Допуски",
+        "value": "ZETOR, DIN 51502: KP2K-30, DIN 51825: KP2K-30, ISO 6743-9: L-XCCEB 2, Gradul de consistenta NLGI: NLGI 2"
       }
     ],
     "canister_vol": 0.375,
@@ -3458,7 +3506,7 @@
     ],
     "price_on_request": true,
     "name_ro": "MOL Liton LT 2EP",
-    "description_ro": "Литиевые смазки"
+    "description_ro": "Unsoare multifuncţională cu capacitate de preluare a sarcinii bună, rezistentă la apă, care asigură protecţie împotriva coroziunii, precum şi un nivel redus al frecării şi uzurii."
   },
   {
     "sku": "MOL-1034",
@@ -3509,6 +3557,10 @@
       {
         "label": "Температура кипения увлажнённой жидкости",
         "value": "187"
+      },
+      {
+        "label": "Кинематическая вязкость (-40°C)",
+        "value": "810 мм²/с"
       }
     ],
     "canister_vol": 4,
@@ -3516,7 +3568,7 @@
     "barrel_vol": 208,
     "barrel_price": 0,
     "name_ro": "MOL DOT 5.1",
-    "description_ro": "Синтетическая тормозная жидкость наивысшего качества для большинства современных транспортных средств",
+    "description_ro": "Recomandat în special pentru blocurile de frână hidraulice ale autoturismelor, camioanelor şi maşinilor de construcţii echipate cu sisteme de antiblocare a roţilor (ABS) şi sisteme de control activ al stabilităţii (ASC), la care punctul de fierbere uscat prescris pentru lichide de frână de calitate DOT 5.1 este cel puţin 260°C, iar punctul de fierbere umed este cel puţin 180°C.",
     "packs": [
       {
         "id": "p-1",
@@ -3666,6 +3718,10 @@
       {
         "label": "Температура вспышки",
         "value": "215 °C"
+      },
+      {
+        "label": "Допуски",
+        "value": "API GL-5, API GL-4, MIL-L-2105D, Tatra TDS 80/32, ZF TE-ML 07A, ZF TE-ML 08, ZF TE-ML 17B"
       }
     ],
     "canister_vol": 1,
@@ -3705,7 +3761,7 @@
       }
     ],
     "name_ro": "MOL Hykomol Synt 75W-90",
-    "description_ro": "Semisintetic трансмиссионное масло"
+    "description_ro": "Ulei de transmisie, de înaltă performanţă, cu durată lungă de viaţă, având aditivi EP. Destinat transmisiilor mecanice, axe-spate, mecanismelor diferenţiale şi de direcţie, ce echipează vehiculele comerciale şi de călători."
   },
   {
     "sku": "MOL-1037",
@@ -3723,7 +3779,7 @@
     "specs": [
       {
         "label": "Допуски",
-        "value": "API CI-4, API SL, DTFR 15B110 (ex MB 228.3), Volvo VDS-3, Renault RLD-2, MTU Type 2, Mack EO-N, ACEA E7, Global DHD-1, MAN M 3275-1, Tatra TDS 30/12, MACK EO-M Plus, DDC 93K215, Deutz DQC III-10"
+        "value": "API CI-4, API SL, DTFR 15B110 (ex MB 228.3), Volvo VDS-3, Renault RLD-2, MTU Type 2, Mack EO-N, ACEA E7, Global DHD-1, MAN M 3275-1, Tatra TDS 30/12, MACK EO-M Plus, DDC 93K215, Deutz DQC III-10, DTFR 15B110"
       },
       {
         "label": "Плотность при 15°C",
@@ -3763,7 +3819,7 @@
     "barrel_vol": 208,
     "barrel_price": 0,
     "name_ro": "MOL Dynamic Transit 10W-40",
-    "description_ro": "Идеальное моторное масло для смешанных автомобильных парков",
+    "description_ro": "Ulei de motor parţial sintetic pentru motoarele pe benzină sau diesel ale autoturismelor şi autocamioanelor moderne. Recomandat în special flotelor de vehicule mixte şi autocamioanelor fără Euro III şi filtre de particule diesel în categoriile de protecţia mediului Euro IV şi Euro V.",
     "packs": [
       {
         "id": "p-1",
@@ -3819,6 +3875,10 @@
       {
         "label": "Температура каплепадения",
         "value": "270 °C"
+      },
+      {
+        "label": "Допуски",
+        "value": "DIN 51502: KP2N-30, ISO 6743-9: L-XCDEB 2, Gradul de consistenta NLGI: NLGI 2"
       }
     ],
     "canister_vol": 0.4,
@@ -3847,7 +3907,7 @@
     ],
     "price_on_request": true,
     "name_ro": "MOL Favorit 2 Blue",
-    "description_ro": "Литий-комплексная консистентная смазка синего цвета"
+    "description_ro": "Unsoare lubrifiantă multifuncţională cu o stabilitate mecanică bună, asigurând lubrifiere adecvată pentru un timp mai lung."
   },
   {
     "sku": "MOL-1040",
@@ -3960,6 +4020,10 @@
       {
         "label": "Температура вспышки",
         "value": "128 °C"
+      },
+      {
+        "label": "Значение pH",
+        "value": "8,9"
       }
     ],
     "canister_vol": 4,
@@ -3967,7 +4031,7 @@
     "barrel_vol": 208,
     "barrel_price": 0,
     "name_ro": "EVOX Premium concentrate",
-    "description_ro": "Концентрат антифриза премиум-класса на основе моноэтиленгликоля по карбоксилатной технологии (G12/G12+ BASF Glysantin).",
+    "description_ro": "Concentrat de răcire antigel de calitate superioară şi durată de viaţă lungă, special dezvoltat pentru motoare din aluminiu moderne, de înaltă performanţă. Asigură protecţie maximă împotriva coroziunii, îngheţului şi supraîncălzirii, previne formarea tartrului şi depunerilor, precum şi cavitaţia în motor şi în sistemul de răcire.",
     "packs": [
       {
         "id": "p-1",
@@ -4210,7 +4274,7 @@
     "barrel_vol": 208,
     "barrel_price": 0,
     "name_ro": "MOL ATF 3H AP",
-    "description_ro": "Sintetic масло высшего сорта для автоматических коробок передач/трансмиссий.",
+    "description_ro": "Fluid pentru transmisii automate de înaltă performanţă, aplicabil pentru lubrifierea şi funcţionarea fiabilă a transmisiilor semi-automate sau automate şi sistemelor hidraulice ale camioanelor moderne, asigurând utilajului o durată de viaţă lungă pe un interval larg de temperaturi.",
     "packs": [
       {
         "id": "p-1",
@@ -4254,7 +4318,7 @@
     "specs": [
       {
         "label": "Допуски",
-        "value": "API CI-4/SL, DTFR 15B110 (ex MB 228.3), Volvo VDS-3, Renault RLD-2, Cummins CES 20078, Mack EO-N, ACEA E7, MIL-L-2104E, Global DHD-1, MAN M 3275-1, Tatra TDS 30/12, MTU Type 2, Caterpillar ECF-2, MACK EO-M Plus, Deutz DQC III-18, KAMAZ"
+        "value": "API CI-4/SL, DTFR 15B110 (ex MB 228.3), Volvo VDS-3, Renault RLD-2, Cummins CES 20078, Mack EO-N, ACEA E7, MIL-L-2104E, Global DHD-1, MAN M 3275-1, Tatra TDS 30/12, MTU Type 2, Caterpillar ECF-2, MACK EO-M Plus, Deutz DQC III-18, KAMAZ, ZETOR, DTFR 15B110"
       },
       {
         "label": "Плотность при 15°C",
@@ -4298,7 +4362,7 @@
     "barrel_vol": 208,
     "barrel_price": 0,
     "name_ro": "MOL Dynamic Transit 15W-40",
-    "description_ro": "Идеальное моторное масло для смешанных автомобильных парков",
+    "description_ro": "Ulei de motor universal pentru motoarele pe benzină sau diesel ale autoturismelor şi autocamioanelor. Recomandat în special flotelor de vehicule mixte şi autocamioanelor din categoriile de protecţia mediului Euro IV şi Euro V, şi fără Euro III şi sisteme de protecţie cu filtre de particule diesel.",
     "packs": [
       {
         "id": "p-1",
@@ -4488,7 +4552,7 @@
     "specs": [
       {
         "label": "Допуски",
-        "value": "MAN 339 Typ L2, MAN 339 Typ V1, MAN 339 Typ Z1, ZF TE-ML 04D[ZF001251], ZF TE-ML 14A[ZF001251], ZF TE-ML 17C[ZF001251], GM Dexron-IID, GM Type A Suffix A, Ford Mercon, ZF TE-ML 02F, ZF TE-ML 03D, ZF TE-ML 05L, ZF TE-ML 09, ZF TE-ML 11A, Voith H55.6335, Allison C-4"
+        "value": "GM Dexron-VI, JASO 1A LV, Toyota WS, Mazda FZ, Nissan Matic-W, Mitsubishi ATF J3, Mitsubishi SP-IV, VW G 055 540, VW G 055 005, VW G 055 162, BMW ATF 3+, BMW ATF6, Ford XT-6-QSP [SP], Honda Type 3.0, Honda Type 3.1, Hyundai/KIA 040000C90SG, Hyundai/KIA SP4-M1, Hyundai/KIA SPH-IV, Mistsubishi Dia Queen ATF-MA1, Mistsubishi Dia Queen ATF-PA, Honda DW-1, Hyundai NWS-9638, Hyundai/Kia SP-IV, Nissan Matic-S, SAAB 93 165 147"
       },
       {
         "label": "Плотность при 15°C",
@@ -4524,7 +4588,7 @@
     "barrel_vol": 208,
     "barrel_price": 0,
     "name_ro": "MOL ATF",
-    "description_ro": "Жидкость для автоматических трансмиссий",
+    "description_ro": "Fluid sintetic pentru transmisii automate, de calitate premium, elaborat în special pentru a corespunde cerinţelor autoturismelor şi camioanelor moderne, de fabricaţie japoneză sau coreeană, utilizabil într-un interval larg de temperaturi. Corespunde de asemenea cu cerinţele fluidelor de transmisie automată de ultima generaţie a vehiculelor Toyota.",
     "packs": [
       {
         "id": "p-1",
@@ -4601,7 +4665,7 @@
     "barrel_vol": 208,
     "barrel_price": 0,
     "name_ro": "MOL Hykomol K 85W-90",
-    "description_ro": "Автомобильные трансмиссионные масла",
+    "description_ro": "Ulei de transmisie EP de înaltă performanţă, dezvoltat pentru transmisii care operează cu încărcare medie sau grea.",
     "packs": [
       {
         "id": "p-4",
@@ -4733,6 +4797,10 @@
       {
         "label": "Плотность при 20°C",
         "value": "1,07 г/см³"
+      },
+      {
+        "label": "Значение pH",
+        "value": "8,2"
       }
     ],
     "canister_vol": 4,
@@ -4740,7 +4808,7 @@
     "barrel_vol": 208,
     "barrel_price": 0,
     "name_ro": "MOL EVOX Extra ready -35",
-    "description_ro": "Lichid de răcire MOL EVOX на основе моноэтиленгликоля по гибридной технологии HOAT для алюминиевых и чугунных двигателей.",
+    "description_ro": "MOL EVOX Extra ready -35 este un lichid de răcire antigel concentrat pe bază de monoetilenglicol, produs cu un sistem de aditivi hibrid silicaţi-OAT. Nu conţine nitriţi, amine, fosfaţi şi este indicat pentru umplerea sistemelor de răcire a motoarelor cu ardere internă. MOL EVOX Extra ready -35 poate fi amestecat fără limitare cu alte lichide de răcire antigel pe bază de monoetilenglicol sau monopropilenglicol.",
     "packs": [
       {
         "id": "p-4",
@@ -4887,6 +4955,10 @@
       {
         "label": "Температура кипения увлажнённой жидкости",
         "value": "163"
+      },
+      {
+        "label": "Кинематическая вязкость (-40°C)",
+        "value": "1315 мм²/с"
       }
     ],
     "canister_vol": 4,
@@ -4894,7 +4966,7 @@
     "barrel_vol": 208,
     "barrel_price": 0,
     "name_ro": "MOL DOT 4+",
-    "description_ro": "Синтетическая тормозная жидкость",
+    "description_ro": "Recomandat în special pentru blocurile de frână hidraulice ale autoturismelor, camioanelor şi maşinilor de construcţii echipate cu sisteme de antiblocare a roţilor (ABS) şi sisteme de control activ al stabilităţii (ASC), la care punctul de fierbere uscat prescris pentru lichide de frână de calitate DOT 4 este cel puţin 265°C, iar punctul de fierbere umed este cel puţin 170°C.",
     "packs": [
       {
         "id": "p-1",
@@ -5014,7 +5086,7 @@
     "specs": [
       {
         "label": "Допуски",
-        "value": "ACEA E7, API CI-4, API SL, Global DHD-1, MAN M 3275, Volvo VDS-3, Renault RLD-2, MTU Type 2, MACK EO-M Plus, Deutz DQC III-10, Mack EO-N"
+        "value": "ACEA E7, API CI-4, API SL, Global DHD-1, MAN M 3275, Volvo VDS-3, Renault RLD-2, MTU Type 2, MACK EO-M Plus, Deutz DQC III-10, Mack EO-N, Fabricat si distribuit de MOL-LUB Ltd., 2931 Almásfüzitő, Fő út 21., 1 / 2"
       },
       {
         "label": "Плотность при 15°C",
@@ -5054,7 +5126,7 @@
     "barrel_vol": 208,
     "barrel_price": 0,
     "name_ro": "MOL Dynamic Transit 10W-30",
-    "description_ro": "Идеальное моторное масло для смешанных автопарков",
+    "description_ro": "Ulei universal, de înaltă performanţă, potrivit pentru motoarele pe benzină ale autoturismelor, precum şi pentru motoarele diesel ale vehiculelor comerciale, echipate cu sisteme EGR şi SCR. Este recomandat în mod special pentru flotele mixte de vehicule.",
     "packs": [
       {
         "id": "p-1",
@@ -5101,7 +5173,7 @@
     "barrel_vol": 208,
     "barrel_price": 0,
     "name_ro": "MOL Evox Summer Citrus Breeze",
-    "description_ro": "ароматизированный летний стеклоомыватель",
+    "description_ro": "MOL EVOX Summer Citrus Breeze este un lichid limpede, cu parfum de citrice, destinat curatarii suprafetelor de sticla si policarbonat ale vehiculelor. In compozitie are un aditiv ce imbunatateste eficienta curatarii.",
     "packs": [
       {
         "id": "p-1",
@@ -5177,7 +5249,7 @@
     "barrel_vol": 208,
     "barrel_price": 0,
     "name_ro": "MOL Engine Flush PRO",
-    "description_ro": "Концентрат для промывки двигателя",
+    "description_ro": "MOL Engine Flush PRO este un concentrat de spălare a motorului pentru spălarea sistemului de lubrifiere al motoarelor cu ardere internă în patru timpi în timpul schimburilor de ulei. Acesta conține aditivi detergenți și dispersanți. Ajută la îndepărtarea depunerilor, murdăriei și produselor de uzură de pe motor și componentele acestuia. Pentru toate motoarele în 4 timpi pe benzină și diesel cu sau fără turbocompresor. Sigur pentru utilizarea cu convertoare catalitice convertoare catalitice și filtre de particule (GPF/DPF). Nu este adecvat pentru utilizarea pe motociclete cu ambreiaj umed.Atunci când utilizați acest produs, se recomandă respectarea următoarelor instrucțiuni:Umpleți motorul cald cu cantitatea necesară de concentrat de spălare a motoruluiPorniți motorul și lăsați-l să funcționeze la ralanti timp de 5-10 minuteOpriți motorulGoliți uleiul de motor uzatÎnlocuiți filtrul de uleiUmpleți motorul cu ulei de motor proaspăt350 ml de concentrat este suficient pentru 6 litri de ulei de motor.",
     "packs": [
       {
         "id": "p-1",
@@ -5257,7 +5329,7 @@
     "barrel_vol": 208,
     "barrel_price": 0,
     "name_ro": "MOL Hykomol Arctic 75W-90",
-    "description_ro": "Ulei de transmisie для работы в условиях низких температур",
+    "description_ro": "Ulei de transmisie de înaltă performanţă, pentru transmisiile manuale, cu o gamă largă de aplicaţii. Asigură o lubrifiere sigură, chiar și în condiții de temperaturi extrem de scăzute.",
     "packs": [
       {
         "id": "p-1",
@@ -5403,7 +5475,7 @@
     "barrel_vol": 208,
     "barrel_price": 0,
     "name_ro": "MOL Hykomol 85W-140",
-    "description_ro": "Автомобильные трансмиссионные масла",
+    "description_ro": "Ulei de transmisie de înaltă performanţă pentru transmisii şi o gamă largă de aplicaţii.",
     "packs": [
       {
         "id": "p-1",
@@ -5555,7 +5627,7 @@
     "barrel_vol": 208,
     "barrel_price": 0,
     "name_ro": "MOL Hykomol 90",
-    "description_ro": "Автомобильные трансмиссионные масла",
+    "description_ro": "Ulei de transmisie de înaltă performanţă pentru transmisii şi o gamă largă de aplicaţii.",
     "packs": [
       {
         "id": "p-1",
@@ -5611,7 +5683,7 @@
     "barrel_vol": 208,
     "barrel_price": 0,
     "name_ro": "EVOX Terminator",
-    "description_ro": "Жидкость-растворитель для удаления насекомых",
+    "description_ro": "Produs cu substanţe tensioactive şi aditivi de curăţire îmbunătăţite, pentru înlăturarea impurităţilor lipite pe parbrize.",
     "packs": [
       {
         "id": "p-1",
@@ -5745,7 +5817,7 @@
     "barrel_vol": 208,
     "barrel_price": 0,
     "name_ro": "MOL EcoClean-S",
-    "description_ro": "Жидкость для очистки двигателя",
+    "description_ro": "Lichid degresant pe bază de solvent, asigură o curăţire eficientă pentru şasiurile, motoarele, componentele şi piesele vehiculelor, maşinilor grele şi maşinilor de forţă din agricultură, cisternelor feroviare şi rezervoarelor de depozitare subterană poluate cu ulei, unsoare sau bitum; poate fi folosit şi pentru îndepărtarea resturilor de aşchii de pe piesele de lucru metalice.",
     "packs": [
       {
         "id": "p-1",
@@ -5792,7 +5864,7 @@
     "barrel_vol": 208,
     "barrel_price": 0,
     "name_ro": "MOL Evox Winter Citrus Breeze -30",
-    "description_ro": "Aроматизированная зимняя жидкость для стеклоомывателя",
+    "description_ro": "MOL EVOX Winter Citrus Breeze - 30 este un lichid limpede, cu parfum de grapefruit. Are un continut ridicat de alcool. Pachetul de aditivare este formulat pe baza de nanotehnologie. Nu se recomanda diluarea produsului, pentru ca ar diminua abilitatea lichidului de topire si curatare a ghetii. Nu contine alcool metilic!",
     "packs": [
       {
         "id": "p-1",
@@ -5868,7 +5940,7 @@
     "barrel_vol": 208,
     "barrel_price": 0,
     "name_ro": "MOL Hykomol Syntrans 75W-90",
-    "description_ro": "Автомобильное sintetic трансмиссионное масло высшего сорта.",
+    "description_ro": "Ulei de transmisie sintetic de înaltă performanţă pentru camioane echipate cu cutii de viteză manuale.",
     "packs": [
       {
         "id": "p-1",
@@ -6445,7 +6517,7 @@
       },
       {
         "label": "Допуски",
-        "value": "MAN 271, Volvo VDS"
+        "value": "TEDOM 258-2, ACEA E2-96 Issue 5, API CF-4/CF/SJ, MAN 271, Volvo VDS, MTU Type 1, Avia, Allison C-4, ZETOR, Deutz DQC I-02, Fabricat si distribuit de MOL-LUB Ltd., 2931 Almásfüzitő, Fő út 21., 1 / 2"
       },
       {
         "label": "Плотность при 15°C",
@@ -6513,7 +6585,7 @@
     "barrel_vol": 204,
     "barrel_price": 12240,
     "name_ro": "MOL Turbo Diesel 15W-40",
-    "description_ro": "Mineral масло для тяжелонагруженных турбодизелей."
+    "description_ro": "Ulei de motor multigrad de mare performanţă, pentru motoare diesel cu aspiraţie sau supraalimentare, supuse solicitării grele şi funcţionând în condiţii extreme. Asigură protecţie antiuzură de înalt grad, curăţenie şi durată de viaţă lungă pentru motor."
   },
   {
     "sku": "MOL-DYN-ESS-15W40",
@@ -6739,6 +6811,10 @@
       {
         "label": "Температура вспышки",
         "value": "210 °C"
+      },
+      {
+        "label": "Допуски",
+        "value": "MAN 339 Typ L2, MAN 339 Typ V1, MAN 339 Typ Z1, ZF TE-ML 04D[ZF001251], ZF TE-ML 14A[ZF001251], ZF TE-ML 17C[ZF001251], GM Dexron-IID, GM Type A Suffix A, Ford Mercon, ZF TE-ML 02F, ZF TE-ML 03D, ZF TE-ML 05L, ZF TE-ML 09, ZF TE-ML 11A, Voith H55.6335, Allison C-4"
       }
     ],
     "canister_vol": 1,
@@ -6772,7 +6848,7 @@
     "barrel_vol": 198,
     "barrel_price": 16746,
     "name_ro": "MOL ATF III",
-    "description_ro": "Жидкость для автоматических трансмиссий стандарта Dexron III."
+    "description_ro": "Fluid pentru transmisii automate de înaltă performanţă, aplicabil pentru lubrifierea şi funcţionarea fiabilă a transmisiilor semi-automate sau automate şi sistemelor hidraulice ale camioanelor moderne, asigurând utilajului o durată de viaţă lungă pe un interval larg de temperaturi."
   },
   {
     "sku": "MOL-ATF-II",
@@ -6814,6 +6890,10 @@
       {
         "label": "Температура вспышки",
         "value": "210 °C"
+      },
+      {
+        "label": "Допуски",
+        "value": "MAN 339 Typ L2, MAN 339 Typ V1, MAN 339 Typ Z1, ZF TE-ML 04D[ZF001251], ZF TE-ML 14A[ZF001251], ZF TE-ML 17C[ZF001251], GM Dexron-IID, GM Type A Suffix A, Ford Mercon, ZF TE-ML 02F, ZF TE-ML 03D, ZF TE-ML 05L, ZF TE-ML 09, ZF TE-ML 11A, Voith H55.6335, Allison C-4"
       }
     ],
     "canister_vol": 1,
@@ -6841,7 +6921,7 @@
     "barrel_vol": 50,
     "barrel_price": 3940,
     "name_ro": "MOL ATF II",
-    "description_ro": "Ulei de transmisie для АКПП стандарта Dexron II."
+    "description_ro": "Fluid pentru transmisii automate de înaltă performanţă, aplicabil pentru lubrifierea şi funcţionarea fiabilă a transmisiilor semi-automate sau automate şi sistemelor hidraulice ale camioanelor moderne, asigurând utilajului o durată de viaţă lungă pe un interval larg de temperaturi."
   },
   {
     "sku": "MOL-LITON-00-GM",
@@ -6865,6 +6945,10 @@
       {
         "label": "Температура каплепадения",
         "value": "180 °C"
+      },
+      {
+        "label": "Допуски",
+        "value": "Vogel, DIN 51502: KHCP00K-40, ISO 6743-9: L-XDCEB 00, Gradul de consistenta NLGI: NLGI 00"
       }
     ],
     "canister_vol": 7,
@@ -6878,7 +6962,7 @@
       }
     ],
     "name_ro": "MOL Liton 00 GM",
-    "description_ro": "Пластичная полужидкая смазка для централизованных систем смазки."
+    "description_ro": "Unsoare lubrifiantă de calitate premium,pentru sisteme de lubrifiere centralizată, compusă din ulei de bază sintetic şi săpun de 12-hidroxistearat de Li/Ca. Ideal pentru autocamioane, maşini grele şi sistemele de lubrifiere centralizată ale maşinilor pentru care este prevăzută o unsoare fluidă. Certificat de WILLY VOGEL ca lubrifiant corespunzător pentru sisteme de lubrifiere centrailizată."
   },
   {
     "sku": "WB-TREE-001",
@@ -10891,6 +10975,14 @@
       {
         "label": "Температура кипения увлажнённой жидкости",
         "value": "163"
+      },
+      {
+        "label": "Допуски",
+        "value": "SAE J 1704, FMVSS 116, DOT 4, ISO 4925 Class 4"
+      },
+      {
+        "label": "Кинематическая вязкость (-40°C)",
+        "value": "1315 мм²/с"
       }
     ],
     "canister_vol": 0.5,
@@ -10904,7 +10996,7 @@
       }
     ],
     "name_ro": "Lichid de frână MOL DOT 4+ (0.5 л)",
-    "description_ro": "Премиальная синтетическая тормозная жидкость MOL DOT 4+ с повышенной температурой кипения для экстремальных нагрузок."
+    "description_ro": "Recomandat în special pentru blocurile de frână hidraulice ale autoturismelor, camioanelor şi maşinilor de construcţii echipate cu sisteme de antiblocare a roţilor (ABS) şi sisteme de control activ al stabilităţii (ASC), la care punctul de fierbere uscat prescris pentru lichide de frână de calitate DOT 4 este cel puţin 265°C, iar punctul de fierbere umed este cel puţin 170°C."
   },
   {
     "sku": "IND-MOL-001",
@@ -12792,7 +12884,7 @@
     "specs": [
       {
         "label": "Спецификации",
-        "value": "ASTM D 3306, ASTM D 4985, SAE J 1034, BS 6580:2010"
+        "value": "BS 6580:2010, ASTM D 3306, ASTM D 4985, AFNOR R-15-601"
       },
       {
         "label": "Цвет",
@@ -12849,7 +12941,7 @@
     "specs": [
       {
         "label": "Спецификации",
-        "value": "ASTM D 3306, BS 6580:2010"
+        "value": "BS 6580:2010, ASTM D 3306, AFNOR R-15-601"
       },
       {
         "label": "t замерзания",
@@ -12883,7 +12975,7 @@
       }
     ],
     "name_ro": "Antigel MOL Alycol Cool Ready -35°C (Бочка 206 л)",
-    "description_ro": "Готовая охлаждающая жидкость MOL Alycol Cool Ready -35°C в фасовке бочка 206 л (220 кг)."
+    "description_ro": "Componentele sale active asigură o protecţie eficientă pentru sistemul de răcire împotriva coroziunii, îngheţului şi supraîncălzirii, previne formarea tartrului şi depunerilor în blocul motor."
   },
   {
     "sku": "MOL-EVOX-PREMIUM-CONC",
@@ -12931,6 +13023,14 @@
       {
         "label": "Температура кипения",
         "value": "180 °C"
+      },
+      {
+        "label": "Допуски",
+        "value": "DAF 74002, BS 6580:2010, ASTM D 3306, ASTM D 4985, ASTM D 6210, Saab B 040 1065, VW/Audi/Seat/Skoda G12 (TL 774-D), VW/Audi/Seat/Skoda G12+ (TL 774-F), DTFR 29C110 (ex MB 325.3), Ford WSS-M97B44-D, MAN Diesel & Turbo SE, MAN 324 Typ SNF, MAN D36 5600, TEDOM, CNH MAT 3624, MTU MTL 5048, Fendt, Caterpillar 0199-99-2091/12., Caterpillar MAK A4.05.09.01, Caterpillar GCM34, Cummins CES 14603, Cummins CES 14439, Cummins IS series u N14, Mack 014 GS 17009, Jenbacher TI 1000-0201, MWM 0199-99-2091/12, Detroit DFS93K217, Fiat 9.55523, Isuzu, Mitsubishi MHI, Hitachi, Liebherr MD1-36-130, Deutz DQC CB-14, Jaguar CMR 8229, STJLR 651.5003, Wartsila 32-9011, SKODA 61-0-0257, SACM Diesel DLP799861, Kobelco, Komatsu 07.892 (2009), Van Hool, Valtra, Claas, Detroit Diesel Power Cool Plus, Deutz 0199-99-1115/6, Foton Q-FPT 2313005-2013, GM 6277M, John Deere JDMH5, Renault 41-01-001/-S Type D, Volvo Trucks, Volvo Trucks 128 6083/002, Waukesha"
+      },
+      {
+        "label": "Значение pH",
+        "value": "8,9"
       }
     ],
     "canister_vol": 1,
@@ -12964,7 +13064,7 @@
       }
     ],
     "name_ro": "Концентрат антифриза MOL EVOX Premium Concentrate G12/G12+ (Красный)",
-    "description_ro": "Карбоксилатный концентрат антифриза высшего класса MOL EVOX Premium G12/G12+ pentru motoare pe benzină și diesel."
+    "description_ro": "Concentrat de răcire antigel de calitate superioară şi durată de viaţă lungă, special dezvoltat pentru motoare din aluminiu moderne, de înaltă performanţă. Asigură protecţie maximă împotriva coroziunii, îngheţului şi supraîncălzirii, previne formarea tartrului şi depunerilor, precum şi cavitaţia în motor şi în sistemul de răcire."
   },
   {
     "sku": "MOL-EVOX-PREMIUM-READY35",
@@ -13768,7 +13868,7 @@
       },
       {
         "label": "Допуски",
-        "value": "API CI-4/SL, MB 228.3, MAN M 3275, Volvo VDS-3"
+        "value": "API CI-4, API SL, DTFR 15B110 (ex MB 228.3), Volvo VDS-3, Renault RLD-2, MTU Type 2, Mack EO-N, ACEA E7, Global DHD-1, MAN M 3275-1, Tatra TDS 30/12, MACK EO-M Plus, DDC 93K215, Deutz DQC III-10, DTFR 15B110"
       },
       {
         "label": "Плотность при 15°C",
@@ -13822,7 +13922,7 @@
       }
     ],
     "name_ro": "Ulei de motor MOL Dynamic Transit 10W-40 (LKW camioane)",
-    "description_ro": "Универсальное масло MOL Dynamic Transit 10W-40 для высоконагруженных дизелей смешанных автопарков."
+    "description_ro": "Ulei de motor parţial sintetic pentru motoarele pe benzină sau diesel ale autoturismelor şi autocamioanelor moderne. Recomandat în special flotelor de vehicule mixte şi autocamioanelor fără Euro III şi filtre de particule diesel în categoriile de protecţia mediului Euro IV şi Euro V."
   },
   {
     "sku": "MOL-HYKOMOL-80W90",
@@ -13869,6 +13969,10 @@
       {
         "label": "Температура вспышки",
         "value": "230 °C"
+      },
+      {
+        "label": "Допуски",
+        "value": "API GL-4, MIL-L-2105"
       }
     ],
     "canister_vol": 1,
@@ -13947,6 +14051,10 @@
       {
         "label": "Температура вспышки",
         "value": "230 °C"
+      },
+      {
+        "label": "Допуски",
+        "value": "API GL-5, MIL-L-2105D, ZETOR"
       }
     ],
     "canister_vol": 1,
@@ -13978,7 +14086,7 @@
       }
     ],
     "name_ro": "Ulei de transmisie MOL Hykomol K 80W-90 GL-5",
-    "description_ro": "Ulei de transmisie MOL Hykomol K SAE 80W-90 класса API GL-5 для ведомых мостов и гипоидных передач."
+    "description_ro": "Ulei de transmisie EP de înaltă performanţă, dezvoltat pentru transmisii care operează cu încărcare medie sau grea."
   },
   {
     "sku": "MOL-HYKOMOL-SYNT-75W90",
@@ -14025,6 +14133,10 @@
       {
         "label": "Температура вспышки",
         "value": "215 °C"
+      },
+      {
+        "label": "Допуски",
+        "value": "API GL-5, API GL-4, MIL-L-2105D, Tatra TDS 80/32, ZF TE-ML 07A, ZF TE-ML 08, ZF TE-ML 17B"
       }
     ],
     "canister_vol": 1,
@@ -14056,7 +14168,7 @@
       }
     ],
     "name_ro": "Ulei de transmisie MOL Hykomol Synt 75W-90 GL-4/GL-5",
-    "description_ro": "Sintetic трансмиссионное масло MOL Hykomol Synt 75W-90 высшего качества для всех типов коробок передач."
+    "description_ro": "Ulei de transmisie, de înaltă performanţă, cu durată lungă de viaţă, având aditivi EP. Destinat transmisiilor mecanice, axe-spate, mecanismelor diferenţiale şi de direcţie, ce echipează vehiculele comerciale şi de călători."
   },
   {
     "sku": "MOL-ATF-3G",
@@ -14072,7 +14184,7 @@
     "specs": [
       {
         "label": "Спецификации",
-        "value": "Dexron III, MAN 339 V-1 / Z-1"
+        "value": "MAN 339 Typ L1, MAN 339 Typ V1, MAN 339 Typ Z1, ZF TE-ML 04D[ZF001179], ZF TE-ML 14A[ZF001179], Voith H55.6335, ZETOR, GM Dexron-IIIG, Ford Mercon, ZF TE-ML 05L, ZF TE-ML 09, ZF TE-ML 11B, Allison C-4, Volvo CE 97341"
       },
       {
         "label": "Плотность при 15°C",
@@ -14116,7 +14228,7 @@
       }
     ],
     "name_ro": "Ulei de transmisie MOL ATF 3G (Dexron III)",
-    "description_ro": "Жидкость для автоматических коробок передач MOL ATF 3G класса Dexron III, MAN 339 V-1 / Z-1."
+    "description_ro": "Fluid pentru transmisii automate pentru lubrifierea şi funcţionarea fiabilă a cutiilor de transmisii semi-automate sau automate şi sistemelor hidraulice ale camioanelor moderne, utilizate într-un interval larg de temperaturi. MOL ATF 3 G asigură motorului durată de viaţă lungă şi pornire uşoară la rece."
   },
   {
     "sku": "MOL-DSG-DCT-FLUID",
@@ -14246,6 +14358,10 @@
       {
         "label": "Температура каплепадения",
         "value": "195 °C"
+      },
+      {
+        "label": "Допуски",
+        "value": "ZETOR, DIN 51502: KP2K-30, DIN 51825: KP2K-30, ISO 6743-9: L-XCCEB 2, Gradul de consistenta NLGI: NLGI 2"
       }
     ],
     "canister_vol": 0.375,
@@ -14259,7 +14375,7 @@
       }
     ],
     "name_ro": "Vaselină MOL Liton LT 2 EP (0.375 кг дойпак)",
-    "description_ro": "Многоцелевая литиевая пластичная смазка MOL Liton LT 2 EP в удобной упаковке дойпак 375 г."
+    "description_ro": "Unsoare multifuncţională cu capacitate de preluare a sarcinii bună, rezistentă la apă, care asigură protecţie împotriva coroziunii, precum şi un nivel redus al frecării şi uzurii."
   },
   {
     "sku": "MOL-FAVORIT-2-BLUE-0400",
@@ -14291,6 +14407,10 @@
       {
         "label": "Температура каплепадения",
         "value": "270 °C"
+      },
+      {
+        "label": "Допуски",
+        "value": "DIN 51502: KP2N-30, ISO 6743-9: L-XCDEB 2, Gradul de consistenta NLGI: NLGI 2"
       }
     ],
     "canister_vol": 0.4,
@@ -14304,7 +14424,7 @@
       }
     ],
     "name_ro": "Vaselină MOL Favorit 2 Blue (0.400 кг cartuș)",
-    "description_ro": "Высокотемпературная литиево-комплексная смазка синего цвета MOL Favorit 2 Blue для высоких нагрузок."
+    "description_ro": "Unsoare lubrifiantă multifuncţională cu o stabilitate mecanică bună, asigurând lubrifiere adecvată pentru un timp mai lung."
   },
   {
     "sku": "CC-61223",
@@ -18515,7 +18635,7 @@
       },
       {
         "label": "Допуски",
-        "value": "API CF-4/CF/SJ, ACEA E2-96 Issue 5, MAN 271, Volvo VDS"
+        "value": "TEDOM 258-2, ACEA E2-96 Issue 5, API CF-4/CF/SJ, MAN 271, Volvo VDS, MTU Type 1, Avia, Allison C-4, ZETOR, Deutz DQC I-02, Fabricat si distribuit de MOL-LUB Ltd., 2931 Almásfüzitő, Fő út 21., 1 / 2"
       },
       {
         "label": "Плотность при 15°C",
@@ -18581,7 +18701,7 @@
       }
     ],
     "name_ro": "Ulei de motor MOL Turbo Diesel 15W-40 (LKW camioane)",
-    "description_ro": "Mineral моторное масло MOL Turbo Diesel 15W-40 pentru motoare diesel de mare tonaj грузовых автомобилей."
+    "description_ro": "Ulei de motor multigrad de mare performanţă, pentru motoare diesel cu aspiraţie sau supraalimentare, supuse solicitării grele şi funcţionând în condiţii extreme. Asigură protecţie antiuzură de înalt grad, curăţenie şi durată de viaţă lungă pentru motor."
   },
   {
     "sku": "MOL-TRANSIT-15W40",
@@ -18874,7 +18994,7 @@
       }
     ],
     "name_ro": "Vaselină MOL Liton 00 GM (7 кг)",
-    "description_ro": "",
+    "description_ro": "Unsoare lubrifiantă de calitate premium,pentru sisteme de lubrifiere centralizată, compusă din ulei de bază sintetic şi săpun de 12-hidroxistearat de Li/Ca. Ideal pentru autocamioane, maşini grele şi sistemele de lubrifiere centralizată ale maşinilor pentru care este prevăzută o unsoare fluidă. Certificat de WILLY VOGEL ca lubrifiant corespunzător pentru sisteme de lubrifiere centrailizată.",
     "volumes": [
       7
     ],
@@ -18886,6 +19006,10 @@
       {
         "label": "Температура каплепадения",
         "value": "180 °C"
+      },
+      {
+        "label": "Допуски",
+        "value": "Vogel, DIN 51502: KHCP00K-40, ISO 6743-9: L-XDCEB 00, Gradul de consistenta NLGI: NLGI 00"
       }
     ]
   },
@@ -18905,7 +19029,7 @@
       }
     ],
     "name_ro": "Vaselină MOL Liton LT 2 EP (250 г)",
-    "description_ro": "",
+    "description_ro": "Unsoare multifuncţională cu capacitate de preluare a sarcinii bună, rezistentă la apă, care asigură protecţie împotriva coroziunii, precum şi un nivel redus al frecării şi uzurii.",
     "volumes": [
       0.25
     ],
@@ -18921,6 +19045,10 @@
       {
         "label": "Температура каплепадения",
         "value": "195 °C"
+      },
+      {
+        "label": "Допуски",
+        "value": "ZETOR, DIN 51502: KP2K-30, DIN 51825: KP2K-30, ISO 6743-9: L-XCCEB 2, Gradul de consistenta NLGI: NLGI 2"
       }
     ]
   },
@@ -18940,7 +19068,7 @@
       }
     ],
     "name_ro": "Vaselină MOL Liton LT 2 EP (400 г cartuș)",
-    "description_ro": "",
+    "description_ro": "Unsoare multifuncţională cu capacitate de preluare a sarcinii bună, rezistentă la apă, care asigură protecţie împotriva coroziunii, precum şi un nivel redus al frecării şi uzurii.",
     "volumes": [
       0.4
     ],
@@ -18956,6 +19084,10 @@
       {
         "label": "Температура каплепадения",
         "value": "195 °C"
+      },
+      {
+        "label": "Допуски",
+        "value": "ZETOR, DIN 51502: KP2K-30, DIN 51825: KP2K-30, ISO 6743-9: L-XCCEB 2, Gradul de consistenta NLGI: NLGI 2"
       }
     ]
   },
@@ -18975,7 +19107,7 @@
       }
     ],
     "name_ro": "Vaselină MOL Liton LT 2 EP (8 кг)",
-    "description_ro": "",
+    "description_ro": "Unsoare multifuncţională cu capacitate de preluare a sarcinii bună, rezistentă la apă, care asigură protecţie împotriva coroziunii, precum şi un nivel redus al frecării şi uzurii.",
     "volumes": [
       8
     ],
@@ -18991,6 +19123,10 @@
       {
         "label": "Температура каплепадения",
         "value": "195 °C"
+      },
+      {
+        "label": "Допуски",
+        "value": "ZETOR, DIN 51502: KP2K-30, DIN 51825: KP2K-30, ISO 6743-9: L-XCCEB 2, Gradul de consistenta NLGI: NLGI 2"
       }
     ]
   },
@@ -19010,7 +19146,7 @@
       }
     ],
     "name_ro": "Vaselină MOL Liton LT 2 EP (18 кг)",
-    "description_ro": "",
+    "description_ro": "Unsoare multifuncţională cu capacitate de preluare a sarcinii bună, rezistentă la apă, care asigură protecţie împotriva coroziunii, precum şi un nivel redus al frecării şi uzurii.",
     "volumes": [
       18
     ],
@@ -19026,6 +19162,10 @@
       {
         "label": "Температура каплепадения",
         "value": "195 °C"
+      },
+      {
+        "label": "Допуски",
+        "value": "ZETOR, DIN 51502: KP2K-30, DIN 51825: KP2K-30, ISO 6743-9: L-XCCEB 2, Gradul de consistenta NLGI: NLGI 2"
       }
     ]
   },
@@ -19045,7 +19185,7 @@
       }
     ],
     "name_ro": "Vaselină MOL Favorit 2 Blue (8 кг)",
-    "description_ro": "",
+    "description_ro": "Unsoare lubrifiantă multifuncţională cu o stabilitate mecanică bună, asigurând lubrifiere adecvată pentru un timp mai lung.",
     "volumes": [
       8
     ],
@@ -19061,6 +19201,10 @@
       {
         "label": "Температура каплепадения",
         "value": "270 °C"
+      },
+      {
+        "label": "Допуски",
+        "value": "DIN 51502: KP2N-30, ISO 6743-9: L-XCDEB 2, Gradul de consistenta NLGI: NLGI 2"
       }
     ]
   },
@@ -19080,7 +19224,7 @@
       }
     ],
     "name_ro": "Vaselină MOL Favorit 2 Blue (18 кг găleată)",
-    "description_ro": "",
+    "description_ro": "Unsoare lubrifiantă multifuncţională cu o stabilitate mecanică bună, asigurând lubrifiere adecvată pentru un timp mai lung.",
     "volumes": [
       18
     ],
@@ -19096,6 +19240,10 @@
       {
         "label": "Температура каплепадения",
         "value": "270 °C"
+      },
+      {
+        "label": "Допуски",
+        "value": "DIN 51502: KP2N-30, ISO 6743-9: L-XCDEB 2, Gradul de consistenta NLGI: NLGI 2"
       }
     ]
   },

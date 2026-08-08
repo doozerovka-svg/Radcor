@@ -1,6 +1,7 @@
 {
-  "scraped_at": "2026-08-08T22:51:00Z",
+  "scraped_at": "2026-08-08T20:24:17.443Z",
   "source": "https://mollubricants.md/ro/lubrifianti-si-autochimicale/transport/produse/",
+  "total_products": 110,
   "products": [
     {
       "name": "MOL Dynamic Mistral NG 10W-30",
@@ -27,15 +28,21 @@
         "MACK EO-S-4.5",
         "Detroit Diesel DFS 93K222",
         "Deutz DQC IV-18LA",
-        "Ford WSS-M2C213-A1"
+        "Ford WSS-M2C213-A1",
+        "DAF PSQL 2.1 E",
+        "DAF PSQL 2.1 E LD",
+        "DAF PSQL 2.4",
+        "DAF Extended Drain"
       ],
       "characteristics": {
         "Densitate la 15°C [g/cm3]": "0,867",
         "Viscozitate cinematică la 40 °C [mm2/s]": "85,7",
         "Viscozitate cinematică la 100 °C [mm2/s]": "12,26",
         "Indice de viscozitate": "138",
-        "Punct de curgere [°C]": "-42"
-      }
+        "Punct de curgere [°C]": "-42",
+        "Densitate la 15 °C [g/cm3]": "0,872"
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Dynamic Mistral NG 10W-30_RO.pdf"
     },
     {
       "name": "MOL Dynamic Mistral NG 10W-40",
@@ -60,7 +67,12 @@
         "DAF",
         "Caterpillar ECF-3",
         "DDC 93K222",
-        "IVECO"
+        "IVECO",
+        "DTFR 15C110",
+        "DAF PSQL 2.1 E",
+        "DAF PSQL 2.1 E LD",
+        "DAF PSQL 2.4",
+        "DAF PSQL 2.4LD"
       ],
       "characteristics": {
         "Densitate la 15°C [g/cm3]": "0,863",
@@ -70,7 +82,8 @@
         "Punct de curgere [°C]": "-42",
         "Punct de inflamabilitate (Cleveland) [°C]": "230",
         "Cifra de bazicitate (BN) [mg KOH/g]": "10,2"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Dynamic Mistral NG 10W-40_RO.pdf"
     },
     {
       "name": "MOL Dynamic Mistral 10W-40",
@@ -99,7 +112,13 @@
         "Renault RGD",
         "Renault RXD",
         "Caterpillar ECF-1a",
-        "MAN M 3271-3"
+        "MAN M 3271-3",
+        "DTFR 15C110",
+        "DAF PSQL 2.1 E",
+        "DAF PSQL 2.1 E LD",
+        "DAF PSQL 2.4",
+        "DAF PSQL 2.4LD",
+        "DAF"
       ],
       "characteristics": {
         "Densitate la 15 °C [g/cm3]": "0,864",
@@ -108,7 +127,8 @@
         "Indice de viscozitate": "151",
         "Punct de curgere [°C]": "-33",
         "Punct de inflamabilitate (Cleveland) [°C]": "240"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Dynamic Mistral 10W-40_RO.pdf"
     },
     {
       "name": "MOL Dynamic Mistral E6 10W-40",
@@ -118,7 +138,12 @@
       "full_description": "MOL Dynamic Mistral E6 10W-40 este un ulei de motor complet sintetic, de înaltă performanță, cu conținut specific scăzut de cenușă, sulf și fosfor, pentru cele mai moderne autovehicule comerciale. Își păstrează proprietățile excelente chiar și la temperaturi ale motorului constant ridicate, ca urmare a stabilității ridicate la oxidare a uleiurilor sintetice. Asigură o protecție excelentă a motorului chiar și pentru cele mai lungi intervale de schimbare a uleiului.",
       "approvals_and_performance": [
         "ACEA E6",
-        "ACEA E8"
+        "ACEA E8",
+        "DTFR 15C110",
+        "DAF PSQL 2.1 E LD",
+        "DAF PSQL 2.4LD",
+        "Fabricat si distribuit de MOL-LUB Ltd., 2931 Almásfüzitő, Fő út 21.",
+        "1 / 2"
       ],
       "characteristics": {
         "Densitate la 15 °C [g/cm3]": "0,863",
@@ -127,7 +152,8 @@
         "Indice de viscozitate": "156",
         "Punct de curgere [°C]": "-45",
         "Punct de inflamabilitate (Cleveland) [°C]": "230"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Dynamic Mistral E6 10W-40_RO.pdf"
     },
     {
       "name": "MOL Dynamic Global Diesel 10W-30",
@@ -135,8 +161,36 @@
       "category_ro": "Ulei de motor",
       "short_description": "Ulei de motor ecologic pentru vehiculele diesel cele mai moderne.",
       "full_description": "Ulei de motor permiţând economia de carburant, cu performanţă excepţională şi conţinut de cenuşă scăzut, destinat camioanelor echipate cu cele mai moderne sisteme EGR, filtre de particule diesel (DPFs) şi/sau catalizatori de oxidare diesel (DOC).",
-      "approvals_and_performance": [],
-      "characteristics": {}
+      "approvals_and_performance": [
+        "Volvo VDS-4.5",
+        "Renault RLD-3",
+        "MACK EO-S-4.5",
+        "ACEA E9",
+        "ACEA E11",
+        "API CK-4",
+        "DAF PSQL 2.1 E",
+        "DAF PSQL 2.4",
+        "JASO DH-2",
+        "Ford WSS-M2C171-F1",
+        "MAN M 3575",
+        "MAN M 3775",
+        "MTU Type 2.1",
+        "Caterpillar ECF-1a",
+        "Caterpillar ECF-2",
+        "Caterpillar ECF-3",
+        "Detroit Diesel DFS 93K222",
+        "Deutz DQC III-10LA"
+      ],
+      "characteristics": {
+        "Aspect": "maro, limpede",
+        "Densitate la 15 °C [g/cm3]": "0,867",
+        "Viscozitate cinematică la 40 °C [mm2/s]": "79,7",
+        "Viscozitate cinematică la 100 °C [mm2/s]": "12,0",
+        "Punct de curgere [°C]": "-44",
+        "Punct de inflamabilitate (Cleveland) [°C]": "236",
+        "Cifra de bazicitate (BN) [mg KOH/g]": "9,6"
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL%20Dynamic%20Global%20Diesel%2010W-30_RO.pdf"
     },
     {
       "name": "MOL Dynamic Global Diesel 10W-40",
@@ -165,7 +219,10 @@
         "DDC 93K218",
         "Detroit Diesel DFS 93K222",
         "Iveco 18-1804 TLS E9",
-        "Deutz DQC III-10LA"
+        "Deutz DQC III-10LA",
+        "Deutz DQC III-18LA",
+        "ACEA E9",
+        "DAF PSQL 2.1 E"
       ],
       "characteristics": {
         "Densitate la 15°C [g/cm3]": "0,862",
@@ -174,8 +231,11 @@
         "Indice de viscozitate": "152",
         "Punct de curgere [°C]": "-36",
         "Punct de inflamabilitate (Cleveland) [°C]": "230",
-        "Cifra de bazicitate (BN) [mg KOH/g]": "8,5"
-      }
+        "Cifra de bazicitate (BN) [mg KOH/g]": "8,5",
+        "Aspect": "maro, limpede",
+        "Densitate la 15 °C [g/cm3]": "0,867"
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Dynamic Global Diesel 10W-40_RO.pdf"
     },
     {
       "name": "MOL Dynamic Global Diesel 15W-40",
@@ -196,7 +256,11 @@
         "MAN M 3775",
         "Caterpillar ECF-3",
         "Detroit Diesel DFS 93K222",
-        "Deutz DQC III-10LA"
+        "Deutz DQC III-10LA",
+        "API SP",
+        "DTFR 15C100",
+        "DAF PSQL 2.1 E",
+        "DAF PSQL 2.4"
       ],
       "characteristics": {
         "Densitate la 15°C [g/cm3]": "0,870",
@@ -204,8 +268,11 @@
         "Viscozitate cinematică la 100 °C [mm2/s]": "14,5",
         "Indice de viscozitate": "142",
         "Punct de curgere [°C]": "-39",
-        "Punct de inflamabilitate (Cleveland) [°C]": "232"
-      }
+        "Punct de inflamabilitate (Cleveland) [°C]": "232",
+        "Aspect": "maro, limpede",
+        "Densitate la 15 °C [g/cm3]": "0,873"
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Dynamic Global Diesel 15W-40_RO.pdf"
     },
     {
       "name": "MOL Dynamic Synt Diesel 5W-30",
@@ -213,8 +280,27 @@
       "category_ro": "Ulei de motor",
       "short_description": "Ulei de motor sintetic, de înaltă calitate",
       "full_description": "Ulei de motor complet sintetic, cu durată de viaţă deosebit de lungă, elaborat special pentru camioane şi autobuze cu motoare Euro III sau Euro IV şi V fără filtru de particule diesel (DPF). Datorită aditivilor speciali, este foarte recomandat utilizării în motoarele moderne Volvo, Mercedes-Benz, MAN şi DAF.",
-      "approvals_and_performance": [],
-      "characteristics": {}
+      "approvals_and_performance": [
+        "MAN M 3277",
+        "Volvo VDS-3",
+        "Renault RLD-2",
+        "DTFR 15B120",
+        "Mack EO-N",
+        "ACEA E7",
+        "ACEA E4",
+        "API CF",
+        "Scania LDF-3",
+        "MTU Type 3"
+      ],
+      "characteristics": {
+        "Densitate la 15°C [g/cm3]": "0,858",
+        "Viscozitate cinematică la 40 °C [mm2/s]": "67,1",
+        "Viscozitate cinematică la 100 °C [mm2/s]": "11,3",
+        "Indice de viscozitate": "162",
+        "Punct de curgere [°C]": "-45",
+        "Punct de inflamabilitate (Cleveland) [°C]": "234"
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Dynamic Synt Diesel 5W-30_GB.pdf"
     },
     {
       "name": "MOL Dynamic Synt Diesel 10W-40",
@@ -236,7 +322,9 @@
         "Tatra TDS 40/16",
         "Renault RXD",
         "MTU Type 3",
-        "Deutz DQC IV-18"
+        "Deutz DQC IV-18",
+        "DTFR 15B120",
+        "Mack EO-N"
       ],
       "characteristics": {
         "Densitate la 15°C [g/cm3]": "0,870",
@@ -244,8 +332,11 @@
         "Viscozitate cinematică la 100 °C [mm2/s]": "13,8",
         "Indice de viscozitate": "156",
         "Punct de curgere [°C]": "-36",
-        "Punct de inflamabilitate (Cleveland) [°C]": "230"
-      }
+        "Punct de inflamabilitate (Cleveland) [°C]": "230",
+        "Aspect": "maro, limpede",
+        "Densitate la 15 °C [g/cm3]": "0,868"
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Dynamic Synt Diesel 10W-40_RO.pdf"
     },
     {
       "name": "MOL Dynamic Synt Diesel E4 10W-40",
@@ -263,7 +354,8 @@
         "Mack EO-N",
         "ACEA E7",
         "ACEA E4",
-        "Scania LDF-3"
+        "Scania LDF-3",
+        "DTFR 15B120"
       ],
       "characteristics": {
         "Densitate la 15°C [g/cm3]": "0,866",
@@ -272,8 +364,10 @@
         "Indice de viscozitate": "154",
         "Punct de curgere [°C]": "-36",
         "Punct de inflamabilitate (Cleveland) [°C]": "225",
-        "Cifra de bazicitate (BN) [mg KOH/g]": "12,4"
-      }
+        "Cifra de bazicitate (BN) [mg KOH/g]": "12,4",
+        "Densitate la 15 °C [g/cm3]": "0,870"
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Dynamic Synt Diesel E4 10W-40_RO.pdf"
     },
     {
       "name": "MOL Dynamic Transit 10W-30",
@@ -292,7 +386,9 @@
         "MTU Type 2",
         "MACK EO-M Plus",
         "Deutz DQC III-10",
-        "Mack EO-N"
+        "Mack EO-N",
+        "Fabricat si distribuit de MOL-LUB Ltd., 2931 Almásfüzitő, Fő út 21.",
+        "1 / 2"
       ],
       "characteristics": {
         "Densitate la 15°C [g/cm3]": "0,872",
@@ -301,8 +397,10 @@
         "Indice de viscozitate": "150",
         "Punct de curgere [°C]": "-39",
         "Punct de inflamabilitate (Cleveland) [°C]": "230",
-        "Cifra de bazicitate (BN) [mg KOH/g]": "10,1"
-      }
+        "Cifra de bazicitate (BN) [mg KOH/g]": "10,1",
+        "Densitate la 15 °C [g/cm3]": "0,865"
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Dynamic Transit 10W-30_RO.pdf"
     },
     {
       "name": "MOL Dynamic Transit 10W-40",
@@ -324,7 +422,8 @@
         "Tatra TDS 30/12",
         "MACK EO-M Plus",
         "DDC 93K215",
-        "Deutz DQC III-10"
+        "Deutz DQC III-10",
+        "DTFR 15B110"
       ],
       "characteristics": {
         "Densitate la 15°C [g/cm3]": "0,872",
@@ -333,8 +432,10 @@
         "Indice de viscozitate": "153",
         "Punct de curgere [°C]": "-39",
         "Punct de inflamabilitate (Cleveland) [°C]": "230",
-        "Cifra de bazicitate (BN) [mg KOH/g]": "10,1"
-      }
+        "Cifra de bazicitate (BN) [mg KOH/g]": "10,1",
+        "Densitate la 15 °C [g/cm3]": "0,869"
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Dynamic Transit 10W-40_RO.pdf"
     },
     {
       "name": "MOL Dynamic Transit 15W-40",
@@ -358,7 +459,9 @@
         "Caterpillar ECF-2",
         "MACK EO-M Plus",
         "Deutz DQC III-18",
-        "KAMAZ"
+        "KAMAZ",
+        "ZETOR",
+        "DTFR 15B110"
       ],
       "characteristics": {
         "Densitate la 15°C [g/cm3]": "0,885",
@@ -368,8 +471,11 @@
         "Punct de curgere [°C]": "-33",
         "Punct de inflamabilitate (Cleveland) [°C]": "225",
         "Cifra de bazicitate (BN) [mg KOH/g]": "10,7",
-        "ConĹŁinut de cenuĹÄ (sulfat) [%(m/m)]": "1,41"
-      }
+        "ConĹŁinut de cenuĹÄ (sulfat) [%(m/m)]": "1,41",
+        "Densitate la 15 °C [g/cm3]": "0,883",
+        "Conţinut de cenuşă (sulfat) [%(m/m)]": "1,41"
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Dynamic Transit 15W-40_RO.pdf"
     },
     {
       "name": "MOL Gas Super 15W-40",
@@ -377,8 +483,22 @@
       "category_ro": "Ulei de motor",
       "short_description": "Ulei pentru motoare cu GPL",
       "full_description": "Ulei de primă calitate pentru motoare pe gaz, destinat camioanelor şi autobuzelor alimentate cu GPL sau CNG. Este foarte potrivit şi pentru motoarele alimentate cu gaz ale autoturismelor, motostivuitoarelor şi motoarelor staţionare.",
-      "approvals_and_performance": [],
-      "characteristics": {}
+      "approvals_and_performance": [
+        "API CF-4/SG",
+        "MB 226.9",
+        "MAN M 3271-1",
+        "Volvo CNG"
+      ],
+      "characteristics": {
+        "Densitate la 15°C [g/cm3]": "0,880",
+        "Viscozitate cinematică la 40 °C [mm2/s]": "106,0",
+        "Viscozitate cinematică la 100 °C [mm2/s]": "14,1",
+        "Indice de viscozitate": "135",
+        "Punct de curgere [°C]": "-27",
+        "Punct de inflamabilitate (Cleveland) [°C]": "226",
+        "Cifra de bazicitate (BN) [mg KOH/g]": "7,7"
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Gas Super 15W-40_GB.pdf"
     },
     {
       "name": "MOL Super Diesel 15W-40",
@@ -401,8 +521,10 @@
         "Indice de viscozitate": "138",
         "Punct de curgere [°C]": "-30",
         "Punct de inflamabilitate (Cleveland) [°C]": "230",
-        "Cifra de bazicitate (BN) [mg KOH/g]": "8,6"
-      }
+        "Cifra de bazicitate (BN) [mg KOH/g]": "8,6",
+        "Densitate la 15 °C [g/cm3]": "0,884"
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Super Diesel 15W-40_RO.pdf"
     },
     {
       "name": "MOL Turbo Plus 15W-40",
@@ -420,7 +542,9 @@
         "Volvo VDS",
         "Tatra TDS 30/12",
         "MTU Type 2",
-        "Avia"
+        "Avia",
+        "Fabricat si distribuit de MOL-LUB Ltd., 2931 Almásfüzitő, Fő út 21.",
+        "1 / 2"
       ],
       "characteristics": {
         "Densitate la 15°C [g/cm3]": "0,882",
@@ -429,8 +553,10 @@
         "Indice de viscozitate": "138",
         "Punct de curgere [°C]": "-30",
         "Punct de inflamabilitate (Cleveland) [°C]": "230",
-        "Cifra de bazicitate (BN) [mg KOH/g]": "8,2"
-      }
+        "Cifra de bazicitate (BN) [mg KOH/g]": "8,2",
+        "Densitate la 15 °C [g/cm3]": "0,884"
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Turbo Plus 15W-40_RO.pdf"
     },
     {
       "name": "MOL Turbo Diesel 15W-40",
@@ -448,7 +574,9 @@
         "Avia",
         "Allison C-4",
         "ZETOR",
-        "Deutz DQC I-02"
+        "Deutz DQC I-02",
+        "Fabricat si distribuit de MOL-LUB Ltd., 2931 Almásfüzitő, Fő út 21.",
+        "1 / 2"
       ],
       "characteristics": {
         "Densitate la 15°C [g/cm3]": "0,883",
@@ -458,8 +586,10 @@
         "Indice de viscozitate": "138",
         "Punct de curgere [°C]": "-30",
         "Punct de inflamabilitate (Cleveland) [°C]": "230",
-        "Cifra de bazicitate (BN) [mg KOH/g]": "7,6"
-      }
+        "Cifra de bazicitate (BN) [mg KOH/g]": "7,6",
+        "Densitate la 15 °C [g/cm3]": "0,884"
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Turbo Diesel 15W-40_RO.pdf"
     },
     {
       "name": "MOL Turbo Star 20W-50",
@@ -468,7 +598,8 @@
       "short_description": "Ulei de motor diesel multigrad.",
       "full_description": "Ulei de motor multigrad pentru motoare diesel ce funcţionează în condiţii de solicitare medie, destinat camioanelor, maşinilor agricole, maşinilor de forţă şi utilajelor pentru terasamente. Poate reduce consumul de ulei, asigură o presiune a uleiului constantă, stabilă.",
       "approvals_and_performance": [
-        "API CF/SF"
+        "API CF/SF",
+        "API CF/SFAPI CF/SF"
       ],
       "characteristics": {
         "Densitate la 15°C [g/cm3]": "0,892",
@@ -477,8 +608,10 @@
         "Indice de viscozitate": "123",
         "Punct de curgere [°C]": "-27",
         "Punct de inflamabilitate (Cleveland) [°C]": "240",
-        "Cifra de bazicitate (BN) [mg KOH/g]": "11,8"
-      }
+        "Cifra de bazicitate (BN) [mg KOH/g]": "11,8",
+        "Densitate la 15 °C [g/cm3]": "0,888"
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Turbo Star 20W-50_RO.pdf"
     },
     {
       "name": "MOL Turbo S 10W",
@@ -500,8 +633,10 @@
         "Indice de viscozitate": "120",
         "Punct de curgere [°C]": "-33",
         "Punct de inflamabilitate (Cleveland) [°C]": "210",
-        "Cifra de bazicitate (BN) [mg KOH/g]": "7,5"
-      }
+        "Cifra de bazicitate (BN) [mg KOH/g]": "7,5",
+        "Densitate la 15 °C [g/cm3]": "0,875"
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Turbo S 10W_RO.pdf"
     },
     {
       "name": "MOL Turbo S 20W-20",
@@ -523,8 +658,10 @@
         "Indice de viscozitate": "103",
         "Punct de curgere [°C]": "-30",
         "Punct de inflamabilitate (Cleveland) [°C]": "225",
-        "Cifra de bazicitate (BN) [mg KOH/g]": "7,3"
-      }
+        "Cifra de bazicitate (BN) [mg KOH/g]": "7,3",
+        "Densitate la 15 °C [g/cm3]": "0,889"
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Turbo S 20W-20_RO.pdf"
     },
     {
       "name": "MOL Turbo S 30",
@@ -546,8 +683,10 @@
         "Indice de viscozitate": "97",
         "Punct de curgere [°C]": "-27",
         "Punct de inflamabilitate (Cleveland) [°C]": "245",
-        "Cifra de bazicitate (BN) [mg KOH/g]": "7,3"
-      }
+        "Cifra de bazicitate (BN) [mg KOH/g]": "7,3",
+        "Densitate la 15 °C [g/cm3]": "0,895"
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Turbo S 30_RO.pdf"
     },
     {
       "name": "MOL Dynamic Mistral 5W-30",
@@ -587,7 +726,8 @@
         "Punct de curgere [°C]": "-40",
         "Punct de inflamabilitate (Cleveland) [°C]": "220",
         "Cifra de bazicitate (BN) [mg KOH/g]": "10.0"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Dynamic Mistral 5W-30_RO.pdf"
     },
     {
       "name": "MOL Turbo S 40",
@@ -611,7 +751,8 @@
         "Punct de inflamabilitate (Cleveland) [°C]": "250",
         "Cifra de bazicitate (BN) [mg KOH/g]": "7,4",
         "ConĹŁinut de cenuĹÄ (sulfat) [%(m/m)]": "0,97"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Turbo S 40_RO.pdf"
     },
     {
       "name": "MOL Turbo S 50",
@@ -634,7 +775,8 @@
         "Punct de curgere [°C]": "-15",
         "Punct de inflamabilitate (Cleveland) [°C]": "260",
         "Cifra de bazicitate (BN) [mg KOH/g]": "7,5"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Turbo S 50_RO.pdf"
     },
     {
       "name": "MOL Standard Diesel 20W-40",
@@ -654,7 +796,8 @@
         "Punct de curgere [°C]": "-27",
         "Punct de inflamabilitate (Cleveland) [°C]": "220",
         "Cifra de bazicitate (BN) [mg KOH/g]": "6,6"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Standard Diesel 20W-40_RO.pdf"
     },
     {
       "name": "MOL Standard S 30",
@@ -674,7 +817,8 @@
         "Punct de curgere [°C]": "-24",
         "Punct de inflamabilitate (Cleveland) [°C]": "245",
         "Cifra de bazicitate (BN) [mg KOH/g]": "3,2"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Standard S 30_RO.pdf"
     },
     {
       "name": "MOL Standard S 40",
@@ -694,7 +838,8 @@
         "Punct de curgere [°C]": "-15",
         "Punct de inflamabilitate (Cleveland) [°C]": "240",
         "Cifra de bazicitate (BN) [mg KOH/g]": "3,5"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Standard S 40_RO.pdf"
     },
     {
       "name": "MOL Standard S 50",
@@ -702,8 +847,20 @@
       "category_ro": "Ulei de motor",
       "short_description": "Ulei de motor diesel monograd",
       "full_description": "Ulei de motor sezonier pentru motoare diesel cu solicitare intensă, care funcţionează în condiţii severe. Recomandat motoarelor diesel cu aspiraţie naturală, cu performanţă redusă şi medie.",
-      "approvals_and_performance": [],
-      "characteristics": {}
+      "approvals_and_performance": [
+        "API CC",
+        "MIL-L-2104B"
+      ],
+      "characteristics": {
+        "Densitate la 15°C [g/cm3]": "0,899",
+        "Viscozitate cinematică la 40°C [mm2/s]": "248,6",
+        "Viscozitate cinematică la 100°C [mm2/s]": "20,2",
+        "Indice de viscozitate": "94",
+        "Punct de curgere [°C]": "-12",
+        "Punct de inflamabilitate (Cleveland) [°C]": "290",
+        "Cifra de bazicitate (BN) [mgKOH/g]": "5,2"
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL%20Standard%20S%2050_RO.pdf"
     },
     {
       "name": "MOL MK 9 15W-40",
@@ -711,8 +868,31 @@
       "category_ro": "Ulei de motor",
       "short_description": "Ulei pentru motoare de locomotive, dezvoltat pentru sarcini intense.",
       "full_description": "Ulei de motor diesel greu, dezvoltat pentru motoare de locomotive şi vapoare cu aspiraţie sau supraalimentare, cu încărcare mare. Datorită aditivilor speciali, recomandate îndeosebi pentru lubrifierea motoarelor MTU şi MAN moderne, MOL MK 9 15W-49 poate asigura o protecţie şi o curăţenie perfectă pentru motor, chiar şi pe termen lung şi în cazul sarcinilor intense.",
-      "approvals_and_performance": [],
-      "characteristics": {}
+      "approvals_and_performance": [
+        "DTFR 15B110",
+        "ACEA E7",
+        "API CH-4/SL",
+        "API CF",
+        "Global DHD-1",
+        "MAN M 3275-1",
+        "Volvo VDS-2",
+        "Renault RLD-2",
+        "MTU Type 2",
+        "Caterpillar ECF-1a",
+        "Cummins CES 20077",
+        "Cummins CES 20076",
+        "DDC series 2000/4000",
+        "Deutz DQC II-10"
+      ],
+      "characteristics": {
+        "Density at": "0,886",
+        "Kinematic viscosity at": "14,8",
+        "Viscosity index": "137",
+        "Pour point [°C]": "-33",
+        "Flash point (Cleveland) [°C]": "237",
+        "/": "2"
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL MK 9 15W-40_GB.pdf"
     },
     {
       "name": "MOL Dynamic Lokomotiv 4 SAE 40",
@@ -738,7 +918,8 @@
         "Punct de inflamabilitate (Cleveland) [°C]": "250",
         "Cifra de bazicitate (BN) [mg KOH/g]": "14,1",
         "ConĹŁinut de zinc, Zn (ICP) [mg/kg]": "3"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Dynamic Lokomotiv 4 SAE 40_RO.pdf"
     },
     {
       "name": "MOL MK 8",
@@ -759,7 +940,8 @@
         "Cifra de bazicitate (BN) [mg KOH/g]": "10,8",
         "ConĹŁinut de cenuĹÄ (sulfat) [%(m/m)]": "1,35",
         "ConĹŁinut de sulf [%(m/m)]": "0,56"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL MK 8_RO.pdf"
     },
     {
       "name": "MOL Aero 22",
@@ -779,7 +961,8 @@
         "Indice de viscozitate": "104",
         "Punct de curgere [°C]": "-21",
         "Punct de inflamabilitate (Cleveland) [°C]": "287"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Aero 22_RO.pdf"
     },
     {
       "name": "MOL ATF Synt TWS",
@@ -821,7 +1004,8 @@
         "Indice de viscozitate": "155",
         "Punct de curgere [°C]": "-49",
         "Punct de inflamabilitate (Cleveland) [°C]": "210"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL ATF Synt TWS_RO.pdf"
     },
     {
       "name": "MOL ATF Synt 3H",
@@ -854,7 +1038,8 @@
         "Indice de viscozitate": "182",
         "Punct de curgere [°C]": "-42",
         "Punct de inflamabilitate (Cleveland) [°C]": "200"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL ATF Synt 3H_RO.pdf"
     },
     {
       "name": "MOL ATF 3G",
@@ -885,7 +1070,8 @@
         "Indice de viscozitate": "182",
         "Punct de curgere [°C]": "-51",
         "Punct de inflamabilitate (Cleveland) [°C]": "210"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL ATF 3G_RO.pdf"
     },
     {
       "name": "MOL ATF Synt",
@@ -919,7 +1105,8 @@
         "Indice de viscozitate": "200",
         "Punct de curgere [°C]": "-51",
         "Punct de inflamabilitate (Cleveland) [°C]": "210"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL ATF Synt_RO.pdf"
     },
     {
       "name": "MOL ATF",
@@ -952,7 +1139,8 @@
         "Indice de viscozitate": "175",
         "Punct de curgere [°C]": "-42",
         "Punct de inflamabilitate (Cleveland) [°C]": "210"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL ATF_RO.pdf"
     },
     {
       "name": "MOL ATF 295",
@@ -985,7 +1173,8 @@
         "Indice de viscozitate": "169",
         "Punct de curgere [°C]": "-57",
         "Punct de inflamabilitate (Cleveland) [°C]": "245"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL ATF 295_RO.pdf"
     },
     {
       "name": "MOL Hidrofluid A",
@@ -993,7 +1182,9 @@
       "category_ro": "Ulei de transmisie",
       "short_description": "Fluid pentru transmisie automată.",
       "full_description": "Fluid hidraulic cu excelentă stabilitate la forfecare, pentru lubrifierea şi operarea cutiilor de viteză semi-automate şi automate, turboambreiajelor, servodirecţiilor şi altor echipamente hidraulice din vehicule mai vechi.",
-      "approvals_and_performance": [],
+      "approvals_and_performance": [
+        "GM Type A Suffix A"
+      ],
       "characteristics": {
         "Densitate la 15°C [g/cm3]": "0,875",
         "Viscozitate cinematică la 40 °C [mm2/s]": "47,1",
@@ -1001,7 +1192,8 @@
         "Indice de viscozitate": "120",
         "Punct de curgere [°C]": "-30",
         "Punct de inflamabilitate (Cleveland) [°C]": "200"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Hidrofluid A_RO.pdf"
     },
     {
       "name": "MOL Hykomol TDL 75W-90",
@@ -1051,7 +1243,8 @@
         "Indice de viscozitate": "155",
         "Punct de curgere [°C]": "-57",
         "Punct de inflamabilitate (Cleveland) [°C]": "180"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Hykomol TDL 75W-90_RO.pdf"
     },
     {
       "name": "MOL Hykomol Synt 75W-90",
@@ -1075,7 +1268,8 @@
         "Indice de viscozitate": "147",
         "Punct de curgere [°C]": "-45",
         "Punct de inflamabilitate (Cleveland) [°C]": "215"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Hykomol Synt 75W-90_RO.pdf"
     },
     {
       "name": "MOL Hykomol Syntrans 75W-90",
@@ -1095,7 +1289,8 @@
         "Viscozitate cinematică la 100 °C [mm2/s]": "14,5",
         "Punct de curgere [°C]": "-45",
         "Punct de inflamabilitate (Cleveland) [°C]": "220"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Hykomol Syntrans 75W-90_RO.pdf"
     },
     {
       "name": "MOL Hykomol Syntrans 75W-80",
@@ -1124,7 +1319,8 @@
         "Indice de viscozitate": "152",
         "Punct de curgere [°C]": "-42",
         "Punct de inflamabilitate (Cleveland) [°C]": "220"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Hykomol Syntrans 75W-80_RO.pdf"
     },
     {
       "name": "MOL Hykomol Syntrans LL 75W-80",
@@ -1149,7 +1345,8 @@
         "Viscozitate cinematică la 100 °C [mm2/s]": "9,7",
         "Punct de curgere [°C]": "-54",
         "Punct de inflamabilitate (Cleveland) [°C]": "215"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Hykomol Syntrans LL 75W-80_RO.pdf"
     },
     {
       "name": "MOL Hykomol Arctic 75W-90",
@@ -1167,7 +1364,8 @@
         "Indice de viscozitate": "172",
         "Punct de curgere [°C]": "-51",
         "Punct de inflamabilitate (Cleveland) [°C]": "215"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Hykomol Arctic 75W-90_RO.pdf"
     },
     {
       "name": "MOL Hykomol Trans 80W-90",
@@ -1188,7 +1386,8 @@
         "Viscozitate cinematică la 100 °C [mm2/s]": "14,7",
         "Punct de curgere [°C]": "-27",
         "Punct de inflamabilitate (Cleveland) [°C]": "210"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Hykomol Trans 80W-90_RO.pdf"
     },
     {
       "name": "MOL Hykomol ZF 80W-90",
@@ -1216,7 +1415,8 @@
         "Indice de viscozitate": "103",
         "Punct de curgere [°C]": "-36",
         "Punct de inflamabilitate (Cleveland) [°C]": "205"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Hykomol ZF 80W-90_RO.pdf"
     },
     {
       "name": "MOL Hykomol 80W-90",
@@ -1235,7 +1435,8 @@
         "Indice de viscozitate": "99",
         "Punct de curgere [°C]": "-30",
         "Punct de inflamabilitate (Cleveland) [°C]": "230"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Hykomol 80W-90_RO.pdf"
     },
     {
       "name": "MOL Hykomol 85W-140",
@@ -1254,7 +1455,8 @@
         "Indice de viscozitate": "88",
         "Punct de curgere [°C]": "-12",
         "Punct de inflamabilitate (Cleveland) [°C]": "260"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Hykomol 85W-140_RO.pdf"
     },
     {
       "name": "MOL Hykomol K 80W-90",
@@ -1274,7 +1476,8 @@
         "Indice de viscozitate": "101",
         "Punct de curgere [°C]": "-27",
         "Punct de inflamabilitate (Cleveland) [°C]": "230"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Hykomol K 80W-90_RO.pdf"
     },
     {
       "name": "MOL Hykomol K 85W-90",
@@ -1303,7 +1506,8 @@
         "Indice de viscozitate": "90",
         "Punct de curgere [°C]": "-24",
         "Punct de inflamabilitate (Cleveland) [°C]": "230"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Hykomol K 85W-90_RO.pdf"
     },
     {
       "name": "MOL Hykomol K 80W-140",
@@ -1327,7 +1531,8 @@
         "Indice de viscozitate": "160",
         "Punct de curgere [°C]": "-33",
         "Punct de inflamabilitate (Cleveland) [°C]": "205"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Hykomol K 80W-140_RO.pdf"
     },
     {
       "name": "MOL Hykomol K Arctic 75W-90",
@@ -1348,7 +1553,8 @@
         "Indice de viscozitate": "166",
         "Punct de curgere [°C]": "-51",
         "Punct de inflamabilitate (Cleveland) [°C]": "210"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Hykomol K Arctic 75W-90_RO.pdf"
     },
     {
       "name": "MOL Hykomol LS 90",
@@ -1365,7 +1571,8 @@
         "Viscozitate cinematică la 40 °C [mm2/s]": "153",
         "Viscozitate cinematică la 100 °C [mm2/s]": "14,9",
         "Punct de curgere [°C]": "-24"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Hykomol LS 90_RO.pdf"
     },
     {
       "name": "MOL Hykomol LS 85W-90",
@@ -1388,7 +1595,8 @@
         "Indice de viscozitate": "88",
         "Punct de curgere [°C]": "-27",
         "Punct de inflamabilitate (Cleveland) [°C]": "220"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Hykomol LS 85W-90_RO.pdf"
     },
     {
       "name": "MOL Hykomol 90",
@@ -1407,7 +1615,8 @@
         "Indice de viscozitate": "85",
         "Punct de curgere [°C]": "-24",
         "Punct de inflamabilitate (Cleveland) [°C]": "240"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Hykomol 90_RO.pdf"
     },
     {
       "name": "MOL Hykomol 80W",
@@ -1434,7 +1643,8 @@
         "Indice de viscozitate": "94",
         "Punct de curgere [°C]": "-30",
         "Punct de inflamabilitate (Cleveland) [°C]": "220"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Hykomol 80W_RO.pdf"
     },
     {
       "name": "MOL Transfluid TO-4 SAE 10W",
@@ -1457,7 +1667,8 @@
         "Indice de viscozitate": "106",
         "Punct de curgere [°C]": "-33",
         "Punct de inflamabilitate (Cleveland) [°C]": "240"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Transfluid TO-4 SAE 10W_RO.pdf"
     },
     {
       "name": "MOL Transfluid TO-4 SAE 30",
@@ -1481,7 +1692,8 @@
         "Indice de viscozitate": "95",
         "Punct de curgere [°C]": "-30",
         "Punct de inflamabilitate (Cleveland) [°C]": "255"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Transfluid TO-4 SAE 30_RO.pdf"
     },
     {
       "name": "MOL Transfluid TO-4 SAE 50",
@@ -1503,7 +1715,8 @@
         "Indice de viscozitate": "90",
         "Punct de curgere [°C]": "-21",
         "Punct de inflamabilitate (Cleveland) [°C]": "260"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Transfluid TO-4 SAE 50_RO.pdf"
     },
     {
       "name": "MOL Hixol 80W-90",
@@ -1521,7 +1734,8 @@
         "Indice de viscozitate": "97",
         "Punct de curgere [°C]": "-33",
         "Punct de inflamabilitate (Cleveland) [°C]": "230"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Hixol 80W-90_RO.pdf"
     },
     {
       "name": "MOL Hixol 85W-90",
@@ -1539,7 +1753,8 @@
         "Indice de viscozitate": "92",
         "Punct de curgere [°C]": "-21",
         "Punct de inflamabilitate (Cleveland) [°C]": "260"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Hixol 85W-90_RO.pdf"
     },
     {
       "name": "MOL Hixol 140",
@@ -1557,7 +1772,8 @@
         "Indice de viscozitate": "91",
         "Punct de curgere [°C]": "-12",
         "Punct de inflamabilitate (Cleveland) [°C]": "270"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Hixol 140_RO.pdf"
     },
     {
       "name": "MOL Hydro Prime HV 32 ZF",
@@ -1565,8 +1781,28 @@
       "category_ro": "Uleiuri hidraulice",
       "short_description": "",
       "full_description": "",
-      "approvals_and_performance": [],
-      "characteristics": {}
+      "approvals_and_performance": [
+        "Eaton E-FDGN-TB002-E",
+        "Bosch Rexroth Fluid Rating List RDE 90245",
+        "Parker Denison HF-0",
+        "Parker Denison HF-1/HF-2",
+        "ISO 11158 HV",
+        "ISO-L-HV",
+        "DIN 51524-3 (HVLP)",
+        "General Motors LS2 LH-03-1-00",
+        "SAE MS1004 Type HV",
+        "AIST (US Steel) 127",
+        "Cincinnati Lamb P-68 (Fives Cincinnati)"
+      ],
+      "characteristics": {
+        "Densitate la 15°C [g/cm3]": "0,854",
+        "Viscozitate cinematică la 40 °C [mm2/s]": "34,0",
+        "Viscozitate cinematică la 100 °C [mm2/s]": "6,8",
+        "Indice de viscozitate": "162",
+        "Punct de curgere [°C]": "-42",
+        "Punct de inflamabilitate (Cleveland) [°C]": "228"
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Hydro Prime HV 32 ZF_GB.pdf"
     },
     {
       "name": "MOL Hydro Prime HV 46 ZF",
@@ -1574,8 +1810,30 @@
       "category_ro": "Uleiuri hidraulice",
       "short_description": "",
       "full_description": "",
-      "approvals_and_performance": [],
-      "characteristics": {}
+      "approvals_and_performance": [
+        "Eaton E-FDGN-TB002-E",
+        "Bosch Rexroth Fluid Rating List RDE 90245",
+        "Parker Denison HF-0",
+        "Parker Denison HF-1/HF-2",
+        "ARBURG",
+        "ISO 11158 HV",
+        "ISO-L-HV",
+        "DIN 51524-3 (HVLP)",
+        "General Motors LS2 LH-03-1-00",
+        "SAE MS1004 Type HV",
+        "AIST (US Steel) 127",
+        "KraussMaffei Hydraulic Oil",
+        "Cincinnati Lamb P-70 (Fives Cincinnati)"
+      ],
+      "characteristics": {
+        "Densitate la 15°C [g/cm3]": "0,862",
+        "Viscozitate cinematică la 40 °C [mm2/s]": "47,8",
+        "Viscozitate cinematică la 100 °C [mm2/s]": "8,5",
+        "Indice de viscozitate": "158",
+        "Punct de curgere [°C]": "-38",
+        "Punct de inflamabilitate (Cleveland) [°C]": "240"
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Hydro Prime HV 46 ZF_GB.pdf"
     },
     {
       "name": "MOL Hydro Prime HV 68 ZF",
@@ -1583,8 +1841,28 @@
       "category_ro": "Uleiuri hidraulice",
       "short_description": "",
       "full_description": "",
-      "approvals_and_performance": [],
-      "characteristics": {}
+      "approvals_and_performance": [
+        "Eaton E-FDGN-TB002-E",
+        "Bosch Rexroth Fluid Rating List RDE 90245",
+        "Parker Denison HF-0",
+        "Parker Denison HF-1/HF-2",
+        "ISO 11158 HV",
+        "ISO-L-HV",
+        "DIN 51524-3 (HVLP)",
+        "General Motors LS2 LH-03-1-00",
+        "SAE MS1004 Type HV",
+        "AIST (US Steel) 127",
+        "Cincinnati Lamb P-69 (Fives Cincinnati)"
+      ],
+      "characteristics": {
+        "Densitate la 15°C [g/cm3]": "0,869",
+        "Viscozitate cinematică la 40 °C [mm2/s]": "70,4",
+        "Viscozitate cinematică la 100 °C [mm2/s]": "10,9",
+        "Indice de viscozitate": "145",
+        "Punct de curgere [°C]": "-36",
+        "Punct de inflamabilitate (Cleveland) [°C]": "230"
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Hydro Prime HV 68 ZF_GB.pdf"
     },
     {
       "name": "MOL Hydro HV 15",
@@ -1605,7 +1883,8 @@
         "Viscozitate cinematică la 100 °C [mm2/s]": "3,98",
         "Indice de viscozitate": "159",
         "Punct de inflamabilitate (Cleveland) [°C]": "170"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Hydro HV 15_RO.pdf"
     },
     {
       "name": "MOL Hydro HV 22",
@@ -1627,7 +1906,8 @@
         "Indice de viscozitate": "155",
         "Punct de curgere [°C]": "-48",
         "Punct de inflamabilitate (Cleveland) [°C]": "185"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Hydro HV 22_RO.pdf"
     },
     {
       "name": "MOL Hydro HV 32",
@@ -1652,7 +1932,8 @@
         "Indice de viscozitate": "155",
         "Punct de curgere [°C]": "-42",
         "Punct de inflamabilitate (Cleveland) [°C]": "205"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Hydro HV 32_RO.pdf"
     },
     {
       "name": "MOL Hydro HV 46",
@@ -1676,7 +1957,8 @@
         "Indice de viscozitate": "154",
         "Punct de curgere [°C]": "-42",
         "Punct de inflamabilitate (Cleveland) [°C]": "220"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Hydro HV 46_RO.pdf"
     },
     {
       "name": "MOL Hydro HV 68",
@@ -1700,7 +1982,8 @@
         "Indice de viscozitate": "156",
         "Punct de curgere [°C]": "-33",
         "Punct de inflamabilitate (Cleveland) [°C]": "230"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Hydro HV 68_RO.pdf"
     },
     {
       "name": "MOL Hydro HME 10",
@@ -1723,7 +2006,8 @@
         "Indice de viscozitate": "100",
         "Punct de curgere [°C]": "-33",
         "Punct de inflamabilitate (Cleveland) [°C]": "170"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Hydro HME 10_RO.pdf"
     },
     {
       "name": "MOL Hydro HME 15",
@@ -1746,7 +2030,8 @@
         "Indice de viscozitate": "104",
         "Punct de curgere [°C]": "-30",
         "Punct de inflamabilitate (Cleveland) [°C]": "185"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Hydro HME 15_RO.pdf"
     },
     {
       "name": "MOL Hydro HME 22",
@@ -1769,7 +2054,8 @@
         "Indice de viscozitate": "100",
         "Punct de curgere [°C]": "-36",
         "Punct de inflamabilitate (Cleveland) [°C]": "200"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Hydro HME 22_RO.pdf"
     },
     {
       "name": "MOL Hydro HME 32",
@@ -1801,7 +2087,8 @@
         "Indice de viscozitate": "100",
         "Punct de curgere [°C]": "-30",
         "Punct de inflamabilitate (Cleveland) [°C]": "210"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Hydro HME 32_RO.pdf"
     },
     {
       "name": "MOL Hydro HME 46",
@@ -1836,7 +2123,8 @@
         "Indice de viscozitate": "97",
         "Punct de curgere [°C]": "-30",
         "Punct de inflamabilitate (Cleveland) [°C]": "225"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Hydro HME 46_RO.pdf"
     },
     {
       "name": "MOL Hydro HME 68",
@@ -1868,7 +2156,8 @@
         "Indice de viscozitate": "96",
         "Punct de curgere [°C]": "-27",
         "Punct de inflamabilitate (Cleveland) [°C]": "235"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Hydro HME 68_RO.pdf"
     },
     {
       "name": "MOL Hydro HME 100",
@@ -1892,7 +2181,8 @@
         "Indice de viscozitate": "93",
         "Punct de curgere [°C]": "-18",
         "Punct de inflamabilitate (Cleveland) [°C]": "245"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Hydro HME 100_RO.pdf"
     },
     {
       "name": "MOL Hydro HM 32",
@@ -1913,7 +2203,8 @@
         "Indice de viscozitate": "98",
         "Punct de curgere [°C]": "-27",
         "Punct de inflamabilitate (Cleveland) [°C]": "210"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Hydro HM 32_RO.pdf"
     },
     {
       "name": "MOL Hydro HM 46",
@@ -1934,7 +2225,8 @@
         "Indice de viscozitate": "94",
         "Punct de curgere [°C]": "-27",
         "Punct de inflamabilitate (Cleveland) [°C]": "225"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Hydro HM 46_RO.pdf"
     },
     {
       "name": "MOL Hydro HM 68",
@@ -1955,7 +2247,8 @@
         "Indice de viscozitate": "92",
         "Punct de curgere [°C]": "-27",
         "Punct de inflamabilitate (Cleveland) [°C]": "240"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Hydro HM 68_RO.pdf"
     },
     {
       "name": "MOL Hydro SA 15",
@@ -1975,7 +2268,8 @@
         "Indice de viscozitate": "105",
         "Punct de curgere [°C]": "-30",
         "Punct de inflamabilitate (Cleveland) [°C]": "185"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Hydro SA 15_RO.pdf"
     },
     {
       "name": "MOL Hydro HVLP 68",
@@ -1995,7 +2289,8 @@
         "Indice de viscozitate": "152",
         "Punct de curgere [°C]": "-33",
         "Punct de inflamabilitate (Cleveland) [°C]": "230"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Hydro HVLP 68_RO.pdf"
     },
     {
       "name": "MOL Favorit 2",
@@ -2005,7 +2300,8 @@
       "full_description": "Unsoare lubrifiantă multifuncţională cu o stabilitate mecanică bună, asigurând lubrifiere adecvată pentru un timp mai lung.",
       "approvals_and_performance": [
         "DIN 51502: KP2N-30",
-        "ISO 6743-9: L-XCDEB 2"
+        "ISO 6743-9: L-XCDEB 2",
+        "Gradul de consistenta NLGI: NLGI 2"
       ],
       "characteristics": {
         "Aspect": "galben-maroniu, lipicios",
@@ -2022,7 +2318,8 @@
         "RezistenĹŁÄ la actiunea staticÄ a apei, la 90 Â°C [grad]": "1-90",
         "SeparaĹŁie de ulei [%(m/m)]": "0,5",
         "Stabilitate faĹŁÄ de forĹŁa centrifugalÄ [%(m/m)]": "0,5"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Favorit 2_RO.pdf"
     },
     {
       "name": "MOL Liton LT 2EP",
@@ -2034,7 +2331,8 @@
         "ZETOR",
         "DIN 51502: KP2K-30",
         "DIN 51825: KP2K-30",
-        "ISO 6743-9: L-XCCEB 2"
+        "ISO 6743-9: L-XCCEB 2",
+        "Gradul de consistenta NLGI: NLGI 2"
       ],
       "characteristics": {
         "Aspect": "maro, omogen",
@@ -2053,7 +2351,8 @@
         "RezistenĹŁÄ la actiunea staticÄ a apei, la 90 Â°C [grad]": "1-90",
         "SeparaĹŁie de ulei [%(m/m)]": "3",
         "Presiunea debitului de lichid la         -20°C [mbar]": "700"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Liton LT 2EP_RO.pdf"
     },
     {
       "name": "MOL Liton 2M",
@@ -2063,7 +2362,8 @@
       "full_description": "Unsoare lubrifiantă compusa din ulei mineral înalt rafinat şi săpun de litiu, cu conţinut de disulfură de molibden, destinat maşinilor care operează în condiţii extreme şi sunt supuse gripării intense. Recomandată pentru lubrifierea rulmenţilor cu încărcare dinamică, pieselor culisante ale platformelor autoportante cu rol de şasiu, cuplajelor, bolţurilor şi mecanismelor mobile. Datorită conţinutului de aditiv solid este folosit în primul rând pentru dispozitive de gresare individuală.",
       "approvals_and_performance": [
         "DIN 51502: KPF2N-30",
-        "ISO 6743-9: L-XCDEB 2"
+        "ISO 6743-9: L-XCDEB 2",
+        "Gradul de consistenta NLGI: NLGI 2"
       ],
       "characteristics": {
         "Aspect": "negru, omogen",
@@ -2080,7 +2380,8 @@
         "SeparaĹŁie de ulei (100 Â°C/24 ore) [%(m/m)]": "7",
         "SeparaĹŁie de ulei [%(m/m)]": "3",
         "Continut de disulfura de molibden [%(m/m)]": "3"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Liton 2M_RO.pdf"
     },
     {
       "name": "MOL Grafit LT 2EP",
@@ -2090,7 +2391,8 @@
       "full_description": "Unsoare lubrifiantă pe bază de litiu cu conţinut de grafit ridicat. Cea mai bună alegere pentru lubrifierea rulmenţilor cu viteză redusă şi şuruburilor expuse la sarcini dinamice, în primul rând în dispozitivele de lubrifiere individuale.",
       "approvals_and_performance": [
         "DIN 51502: KPF2K-20",
-        "ISO 6743-9: L-XBCEB 2"
+        "ISO 6743-9: L-XBCEB 2",
+        "Gradul de consistenta NLGI: NLGI 2"
       ],
       "characteristics": {
         "Vascozitatea uleiului de baza la 40°C [mm2/s]": "200",
@@ -2105,7 +2407,8 @@
         "RezistenĹŁa la actiunea dinamicÄ a apei, la 79 Â°C [%(m/m)]": "5",
         "RezistenĹŁÄ la actiunea staticÄ a apei, la 90 Â°C [grad]": "1-90",
         "Continut de grafit [%(m/m)]": "2"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Grafit LT 2EP_RO.pdf"
     },
     {
       "name": "MOL Liton 00",
@@ -2116,7 +2419,8 @@
       "approvals_and_performance": [
         "Vogel",
         "DIN 51502: KHCP00K-40",
-        "ISO 6743-9: L-XDCEB 00"
+        "ISO 6743-9: L-XDCEB 00",
+        "Gradul de consistenta NLGI: NLGI 00"
       ],
       "characteristics": {
         "Aspect": "turcoaz, omogen",
@@ -2131,7 +2435,8 @@
         "SeparaĹŁie de ulei (72 ore, 40 Â°C) [%(m/m)]": "10",
         "SeparaĹŁie de ulei (168 ore, 40 Â°C) [%(m/m)]": "15",
         "Presiunea debitului de lichid la -35°C [mbar]": "55"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL Liton 00_RO.pdf"
     },
     {
       "name": "MOL DOT 5.1",
@@ -2153,7 +2458,8 @@
         "Valoare pH": "7,49",
         "Temperatură de fierbere [°C]": "269",
         "Temperetură de fierbere umedă [°C]": "187"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL%20DOT%205_1_RO.pdf"
     },
     {
       "name": "MOL DOT 4+",
@@ -2175,7 +2481,8 @@
         "Valoare pH": "8,9",
         "Temperatură de fierbere [°C]": "270",
         "Temperetură de fierbere umedă [°C]": "163"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL%20DOT%204%2B_RO.pdf"
     },
     {
       "name": "MOL DOT 3",
@@ -2197,7 +2504,8 @@
         "Valoare pH": "9,0",
         "Temperatură de fierbere [°C]": "243",
         "Temperetură de fierbere umedă [°C]": "151"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL%20DOT%203_RO.pdf"
     },
     {
       "name": "ADBLUE®",
@@ -2214,7 +2522,8 @@
         "Densitate la 20 °C [g/cm3]": "1,087 - 1,093",
         "Temperatură de cristalitare [°C]": "-11,5",
         "pH (10%-os deszt.vizes oldat)": "9,5"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_AdBlue_RO.pdf"
     },
     {
       "name": "EVOX Ultra Plus concentrate",
@@ -2227,14 +2536,15 @@
       ],
       "characteristics": {
         "Aspect": "lichid limpede",
-        "Culoare": "roČu deschis",
+        "Culoare": "roșu deschis",
         "Densitate la 15°C [g/cm3]": "1,135",
         "Valoare pH (1:2 apă distilată)": "8.3",
         "valoarea pH": "8.6",
-        "Indice de refracĹŁie la 20 Â°C": "1.434",
+        "Indice de refracţie la 20 °C": "1.434",
         "Alcalinitate [ml 0,1M HCl/10 ml]": "5,7",
         "Temperatură de cristalitare (1:1 apa destilata) [°C]": "-35"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_EVOX%20Ultra%20Plus%20concentrate_RO.pdf"
     },
     {
       "name": "EVOX Premium concentrate",
@@ -2302,10 +2612,11 @@
         "Punct de inflamabilitate [°C]": "128",
         "valoarea pH": "8,9",
         "Alcalinitate [ml 0,1M HCl/10 ml]": "6,0",
-        "ConĹŁinut de apÄ (Karl-Fischer) [%(m/m)]": "3,1",
+        "Conţinut de apă (Karl-Fischer) [%(m/m)]": "3,1",
         "Indice de refractie la 20 °C": "1,4320",
         "Temperatură de fierbere [°C]": "180"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_EVOX%20Premium%20concentrate_RO.pdf"
     },
     {
       "name": "MOL EVOX Extra concentrate",
@@ -2335,22 +2646,23 @@
       ],
       "characteristics": {
         "Aspect": "lichid curat, lucios",
-        "Culoare": "marin ĂŽnchis",
+        "Culoare": "marin închis",
         "Densitate la 15 °C [g/cm3]": "1,120",
         "Pierdere de masă datorată coroziunii [mg] - fontă de aluminiu [mg]": "0",
         "- fontă [mg]": "1",
         "- cupru tehnic pur [mg]": "0",
         "- alamă [mg]": "0",
-        "- oĹŁel [mg]": "0",
+        "- oțel [mg]": "0",
         "- aliaj moale de lipit [mg]": "0",
         "valoarea pH": "8.5",
         "Alcalinitate [ml]": "9.1",
-        "ConĹŁinut de apÄ (Karl-Fischer) [%(m/m)]": "5",
+        "Conţinut de apă (Karl-Fischer) [%(m/m)]": "5",
         "Indice de refractie la 20 °C": "1.432",
         "Temperatură de fierbere [°C]": "min. 163",
         "Temperatură de cristalitare (1:1 apa destilata) [°C]": "max. -36",
         "Hamutartalom (autochemic) [%(m/m)]": "max. 5"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL%20EVOX%20Extra%20concentrate_RO.pdf"
     },
     {
       "name": "MOL EVOX Extra ready -35",
@@ -2386,7 +2698,8 @@
         "Temperatură de fierbere [°C]": "109",
         "Indice de refractie la 20 °C": "1,386",
         "Densitate la 20 °C [g/cm3]": "1,07"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL%20EVOX%20Extra%20ready%20-35_RO.pdf"
     },
     {
       "name": "Alycol Cool concentrate",
@@ -2403,20 +2716,21 @@
       "characteristics": {
         "Aspect": "roz",
         "Densitate la 15°C [g/cm3]": "1,114",
-        "ConĹŁinut de apÄ (Karl Fischer) [%(m/m)]": "4,7",
-        "ProprietĂ˘ĹŁi de spumare la 88 Â°C (1:2) - tendinĹŁa la spumare la 88 Â°C (1:2) [cm3]": "35",
+        "Conţinut de apă (Karl Fischer) [%(m/m)]": "4,7",
+        "Proprietâţi de spumare la 88 °C (1:2) - tendinţa la spumare la 88 °C (1:2) [cm3]": "35",
         "- timp de spargare a spumei la 88 °C (1:2) [s]": "2",
-        "KorrĂłziĂłs tĂśmegvesztesĂŠg (1:2 deszt. vĂ­z) [mg] - ĂśntĂśttvas (1:2 deszt. vĂ­z) [mg]": "-0,5",
-        "- vĂśrĂśsrĂŠz (1:2 deszt. vĂ­z) [mg]": "0,7",
+        "Korróziós tömegveszteség (1:2 deszt. víz) [mg] - öntöttvas (1:2 deszt. víz) [mg]": "-0,5",
+        "- vörösréz (1:2 deszt. víz) [mg]": "0,7",
         "- alamă (1:2 apă distilată) [mg]": "0,8",
-        "- oĹŁel (1:2 apÄ distilatÄ) [mg]": "0,9",
-        "- lĂĄgyforrasz (1:2 deszt. vĂ­z) [mg]": "3",
-        "- alumĂ­nium ĂśntvĂŠny (1:2 deszt. vĂ­z) [mg]": "4,3",
+        "- oţel (1:2 apă distilată) [mg]": "0,9",
+        "- lágyforrasz (1:2 deszt. víz) [mg]": "3",
+        "- alumínium öntvény (1:2 deszt. víz) [mg]": "4,3",
         "Valoare pH (1:2 apă distilată)": "8,2",
         "Indice de refractie la 20 °C": "1,43",
         "Alcalinitate [ml 0,1M HCl/10 ml]": "3,0",
         "Continut de cenusa [%(m/m)]": "0,4"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_Alycol%20Cool%20concentrate_RO.pdf"
     },
     {
       "name": "Alycol Cool Ready -35",
@@ -2438,7 +2752,8 @@
         "Indice de refractie la 20 °C": "1,384",
         "Continut de cloruri (IC) [mg/kg]": "<10",
         "Continuti de sulfati [mg/kg]": "<10"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_Alycol%20Cool%20Ready%20-35_RO.pdf"
     },
     {
       "name": "MOL EVOX Summer White tea & Ginger",
@@ -2449,9 +2764,10 @@
       "approvals_and_performance": [],
       "characteristics": {
         "Aspect": "de culoarea verde, fluid curat",
-        "Miros": "fehĂŠr tea, gyĂśmbĂŠr",
+        "Miros": "fehér tea, gyömbér",
         "Densitate la 20 °C [g/cm3]": "0.995"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL%20EVOX%20Summer%20White%20tea%20Ginger_RO.pdf"
     },
     {
       "name": "MOL Evox Summer Citrus Breeze",
@@ -2460,7 +2776,8 @@
       "short_description": "lichid pentru spalat parbrize, de vara",
       "full_description": "MOL EVOX Summer Citrus Breeze este un lichid limpede, cu parfum de citrice, destinat curatarii suprafetelor de sticla si policarbonat ale vehiculelor. In compozitie are un aditiv ce imbunatateste eficienta curatarii.",
       "approvals_and_performance": [],
-      "characteristics": {}
+      "characteristics": {},
+      "tds_url": null
     },
     {
       "name": "MOL EVOX Winter Apple Cinnamon -40",
@@ -2471,10 +2788,11 @@
       "approvals_and_performance": [],
       "characteristics": {
         "Aspect": "albastru, lichid limpede",
-        "Miros": "alma-fahĂŠj",
+        "Miros": "alma-fahéj",
         "Densitate la 20 °C [g/cm3]": "0.855",
         "Temperatură de cristalitare [°C]": "-41"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL%20EVOX%20Winter%20Apple%20Cinnamon%20-40_RO.pdf"
     },
     {
       "name": "MOL Evox Winter Citrus Breeze -30",
@@ -2483,7 +2801,8 @@
       "short_description": "Lichid parfumat de spalat parbrizul, pentru iarna",
       "full_description": "MOL EVOX Winter Citrus Breeze - 30 este un lichid limpede, cu parfum de grapefruit. Are un continut ridicat de alcool. Pachetul de aditivare este formulat pe baza de nanotehnologie. Nu se recomanda diluarea produsului, pentru ca ar diminua abilitatea lichidului de topire si curatare a ghetii. Nu contine alcool metilic!",
       "approvals_and_performance": [],
-      "characteristics": {}
+      "characteristics": {},
+      "tds_url": null
     },
     {
       "name": "MOL EVOX 4 Season -10",
@@ -2497,7 +2816,8 @@
         "Densitate la 20 °C [g/cm3]": "0.98",
         "Miros": "usor alcoolic",
         "Temperatură de cristalitare [°C]": "-10"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL%20EVOX%204%20Season%20-10_RO.pdf"
     },
     {
       "name": "MOL EVOX Ice Spray",
@@ -2510,7 +2830,8 @@
         "Aspect": "albastru lichid",
         "Miros": "miros proaspat",
         "Densitate la 20 °C [g/cm3]": "0,890"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL%20EVOX%20Ice%20spray_RO.pdf"
     },
     {
       "name": "EVOX Terminator",
@@ -2522,8 +2843,9 @@
       "characteristics": {
         "Aspect": "galben",
         "Densitate la 15 °C [g/cm3]": "0,960",
-        "Miros": "lÄmĂ˘ie"
-      }
+        "Miros": "lămâie"
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_EVOX%20Terminator_RO.pdf"
     },
     {
       "name": "Alycol Summer Cherry Blossom",
@@ -2536,7 +2858,8 @@
         "Aspect": "roz, lichid limpede",
         "Densitate la 15 °C [g/cm3]": "1,002",
         "Miros": "gustos"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_Alycol%20Summer%20Cherry%20Blossom_RO.pdf"
     },
     {
       "name": "Alycol Cherry Blossom -20",
@@ -2550,7 +2873,8 @@
         "Densitate la 15 °C [g/cm3]": "0,96",
         "Miros": "cires",
         "Temperatură de cristalitare [°C]": "-20"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_Alycol%20Winter%20Cherry%20Blossom%20-%2020_RO.pdf"
     },
     {
       "name": "MOL EVOX Winter Raspberry Mint -30",
@@ -2564,7 +2888,8 @@
         "Densitate la 15 °C [g/cm3]": "0,962",
         "Miros": "málna-mentol",
         "Temperatură de cristalitare [°C]": "-31"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL%20EVOX%20Winter%20Raspberry%20Mint%20-30_RO.pdf"
     },
     {
       "name": "MOL Engine Flush PRO",
@@ -2580,7 +2905,8 @@
         "Punct de curgere [°C]": "-60",
         "Punct de inflamabilitate (Cleveland) [°C]": "73",
         "Cifra de bazicitate (BN) [mg KOH/g]": "5,3"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL%20Engine%20Flush%20PRO_RO.pdf"
     },
     {
       "name": "MOL EcoClean-S",
@@ -2595,7 +2921,8 @@
         "Punctul de ardere (Cleveland) [°C]": "250",
         "Punct de inflamabilitate (Pensky-Martens) [°C]": "61",
         "Aspect emulsie (10%V/V) / 20 nK° apa)": "colorat alb laptos"
-      }
+      },
+      "tds_url": "https://mollubricants.md/images/content/LUB_repo/TDS_MOL%20EcoClean-S_RO.pdf"
     }
   ]
 }
