@@ -1129,15 +1129,26 @@ h4 { font-size: 0.95rem; font-weight: 600; letter-spacing: 0; }
 .drawer-specs-table {
     display: flex;
     flex-direction: column;
-    gap: 4px;
+    gap: 2px;
 }
 
 .drawer-spec-row {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     font-size: 0.76rem;
-    padding: 3px 0;
-    border-bottom: 1px stroke #F3F4F6;
+    padding: 4px 6px;
+    border-bottom: 1px solid #F0F2F5;
+    border-radius: 4px;
+    transition: background-color 0.15s ease;
+}
+
+.drawer-spec-row:last-child {
+    border-bottom: none;
+}
+
+.drawer-spec-row:hover {
+    background-color: rgba(0, 0, 0, 0.02);
 }
 
 .drawer-spec-label {
@@ -1149,6 +1160,7 @@ h4 { font-size: 0.95rem; font-weight: 600; letter-spacing: 0; }
     color: var(--colour-text);
     font-weight: 600;
     text-align: right;
+    font-feature-settings: "tnum";
 }
 
 /* Volume tags */

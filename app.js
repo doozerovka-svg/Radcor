@@ -162,6 +162,42 @@ document.addEventListener('DOMContentLoaded', () => {
         return `<span class="swatch-dot ${cls}"></span>`;
     }
 
+    const SPEC_LABEL_TRANSLATIONS = {
+        'Вязкость': 'Vâscozitate',
+        'Класс': 'Clasă',
+        'Объем': 'Volum',
+        'Допуски': 'Aprobări OEM',
+        'Спецификации': 'Specificații',
+        'Одобрения': 'Aprobări',
+        'Официальные допуски': 'Aprobări OEM',
+        'Производитель': 'Producător',
+        'Страна': 'Țară',
+        'Штрихкод EAN': 'Cod de bare EAN',
+        'Плотность при 15°C': 'Densitate la 15°C',
+        'Плотность при 20°C': 'Densitate la 20°C',
+        'Кинематическая вязкость (40°C)': 'Vâscozitate cinematică (40°C)',
+        'Кинематическая вязкость (100°C)': 'Vâscozitate cinematică (100°C)',
+        'Кинематическая вязкость (-40°C)': 'Vâscozitate cinematică (-40°C)',
+        'Индекс вязкости': 'Indice de vâscozitate',
+        'Температура застывания': 'Punct de curgere',
+        'Температура вспышки': 'Punct de inflamabilitate',
+        'Щелочное число': 'Cifră de bazicitate (TBN)',
+        'Сульфатная зольность': 'Conținut de cenușă sulfat',
+        'Температура кипения': 'Punct de fierbere',
+        'Температура кипения увлажнённой жидкости': 'Punct de fierbere umed',
+        'Внешний вид': 'Aspect',
+        'Температура каплепадения': 'Punct de picurare',
+        'Значение pH': 'Valoare pH',
+        'Температура замерзания': 'Punct de congelare'
+    };
+
+    function getSpecLabel(label) {
+        if (currentLang === 'ro' && SPEC_LABEL_TRANSLATIONS[label]) {
+            return SPEC_LABEL_TRANSLATIONS[label];
+        }
+        return label;
+    }
+
     const catalogState = {
         activeCategory: 'all',
         activeBrands:   new Set(),
@@ -759,26 +795,6 @@ document.addEventListener('DOMContentLoaded', () => {
               }).join('')
             : '<span class="volume-tag active" data-vol="1">—</span>';
 
-        const SPEC_LABEL_TRANSLATIONS = {
-            'Вязкость': 'Vâscozitate',
-            'Класс': 'Clasă',
-            'Объем': 'Volum',
-            'Допуски': 'Aprobări OEM',
-            'Спецификации': 'Specificații',
-            'Одобрения': 'Aprobări',
-            'Официальные допуски': 'Aprobări OEM',
-            'Производитель': 'Producător',
-            'Страна': 'Țară',
-            'Штрихкод EAN': 'Cod de bare EAN'
-        };
-
-        function getSpecLabel(label) {
-            if (currentLang === 'ro' && SPEC_LABEL_TRANSLATIONS[label]) {
-                return SPEC_LABEL_TRANSLATIONS[label];
-            }
-            return label;
-        }
-
         // Specs mini HTML (strictly 'Вязкость' and 'Класс' if present)
         const specsHtml = mainSpecs.map(s => `
             <div class="spec-mini-row">
@@ -967,7 +983,7 @@ document.addEventListener('DOMContentLoaded', () => {
             } else {
                 const drawerSpecs = (product.specs || []).filter(s => !['Вязкость', 'Класс', 'Допуски', 'Спецификации', 'Одобрения', 'Официальные допуски'].includes(s.label));
                 const specsRows = drawerSpecs.map(s => {
-                    const labelText = currentLang === 'ro' && s.label === 'Производитель' ? 'Producător' : s.label;
+                    const labelText = getSpecLabel(s.label);
                     return `
                     <div class="drawer-spec-row">
                         <span class="drawer-spec-label">${labelText}:</span>
