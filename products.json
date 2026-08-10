@@ -1357,30 +1357,6 @@
         "value": "Dexron VI, Toyota WS, Mazda FZ, Nissan Matic-S"
       },
       {
-        "label": "Плотность при 15°C",
-        "value": "0,847 г/см³"
-      },
-      {
-        "label": "Кинематическая вязкость (40°C)",
-        "value": "29,5 мм²/с"
-      },
-      {
-        "label": "Кинематическая вязкость (100°C)",
-        "value": "6,0 мм²/с"
-      },
-      {
-        "label": "Индекс вязкости",
-        "value": "155"
-      },
-      {
-        "label": "Температура застывания",
-        "value": "-49 °C"
-      },
-      {
-        "label": "Температура вспышки",
-        "value": "210 °C"
-      },
-      {
         "label": "Допуски",
         "value": "GM Dexron-VI, JASO 1A LV, Toyota WS, Mazda FZ, Nissan Matic-W, Mitsubishi ATF J3, Mitsubishi SP-IV, VW G 055 540, VW G 055 005, VW G 055 162, BMW ATF 3+, BMW ATF6, Ford XT-6-QSP [SP], Honda Type 3.0, Honda Type 3.1, Hyundai/KIA 040000C90SG, Hyundai/KIA SP4-M1, Hyundai/KIA SPH-IV, Mistsubishi Dia Queen ATF-MA1, Mistsubishi Dia Queen ATF-PA, Honda DW-1, Hyundai NWS-9638, Hyundai/Kia SP-IV, Nissan Matic-S, SAAB 93 165 147"
       }
@@ -1403,7 +1379,7 @@
   {
     "sku": "MOL-1002",
     "name": "MOL ATF Synt 3H",
-    "category": "moto-oils",
+    "category": "transmission-oils",
     "brand": "MOL",
     "photo_url": "",
     "volumes": [
@@ -1414,30 +1390,6 @@
       {
         "label": "Стандарт",
         "value": "GM Dexron-IIIH, MAN 339 Typ Z2"
-      },
-      {
-        "label": "Плотность при 15°C",
-        "value": "0,848 г/см³"
-      },
-      {
-        "label": "Кинематическая вязкость (40°C)",
-        "value": "35,0 мм²/с"
-      },
-      {
-        "label": "Кинематическая вязкость (100°C)",
-        "value": "7,34 мм²/с"
-      },
-      {
-        "label": "Индекс вязкости",
-        "value": "182"
-      },
-      {
-        "label": "Температура застывания",
-        "value": "-42 °C"
-      },
-      {
-        "label": "Температура вспышки",
-        "value": "200 °C"
       },
       {
         "label": "Допуски",
@@ -1466,44 +1418,13 @@
     "brand": "MOL",
     "photo_url": "",
     "volumes": [
-      1,
-      4,
-      60,
-      208
+      10
     ],
     "description": "Синтетическая жидкость высшего качества для автоматических трансмиссий",
     "specs": [
       {
         "label": "Допуски",
-        "value": "GM Dexron-VI, JASO 1A LV, Toyota WS, Mazda FZ, Nissan Matic-W, Mitsubishi ATF J3, Mitsubishi SP-IV, VW G 055 540, VW G 055 005, VW G 055 162, BMW ATF 3+, BMW ATF6, Ford XT-6-QSP [SP], Honda Type 3.0, Honda Type 3.1, Hyundai/KIA 040000C90SG, Hyundai/KIA SP4-M1, Hyundai/KIA SPH-IV, Mistsubishi Dia Queen ATF-MA1, Mistsubishi Dia Queen ATF-PA, Honda DW-1, Hyundai NWS-9638, Hyundai/Kia SP-IV, Nissan Matic-S, SAAB 93 165 147"
-      },
-      {
-        "label": "Плотность при 15°C",
-        "value": "0,850"
-      },
-      {
-        "label": "Температура застывания",
-        "value": "-51"
-      },
-      {
-        "label": "Температура вспышки (по Кливленду)",
-        "value": "210"
-      },
-      {
-        "label": "Кинематическая вязкость (40°C)",
-        "value": "29,5 мм²/с"
-      },
-      {
-        "label": "Кинематическая вязкость (100°C)",
-        "value": "6,0 мм²/с"
-      },
-      {
-        "label": "Индекс вязкости",
-        "value": "155"
-      },
-      {
-        "label": "Температура вспышки",
-        "value": "210 °C"
+        "value": "DTFR 13C150 (ex MB 236.8), MAN 339 Typ L1, MAN 339 Typ Z2, ZF TE-ML 03D[ZF004917], ZF TE-ML 04D[ZF004917], ZF TE-ML 09X, ZF TE-ML 14B[ZF004917], ZF TE-ML 17C[ZF004917], Voith H55.6336, RBAS Lubricant Class TE-ML 09X[AS001155], GM Dexron IIE, Ford Mercon, MAN 339 Typ V2, Volvo 97335, Caterpillar TO-2, Allison C-4, DTFR 13C150"
       }
     ],
     "canister_vol": 4,
@@ -1514,28 +1435,9 @@
     "description_ro": "Fluid sintetic pentru transmisii automate, de calitate premium, elaborat în special pentru a corespunde cerinţelor autoturismelor şi camioanelor moderne, de fabricaţie japoneză sau coreeană, utilizabil într-un interval larg de temperaturi. Corespunde de asemenea cu cerinţele fluidelor de transmisie automată de ultima generaţie a vehiculelor Toyota.",
     "packs": [
       {
-        "id": "p-1",
-        "volume_l": 1,
-        "price_mdl": 0,
-        "label": "1 л"
-      },
-      {
-        "id": "p-4",
-        "volume_l": 4,
-        "price_mdl": 0,
-        "label": "4 л"
-      },
-      {
-        "id": "p-60",
-        "volume_l": 60,
-        "price_mdl": 0,
-        "label": "60 л"
-      },
-      {
-        "id": "p-208",
-        "volume_l": 208,
-        "price_mdl": 0,
-        "label": "208 л"
+        "volume_l": 10,
+        "price": 1800,
+        "label": "10 л"
       }
     ]
   },
@@ -1778,76 +1680,6 @@
         "label": "4 л"
       }
     ]
-  },
-  {
-    "sku": "MOL-1007",
-    "name": "MOL Hykomol K 80W-140",
-    "category": "transmission-oils",
-    "brand": "MOL",
-    "photo_url": "",
-    "volumes": [
-      1,
-      50
-    ],
-    "description": "Автомобильные трансмиссионные масла",
-    "specs": [
-      {
-        "label": "Вязкость",
-        "value": "80W-140"
-      },
-      {
-        "label": "Класс",
-        "value": "API GL-5"
-      },
-      {
-        "label": "Плотность при 15°C",
-        "value": "0,892 г/см³"
-      },
-      {
-        "label": "Кинематическая вязкость (40°C)",
-        "value": "221,0 мм²/с"
-      },
-      {
-        "label": "Кинематическая вязкость (100°C)",
-        "value": "29,2 мм²/с"
-      },
-      {
-        "label": "Индекс вязкости",
-        "value": "160"
-      },
-      {
-        "label": "Температура застывания",
-        "value": "-33 °C"
-      },
-      {
-        "label": "Температура вспышки",
-        "value": "205 °C"
-      },
-      {
-        "label": "Допуски",
-        "value": "API MT-1, API GL-5, SAE J 2360, Scania STO 1:0, Mack GO-J, ZF TE-ML 07A, ZF TE-ML 08"
-      }
-    ],
-    "canister_vol": 1,
-    "canister_price": 127,
-    "barrel_vol": 50,
-    "barrel_price": 4110,
-    "packs": [
-      {
-        "id": "p-1",
-        "volume_l": 1,
-        "price_mdl": 127,
-        "label": "1 л"
-      },
-      {
-        "id": "p-50",
-        "volume_l": 50,
-        "price_mdl": 4110,
-        "label": "50 л (Бочка)"
-      }
-    ],
-    "name_ro": "MOL Hykomol K 80W-140",
-    "description_ro": "Ulei de transmisie EP de înaltă performanţă, dezvoltat pentru transmisii care operează cu încărcare medie sau grea."
   },
   {
     "sku": "MOL-1008",
@@ -2113,43 +1945,14 @@
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/hajtomuolajok/1L_MOL_ATF_3G.jpg",
     "volumes": [
       1,
-      4,
-      60,
-      208
+      55,
+      199
     ],
     "description": "Жидкость для автоматических трансмиссий.",
     "specs": [
       {
         "label": "Допуски",
         "value": "MAN 339 Typ L1, MAN 339 Typ V1, MAN 339 Typ Z1, ZF TE-ML 04D[ZF001179], ZF TE-ML 14A[ZF001179], Voith H55.6335, ZETOR, GM Dexron-IIIG, Ford Mercon, ZF TE-ML 05L, ZF TE-ML 09, ZF TE-ML 11B, Allison C-4, Volvo CE 97341"
-      },
-      {
-        "label": "Плотность при 15°C",
-        "value": "0,855"
-      },
-      {
-        "label": "Температура застывания",
-        "value": "-51"
-      },
-      {
-        "label": "Температура вспышки (по Кливленду)",
-        "value": "210"
-      },
-      {
-        "label": "Кинематическая вязкость (40°C)",
-        "value": "34,8 мм²/с"
-      },
-      {
-        "label": "Кинематическая вязкость (100°C)",
-        "value": "7,2 мм²/с"
-      },
-      {
-        "label": "Индекс вязкости",
-        "value": "182"
-      },
-      {
-        "label": "Температура вспышки",
-        "value": "210 °C"
       }
     ],
     "canister_vol": 4,
@@ -2160,108 +1963,19 @@
     "description_ro": "Fluid pentru transmisii automate pentru lubrifierea şi funcţionarea fiabilă a cutiilor de transmisii semi-automate sau automate şi sistemelor hidraulice ale camioanelor moderne, utilizate într-un interval larg de temperaturi. MOL ATF 3 G asigură motorului durată de viaţă lungă şi pornire uşoară la rece.",
     "packs": [
       {
-        "id": "p-1",
         "volume_l": 1,
-        "price_mdl": 0,
+        "price": 175,
         "label": "1 л"
       },
       {
-        "id": "p-4",
-        "volume_l": 4,
-        "price_mdl": 0,
-        "label": "4 л"
+        "volume_l": 55,
+        "price": 8500,
+        "label": "55 л"
       },
       {
-        "id": "p-60",
-        "volume_l": 60,
-        "price_mdl": 0,
-        "label": "60 л"
-      },
-      {
-        "id": "p-208",
-        "volume_l": 208,
-        "price_mdl": 0,
-        "label": "208 л"
-      }
-    ]
-  },
-  {
-    "sku": "MOL-1013",
-    "name": "MOL Hykomol Syntrans V 75W-90",
-    "category": "transmission-oils",
-    "brand": "MOL",
-    "photo_url": "",
-    "volumes": [
-      1,
-      4,
-      60,
-      208
-    ],
-    "description": "Синтетическое редукторное/трансмиссионное масло для транспортной отрасли.",
-    "specs": [
-      {
-        "label": "Допуски",
-        "value": "API GL-4, VW 501 50"
-      },
-      {
-        "label": "Плотность при 15°C",
-        "value": "0,858"
-      },
-      {
-        "label": "Температура застывания",
-        "value": "-45"
-      },
-      {
-        "label": "Температура вспышки (по Кливленду)",
-        "value": "215"
-      },
-      {
-        "label": "Кинематическая вязкость (40°C)",
-        "value": "102 мм²/с"
-      },
-      {
-        "label": "Кинематическая вязкость (100°C)",
-        "value": "15,0 мм²/с"
-      },
-      {
-        "label": "Индекс вязкости",
-        "value": "176"
-      },
-      {
-        "label": "Температура вспышки",
-        "value": "215 °C"
-      }
-    ],
-    "canister_vol": 4,
-    "canister_price": 0,
-    "barrel_vol": 208,
-    "barrel_price": 0,
-    "name_ro": "MOL Hykomol Syntrans V 75W-90",
-    "description_ro": "Sintetic редукторное/трансмиссионное масло для транспортной отрасли.",
-    "packs": [
-      {
-        "id": "p-1",
-        "volume_l": 1,
-        "price_mdl": 0,
-        "label": "1 л"
-      },
-      {
-        "id": "p-4",
-        "volume_l": 4,
-        "price_mdl": 0,
-        "label": "4 л"
-      },
-      {
-        "id": "p-60",
-        "volume_l": 60,
-        "price_mdl": 0,
-        "label": "60 л"
-      },
-      {
-        "id": "p-208",
-        "volume_l": 208,
-        "price_mdl": 0,
-        "label": "208 л"
+        "volume_l": 199,
+        "price": 28000,
+        "label": "199 л"
       }
     ]
   },
@@ -2676,7 +2390,10 @@
     "volumes": [
       1,
       4,
-      50
+      10,
+      20,
+      56,
+      201
     ],
     "description": "Автомобильные трансмиссионные масла",
     "specs": [
@@ -2691,30 +2408,6 @@
       {
         "label": "Допуски",
         "value": "API GL-5, MIL-L-2105D, ZETOR"
-      },
-      {
-        "label": "Плотность при 15°C",
-        "value": "0,895 г/см³"
-      },
-      {
-        "label": "Кинематическая вязкость (40°C)",
-        "value": "143 мм²/с"
-      },
-      {
-        "label": "Кинематическая вязкость (100°C)",
-        "value": "14,6 мм²/с"
-      },
-      {
-        "label": "Индекс вязкости",
-        "value": "101"
-      },
-      {
-        "label": "Температура застывания",
-        "value": "-27 °C"
-      },
-      {
-        "label": "Температура вспышки",
-        "value": "230 °C"
       }
     ],
     "canister_vol": 1,
@@ -2723,22 +2416,34 @@
     "barrel_price": 4990,
     "packs": [
       {
-        "id": "p-1",
         "volume_l": 1,
-        "price_mdl": 120,
+        "price": 135,
         "label": "1 л"
       },
       {
-        "id": "p-4",
         "volume_l": 4,
-        "price_mdl": 470,
+        "price": 500,
         "label": "4 л"
       },
       {
-        "id": "p-50",
-        "volume_l": 50,
-        "price_mdl": 4990,
-        "label": "50 л (Бочка)"
+        "volume_l": 10,
+        "price": 1200,
+        "label": "10 л"
+      },
+      {
+        "volume_l": 20,
+        "price": 2300,
+        "label": "20 л BiB carton"
+      },
+      {
+        "volume_l": 56,
+        "price": 6200,
+        "label": "56 л"
+      },
+      {
+        "volume_l": 201,
+        "price": 21000,
+        "label": "201 л"
       }
     ],
     "name_ro": "MOL Hykomol K 80W-90",
@@ -3152,7 +2857,7 @@
     "volumes": [
       1,
       4,
-      50,
+      56,
       202
     ],
     "description": "Автомобильные трансмиссионные масла",
@@ -3166,30 +2871,6 @@
         "value": "API GL-4"
       },
       {
-        "label": "Плотность при 15°C",
-        "value": "0,891 г/см³"
-      },
-      {
-        "label": "Кинематическая вязкость (40°C)",
-        "value": "145,3 мм²/с"
-      },
-      {
-        "label": "Кинематическая вязкость (100°C)",
-        "value": "14,6 мм²/с"
-      },
-      {
-        "label": "Индекс вязкости",
-        "value": "99"
-      },
-      {
-        "label": "Температура застывания",
-        "value": "-30 °C"
-      },
-      {
-        "label": "Температура вспышки",
-        "value": "230 °C"
-      },
-      {
         "label": "Допуски",
         "value": "API GL-4, MIL-L-2105"
       }
@@ -3200,28 +2881,24 @@
     "barrel_price": 12822,
     "packs": [
       {
-        "id": "p-1",
         "volume_l": 1,
-        "price_mdl": 94,
+        "price": 125,
         "label": "1 л"
       },
       {
-        "id": "p-4",
         "volume_l": 4,
-        "price_mdl": 343,
+        "price": 460,
         "label": "4 л"
       },
       {
-        "id": "p-50",
-        "volume_l": 50,
-        "price_mdl": 3792,
-        "label": "50 л (Бочка)"
+        "volume_l": 56,
+        "price": 5800,
+        "label": "56 л"
       },
       {
-        "id": "p-202",
         "volume_l": 202,
-        "price_mdl": 12822,
-        "label": "202 л (Бочка)"
+        "price": 20000,
+        "label": "202 л"
       }
     ],
     "name_ro": "MOL Hykomol 80W-90",
@@ -3680,10 +3357,10 @@
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/hajtomuolajok/1L_MOL_Hykomol_Synt_75W-90.jpg",
     "volumes": [
       1,
-      4,
       10,
-      50,
-      198
+      20,
+      58,
+      209
     ],
     "description": "Полусинтетическое трансмиссионное масло",
     "specs": [
@@ -3696,30 +3373,6 @@
         "value": "API GL-4/GL-5"
       },
       {
-        "label": "Плотность при 15°C",
-        "value": "0,859 г/см³"
-      },
-      {
-        "label": "Кинематическая вязкость (40°C)",
-        "value": "109,3 мм²/с"
-      },
-      {
-        "label": "Кинематическая вязкость (100°C)",
-        "value": "15,4 мм²/с"
-      },
-      {
-        "label": "Индекс вязкости",
-        "value": "147"
-      },
-      {
-        "label": "Температура застывания",
-        "value": "-45 °C"
-      },
-      {
-        "label": "Температура вспышки",
-        "value": "215 °C"
-      },
-      {
         "label": "Допуски",
         "value": "API GL-5, API GL-4, MIL-L-2105D, Tatra TDS 80/32, ZF TE-ML 07A, ZF TE-ML 08, ZF TE-ML 17B"
       }
@@ -3730,34 +3383,29 @@
     "barrel_price": 34920,
     "packs": [
       {
-        "id": "p-1",
         "volume_l": 1,
-        "price_mdl": 282,
+        "price": 165,
         "label": "1 л"
       },
       {
-        "id": "p-4",
-        "volume_l": 4,
-        "price_mdl": 1020,
-        "label": "4 л"
-      },
-      {
-        "id": "p-10",
         "volume_l": 10,
-        "price_mdl": 2640,
+        "price": 1500,
         "label": "10 л"
       },
       {
-        "id": "p-50",
-        "volume_l": 50,
-        "price_mdl": 9960,
-        "label": "50 л (Бочка)"
+        "volume_l": 20,
+        "price": 2800,
+        "label": "20 л"
       },
       {
-        "id": "p-198",
-        "volume_l": 198,
-        "price_mdl": 34920,
-        "label": "198 л (Бочка)"
+        "volume_l": 58,
+        "price": 7500,
+        "label": "58 л"
+      },
+      {
+        "volume_l": 209,
+        "price": 25000,
+        "label": "209 л"
       }
     ],
     "name_ro": "MOL Hykomol Synt 75W-90",
@@ -3772,46 +3420,16 @@
     "volumes": [
       1,
       4,
-      60,
-      208
+      10,
+      20,
+      57,
+      206
     ],
     "description": "Идеальное моторное масло для смешанных автомобильных парков",
     "specs": [
       {
         "label": "Допуски",
         "value": "API CI-4, API SL, DTFR 15B110 (ex MB 228.3), Volvo VDS-3, Renault RLD-2, MTU Type 2, Mack EO-N, ACEA E7, Global DHD-1, MAN M 3275-1, Tatra TDS 30/12, MACK EO-M Plus, DDC 93K215, Deutz DQC III-10, DTFR 15B110"
-      },
-      {
-        "label": "Плотность при 15°C",
-        "value": "0,872"
-      },
-      {
-        "label": "Температура застывания",
-        "value": "-39"
-      },
-      {
-        "label": "Температура вспышки (по Кливленду)",
-        "value": "230"
-      },
-      {
-        "label": "Кинематическая вязкость (40°C)",
-        "value": "95,3 мм²/с"
-      },
-      {
-        "label": "Кинематическая вязкость (100°C)",
-        "value": "14,2 мм²/с"
-      },
-      {
-        "label": "Индекс вязкости",
-        "value": "153"
-      },
-      {
-        "label": "Температура вспышки",
-        "value": "230 °C"
-      },
-      {
-        "label": "Щелочное число",
-        "value": "10,1 мг KOH/г"
       }
     ],
     "canister_vol": 4,
@@ -3822,28 +3440,34 @@
     "description_ro": "Ulei de motor parţial sintetic pentru motoarele pe benzină sau diesel ale autoturismelor şi autocamioanelor moderne. Recomandat în special flotelor de vehicule mixte şi autocamioanelor fără Euro III şi filtre de particule diesel în categoriile de protecţia mediului Euro IV şi Euro V.",
     "packs": [
       {
-        "id": "p-1",
         "volume_l": 1,
-        "price_mdl": 0,
+        "price": 145,
         "label": "1 л"
       },
       {
-        "id": "p-4",
         "volume_l": 4,
-        "price_mdl": 0,
+        "price": 540,
         "label": "4 л"
       },
       {
-        "id": "p-60",
-        "volume_l": 60,
-        "price_mdl": 0,
-        "label": "60 л"
+        "volume_l": 10,
+        "price": 1300,
+        "label": "10 л"
       },
       {
-        "id": "p-208",
-        "volume_l": 208,
-        "price_mdl": 0,
-        "label": "208 л"
+        "volume_l": 20,
+        "price": 2500,
+        "label": "20 л BiB carton"
+      },
+      {
+        "volume_l": 57,
+        "price": 6800,
+        "label": "57 л"
+      },
+      {
+        "volume_l": 206,
+        "price": 23000,
+        "label": "206 л"
       }
     ]
   },
@@ -4066,13 +3690,8 @@
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/05_arol_2t.jpg",
     "volumes": [
-      1,
-      4,
-      60,
-      208,
-      983,
-      991,
-      994
+      0.5,
+      196
     ],
     "description": "Моторное масло для двухтактных двигателей легковых автомобилей и мотоциклов более ранних моделей.",
     "specs": [
@@ -4113,46 +3732,14 @@
     "description_ro": "Ulei de motor для двухтактных двигателей легковых автомобилей и мотоциклов более ранних моделей.",
     "packs": [
       {
-        "id": "p-1",
-        "volume_l": 1,
-        "price_mdl": 50,
-        "label": "1 л"
+        "volume_l": 0.5,
+        "price": 65,
+        "label": "0.5 л"
       },
       {
-        "id": "p-4",
-        "volume_l": 4,
-        "price_mdl": 200,
-        "label": "4 л"
-      },
-      {
-        "id": "p-60",
-        "volume_l": 60,
-        "price_mdl": 3000,
-        "label": "60 л"
-      },
-      {
-        "id": "p-208",
-        "volume_l": 208,
-        "price_mdl": 10400,
-        "label": "208 л"
-      },
-      {
-        "id": "p-983",
-        "volume_l": 983,
-        "price_mdl": 125000,
-        "label": "983 л (Еврокуб)"
-      },
-      {
-        "id": "p-991",
-        "volume_l": 991,
-        "price_mdl": 126000,
-        "label": "991 л (Еврокуб)"
-      },
-      {
-        "id": "p-994",
-        "volume_l": 994,
-        "price_mdl": 127000,
-        "label": "994 л"
+        "volume_l": 196,
+        "price": 21000,
+        "label": "196 л"
       }
     ]
   },
@@ -4230,43 +3817,13 @@
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/hajtomuolajok/1LMOL_ATF_3H_AP.jpg",
     "volumes": [
       1,
-      4,
-      60,
-      208
+      56
     ],
     "description": "Синтетическое масло высшего сорта для автоматических коробок передач/трансмиссий.",
     "specs": [
       {
         "label": "Допуски",
         "value": "GM Dexron-IIIH, JASO M315 1A, Ford Mercon, MAN 339 Typ Z1, Volvo 97340, Toyota T-III, Toyota T-IV, Toyota Type D-2, Toyota WS, Mazda ATF D-III, Mazda ATF M-3, Suzuki ATF Oil, Suzuki ATF Oil Special, Subaru ATF, Nissan Matic-D, Nissan Matic-J, Mitsubishi Diamond SP-II, Mitsubishi Diamond SP-III, Kia, Hyundai, ZF TE-ML 14A, Voith H55.6335, Allison C-4, JWS 3309 (JWS 3317 till 2006)"
-      },
-      {
-        "label": "Плотность при 15°C",
-        "value": "0,850"
-      },
-      {
-        "label": "Температура застывания",
-        "value": "-48"
-      },
-      {
-        "label": "Температура вспышки (по Кливленду)",
-        "value": "215"
-      },
-      {
-        "label": "Кинематическая вязкость (40°C)",
-        "value": "36,6 мм²/с"
-      },
-      {
-        "label": "Кинематическая вязкость (100°C)",
-        "value": "7,3 мм²/с"
-      },
-      {
-        "label": "Индекс вязкости",
-        "value": "167"
-      },
-      {
-        "label": "Температура вспышки",
-        "value": "215 °C"
       }
     ],
     "canister_vol": 4,
@@ -4277,116 +3834,14 @@
     "description_ro": "Fluid pentru transmisii automate de înaltă performanţă, aplicabil pentru lubrifierea şi funcţionarea fiabilă a transmisiilor semi-automate sau automate şi sistemelor hidraulice ale camioanelor moderne, asigurând utilajului o durată de viaţă lungă pe un interval larg de temperaturi.",
     "packs": [
       {
-        "id": "p-1",
         "volume_l": 1,
-        "price_mdl": 0,
+        "price": 165,
         "label": "1 л"
       },
       {
-        "id": "p-4",
-        "volume_l": 4,
-        "price_mdl": 0,
-        "label": "4 л"
-      },
-      {
-        "id": "p-60",
-        "volume_l": 60,
-        "price_mdl": 0,
-        "label": "60 л"
-      },
-      {
-        "id": "p-208",
-        "volume_l": 208,
-        "price_mdl": 0,
-        "label": "208 л"
-      }
-    ]
-  },
-  {
-    "sku": "MOL-1045",
-    "name": "MOL Dynamic Transit 15W-40",
-    "category": "motor-oils-lkw",
-    "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Transit_15W-40.jpg",
-    "volumes": [
-      1,
-      4,
-      60,
-      208
-    ],
-    "description": "Идеальное моторное масло для смешанных автомобильных парков",
-    "specs": [
-      {
-        "label": "Допуски",
-        "value": "API CI-4/SL, DTFR 15B110 (ex MB 228.3), Volvo VDS-3, Renault RLD-2, Cummins CES 20078, Mack EO-N, ACEA E7, MIL-L-2104E, Global DHD-1, MAN M 3275-1, Tatra TDS 30/12, MTU Type 2, Caterpillar ECF-2, MACK EO-M Plus, Deutz DQC III-18, KAMAZ, ZETOR, DTFR 15B110"
-      },
-      {
-        "label": "Плотность при 15°C",
-        "value": "0,885"
-      },
-      {
-        "label": "Температура застывания",
-        "value": "-33"
-      },
-      {
-        "label": "Температура вспышки (по Кливленду)",
-        "value": "225"
-      },
-      {
-        "label": "Кинематическая вязкость (40°C)",
-        "value": "108,5 мм²/с"
-      },
-      {
-        "label": "Кинематическая вязкость (100°C)",
-        "value": "14,4 мм²/с"
-      },
-      {
-        "label": "Индекс вязкости",
-        "value": "135"
-      },
-      {
-        "label": "Температура вспышки",
-        "value": "225 °C"
-      },
-      {
-        "label": "Щелочное число",
-        "value": "10,7 мг KOH/г"
-      },
-      {
-        "label": "Сульфатная зольность",
-        "value": "1,41 %"
-      }
-    ],
-    "canister_vol": 4,
-    "canister_price": 0,
-    "barrel_vol": 208,
-    "barrel_price": 0,
-    "name_ro": "MOL Dynamic Transit 15W-40",
-    "description_ro": "Ulei de motor universal pentru motoarele pe benzină sau diesel ale autoturismelor şi autocamioanelor. Recomandat în special flotelor de vehicule mixte şi autocamioanelor din categoriile de protecţia mediului Euro IV şi Euro V, şi fără Euro III şi sisteme de protecţie cu filtre de particule diesel.",
-    "packs": [
-      {
-        "id": "p-1",
-        "volume_l": 1,
-        "price_mdl": 0,
-        "label": "1 л"
-      },
-      {
-        "id": "p-4",
-        "volume_l": 4,
-        "price_mdl": 0,
-        "label": "4 л"
-      },
-      {
-        "id": "p-60",
-        "volume_l": 60,
-        "price_mdl": 0,
-        "label": "60 л"
-      },
-      {
-        "id": "p-208",
-        "volume_l": 208,
-        "price_mdl": 0,
-        "label": "208 л"
+        "volume_l": 56,
+        "price": 8000,
+        "label": "56 л"
       }
     ]
   },
@@ -4545,42 +4000,15 @@
     "volumes": [
       1,
       4,
-      60,
-      208
+      10,
+      54,
+      197
     ],
     "description": "Жидкость для автоматических трансмиссий",
     "specs": [
       {
         "label": "Допуски",
-        "value": "GM Dexron-VI, JASO 1A LV, Toyota WS, Mazda FZ, Nissan Matic-W, Mitsubishi ATF J3, Mitsubishi SP-IV, VW G 055 540, VW G 055 005, VW G 055 162, BMW ATF 3+, BMW ATF6, Ford XT-6-QSP [SP], Honda Type 3.0, Honda Type 3.1, Hyundai/KIA 040000C90SG, Hyundai/KIA SP4-M1, Hyundai/KIA SPH-IV, Mistsubishi Dia Queen ATF-MA1, Mistsubishi Dia Queen ATF-PA, Honda DW-1, Hyundai NWS-9638, Hyundai/Kia SP-IV, Nissan Matic-S, SAAB 93 165 147"
-      },
-      {
-        "label": "Плотность при 15°C",
-        "value": "0,863"
-      },
-      {
-        "label": "Температура застывания",
-        "value": "-42"
-      },
-      {
-        "label": "Температура вспышки (по Кливленду)",
-        "value": "210"
-      },
-      {
-        "label": "Кинематическая вязкость (40°C)",
-        "value": "29,5 мм²/с"
-      },
-      {
-        "label": "Кинематическая вязкость (100°C)",
-        "value": "6,0 мм²/с"
-      },
-      {
-        "label": "Индекс вязкости",
-        "value": "155"
-      },
-      {
-        "label": "Температура вспышки",
-        "value": "210 °C"
+        "value": "MAN 339 Typ L2, MAN 339 Typ V1, MAN 339 Typ Z1, ZF TE-ML 04D[ZF001251], ZF TE-ML 14A[ZF001251], ZF TE-ML 17C[ZF001251], GM Dexron-IID, GM Type A Suffix A, Ford Mercon, ZF TE-ML 02F, ZF TE-ML 03D, ZF TE-ML 05L, ZF TE-ML 09, ZF TE-ML 11A, Voith H55.6335, Allison C-4"
       }
     ],
     "canister_vol": 4,
@@ -4591,28 +4019,29 @@
     "description_ro": "Fluid sintetic pentru transmisii automate, de calitate premium, elaborat în special pentru a corespunde cerinţelor autoturismelor şi camioanelor moderne, de fabricaţie japoneză sau coreeană, utilizabil într-un interval larg de temperaturi. Corespunde de asemenea cu cerinţele fluidelor de transmisie automată de ultima generaţie a vehiculelor Toyota.",
     "packs": [
       {
-        "id": "p-1",
         "volume_l": 1,
-        "price_mdl": 0,
+        "price": 120,
         "label": "1 л"
       },
       {
-        "id": "p-4",
         "volume_l": 4,
-        "price_mdl": 0,
+        "price": 440,
         "label": "4 л"
       },
       {
-        "id": "p-60",
-        "volume_l": 60,
-        "price_mdl": 0,
-        "label": "60 л"
+        "volume_l": 10,
+        "price": 1050,
+        "label": "10 л"
       },
       {
-        "id": "p-208",
-        "volume_l": 208,
-        "price_mdl": 0,
-        "label": "208 л"
+        "volume_l": 54,
+        "price": 5600,
+        "label": "54 л"
+      },
+      {
+        "volume_l": 197,
+        "price": 19500,
+        "label": "197 л"
       }
     ]
   },
@@ -4623,41 +4052,13 @@
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/hajtomuolajok/4L_MOL_Hykomol_80W-90_.jpg",
     "volumes": [
-      4
+      1
     ],
     "description": "Автомобильные трансмиссионные масла",
     "specs": [
       {
         "label": "Допуски",
         "value": "DTFR 12B100 (ex MB 235.0), ZF TE-ML 16C[ZF001113], ZF TE-ML 17B[ZF001113], ZF TE-ML 19B[ZF001113], ZF TE-ML 21A[ZF001113], API GL-5, MIL-L-2105D, Ford SQ-M2C9002-AA, MAN 342 Typ M1, Volvo 97310, ZF TE-ML 07A, ZF TE-ML 16B"
-      },
-      {
-        "label": "Плотность при 15°C",
-        "value": "0,901"
-      },
-      {
-        "label": "Температура застывания",
-        "value": "-24"
-      },
-      {
-        "label": "Температура вспышки (по Кливленду)",
-        "value": "230"
-      },
-      {
-        "label": "Кинематическая вязкость (40°C)",
-        "value": "214,1 мм²/с"
-      },
-      {
-        "label": "Кинематическая вязкость (100°C)",
-        "value": "17,8 мм²/с"
-      },
-      {
-        "label": "Индекс вязкости",
-        "value": "90"
-      },
-      {
-        "label": "Температура вспышки",
-        "value": "230 °C"
       }
     ],
     "canister_vol": 4,
@@ -4668,10 +4069,9 @@
     "description_ro": "Ulei de transmisie EP de înaltă performanţă, dezvoltat pentru transmisii care operează cu încărcare medie sau grea.",
     "packs": [
       {
-        "id": "p-4",
-        "volume_l": 4,
-        "price_mdl": 0,
-        "label": "4 л"
+        "volume_l": 1,
+        "price": 135,
+        "label": "1 л"
       }
     ]
   },
@@ -5071,90 +4471,6 @@
     ]
   },
   {
-    "sku": "MOL-1057",
-    "name": "MOL Dynamic Transit 10W-30",
-    "category": "motor-oils-lkw",
-    "brand": "MOL",
-    "photo_url": "",
-    "volumes": [
-      1,
-      4,
-      60,
-      208
-    ],
-    "description": "Идеальное моторное масло для смешанных автопарков",
-    "specs": [
-      {
-        "label": "Допуски",
-        "value": "ACEA E7, API CI-4, API SL, Global DHD-1, MAN M 3275, Volvo VDS-3, Renault RLD-2, MTU Type 2, MACK EO-M Plus, Deutz DQC III-10, Mack EO-N, Fabricat si distribuit de MOL-LUB Ltd., 2931 Almásfüzitő, Fő út 21., 1 / 2"
-      },
-      {
-        "label": "Плотность при 15°C",
-        "value": "0,872"
-      },
-      {
-        "label": "Температура застывания",
-        "value": "-39"
-      },
-      {
-        "label": "Температура вспышки (по Кливленду)",
-        "value": "230"
-      },
-      {
-        "label": "Кинематическая вязкость (40°C)",
-        "value": "76,7 мм²/с"
-      },
-      {
-        "label": "Кинематическая вязкость (100°C)",
-        "value": "11,9 мм²/с"
-      },
-      {
-        "label": "Индекс вязкости",
-        "value": "150"
-      },
-      {
-        "label": "Температура вспышки",
-        "value": "230 °C"
-      },
-      {
-        "label": "Щелочное число",
-        "value": "10,1 мг KOH/г"
-      }
-    ],
-    "canister_vol": 4,
-    "canister_price": 0,
-    "barrel_vol": 208,
-    "barrel_price": 0,
-    "name_ro": "MOL Dynamic Transit 10W-30",
-    "description_ro": "Ulei universal, de înaltă performanţă, potrivit pentru motoarele pe benzină ale autoturismelor, precum şi pentru motoarele diesel ale vehiculelor comerciale, echipate cu sisteme EGR şi SCR. Este recomandat în mod special pentru flotele mixte de vehicule.",
-    "packs": [
-      {
-        "id": "p-1",
-        "volume_l": 1,
-        "price_mdl": 0,
-        "label": "1 л"
-      },
-      {
-        "id": "p-4",
-        "volume_l": 4,
-        "price_mdl": 0,
-        "label": "4 л"
-      },
-      {
-        "id": "p-60",
-        "volume_l": 60,
-        "price_mdl": 0,
-        "label": "60 л"
-      },
-      {
-        "id": "p-208",
-        "volume_l": 208,
-        "price_mdl": 0,
-        "label": "208 л"
-      }
-    ]
-  },
-  {
     "sku": "MOL-1058",
     "name": "MOL Evox Summer Citrus Breeze",
     "category": "auto-chemistry",
@@ -5278,86 +4594,6 @@
     ]
   },
   {
-    "sku": "MOL-1060",
-    "name": "MOL Hykomol Arctic 75W-90",
-    "category": "transmission-oils",
-    "brand": "MOL",
-    "photo_url": "",
-    "volumes": [
-      1,
-      4,
-      60,
-      208
-    ],
-    "description": "Трансмиссионное масло для работы в условиях низких температур",
-    "specs": [
-      {
-        "label": "Допуски",
-        "value": "API GL-4"
-      },
-      {
-        "label": "Плотность при 15°C",
-        "value": "0,846"
-      },
-      {
-        "label": "Температура застывания",
-        "value": "-51"
-      },
-      {
-        "label": "Температура вспышки (по Кливленду)",
-        "value": "215"
-      },
-      {
-        "label": "Кинематическая вязкость (40°C)",
-        "value": "100 мм²/с"
-      },
-      {
-        "label": "Кинематическая вязкость (100°C)",
-        "value": "16,0 мм²/с"
-      },
-      {
-        "label": "Индекс вязкости",
-        "value": "172"
-      },
-      {
-        "label": "Температура вспышки",
-        "value": "215 °C"
-      }
-    ],
-    "canister_vol": 4,
-    "canister_price": 0,
-    "barrel_vol": 208,
-    "barrel_price": 0,
-    "name_ro": "MOL Hykomol Arctic 75W-90",
-    "description_ro": "Ulei de transmisie de înaltă performanţă, pentru transmisiile manuale, cu o gamă largă de aplicaţii. Asigură o lubrifiere sigură, chiar și în condiții de temperaturi extrem de scăzute.",
-    "packs": [
-      {
-        "id": "p-1",
-        "volume_l": 1,
-        "price_mdl": 0,
-        "label": "1 л"
-      },
-      {
-        "id": "p-4",
-        "volume_l": 4,
-        "price_mdl": 0,
-        "label": "4 л"
-      },
-      {
-        "id": "p-60",
-        "volume_l": 60,
-        "price_mdl": 0,
-        "label": "60 л"
-      },
-      {
-        "id": "p-208",
-        "volume_l": 208,
-        "price_mdl": 0,
-        "label": "208 л"
-      }
-    ]
-  },
-  {
     "sku": "MOL-1061",
     "name": "MOL Dynamic Gold Longlife 0W-30",
     "category": "motor-oils-pkw",
@@ -5425,81 +4661,49 @@
   },
   {
     "sku": "MOL-1063",
-    "name": "MOL Hykomol 85W-140",
+    "name": "MOL Hykomol K 85W-140",
     "category": "transmission-oils",
     "brand": "MOL",
     "photo_url": "",
     "volumes": [
       1,
-      4,
-      60,
-      208
+      10,
+      55,
+      198
     ],
     "description": "Автомобильные трансмиссионные масла",
     "specs": [
       {
         "label": "Допуски",
         "value": "API GL-4, MIL-L-2105"
-      },
-      {
-        "label": "Плотность при 15°C",
-        "value": "0,904"
-      },
-      {
-        "label": "Температура застывания",
-        "value": "-12"
-      },
-      {
-        "label": "Температура вспышки (по Кливленду)",
-        "value": "260"
-      },
-      {
-        "label": "Кинематическая вязкость (40°C)",
-        "value": "425 мм²/с"
-      },
-      {
-        "label": "Кинематическая вязкость (100°C)",
-        "value": "27,2 мм²/с"
-      },
-      {
-        "label": "Индекс вязкости",
-        "value": "88"
-      },
-      {
-        "label": "Температура вспышки",
-        "value": "260 °C"
       }
     ],
     "canister_vol": 4,
     "canister_price": 0,
     "barrel_vol": 208,
     "barrel_price": 0,
-    "name_ro": "MOL Hykomol 85W-140",
+    "name_ro": "MOL Hykomol K 85W-140",
     "description_ro": "Ulei de transmisie de înaltă performanţă pentru transmisii şi o gamă largă de aplicaţii.",
     "packs": [
       {
-        "id": "p-1",
         "volume_l": 1,
-        "price_mdl": 0,
+        "price": 140,
         "label": "1 л"
       },
       {
-        "id": "p-4",
-        "volume_l": 4,
-        "price_mdl": 0,
-        "label": "4 л"
+        "volume_l": 10,
+        "price": 1300,
+        "label": "10 л"
       },
       {
-        "id": "p-60",
-        "volume_l": 60,
-        "price_mdl": 0,
-        "label": "60 л"
+        "volume_l": 55,
+        "price": 6800,
+        "label": "55 л"
       },
       {
-        "id": "p-208",
-        "volume_l": 208,
-        "price_mdl": 0,
-        "label": "208 л"
+        "volume_l": 198,
+        "price": 22000,
+        "label": "198 л"
       }
     ]
   },
@@ -5510,36 +4714,13 @@
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1l_mol_cvt_fluid.jpg",
     "volumes": [
-      1,
-      4,
-      60,
-      208
+      1
     ],
     "description": "Масло для автоматических коробок передач",
     "specs": [
       {
         "label": "Допуски",
         "value": "BMW 8322 0 136 376, BMW 8322 0 429 154, Chrysler NS-2/CVTF+4, Daihatsu Amix CVTF-DC, Ford WSS-M2C933-A, GM (Saturn) DEX-CVT, Honda HMMF/HCF-2, Hyundai/Kia SP-CVT 1, Mazda CVTF 3320, MERCON C, Mini Cooper EZL 799/EZL 799A/ZF CVT V1, Mitsubishi CVTF-J1, Mitsubishi CVTF-J4, Nissan NS-1/NS-2, Punch EZL 799/EZL 799A, Subaru i-CVTF/e-CVTF, Suzuki CVTF 3320/TC/NS-2/CVTF Green 1, Toyota/Lexus TC, VW G 052 180 (TL 52 180), VW G 052 516 (TL 52 516)"
-      },
-      {
-        "label": "Плотность при 15°C",
-        "value": "0,851"
-      },
-      {
-        "label": "Температура застывания",
-        "value": "-45"
-      },
-      {
-        "label": "Внешний вид",
-        "value": "светло-коричневая, прозрачная, светлая"
-      },
-      {
-        "label": "Кинематическая вязкость (40°C)",
-        "value": "32,0 мм²/с"
-      },
-      {
-        "label": "Кинематическая вязкость (100°C)",
-        "value": "7,1 мм²/с"
       }
     ],
     "canister_vol": 4,
@@ -5550,108 +4731,9 @@
     "description_ro": "Масло для автоматических коробок передач",
     "packs": [
       {
-        "id": "p-1",
         "volume_l": 1,
-        "price_mdl": 0,
+        "price": 185,
         "label": "1 л"
-      },
-      {
-        "id": "p-4",
-        "volume_l": 4,
-        "price_mdl": 0,
-        "label": "4 л"
-      },
-      {
-        "id": "p-60",
-        "volume_l": 60,
-        "price_mdl": 0,
-        "label": "60 л"
-      },
-      {
-        "id": "p-208",
-        "volume_l": 208,
-        "price_mdl": 0,
-        "label": "208 л"
-      }
-    ]
-  },
-  {
-    "sku": "MOL-1068",
-    "name": "MOL Hykomol 90",
-    "category": "transmission-oils",
-    "brand": "MOL",
-    "photo_url": "",
-    "volumes": [
-      1,
-      4,
-      60,
-      208
-    ],
-    "description": "Автомобильные трансмиссионные масла",
-    "specs": [
-      {
-        "label": "Допуски",
-        "value": "API GL-4, MIL-L-2105"
-      },
-      {
-        "label": "Плотность при 15°C",
-        "value": "0,894"
-      },
-      {
-        "label": "Температура застывания",
-        "value": "-24"
-      },
-      {
-        "label": "Температура вспышки (по Кливленду)",
-        "value": "240"
-      },
-      {
-        "label": "Кинематическая вязкость (40°C)",
-        "value": "165 мм²/с"
-      },
-      {
-        "label": "Кинематическая вязкость (100°C)",
-        "value": "15,4 мм²/с"
-      },
-      {
-        "label": "Индекс вязкости",
-        "value": "85"
-      },
-      {
-        "label": "Температура вспышки",
-        "value": "240 °C"
-      }
-    ],
-    "canister_vol": 4,
-    "canister_price": 0,
-    "barrel_vol": 208,
-    "barrel_price": 0,
-    "name_ro": "MOL Hykomol 90",
-    "description_ro": "Ulei de transmisie de înaltă performanţă pentru transmisii şi o gamă largă de aplicaţii.",
-    "packs": [
-      {
-        "id": "p-1",
-        "volume_l": 1,
-        "price_mdl": 0,
-        "label": "1 л"
-      },
-      {
-        "id": "p-4",
-        "volume_l": 4,
-        "price_mdl": 0,
-        "label": "4 л"
-      },
-      {
-        "id": "p-60",
-        "volume_l": 60,
-        "price_mdl": 0,
-        "label": "60 л"
-      },
-      {
-        "id": "p-208",
-        "volume_l": 208,
-        "price_mdl": 0,
-        "label": "208 л"
       }
     ]
   },
@@ -5894,77 +4976,31 @@
   },
   {
     "sku": "MOL-1076",
-    "name": "MOL Hykomol Syntrans 75W-90",
+    "name": "MOL Hykomol Syntrans 75W-80",
     "category": "transmission-oils",
     "brand": "MOL",
     "photo_url": "",
     "volumes": [
-      1,
-      4,
-      60,
-      208
+      10
     ],
     "description": "Автомобильное синтетическое трансмиссионное масло высшего сорта.",
     "specs": [
       {
         "label": "Допуски",
-        "value": "API GL-4, MAN 341 Typ MB, Tatra TDS 80/32, ZF TE-ML 08"
-      },
-      {
-        "label": "Плотность при 15°C",
-        "value": "0,847"
-      },
-      {
-        "label": "Температура застывания",
-        "value": "-45"
-      },
-      {
-        "label": "Температура вспышки (по Кливленду)",
-        "value": "220"
-      },
-      {
-        "label": "Кинематическая вязкость (40°C)",
-        "value": "96,5 мм²/с"
-      },
-      {
-        "label": "Кинематическая вязкость (100°C)",
-        "value": "14,5 мм²/с"
-      },
-      {
-        "label": "Температура вспышки",
-        "value": "220 °C"
+        "value": "MAN 341 Typ Z4, ZF TE-ML 02L[ZF008319], ZF TE-ML 16K[ZF008319], ZF TE-ML 01L[ZF008319], API GL-4, MAN 341 Typ E3, Volvo 97307, Renault, DAF, IVECO, ZF TE-ML 08, Eaton"
       }
     ],
     "canister_vol": 4,
     "canister_price": 0,
     "barrel_vol": 208,
     "barrel_price": 0,
-    "name_ro": "MOL Hykomol Syntrans 75W-90",
+    "name_ro": "MOL Hykomol Syntrans 75W-80",
     "description_ro": "Ulei de transmisie sintetic de înaltă performanţă pentru camioane echipate cu cutii de viteză manuale.",
     "packs": [
       {
-        "id": "p-1",
-        "volume_l": 1,
-        "price_mdl": 0,
-        "label": "1 л"
-      },
-      {
-        "id": "p-4",
-        "volume_l": 4,
-        "price_mdl": 0,
-        "label": "4 л"
-      },
-      {
-        "id": "p-60",
-        "volume_l": 60,
-        "price_mdl": 0,
-        "label": "60 л"
-      },
-      {
-        "id": "p-208",
-        "volume_l": 208,
-        "price_mdl": 0,
-        "label": "208 л"
+        "volume_l": 10,
+        "price": 1400,
+        "label": "10 л"
       }
     ]
   },
@@ -5981,31 +5017,7 @@
     "specs": [
       {
         "label": "Допуски",
-        "value": "VW G 052 182, VW G 052 529, BMW 83 22 2 148 578"
-      },
-      {
-        "label": "Внешний вид",
-        "value": "желтый, прозрачный, светлый"
-      },
-      {
-        "label": "Плотность при 15°C",
-        "value": "0,854 г/см³"
-      },
-      {
-        "label": "Кинематическая вязкость (40°C)",
-        "value": "34,3 мм²/с"
-      },
-      {
-        "label": "Кинематическая вязкость (100°C)",
-        "value": "7,20 мм²/с"
-      },
-      {
-        "label": "Температура застывания",
-        "value": "-42 °C"
-      },
-      {
-        "label": "Температура вспышки",
-        "value": "200 °C"
+        "value": "VW G 052 182 (TL 52 182), VW G 052 529 (TL 52 529), BMW 83 22 0 440 214, BMW 83 22 2 147 477, BMW 83 22 2 148 578, BMW 83 22 2 148 579, Ford M2C936A, MZ320065 Dia-Queen SSTF-I, PSA 9734.S2, Porsche Oil No. 999.917.080.00, Volvo 1161838/1161839, Nissan 999MP-GTRT00P, VW G 055 529"
       }
     ],
     "canister_vol": 1,
@@ -6014,9 +5026,8 @@
     "barrel_price": 0,
     "packs": [
       {
-        "id": "p-1",
         "volume_l": 1,
-        "price_mdl": 187,
+        "price": 195,
         "label": "1 л"
       }
     ],
@@ -6430,79 +5441,16 @@
     "description_ro": "Ulei de motor semisintetic cu aditivi detergenți pentru motoare diesel cu turbocompresor ale autoturismelor."
   },
   {
-    "sku": "MOL-TRANSIT-TDS-10W40",
-    "name": "Моторное масло MOL Transit TDS 10W-40 (LKW)",
-    "category": "motor-oils-lkw",
-    "brand": "MOL",
-    "photo_url": "images/products/mol-dynamic-truck.png",
-    "volumes": [
-      1,
-      4,
-      10,
-      57,
-      206
-    ],
-    "description": "Полусинтетическое моторное масло MOL Transit TDS 10W-40 для дизельных моторов Euro III и Euro IV грузового транспорта.",
-    "specs": [
-      {
-        "label": "Вязкость",
-        "value": "10W-40"
-      },
-      {
-        "label": "Допуски",
-        "value": "ACEA A3/B3-12/E7, MAN 3275-1, Volvo VDS-3, MB 228.3, 229.1"
-      }
-    ],
-    "canister_vol": 1,
-    "canister_price": 116,
-    "packs": [
-      {
-        "id": "tds-10w40-1l",
-        "volume_l": 1,
-        "price_mdl": 116,
-        "label": "1 л"
-      },
-      {
-        "id": "tds-10w40-4l",
-        "volume_l": 4,
-        "price_mdl": 439,
-        "label": "4 л"
-      },
-      {
-        "id": "tds-10w40-10l",
-        "volume_l": 10,
-        "price_mdl": 795,
-        "label": "10 л"
-      },
-      {
-        "id": "tds-10w40-57l",
-        "volume_l": 57,
-        "price_mdl": 4360,
-        "label": "57 л"
-      },
-      {
-        "id": "tds-10w40-206l",
-        "volume_l": 206,
-        "price_mdl": 13905,
-        "label": "206 л (Бочка)"
-      }
-    ],
-    "barrel_vol": 202,
-    "barrel_price": 17044,
-    "name_ro": "Ulei de motor MOL Transit TDS 10W-40 (LKW camioane)",
-    "description_ro": "Semisintetic моторное масло MOL Transit TDS 10W-40 для дизельных моторов Euro III и Euro IV transport marfă."
-  },
-  {
     "sku": "MOL-TURBO-DSL-15W40",
-    "name": "MOL Turbo Diesel 15W-40",
+    "name": "MOL Dynamic Turbo Diesel 15W-40",
     "category": "motor-oils-lkw",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
     "volumes": [
       1,
-      5,
+      4,
       10,
-      50,
+      57,
       204
     ],
     "description": "Минеральное масло для тяжелонагруженных турбодизелей.",
@@ -6517,74 +5465,41 @@
       },
       {
         "label": "Допуски",
-        "value": "TEDOM 258-2, ACEA E2-96 Issue 5, API CF-4/CF/SJ, MAN 271, Volvo VDS, MTU Type 1, Avia, Allison C-4, ZETOR, Deutz DQC I-02, Fabricat si distribuit de MOL-LUB Ltd., 2931 Almásfüzitő, Fő út 21., 1 / 2"
-      },
-      {
-        "label": "Плотность при 15°C",
-        "value": "0,883 г/см³"
-      },
-      {
-        "label": "Кинематическая вязкость (40°C)",
-        "value": "113,1 мм²/с"
-      },
-      {
-        "label": "Кинематическая вязкость (100°C)",
-        "value": "15,0 мм²/с"
-      },
-      {
-        "label": "Индекс вязкости",
-        "value": "138"
-      },
-      {
-        "label": "Температура застывания",
-        "value": "-30 °C"
-      },
-      {
-        "label": "Температура вспышки",
-        "value": "230 °C"
-      },
-      {
-        "label": "Щелочное число",
-        "value": "7,6 мг KOH/г"
+        "value": "TEDOM 258-2, ACEA E2-96 Issue 5, API CF-4/CF/SJ, MAN 271, Volvo VDS, MTU Type 1, Avia, Allison C-4, ZETOR, Deutz DQC I-02"
       }
     ],
     "canister_vol": 1,
     "canister_price": 93,
     "packs": [
       {
-        "id": "p-1",
         "volume_l": 1,
-        "price_mdl": 93,
+        "price": 115,
         "label": "1 л"
       },
       {
-        "id": "p-5",
-        "volume_l": 5,
-        "price_mdl": 442,
-        "label": "5 л"
+        "volume_l": 4,
+        "price": 420,
+        "label": "4 л"
       },
       {
-        "id": "p-10",
         "volume_l": 10,
-        "price_mdl": 792,
+        "price": 1050,
         "label": "10 л"
       },
       {
-        "id": "p-50",
-        "volume_l": 50,
-        "price_mdl": 3400,
-        "label": "50 л (Бочка)"
+        "volume_l": 57,
+        "price": 5700,
+        "label": "57 л"
       },
       {
-        "id": "p-204",
         "volume_l": 204,
-        "price_mdl": 12240,
-        "label": "204 л (Бочка)"
+        "price": 19500,
+        "label": "204 л"
       }
     ],
     "barrel_vol": 204,
     "barrel_price": 12240,
-    "name_ro": "MOL Turbo Diesel 15W-40",
+    "name_ro": "MOL Dynamic Turbo Diesel 15W-40",
     "description_ro": "Ulei de motor multigrad de mare performanţă, pentru motoare diesel cu aspiraţie sau supraalimentare, supuse solicitării grele şi funcţionând în condiţii extreme. Asigură protecţie antiuzură de înalt grad, curăţenie şi durată de viaţă lungă pentru motor."
   },
   {
@@ -6660,268 +5575,6 @@
     "barrel_price": 3990,
     "name_ro": "MOL Essence 15W-40",
     "description_ro": "Ulei mineral fiabil pentru întreținerea tehnică regulată a motoarelor pe benzină și diesel."
-  },
-  {
-    "sku": "MOL-HYK-K-85W140",
-    "name": "MOL Hykomol K 85W-140",
-    "category": "transmission-oils",
-    "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
-    "volumes": [
-      1,
-      4,
-      10,
-      50,
-      198
-    ],
-    "description": "Трансмиссионное масло высокой вязкости для тяжелонагруженных редукторов.",
-    "specs": [
-      {
-        "label": "Вязкость",
-        "value": "85W-140"
-      },
-      {
-        "label": "Класс",
-        "value": "API GL-5"
-      }
-    ],
-    "canister_vol": 1,
-    "canister_price": 94,
-    "packs": [
-      {
-        "id": "p-1",
-        "volume_l": 1,
-        "price_mdl": 94,
-        "label": "1 л"
-      },
-      {
-        "id": "p-4",
-        "volume_l": 4,
-        "price_mdl": 366,
-        "label": "4 л"
-      },
-      {
-        "id": "p-10",
-        "volume_l": 10,
-        "price_mdl": 1460,
-        "label": "10 л"
-      },
-      {
-        "id": "p-50",
-        "volume_l": 50,
-        "price_mdl": 3864,
-        "label": "50 л (Бочка)"
-      },
-      {
-        "id": "p-198",
-        "volume_l": 198,
-        "price_mdl": 13860,
-        "label": "198 л (Бочка)"
-      }
-    ],
-    "barrel_vol": 198,
-    "barrel_price": 13860,
-    "name_ro": "MOL Hykomol K 85W-140",
-    "description_ro": "Ulei de transmisie высокой вязкости для тяжелонагруженных редукторов."
-  },
-  {
-    "sku": "MOL-HYK-TORSYN-75W90",
-    "name": "MOL Hykomol Torsyn 75W-90",
-    "category": "transmission-oils",
-    "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
-    "volumes": [
-      1,
-      50
-    ],
-    "description": "Полусинтетическое трансмиссионное масло универсального применения.",
-    "specs": [
-      {
-        "label": "Вязкость",
-        "value": "75W-90"
-      },
-      {
-        "label": "Класс",
-        "value": "API GL-4/GL-5"
-      },
-      {
-        "label": "Допуски",
-        "value": "MAN 342 Typ M2, ZF TE-ML"
-      }
-    ],
-    "canister_vol": 1,
-    "canister_price": 160,
-    "packs": [
-      {
-        "id": "p-1",
-        "volume_l": 1,
-        "price_mdl": 160,
-        "label": "1 л"
-      },
-      {
-        "id": "p-50",
-        "volume_l": 50,
-        "price_mdl": 5040,
-        "label": "50 л (Бочка)"
-      }
-    ],
-    "barrel_vol": 50,
-    "barrel_price": 5040,
-    "name_ro": "MOL Hykomol Torsyn 75W-90",
-    "description_ro": "Semisintetic трансмиссионное масло универсального применения."
-  },
-  {
-    "sku": "MOL-ATF-III",
-    "name": "MOL ATF III",
-    "category": "transmission-oils",
-    "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/hajtomuolajok/1L_MOL_ATF_Synt_TWS.jpg",
-    "volumes": [
-      1,
-      4,
-      50,
-      198
-    ],
-    "description": "Жидкость для автоматических трансмиссий стандарта Dexron III.",
-    "specs": [
-      {
-        "label": "Стандарт",
-        "value": "Dexron III, ZF TE-ML"
-      },
-      {
-        "label": "Плотность при 15°C",
-        "value": "0,863 г/см³"
-      },
-      {
-        "label": "Кинематическая вязкость (40°C)",
-        "value": "37,7 мм²/с"
-      },
-      {
-        "label": "Кинематическая вязкость (100°C)",
-        "value": "8,00 мм²/с"
-      },
-      {
-        "label": "Индекс вязкости",
-        "value": "175"
-      },
-      {
-        "label": "Температура застывания",
-        "value": "-42 °C"
-      },
-      {
-        "label": "Температура вспышки",
-        "value": "210 °C"
-      },
-      {
-        "label": "Допуски",
-        "value": "MAN 339 Typ L2, MAN 339 Typ V1, MAN 339 Typ Z1, ZF TE-ML 04D[ZF001251], ZF TE-ML 14A[ZF001251], ZF TE-ML 17C[ZF001251], GM Dexron-IID, GM Type A Suffix A, Ford Mercon, ZF TE-ML 02F, ZF TE-ML 03D, ZF TE-ML 05L, ZF TE-ML 09, ZF TE-ML 11A, Voith H55.6335, Allison C-4"
-      }
-    ],
-    "canister_vol": 1,
-    "canister_price": 124,
-    "packs": [
-      {
-        "id": "p-1",
-        "volume_l": 1,
-        "price_mdl": 124,
-        "label": "1 л"
-      },
-      {
-        "id": "p-4",
-        "volume_l": 4,
-        "price_mdl": 470,
-        "label": "4 л"
-      },
-      {
-        "id": "p-50",
-        "volume_l": 50,
-        "price_mdl": 4896,
-        "label": "50 л (Бочка)"
-      },
-      {
-        "id": "p-198",
-        "volume_l": 198,
-        "price_mdl": 16746,
-        "label": "198 л (Бочка)"
-      }
-    ],
-    "barrel_vol": 198,
-    "barrel_price": 16746,
-    "name_ro": "MOL ATF III",
-    "description_ro": "Fluid pentru transmisii automate de înaltă performanţă, aplicabil pentru lubrifierea şi funcţionarea fiabilă a transmisiilor semi-automate sau automate şi sistemelor hidraulice ale camioanelor moderne, asigurând utilajului o durată de viaţă lungă pe un interval larg de temperaturi."
-  },
-  {
-    "sku": "MOL-ATF-II",
-    "name": "MOL ATF II",
-    "category": "transmission-oils",
-    "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/hajtomuolajok/1L_MOL_ATF_Synt_TWS.jpg",
-    "volumes": [
-      1,
-      4,
-      50
-    ],
-    "description": "Трансмиссионное масло для АКПП стандарта Dexron II.",
-    "specs": [
-      {
-        "label": "Стандарт",
-        "value": "Dexron II, ZF TE-ML"
-      },
-      {
-        "label": "Плотность при 15°C",
-        "value": "0,863 г/см³"
-      },
-      {
-        "label": "Кинематическая вязкость (40°C)",
-        "value": "37,7 мм²/с"
-      },
-      {
-        "label": "Кинематическая вязкость (100°C)",
-        "value": "8,00 мм²/с"
-      },
-      {
-        "label": "Индекс вязкости",
-        "value": "175"
-      },
-      {
-        "label": "Температура застывания",
-        "value": "-42 °C"
-      },
-      {
-        "label": "Температура вспышки",
-        "value": "210 °C"
-      },
-      {
-        "label": "Допуски",
-        "value": "MAN 339 Typ L2, MAN 339 Typ V1, MAN 339 Typ Z1, ZF TE-ML 04D[ZF001251], ZF TE-ML 14A[ZF001251], ZF TE-ML 17C[ZF001251], GM Dexron-IID, GM Type A Suffix A, Ford Mercon, ZF TE-ML 02F, ZF TE-ML 03D, ZF TE-ML 05L, ZF TE-ML 09, ZF TE-ML 11A, Voith H55.6335, Allison C-4"
-      }
-    ],
-    "canister_vol": 1,
-    "canister_price": 107,
-    "packs": [
-      {
-        "id": "p-1",
-        "volume_l": 1,
-        "price_mdl": 107,
-        "label": "1 л"
-      },
-      {
-        "id": "p-4",
-        "volume_l": 4,
-        "price_mdl": 394,
-        "label": "4 л"
-      },
-      {
-        "id": "p-50",
-        "volume_l": 50,
-        "price_mdl": 3940,
-        "label": "50 л (Бочка)"
-      }
-    ],
-    "barrel_vol": 50,
-    "barrel_price": 3940,
-    "name_ro": "MOL ATF II",
-    "description_ro": "Fluid pentru transmisii automate de înaltă performanţă, aplicabil pentru lubrifierea şi funcţionarea fiabilă a transmisiilor semi-automate sau automate şi sistemelor hidraulice ale camioanelor moderne, asigurând utilajului o durată de viaţă lungă pe un interval larg de temperaturi."
   },
   {
     "sku": "MOL-LITON-00-GM",
@@ -13256,12 +11909,13 @@
   },
   {
     "sku": "YUKO-TAD17M-1L",
-    "name": "Масло трансмиссионное YUKO ТАД-17м 85W-90 GL-5 (1 л)",
+    "name": "YUKO ТАД-17м 85W-90 GL-5",
     "category": "transmission-oils",
     "brand": "YUKO",
     "photo_url": "images/products/yuko-canisters.png",
     "volumes": [
-      1
+      1,
+      4
     ],
     "description": "Универсальное минеральное трансмиссионное масло YUKO ТАД-17м SAE 85W-90 класса API GL-5 для автомобильных трансмиссий.",
     "specs": [
@@ -13270,21 +11924,25 @@
         "value": "85W-90"
       },
       {
-        "label": "Класс API",
-        "value": "GL-5"
+        "label": "Допуски",
+        "value": "API GL-5, SAE 85W-90"
       }
     ],
     "canister_vol": 1,
     "canister_price": 65,
     "packs": [
       {
-        "id": "yuko-tad17m-1l",
         "volume_l": 1,
-        "price_mdl": 65,
+        "price": 95,
         "label": "1 л"
+      },
+      {
+        "volume_l": 4,
+        "price": 350,
+        "label": "4 л"
       }
     ],
-    "name_ro": "Масло трансмиссионное YUKO ТАД-17м 85W-90 GL-5 (1 л)",
+    "name_ro": "YUKO TAD-17m 85W-90 GL-5",
     "description_ro": "Универсальное mineral трансмиссионное масло YUKO ТАД-17м SAE 85W-90 класса API GL-5 для автомобильных трансмиссий."
   },
   {
@@ -13505,7 +12163,7 @@
   },
   {
     "sku": "YUKO-MOTOMIX-2T",
-    "name": "Масло моторное YUKO MOTOMIX 2T (1 л)",
+    "name": "YUKO Motomix 2T",
     "category": "moto-oils",
     "brand": "YUKO",
     "photo_url": "images/products/yuko-canisters.png",
@@ -13523,18 +12181,17 @@
     "canister_price": 60,
     "packs": [
       {
-        "id": "yuko-motomix-2t-1l",
         "volume_l": 1,
-        "price_mdl": 60,
+        "price": 85,
         "label": "1 л"
       }
     ],
-    "name_ro": "Масло моторное YUKO MOTOMIX 2T (1 л)",
+    "name_ro": "YUKO Motomix 2T",
     "description_ro": "Специальное моторное масло YUKO MOTOMIX 2T для двухтактных двигателей бензопил, газонокосилок и мототехники."
   },
   {
     "sku": "YUKO-SCOOTER-2T",
-    "name": "Масло моторное YUKO SCOOTER SYNT 2T (1 л)",
+    "name": "YUKO Scooter Synt 2T",
     "category": "moto-oils",
     "brand": "YUKO",
     "photo_url": "images/products/yuko-canisters.png",
@@ -13552,18 +12209,17 @@
     "canister_price": 69,
     "packs": [
       {
-        "id": "yuko-scooter-2t-1l",
         "volume_l": 1,
-        "price_mdl": 69,
+        "price": 95,
         "label": "1 л"
       }
     ],
-    "name_ro": "Масло моторное YUKO SCOOTER SYNT 2T (1 л)",
+    "name_ro": "YUKO Scooter Synt 2T",
     "description_ro": "Sintetic моторное масло YUKO SCOOTER SYNT 2T для современных двухтактных скутеров и мопедов."
   },
   {
     "sku": "YUKO-4T-10W40",
-    "name": "Масло моторное YUKO SEMISYNTETIC 4T 10W-40 (1 л)",
+    "name": "YUKO Semisynthetic 4T 10W-40",
     "category": "moto-oils",
     "brand": "YUKO",
     "photo_url": "images/products/yuko-canisters.png",
@@ -13585,13 +12241,12 @@
     "canister_price": 68.5,
     "packs": [
       {
-        "id": "yuko-4t-10w40-1l",
         "volume_l": 1,
-        "price_mdl": 68.5,
+        "price": 110,
         "label": "1 л"
       }
     ],
-    "name_ro": "Масло моторное YUKO SEMISYNTETIC 4T 10W-40 (1 л)",
+    "name_ro": "YUKO Semisynthetic 4T 10W-40",
     "description_ro": "Semisintetic масло YUKO SEMISYNTETIC 4T SAE 10W-40 для четырехтактных двигателей мотоциклов и квадроциклов."
   },
   {
@@ -13766,571 +12421,6 @@
     ],
     "name_ro": "MOL Prima 5W-40",
     "description_ro": "Ulei sintetic Low SAPS MOL Prima 5W-40 DPF pentru autoturisme moderne echipate cu filtre de particule."
-  },
-  {
-    "sku": "MOL-DYN-MAX-10W40",
-    "name": "Моторное масло MOL Dynamic Max 10W-40 (LKW)",
-    "category": "motor-oils-lkw",
-    "brand": "MOL",
-    "photo_url": "https://www.mol.com/o/MOL_Public_Content/images/products/mol-dynamic-transit-10w40.png",
-    "volumes": [
-      1,
-      4,
-      58,
-      198
-    ],
-    "description": "Полусинтетическое масло MOL Dynamic Max 10W-40 для дизельных двигателей тяжелого коммерческого транспорта.",
-    "specs": [
-      {
-        "label": "Вязкость",
-        "value": "10W-40"
-      },
-      {
-        "label": "Допуски",
-        "value": "ACEA E7, API CI-4/SL, MB 228.3, MAN M 3275, Volvo VDS-3"
-      },
-      {
-        "label": "Плотность при 15°C",
-        "value": "0,866 г/см³"
-      },
-      {
-        "label": "Кинематическая вязкость (40°C)",
-        "value": "93 мм²/с"
-      },
-      {
-        "label": "Кинематическая вязкость (100°C)",
-        "value": "14,8 мм²/с"
-      },
-      {
-        "label": "Индекс вязкости",
-        "value": "167"
-      },
-      {
-        "label": "Температура застывания",
-        "value": "-45 °C"
-      },
-      {
-        "label": "Температура вспышки",
-        "value": "230 °C"
-      },
-      {
-        "label": "Щелочное число",
-        "value": "8,5 мг KOH/г"
-      }
-    ],
-    "canister_vol": 1,
-    "canister_price": 118.5,
-    "packs": [
-      {
-        "id": "mol-max-10w40-1l",
-        "volume_l": 1,
-        "price_mdl": 118.5,
-        "label": "1 л"
-      },
-      {
-        "id": "mol-max-10w40-4l",
-        "volume_l": 4,
-        "price_mdl": 452,
-        "label": "4 л"
-      },
-      {
-        "id": "mol-max-10w40-58l",
-        "volume_l": 58,
-        "price_mdl": 4795,
-        "label": "58 л"
-      },
-      {
-        "id": "mol-max-10w40-198l",
-        "volume_l": 198,
-        "price_mdl": 16585,
-        "label": "198 л (Бочка)"
-      }
-    ],
-    "name_ro": "Ulei de motor MOL Dynamic Max 10W-40 (LKW camioane)",
-    "description_ro": "Semisintetic масло MOL Dynamic Max 10W-40 pentru motoare diesel тяжелого коммерческого транспорта."
-  },
-  {
-    "sku": "MOL-DYN-TRANSIT-10W40",
-    "name": "Моторное масло MOL Dynamic Transit 10W-40 (LKW)",
-    "category": "motor-oils-lkw",
-    "brand": "MOL",
-    "photo_url": "https://www.mol.com/o/MOL_Public_Content/images/products/mol-dynamic-transit-10w40.png",
-    "volumes": [
-      1,
-      4,
-      201
-    ],
-    "description": "Универсальное масло MOL Dynamic Transit 10W-40 для высоконагруженных дизелей смешанных автопарков.",
-    "specs": [
-      {
-        "label": "Вязкость",
-        "value": "10W-40"
-      },
-      {
-        "label": "Допуски",
-        "value": "API CI-4, API SL, DTFR 15B110 (ex MB 228.3), Volvo VDS-3, Renault RLD-2, MTU Type 2, Mack EO-N, ACEA E7, Global DHD-1, MAN M 3275-1, Tatra TDS 30/12, MACK EO-M Plus, DDC 93K215, Deutz DQC III-10, DTFR 15B110"
-      },
-      {
-        "label": "Плотность при 15°C",
-        "value": "0,872 г/см³"
-      },
-      {
-        "label": "Кинематическая вязкость (40°C)",
-        "value": "95,3 мм²/с"
-      },
-      {
-        "label": "Кинематическая вязкость (100°C)",
-        "value": "14,2 мм²/с"
-      },
-      {
-        "label": "Индекс вязкости",
-        "value": "153"
-      },
-      {
-        "label": "Температура застывания",
-        "value": "-39 °C"
-      },
-      {
-        "label": "Температура вспышки",
-        "value": "230 °C"
-      },
-      {
-        "label": "Щелочное число",
-        "value": "10,1 мг KOH/г"
-      }
-    ],
-    "canister_vol": 1,
-    "canister_price": 119,
-    "packs": [
-      {
-        "id": "mol-transit-10w40-1l",
-        "volume_l": 1,
-        "price_mdl": 119,
-        "label": "1 л"
-      },
-      {
-        "id": "mol-transit-10w40-4l",
-        "volume_l": 4,
-        "price_mdl": 449,
-        "label": "4 л"
-      },
-      {
-        "id": "mol-transit-10w40-201l",
-        "volume_l": 201,
-        "price_mdl": 15985,
-        "label": "201 л (Бочка)"
-      }
-    ],
-    "name_ro": "Ulei de motor MOL Dynamic Transit 10W-40 (LKW camioane)",
-    "description_ro": "Ulei de motor parţial sintetic pentru motoarele pe benzină sau diesel ale autoturismelor şi autocamioanelor moderne. Recomandat în special flotelor de vehicule mixte şi autocamioanelor fără Euro III şi filtre de particule diesel în categoriile de protecţia mediului Euro IV şi Euro V."
-  },
-  {
-    "sku": "MOL-HYKOMOL-80W90",
-    "name": "Трансмиссионное масло MOL Hykomol 80W-90 GL-4",
-    "category": "transmission-oils",
-    "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
-    "volumes": [
-      1,
-      4,
-      58,
-      201
-    ],
-    "description": "Трансмиссионное масло MOL Hykomol SAE 80W-90 класса API GL-4 для механических коробок передач и редукторов.",
-    "specs": [
-      {
-        "label": "Вязкость",
-        "value": "80W-90"
-      },
-      {
-        "label": "Класс API",
-        "value": "GL-4"
-      },
-      {
-        "label": "Плотность при 15°C",
-        "value": "0,891 г/см³"
-      },
-      {
-        "label": "Кинематическая вязкость (40°C)",
-        "value": "145,3 мм²/с"
-      },
-      {
-        "label": "Кинематическая вязкость (100°C)",
-        "value": "14,6 мм²/с"
-      },
-      {
-        "label": "Индекс вязкости",
-        "value": "99"
-      },
-      {
-        "label": "Температура застывания",
-        "value": "-30 °C"
-      },
-      {
-        "label": "Температура вспышки",
-        "value": "230 °C"
-      },
-      {
-        "label": "Допуски",
-        "value": "API GL-4, MIL-L-2105"
-      }
-    ],
-    "canister_vol": 1,
-    "canister_price": 94,
-    "packs": [
-      {
-        "id": "hykomol-80w90-1l",
-        "volume_l": 1,
-        "price_mdl": 94,
-        "label": "1 л"
-      },
-      {
-        "id": "hykomol-80w90-4l",
-        "volume_l": 4,
-        "price_mdl": 348,
-        "label": "4 л"
-      },
-      {
-        "id": "hykomol-80w90-58l",
-        "volume_l": 58,
-        "price_mdl": 3752,
-        "label": "58 л"
-      },
-      {
-        "id": "hykomol-80w90-201l",
-        "volume_l": 201,
-        "price_mdl": 12122,
-        "label": "201 л (Бочка)"
-      }
-    ],
-    "name_ro": "Ulei de transmisie MOL Hykomol 80W-90 GL-4",
-    "description_ro": "Ulei de transmisie MOL Hykomol SAE 80W-90 класса API GL-4 для механических коробок передач и редукторов."
-  },
-  {
-    "sku": "MOL-HYKOMOL-K-80W90",
-    "name": "Трансмиссионное масло MOL Hykomol K 80W-90 GL-5",
-    "category": "transmission-oils",
-    "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
-    "volumes": [
-      1,
-      4,
-      58,
-      200
-    ],
-    "description": "Трансмиссионное масло MOL Hykomol K SAE 80W-90 класса API GL-5 для ведомых мостов и гипоидных передач.",
-    "specs": [
-      {
-        "label": "Вязкость",
-        "value": "80W-90"
-      },
-      {
-        "label": "Класс API",
-        "value": "GL-5"
-      },
-      {
-        "label": "Плотность при 15°C",
-        "value": "0,895 г/см³"
-      },
-      {
-        "label": "Кинематическая вязкость (40°C)",
-        "value": "143 мм²/с"
-      },
-      {
-        "label": "Кинематическая вязкость (100°C)",
-        "value": "14,6 мм²/с"
-      },
-      {
-        "label": "Индекс вязкости",
-        "value": "101"
-      },
-      {
-        "label": "Температура застывания",
-        "value": "-27 °C"
-      },
-      {
-        "label": "Температура вспышки",
-        "value": "230 °C"
-      },
-      {
-        "label": "Допуски",
-        "value": "API GL-5, MIL-L-2105D, ZETOR"
-      }
-    ],
-    "canister_vol": 1,
-    "canister_price": 96,
-    "packs": [
-      {
-        "id": "hykomol-k-80w90-1l",
-        "volume_l": 1,
-        "price_mdl": 96,
-        "label": "1 л"
-      },
-      {
-        "id": "hykomol-k-80w90-4l",
-        "volume_l": 4,
-        "price_mdl": 358,
-        "label": "4 л"
-      },
-      {
-        "id": "hykomol-k-80w90-58l",
-        "volume_l": 58,
-        "price_mdl": 3856,
-        "label": "58 л"
-      },
-      {
-        "id": "hykomol-k-80w90-200l",
-        "volume_l": 200,
-        "price_mdl": 12684,
-        "label": "200 л (Бочка)"
-      }
-    ],
-    "name_ro": "Ulei de transmisie MOL Hykomol K 80W-90 GL-5",
-    "description_ro": "Ulei de transmisie EP de înaltă performanţă, dezvoltat pentru transmisii care operează cu încărcare medie sau grea."
-  },
-  {
-    "sku": "MOL-HYKOMOL-SYNT-75W90",
-    "name": "Трансмиссионное масло MOL Hykomol Synt 75W-90 GL-4/GL-5",
-    "category": "transmission-oils",
-    "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
-    "volumes": [
-      1,
-      10,
-      55,
-      195
-    ],
-    "description": "Синтетическое трансмиссионное масло MOL Hykomol Synt 75W-90 высшего качества для всех типов коробок передач.",
-    "specs": [
-      {
-        "label": "Вязкость",
-        "value": "75W-90"
-      },
-      {
-        "label": "Класс API",
-        "value": "GL-4 / GL-5"
-      },
-      {
-        "label": "Плотность при 15°C",
-        "value": "0,859 г/см³"
-      },
-      {
-        "label": "Кинематическая вязкость (40°C)",
-        "value": "109,3 мм²/с"
-      },
-      {
-        "label": "Кинематическая вязкость (100°C)",
-        "value": "15,4 мм²/с"
-      },
-      {
-        "label": "Индекс вязкости",
-        "value": "147"
-      },
-      {
-        "label": "Температура застывания",
-        "value": "-45 °C"
-      },
-      {
-        "label": "Температура вспышки",
-        "value": "215 °C"
-      },
-      {
-        "label": "Допуски",
-        "value": "API GL-5, API GL-4, MIL-L-2105D, Tatra TDS 80/32, ZF TE-ML 07A, ZF TE-ML 08, ZF TE-ML 17B"
-      }
-    ],
-    "canister_vol": 1,
-    "canister_price": 208,
-    "packs": [
-      {
-        "id": "hykomol-synt-75w90-1l",
-        "volume_l": 1,
-        "price_mdl": 208,
-        "label": "1 л"
-      },
-      {
-        "id": "hykomol-synt-75w90-10l",
-        "volume_l": 10,
-        "price_mdl": 1620,
-        "label": "10 л"
-      },
-      {
-        "id": "hykomol-synt-75w90-55l",
-        "volume_l": 55,
-        "price_mdl": 9285,
-        "label": "55 л"
-      },
-      {
-        "id": "hykomol-synt-75w90-195l",
-        "volume_l": 195,
-        "price_mdl": 59610,
-        "label": "195 л (Бочка)"
-      }
-    ],
-    "name_ro": "Ulei de transmisie MOL Hykomol Synt 75W-90 GL-4/GL-5",
-    "description_ro": "Ulei de transmisie, de înaltă performanţă, cu durată lungă de viaţă, având aditivi EP. Destinat transmisiilor mecanice, axe-spate, mecanismelor diferenţiale şi de direcţie, ce echipează vehiculele comerciale şi de călători."
-  },
-  {
-    "sku": "MOL-ATF-3G",
-    "name": "Трансмиссионное масло MOL ATF 3G (Dexron III)",
-    "category": "transmission-oils",
-    "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
-    "volumes": [
-      1,
-      55
-    ],
-    "description": "Жидкость для автоматических коробок передач MOL ATF 3G класса Dexron III, MAN 339 V-1 / Z-1.",
-    "specs": [
-      {
-        "label": "Спецификации",
-        "value": "MAN 339 Typ L1, MAN 339 Typ V1, MAN 339 Typ Z1, ZF TE-ML 04D[ZF001179], ZF TE-ML 14A[ZF001179], Voith H55.6335, ZETOR, GM Dexron-IIIG, Ford Mercon, ZF TE-ML 05L, ZF TE-ML 09, ZF TE-ML 11B, Allison C-4, Volvo CE 97341"
-      },
-      {
-        "label": "Плотность при 15°C",
-        "value": "0,855 г/см³"
-      },
-      {
-        "label": "Кинематическая вязкость (40°C)",
-        "value": "34,8 мм²/с"
-      },
-      {
-        "label": "Кинематическая вязкость (100°C)",
-        "value": "7,2 мм²/с"
-      },
-      {
-        "label": "Индекс вязкости",
-        "value": "182"
-      },
-      {
-        "label": "Температура застывания",
-        "value": "-51 °C"
-      },
-      {
-        "label": "Температура вспышки",
-        "value": "210 °C"
-      }
-    ],
-    "canister_vol": 1,
-    "canister_price": 137,
-    "packs": [
-      {
-        "id": "mol-atf-3g-1l",
-        "volume_l": 1,
-        "price_mdl": 137,
-        "label": "1 л"
-      },
-      {
-        "id": "mol-atf-3g-55l",
-        "volume_l": 55,
-        "price_mdl": 5692.5,
-        "label": "55 л"
-      }
-    ],
-    "name_ro": "Ulei de transmisie MOL ATF 3G (Dexron III)",
-    "description_ro": "Fluid pentru transmisii automate pentru lubrifierea şi funcţionarea fiabilă a cutiilor de transmisii semi-automate sau automate şi sistemelor hidraulice ale camioanelor moderne, utilizate într-un interval larg de temperaturi. MOL ATF 3 G asigură motorului durată de viaţă lungă şi pornire uşoară la rece."
-  },
-  {
-    "sku": "MOL-DSG-DCT-FLUID",
-    "name": "Трансмиссионное масло MOL DSG / DCT Fluid (1 л)",
-    "category": "transmission-oils",
-    "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
-    "volumes": [
-      1
-    ],
-    "description": "Специальная жидкость MOL DSG / DCT Fluid для роботизированных коробок передач с двоичным сцеплением.",
-    "specs": [
-      {
-        "label": "Назначение",
-        "value": "Роботизированные КПП (DSG / DCT)"
-      },
-      {
-        "label": "Внешний вид",
-        "value": "желтый, прозрачный, светлый"
-      },
-      {
-        "label": "Плотность при 15°C",
-        "value": "0,854 г/см³"
-      },
-      {
-        "label": "Кинематическая вязкость (40°C)",
-        "value": "34,3 мм²/с"
-      },
-      {
-        "label": "Кинематическая вязкость (100°C)",
-        "value": "7,20 мм²/с"
-      },
-      {
-        "label": "Температура застывания",
-        "value": "-42 °C"
-      },
-      {
-        "label": "Температура вспышки",
-        "value": "200 °C"
-      }
-    ],
-    "canister_vol": 1,
-    "canister_price": 218,
-    "packs": [
-      {
-        "id": "mol-dsg-fluid-1l",
-        "volume_l": 1,
-        "price_mdl": 218,
-        "label": "1 л"
-      }
-    ],
-    "name_ro": "Ulei de transmisie MOL DSG / DCT Fluid (1 л)",
-    "description_ro": "Специальная жидкость MOL DSG / DCT Fluid для роботизированных коробок передач с двоичным сцеплением."
-  },
-  {
-    "sku": "MOL-CVT-FLUID",
-    "name": "Трансмиссионное масло MOL CVT Fluid (1 л)",
-    "category": "transmission-oils",
-    "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
-    "volumes": [
-      1
-    ],
-    "description": "Специальная трансмиссионная жидкость MOL CVT Fluid для бесступенчатых вариаторных коробок передач.",
-    "specs": [
-      {
-        "label": "Назначение",
-        "value": "Вариаторные КПП (CVT)"
-      },
-      {
-        "label": "Внешний вид",
-        "value": "светло-коричневая, прозрачная, светлая"
-      },
-      {
-        "label": "Плотность при 15°C",
-        "value": "0,851 г/см³"
-      },
-      {
-        "label": "Кинематическая вязкость (40°C)",
-        "value": "32,0 мм²/с"
-      },
-      {
-        "label": "Кинематическая вязкость (100°C)",
-        "value": "7,1 мм²/с"
-      },
-      {
-        "label": "Температура застывания",
-        "value": "-45 °C"
-      }
-    ],
-    "canister_vol": 1,
-    "canister_price": 187,
-    "packs": [
-      {
-        "id": "mol-cvt-fluid-1l",
-        "volume_l": 1,
-        "price_mdl": 187,
-        "label": "1 л"
-      }
-    ],
-    "name_ro": "Ulei de transmisie MOL CVT Fluid (1 л)",
-    "description_ro": "Специальная трансмиссионная жидкость MOL CVT Fluid для бесступенчатых вариаторных коробок передач."
   },
   {
     "sku": "MOL-LITON-LT-2EP-0375",
@@ -18615,102 +16705,14 @@
     "description_ro": "Odorizant auto și de cameră Премиум ароматизатор Fresh Way Diamond Airfreshner (Cod de bare EAN: 3800125). Producție Fresh Way (Bulgaria)."
   },
   {
-    "sku": "MOL-TURBO-DIESEL-15W40",
-    "name": "Моторное масло MOL Turbo Diesel 15W-40 (LKW)",
-    "category": "motor-oils-lkw",
-    "brand": "MOL",
-    "photo_url": "images/products/mol-dynamic-truck.png",
-    "volumes": [
-      1,
-      4,
-      10,
-      57,
-      204
-    ],
-    "description": "Минеральное моторное масло MOL Turbo Diesel 15W-40 для высоконагруженных дизельных двигателей грузовых автомобилей.",
-    "specs": [
-      {
-        "label": "Вязкость",
-        "value": "15W-40"
-      },
-      {
-        "label": "Допуски",
-        "value": "TEDOM 258-2, ACEA E2-96 Issue 5, API CF-4/CF/SJ, MAN 271, Volvo VDS, MTU Type 1, Avia, Allison C-4, ZETOR, Deutz DQC I-02, Fabricat si distribuit de MOL-LUB Ltd., 2931 Almásfüzitő, Fő út 21., 1 / 2"
-      },
-      {
-        "label": "Плотность при 15°C",
-        "value": "0,883 г/см³"
-      },
-      {
-        "label": "Кинематическая вязкость (40°C)",
-        "value": "113,1 мм²/с"
-      },
-      {
-        "label": "Кинематическая вязкость (100°C)",
-        "value": "15,0 мм²/с"
-      },
-      {
-        "label": "Индекс вязкости",
-        "value": "138"
-      },
-      {
-        "label": "Температура застывания",
-        "value": "-30 °C"
-      },
-      {
-        "label": "Температура вспышки",
-        "value": "230 °C"
-      },
-      {
-        "label": "Щелочное число",
-        "value": "7,6 мг KOH/г"
-      }
-    ],
-    "canister_vol": 1,
-    "canister_price": 88,
-    "packs": [
-      {
-        "id": "turbo-d-15w40-1l",
-        "volume_l": 1,
-        "price_mdl": 88,
-        "label": "1 л"
-      },
-      {
-        "id": "turbo-d-15w40-4l",
-        "volume_l": 4,
-        "price_mdl": 342,
-        "label": "4 л"
-      },
-      {
-        "id": "turbo-d-15w40-10l",
-        "volume_l": 10,
-        "price_mdl": 695,
-        "label": "10 л"
-      },
-      {
-        "id": "turbo-d-15w40-57l",
-        "volume_l": 57,
-        "price_mdl": 3648,
-        "label": "57 л"
-      },
-      {
-        "id": "turbo-d-15w40-204l",
-        "volume_l": 204,
-        "price_mdl": 12240,
-        "label": "204 л (Бочка)"
-      }
-    ],
-    "name_ro": "Ulei de motor MOL Turbo Diesel 15W-40 (LKW camioane)",
-    "description_ro": "Ulei de motor multigrad de mare performanţă, pentru motoare diesel cu aspiraţie sau supraalimentare, supuse solicitării grele şi funcţionând în condiţii extreme. Asigură protecţie antiuzură de înalt grad, curăţenie şi durată de viaţă lungă pentru motor."
-  },
-  {
     "sku": "MOL-TRANSIT-15W40",
-    "name": "Моторное масло MOL Transit 15W-40 (LKW)",
+    "name": "MOL Dynamic Transit 15W-40",
     "category": "motor-oils-lkw",
     "brand": "MOL",
     "photo_url": "images/products/mol-dynamic-truck.png",
     "volumes": [
       10,
+      20,
       56,
       203
     ],
@@ -18722,37 +16724,39 @@
       },
       {
         "label": "Допуски",
-        "value": "API CI-4/CF/SL, ACEA E7-12, E5-02, MB 228.3, MAN M 3275-1, Volvo VDS-3, Renault RLD-2, Cummins CES 20078"
+        "value": "API CI-4/SL, DTFR 15B110 (ex MB 228.3), Volvo VDS-3, Renault RLD-2, Cummins CES 20078, Mack EO-N, ACEA E7, MIL-L-2104E, Global DHD-1, MAN M 3275-1, Tatra TDS 30/12, MTU Type 2, Caterpillar ECF-2, MACK EO-M Plus, Deutz DQC III-18, KAMAZ, ZETOR, DTFR 15B110"
       }
     ],
     "canister_vol": 10,
     "canister_price": 730,
     "packs": [
       {
-        "id": "transit-15w40-10l",
         "volume_l": 10,
-        "price_mdl": 730,
+        "price": 1100,
         "label": "10 л"
       },
       {
-        "id": "transit-15w40-56l",
+        "volume_l": 20,
+        "price": 2100,
+        "label": "20 л BiB carton"
+      },
+      {
         "volume_l": 56,
-        "price_mdl": 4060,
+        "price": 5900,
         "label": "56 л"
       },
       {
-        "id": "transit-15w40-203l",
         "volume_l": 203,
-        "price_mdl": 13398,
-        "label": "203 л (Бочка)"
+        "price": 20500,
+        "label": "203 л"
       }
     ],
-    "name_ro": "Ulei de motor MOL Transit 15W-40 (LKW camioane)",
+    "name_ro": "MOL Dynamic Transit 15W-40",
     "description_ro": "Mineral моторное масло MOL Transit 15W-40 pentru motoare diesel стандартов Euro III и Euro IV."
   },
   {
     "sku": "MOL-GLOBAL-DIESEL-15W40",
-    "name": "Моторное масло MOL Global Diesel 15W-40 (LKW)",
+    "name": "MOL Dynamic Global Diesel 15W-40",
     "category": "motor-oils-lkw",
     "brand": "MOL",
     "photo_url": "images/products/mol-dynamic-truck.png",
@@ -18770,50 +16774,46 @@
       },
       {
         "label": "Допуски",
-        "value": "API CJ-4/SM, CI-4 Plus, CK-4, MB 228.31, ACEA E7, MAN M 3275, Volvo VDS-4"
+        "value": "API CK-4, DTFR 15C100 (ex MB 228.31), Volvo VDS-4.5, Renault RLD-3, MACK EO-S-4.5, ACEA E9, ACEA E11, ACEA E7, API SN, MAN M 3775, Caterpillar ECF-3, Detroit Diesel DFS 93K222, Deutz DQC III-10LA, API SP, DTFR 15C100, DAF PSQL 2.1 E, DAF PSQL 2.4"
       }
     ],
     "canister_vol": 10,
     "canister_price": 1160,
     "packs": [
       {
-        "id": "global-d-15w40-10l",
         "volume_l": 10,
-        "price_mdl": 1160,
+        "price": 1200,
         "label": "10 л"
       },
       {
-        "id": "global-d-15w40-20l",
         "volume_l": 20,
-        "price_mdl": 2320,
+        "price": 2300,
         "label": "20 л"
       },
       {
-        "id": "global-d-15w40-57l",
         "volume_l": 57,
-        "price_mdl": 5814,
+        "price": 6400,
         "label": "57 л"
       },
       {
-        "id": "global-d-15w40-207l",
         "volume_l": 207,
-        "price_mdl": 20286,
-        "label": "207 л (Бочка)"
+        "price": 21500,
+        "label": "207 л"
       }
     ],
-    "name_ro": "Ulei de motor MOL Global Diesel 15W-40 (LKW camioane)",
+    "name_ro": "MOL Dynamic Global Diesel 15W-40",
     "description_ro": "Ulei de motor MOL Global Diesel 15W-40 pentru motoare diesel грузовиков cu interval extins de schimb."
   },
   {
     "sku": "MOL-SYNT-DIESEL-10W40",
-    "name": "Моторное масло MOL Synt Diesel 10W-40 (LKW)",
+    "name": "MOL Dynamic Synt Diesel 10W-40",
     "category": "motor-oils-lkw",
     "brand": "MOL",
     "photo_url": "images/products/mol-dynamic-truck.png",
     "volumes": [
       10,
       57,
-      195
+      197
     ],
     "description": "Синтетическое моторное масло MOL Synt Diesel 10W-40 для систем EGR/SCR дизелей Euro III, IV, V (до 100 000 км).",
     "specs": [
@@ -18823,42 +16823,40 @@
       },
       {
         "label": "Допуски",
-        "value": "API CF, ACEA E7-08, E4-08, MB 228.5, Scania LDF-2, MAN 3277"
+        "value": "DTFR 15B120 (ex MB 228.5), MAN M 3277, Volvo VDS-3, Scania LDF-3, TEDOM 258-4, Renault RLD-2, ACEA E7, ACEA E4, API CF, Scania LDF-2, Tatra TDS 40/16, Renault RXD, MTU Type 3, Deutz DQC IV-18, DTFR 15B120, Mack EO-N"
       }
     ],
     "canister_vol": 10,
     "canister_price": 1090,
     "packs": [
       {
-        "id": "synt-d-10w40-10l",
         "volume_l": 10,
-        "price_mdl": 1090,
+        "price": 1400,
         "label": "10 л"
       },
       {
-        "id": "synt-d-10w40-57l",
         "volume_l": 57,
-        "price_mdl": 5643,
+        "price": 7200,
         "label": "57 л"
       },
       {
-        "id": "synt-d-10w40-195l",
-        "volume_l": 195,
-        "price_mdl": 18135,
-        "label": "195 л (Бочка)"
+        "volume_l": 197,
+        "price": 23500,
+        "label": "197 л"
       }
     ],
-    "name_ro": "Ulei de motor MOL Synt Diesel 10W-40 (LKW camioane)",
+    "name_ro": "MOL Dynamic Synt Diesel 10W-40",
     "description_ro": "Sintetic моторное масло MOL Synt Diesel 10W-40 для систем EGR/SCR дизелей Euro III, IV, V (до 100 000 км)."
   },
   {
     "sku": "MOL-MISTRAL-10W40",
-    "name": "Моторное масло MOL Mistral 10W-40 DPF (LKW)",
+    "name": "MOL Dynamic Mistral 10W-40",
     "category": "motor-oils-lkw",
     "brand": "MOL",
     "photo_url": "images/products/mol-dynamic-truck.png",
     "volumes": [
       10,
+      20,
       54,
       197
     ],
@@ -18870,37 +16868,39 @@
       },
       {
         "label": "Допуски",
-        "value": "ACEA E6/E7/E4, MB 228.51, MAN 3477, Volvo VDS-3, Renault RXD"
+        "value": "API CI-4, DTFR 15C110 (ex MB 228.51), Volvo VDS-3, Tatra TDS 40/16, Renault RLD-2, MTU Type 3.1, Deutz DQC IV-18LA, Mack EO-N, ACEA E9, ACEA E11, ACEA E7, ACEA E6, ACEA E8, ACEA E4-08 Issue 2, JASO DH-2, MAN M 3477, MAN M 3271-1, Renault RGD, Renault RXD, Caterpillar ECF-1a, MAN M 3271-3, DTFR 15C110, DAF PSQL 2.1 E, DAF PSQL 2.1 E LD, DAF PSQL 2.4, DAF PSQL 2.4LD, DAF"
       }
     ],
     "canister_vol": 10,
     "canister_price": 950,
     "packs": [
       {
-        "id": "mistral-10w40-10l",
         "volume_l": 10,
-        "price_mdl": 950,
+        "price": 1500,
         "label": "10 л"
       },
       {
-        "id": "mistral-10w40-54l",
+        "volume_l": 20,
+        "price": 2800,
+        "label": "20 л BiB carton"
+      },
+      {
         "volume_l": 54,
-        "price_mdl": 4860,
+        "price": 6200,
         "label": "54 л"
       },
       {
-        "id": "mistral-10w40-197l",
         "volume_l": 197,
-        "price_mdl": 15464,
-        "label": "197 л (Бочка)"
+        "price": 21000,
+        "label": "197 л"
       }
     ],
-    "name_ro": "Ulei de motor MOL Mistral 10W-40 DPF (LKW camioane)",
+    "name_ro": "MOL Dynamic Mistral 10W-40",
     "description_ro": "Sintetic ulei Low SAPS MOL Mistral 10W-40 DPF pentru motoare diesel Euro IV, Euro V с фильтром DPF/EGR/SCR."
   },
   {
     "sku": "MOL-MISTRAL-5W30",
-    "name": "Моторное масло MOL Mistral 5W-30 DPF Euro VI (LKW)",
+    "name": "MOL Dynamic Mistral 5W-30",
     "category": "motor-oils-lkw",
     "brand": "MOL",
     "photo_url": "images/products/mol-dynamic-truck.png",
@@ -18916,35 +16916,35 @@
       },
       {
         "label": "Допуски",
-        "value": "ACEA E6/E7/E9, MB 228.51, MAN 3477, 3271-1, 3677, Volvo VDS-4, Renault RLD-3"
+        "value": "DTFR 15C110 (ex MB 228.51), Scania LDF-4, Voith Oil class B, ACEA E9, ACEA E7, ACEA E6, API CJ-4, API CK-4, API SN, JASO DH-2, MAN M 3477, MAN M 3271-1, MAN M 3677, Volvo CNG, Volvo VDS-3, Volvo VDS-4, Renault RLD-3, Renault RXD, MTU Type 3.1, Caterpillar ECF-3, MACK EO-O Premium Plus, DDC 93K218, Deutz DQC IV-10LA"
       }
     ],
     "canister_vol": 10,
     "canister_price": 1350,
     "packs": [
       {
-        "id": "mistral-5w30-10l",
         "volume_l": 10,
-        "price_mdl": 1350,
+        "price": 1700,
         "label": "10 л"
       },
       {
-        "id": "mistral-5w30-55l",
         "volume_l": 55,
-        "price_mdl": 6655,
+        "price": 8800,
         "label": "55 л"
       }
     ],
-    "name_ro": "Ulei de motor MOL Mistral 5W-30 DPF Euro VI (LKW camioane)",
+    "name_ro": "MOL Dynamic Mistral 5W-30",
     "description_ro": "Высокоэффективное sintetic ulei Low SAPS MOL Mistral 5W-30 длявейших дизелей Euro VI (до 100 000 км)."
   },
   {
     "sku": "MOL-MISTRAL-XTS-5W30",
-    "name": "Моторное масло MOL Mistral XTS 5W-30 (LKW)",
+    "name": "MOL Dynamic Mistral XTS 5W-30",
     "category": "motor-oils-lkw",
     "brand": "MOL",
     "photo_url": "images/products/mol-dynamic-truck.png",
     "volumes": [
+      10,
+      20,
       55,
       198
     ],
@@ -18963,19 +16963,27 @@
     "canister_price": 6655,
     "packs": [
       {
-        "id": "mistral-xts-5w30-55l",
+        "volume_l": 10,
+        "price": 1650,
+        "label": "10 л"
+      },
+      {
+        "volume_l": 20,
+        "price": 3100,
+        "label": "20 л"
+      },
+      {
         "volume_l": 55,
-        "price_mdl": 6655,
+        "price": 8200,
         "label": "55 л"
       },
       {
-        "id": "mistral-xts-5w30-198l",
         "volume_l": 198,
-        "price_mdl": 22869,
-        "label": "198 л (Бочка)"
+        "price": 28000,
+        "label": "198 л"
       }
     ],
-    "name_ro": "Ulei de motor MOL Mistral XTS 5W-30 (LKW camioane)",
+    "name_ro": "MOL Dynamic Mistral XTS 5W-30",
     "description_ro": "Премиальное sintetic масло MOL Mistral XTS 5W-30 pentru motoare diesel тяжелых грузовиков Scania, DAF, MAN, Volvo."
   },
   {
@@ -19433,5 +17441,294 @@
         "label": "991 л (Еврокуб)"
       }
     ]
+  },
+  {
+    "sku": "MOL-MISTRAL-XT-5W30",
+    "name": "MOL Dynamic Mistral XT 5W-30",
+    "name_ro": "MOL Dynamic Mistral XT 5W-30",
+    "brand": "MOL",
+    "category": "motor-oils-lkw",
+    "description": "",
+    "description_ro": "",
+    "volumes": [
+      20,
+      55
+    ],
+    "packs": [
+      {
+        "volume_l": 20,
+        "price": 3200,
+        "label": "20 л"
+      },
+      {
+        "volume_l": 55,
+        "price": 8500,
+        "label": "55 л"
+      }
+    ],
+    "specs": [],
+    "photo_url": ""
+  },
+  {
+    "sku": "MOL-SYNT-DIESEL-E4-10W40",
+    "name": "MOL Dynamic Synt Diesel E4 10W-40",
+    "name_ro": "MOL Dynamic Synt Diesel E4 10W-40",
+    "brand": "MOL",
+    "category": "motor-oils-lkw",
+    "description": "",
+    "description_ro": "",
+    "volumes": [
+      10,
+      58,
+      196
+    ],
+    "packs": [
+      {
+        "volume_l": 10,
+        "price": 1450,
+        "label": "10 л"
+      },
+      {
+        "volume_l": 58,
+        "price": 7400,
+        "label": "58 л"
+      },
+      {
+        "volume_l": 196,
+        "price": 23000,
+        "label": "196 л"
+      }
+    ],
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "API CI-4, DTFR 15B120 (ex MB 228.5), MAN M 3277, Volvo VDS-3, Renault RLD-2, MTU Type 3, Mack EO-N, ACEA E7, ACEA E4, Scania LDF-3, DTFR 15B120"
+      }
+    ],
+    "photo_url": ""
+  },
+  {
+    "sku": "MOL-GLOBAL-DIESEL-10W30",
+    "name": "MOL Dynamic Global Diesel 10W-30",
+    "name_ro": "MOL Dynamic Global Diesel 10W-30",
+    "brand": "MOL",
+    "category": "motor-oils-lkw",
+    "description": "",
+    "description_ro": "",
+    "volumes": [
+      10,
+      58,
+      196
+    ],
+    "packs": [
+      {
+        "volume_l": 10,
+        "price": 1300,
+        "label": "10 л"
+      },
+      {
+        "volume_l": 58,
+        "price": 6900,
+        "label": "58 л"
+      },
+      {
+        "volume_l": 196,
+        "price": 22000,
+        "label": "196 л"
+      }
+    ],
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "Volvo VDS-4.5, Renault RLD-3, MACK EO-S-4.5, ACEA E9, ACEA E11, API CK-4, DAF PSQL 2.1 E, DAF PSQL 2.4, JASO DH-2, Ford WSS-M2C171-F1, MAN M 3575, MAN M 3775, MTU Type 2.1, Caterpillar ECF-1a, Caterpillar ECF-2, Caterpillar ECF-3, Detroit Diesel DFS 93K222, Deutz DQC III-10LA"
+      }
+    ],
+    "photo_url": ""
+  },
+  {
+    "sku": "MOL-GLOBAL-DIESEL-10W40",
+    "name": "MOL Dynamic Global Diesel 10W-40",
+    "name_ro": "MOL Dynamic Global Diesel 10W-40",
+    "brand": "MOL",
+    "category": "motor-oils-lkw",
+    "description": "",
+    "description_ro": "",
+    "volumes": [
+      55,
+      197
+    ],
+    "packs": [
+      {
+        "volume_l": 55,
+        "price": 6500,
+        "label": "55 л"
+      },
+      {
+        "volume_l": 197,
+        "price": 22500,
+        "label": "197 л"
+      }
+    ],
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "Volvo VDS-4.5, Renault RLD-3, MACK EO-S-4.5, ACEA E9-12, API CK-4, API CJ-4/SM, API SN, JASO DH-2, Ford WSS-M2C171-F1, MAN M 3575, Volvo VDS-4, Renault RLD-4, MTU Type 2.1, Caterpillar ECF-1a, Caterpillar ECF-2, Caterpillar ECF-3, MACK EO-O Premium Plus, DDC 93K218, Detroit Diesel DFS 93K222, Iveco 18-1804 TLS E9, Deutz DQC III-10LA, Deutz DQC III-18LA, ACEA E9, DAF PSQL 2.1 E"
+      }
+    ],
+    "photo_url": ""
+  },
+  {
+    "sku": "MOL-SUPER-DIESEL-15W40",
+    "name": "MOL Dynamic Super Diesel 15W-40",
+    "name_ro": "MOL Dynamic Super Diesel 15W-40",
+    "brand": "MOL",
+    "category": "motor-oils-lkw",
+    "description": "",
+    "description_ro": "",
+    "volumes": [
+      10,
+      57,
+      204
+    ],
+    "packs": [
+      {
+        "volume_l": 10,
+        "price": 1000,
+        "label": "10 л"
+      },
+      {
+        "volume_l": 57,
+        "price": 5500,
+        "label": "57 л"
+      },
+      {
+        "volume_l": 204,
+        "price": 19000,
+        "label": "204 л"
+      }
+    ],
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "ACEA E2, API CG-4/CF/SL, MAN 271, Volvo VDS, Tatra TDS 30/12, MTU Type 1"
+      }
+    ],
+    "photo_url": ""
+  },
+  {
+    "sku": "MOL-MOTO-4T-SCOOTER",
+    "name": "MOL Dynamic Moto 4T Scooter 10W-40",
+    "name_ro": "MOL Dynamic Moto 4T Scooter 10W-40",
+    "brand": "MOL",
+    "category": "moto-oils",
+    "description": "",
+    "description_ro": "",
+    "volumes": [
+      1
+    ],
+    "packs": [
+      {
+        "volume_l": 1,
+        "price": 140,
+        "label": "1 л"
+      }
+    ],
+    "specs": [],
+    "photo_url": ""
+  },
+  {
+    "sku": "MOL-MOTO-4T-STREET",
+    "name": "MOL Dynamic Moto 4T Street",
+    "name_ro": "MOL Dynamic Moto 4T Street",
+    "brand": "MOL",
+    "category": "moto-oils",
+    "description": "",
+    "description_ro": "",
+    "volumes": [
+      1
+    ],
+    "packs": [
+      {
+        "volume_l": 1,
+        "price": 145,
+        "label": "1 л"
+      }
+    ],
+    "specs": [],
+    "photo_url": ""
+  },
+  {
+    "sku": "MOL-MOTO-2T",
+    "name": "MOL Dynamic Moto 2T",
+    "name_ro": "MOL Dynamic Moto 2T",
+    "brand": "MOL",
+    "category": "moto-oils",
+    "description": "",
+    "description_ro": "",
+    "volumes": [
+      1
+    ],
+    "packs": [
+      {
+        "volume_l": 1,
+        "price": 120,
+        "label": "1 л"
+      }
+    ],
+    "specs": [],
+    "photo_url": ""
+  },
+  {
+    "sku": "MOL-SPRINT-2T",
+    "name": "MOL Dynamic Sprint 2T",
+    "name_ro": "MOL Dynamic Sprint 2T",
+    "brand": "MOL",
+    "category": "moto-oils",
+    "description": "",
+    "description_ro": "",
+    "volumes": [
+      1
+    ],
+    "packs": [
+      {
+        "volume_l": 1,
+        "price": 110,
+        "label": "1 л"
+      }
+    ],
+    "specs": [],
+    "photo_url": ""
+  },
+  {
+    "sku": "MOL-HYKOMOL-ZF-80W90",
+    "name": "MOL Hykomol ZF 80W-90",
+    "name_ro": "MOL Hykomol ZF 80W-90",
+    "brand": "MOL",
+    "category": "transmission-oils",
+    "description": "",
+    "description_ro": "",
+    "volumes": [
+      10,
+      202
+    ],
+    "packs": [
+      {
+        "volume_l": 10,
+        "price": 1250,
+        "label": "10 л"
+      },
+      {
+        "volume_l": 202,
+        "price": 20500,
+        "label": "202 л"
+      }
+    ],
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "MAN 342 Typ M2, Tatra TDS 80/32, ZF TE-ML 05A, ZF TE-ML 12E[ZF001118], ZF TE-ML 16B[ZF001118], ZF TE-ML 17B[ZF001118], ZF TE-ML 19B[ZF001118], ZF TE-ML 21A[ZF001118], API GL-5, MIL-L-2105D, ZF TE-ML 07A"
+      }
+    ],
+    "photo_url": ""
   }
 ]
