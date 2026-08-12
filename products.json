@@ -8365,12 +8365,111 @@
     "description_ro": "Летняя стеклоомывающая жидкость MOL Alycol Summer Citrus с освежающим цитрусовым ароматом."
   },
   {
+    "sku": "MOL-LITON-LT-2EP-0375",
+    "name": "Смазка MOL Liton LT 2 EP",
+    "category": "greases",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
+    "volumes": [
+      0.25,
+      0.4,
+      8,
+      18,
+      50,
+      180
+    ],
+    "description": "Многоцелевая литиевая пластичная смазка MOL Liton LT 2 EP в удобной упаковке дойпак 375 г.",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "ZETOR, DIN 51502: KP2K-30, DIN 51825: KP2K-30, ISO 6743-9: L-XCCEB 2, Gradul de consistenta NLGI: NLGI 2"
+      }
+    ],
+    "canister_vol": 0.375,
+    "canister_price": 75,
+    "packs": [
+      {
+        "volume_l": 0.25,
+        "price": 55,
+        "label": "250 г"
+      },
+      {
+        "volume_l": 0.4,
+        "price": 70,
+        "label": "400 г картридж"
+      },
+      {
+        "volume_l": 8,
+        "price": 550,
+        "label": "8 кг"
+      },
+      {
+        "volume_l": 18,
+        "price": 1100,
+        "label": "18 кг"
+      },
+      {
+        "volume_l": 50,
+        "price": 2800,
+        "label": "50 кг"
+      },
+      {
+        "volume_l": 180,
+        "price": 9500,
+        "label": "180 кг"
+      }
+    ],
+    "name_ro": "Unsoare MOL Liton LT 2 EP",
+    "description_ro": "Unsoare multifuncţională cu capacitate de preluare a sarcinii bună, rezistentă la apă, care asigură protecţie împotriva coroziunii, precum şi un nivel redus al frecării şi uzurii."
+  },
+  {
+    "sku": "MOL-FAVORIT-2-BLUE-0400",
+    "name": "Смазка MOL Favorit 2 Blue",
+    "category": "greases",
+    "brand": "MOL",
+    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
+    "volumes": [
+      0.4,
+      8,
+      18
+    ],
+    "description": "Высокотемпературная литиево-комплексная смазка синего цвета MOL Favorit 2 Blue для высоких нагрузок.",
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "DIN 51502: KP2N-30, ISO 6743-9: L-XCDEB 2, Gradul de consistenta NLGI: NLGI 2"
+      }
+    ],
+    "canister_vol": 0.4,
+    "canister_price": 124,
+    "packs": [
+      {
+        "volume_l": 0.4,
+        "price": 75,
+        "label": "400 г картридж"
+      },
+      {
+        "volume_l": 8,
+        "price": 600,
+        "label": "8 кг"
+      },
+      {
+        "volume_l": 18,
+        "price": 1200,
+        "label": "18 кг"
+      }
+    ],
+    "name_ro": "Unsoare MOL Favorit 2 Blue",
+    "description_ro": "Unsoare lubrifiantă multifuncţională cu o stabilitate mecanică bună, asigurând lubrifiere adecvată pentru un timp mai lung."
+  },
+  {
     "sku": "YUKO-SHRUS4-375G",
-    "name": "Смазка YUKO ШРУС-4 (375 г дойпак)",
+    "name": "Смазка YUKO ШРУС-4",
     "category": "greases",
     "brand": "YUKO",
     "photo_url": "images/products/yuko-shrus4.png",
     "volumes": [
+      0.15,
       0.375
     ],
     "description": "Пластичная автомобильная смазка YUKO ШРУС-4 с дисульфидом молибдена в удобной упаковке дойпак со штуцером (375 г).",
@@ -8379,14 +8478,210 @@
     "canister_price": 60,
     "packs": [
       {
-        "id": "yuko-shrus4-375g",
+        "volume_l": 0.15,
+        "price": 35,
+        "label": "150 г"
+      },
+      {
         "volume_l": 0.375,
-        "price_mdl": 60,
+        "price": 55,
         "label": "375 г"
       }
     ],
-    "name_ro": "Vaselină YUKO ШРУС-4 (375 г дойпак)",
+    "name_ro": "Unsoare YUKO SHRUS-4",
     "description_ro": "Пластичная автомобильная смазка YUKO ШРУС-4 с дисульфидом молибдена в удобной упаковке дойпак со штуцером (375 г)."
+  },
+  {
+    "sku": "YUKO-CIATIM",
+    "name": "Смазка YUKO Циатим",
+    "name_ro": "Unsoare YUKO Ciatim",
+    "brand": "YUKO",
+    "category": "greases",
+    "description": "",
+    "description_ro": "",
+    "volumes": [
+      0.8
+    ],
+    "packs": [
+      {
+        "volume_l": 0.8,
+        "price": 185,
+        "label": "800 г / 1 л"
+      }
+    ],
+    "specs": [],
+    "photo_url": ""
+  },
+  {
+    "sku": "YUKO-REDUS-MOLY",
+    "name": "Смазка YUKO Redus Molybdenum",
+    "name_ro": "Unsoare YUKO Redus Molybdenum",
+    "brand": "YUKO",
+    "category": "greases",
+    "description": "",
+    "description_ro": "",
+    "volumes": [
+      0.125
+    ],
+    "packs": [
+      {
+        "volume_l": 0.125,
+        "price": 42,
+        "label": "0.1 кг / 125 мл"
+      }
+    ],
+    "specs": [],
+    "photo_url": ""
+  },
+  {
+    "sku": "YUKO-REDUS-UNIVERSAL",
+    "name": "Смазка YUKO Redus Universal",
+    "name_ro": "Unsoare YUKO Redus Universal",
+    "brand": "YUKO",
+    "category": "greases",
+    "description": "",
+    "description_ro": "",
+    "volumes": [
+      0.125
+    ],
+    "packs": [
+      {
+        "volume_l": 0.125,
+        "price": 42,
+        "label": "0.1 кг / 125 мл"
+      }
+    ],
+    "specs": [],
+    "photo_url": ""
+  },
+  {
+    "sku": "YUKO-SOLIDOL-ZH",
+    "name": "Смазка YUKO Солидол Ж",
+    "name_ro": "Unsoare YUKO Solidol J",
+    "brand": "YUKO",
+    "category": "greases",
+    "description": "",
+    "description_ro": "",
+    "volumes": [
+      0.375,
+      0.4,
+      0.8,
+      5,
+      10,
+      20
+    ],
+    "packs": [
+      {
+        "volume_l": 0.375,
+        "price": 40,
+        "label": "375 г дойпак"
+      },
+      {
+        "volume_l": 0.4,
+        "price": 50,
+        "label": "400 г туба"
+      },
+      {
+        "volume_l": 0.8,
+        "price": 98,
+        "label": "800 г банка"
+      },
+      {
+        "volume_l": 5,
+        "price": 435,
+        "label": "5 л / 4.5 кг"
+      },
+      {
+        "volume_l": 10,
+        "price": 600,
+        "label": "10 л"
+      },
+      {
+        "volume_l": 20,
+        "price": 1180,
+        "label": "20 л"
+      }
+    ],
+    "specs": [],
+    "photo_url": ""
+  },
+  {
+    "sku": "YUKO-LITOL-24",
+    "name": "Смазка YUKO Литол-24",
+    "name_ro": "Unsoare YUKO Litol-24",
+    "brand": "YUKO",
+    "category": "greases",
+    "description": "",
+    "description_ro": "",
+    "volumes": [
+      0.15,
+      0.375,
+      0.4,
+      0.8,
+      5,
+      10,
+      20
+    ],
+    "packs": [
+      {
+        "volume_l": 0.15,
+        "price": 24,
+        "label": "150 г"
+      },
+      {
+        "volume_l": 0.375,
+        "price": 48,
+        "label": "375 г"
+      },
+      {
+        "volume_l": 0.4,
+        "price": 61,
+        "label": "400 г туба"
+      },
+      {
+        "volume_l": 0.8,
+        "price": 94,
+        "label": "800 г банка"
+      },
+      {
+        "volume_l": 5,
+        "price": 428,
+        "label": "5 л"
+      },
+      {
+        "volume_l": 10,
+        "price": 858,
+        "label": "10 л"
+      },
+      {
+        "volume_l": 20,
+        "price": 1540,
+        "label": "20 л"
+      }
+    ],
+    "specs": [],
+    "photo_url": ""
+  },
+  {
+    "sku": "YUKO-GRAFITNAYA",
+    "name": "Смазка YUKO Графитная",
+    "name_ro": "Unsoare YUKO Grafitnă",
+    "brand": "YUKO",
+    "category": "greases",
+    "description": "",
+    "description_ro": "",
+    "volumes": [
+      0.375
+    ],
+    "packs": [
+      {
+        "volume_l": 0.375,
+        "price": 45,
+        "label": "375 г"
+      }
+    ],
+    "specs": [],
+    "photo_url": ""
   },
   {
     "sku": "YUKO-TAD17M-1L",
@@ -8628,8 +8923,168 @@
     "description_ro": "Semisintetic масло YUKO SEMISYNTETIC 4T SAE 10W-40 для четырехтактных двигателей мотоциклов и квадроциклов."
   },
   {
+    "sku": "MOL-HYDRO-HM-32",
+    "name": "MOL Hydro HM 32",
+    "name_ro": "MOL Hydro HM 32",
+    "brand": "MOL",
+    "category": "hydraulic-oils",
+    "description": "Гидравлическое масло высокого качества для гидравлических систем, работающих при нормальных термических и механических нагрузках.",
+    "description_ro": "",
+    "volumes": [
+      10,
+      195
+    ],
+    "packs": [
+      {
+        "volume_l": 10,
+        "price": 900,
+        "label": "10 л"
+      },
+      {
+        "volume_l": 195,
+        "price": 14500,
+        "label": "195 л"
+      }
+    ],
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "ISO 11158 HM, ISO-L-HM, DIN 51524-2 (HLP), AFNOR NF-E-48603 (HM)"
+      }
+    ],
+    "photo_url": ""
+  },
+  {
+    "sku": "MOL-HYDRO-HM-46",
+    "name": "MOL Hydro HM 46",
+    "name_ro": "MOL Hydro HM 46",
+    "brand": "MOL",
+    "category": "hydraulic-oils",
+    "description": "Гидравлическое масло высокого качества для гидравлических систем, работающих при нормальных термических и механических нагрузках.",
+    "description_ro": "",
+    "volumes": [
+      10,
+      57,
+      206,
+      983
+    ],
+    "packs": [
+      {
+        "volume_l": 10,
+        "price": 900,
+        "label": "10 л"
+      },
+      {
+        "volume_l": 57,
+        "price": 4800,
+        "label": "57 л"
+      },
+      {
+        "volume_l": 206,
+        "price": 14800,
+        "label": "206 л"
+      },
+      {
+        "volume_l": 983,
+        "price": 68000,
+        "label": "983 л"
+      }
+    ],
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "ISO 11158 HM, ISO-L-HM, DIN 51524-2 (HLP), AFNOR NF-E-48603 (HM)"
+      }
+    ],
+    "photo_url": ""
+  },
+  {
+    "sku": "MOL-HYDRO-HM-68",
+    "name": "MOL Hydro HM 68",
+    "name_ro": "MOL Hydro HM 68",
+    "brand": "MOL",
+    "category": "hydraulic-oils",
+    "description": "Гидравлическое масло высокого качества для гидравлических систем, работающих при нормальных термических и механических нагрузках.",
+    "description_ro": "",
+    "volumes": [
+      10
+    ],
+    "packs": [
+      {
+        "volume_l": 10,
+        "price": 950,
+        "label": "10 л"
+      }
+    ],
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "ISO 11158 HM, ISO-L-HM, DIN 51524-2 (HLP), AFNOR NF-E-48603 (HM)"
+      }
+    ],
+    "photo_url": ""
+  },
+  {
+    "sku": "MOL-HYDRO-HME-46",
+    "name": "MOL Hydro HME 46",
+    "name_ro": "MOL Hydro HME 46",
+    "brand": "MOL",
+    "category": "hydraulic-oils",
+    "description": "Гидравлическое масло высокого класса, значительно превосходящее требования ISO HM. Для систем, работающих в тяжёлых условиях.",
+    "description_ro": "",
+    "volumes": [
+      205
+    ],
+    "packs": [
+      {
+        "volume_l": 205,
+        "price": 18000,
+        "label": "205 л"
+      }
+    ],
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "ARBURG, Danieli 0.597666.C, Bosch Rexroth Fluid Rating List RDE 90245, ENGEL, Parker Denison HF-0, Parker Denison HF-1/HF-2, ISO 11158 HM, ISO-L-HM, DIN 51524-2 (HLP), DIN 51506 VDL, Eaton (Vickers) I-286-S, Eaton (Vickers) M-2950-S, General Motors LS2 LH-04-1-00, SAE MS1004 Type HM, AIST (US Steel) 127, AIST (US Steel) 126, AFNOR NF-E-48603 (HM), Cincinnati Lamb P-70 (Fives Cincinnati)"
+      }
+    ],
+    "photo_url": ""
+  },
+  {
+    "sku": "MOL-HYDRO-HV-46",
+    "name": "MOL Hydro HV 46",
+    "name_ro": "MOL Hydro HV 46",
+    "brand": "MOL",
+    "category": "hydraulic-oils",
+    "description": "Всесезонное гидравлическое масло, значительно превосходящее требования ISO HV. Отлично подходит для наружных гидравлических систем, работающих в широком диапазоне температур.",
+    "description_ro": "",
+    "volumes": [
+      10,
+      197
+    ],
+    "packs": [
+      {
+        "volume_l": 10,
+        "price": 1100,
+        "label": "10 л"
+      },
+      {
+        "volume_l": 197,
+        "price": 17500,
+        "label": "197 л"
+      }
+    ],
+    "specs": [
+      {
+        "label": "Допуски",
+        "value": "ISO 11158 HV, ISO 6743-4, ISO-L-HV, DIN 51524-3 (HVLP), Parker Hannifin (Denison) HF-0/HF-1/HF-2, SAE MS1004 Type HV, AFNOR NF-E-48603 (HV)"
+      }
+    ],
+    "photo_url": ""
+  },
+  {
     "sku": "YUKO-PSF-1L",
-    "name": "Жидкость гидроусилителя руля YUKO PSF (1 л)",
+    "name": "Жидкость гидроусилителя руля YUKO PSF",
     "category": "hydraulic-oils",
     "brand": "YUKO",
     "photo_url": "images/products/yuko-canisters.png",
@@ -8642,13 +9097,12 @@
     "canister_price": 61.5,
     "packs": [
       {
-        "id": "yuko-psf-1l",
         "volume_l": 1,
-        "price_mdl": 61.5,
+        "price": 85,
         "label": "1 л"
       }
     ],
-    "name_ro": "Жидкость гидроусилителя руля YUKO PSF (1 л)",
+    "name_ro": "Lichid servo YUKO PSF",
     "description_ro": "Специальная гидравлическая жидкость YUKO PSF для приводов гидроусилителя рулевого управления (ГУР)."
   },
   {
@@ -8741,64 +9195,6 @@
     ],
     "name_ro": "MOL Prima 5W-40",
     "description_ro": "Ulei sintetic Low SAPS MOL Prima 5W-40 DPF pentru autoturisme moderne echipate cu filtre de particule."
-  },
-  {
-    "sku": "MOL-LITON-LT-2EP-0375",
-    "name": "Смазка MOL Liton LT 2 EP (0.375 кг дойпак)",
-    "category": "greases",
-    "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
-    "volumes": [
-      0.375
-    ],
-    "description": "Многоцелевая литиевая пластичная смазка MOL Liton LT 2 EP в удобной упаковке дойпак 375 г.",
-    "specs": [
-      {
-        "label": "Допуски",
-        "value": "ZETOR, DIN 51502: KP2K-30, DIN 51825: KP2K-30, ISO 6743-9: L-XCCEB 2, Gradul de consistenta NLGI: NLGI 2"
-      }
-    ],
-    "canister_vol": 0.375,
-    "canister_price": 75,
-    "packs": [
-      {
-        "id": "liton-2ep-0375",
-        "volume_l": 0.375,
-        "price_mdl": 75,
-        "label": "375 г"
-      }
-    ],
-    "name_ro": "Vaselină MOL Liton LT 2 EP (0.375 кг дойпак)",
-    "description_ro": "Unsoare multifuncţională cu capacitate de preluare a sarcinii bună, rezistentă la apă, care asigură protecţie împotriva coroziunii, precum şi un nivel redus al frecării şi uzurii."
-  },
-  {
-    "sku": "MOL-FAVORIT-2-BLUE-0400",
-    "name": "Смазка MOL Favorit 2 Blue (0.400 кг картридж)",
-    "category": "greases",
-    "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
-    "volumes": [
-      0.4
-    ],
-    "description": "Высокотемпературная литиево-комплексная смазка синего цвета MOL Favorit 2 Blue для высоких нагрузок.",
-    "specs": [
-      {
-        "label": "Допуски",
-        "value": "DIN 51502: KP2N-30, ISO 6743-9: L-XCDEB 2, Gradul de consistenta NLGI: NLGI 2"
-      }
-    ],
-    "canister_vol": 0.4,
-    "canister_price": 124,
-    "packs": [
-      {
-        "id": "favorit-2-0400",
-        "volume_l": 0.4,
-        "price_mdl": 124,
-        "label": "400 г"
-      }
-    ],
-    "name_ro": "Vaselină MOL Favorit 2 Blue (0.400 кг cartuș)",
-    "description_ro": "Unsoare lubrifiantă multifuncţională cu o stabilitate mecanică bună, asigurând lubrifiere adecvată pentru un timp mai lung."
   },
   {
     "sku": "CC-61223",
@@ -11854,195 +12250,6 @@
     ],
     "name_ro": "MOL Dynamic Mistral XTS 5W-30",
     "description_ro": "Премиальное sintetic масло MOL Mistral XTS 5W-30 pentru motoare diesel тяжелых грузовиков Scania, DAF, MAN, Volvo."
-  },
-  {
-    "sku": "MOL-LITON-00-GM-7KG",
-    "name": "Смазка MOL Liton 00 GM (7 кг)",
-    "category": "greases",
-    "brand": "MOL",
-    "canister_vol": 7,
-    "canister_price": 1475,
-    "packs": [
-      {
-        "id": "liton-00gm-7kg",
-        "volume_l": 7,
-        "price_mdl": 1475,
-        "label": "7 кг"
-      }
-    ],
-    "name_ro": "Vaselină MOL Liton 00 GM (7 кг)",
-    "description_ro": "Unsoare lubrifiantă de calitate premium,pentru sisteme de lubrifiere centralizată, compusă din ulei de bază sintetic şi săpun de 12-hidroxistearat de Li/Ca. Ideal pentru autocamioane, maşini grele şi sistemele de lubrifiere centralizată ale maşinilor pentru care este prevăzută o unsoare fluidă. Certificat de WILLY VOGEL ca lubrifiant corespunzător pentru sisteme de lubrifiere centrailizată.",
-    "volumes": [
-      7
-    ],
-    "specs": [
-      {
-        "label": "Допуски",
-        "value": "Vogel, DIN 51502: KHCP00K-40, ISO 6743-9: L-XDCEB 00, Gradul de consistenta NLGI: NLGI 00"
-      }
-    ]
-  },
-  {
-    "sku": "MOL-LITON-LT-2EP-0250",
-    "name": "Смазка MOL Liton LT 2 EP (250 г)",
-    "category": "greases",
-    "brand": "MOL",
-    "canister_vol": 0.25,
-    "canister_price": 78,
-    "packs": [
-      {
-        "id": "liton-2ep-0250",
-        "volume_l": 0.25,
-        "price_mdl": 78,
-        "label": "250 г"
-      }
-    ],
-    "name_ro": "Vaselină MOL Liton LT 2 EP (250 г)",
-    "description_ro": "Unsoare multifuncţională cu capacitate de preluare a sarcinii bună, rezistentă la apă, care asigură protecţie împotriva coroziunii, precum şi un nivel redus al frecării şi uzurii.",
-    "volumes": [
-      0.25
-    ],
-    "specs": [
-      {
-        "label": "Допуски",
-        "value": "ZETOR, DIN 51502: KP2K-30, DIN 51825: KP2K-30, ISO 6743-9: L-XCCEB 2, Gradul de consistenta NLGI: NLGI 2"
-      }
-    ]
-  },
-  {
-    "sku": "MOL-LITON-LT-2EP-0400",
-    "name": "Смазка MOL Liton LT 2 EP (400 г картридж)",
-    "category": "greases",
-    "brand": "MOL",
-    "canister_vol": 0.4,
-    "canister_price": 88.5,
-    "packs": [
-      {
-        "id": "liton-2ep-0400",
-        "volume_l": 0.4,
-        "price_mdl": 88.5,
-        "label": "400 г"
-      }
-    ],
-    "name_ro": "Vaselină MOL Liton LT 2 EP (400 г cartuș)",
-    "description_ro": "Unsoare multifuncţională cu capacitate de preluare a sarcinii bună, rezistentă la apă, care asigură protecţie împotriva coroziunii, precum şi un nivel redus al frecării şi uzurii.",
-    "volumes": [
-      0.4
-    ],
-    "specs": [
-      {
-        "label": "Допуски",
-        "value": "ZETOR, DIN 51502: KP2K-30, DIN 51825: KP2K-30, ISO 6743-9: L-XCCEB 2, Gradul de consistenta NLGI: NLGI 2"
-      }
-    ]
-  },
-  {
-    "sku": "MOL-LITON-LT-2EP-8KG",
-    "name": "Смазка MOL Liton LT 2 EP (8 кг)",
-    "category": "greases",
-    "brand": "MOL",
-    "canister_vol": 8,
-    "canister_price": 1365,
-    "packs": [
-      {
-        "id": "liton-2ep-8kg",
-        "volume_l": 8,
-        "price_mdl": 1365,
-        "label": "8 кг"
-      }
-    ],
-    "name_ro": "Vaselină MOL Liton LT 2 EP (8 кг)",
-    "description_ro": "Unsoare multifuncţională cu capacitate de preluare a sarcinii bună, rezistentă la apă, care asigură protecţie împotriva coroziunii, precum şi un nivel redus al frecării şi uzurii.",
-    "volumes": [
-      8
-    ],
-    "specs": [
-      {
-        "label": "Допуски",
-        "value": "ZETOR, DIN 51502: KP2K-30, DIN 51825: KP2K-30, ISO 6743-9: L-XCCEB 2, Gradul de consistenta NLGI: NLGI 2"
-      }
-    ]
-  },
-  {
-    "sku": "MOL-LITON-LT-2EP-18KG",
-    "name": "Смазка MOL Liton LT 2 EP (18 кг)",
-    "category": "greases",
-    "brand": "MOL",
-    "canister_vol": 18,
-    "canister_price": 2892,
-    "packs": [
-      {
-        "id": "liton-2ep-18kg",
-        "volume_l": 18,
-        "price_mdl": 2892,
-        "label": "18 кг"
-      }
-    ],
-    "name_ro": "Vaselină MOL Liton LT 2 EP (18 кг)",
-    "description_ro": "Unsoare multifuncţională cu capacitate de preluare a sarcinii bună, rezistentă la apă, care asigură protecţie împotriva coroziunii, precum şi un nivel redus al frecării şi uzurii.",
-    "volumes": [
-      18
-    ],
-    "specs": [
-      {
-        "label": "Допуски",
-        "value": "ZETOR, DIN 51502: KP2K-30, DIN 51825: KP2K-30, ISO 6743-9: L-XCCEB 2, Gradul de consistenta NLGI: NLGI 2"
-      }
-    ]
-  },
-  {
-    "sku": "MOL-FAVORIT-2-BLUE-8KG",
-    "name": "Смазка MOL Favorit 2 Blue (8 кг)",
-    "category": "greases",
-    "brand": "MOL",
-    "canister_vol": 8,
-    "canister_price": 1945,
-    "packs": [
-      {
-        "id": "favorit-2-8kg",
-        "volume_l": 8,
-        "price_mdl": 1945,
-        "label": "8 кг"
-      }
-    ],
-    "name_ro": "Vaselină MOL Favorit 2 Blue (8 кг)",
-    "description_ro": "Unsoare lubrifiantă multifuncţională cu o stabilitate mecanică bună, asigurând lubrifiere adecvată pentru un timp mai lung.",
-    "volumes": [
-      8
-    ],
-    "specs": [
-      {
-        "label": "Допуски",
-        "value": "DIN 51502: KP2N-30, ISO 6743-9: L-XCDEB 2, Gradul de consistenta NLGI: NLGI 2"
-      }
-    ]
-  },
-  {
-    "sku": "MOL-FAVORIT-2-BLUE-18KG",
-    "name": "Смазка MOL Favorit 2 Blue (18 кг ведро)",
-    "category": "greases",
-    "brand": "MOL",
-    "canister_vol": 18,
-    "canister_price": 4230,
-    "packs": [
-      {
-        "id": "favorit-2-18kg",
-        "volume_l": 18,
-        "price_mdl": 4230,
-        "label": "18 кг"
-      }
-    ],
-    "name_ro": "Vaselină MOL Favorit 2 Blue (18 кг găleată)",
-    "description_ro": "Unsoare lubrifiantă multifuncţională cu o stabilitate mecanică bună, asigurând lubrifiere adecvată pentru un timp mai lung.",
-    "volumes": [
-      18
-    ],
-    "specs": [
-      {
-        "label": "Допуски",
-        "value": "DIN 51502: KP2N-30, ISO 6743-9: L-XCDEB 2, Gradul de consistenta NLGI: NLGI 2"
-      }
-    ]
   },
   {
     "sku": "MOL-HYBRID-0W16",

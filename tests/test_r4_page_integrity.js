@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const vm = require('vm');
 
-const EXPECTED_VERSION = '?v=41.0';
+const EXPECTED_VERSION = '?v=42.0';
 const ROOT_DIR = path.resolve(__dirname, '..');
 
 const HTML_PAGES = [
