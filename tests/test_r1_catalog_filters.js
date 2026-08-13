@@ -351,8 +351,8 @@ volumePacks.forEach(vol => {
 
 // Test volume labels formatting
 assert(App.getVolumeLabel(983) === '983 л (Еврокуб)', `getVolumeLabel(983) => "983 л (Еврокуб)"`);
-assert(App.getVolumeLabel(991) === '991 л', `getVolumeLabel(991) => "991 л"`);
-assert(App.getVolumeLabel(994) === '994 л', `getVolumeLabel(994) => "994 л"`);
+assert(App.getVolumeLabel(991) === '991 л (Еврокуб)', `getVolumeLabel(991) => "991 л (Еврокуб)"`);
+assert(App.getVolumeLabel(994) === '994 л (Еврокуб)', `getVolumeLabel(994) => "994 л (Еврокуб)"`);
 
 // 3g. Antifreeze Colors
 const antifreezeColors = ['Красный', 'Зелёный', 'Синий', 'Жёлтый', 'Розовый', 'Фиолетовый'];
@@ -425,10 +425,10 @@ console.log('--- SUITE 5: Search Bar Filtering ---');
 
 // Search by SKU
 resetState();
-App.catalogState.searchQuery = 'MOL-1000';
+App.catalogState.searchQuery = 'MOL-1001';
 let searchSkuResult = App.applyFilters(productsData);
-assert(searchSkuResult.length >= 1 && searchSkuResult.some(p => p.sku === 'MOL-1000'),
-    `Search query 'MOL-1000' found matching SKU`);
+assert(searchSkuResult.length >= 1 && searchSkuResult.some(p => p.sku === 'MOL-1001'),
+    `Search query 'MOL-1001' found matching SKU`);
 
 // Search by Name
 resetState();
