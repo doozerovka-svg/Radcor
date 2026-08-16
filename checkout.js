@@ -4,6 +4,22 @@ document.addEventListener('DOMContentLoaded', () => {
   const message = document.getElementById('checkoutMessage');
   const deliveryMethod = document.getElementById('deliveryMethod');
   const deliveryFields = document.getElementById('deliveryFields');
+
+  // Auto-fill form from B2B session if authenticated
+  if (window.B2BAuth) {
+    const session = window.B2BAuth.getSession();
+    if (session) {
+      const setVal = (id, val) => {
+        const el = document.getElementById(id);
+        if (el && !el.value && val) el.value = val;
+      };
+      setVal('companyName', session.company_name);
+      setVal('contactName', session.contact_name);
+      setVal('orderPhone', session.phone);
+      setVal('deliveryAddress', session.address);
+    }
+  }
+
   function getItems() {
     const cart = JSON.parse(localStorage.getItem(CART_KEY) || '{}');
     return Object.values(cart);
@@ -98,6 +114,24 @@ document.addEventListener('DOMContentLoaded', () => {
         const payload = await response.json();
         if (!response.ok || !payload.success) throw new Error(payload.error || getI18nText('msg_order_failed', 'Не удалось отправить заказ.'));
         localStorage.removeItem(CART_KEY);
+
+        // Save order to B2B client history if logged in
+        if (window.B2BAuth) {
+          const session = window.B2BAuth.getSession();
+          if (session && session.idno) {
+            const b2bOrdersKey = `radcor_orders_${session.idno}`;
+            const b2bOrders = JSON.parse(localStorage.getItem(b2bOrdersKey) || '[]');
+            b2bOrders.push({
+              order_id: payload.data.orderNo || (Date.now().toString().slice(-5)),
+              date: new Date().toLocaleDateString('ru-RU'),
+              total: payload.data.total_price || 0,
+              pay_status: 'unpaid',
+              delivery_status: 'processing'
+            });
+            localStorage.setItem(b2bOrdersKey, JSON.stringify(b2bOrders));
+          }
+        }
+
         const orderMsg = getI18nText('msg_order_no_accepted', 'Заказ {orderNo} принят. Менеджер подтвердит наличие и условия.').replace('{orderNo}', payload.data.orderNo);
         showMessage(orderMsg, true);
         form.reset();
@@ -123,6 +157,24 @@ document.addEventListener('DOMContentLoaded', () => {
           });
           localStorage.setItem('radcor_orders', JSON.stringify(savedOrders));
           localStorage.removeItem(CART_KEY);
+
+          // Save order to B2B client history if logged in
+          if (window.B2BAuth) {
+            const session = window.B2BAuth.getSession();
+            if (session && session.idno) {
+              const b2bOrdersKey = `radcor_orders_${session.idno}`;
+              const b2bOrders = JSON.parse(localStorage.getItem(b2bOrdersKey) || '[]');
+              b2bOrders.push({
+                order_id: orderNo.replace('RAD-', ''),
+                date: new Date().toLocaleDateString('ru-RU'),
+                total: 0,
+                pay_status: 'unpaid',
+                delivery_status: 'processing'
+              });
+              localStorage.setItem(b2bOrdersKey, JSON.stringify(b2bOrders));
+            }
+          }
+
           const orderMsg = getI18nText('msg_order_no_accepted', 'Заказ {orderNo} принят. Менеджер подтвердит наличие и условия.').replace('{orderNo}', orderNo);
           showMessage(orderMsg, true);
           form.reset();

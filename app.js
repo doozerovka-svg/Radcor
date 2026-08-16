@@ -243,7 +243,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const numV = Number(v);
         if (numV === 983) return '983 л (Еврокуб)';
         if (numV === 991) return '991 л (Еврокуб)';
-        if (numV === 994) return '994 л';
+        if (numV === 994) return '994 л (Еврокуб)';
         return numV >= 1 ? `${numV} л` : `${numV * 1000} мл`;
     }
 

@@ -459,7 +459,18 @@ const I18N = {
         "unit_ml": "мл",
         "unit_item": "шт.",
         "btn_remove": "Удалить",
-        "not_specified": "Не указано"
+        "not_specified": "Не указано",
+        "b2b_login_title": "Вход в B2B Кабинет",
+        "b2b_login_desc": "Доступ только для зарегистрированных партнеров Radcor-Prim. Реквизиты выдаются представителем компании.",
+        "b2b_login_idno_label": "IDNO / Фискальный код компании",
+        "b2b_login_code_label": "B2B Код доступа",
+        "b2b_login_error": "Неверный IDNO или код доступа. Обратитесь к вашему менеджеру.",
+        "b2b_login_submit": "Войти",
+        "b2b_login_no_account": "Не являетесь партнером?",
+        "b2b_login_contact_link": "Свяжитесь с нами",
+        "b2b_login_logout": "Выйти",
+        "b2b_tab_clients": "Клиенты B2B",
+        "b2b_tab_products": "Каталог товаров"
     },
 
     ro: {
@@ -921,7 +932,18 @@ const I18N = {
         "unit_ml": "ml",
         "unit_item": "buc.",
         "btn_remove": "Șterge",
-        "not_specified": "Nespecificat"
+        "not_specified": "Nespecificat",
+        "b2b_login_title": "Autentificare B2B",
+        "b2b_login_desc": "Acces exclusiv pentru partenerii înregistrați Radcor-Prim. Datele de acces sunt furnizate de reprezentantul companiei.",
+        "b2b_login_idno_label": "IDNO / Cod fiscal al companiei",
+        "b2b_login_code_label": "Cod de acces B2B",
+        "b2b_login_error": "IDNO sau cod de acces incorect. Contactați managerul dvs.",
+        "b2b_login_submit": "Autentificare",
+        "b2b_login_no_account": "Nu sunteți partener?",
+        "b2b_login_contact_link": "Contactați-ne",
+        "b2b_login_logout": "Deconectare",
+        "b2b_tab_clients": "Clienți B2B",
+        "b2b_tab_products": "Catalog produse"
     }
 };
 
