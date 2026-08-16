@@ -1270,63 +1270,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // ==========================================================================
-    // LOGIN MODAL
-    // ==========================================================================
-    const loginModal  = document.getElementById('loginModal');
-    const loginBtn    = document.getElementById('loginBtn');
-    const loginBtnLabel = document.getElementById('loginBtnLabel');
-    const modalClose  = document.getElementById('modalClose');
-    const loginForm   = document.getElementById('loginForm');
-    const registerLink = document.getElementById('registerLink');
-
-    // Restore login state
-    const savedUser = localStorage.getItem('radcor_user');
-    if (savedUser) {
-        const user = JSON.parse(savedUser);
-        if (loginBtnLabel) loginBtnLabel.textContent = user.name || 'Кабинет';
-    }
-
-    function openLoginModal() {
-        loginModal?.classList.add('open');
-        document.body.style.overflow = 'hidden';
-    }
-    function closeLoginModal() {
-        loginModal?.classList.remove('open');
-        document.body.style.overflow = '';
-    }
-
-    loginBtn?.addEventListener('click', () => {
-        if (localStorage.getItem('radcor_user')) {
-            window.location.href = 'b2b-dashboard.html';
-        } else {
-            openLoginModal();
-        }
-    });
-    modalClose?.addEventListener('click', closeLoginModal);
-    loginModal?.addEventListener('click', e => { if (e.target === loginModal) closeLoginModal(); });
-    registerLink?.addEventListener('click', (e) => {
-        e.preventDefault();
-        closeLoginModal();
-        document.getElementById('b2b')?.scrollIntoView({ behavior: 'smooth' });
-    });
-
-    loginForm?.addEventListener('submit', e => {
-        e.preventDefault();
-        const email = document.getElementById('loginEmail')?.value;
-        // Simple mock auth: accept any email with password length >= 4
-        const pass  = document.getElementById('loginPassword')?.value;
-        if (!pass || pass.length < 4) {
-            alert(getI18nText('msg_invalid_password'));
-            return;
-        }
-        const userName = email.split('@')[0];
-        localStorage.setItem('radcor_user', JSON.stringify({ email, name: userName }));
-        if (loginBtnLabel) loginBtnLabel.textContent = userName;
-        closeLoginModal();
-        alert(`Добро пожаловать, ${userName}! Функция личного кабинета будет доступна в ближайшее время.`);
-    });
-
-    // ==========================================================================
     // B2B PARTNER FORM
     // ==========================================================================
     document.getElementById('b2bForm')?.addEventListener('submit', async e => {

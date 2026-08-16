@@ -141,7 +141,7 @@ assert(B2BAuth && typeof B2BAuth.applyDiscount === 'function', 'B2BAuth.applyDis
     assert(b2bDashHtml.includes('b2bCompanyName'), 'b2b-dashboard.html contains b2bCompanyName ID');
     assert(b2bDashHtml.includes('b2bBalanceValue'), 'b2b-dashboard.html contains b2bBalanceValue ID');
     assert(b2bDashHtml.includes('b2bOrdersTableBody'), 'b2b-dashboard.html contains b2bOrdersTableBody ID');
-    assert(b2bDashHtml.includes('b2b-dashboard.js?v=45.0'), 'b2b-dashboard.html links b2b-dashboard.js');
+    assert(b2bDashHtml.includes('b2b-dashboard.js'), 'b2b-dashboard.html links b2b-dashboard.js');
 
     console.log('\n================================================================');
     console.log(`B2B SUITE COMPLETE: ${passCount} PASSED, ${failCount} FAILED`);

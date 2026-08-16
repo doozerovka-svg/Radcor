@@ -203,6 +203,11 @@
      * Инициализация UI и событий
      */
     function initB2BUI() {
+        try {
+            // Очищаем старые ключи демо-пользователя
+            localStorage.removeItem('radcor_user');
+        } catch (e) {}
+
         injectB2BModal();
 
         const loginBtn = document.getElementById('loginBtn');
@@ -233,6 +238,13 @@
                     window.location.href = 'b2b-dashboard.html';
                 };
             } else {
+                loginBtn.classList.remove('b2b-active');
+                const lang = localStorage.getItem('radcor_lang') || 'ru';
+                const label = (window.I18N && window.I18N[lang] && window.I18N[lang].nav_login) ? window.I18N[lang].nav_login : 'B2B Вход';
+                loginBtn.innerHTML = `
+                    <span class="login-avatar"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg></span>
+                    <span id="loginBtnLabel" data-i18n="nav_login">${label}</span>
+                `;
                 loginBtn.onclick = function(e) {
                     e.preventDefault();
                     if (overlay) {

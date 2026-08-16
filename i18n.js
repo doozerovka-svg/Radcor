@@ -11,7 +11,7 @@ const I18N = {
         nav_contacts: 'Контакты',
         nav_admin: 'Управление',
         nav_b2b: 'B2B Кабинет',
-        nav_login: 'Войти',
+        nav_login: 'B2B Вход',
 
         // Hero Section
         hero_eyebrow: 'Radcor-Prim SRL',
@@ -484,7 +484,7 @@ const I18N = {
         nav_contacts: 'Contacte',
         nav_admin: 'Administrare',
         nav_b2b: 'Cabinet B2B',
-        nav_login: 'Autentificare',
+        nav_login: 'Autentificare B2B',
 
         // Hero Section
         hero_eyebrow: 'Radcor-Prim SRL',

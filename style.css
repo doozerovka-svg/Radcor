@@ -299,50 +299,45 @@ h4 { font-size: 0.95rem; font-weight: 600; letter-spacing: 0; }
 }
 
 .btn-b2b {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
     font-family: var(--font-display);
-    font-size: 0.82rem;
+    font-size: 0.85rem;
     font-weight: 600;
-    padding: 8px 18px;
+    padding: 7px 16px;
     border-radius: var(--radius-sm);
     color: var(--colour-accent);
     border: 1.5px solid var(--colour-accent);
+    background: #fff;
+    cursor: pointer;
     transition: var(--transition);
+    text-decoration: none;
+    line-height: 1.2;
 }
 .btn-b2b:hover {
     background-color: var(--colour-accent);
     color: #fff;
-    box-shadow: 0 2px 8px rgba(27,63,171,0.2);
+    box-shadow: 0 3px 10px rgba(27,63,171,0.25);
 }
-
-/* Login Button */
-.btn-login {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    font-family: var(--font-body);
-    font-size: 0.875rem;
-    font-weight: 500;
-    color: var(--colour-text-secondary);
-    padding: 7px 14px;
-    border-radius: var(--radius-sm);
-    border: 1px solid var(--colour-border);
-    background: var(--colour-surface);
-    cursor: pointer;
-    transition: var(--transition);
+.btn-b2b:hover .login-avatar svg {
+    stroke: #fff;
 }
-.btn-login:hover {
-    border-color: var(--colour-accent);
-    color: var(--colour-accent);
-}
-.btn-login .login-avatar {
-    width: 26px;
-    height: 26px;
-    background: var(--colour-surface-2);
-    border-radius: 50%;
+.btn-b2b .login-avatar {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 0.8rem;
+    line-height: 0;
+}
+.btn-b2b.b2b-active {
+    background: #EFF6FF;
+    border-color: #BFDBFE;
+    color: #1D4ED8;
+    box-shadow: none;
+}
+.btn-b2b.b2b-active:hover {
+    background: #DBEAFE;
+    border-color: #93C5FD;
 }
 
 .lang-selector {
