@@ -1218,54 +1218,13 @@ document.addEventListener('DOMContentLoaded', () => {
     // ==========================================================================
     // CHECKOUT
     // ==========================================================================
-    document.getElementById('checkoutBtn')?.addEventListener('click', async () => {
+    document.getElementById('checkoutBtn')?.addEventListener('click', () => {
         const keys = Object.keys(cartItems);
         if (keys.length > 0) {
             localStorage.setItem('radcor_cart_v2', JSON.stringify(cartItems));
             window.location.href = 'checkout.html';
-            return;
-        }
-        if (keys.length === 0) { alert('Корзина пуста.'); return; }
-
-        const items = keys.map(k => ({
-            product_id: cartItems[k].sku,
-            product_name: cartItems[k].name,
-            quantity: cartItems[k].qty,
-            price: cartItems[k].price
-        }));
-        const totalPrice = items.reduce((s, i) => s + i.price * i.quantity, 0);
-
-        try {
-            const res = await fetch('/api/v1/orders', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({
-                    company_name: 'Оптовый клиент (сайт)',
-                    contact_person: 'Не указано',
-                    email: '', phone: '',
-                    payment_method: 'По договору',
-                    delivery_method: 'Доставка',
-                    items,
-                    total_price: totalPrice
-                })
-            });
-            if (res.ok) {
-                Object.keys(cartItems).forEach(k => delete cartItems[k]);
-                renderCart();
-                closeCart();
-                alert(getI18nText('msg_order_accepted'));
-            } else {
-                throw new Error('API error');
-            }
-        } catch {
-            // Offline fallback
-            const saved = JSON.parse(localStorage.getItem('radcor_orders') || '[]');
-            saved.push({ items, total_price: totalPrice, created_at: new Date().toISOString(), status: 'Pending' });
-            localStorage.setItem('radcor_orders', JSON.stringify(saved));
-            Object.keys(cartItems).forEach(k => delete cartItems[k]);
-            renderCart();
-            closeCart();
-            alert(getI18nText('msg_order_saved_offline'));
+        } else {
+            alert(getI18nText('cart_empty', 'Корзина пуста.'));
         }
     });
 
