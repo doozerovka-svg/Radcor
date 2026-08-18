@@ -1,0 +1,7 @@
+.env
+dist/*.deb
+dist/*.tar.gz
+dist/*.zip
+dumps/*.dt
+dumps/*.cf
+dumps/*.epf

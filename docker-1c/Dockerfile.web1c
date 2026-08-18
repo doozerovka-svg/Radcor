@@ -1,0 +1,46 @@
+FROM ubuntu:22.04
+
+LABEL maintainer="Radcor Dev Team"
+LABEL description="Apache 2.4 Web Server for 1C:Enterprise Web Publication (OData / HTTP Services)"
+
+ENV DEBIAN_FRONTEND=noninteractive
+ENV LANG=ru_RU.UTF-8
+ENV LANGUAGE=ru_RU:ru
+ENV LC_ALL=ru_RU.UTF-8
+
+# Install Apache2 and runtime dependencies
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    apache2 \
+    locales \
+    tzdata \
+    netcat \
+    curl \
+    ca-certificates \
+    libgsf-1-114 \
+    libglib2.0-0 \
+    libxml2 \
+    && locale-gen ru_RU.UTF-8 \
+    && update-locale LANG=ru_RU.UTF-8 \
+    && rm -rf /var/lib/apt/lists/*
+
+# Configure Apache port 8080
+RUN sed -i 's/Listen 80/Listen 8080/' /etc/apache2/ports.conf
+
+# Directory for 1C deb distributions (WS and Common modules needed)
+WORKDIR /tmp/dist
+COPY ./dist/*.deb /tmp/dist/
+
+RUN if ls /tmp/dist/*.deb 1> /dev/null 2>&1; then \
+        dpkg -i /tmp/dist/*.deb || apt-get install -f -y; \
+        rm -rf /tmp/dist/*; \
+    else \
+        echo "WARNING: No .deb files found in ./dist during build."; \
+    fi
+
+COPY default.vrd /etc/1c/default.vrd
+COPY entrypoint-web.sh /usr/local/bin/entrypoint-web.sh
+RUN chmod +x /usr/local/bin/entrypoint-web.sh
+
+EXPOSE 8080
+
+ENTRYPOINT ["/usr/local/bin/entrypoint-web.sh"]

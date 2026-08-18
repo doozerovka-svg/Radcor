@@ -1,0 +1,57 @@
+FROM ubuntu:22.04
+
+LABEL maintainer="Radcor Dev Team"
+LABEL description="1C:Enterprise 8.3 Server with PostgreSQL Support"
+
+ENV DEBIAN_FRONTEND=noninteractive
+ENV LANG=ru_RU.UTF-8
+ENV LANGUAGE=ru_RU:ru
+ENV LC_ALL=ru_RU.UTF-8
+
+# Install system dependencies, fonts, and locales
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    locales \
+    tzdata \
+    netcat \
+    curl \
+    ca-certificates \
+    fontconfig \
+    libgsf-1-114 \
+    libglib2.0-0 \
+    libxml2 \
+    imagemagick \
+    unixodbc \
+    libenchant-2-2 \
+    && locale-gen ru_RU.UTF-8 \
+    && update-locale LANG=ru_RU.UTF-8 \
+    && rm -rf /var/lib/apt/lists/*
+
+# Create dedicated 1C system user and group
+RUN groupadd -r -g 999 grp1cv8 && \
+    useradd -r -u 999 -g grp1cv8 -m -d /home/usr1cv8 -s /bin/bash usr1cv8
+
+# Directory for 1C deb distributions
+WORKDIR /tmp/dist
+COPY ./dist/*.deb /tmp/dist/
+
+# Install 1C deb packages if provided, else output notification during build
+RUN if ls /tmp/dist/*.deb 1> /dev/null 2>&1; then \
+        dpkg -i /tmp/dist/*.deb || apt-get install -f -y; \
+        rm -rf /tmp/dist/*; \
+    else \
+        echo "WARNING: No .deb files found in ./dist during build. Make sure to place 1C deb packages in ./dist and rebuild."; \
+    fi
+
+WORKDIR /home/usr1cv8
+
+COPY entrypoint-server.sh /usr/local/bin/entrypoint-server.sh
+RUN chmod +x /usr/local/bin/entrypoint-server.sh
+
+# 1C Cluster ports:
+# 1540 - ragent (cluster agent)
+# 1541 - rmngr (cluster manager)
+# 1545 - ras (remote administration server)
+# 1560-1591 - rphost (working processes range)
+EXPOSE 1540 1541 1545 1560-1591
+
+ENTRYPOINT ["/usr/local/bin/entrypoint-server.sh"]

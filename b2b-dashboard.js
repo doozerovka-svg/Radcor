@@ -136,7 +136,7 @@
                     if (window.PRODUCTS_DATA && window.PRODUCTS_DATA.length > 0) {
                         products = window.PRODUCTS_DATA;
                     } else {
-                        const resp = await fetch('products.json?v=46.0');
+                        const resp = await fetch('products.json?v=47.0');
                         products = await resp.json();
                     }
 
@@ -184,7 +184,7 @@
         if (downloadExcelBtn) {
             downloadExcelBtn.onclick = async () => {
                 try {
-                    const resp = await fetch('products.json?v=46.0');
+                    const resp = await fetch('products.json?v=47.0');
                     const products = await resp.json();
                     
                     const discount = session.discount_pct || 0;

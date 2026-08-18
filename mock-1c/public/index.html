@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Панель управления 1С-Эмулятором (Radcor B2B)</title>
+  <style>
+    :root {
+      --bg: #0F172A;
+      --card-bg: #1E293B;
+      --border: #334155;
+      --accent: #F59E0B;
+      --accent-hover: #D97706;
+      --text: #F8FAFC;
+      --text-muted: #94A3B8;
+      --success: #10B981;
+      --danger: #EF4444;
+      --code-bg: #0B1120;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    body { background: var(--bg); color: var(--text); padding: 24px; min-height: 100vh; }
+    .container { max-width: 1200px; margin: 0 auto; }
+    
+    header { display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--border); padding-bottom: 20px; margin-bottom: 24px; }
+    .logo-badge { display: flex; align-items: center; gap: 12px; }
+    .badge-1c { background: #E11D48; color: white; font-weight: bold; padding: 6px 12px; border-radius: 6px; font-size: 14px; letter-spacing: 1px; }
+    .status-pill { display: inline-flex; align-items: center; gap: 6px; padding: 6px 14px; border-radius: 20px; background: rgba(16, 185, 129, 0.15); color: var(--success); font-size: 13px; font-weight: 600; border: 1px solid rgba(16, 185, 129, 0.3); }
+    .status-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--success); box-shadow: 0 0 8px var(--success); }
+
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; margin-bottom: 24px; }
+    .card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 8px; padding: 20px; }
+    .card-title { font-size: 13px; text-transform: uppercase; letter-spacing: 0.5px; color: var(--text-muted); margin-bottom: 8px; }
+    .card-val { font-size: 28px; font-weight: 700; color: #fff; }
+    .card-desc { font-size: 12px; color: var(--text-muted); margin-top: 4px; }
+
+    .section { background: var(--card-bg); border: 1px solid var(--border); border-radius: 8px; padding: 24px; margin-bottom: 24px; }
+    .section-title { font-size: 18px; font-weight: 600; margin-bottom: 16px; display: flex; align-items: center; justify-content: space-between; }
+    
+    .btn-group { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 16px; }
+    button, .btn-link {
+      background: #334155; color: #fff; border: 1px solid var(--border); padding: 8px 16px; border-radius: 6px;
+      font-size: 13px; font-weight: 600; cursor: pointer; text-decoration: none; display: inline-flex; align-items: center; gap: 6px;
+      transition: all 0.2s;
+    }
+    button:hover, .btn-link:hover { background: #475569; border-color: #64748B; }
+    button.primary { background: var(--accent); color: #000; border-color: var(--accent); }
+    button.primary:hover { background: var(--accent-hover); }
+    button.danger { background: var(--danger); border-color: var(--danger); }
+
+    .form-row { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; margin-top: 12px; }
+    input, select {
+      background: var(--code-bg); border: 1px solid var(--border); color: #fff; padding: 8px 12px; border-radius: 6px; font-size: 14px;
+    }
+    input:focus, select:focus { outline: none; border-color: var(--accent); }
+
+    pre {
+      background: var(--code-bg); border: 1px solid var(--border); padding: 14px; border-radius: 6px;
+      color: #38BDF8; font-family: monospace; font-size: 12px; max-height: 250px; overflow: auto; white-space: pre-wrap;
+    }
+
+    table { width: 100%; border-collapse: collapse; margin-top: 12px; }
+    th, td { text-align: left; padding: 12px; border-bottom: 1px solid var(--border); font-size: 13px; }
+    th { color: var(--text-muted); font-weight: 600; }
+    .badge { padding: 4px 8px; border-radius: 4px; font-size: 11px; font-weight: 600; }
+    .badge-new { background: rgba(245, 158, 11, 0.2); color: var(--accent); }
+    .badge-done { background: rgba(16, 185, 129, 0.2); color: var(--success); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo-badge">
+        <span class="badge-1c">1С MOCK SERVER</span>
+        <div>
+          <h1 style="font-size: 20px;">Эмулятор 1С:Предприятие 8.3</h1>
+          <p style="font-size: 12px; color: var(--text-muted);">Информационная база: radcor_1c (OData v4 &amp; CommerceML 2.08)</p>
+        </div>
+      </div>
+      <div class="status-pill">
+        <span class="status-dot"></span>
+        <span>СЕРВЕР АКТИВЕН (Port 5050)</span>
+      </div>
+    </header>
+
+    <div class="grid">
+      <div class="card">
+        <div class="card-title">Номенклатура в 1С</div>
+        <div class="card-val" id="valProducts">...</div>
+        <div class="card-desc">Позиций смазок и автохимии</div>
+      </div>
+      <div class="card">
+        <div class="card-title">Заказов в 1С</div>
+        <div class="card-val" id="valOrders">0</div>
+        <div class="card-desc">Документов «ЗаказКлиента»</div>
+      </div>
+      <div class="card">
+        <div class="card-title">Протокол обмена</div>
+        <div class="card-val" style="font-size: 20px; color: var(--accent);">CommerceML + OData</div>
+        <div class="card-desc">Сайт ↔ 1С двусторонний шлюз</div>
+      </div>
+    </div>
+
+    <!-- Endpoints Quick Test -->
+    <div class="section">
+      <div class="section-title">Быстрая проверка протоколов 1С</div>
+      <div class="btn-group">
+        <a href="/1c_exchange.php?mode=file&filename=import.xml" target="_blank" class="btn-link">📄 XML Каталог (import.xml)</a>
+        <a href="/1c_exchange.php?mode=file&filename=offers.xml" target="_blank" class="btn-link">💰 XML Цены и фасовки (offers.xml)</a>
+        <a href="/radcor/odata/standard.odata/Catalog_Номенклатура?$format=json" target="_blank" class="btn-link">🌐 OData: Номенклатура (JSON)</a>
+        <a href="/radcor/odata/standard.odata/InformationRegister_ЦеныНоменклатуры?$format=json" target="_blank" class="btn-link">🌐 OData: Цены (JSON)</a>
+        <button onclick="sendTestOrder()" class="primary">🛒 Отправить тестовый B2B-заказ</button>
+      </div>
+      <pre id="outputPreview">Выберите эндпоинт выше для просмотра данных или отправьте тестовый заказ.</pre>
+    </div>
+
+    <!-- Price Update Simulation -->
+    <div class="section">
+      <div class="section-title">Симуляция изменения цены в 1С</div>
+      <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 12px;">Измените цену товара в 1С, чтобы проверить синхронизацию с каталогом сайта.</p>
+      <div class="form-row">
+        <input type="text" id="simSku" placeholder="Артикул (напр. PW-1001-RED)" value="PW-1001-RED" style="width: 220px;">
+        <input type="text" id="simPack" placeholder="Pack ID (напр. pw-r-1)" value="pw-r-1" style="width: 160px;">
+        <input type="number" id="simPrice" placeholder="Новая цена MDL" value="29.50" style="width: 140px;">
+        <button onclick="updateSimPrice()" class="primary">Применить в 1С</button>
+      </div>
+    </div>
+
+    <!-- Orders Log -->
+    <div class="section">
+      <div class="section-title">
+        <span>Входящие документы «ЗаказКлиента»</span>
+        <button onclick="fetchData()">Обновить список</button>
+      </div>
+      <div style="overflow-x: auto;">
+        <table>
+          <thead>
+            <tr>
+              <th>Номер 1С</th>
+              <th>Дата / Время</th>
+              <th>Контрагент</th>
+              <th>Телефон</th>
+              <th>Сумма (MDL)</th>
+              <th>Статус в 1С</th>
+              <th>Действие</th>
+            </tr>
+          </thead>
+          <tbody id="ordersTableBody">
+            <tr><td colspan="7" style="color: var(--text-muted); text-align: center;">Пока нет входящих заказов</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    async function fetchData() {
+      try {
+        const healthRes = await fetch('/health');
+        const health = await healthRes.json();
+        document.getElementById('valProducts').textContent = health.productsCount;
+        document.getElementById('valOrders').textContent = health.ordersCount;
+
+        const ordersRes = await fetch('/api/1c/orders');
+        const ordersData = await ordersRes.json();
+        renderOrders(ordersData.data || []);
+      } catch (e) {
+        console.error('Fetch error:', e);
+      }
+    }
+
+    function renderOrders(orders) {
+      const tbody = document.getElementById('ordersTableBody');
+      if (!orders || orders.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="7" style="color: var(--text-muted); text-align: center; padding: 20px;">Заказов в 1С пока нет. Отправьте тестовый заказ кнопкой выше или оформите заказ на сайте.</td></tr>';
+        return;
+      }
+      tbody.innerHTML = orders.map(ord => `
+        <tr>
+          <td><strong>${ord.orderNo || ord.Number || '1C-Doc'}</strong></td>
+          <td>${new Date(ord.receivedAt || ord.Date || Date.now()).toLocaleTimeString()}</td>
+          <td>${ord.customer?.company || ord.Контрагент_Key || 'Radcor B2B Partner'}</td>
+          <td>${ord.customer?.phone || '-'}</td>
+          <td><strong>${Number(ord.total_price || ord.СуммаДокумента || 0).toFixed(2)} MDL</strong></td>
+          <td><span class="badge ${ord.status === 'Отгружен' ? 'badge-done' : 'badge-new'}">${ord.status || ord.Статус || 'Принят'}</span></td>
+          <td>
+            <select onchange="updateOrderStatus('${ord.orderNo || ord.Number}', this.value)" style="padding: 4px 8px; font-size: 12px;">
+              <option value="">Сменить статус...</option>
+              <option value="Согласован">Согласован</option>
+              <option value="Отгружен">Отгружен</option>
+              <option value="Оплачен">Оплачен</option>
+              <option value="Отменен">Отменен</option>
+            </select>
+          </td>
+        </tr>
+      `).join('');
+    }
+
+    async function sendTestOrder() {
+      const out = document.getElementById('outputPreview');
+      out.textContent = 'Отправка тестового заказа...';
+      try {
+        const res = await fetch('/api/1c/orders', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            company_name: 'AutoTrans Logistics SRL',
+            contact_person: 'Иван Морарь',
+            phone: '+373 69 123 456',
+            payment_method: 'invoice',
+            total_price: 3450.00,
+            items: [
+              { sku: 'PW-1001-RED', quantity: 10, price: 80, pack_id: 'pw-r-5' }
+            ]
+          })
+        });
+        const data = await res.json();
+        out.textContent = 'Успешно создан документ в 1С:\n' + JSON.stringify(data, null, 2);
+        fetchData();
+      } catch (err) {
+        out.textContent = 'Ошибка: ' + err.message;
+      }
+    }
+
+    async function updateSimPrice() {
+      const sku = document.getElementById('simSku').value.trim();
+      const pack_id = document.getElementById('simPack').value.trim();
+      const new_price = document.getElementById('simPrice').value;
+      const out = document.getElementById('outputPreview');
+
+      try {
+        const res = await fetch('/api/control/update-price', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ sku, pack_id, new_price })
+        });
+        const data = await res.json();
+        out.textContent = 'Цена в 1С успешно обновлена:\n' + JSON.stringify(data, null, 2);
+      } catch (e) {
+        out.textContent = 'Ошибка обновления: ' + e.message;
+      }
+    }
+
+    async function updateOrderStatus(orderNo, status) {
+      if (!status) return;
+      await fetch('/api/control/update-order-status', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ orderNo, status })
+      });
+      fetchData();
+    }
+
+    fetchData();
+    setInterval(fetchData, 4000);
+  </script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+version: '3.8'
+
+services:
+  # -------------------------------------------------------------
+  # 1. PostgreSQL Database optimized for 1C:Enterprise
+  # -------------------------------------------------------------
+  db:
+    image: postgres:14-bullseye
+    container_name: radcor_1c_db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${DB_USER:-postgres}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-postgres}
+      POSTGRES_DB: ${DB_NAME:-radcor_1c}
+      POSTGRES_INITDB_ARGS: "--locale=ru_RU.UTF-8 --encoding=UTF8"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./init-postgres.sql:/docker-entrypoint-initdb.d/init-postgres.sql:ro
+    ports:
+      - "${DB_PORT:-5432}:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${DB_USER:-postgres}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - radcor-1c-network
+
+  # -------------------------------------------------------------
+  # 2. 1C:Enterprise 8.3 Server Cluster
+  # -------------------------------------------------------------
+  server1c:
+    build:
+      context: .
+      dockerfile: Dockerfile.server1c
+    container_name: radcor_1c_server
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      DB_HOST: db
+      DB_PORT: 5432
+      DB_NAME: ${DB_NAME:-radcor_1c}
+      DB_USER: ${DB_USER:-postgres}
+      DB_PASSWORD: ${DB_PASSWORD:-postgres}
+      ONEC_PORT: 1540
+      ONEC_REGPORT: 1541
+      ONEC_RANGE: 1560:1591
+      RAS_PORT: 1545
+      ONEC_IB_NAME: ${ONEC_IB_NAME:-radcor}
+    volumes:
+      - onec_data:/home/usr1cv8/.1cv8
+      - onec_logs:/var/log/1C
+      - ./dumps:/opt/1c-dumps
+      - ./dist:/tmp/dist:ro
+    ports:
+      - "1540:1540"       # 1C ragent
+      - "1541:1541"       # 1C rmngr
+      - "1545:1545"       # 1C ras
+      - "1560-1591:1560-1591" # 1C rphost range
+    networks:
+      - radcor-1c-network
+
+  # -------------------------------------------------------------
+  # 3. Apache 2.4 Web Server (Web Client, OData, HTTP Services)
+  # -------------------------------------------------------------
+  web1c:
+    build:
+      context: .
+      dockerfile: Dockerfile.web1c
+    container_name: radcor_1c_web
+    restart: unless-stopped
+    depends_on:
+      - server1c
+    environment:
+      ONEC_SERVER_HOST: server1c
+      ONEC_REGPORT: 1541
+      ONEC_IB_NAME: ${ONEC_IB_NAME:-radcor}
+    volumes:
+      - ./default.vrd:/etc/1c/default.vrd:ro
+      - ./dist:/tmp/dist:ro
+    ports:
+      - "${WEB_PORT:-8080}:8080"
+    networks:
+      - radcor-1c-network
+
+volumes:
+  pgdata:
+    name: radcor_1c_pgdata
+  onec_data:
+    name: radcor_1c_cluster_data
+  onec_logs:
+    name: radcor_1c_logs
+
+networks:
+  radcor-1c-network:
+    name: radcor_1c_net
+    driver: bridge
