@@ -10,7 +10,7 @@ const vm = require('vm');
 const crypto = require('crypto');
 
 const ROOT_DIR = 'c:/Users/DenCrut/Documents/radcor.md';
-const EXPECTED_VERSION = '?v=49.0';
+const EXPECTED_VERSION = '?v=50.0';
 const HTML_PAGES = [
   'index.html', 'catalog.html', 'service.html', 'delivery.html',
   'returns.html', 'guides.html', 'faq.html', 'contacts.html',

@@ -5,7 +5,7 @@
     "category": "coolants",
     "brand": "Polar Way",
     "color": "Красный",
-    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
+    "photo_url": "images/products/coolants/pw-1001-red.jpg",
     "volumes": [
       1,
       5,
@@ -44,7 +44,7 @@
     "category": "coolants",
     "brand": "Polar Way",
     "color": "Зелёный",
-    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
+    "photo_url": "images/products/coolants/pw-1001-grn.jpg",
     "volumes": [
       1,
       5,
@@ -83,7 +83,7 @@
     "category": "coolants",
     "brand": "Polar Way",
     "color": "Синий",
-    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
+    "photo_url": "images/products/coolants/pw-1001-blu.png",
     "volumes": [
       1,
       5,
@@ -122,7 +122,7 @@
     "category": "coolants",
     "brand": "Полярник",
     "color": "Красный",
-    "photo_url": "https://tosol-sintez.ru/uploads/catalog/polyarnik-red-12.jpg",
+    "photo_url": "images/products/coolants/pol-1001-red.jpg",
     "volumes": [
       1,
       3,
@@ -168,7 +168,7 @@
     "category": "coolants",
     "brand": "Полярник",
     "color": "Зелёный",
-    "photo_url": "https://tosol-sintez.ru/uploads/catalog/polyarnik-green-11.jpg",
+    "photo_url": "images/products/coolants/pol-1001-grn.png",
     "volumes": [
       1,
       3,
@@ -214,7 +214,7 @@
     "category": "coolants",
     "brand": "Полярник",
     "color": "Синий",
-    "photo_url": "https://tosol-sintez.ru/uploads/catalog/polyarnik-tosol-40.jpg",
+    "photo_url": "images/products/coolants/pol-1001-blu.jpg",
     "volumes": [
       1,
       3,
@@ -260,7 +260,7 @@
     "category": "coolants",
     "brand": "Дзержинский",
     "color": "Красный",
-    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
+    "photo_url": "images/products/coolants/dz-1001-red.jpg",
     "volumes": [
       1,
       5,
@@ -299,7 +299,7 @@
     "category": "coolants",
     "brand": "Дзержинский",
     "color": "Зелёный",
-    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
+    "photo_url": "images/products/coolants/dz-1001-grn.jpg",
     "volumes": [
       1,
       5,
@@ -338,7 +338,7 @@
     "category": "coolants",
     "brand": "Дзержинский",
     "color": "Синий",
-    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
+    "photo_url": "images/products/coolants/dz-1001-blu.jpg",
     "volumes": [
       1,
       5,
@@ -376,7 +376,7 @@
     "name": "Antifreeze Полярник Жёлтый (Galben)",
     "category": "coolants",
     "brand": "Полярник",
-    "photo_url": "https://tosol-sintez.ru/uploads/catalog/polyarnik-tosol-40.jpg",
+    "photo_url": "images/products/coolants/pol-1002.png",
     "volumes": [
       1,
       5,
@@ -553,7 +553,7 @@
     "name": "FELIX ENERGY G12+ (Жёлтый)",
     "category": "coolants",
     "brand": "Felix",
-    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
+    "photo_url": "images/products/felix/flx-g12-ylw.png",
     "volumes": [
       1,
       5,
@@ -640,7 +640,7 @@
     "name": "FELIX JDM G12++ (Зелёный)",
     "category": "coolants",
     "brand": "Felix",
-    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
+    "photo_url": "images/products/felix/flx-jdm-grn.png",
     "volumes": [
       1,
       5
@@ -677,7 +677,7 @@
     "name": "FELIX JDM PINK G12++ (Розовый)",
     "category": "coolants",
     "brand": "Felix",
-    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
+    "photo_url": "images/products/felix/flx-jdm-pnk.jpg",
     "volumes": [
       1,
       5
@@ -714,7 +714,7 @@
     "name": "FELIX Type-D G12+ (Жёлтый)",
     "category": "coolants",
     "brand": "Felix",
-    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
+    "photo_url": "images/products/felix/flx-typd-ylw.png",
     "volumes": [
       1,
       5
@@ -751,7 +751,7 @@
     "name": "FELIX EVO (Фиолетово-розовый)",
     "category": "coolants",
     "brand": "Felix",
-    "photo_url": "https://felix-auto.ru/upload/iblock/c34/c34b17f8a7e5df07d10e53a3efee7db4.png",
+    "photo_url": "images/products/felix/flx-evo-prp.jpg",
     "volumes": [
       1,
       5
@@ -788,7 +788,7 @@
     "name": "FELIX Dragon G12+",
     "category": "coolants",
     "brand": "Felix",
-    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
+    "photo_url": "images/products/felix/flx-drg-red.png",
     "volumes": [
       1,
       5
@@ -825,7 +825,7 @@
     "name": "FELIX EVOLT ELECTRIC CAR",
     "category": "coolants",
     "brand": "Felix",
-    "photo_url": "https://felix-auto.ru/upload/iblock/615/615ca79e49eeebbc6ec81ebfbcbcbe87.png",
+    "photo_url": "images/products/felix/flx-evolt-ev.jpg",
     "volumes": [
       1,
       5
@@ -862,7 +862,7 @@
     "name": "FELIX Carbox SQ G12+ Special for Trucks (Красный)",
     "category": "coolants",
     "brand": "Felix",
-    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
+    "photo_url": "images/products/felix/flx-sq-trk.png",
     "volumes": [
       10,
       20,
@@ -910,7 +910,7 @@
     "name": "FELIX -35 EURO (Тосол)",
     "category": "coolants",
     "brand": "Felix",
-    "photo_url": "https://felix-auto.ru/upload/iblock/785/785e2b0270a6c6e7a25a0a38f32ce761.png",
+    "photo_url": "images/products/felix/flx-tosol-35.jpg",
     "volumes": [
       1,
       3,
@@ -972,7 +972,7 @@
     "name": "Тормозная жидкость ADV DOT 4",
     "category": "brake-fluids",
     "brand": "ADV",
-    "photo_url": "https://felix-auto.ru/upload/iblock/0e3/0e3860086bc1149449272fa5d6ee9aa2.png",
+    "photo_url": "images/products/brakefluids/adv-dot4.jpg",
     "volumes": [
       0.38,
       0.75
@@ -1003,7 +1003,7 @@
     "name": "Тормозная жидкость FOX ДОТ-4",
     "category": "brake-fluids",
     "brand": "FOX",
-    "photo_url": "https://felix-auto.ru/upload/iblock/0e3/0e3860086bc1149449272fa5d6ee9aa2.png",
+    "photo_url": "images/products/brakefluids/fox-dot4.jpg",
     "volumes": [
       0.4,
       0.75
@@ -1034,7 +1034,7 @@
     "name": "Тормозная жидкость MOL DOT 4+",
     "category": "brake-fluids",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
+    "photo_url": "images/products/mol/mol_mol-dot4plus.jpg",
     "volumes": [
       0.5
     ],
@@ -1063,7 +1063,7 @@
     "name": "Тормозная жидкость MOL DOT 5.1",
     "category": "brake-fluids",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
+    "photo_url": "images/products/mol/mol_mol-dot51.jpg",
     "volumes": [
       0.5
     ],
@@ -1092,7 +1092,7 @@
     "name": "MOL ATF Synt TWS",
     "category": "transmission-oils",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/hajtomuolajok/1L_MOL_ATF_Synt_TWS.jpg",
+    "photo_url": "images/products/mol/mol_mol-1001.jpg",
     "volumes": [
       1
     ],
@@ -1123,7 +1123,7 @@
     "name": "MOL ATF Synt 3H",
     "category": "transmission-oils",
     "brand": "MOL",
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_mol-1001.jpg",
     "volumes": [
       1
     ],
@@ -1154,7 +1154,7 @@
     "name": "MOL ATF Synt",
     "category": "transmission-oils",
     "brand": "MOL",
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_mol-1001.jpg",
     "volumes": [
       10
     ],
@@ -1185,7 +1185,7 @@
     "name": "MOL Dynamic Max 10W-40",
     "category": "motor-oils-pkw",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md//images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Max_10W-40.jpg",
+    "photo_url": "images/products/mol/mol_mol-1004.jpg",
     "volumes": [
       1,
       4,
@@ -1237,7 +1237,7 @@
     "name": "MOL Essence C3 5W-40",
     "category": "motor-oils-pkw",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md//images/mol_hu/lub/autosok/motorolajok/1L_MOl_Essence_C3_5W-40_persp_w.jpg",
+    "photo_url": "images/products/mol/mol_mol-1005.jpg",
     "volumes": [
       1,
       4,
@@ -1289,7 +1289,7 @@
     "name": "MOL Dynamic Gold HEV 0W-20",
     "category": "motor-oils-pkw",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Gold_HEV_0W-20.jpg",
+    "photo_url": "images/products/mol/mol_mol-1006.jpg",
     "volumes": [
       1,
       4
@@ -1327,7 +1327,7 @@
     "name": "EVOX Ultra Plus concentrate",
     "category": "coolants",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/fagyallo_hutofolyadek/evox_ultra_plus_conc_1l.png",
+    "photo_url": "images/products/mol/mol_mol-1008.png",
     "volumes": [
       1,
       4,
@@ -1379,7 +1379,7 @@
     "name": "MOL DOT 3",
     "category": "brake-fluids",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/fekfolyadekok/mol_dot_3_side.jpg",
+    "photo_url": "images/products/mol/mol_mol-1009.jpg",
     "volumes": [
       1,
       4,
@@ -1431,7 +1431,7 @@
     "name": "MOL Dynamic Gold Longlife 5W-30",
     "category": "motor-oils-pkw",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Gold_Longlife_5W-30.jpg",
+    "photo_url": "images/products/mol/mol_mol-1011.jpg",
     "volumes": [
       1,
       4,
@@ -1497,7 +1497,7 @@
     "name": "MOL ATF 3G",
     "category": "transmission-oils",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/hajtomuolajok/1L_MOL_ATF_3G.jpg",
+    "photo_url": "images/products/mol/mol_mol-1012.jpg",
     "volumes": [
       1,
       55,
@@ -1542,7 +1542,7 @@
     "name": "MOL EVOX Winter Apple Cinnamon -40",
     "category": "screenwash",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/szelvedomoso/3l_mol_evox_apple_cinnamon_winter_screenwash.jpg",
+    "photo_url": "images/products/mol/mol_mol-1014.jpg",
     "volumes": [
       1,
       4,
@@ -1589,7 +1589,7 @@
     "name": "MOL AdBlue®",
     "category": "adblue",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/adblue/adblue_5l.jpg",
+    "photo_url": "images/products/mol/mol_mol-1015.jpg",
     "volumes": [
       5,
       10
@@ -1628,7 +1628,7 @@
     "name": "MOL EVOX 4 Season -10",
     "category": "screenwash",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md//images/mol_hu/lub/szallitmanyozas/szelvedomoso/2l_mol_evox_4season.jpg",
+    "photo_url": "images/products/mol/mol_mol-1016.jpg",
     "volumes": [
       1,
       4,
@@ -1675,7 +1675,7 @@
     "name": "MOL EVOX Extra concentrate",
     "category": "coolants",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/products/mol_evox_extra_concentrate.jpg",
+    "photo_url": "images/products/mol/mol_mol-1008.png",
     "volumes": [
       1,
       4,
@@ -1727,7 +1727,7 @@
     "name": "MOL Dynamic Gold Longlife 0W-20",
     "category": "motor-oils-pkw",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Gold_Longlife_0W-20_web.jpg",
+    "photo_url": "images/products/mol/mol_mol-1018.jpg",
     "volumes": [
       1,
       5
@@ -1765,7 +1765,7 @@
     "name": "MOL Dynamic Star VL 0W-20",
     "category": "motor-oils-pkw",
     "brand": "MOL",
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_mol-1018.jpg",
     "volumes": [
       1
     ],
@@ -1796,7 +1796,7 @@
     "name": "MOL Hykomol K 80W-90",
     "category": "transmission-oils",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/hajtomuolajok/1L_MOL_Hykomol_K_80W-90.jpg",
+    "photo_url": "images/products/mol/mol_mol-1020.jpg",
     "volumes": [
       1,
       4,
@@ -1862,7 +1862,7 @@
     "name": "MOL EVOX Ice Spray",
     "category": "screenwash",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/szelvedomoso/MOL_EVOX_Ice-spray.png",
+    "photo_url": "images/products/mol/mol_mol-1021.png",
     "volumes": [
       1,
       4,
@@ -1909,7 +1909,7 @@
     "name": "MOL Dynamic Gold DX 0W-20",
     "category": "motor-oils-pkw",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Gold_DX_0W-20.jpg",
+    "photo_url": "images/products/mol/mol_mol-1022.jpg",
     "volumes": [
       1,
       4
@@ -1947,7 +1947,7 @@
     "name": "MOL Dynamic Star PC 0W-30",
     "category": "motor-oils-pkw",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1l_mol_dynamic_star_pc_0w-30_resized.png",
+    "photo_url": "images/products/mol/mol_mol-1023.png",
     "volumes": [
       1
     ],
@@ -1978,7 +1978,7 @@
     "name": "MOL EVOX Summer White tea & Ginger",
     "category": "screenwash",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md//images/mol_hu/lub/szallitmanyozas/szelvedomoso/3L_MOL_EVOX_White%20tea%20&%20Ginger_Summer_screenwash.jpg",
+    "photo_url": "images/products/mol/mol_mol-1024.jpg",
     "volumes": [
       1,
       4,
@@ -2025,7 +2025,7 @@
     "name": "MOL Botond 20W-50",
     "category": "motor-oils-pkw",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Botond_20W-50.jpg",
+    "photo_url": "images/products/mol/mol_mol-1025.jpg",
     "volumes": [
       1,
       4
@@ -2063,7 +2063,7 @@
     "name": "MOL Hykomol 80W-90",
     "category": "transmission-oils",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/hajtomuolajok/4L_MOL_Hykomol_80W-90_.jpg",
+    "photo_url": "images/products/mol/mol_mol-1027.jpg",
     "volumes": [
       1,
       4,
@@ -2115,7 +2115,7 @@
     "name": "MOL EVOX Winter Raspberry Mint -30",
     "category": "screenwash",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/szelvedomoso/3L_MOL_EVOX_Winter_Raspberry_Mint_screenwash.jpg",
+    "photo_url": "images/products/mol/mol_mol-1029.jpg",
     "volumes": [
       1,
       4,
@@ -2162,7 +2162,7 @@
     "name": "MOL Essence 10W-40",
     "category": "motor-oils-pkw",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Essence_10W-40.jpg",
+    "photo_url": "images/products/mol/mol_mol-1030.jpg",
     "volumes": [
       1,
       4
@@ -2200,7 +2200,7 @@
     "name": "MOL Dynamic Synt RN17 5W-30",
     "category": "motor-oils-pkw",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Synt_RN17_5W-30.jpg",
+    "photo_url": "images/products/mol/mol_mol-1031.jpg",
     "volumes": [
       1,
       4,
@@ -2252,7 +2252,7 @@
     "name": "MOL DOT 5.1",
     "category": "brake-fluids",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/fekfolyadekok/mol_dot_5_side.jpg",
+    "photo_url": "images/products/mol/mol_mol-1034.jpg",
     "volumes": [
       1,
       4,
@@ -2304,7 +2304,7 @@
     "name": "MOL Dynamic Star PC 5W-30",
     "category": "motor-oils-pkw",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Star_PC_5W-30.jpg",
+    "photo_url": "images/products/mol/mol_mol-1035.jpg",
     "volumes": [
       1,
       4
@@ -2342,7 +2342,7 @@
     "name": "MOL Hykomol Synt 75W-90",
     "category": "transmission-oils",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/hajtomuolajok/1L_MOL_Hykomol_Synt_75W-90.jpg",
+    "photo_url": "images/products/mol/mol_mol-1036.jpg",
     "volumes": [
       1,
       10,
@@ -2401,7 +2401,7 @@
     "name": "MOL Dynamic Transit 10W-40",
     "category": "motor-oils-lkw",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/motorolajok/1L_MOL_Dynamic_Transit_10W-40.jpg",
+    "photo_url": "images/products/mol/mol_mol-1037.jpg",
     "volumes": [
       1,
       4,
@@ -2467,7 +2467,7 @@
     "name": "MOL Dynamic Synt RN 5W-30",
     "category": "motor-oils-pkw",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Synt_RN_5W-30.jpg",
+    "photo_url": "images/products/mol/mol_mol-1040.jpg",
     "volumes": [
       1,
       4,
@@ -2512,7 +2512,7 @@
     "name": "EVOX Premium concentrate",
     "category": "coolants",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/products/mol_evox_premium_g30.jpg",
+    "photo_url": "images/products/mol/mol_mol-1008.png",
     "volumes": [
       1,
       4,
@@ -2564,7 +2564,7 @@
     "name": "MOL Arol 2T",
     "category": "moto-oils",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/05_arol_2t.jpg",
+    "photo_url": "images/products/mol/mol_mol-1042.jpg",
     "volumes": [
       0.5,
       196
@@ -2602,7 +2602,7 @@
     "name": "MOL Dynamic Gold DX 5W-30",
     "category": "motor-oils-pkw",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Gold_DX_5W-30-nnn.jpg",
+    "photo_url": "images/products/mol/mol_mol-1043.jpg",
     "volumes": [
       1
     ],
@@ -2633,7 +2633,7 @@
     "name": "MOL ATF 3H AP",
     "category": "transmission-oils",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/hajtomuolajok/1LMOL_ATF_3H_AP.jpg",
+    "photo_url": "images/products/mol/mol_mol-1044.jpg",
     "volumes": [
       1,
       56
@@ -2671,7 +2671,7 @@
     "name": "MOL Essence Longlife 5W-30",
     "category": "motor-oils-pkw",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md//images/mol_hu/lub/autosok/motorolajok/1L_MOL_Essence_Longlife_5W-30_persp_w.jpg",
+    "photo_url": "images/products/mol/mol_mol-1046.jpg",
     "volumes": [
       4,
       20
@@ -2709,7 +2709,7 @@
     "name": "MOL Dynamic Star F 0W-30",
     "category": "motor-oils-pkw",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/dynamic_star_f0w_30_1L.jpg",
+    "photo_url": "images/products/mol/mol_mol-1047.jpg",
     "volumes": [
       1
     ],
@@ -2740,7 +2740,7 @@
     "name": "MOL ATF",
     "category": "transmission-oils",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/hajtomuolajok/1L_MOL_ATF.jpg",
+    "photo_url": "images/products/mol/mol_mol-1048.jpg",
     "volumes": [
       1,
       4,
@@ -2799,7 +2799,7 @@
     "name": "MOL Hykomol K 85W-90",
     "category": "transmission-oils",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/hajtomuolajok/4L_MOL_Hykomol_80W-90_.jpg",
+    "photo_url": "images/products/mol/mol_mol-1049.jpg",
     "volumes": [
       1
     ],
@@ -2830,7 +2830,7 @@
     "name": "MOL Dynamic Star 5W-30",
     "category": "motor-oils-pkw",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Star_5W-30.jpg",
+    "photo_url": "images/products/mol/mol_mol-1050.jpg",
     "volumes": [
       1,
       4,
@@ -2882,7 +2882,7 @@
     "name": "MOL EVOX Extra ready -35",
     "category": "coolants",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/products/mol_evox_extra_concentrate.jpg",
+    "photo_url": "images/products/mol/mol_mol-1008.png",
     "volumes": [
       4
     ],
@@ -2913,7 +2913,7 @@
     "name": "MOL Dynamic Gold 5W-30",
     "category": "motor-oils-pkw",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Gold_5W-30-nnn.jpg",
+    "photo_url": "images/products/mol/mol_mol-1052.jpg",
     "volumes": [
       1,
       4,
@@ -2965,7 +2965,7 @@
     "name": "MOL DOT 4+",
     "category": "brake-fluids",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/fekfolyadekok/mol_dot_4_side.jpg",
+    "photo_url": "images/products/mol/mol_mol-1054.jpg",
     "volumes": [
       1,
       4,
@@ -3017,7 +3017,7 @@
     "name": "MOL MSE 15W-40",
     "category": "motor-oils-pkw",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_MSE_15W-40.jpg",
+    "photo_url": "images/products/mol/mol_mol-1055.jpg",
     "volumes": [
       1,
       4
@@ -3055,7 +3055,7 @@
     "name": "MOL Evox Summer Citrus Breeze",
     "category": "screenwash",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md//images/mol_hu/lub/szallitmanyozas/szelvedomoso/2L_MOL_EVOX_Citrus_Breeze_Summer_screenwash.jpg",
+    "photo_url": "images/products/mol/mol_mol-1058.jpg",
     "volumes": [
       1,
       4,
@@ -3102,7 +3102,7 @@
     "name": "MOL Engine Flush PRO",
     "category": "accessories",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/egyeb/350ml_MOL_Engine_Flush_Pro.jpg",
+    "photo_url": "images/products/mol/mol_mol-1059.jpg",
     "volumes": [
       1,
       4,
@@ -3149,7 +3149,7 @@
     "name": "MOL Dynamic Gold Longlife 0W-30",
     "category": "motor-oils-pkw",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Gold Longlife_0W-30_web.jpg",
+    "photo_url": "images/products/mol/mol_mol-1061.jpg",
     "volumes": [
       1
     ],
@@ -3180,7 +3180,7 @@
     "name": "MOL Hykomol K 85W-140",
     "category": "transmission-oils",
     "brand": "MOL",
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_mol-1020.jpg",
     "volumes": [
       1,
       10,
@@ -3232,7 +3232,7 @@
     "name": "MOL CVT Fluid",
     "category": "transmission-oils",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1l_mol_cvt_fluid.jpg",
+    "photo_url": "images/products/mol/mol_mol-1066.jpg",
     "volumes": [
       1
     ],
@@ -3263,7 +3263,7 @@
     "name": "EVOX Terminator",
     "category": "screenwash",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/szelvedomoso/evox_terminator_bug_spray_172x455.jpg",
+    "photo_url": "images/products/mol/mol_mol-1069.jpg",
     "volumes": [
       1,
       4,
@@ -3310,7 +3310,7 @@
     "name": "MOL Dynamic Gold DX 5W-20",
     "category": "motor-oils-pkw",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Gold_DX_5W-20.jpg",
+    "photo_url": "images/products/mol/mol_mol-1070.jpg",
     "volumes": [
       1
     ],
@@ -3341,7 +3341,7 @@
     "name": "MOL EcoClean-S",
     "category": "accessories",
     "brand": "MOL",
-    "photo_url": "",
+    "photo_url": "images/products/mol-alycol-screenwash.png",
     "volumes": [
       1,
       4,
@@ -3409,7 +3409,7 @@
     "name": "MOL Evox Winter Citrus Breeze -30",
     "category": "screenwash",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/szelvedomoso/mol_evox_winter_citrus_breeze_-30.jpg",
+    "photo_url": "images/products/mol/mol_mol-1075.jpg",
     "volumes": [
       1,
       4,
@@ -3456,7 +3456,7 @@
     "name": "MOL Hykomol Syntrans 75W-80",
     "category": "transmission-oils",
     "brand": "MOL",
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_mol-1020.jpg",
     "volumes": [
       10
     ],
@@ -3487,7 +3487,7 @@
     "name": "MOL DSG / DCT Fluid",
     "category": "transmission-oils",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1l_mol_dsg-dct_fluid.jpg",
+    "photo_url": "images/products/mol/mol_mol-1077.jpg",
     "volumes": [
       1
     ],
@@ -3518,7 +3518,7 @@
     "name": "MOL Essence 5W-30",
     "category": "motor-oils-pkw",
     "brand": "MOL",
-    "photo_url": "https://www.mol.com/o/MOL_Public_Content/images/products/mol-essence-5w30.png",
+    "photo_url": "images/products/mol/mol_mol-1005.jpg",
     "volumes": [
       1,
       4,
@@ -3570,7 +3570,7 @@
     "name": "MOL Essence DPF 5W-30",
     "category": "motor-oils-pkw",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
+    "photo_url": "images/products/mol/mol_mol-dyn-ess-c2-5w30.jpg",
     "volumes": [
       1,
       4
@@ -3608,7 +3608,7 @@
     "name": "MOL Essence Diesel 5W-40",
     "category": "motor-oils-pkw",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
+    "photo_url": "images/products/mol/mol_mol-dyn-ess-dsl-5w40.jpg",
     "volumes": [
       1,
       4
@@ -3646,7 +3646,7 @@
     "name": "MOL Essence 5W-40",
     "category": "motor-oils-pkw",
     "brand": "MOL",
-    "photo_url": "https://www.mol.com/o/MOL_Public_Content/images/products/mol-essence-5w30.png",
+    "photo_url": "images/products/mol/mol_mol-1005.jpg",
     "volumes": [
       1,
       4,
@@ -3698,7 +3698,7 @@
     "name": "MOL Dynamic Gold NG 0W-20",
     "category": "motor-oils-pkw",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
+    "photo_url": "images/products/mol/mol_mol-dyn-star-0w20.jpg",
     "volumes": [
       1
     ],
@@ -3729,7 +3729,7 @@
     "name": "MOL Essence Diesel 10W-40",
     "category": "motor-oils-pkw",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
+    "photo_url": "images/products/mol/mol_mol-dyn-ess-dsl-10w40.jpg",
     "volumes": [
       1,
       4
@@ -3767,7 +3767,7 @@
     "name": "MOL Dynamic Turbo Diesel 15W-40",
     "category": "motor-oils-lkw",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
+    "photo_url": "images/products/mol/mol_mol-turbo-dsl-15w40.jpg",
     "volumes": [
       1,
       4,
@@ -3826,7 +3826,7 @@
     "name": "MOL Essence 15W-40",
     "category": "motor-oils-pkw",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
+    "photo_url": "images/products/mol/mol_mol-dyn-ess-15w40.jpg",
     "volumes": [
       1,
       4,
@@ -3871,7 +3871,7 @@
     "name": "MOL Liton 00 GM",
     "category": "greases",
     "brand": "MOL",
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_mol-liton-lt-2ep-0375.jpg",
     "volumes": [
       7
     ],
@@ -3900,7 +3900,7 @@
     "name": "Освежитель Wunder-Baum Елочка Arctic White",
     "category": "air-fresheners",
     "brand": "Wunder-Baum",
-    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "photo_url": "images/products/wunderbaum/wb_wb-tree-001.jpg",
     "volumes": [
       1
     ],
@@ -3924,7 +3924,7 @@
     "name": "Освежитель Wunder-Baum Елочка Berry Burst",
     "category": "air-fresheners",
     "brand": "Wunder-Baum",
-    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "photo_url": "images/products/wunderbaum/wb_wb-tree-002.jpg",
     "volumes": [
       1
     ],
@@ -3948,7 +3948,7 @@
     "name": "Освежитель Wunder-Baum Елочка Black Ice",
     "category": "air-fresheners",
     "brand": "Wunder-Baum",
-    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "photo_url": "images/products/wunderbaum/wb_wb-tree-003.jpg",
     "volumes": [
       1
     ],
@@ -3972,7 +3972,7 @@
     "name": "Освежитель Wunder-Baum Елочка Bubble Gum",
     "category": "air-fresheners",
     "brand": "Wunder-Baum",
-    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "photo_url": "images/products/wunderbaum/wb_wb-tree-004.jpg",
     "volumes": [
       1
     ],
@@ -3996,7 +3996,7 @@
     "name": "Освежитель Wunder-Baum Елочка Cafe",
     "category": "air-fresheners",
     "brand": "Wunder-Baum",
-    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "photo_url": "images/products/wunderbaum/wb_wb-tree-005.jpg",
     "volumes": [
       1
     ],
@@ -4020,7 +4020,7 @@
     "name": "Освежитель Wunder-Baum Елочка Daisy Chain",
     "category": "air-fresheners",
     "brand": "Wunder-Baum",
-    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "photo_url": "images/products/wunderbaum/wb_wb-tree-006.jpg",
     "volumes": [
       1
     ],
@@ -4044,7 +4044,7 @@
     "name": "Освежитель Wunder-Baum Елочка Erdbeeren (Клубника)",
     "category": "air-fresheners",
     "brand": "Wunder-Baum",
-    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "photo_url": "images/products/wunderbaum/wb_wb-tree-007.jpg",
     "volumes": [
       1
     ],
@@ -4068,7 +4068,7 @@
     "name": "Освежитель Wunder-Baum Елочка Everfresh",
     "category": "air-fresheners",
     "brand": "Wunder-Baum",
-    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "photo_url": "images/products/wunderbaum/wb_wb-tree-008.jpg",
     "volumes": [
       1
     ],
@@ -4092,7 +4092,7 @@
     "name": "Освежитель Wunder-Baum Елочка Fizzy Limonade",
     "category": "air-fresheners",
     "brand": "Wunder-Baum",
-    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "photo_url": "images/products/wunderbaum/wb_wb-tree-009.jpg",
     "volumes": [
       1
     ],
@@ -4116,7 +4116,7 @@
     "name": "Освежитель Wunder-Baum Елочка Frosted Pine",
     "category": "air-fresheners",
     "brand": "Wunder-Baum",
-    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "photo_url": "images/products/wunderbaum/wb_wb-tree-010.jpg",
     "volumes": [
       1
     ],
@@ -4140,7 +4140,7 @@
     "name": "Освежитель Wunder-Baum Елочка Fruhling",
     "category": "air-fresheners",
     "brand": "Wunder-Baum",
-    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "photo_url": "images/products/wunderbaum/wb_wb-tree-011.jpg",
     "volumes": [
       1
     ],
@@ -4164,7 +4164,7 @@
     "name": "Освежитель Wunder-Baum Елочка Gruner Apfel (Зеленое Яблоко)",
     "category": "air-fresheners",
     "brand": "Wunder-Baum",
-    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "photo_url": "images/products/wunderbaum/wb_wb-tree-012.jpg",
     "volumes": [
       1
     ],
@@ -4188,7 +4188,7 @@
     "name": "Освежитель Wunder-Baum Елочка Jungle Fever",
     "category": "air-fresheners",
     "brand": "Wunder-Baum",
-    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "photo_url": "images/products/wunderbaum/wb_wb-tree-013.jpg",
     "volumes": [
       1
     ],
@@ -4212,7 +4212,7 @@
     "name": "Освежитель Wunder-Baum Елочка Kirsche (Вишня)",
     "category": "air-fresheners",
     "brand": "Wunder-Baum",
-    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "photo_url": "images/products/wunderbaum/wb_wb-tree-014.jpg",
     "volumes": [
       1
     ],
@@ -4236,7 +4236,7 @@
     "name": "Освежитель Wunder-Baum Елочка Kokosnuss (Кокос)",
     "category": "air-fresheners",
     "brand": "Wunder-Baum",
-    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "photo_url": "images/products/wunderbaum/wb_wb-tree-015.jpg",
     "volumes": [
       1
     ],
@@ -4260,7 +4260,7 @@
     "name": "Освежитель Wunder-Baum Елочка Leather (Кожа)",
     "category": "air-fresheners",
     "brand": "Wunder-Baum",
-    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "photo_url": "images/products/wunderbaum/wb_wb-tree-016.jpg",
     "volumes": [
       1
     ],
@@ -4284,7 +4284,7 @@
     "name": "Освежитель Wunder-Baum Елочка Mai-Tai",
     "category": "air-fresheners",
     "brand": "Wunder-Baum",
-    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "photo_url": "images/products/wunderbaum/wb_wb-tree-017.jpg",
     "volumes": [
       1
     ],
@@ -4308,7 +4308,7 @@
     "name": "Освежитель Wunder-Baum Елочка Margarita",
     "category": "air-fresheners",
     "brand": "Wunder-Baum",
-    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "photo_url": "images/products/wunderbaum/wb_wb-tree-018.jpg",
     "volumes": [
       1
     ],
@@ -4332,7 +4332,7 @@
     "name": "Освежитель Wunder-Baum Елочка Midnight Chick",
     "category": "air-fresheners",
     "brand": "Wunder-Baum",
-    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "photo_url": "images/products/wunderbaum/wb_wb-tree-019.jpg",
     "volumes": [
       1
     ],
@@ -4356,7 +4356,7 @@
     "name": "Освежитель Wunder-Baum Елочка Black Classic",
     "category": "air-fresheners",
     "brand": "Wunder-Baum",
-    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "photo_url": "images/products/wunderbaum/wb_wb-tree-020.jpg",
     "volumes": [
       1
     ],
@@ -4380,7 +4380,7 @@
     "name": "Освежитель Wunder-Baum Елочка New Car (Новое Авто)",
     "category": "air-fresheners",
     "brand": "Wunder-Baum",
-    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "photo_url": "images/products/wunderbaum/wb_wb-tree-021.jpg",
     "volumes": [
       1
     ],
@@ -4404,7 +4404,7 @@
     "name": "Освежитель Wunder-Baum Елочка Ocean Paradise",
     "category": "air-fresheners",
     "brand": "Wunder-Baum",
-    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "photo_url": "images/products/wunderbaum/wb_wb-tree-022.jpg",
     "volumes": [
       1
     ],
@@ -4428,7 +4428,7 @@
     "name": "Освежитель Wunder-Baum Елочка Orange Juice (Апельсиновый сок)",
     "category": "air-fresheners",
     "brand": "Wunder-Baum",
-    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "photo_url": "images/products/wunderbaum/wb_wb-tree-023.jpg",
     "volumes": [
       1
     ],
@@ -4452,7 +4452,7 @@
     "name": "Освежитель Wunder-Baum Елочка Pina Colada",
     "category": "air-fresheners",
     "brand": "Wunder-Baum",
-    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "photo_url": "images/products/wunderbaum/wb_wb-tree-024.jpg",
     "volumes": [
       1
     ],
@@ -4476,7 +4476,7 @@
     "name": "Освежитель Wunder-Baum Елочка Pure Steel",
     "category": "air-fresheners",
     "brand": "Wunder-Baum",
-    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "photo_url": "images/products/wunderbaum/wb_wb-tree-025.jpg",
     "volumes": [
       1
     ],
@@ -4500,7 +4500,7 @@
     "name": "Освежитель Wunder-Baum Елочка Rose & Raspberry (Роза и малина)",
     "category": "air-fresheners",
     "brand": "Wunder-Baum",
-    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "photo_url": "images/products/wunderbaum/wb_wb-tree-026.jpg",
     "volumes": [
       1
     ],
@@ -4524,7 +4524,7 @@
     "name": "Освежитель Wunder-Baum Елочка Sportfrische",
     "category": "air-fresheners",
     "brand": "Wunder-Baum",
-    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "photo_url": "images/products/wunderbaum/wb_wb-tree-027.jpg",
     "volumes": [
       1
     ],
@@ -4548,7 +4548,7 @@
     "name": "Освежитель Wunder-Baum Елочка Summer Cotton",
     "category": "air-fresheners",
     "brand": "Wunder-Baum",
-    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "photo_url": "images/products/wunderbaum/wb_wb-tree-028.jpg",
     "volumes": [
       1
     ],
@@ -4572,7 +4572,7 @@
     "name": "Освежитель Wunder-Baum Елочка Tropical",
     "category": "air-fresheners",
     "brand": "Wunder-Baum",
-    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "photo_url": "images/products/wunderbaum/wb_wb-tree-029.jpg",
     "volumes": [
       1
     ],
@@ -4596,7 +4596,7 @@
     "name": "Освежитель Wunder-Baum Елочка Vanillaroma (Ваниль)",
     "category": "air-fresheners",
     "brand": "Wunder-Baum",
-    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "photo_url": "images/products/wunderbaum/wb_wb-tree-030.jpg",
     "volumes": [
       1
     ],
@@ -4620,7 +4620,7 @@
     "name": "Освежитель Wunder-Baum Елочка Wild Instinct",
     "category": "air-fresheners",
     "brand": "Wunder-Baum",
-    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "photo_url": "images/products/wunderbaum/wb_wb-tree-031.jpg",
     "volumes": [
       1
     ],
@@ -4644,7 +4644,7 @@
     "name": "Освежитель Wunder-Baum Елочка WoodWork (Дерево)",
     "category": "air-fresheners",
     "brand": "Wunder-Baum",
-    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "photo_url": "images/products/wunderbaum/wb_wb-tree-032.jpg",
     "volumes": [
       1
     ],
@@ -4668,7 +4668,7 @@
     "name": "Освежитель Wunder-Baum Елочка Zimt Apfel (Яблоко с корицей)",
     "category": "air-fresheners",
     "brand": "Wunder-Baum",
-    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "photo_url": "images/products/wunderbaum/wb_wb-tree-033.jpg",
     "volumes": [
       1
     ],
@@ -4692,7 +4692,7 @@
     "name": "Освежитель Wunder-Baum Елочка Zitrone (Лимон)",
     "category": "air-fresheners",
     "brand": "Wunder-Baum",
-    "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
+    "photo_url": "images/products/wunderbaum/wb_wb-tree-034.jpg",
     "volumes": [
       1
     ],
@@ -4716,7 +4716,7 @@
     "name": "Освежитель-клипса Wunder-Baum Clip Black Ice",
     "category": "air-fresheners",
     "brand": "Wunder-Baum",
-    "photo_url": "https://www.wunder-baum.ch/dam/jcr:4c79df14-bd9f-4db3-bc07-d779bdce8cf6/WUNDER-BAUM_Clip_Black_Ice.png",
+    "photo_url": "images/products/wunderbaum/wb_wb-clip-001.jpg",
     "volumes": [
       1
     ],
@@ -4740,7 +4740,7 @@
     "name": "Освежитель-клипса Wunder-Baum Clip Bubble Gum",
     "category": "air-fresheners",
     "brand": "Wunder-Baum",
-    "photo_url": "https://www.wunder-baum.ch/dam/jcr:4c79df14-bd9f-4db3-bc07-d779bdce8cf6/WUNDER-BAUM_Clip_Black_Ice.png",
+    "photo_url": "images/products/wunderbaum/wb_wb-clip-002.jpg",
     "volumes": [
       1
     ],
@@ -4764,7 +4764,7 @@
     "name": "Освежитель-клипса Wunder-Baum Clip Cherry (Вишня)",
     "category": "air-fresheners",
     "brand": "Wunder-Baum",
-    "photo_url": "https://www.wunder-baum.ch/dam/jcr:4c79df14-bd9f-4db3-bc07-d779bdce8cf6/WUNDER-BAUM_Clip_Black_Ice.png",
+    "photo_url": "images/products/wunderbaum/wb_wb-clip-003.jpg",
     "volumes": [
       1
     ],
@@ -4788,7 +4788,7 @@
     "name": "Освежитель-клипса Wunder-Baum Clip New Car",
     "category": "air-fresheners",
     "brand": "Wunder-Baum",
-    "photo_url": "https://www.wunder-baum.ch/dam/jcr:4c79df14-bd9f-4db3-bc07-d779bdce8cf6/WUNDER-BAUM_Clip_Black_Ice.png",
+    "photo_url": "images/products/wunderbaum/wb_wb-clip-004.jpg",
     "volumes": [
       1
     ],
@@ -4812,7 +4812,7 @@
     "name": "Освежитель-клипса Wunder-Baum Clip Ocean Paradise",
     "category": "air-fresheners",
     "brand": "Wunder-Baum",
-    "photo_url": "https://www.wunder-baum.ch/dam/jcr:4c79df14-bd9f-4db3-bc07-d779bdce8cf6/WUNDER-BAUM_Clip_Black_Ice.png",
+    "photo_url": "images/products/wunderbaum/wb_wb-clip-005.jpg",
     "volumes": [
       1
     ],
@@ -4836,7 +4836,7 @@
     "name": "Освежитель-клипса Wunder-Baum Clip Sport",
     "category": "air-fresheners",
     "brand": "Wunder-Baum",
-    "photo_url": "https://www.wunder-baum.ch/dam/jcr:4c79df14-bd9f-4db3-bc07-d779bdce8cf6/WUNDER-BAUM_Clip_Black_Ice.png",
+    "photo_url": "images/products/wunderbaum/wb_wb-clip-006.jpg",
     "volumes": [
       1
     ],
@@ -4860,7 +4860,7 @@
     "name": "Освежитель-клипса Wunder-Baum Clip Tropical",
     "category": "air-fresheners",
     "brand": "Wunder-Baum",
-    "photo_url": "https://www.wunder-baum.ch/dam/jcr:4c79df14-bd9f-4db3-bc07-d779bdce8cf6/WUNDER-BAUM_Clip_Black_Ice.png",
+    "photo_url": "images/products/wunderbaum/wb_wb-clip-007.jpg",
     "volumes": [
       1
     ],
@@ -4884,7 +4884,7 @@
     "name": "Освежитель-клипса Wunder-Baum Clip Vanilla",
     "category": "air-fresheners",
     "brand": "Wunder-Baum",
-    "photo_url": "https://www.wunder-baum.ch/dam/jcr:4c79df14-bd9f-4db3-bc07-d779bdce8cf6/WUNDER-BAUM_Clip_Black_Ice.png",
+    "photo_url": "images/products/wunderbaum/wb_wb-clip-008.jpg",
     "volumes": [
       1
     ],
@@ -4908,7 +4908,7 @@
     "name": "Освежитель-клипса Wunder-Baum Clip Tribal",
     "category": "air-fresheners",
     "brand": "Wunder-Baum",
-    "photo_url": "https://www.wunder-baum.ch/dam/jcr:4c79df14-bd9f-4db3-bc07-d779bdce8cf6/WUNDER-BAUM_Clip_Black_Ice.png",
+    "photo_url": "images/products/wunderbaum/wb_wb-clip-009.jpg",
     "volumes": [
       1
     ],
@@ -4933,7 +4933,7 @@
     "category": "coolants",
     "brand": "Hepu",
     "color": "Синий",
-    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
+    "photo_url": "images/products/hepu/hepu-p900-rm11.jpg",
     "volumes": [
       1.5,
       5,
@@ -4986,7 +4986,7 @@
     "category": "coolants",
     "brand": "Hepu",
     "color": "Зелёный",
-    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
+    "photo_url": "images/products/hepu/hepu-p900-rm11-grn.jpg",
     "volumes": [
       1.5,
       5,
@@ -5046,7 +5046,7 @@
     "category": "coolants",
     "brand": "Hepu",
     "color": "Красный",
-    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
+    "photo_url": "images/products/hepu/hepu-p900-rm-g12.jpg",
     "volumes": [
       1.5,
       5,
@@ -5106,7 +5106,7 @@
     "category": "coolants",
     "brand": "Hepu",
     "color": "Фиолетовый",
-    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
+    "photo_url": "images/products/hepu/hepu-p900-rm-g12plus.jpg",
     "volumes": [
       1.5,
       5,
@@ -5166,7 +5166,7 @@
     "category": "coolants",
     "brand": "Hepu",
     "color": "Фиолетовый",
-    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
+    "photo_url": "images/products/hepu/hepu-p900-rm-g12plus.jpg",
     "volumes": [
       1.5,
       5
@@ -5205,7 +5205,7 @@
     "category": "coolants",
     "brand": "Hepu",
     "color": "Фиолетовый",
-    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
+    "photo_url": "images/products/hepu/hepu-p900-rm-evo12.jpg",
     "volumes": [
       1.5,
       5
@@ -5244,7 +5244,7 @@
     "category": "coolants",
     "brand": "Hepu",
     "color": "Жёлтый",
-    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
+    "photo_url": "images/products/hepu/hepu-p900-rm11-ylw.jpg",
     "volumes": [
       1.5,
       5,
@@ -5290,7 +5290,7 @@
     "category": "coolants",
     "brand": "Hepu",
     "color": "Синий",
-    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
+    "photo_url": "images/products/hepu/hepu-p999-blu.jpg",
     "volumes": [
       1.5,
       5
@@ -5329,7 +5329,7 @@
     "category": "coolants",
     "brand": "Hepu",
     "color": "Зелёный",
-    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
+    "photo_url": "images/products/hepu/hepu-p999-grn.jpg",
     "volumes": [
       1.5,
       5
@@ -5368,7 +5368,7 @@
     "category": "coolants",
     "brand": "Hepu",
     "color": "Красный",
-    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
+    "photo_url": "images/products/hepu/hepu-p999-g12.jpg",
     "volumes": [
       1.5,
       5,
@@ -5414,7 +5414,7 @@
     "category": "coolants",
     "brand": "Hepu",
     "color": "Фиолетовый",
-    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
+    "photo_url": "images/products/hepu/hepu-p999-g12plus.jpg",
     "volumes": [
       1.5,
       5
@@ -5453,7 +5453,7 @@
     "category": "coolants",
     "brand": "Hepu",
     "color": "Фиолетовый",
-    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
+    "photo_url": "images/products/hepu/hepu-p999-g12superplus.jpg",
     "volumes": [
       1.5,
       5
@@ -5492,7 +5492,7 @@
     "category": "coolants",
     "brand": "Hepu",
     "color": "Фиолетовый",
-    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
+    "photo_url": "images/products/hepu/hepu-p999-g12plus.jpg",
     "volumes": [
       1.5,
       5
@@ -5531,7 +5531,7 @@
     "category": "coolants",
     "brand": "Hepu",
     "color": "Синий",
-    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
+    "photo_url": "images/products/hepu/hepu-p888-blu.jpg",
     "volumes": [
       1.5,
       5,
@@ -5577,7 +5577,7 @@
     "category": "coolants",
     "brand": "Hepu",
     "color": "Зелёный",
-    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
+    "photo_url": "images/products/hepu/hepu-p888-grn.jpg",
     "volumes": [
       1.5,
       5,
@@ -5623,7 +5623,7 @@
     "category": "coolants",
     "brand": "Hepu",
     "color": "Красный",
-    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
+    "photo_url": "images/products/hepu/hepu-p888-g12.jpg",
     "volumes": [
       1.5,
       5,
@@ -5676,7 +5676,7 @@
     "category": "coolants",
     "brand": "Hepu",
     "color": "Фиолетовый",
-    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
+    "photo_url": "images/products/hepu/hepu-p888-g12plus.jpg",
     "volumes": [
       1.5,
       5
@@ -5714,7 +5714,7 @@
     "name": "Парфюмированная карточка IMAO Card Bali",
     "category": "air-fresheners",
     "brand": "IMAO Parfums",
-    "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
+    "photo_url": "images/products/imao/imao_imao-card-001.png",
     "volumes": [
       1
     ],
@@ -5738,7 +5738,7 @@
     "name": "Парфюмированная карточка IMAO Card Bora Bora",
     "category": "air-fresheners",
     "brand": "IMAO Parfums",
-    "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
+    "photo_url": "images/products/imao/imao_imao-card-002.png",
     "volumes": [
       1
     ],
@@ -5762,7 +5762,7 @@
     "name": "Парфюмированная карточка IMAO Card Capri",
     "category": "air-fresheners",
     "brand": "IMAO Parfums",
-    "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
+    "photo_url": "images/products/imao/imao_imao-card-003.png",
     "volumes": [
       1
     ],
@@ -5786,7 +5786,7 @@
     "name": "Парфюмированная карточка IMAO Card Costa Rica",
     "category": "air-fresheners",
     "brand": "IMAO Parfums",
-    "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
+    "photo_url": "images/products/imao/imao_imao-card-004.png",
     "volumes": [
       1
     ],
@@ -5810,7 +5810,7 @@
     "name": "Парфюмированная карточка IMAO Card Las Vegas",
     "category": "air-fresheners",
     "brand": "IMAO Parfums",
-    "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
+    "photo_url": "images/products/imao/imao_imao-card-005.png",
     "volumes": [
       1
     ],
@@ -5834,7 +5834,7 @@
     "name": "Парфюмированная карточка IMAO Card Madagascar",
     "category": "air-fresheners",
     "brand": "IMAO Parfums",
-    "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
+    "photo_url": "images/products/imao/imao_imao-card-006.png",
     "volumes": [
       1
     ],
@@ -5858,7 +5858,7 @@
     "name": "Парфюмированная карточка IMAO Card Maiami",
     "category": "air-fresheners",
     "brand": "IMAO Parfums",
-    "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
+    "photo_url": "images/products/imao/imao_imao-card-007.png",
     "volumes": [
       1
     ],
@@ -5882,7 +5882,7 @@
     "name": "Парфюмированная карточка IMAO Card New York",
     "category": "air-fresheners",
     "brand": "IMAO Parfums",
-    "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
+    "photo_url": "images/products/imao/imao_imao-card-008.png",
     "volumes": [
       1
     ],
@@ -5906,7 +5906,7 @@
     "name": "Парфюмированная карточка IMAO Card Paris",
     "category": "air-fresheners",
     "brand": "IMAO Parfums",
-    "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
+    "photo_url": "images/products/imao/imao_imao-card-009.png",
     "volumes": [
       1
     ],
@@ -5930,7 +5930,7 @@
     "name": "Парфюмированная карточка IMAO Card Saint-Tropez",
     "category": "air-fresheners",
     "brand": "IMAO Parfums",
-    "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
+    "photo_url": "images/products/imao/imao_imao-card-010.png",
     "volumes": [
       1
     ],
@@ -5954,7 +5954,7 @@
     "name": "Парфюмированная карточка IMAO Card Sri-Lanka",
     "category": "air-fresheners",
     "brand": "IMAO Parfums",
-    "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
+    "photo_url": "images/products/imao/imao_imao-card-011.png",
     "volumes": [
       1
     ],
@@ -5978,7 +5978,7 @@
     "name": "Парфюмированная карточка IMAO Card Sydney",
     "category": "air-fresheners",
     "brand": "IMAO Parfums",
-    "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
+    "photo_url": "images/products/imao/imao_imao-card-012.png",
     "volumes": [
       1
     ],
@@ -6002,7 +6002,7 @@
     "name": "Парфюмированная карточка IMAO Card Tokyo",
     "category": "air-fresheners",
     "brand": "IMAO Parfums",
-    "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
+    "photo_url": "images/products/imao/imao_imao-card-013.png",
     "volumes": [
       1
     ],
@@ -6026,7 +6026,7 @@
     "name": "Диффузор в дефлектор IMAO Diffuser Bali",
     "category": "air-fresheners",
     "brand": "IMAO Parfums",
-    "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
+    "photo_url": "images/products/imao/imao_imao-diff-001.png",
     "volumes": [
       1
     ],
@@ -6050,7 +6050,7 @@
     "name": "Диффузор в дефлектор IMAO Diffuser Capri",
     "category": "air-fresheners",
     "brand": "IMAO Parfums",
-    "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
+    "photo_url": "images/products/imao/imao_imao-diff-002.png",
     "volumes": [
       1
     ],
@@ -6074,7 +6074,7 @@
     "name": "Диффузор в дефлектор IMAO Diffuser Madagascar",
     "category": "air-fresheners",
     "brand": "IMAO Parfums",
-    "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
+    "photo_url": "images/products/imao/imao_imao-diff-003.png",
     "volumes": [
       1
     ],
@@ -6098,7 +6098,7 @@
     "name": "Диффузор в дефлектор IMAO Diffuser New York",
     "category": "air-fresheners",
     "brand": "IMAO Parfums",
-    "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
+    "photo_url": "images/products/imao/imao_imao-diff-004.png",
     "volumes": [
       1
     ],
@@ -6122,7 +6122,7 @@
     "name": "Диффузор в дефлектор IMAO Diffuser Paris",
     "category": "air-fresheners",
     "brand": "IMAO Parfums",
-    "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
+    "photo_url": "images/products/imao/imao_imao-diff-005.png",
     "volumes": [
       1
     ],
@@ -6146,7 +6146,7 @@
     "name": "Диффузор в дефлектор IMAO Diffuser Sri-Lanka",
     "category": "air-fresheners",
     "brand": "IMAO Parfums",
-    "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
+    "photo_url": "images/products/imao/imao_imao-diff-006.png",
     "volumes": [
       1
     ],
@@ -6170,7 +6170,7 @@
     "name": "Диффузор в дефлектор IMAO Diffuser Tokyo",
     "category": "air-fresheners",
     "brand": "IMAO Parfums",
-    "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
+    "photo_url": "images/products/imao/imao_imao-diff-007.png",
     "volumes": [
       1
     ],
@@ -6194,7 +6194,7 @@
     "name": "Ароматизатор-ключ IMAO Key Bora Bora",
     "category": "air-fresheners",
     "brand": "IMAO Parfums",
-    "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
+    "photo_url": "images/products/imao/imao_imao-key-001.png",
     "volumes": [
       1
     ],
@@ -6218,7 +6218,7 @@
     "name": "Ароматизатор-ключ IMAO Key Madagascar",
     "category": "air-fresheners",
     "brand": "IMAO Parfums",
-    "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
+    "photo_url": "images/products/imao/imao_imao-key-002.png",
     "volumes": [
       1
     ],
@@ -6242,7 +6242,7 @@
     "name": "Ароматизатор-ключ IMAO Key New York",
     "category": "air-fresheners",
     "brand": "IMAO Parfums",
-    "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
+    "photo_url": "images/products/imao/imao_imao-key-003.png",
     "volumes": [
       1
     ],
@@ -6266,7 +6266,7 @@
     "name": "Ароматизатор-ключ IMAO Key Tokyo",
     "category": "air-fresheners",
     "brand": "IMAO Parfums",
-    "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
+    "photo_url": "images/products/imao/imao_imao-key-004.png",
     "volumes": [
       1
     ],
@@ -6290,7 +6290,7 @@
     "name": "Автомобильный спрей IMAO Spray Bali (50мл)",
     "category": "air-fresheners",
     "brand": "IMAO Parfums",
-    "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
+    "photo_url": "images/products/imao/imao_imao-spray-001.png",
     "volumes": [
       1
     ],
@@ -6314,7 +6314,7 @@
     "name": "Автомобильный спрей IMAO Spray Bora Bora (50мл)",
     "category": "air-fresheners",
     "brand": "IMAO Parfums",
-    "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
+    "photo_url": "images/products/imao/imao_imao-spray-002.png",
     "volumes": [
       1
     ],
@@ -6338,7 +6338,7 @@
     "name": "Автомобильный спрей IMAO Spray Capri (50мл)",
     "category": "air-fresheners",
     "brand": "IMAO Parfums",
-    "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
+    "photo_url": "images/products/imao/imao_imao-spray-003.png",
     "volumes": [
       1
     ],
@@ -6362,7 +6362,7 @@
     "name": "Автомобильный спрей IMAO Spray Las Vegas (50мл)",
     "category": "air-fresheners",
     "brand": "IMAO Parfums",
-    "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
+    "photo_url": "images/products/imao/imao_imao-spray-004.png",
     "volumes": [
       1
     ],
@@ -6386,7 +6386,7 @@
     "name": "Автомобильный спрей IMAO Spray Madagascar (50мл)",
     "category": "air-fresheners",
     "brand": "IMAO Parfums",
-    "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
+    "photo_url": "images/products/imao/imao_imao-spray-005.png",
     "volumes": [
       1
     ],
@@ -6410,7 +6410,7 @@
     "name": "Автомобильный спрей IMAO Spray New York (50мл)",
     "category": "air-fresheners",
     "brand": "IMAO Parfums",
-    "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
+    "photo_url": "images/products/imao/imao_imao-spray-006.png",
     "volumes": [
       1
     ],
@@ -6434,7 +6434,7 @@
     "name": "Автомобильный спрей IMAO Spray Paris (50мл)",
     "category": "air-fresheners",
     "brand": "IMAO Parfums",
-    "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
+    "photo_url": "images/products/imao/imao_imao-spray-007.png",
     "volumes": [
       1
     ],
@@ -6458,7 +6458,7 @@
     "name": "Автомобильный спрей IMAO Spray Sri-Lanka (50мл)",
     "category": "air-fresheners",
     "brand": "IMAO Parfums",
-    "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
+    "photo_url": "images/products/imao/imao_imao-spray-008.png",
     "volumes": [
       1
     ],
@@ -6482,7 +6482,7 @@
     "name": "Автомобильный спрей IMAO Spray Tahiti (50мл)",
     "category": "air-fresheners",
     "brand": "IMAO Parfums",
-    "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
+    "photo_url": "images/products/imao/imao_imao-spray-009.png",
     "volumes": [
       1
     ],
@@ -6506,7 +6506,7 @@
     "name": "Автомобильный спрей IMAO Spray Tokyo (50мл)",
     "category": "air-fresheners",
     "brand": "IMAO Parfums",
-    "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
+    "photo_url": "images/products/imao/imao_imao-spray-010.png",
     "volumes": [
       1
     ],
@@ -6530,7 +6530,7 @@
     "name": "Тормозная жидкость PROFI MAX DOT-4 (0.5 кг)",
     "category": "brake-fluids",
     "brand": "PROFI MAX",
-    "photo_url": "https://felix-auto.ru/upload/iblock/felix-dot4-0.5l.png",
+    "photo_url": "images/products/brakefluids/bf-profi-05.jpg",
     "volumes": [
       0.5
     ],
@@ -6554,7 +6554,7 @@
     "name": "Тормозная жидкость PROFI MAX DOT-4 (1 кг)",
     "category": "brake-fluids",
     "brand": "PROFI MAX",
-    "photo_url": "https://felix-auto.ru/upload/iblock/felix-dot4-0.5l.png",
+    "photo_url": "images/products/brakefluids/bf-profi-10.jpg",
     "volumes": [
       1
     ],
@@ -6578,7 +6578,7 @@
     "name": "Тормозная жидкость ADV DOT-4 (380 г)",
     "category": "brake-fluids",
     "brand": "ADV",
-    "photo_url": "https://felix-auto.ru/upload/iblock/felix-dot4-0.5l.png",
+    "photo_url": "images/products/brakefluids/bf-adv-038.jpg",
     "volumes": [
       0.38
     ],
@@ -6602,7 +6602,7 @@
     "name": "Тормозная жидкость ADV DOT-4 (750 г)",
     "category": "brake-fluids",
     "brand": "ADV",
-    "photo_url": "https://felix-auto.ru/upload/iblock/felix-dot4-0.5l.png",
+    "photo_url": "images/products/brakefluids/bf-adv-075.jpg",
     "volumes": [
       0.75
     ],
@@ -6626,7 +6626,7 @@
     "name": "Тормозная жидкость FOX DOT-4 (400 г)",
     "category": "brake-fluids",
     "brand": "FOX",
-    "photo_url": "https://felix-auto.ru/upload/iblock/felix-dot4-0.5l.png",
+    "photo_url": "images/products/brakefluids/bf-fox-040.jpg",
     "volumes": [
       0.4
     ],
@@ -6650,7 +6650,7 @@
     "name": "Тормозная жидкость FOX DOT-4 (750 г)",
     "category": "brake-fluids",
     "brand": "FOX",
-    "photo_url": "https://felix-auto.ru/upload/iblock/felix-dot4-0.5l.png",
+    "photo_url": "images/products/brakefluids/bf-fox-075.jpg",
     "volumes": [
       0.75
     ],
@@ -6674,7 +6674,7 @@
     "name": "Тормозная жидкость MOL DOT 4+ (0.5 л)",
     "category": "brake-fluids",
     "brand": "MOL",
-    "photo_url": "https://felix-auto.ru/upload/iblock/felix-dot4-0.5l.png",
+    "photo_url": "images/products/mol/mol_mol-dot4plus.jpg",
     "volumes": [
       0.5
     ],
@@ -6788,7 +6788,7 @@
     "name": "Mini ICE Scraper Dunlop 18 cm",
     "category": "accessories",
     "brand": "Dunlop",
-    "photo_url": "",
+    "photo_url": "images/products/dunlop/05829.jpg",
     "volumes": [
       1
     ],
@@ -6812,7 +6812,7 @@
     "name": "ICE Scraper Dunlop 10x32 см",
     "category": "accessories",
     "brand": "Dunlop",
-    "photo_url": "",
+    "photo_url": "images/products/dunlop/41800.jpg",
     "volumes": [
       1
     ],
@@ -7052,7 +7052,7 @@
     "name": "Button Cell 2 buc CR2032 Philips",
     "category": "accessories",
     "brand": "Philips",
-    "photo_url": "",
+    "photo_url": "images/products/accessories/rp-10621.jpg",
     "volumes": [
       1
     ],
@@ -7076,7 +7076,7 @@
     "name": "Cablu de incarcare tip C DLC2103A Philips",
     "category": "accessories",
     "brand": "Philips",
-    "photo_url": "",
+    "photo_url": "images/products/accessories/rp-10931.JPG",
     "volumes": [
       1
     ],
@@ -7100,7 +7100,7 @@
     "name": "Cablu USB DLC5204V/00 NY Philips",
     "category": "accessories",
     "brand": "Philips",
-    "photo_url": "",
+    "photo_url": "images/products/accessories/rp-11238.jpg",
     "volumes": [
       1
     ],
@@ -7124,7 +7124,7 @@
     "name": "Cablu USB2.0 DLC3104U Philips 1,2m",
     "category": "accessories",
     "brand": "Philips",
-    "photo_url": "",
+    "photo_url": "images/products/accessories/rp-11246.JPG",
     "volumes": [
       1
     ],
@@ -7148,7 +7148,7 @@
     "name": "Cablu audio stereo 3.5 mm GRUNDIG",
     "category": "accessories",
     "brand": "Grundig",
-    "photo_url": "",
+    "photo_url": "images/products/accessories/rp-47213.JPG",
     "volumes": [
       1
     ],
@@ -7220,7 +7220,7 @@
     "name": "Cablu USB 1,2m DLC3104A/03 Philips",
     "category": "accessories",
     "brand": "Philips",
-    "photo_url": "",
+    "photo_url": "images/products/accessories/rp-12109.JPG",
     "volumes": [
       1
     ],
@@ -7244,7 +7244,7 @@
     "name": "Cablu USB Android 1,2m Philips",
     "category": "accessories",
     "brand": "Philips",
-    "photo_url": "",
+    "photo_url": "images/products/accessories/rp-12111.JPG",
     "volumes": [
       1
     ],
@@ -7268,7 +7268,7 @@
     "name": "USB Incarcator dual 2.1A DUNLOP",
     "category": "accessories",
     "brand": "Dunlop",
-    "photo_url": "",
+    "photo_url": "images/products/dunlop/48608.jpg",
     "volumes": [
       1
     ],
@@ -7404,7 +7404,7 @@
     "name": "Laveta din microfibra 2buc DUNLOP",
     "category": "accessories",
     "brand": "Dunlop",
-    "photo_url": "",
+    "photo_url": "images/products/dunlop/41813.jpg",
     "volumes": [
       1
     ],
@@ -7598,7 +7598,7 @@
     "name": "Airfresh Car 3x8 ml scents Dunlop",
     "category": "air-fresheners",
     "brand": "Dunlop",
-    "photo_url": "",
+    "photo_url": "images/products/dunlop/06869.jpg",
     "volumes": [
       1
     ],
@@ -7746,7 +7746,7 @@
     "name": "Polish torpedou 225 ml",
     "category": "car-care",
     "brand": "Dunlop",
-    "photo_url": "",
+    "photo_url": "images/products/dunlop/06869.jpg",
     "volumes": [
       1
     ],
@@ -7770,7 +7770,7 @@
     "name": "Polish torpedou 750 ml Lemon",
     "category": "car-care",
     "brand": "Dunlop",
-    "photo_url": "",
+    "photo_url": "images/products/dunlop/08575.jpg",
     "volumes": [
       1
     ],
@@ -7794,7 +7794,7 @@
     "name": "Polish torpedou 750 ml Neutral",
     "category": "car-care",
     "brand": "Dunlop",
-    "photo_url": "",
+    "photo_url": "images/products/dunlop/08575.jpg",
     "volumes": [
       1
     ],
@@ -7939,7 +7939,7 @@
     "category": "coolants",
     "brand": "MOL",
     "color": "Розовый",
-    "photo_url": "https://mollubricants.md/images/products/mol_evox_premium_g30.jpg",
+    "photo_url": "images/products/mol/mol_mol-1008.png",
     "volumes": [
       10,
       58
@@ -7977,7 +7977,7 @@
     "name": "Антифриз MOL Alycol Cool Ready -35°C (Бочка 206 л)",
     "category": "coolants",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/products/mol_evox_extra_ready35.jpg",
+    "photo_url": "images/products/mol/mol_mol-1008.png",
     "volumes": [
       206
     ],
@@ -8007,7 +8007,7 @@
     "category": "coolants",
     "brand": "MOL",
     "color": "Красный",
-    "photo_url": "https://mollubricants.md/images/products/mol_evox_premium_g30.jpg",
+    "photo_url": "images/products/mol/mol_mol-1008.png",
     "volumes": [
       1,
       10,
@@ -8060,7 +8060,7 @@
     "category": "coolants",
     "brand": "MOL",
     "color": "Красный",
-    "photo_url": "https://mollubricants.md/images/products/mol_evox_premium_g30.jpg",
+    "photo_url": "images/products/mol/mol_mol-1008.png",
     "volumes": [
       205
     ],
@@ -8170,7 +8170,7 @@
     "name": "Смазка MOL Liton LT 2 EP",
     "category": "greases",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
+    "photo_url": "images/products/mol/mol_mol-liton-lt-2ep-0375.jpg",
     "volumes": [
       0.25,
       0.4,
@@ -8234,7 +8234,7 @@
     "name": "Смазка MOL Favorit 2 Blue",
     "category": "greases",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
+    "photo_url": "images/products/mol/mol_mol-favorit-2-blue-0400.jpg",
     "volumes": [
       0.4,
       8,
@@ -8323,7 +8323,7 @@
       }
     ],
     "specs": [],
-    "photo_url": ""
+    "photo_url": "images/products/yuko/yuko-ciatim.jpg"
   },
   {
     "sku": "YUKO-REDUS-MOLY",
@@ -8345,7 +8345,7 @@
       }
     ],
     "specs": [],
-    "photo_url": ""
+    "photo_url": "images/products/yuko/yuko-redus-moly.jpg"
   },
   {
     "sku": "YUKO-REDUS-UNIVERSAL",
@@ -8367,7 +8367,7 @@
       }
     ],
     "specs": [],
-    "photo_url": ""
+    "photo_url": "images/products/yuko/yuko-redus-universal.jpg"
   },
   {
     "sku": "YUKO-SOLIDOL-ZH",
@@ -8424,7 +8424,7 @@
       }
     ],
     "specs": [],
-    "photo_url": ""
+    "photo_url": "images/products/yuko/yuko-solidol-zh.jpg"
   },
   {
     "sku": "YUKO-LITOL-24",
@@ -8488,7 +8488,7 @@
       }
     ],
     "specs": [],
-    "photo_url": ""
+    "photo_url": "images/products/yuko/yuko-litol-24.jpg"
   },
   {
     "sku": "YUKO-GRAFITNAYA",
@@ -8510,7 +8510,7 @@
       }
     ],
     "specs": [],
-    "photo_url": ""
+    "photo_url": "images/products/yuko/yuko-grafitnaya.jpg"
   },
   {
     "sku": "YUKO-TAD17M-1L",
@@ -8820,7 +8820,7 @@
         "value": "210"
       }
     ],
-    "photo_url": ""
+    "photo_url": "images/products/mol/mol_mol-ind-5482.jpg"
   },
   {
     "sku": "MOL-HYDRO-HM-46",
@@ -8892,7 +8892,7 @@
         "value": "225"
       }
     ],
-    "photo_url": ""
+    "photo_url": "images/products/mol/mol_mol-ind-5482.jpg"
   },
   {
     "sku": "MOL-HYDRO-HM-68",
@@ -8943,7 +8943,7 @@
         "value": "240"
       }
     ],
-    "photo_url": ""
+    "photo_url": "images/products/mol/mol_mol-ind-5482.jpg"
   },
   {
     "sku": "MOL-HYDRO-HME-46",
@@ -8994,7 +8994,7 @@
         "value": "225"
       }
     ],
-    "photo_url": ""
+    "photo_url": "images/products/mol/mol_mol-ind-5482.jpg"
   },
   {
     "sku": "MOL-HYDRO-HV-46",
@@ -9052,7 +9052,7 @@
         "value": "220"
       }
     ],
-    "photo_url": ""
+    "photo_url": "images/products/mol/mol_mol-ind-5469.jpg"
   },
   {
     "sku": "YUKO-PSF-1L",
@@ -9128,7 +9128,7 @@
     "name": "MOL Prima 5W-40",
     "category": "motor-oils-pkw",
     "brand": "MOL",
-    "photo_url": "https://www.mol.com/o/MOL_Public_Content/images/products/mol-essence-5w30.png",
+    "photo_url": "images/products/mol/mol_mol-1004.jpg",
     "volumes": [
       1,
       4,
@@ -12255,7 +12255,7 @@
     "name_ro": "MOL Dynamic Gold NG 0W-16",
     "category": "motor-oils-pkw",
     "brand": "MOL",
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/motorolajok/1L_MOL_Dynamic_Star_0W-30_c.jpg",
+    "photo_url": "images/products/mol/mol_mol-hybrid-0w16.jpg",
     "description": "Инновационное гибридное моторное масло сверхнизкой вязкости 0W-16 для максимальной экономии топлива.",
     "description_ro": "Ulei de motor inovator hibrid cu vâscozitate extrem de redusă 0W-16 pentru economie maximă de combustibil.",
     "viscosity": "0W-16",
@@ -12286,7 +12286,7 @@
     "name": "MOL Dynamic Star VL 0W-30",
     "category": "motor-oils-pkw",
     "brand": "MOL",
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_mol-1018.jpg",
     "volumes": [
       1,
       4
@@ -12324,7 +12324,7 @@
     "name": "MOL Essence SL 10W-40",
     "category": "motor-oils-pkw",
     "brand": "MOL",
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_mol-1004.jpg",
     "volumes": [
       4,
       5,
@@ -12412,7 +12412,7 @@
       }
     ],
     "specs": [],
-    "photo_url": ""
+    "photo_url": "images/products/mol-dynamic-truck.png"
   },
   {
     "sku": "MOL-SYNT-DIESEL-E4-10W40",
@@ -12453,7 +12453,7 @@
         "value": "ACEA E4/E7, API CI-4, MAN M 3277, Volvo VDS-3, Renault RLD-2, Deutz DQC IV-10, MTU Type 3, Mack EO-N"
       }
     ],
-    "photo_url": ""
+    "photo_url": "images/products/mol-dynamic-truck.png"
   },
   {
     "sku": "MOL-GLOBAL-DIESEL-10W30",
@@ -12494,7 +12494,7 @@
         "value": "API CK-4/CJ-4/SN, ACEA E9/E7, Volvo VDS-4.5, Mack EOS-4.5, Renault VI RLD-3, Cummins CES 20086, Detroit Diesel DFS 93K222, Caterpillar ECF-3"
       }
     ],
-    "photo_url": ""
+    "photo_url": "images/products/mol-dynamic-truck.png"
   },
   {
     "sku": "MOL-GLOBAL-DIESEL-10W40",
@@ -12528,7 +12528,7 @@
         "value": "API CK-4/CJ-4, ACEA E9/E7, MB-Approval 228.31, Volvo VDS-4.5, MAN M 3775/M 3575, Renault RLD-3, Cummins CES 20086"
       }
     ],
-    "photo_url": ""
+    "photo_url": "images/products/mol-dynamic-truck.png"
   },
   {
     "sku": "MOL-SUPER-DIESEL-15W40",
@@ -12569,7 +12569,7 @@
         "value": "API CG-4/SJ, ACEA E2, MAN 271, MB 228.1, Volvo VDS"
       }
     ],
-    "photo_url": ""
+    "photo_url": "images/products/mol-dynamic-truck.png"
   },
   {
     "sku": "MOL-MOTO-4T-SCOOTER",
@@ -12591,7 +12591,7 @@
       }
     ],
     "specs": [],
-    "photo_url": ""
+    "photo_url": "images/products/mol/mol_mol-1024.jpg"
   },
   {
     "sku": "MOL-MOTO-4T-STREET",
@@ -12613,7 +12613,7 @@
       }
     ],
     "specs": [],
-    "photo_url": ""
+    "photo_url": "images/products/mol/mol_mol-1025.jpg"
   },
   {
     "sku": "MOL-MOTO-2T",
@@ -12635,7 +12635,7 @@
       }
     ],
     "specs": [],
-    "photo_url": ""
+    "photo_url": "images/products/mol/mol_mol-1023.png"
   },
   {
     "sku": "MOL-SPRINT-2T",
@@ -12657,7 +12657,7 @@
       }
     ],
     "specs": [],
-    "photo_url": ""
+    "photo_url": "images/products/mol/mol_mol-1023.png"
   },
   {
     "sku": "MOL-HYKOMOL-ZF-80W90",
@@ -12691,7 +12691,7 @@
         "value": "MAN 342 Typ M2, Tatra TDS 80/32, ZF TE-ML 05A, ZF TE-ML 12E[ZF001118], ZF TE-ML 16B[ZF001118], ZF TE-ML 17B[ZF001118], ZF TE-ML 19B[ZF001118], ZF TE-ML 21A[ZF001118], API GL-5, MIL-L-2105D, ZF TE-ML 07A"
       }
     ],
-    "photo_url": ""
+    "photo_url": "images/products/mol/mol_mol-1020.jpg"
   },
   {
     "sku": "MOL-IND-5064",
@@ -12710,7 +12710,7 @@
         "value": "ISO 11158 HM, ISO-L-HM, DIN 51524-2 (HLP), General Motors LS2 LH-02-1-00, SAE MS1004 Type HM, SEB 181222 (HLP), AFNOR NF-E-48603 (HM)"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_hydraulic.jpg",
     "price_on_request": true
   },
   {
@@ -12730,7 +12730,7 @@
         "value": "ISO 11158 HM, ISO-L-FD, ISO-L-HM, DIN 51524-2 (HLP), SAE MS1004 Type HM, AFNOR NF-E-48603 (HM)"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_hydraulic.jpg",
     "price_on_request": true
   },
   {
@@ -12750,7 +12750,7 @@
         "value": "ISO 11158 HM, ISO-L-FD, ISO-L-HM, DIN 51524-2 (HLP), SAE MS1004 Type HM, AFNOR NF-E-48603 (HM)"
       }
     ],
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/szervizek/hidraulikaolajok/1L_MOL_Hydro_HME_10.jpg",
+    "photo_url": "images/products/mol/mol_mol-ind-5185.jpg",
     "price_on_request": true
   },
   {
@@ -12765,7 +12765,7 @@
     "volumes": [],
     "packs": [],
     "specs": [],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_drum_208l.jpg",
     "price_on_request": true
   },
   {
@@ -12780,7 +12780,7 @@
     "volumes": [],
     "packs": [],
     "specs": [],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_drum_208l.jpg",
     "price_on_request": true
   },
   {
@@ -12795,7 +12795,7 @@
     "volumes": [],
     "packs": [],
     "specs": [],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_drum_208l.jpg",
     "price_on_request": true
   },
   {
@@ -12810,7 +12810,7 @@
     "volumes": [],
     "packs": [],
     "specs": [],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_drum_208l.jpg",
     "price_on_request": true
   },
   {
@@ -12830,7 +12830,7 @@
         "value": "EN 50326: 20 A 110"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_drum_208l.jpg",
     "price_on_request": true
   },
   {
@@ -12850,7 +12850,7 @@
         "value": "Vogel, DIN 51502: KHCP00K-40, ISO 6743-9: L-XDCEB 00"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_grease.jpg",
     "price_on_request": true
   },
   {
@@ -12870,7 +12870,7 @@
         "value": "DIN 51502: KHC2R-40, ISO 6743-9: L-XDFFA 2"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_drum_208l.jpg",
     "price_on_request": true
   },
   {
@@ -12890,7 +12890,7 @@
         "value": "NSF H1[142057], DIN 51502: KHC2N-30, ISO 6743-9: L-XCDHA 2"
       }
     ],
-    "photo_url": "https://mollubricants.md/images/mol_ru/lub/promy_lennost/konsistentnye_smazki/konsistentnye_smazki_dla_pisevoj_promyslenosti/360g_MOL_Food_Grease_2.jpg",
+    "photo_url": "images/products/mol/mol_mol-ind-5235.jpg",
     "price_on_request": true
   },
   {
@@ -12910,7 +12910,7 @@
         "value": "NSF H1[142056], DIN 51502: KHC1N-30, ISO 6743-9: L-XCDHA 1"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_mol-ind-5235.jpg",
     "price_on_request": true
   },
   {
@@ -12930,7 +12930,7 @@
         "value": "NSF H1[142055], DIN 51502: GHC00N-30, ISO 6743-9: L-XCDHA 00"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_mol-ind-5235.jpg",
     "price_on_request": true
   },
   {
@@ -12950,7 +12950,7 @@
         "value": "DIN 51502: KPF2S-20, ISO 6743-9: L-XBGEB 2"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_drum_208l.jpg",
     "price_on_request": true
   },
   {
@@ -12970,7 +12970,7 @@
         "value": "DIN 51502: KP2S-20, ISO 6743-9: L-XBGEB 2"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_drum_208l.jpg",
     "price_on_request": true
   },
   {
@@ -12990,7 +12990,7 @@
         "value": "DIN 51502: KF3C-30, ISO 6743-9: L-XCAHB 3"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_grease.jpg",
     "price_on_request": true
   },
   {
@@ -13010,7 +13010,7 @@
         "value": "DIN 51502: K3C-20, ISO 6743-9: L-XBAHA 3"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_grease.jpg",
     "price_on_request": true
   },
   {
@@ -13030,7 +13030,7 @@
         "value": "DIN 51502: KP2C-20, ISO 6743-9: L-XBAHB 2"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_grease.jpg",
     "price_on_request": true
   },
   {
@@ -13050,7 +13050,7 @@
         "value": "DIN 51502: K1C-30, ISO 6743-9: L-XCAHA 1"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_grease.jpg",
     "price_on_request": true
   },
   {
@@ -13070,7 +13070,7 @@
         "value": "DIN 51502: K2/3K-30, ISO 6743-9: L-XCCHB 2/3"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_grease.jpg",
     "price_on_request": true
   },
   {
@@ -13090,7 +13090,7 @@
         "value": "DIN 51502: MPF1/2R-20, ISO 6743-9: L-XBFHB 1/2"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_grease.jpg",
     "price_on_request": true
   },
   {
@@ -13110,7 +13110,7 @@
         "value": "DIN 51502: KP2N-30, ISO 6743-9: L-XCDHB 2"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_grease.jpg",
     "price_on_request": true
   },
   {
@@ -13130,7 +13130,7 @@
         "value": "DIN 51502: KPF2P-25, ISO 6743-9: L-XBEHB 2"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_grease.jpg",
     "price_on_request": true
   },
   {
@@ -13150,7 +13150,7 @@
         "value": "DIN 51502: KP2P-25, ISO 6743-9: L-XBEIB 2"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_grease.jpg",
     "price_on_request": true
   },
   {
@@ -13170,7 +13170,7 @@
         "value": "DIN 51502: KP2P-25, ISO 6743-9: L-XBEHB 2"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_grease.jpg",
     "price_on_request": true
   },
   {
@@ -13190,7 +13190,7 @@
         "value": "DIN 51502: KP1/2P-25, ISO 6743-9: L-XBEHB 1/2"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_grease.jpg",
     "price_on_request": true
   },
   {
@@ -13210,7 +13210,7 @@
         "value": "DIN 51502: KPF2P-20, ISO 6743-9: L-XBEHB 2"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -13230,7 +13230,7 @@
         "value": "DIN 51502: KP2P-20, ISO 6743-9: L-XBEHB 2"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -13250,7 +13250,7 @@
         "value": "DIN 51502: KP1/2N-20, ISO 6743-9: L-XBDHB 1/2"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -13270,7 +13270,7 @@
         "value": "DIN 51502: KP1N-20, ISO 6743-9: L-XBDHB 1"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -13290,7 +13290,7 @@
         "value": "DIN 51502: GPF1N-30, ISO 6743-9: L-XCDEB 1"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_grease.jpg",
     "price_on_request": true
   },
   {
@@ -13310,7 +13310,7 @@
         "value": "DIN 51502: OGPF0N-20, ISO 6743-9: L-XBDEB 0"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_grease.jpg",
     "price_on_request": true
   },
   {
@@ -13330,7 +13330,7 @@
         "value": "DIN 51502: GPF000N-25, ISO 6743-9: L-XBDEB 000"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_grease.jpg",
     "price_on_request": true
   },
   {
@@ -13350,7 +13350,7 @@
         "value": "ISO 6743-9: L-XBDHB 2, DIN 51502: KF2N-25"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_grease.jpg",
     "price_on_request": true
   },
   {
@@ -13370,7 +13370,7 @@
         "value": "ISO 6743-9: L-XBDHB 2, DIN 51502: KF2N-25"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_grease.jpg",
     "price_on_request": true
   },
   {
@@ -13390,7 +13390,7 @@
         "value": "ISO 6743-9: L-XBDHB 2, DIN 51502: KP2N-25"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_grease.jpg",
     "price_on_request": true
   },
   {
@@ -13410,7 +13410,7 @@
         "value": "DIN 51502: KP1N-25, ISO 6743-9: L-XBDHB 1"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_grease.jpg",
     "price_on_request": true
   },
   {
@@ -13430,7 +13430,7 @@
         "value": "DIN 51502: KP0N-25, ISO 6743-9: L-XBDHB 0"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_grease.jpg",
     "price_on_request": true
   },
   {
@@ -13450,7 +13450,7 @@
         "value": "DIN 51502: GP00N-20, ISO 6743-9: L-XBDHB 00"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_grease.jpg",
     "price_on_request": true
   },
   {
@@ -13470,7 +13470,7 @@
         "value": "DIN 51502: GP00N-25, ISO 6743-9: L-XBDHB 00"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_grease.jpg",
     "price_on_request": true
   },
   {
@@ -13490,7 +13490,7 @@
         "value": "DIN 51502: KHCPF1K-50, ISO 6743-9: L-XECEB 1"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_grease.jpg",
     "price_on_request": true
   },
   {
@@ -13510,7 +13510,7 @@
         "value": "DIN 51502: KHCP2K-50, ISO 6743-9: L-XECEB 2"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_grease.jpg",
     "price_on_request": true
   },
   {
@@ -13530,7 +13530,7 @@
         "value": "DIN 51502: KPF3N-30, ISO 6743-9: L-XCDEB 3"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_grease.jpg",
     "price_on_request": true
   },
   {
@@ -13550,7 +13550,7 @@
         "value": "DIN 51502: KPF2N-25, ISO 6743-9: L-XBDEB 2"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_grease.jpg",
     "price_on_request": true
   },
   {
@@ -13570,7 +13570,7 @@
         "value": "DIN 51502: KPF2N-25, ISO 6743-9: L-XBDEB 2"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_grease.jpg",
     "price_on_request": true
   },
   {
@@ -13590,7 +13590,7 @@
         "value": "DIN 51502: KPF2N-30, ISO 6743-9: L-XCDEB 2"
       }
     ],
-    "photo_url": "https://mollubricants.md/images/mol_ru/lub/avtomobili/konsistentnye_smazki/400g_MOL_Liton_2M.jpg",
+    "photo_url": "images/products/mol/mol_mol-ind-5270.jpg",
     "price_on_request": true
   },
   {
@@ -13610,7 +13610,7 @@
         "value": "DIN 51502: KP3K-30, DIN 51825: KP3K-30, ISO 6743-9: L-XCCEB 3"
       }
     ],
-    "photo_url": "https://mollubricants.md/images/mol_ru/lub/avtomobili/konsistentnye_smazki/400g_MOL_Liton_LTA_3EP-.jpg",
+    "photo_url": "images/products/mol/mol_mol-ind-5271.jpg",
     "price_on_request": true
   },
   {
@@ -13630,7 +13630,7 @@
         "value": "DIN 51502: K2/3K-30, ISO 6743-9: L-XCCEA 2/3"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_grease.jpg",
     "price_on_request": true
   },
   {
@@ -13650,7 +13650,7 @@
         "value": "DIN 51502: K2K-30, ISO 6743-9: L-XCCEA 2"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_grease.jpg",
     "price_on_request": true
   },
   {
@@ -13670,7 +13670,7 @@
         "value": "ZETOR, DIN 51502: KP2K-30, DIN 51825: KP2K-30, ISO 6743-9: L-XCCEB 2"
       }
     ],
-    "photo_url": "https://mollubricants.md/images/mol_ru/lub/avtomobili/konsistentnye_smazki/400g_MOL_Liton_LT_2EP.jpg",
+    "photo_url": "images/products/mol/mol_mol-ind-5274.jpg",
     "price_on_request": true
   },
   {
@@ -13690,7 +13690,7 @@
         "value": "DIN 51502: KP2K-25, ISO 6743-9: L-XBCEB 2, SKF V2F - DIN EN 14865-2:2011-010"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_grease.jpg",
     "price_on_request": true
   },
   {
@@ -13710,7 +13710,7 @@
         "value": "DIN 51502: KP1K-30, DIN 51825: KP1K-30, ISO 6743-9: L-XCCEB 1"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_grease.jpg",
     "price_on_request": true
   },
   {
@@ -13730,7 +13730,7 @@
         "value": "DIN 51502: GP0K-30, DIN 51502: KP0K-30, ISO 6743-9: L-XCCEB 0"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_grease.jpg",
     "price_on_request": true
   },
   {
@@ -13750,7 +13750,7 @@
         "value": "DIN 51502: KP2N-30, ISO 6743-9: L-XCDEB 2"
       }
     ],
-    "photo_url": "https://mollubricants.md/images/mol_ru/lub/avtomobili/konsistentnye_smazki/400g_MOL_Favorit2.jpg",
+    "photo_url": "images/products/mol/mol_mol-ind-5278.jpg",
     "price_on_request": true
   },
   {
@@ -13765,7 +13765,7 @@
     "volumes": [],
     "packs": [],
     "specs": [],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_machinetool.jpg",
     "price_on_request": true
   },
   {
@@ -13780,7 +13780,7 @@
     "volumes": [],
     "packs": [],
     "specs": [],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -13795,7 +13795,7 @@
     "volumes": [],
     "packs": [],
     "specs": [],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -13810,7 +13810,7 @@
     "volumes": [],
     "packs": [],
     "specs": [],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -13830,7 +13830,7 @@
         "value": "ISO 6743-7: L-MHE"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -13850,7 +13850,7 @@
         "value": "ISO 6743-7: L-MHE"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -13870,7 +13870,7 @@
         "value": "ISO 6743-7: L-MHD"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -13890,7 +13890,7 @@
         "value": "ISO 6743-7: L-MHD"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -13910,7 +13910,7 @@
         "value": "ISO 6743-7: L-MHF"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -13930,7 +13930,7 @@
         "value": "ISO 6743-7: L-MHD"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -13950,7 +13950,7 @@
         "value": "ISO 6743-7: L-MHE"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -13970,7 +13970,7 @@
         "value": "ISO 6743-7: L-MHB"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -13990,7 +13990,7 @@
         "value": "ISO 6743-7: L-MHB"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -14005,7 +14005,7 @@
     "volumes": [],
     "packs": [],
     "specs": [],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -14025,7 +14025,7 @@
         "value": "ISO 6743-7: L-MHB"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -14045,7 +14045,7 @@
         "value": "ISO 6743-7: L-MHB"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -14065,7 +14065,7 @@
         "value": "ISO-L-HM, ISO 6743-7: L-MHB, DIN 51524-2 (HLP)"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -14085,7 +14085,7 @@
         "value": "ISO 6743-7: L-MHE, DIN 51524-2 (HLP)"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -14105,7 +14105,7 @@
         "value": "EMAG, ISO 6743-7: L-MHE"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -14125,7 +14125,7 @@
         "value": "ISO 6743-7: L-MHE"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -14145,7 +14145,7 @@
         "value": "EMAG, ISO 6743-7: L-MHE"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -14165,7 +14165,7 @@
         "value": "ISO 6743-7: L-MHB"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -14180,7 +14180,7 @@
     "volumes": [],
     "packs": [],
     "specs": [],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -14200,7 +14200,7 @@
         "value": "EMAG, ISO 6743-7: L-MHE"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -14220,7 +14220,7 @@
         "value": "EMAG, ISO 6743-7: L-MHF"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -14240,7 +14240,7 @@
         "value": "EMAG, ISO 6743-7: L-MHB"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -14255,7 +14255,7 @@
     "volumes": [],
     "packs": [],
     "specs": [],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -14275,7 +14275,7 @@
         "value": "EMAG, ISO 6743-7: L-MHF"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -14295,7 +14295,7 @@
         "value": "EMAG, ISO 6743-7: L-MHF"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -14315,7 +14315,7 @@
         "value": "EMAG, ISO 6743-7: L-MHF"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -14335,7 +14335,7 @@
         "value": "EMAG, ISO 6743-7: L-MHF"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -14355,7 +14355,7 @@
         "value": "EMAG, ISO 6743-7: L-MHF"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -14375,7 +14375,7 @@
         "value": "EMAG"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -14395,7 +14395,7 @@
         "value": "ISO 6743-7: L-MHE"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -14410,7 +14410,7 @@
     "volumes": [],
     "packs": [],
     "specs": [],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_drum_208l.jpg",
     "price_on_request": true
   },
   {
@@ -14425,7 +14425,7 @@
     "volumes": [],
     "packs": [],
     "specs": [],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -14440,7 +14440,7 @@
     "volumes": [],
     "packs": [],
     "specs": [],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -14455,7 +14455,7 @@
     "volumes": [],
     "packs": [],
     "specs": [],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -14470,7 +14470,7 @@
     "volumes": [],
     "packs": [],
     "specs": [],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -14485,7 +14485,7 @@
     "volumes": [],
     "packs": [],
     "specs": [],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -14500,7 +14500,7 @@
     "volumes": [],
     "packs": [],
     "specs": [],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -14520,7 +14520,7 @@
         "value": "ISO 6743-7: L-MAB"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -14540,7 +14540,7 @@
         "value": "ISO 6743-7: L-MAB"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -14560,7 +14560,7 @@
         "value": "ISO 6743-7: L-MAF"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -14580,7 +14580,7 @@
         "value": "EMAG, ISO 6743-7: L-MAF"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -14600,7 +14600,7 @@
         "value": "EMAG, ISO 6743-7: L-MAF, TRGS 611"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -14620,7 +14620,7 @@
         "value": "EMAG, ISO 6743-7: L-MAA"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -14640,7 +14640,7 @@
         "value": "EMAG, ISO 6743-7: L-MAA"
       }
     ],
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/ipar/vizzel_elegyedo_femmegmunkalasi_segedanyagok/forgacsolasi_segedanyagok/4L_MOL_Makromil_200.jpg",
+    "photo_url": "images/products/mol/mol_mol-ind-5330.jpg",
     "price_on_request": true
   },
   {
@@ -14660,7 +14660,7 @@
         "value": "EMAG, ISO 6743-7: L-MAA"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -14680,7 +14680,7 @@
         "value": "EMAG, ISO 6743-7: L-MAH"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -14700,7 +14700,7 @@
         "value": "ISO 6743-7: L-MAH"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -14720,7 +14720,7 @@
         "value": "EMAG, ISO 6743-7: L-MAG"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -14740,7 +14740,7 @@
         "value": "EMAG, ISO 6743-7: L-MAH"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -14760,7 +14760,7 @@
         "value": "ISO 6743-7: L-MHB"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_drum_208l.jpg",
     "price_on_request": true
   },
   {
@@ -14775,7 +14775,7 @@
     "volumes": [],
     "packs": [],
     "specs": [],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_drum_208l.jpg",
     "price_on_request": true
   },
   {
@@ -14795,7 +14795,7 @@
         "value": "ISO-L-Z"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_drum_208l.jpg",
     "price_on_request": true
   },
   {
@@ -14815,7 +14815,7 @@
         "value": "NSF H1[142140]"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_mol-ind-5235.jpg",
     "price_on_request": true
   },
   {
@@ -14835,7 +14835,7 @@
         "value": "NSF H1[142139]"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_mol-ind-5235.jpg",
     "price_on_request": true
   },
   {
@@ -14855,7 +14855,7 @@
         "value": "NSF H1[142138]"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_mol-ind-5235.jpg",
     "price_on_request": true
   },
   {
@@ -14875,7 +14875,7 @@
         "value": "NSF H1[142137]"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_mol-ind-5235.jpg",
     "price_on_request": true
   },
   {
@@ -14895,7 +14895,7 @@
         "value": "NSF H1[142136]"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_mol-ind-5235.jpg",
     "price_on_request": true
   },
   {
@@ -14915,7 +14915,7 @@
         "value": "NSF H1[142134]"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_mol-ind-5235.jpg",
     "price_on_request": true
   },
   {
@@ -14935,7 +14935,7 @@
         "value": "NSF H1[142133]"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_mol-ind-5235.jpg",
     "price_on_request": true
   },
   {
@@ -14955,7 +14955,7 @@
         "value": "NSF H1[142132]"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_mol-ind-5235.jpg",
     "price_on_request": true
   },
   {
@@ -14975,7 +14975,7 @@
         "value": "NSF H1[142131]"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_mol-ind-5235.jpg",
     "price_on_request": true
   },
   {
@@ -14995,7 +14995,7 @@
         "value": "NSF H1[142130], ISO-L-HM, FDA 21 CFR 178.3570"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_mol-ind-5235.jpg",
     "price_on_request": true
   },
   {
@@ -15015,7 +15015,7 @@
         "value": "NSF H1[142129], ISO-L-HM, FDA 21 CFR 178.3570"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_mol-ind-5235.jpg",
     "price_on_request": true
   },
   {
@@ -15035,7 +15035,7 @@
         "value": "NSF H1[142128], ISO-L-HM, FDA 21 CFR 178.3570"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_mol-ind-5235.jpg",
     "price_on_request": true
   },
   {
@@ -15055,7 +15055,7 @@
         "value": "FDA 178.3620(b)"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_heat_transfer.jpg",
     "price_on_request": true
   },
   {
@@ -15075,7 +15075,7 @@
         "value": "FDA 178.3620(b)"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_heat_transfer.jpg",
     "price_on_request": true
   },
   {
@@ -15095,7 +15095,7 @@
         "value": "KOSHER, HALAL, European Pharmacopoeia (Ph.Eur. Curr.revision), Ph. Hg. VIII (Pharmacopoeia Hungarica), FDA 172.878, FDA 178.3620(a)"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_heat_transfer.jpg",
     "price_on_request": true
   },
   {
@@ -15115,7 +15115,7 @@
         "value": "KOSHER, HALAL, European Pharmacopoeia (Ph.Eur. Curr.revision), Ph. Hg. VIII (Pharmacopoeia Hungarica), FDA 172.878, FDA 178.3620(a)"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_heat_transfer.jpg",
     "price_on_request": true
   },
   {
@@ -15135,7 +15135,7 @@
         "value": "KOSHER, HALAL, European Pharmacopoeia (Ph.Eur. Curr.revision), Ph. Hg. VIII (Pharmacopoeia Hungarica), FDA 172.878, FDA 178.3620(a)"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_heat_transfer.jpg",
     "price_on_request": true
   },
   {
@@ -15155,7 +15155,7 @@
         "value": "NSF H1, KOSHER, HALAL, European Pharmacopoeia (Ph.Eur. Curr.revision), Ph. Hg. VIII (Pharmacopoeia Hungarica), FDA 172.878, FDA 178.3620(a)"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_heat_transfer.jpg",
     "price_on_request": true
   },
   {
@@ -15170,7 +15170,7 @@
     "volumes": [],
     "packs": [],
     "specs": [],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_heat_transfer.jpg",
     "price_on_request": true
   },
   {
@@ -15185,7 +15185,7 @@
     "volumes": [],
     "packs": [],
     "specs": [],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_heat_transfer.jpg",
     "price_on_request": true
   },
   {
@@ -15200,7 +15200,7 @@
     "volumes": [],
     "packs": [],
     "specs": [],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_heat_transfer.jpg",
     "price_on_request": true
   },
   {
@@ -15215,7 +15215,7 @@
     "volumes": [],
     "packs": [],
     "specs": [],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_heat_transfer.jpg",
     "price_on_request": true
   },
   {
@@ -15230,7 +15230,7 @@
     "volumes": [],
     "packs": [],
     "specs": [],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_heat_transfer.jpg",
     "price_on_request": true
   },
   {
@@ -15250,7 +15250,7 @@
         "value": "ISO-L-AN, ISO-L-FC"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_heat_transfer.jpg",
     "price_on_request": true
   },
   {
@@ -15270,7 +15270,7 @@
         "value": "ISO-L-N, IEC 60296 (2012), IEC 60296 (2020) TVBU, IEC 296 Class I, BS 148 Class I, ÖVE-W50-1/(1)"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_transformer.jpg",
     "price_on_request": true
   },
   {
@@ -15290,7 +15290,7 @@
         "value": "ISO-L-N, IEC 60296 (2012), IEC 60296 (2020) TVBI, IEC 296 Class IA, BS 148 Class IA"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_transformer.jpg",
     "price_on_request": true
   },
   {
@@ -15310,7 +15310,7 @@
         "value": "ISO-L-N, IEC 60296 (2012), IEC 60296 (2020) TVBI, IEC 296 Class IA, BS 148 Class IA"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_transformer.jpg",
     "price_on_request": true
   },
   {
@@ -15330,7 +15330,7 @@
         "value": "ISO-L-B"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_mold_release.jpg",
     "price_on_request": true
   },
   {
@@ -15350,7 +15350,7 @@
         "value": "ISO-L-B"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_mold_release.jpg",
     "price_on_request": true
   },
   {
@@ -15370,7 +15370,7 @@
         "value": "ISO-L-B"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_mold_release.jpg",
     "price_on_request": true
   },
   {
@@ -15390,7 +15390,7 @@
         "value": "ISO-L-B"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_mold_release.jpg",
     "price_on_request": true
   },
   {
@@ -15410,7 +15410,7 @@
         "value": "ISO-L-B"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_mold_release.jpg",
     "price_on_request": true
   },
   {
@@ -15430,7 +15430,7 @@
         "value": "ISO-L-B"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_mold_release.jpg",
     "price_on_request": true
   },
   {
@@ -15450,7 +15450,7 @@
         "value": "ISO-L-B"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_mold_release.jpg",
     "price_on_request": true
   },
   {
@@ -15465,7 +15465,7 @@
     "volumes": [],
     "packs": [],
     "specs": [],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_drum_208l.jpg",
     "price_on_request": true
   },
   {
@@ -15480,7 +15480,7 @@
     "volumes": [],
     "packs": [],
     "specs": [],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_heat_transfer.jpg",
     "price_on_request": true
   },
   {
@@ -15500,7 +15500,7 @@
         "value": "ISO-L-QB, ISO-L-QC, DIN 51522 Q"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_heat_transfer.jpg",
     "price_on_request": true
   },
   {
@@ -15520,7 +15520,7 @@
         "value": "ISO-L-QB, ISO-L-QC, DIN 51522 Q"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_heat_transfer.jpg",
     "price_on_request": true
   },
   {
@@ -15540,7 +15540,7 @@
         "value": "ISO-L-QB, ISO-L-QC, DIN 51522 Q"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_heat_transfer.jpg",
     "price_on_request": true
   },
   {
@@ -15560,7 +15560,7 @@
         "value": "API GL-3, ISO 12925-1 CKC, ISO-L-CKC, DIN 51517-3 (CLP)"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_gear.jpg",
     "price_on_request": true
   },
   {
@@ -15580,7 +15580,7 @@
         "value": "API GL-3, ISO 12925-1 CKC, ISO-L-CKC, DIN 51517-3 (CLP)"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_gear.jpg",
     "price_on_request": true
   },
   {
@@ -15600,7 +15600,7 @@
         "value": "API GL-3, ISO 12925-1 CKC, ISO-L-CKC, DIN 51517-3 (CLP)"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_gear.jpg",
     "price_on_request": true
   },
   {
@@ -15620,7 +15620,7 @@
         "value": "API GL-3, ISO 12925-1 CKC, ISO-L-CKC, DIN 51517-3 (CLP)"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_gear.jpg",
     "price_on_request": true
   },
   {
@@ -15640,7 +15640,7 @@
         "value": "API GL-3, ISO 12925-1 CKC, ISO-L-CKC, DIN 51517-3 (CLP)"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_gear.jpg",
     "price_on_request": true
   },
   {
@@ -15660,7 +15660,7 @@
         "value": "API GL-3, ISO 12925-1 CKC, ISO-L-CKC, DIN 51517-3 (CLP)"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_gear.jpg",
     "price_on_request": true
   },
   {
@@ -15680,7 +15680,7 @@
         "value": "ISO 12925-1 CKD, ISO-L-CKD, DIN 51517-3 (CLP), AGMA 9005-E02 EP, AGMA 251.02 EP, AGMA 250.04 EP, AIST (US Steel) 224, David Brown S1.53.101 Type E"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_gear.jpg",
     "price_on_request": true
   },
   {
@@ -15700,7 +15700,7 @@
         "value": "CKD Blansko -OS SKJ 80-140D, ISO 12925-1 CKD, ISO-L-CKD, DIN 51517-3 (CLP), AGMA 9005-E02 EP, AGMA 251.02 EP, AGMA 250.04 EP, AIST (US Steel) 224, David Brown S1.53.101 Type E"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_gear.jpg",
     "price_on_request": true
   },
   {
@@ -15720,7 +15720,7 @@
         "value": "Danieli 0.597649.H, ISO 12925-1 CKD, ISO-L-CKD, DIN 51517-3 (CLP), Cincinnati Lamb P-35, AGMA 9005-E02 EP, AGMA 251.02 EP, AGMA 250.04 EP, AIST (US Steel) 224, David Brown S1.53.101 Type E, Flender"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_gear.jpg",
     "price_on_request": true
   },
   {
@@ -15740,7 +15740,7 @@
         "value": "Danieli 0.597648.Q, ISO 12925-1 CKD, ISO-L-CKD, DIN 51517-3 (CLP), Cincinnati Lamb P-59, AGMA 9005-E02 EP, AGMA 251.02 EP, AGMA 250.04 EP, AIST (US Steel) 224, David Brown S1.53.101 Type E, Flender"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_gear.jpg",
     "price_on_request": true
   },
   {
@@ -15760,7 +15760,7 @@
         "value": "Danieli 0.597646.F, ISO 12925-1 CKD, ISO-L-CKD, DIN 51517-3 (CLP), Cincinnati Lamb P-77, AGMA 9005-E02 EP, AGMA 251.02 EP, AGMA 250.04 EP, AIST (US Steel) 224, David Brown S1.53.101 Type E, Flender"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_gear.jpg",
     "price_on_request": true
   },
   {
@@ -15780,7 +15780,7 @@
         "value": "ISO 12925-1 CKD, ISO-L-CKD, DIN 51517-3 (CLP), Cincinnati Lamb P-76, AGMA 9005-E02 EP, AGMA 251.02 EP, AGMA 250.04 EP, AIST (US Steel) 224, David Brown S1.53.101 Type E"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_gear.jpg",
     "price_on_request": true
   },
   {
@@ -15800,7 +15800,7 @@
         "value": "ISO 12925-1 CKD, ISO-L-CKD, DIN 51517-3 (CLP), Cincinnati Lamb P-63, AGMA 9005-E02 EP, AGMA 251.02 EP, AGMA 250.04 EP, AIST (US Steel) 224, David Brown S1.53.101 Type E"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_gear.jpg",
     "price_on_request": true
   },
   {
@@ -15820,7 +15820,7 @@
         "value": "Danieli 0.597647.G, ISO 12925-1 CKD, ISO-L-CKD, DIN 51517-3 (CLP), AGMA 9005-E02 EP, AGMA 251.02 EP, AGMA 250.04 EP, AIST (US Steel) 224, David Brown S1.53.101 Type E, Flender, Cincinnati Lamb P-74 (Fives Cincinnati)"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_gear.jpg",
     "price_on_request": true
   },
   {
@@ -15840,7 +15840,7 @@
         "value": "Flender (Siemens), ISO 12925-1 CKD, ISO 12925-1 CKSMP, ISO-L-CKSMP, DIN 51517-3 (CLP), ANSI/AGMA 9005-F16, DIN 51502 CLP-HC"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_gear.jpg",
     "price_on_request": true
   },
   {
@@ -15860,7 +15860,7 @@
         "value": "Flender (Siemens), ISO 12925-1 CKD, ISO 12925-1 CKSMP, ISO-L-CKSMP, DIN 51517-3 (CLP), ANSI/AGMA 9005-F16, DIN 51502 CLP-HC"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_gear.jpg",
     "price_on_request": true
   },
   {
@@ -15880,7 +15880,7 @@
         "value": "DIN 51502 PG-CLP, David Brown Type G, Flender (Siemens)"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_gear.jpg",
     "price_on_request": true
   },
   {
@@ -15900,7 +15900,7 @@
         "value": "DIN 51502 PG-CLP, DIN 51517-3: CLP-PG, David Brown Type G"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_gear.jpg",
     "price_on_request": true
   },
   {
@@ -15920,7 +15920,7 @@
         "value": "DIN 51502 PG-CLP, DIN 51517-3: CLP-PG, David Brown Type G"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_gear.jpg",
     "price_on_request": true
   },
   {
@@ -15940,7 +15940,7 @@
         "value": "DIN 51502 PG-CLP, DIN 51517-3: CLP-PG, David Brown Type G"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_gear.jpg",
     "price_on_request": true
   },
   {
@@ -15960,7 +15960,7 @@
         "value": "ISO-L-DRA, DIN 51503-1 KAA"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_compressor.jpg",
     "price_on_request": true
   },
   {
@@ -15980,7 +15980,7 @@
         "value": "ISO-L-DRA, DIN 51503-1 KAA"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_compressor.jpg",
     "price_on_request": true
   },
   {
@@ -16000,7 +16000,7 @@
         "value": "ISO-L-DVC"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_compressor.jpg",
     "price_on_request": true
   },
   {
@@ -16020,7 +16020,7 @@
         "value": "ISO-L-DAB, DIN 51506 VDL, DIN 51517-2 (CL)"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_compressor.jpg",
     "price_on_request": true
   },
   {
@@ -16040,7 +16040,7 @@
         "value": "ISO-L-DAB, DIN 51506 VDL, DIN 51517-2 (CL)"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_compressor.jpg",
     "price_on_request": true
   },
   {
@@ -16060,7 +16060,7 @@
         "value": "ISO-L-DAB, DIN 51506 VDL, DIN 51517-2 (CL)"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_compressor.jpg",
     "price_on_request": true
   },
   {
@@ -16080,7 +16080,7 @@
         "value": "ISO-L-DAB, DIN 51506 VDL, DIN 51517-2 (CL)"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_compressor.jpg",
     "price_on_request": true
   },
   {
@@ -16100,7 +16100,7 @@
         "value": "ISO-L-DAH, DIN 51506 VBL, DIN 51506 VCL"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_compressor.jpg",
     "price_on_request": true
   },
   {
@@ -16120,7 +16120,7 @@
         "value": "ISO-L-DAH, DIN 51506 VBL, DIN 51506 VCL"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_compressor.jpg",
     "price_on_request": true
   },
   {
@@ -16140,7 +16140,7 @@
         "value": "ISO-L-DAH, DIN 51524-2 (HLP), DIN 51506 VDL"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_compressor.jpg",
     "price_on_request": true
   },
   {
@@ -16160,7 +16160,7 @@
         "value": "ISO-L-DAB, ISO-L-DAJ, DIN 51506 VDL, GM LJ-04-3-00, SAE MS1003-2 Type DPJ"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_compressor.jpg",
     "price_on_request": true
   },
   {
@@ -16180,7 +16180,7 @@
         "value": "ISO-L-DAB, ISO-L-DAJ, DIN 51506 VDL, GM LJ-06-3-04, SAE MS1003-2 Type DPJ"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_compressor.jpg",
     "price_on_request": true
   },
   {
@@ -16200,7 +16200,7 @@
         "value": "ISO-L-DAB, ISO-L-DAJ, DIN 51506 VDL, GM LJ-04-3-04, SAE MS1003-2 Type DPJ"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_compressor.jpg",
     "price_on_request": true
   },
   {
@@ -16220,7 +16220,7 @@
         "value": "API CC"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_machinetool.jpg",
     "price_on_request": true
   },
   {
@@ -16240,7 +16240,7 @@
         "value": "GE Jenbacher for TA 1000-1109 (class B fuel gas, Series 2 & 3), TEDOM 2241, API CF"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_machinetool.jpg",
     "price_on_request": true
   },
   {
@@ -16260,7 +16260,7 @@
         "value": "API CF, Jenbacher TA1000-1107"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_machinetool.jpg",
     "price_on_request": true
   },
   {
@@ -16280,7 +16280,7 @@
         "value": "INNIO Jenbacher TA 1000-1109, Type 6 (C & E) – Fuel class A, B, C, INNIO Jenbacher TA 1000-1109, Type 4 (A) – Fuel class A, B, C, INNIO Jenbacher TA 1000-1109, Type 4 (B & D) – Fuel class A, B, C, INNIO Jenbacher TA 1000-1109, Type 2, 3 Series – Fuel class A, B, C, Wärtsilä 34SG, 32DF, 50DF, 25SG, 28SG, 175SG, 220SG (natural gas)"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_machinetool.jpg",
     "price_on_request": true
   },
   {
@@ -16300,7 +16300,7 @@
         "value": "ISO 8068 Type AR, ISO-L-TGA, ISO-L-TSA, DIN 51515-1 L-TD, DIN 51524-1 (HL), DIN 51517-2 (CL), Cincinnati Lamb P-54, AIST (US Steel) 125, AIST (US Steel) 120, SKODA POWER, BS 489"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_turbine.jpg",
     "price_on_request": true
   },
   {
@@ -16320,7 +16320,7 @@
         "value": "Siemens TLV 901304, Siemens TLV 901305, SKODA POWER, ISO 8068 Type AR, ISO-L-TGA, ISO-L-TSA, DIN 51515-1 L-TD, DIN 51524-1 (HL), DIN 51517-2 (CL), Cincinnati Lamb P-55, AIST (US Steel) 125, AIST (US Steel) 120, Alstom (ABB) HTGD 90117, Solar Turbines ES 9-224 Class II, BS 489"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_turbine.jpg",
     "price_on_request": true
   },
   {
@@ -16340,7 +16340,7 @@
         "value": "SKODA POWER, ISO 8068 Type AR, ISO-L-TGA, ISO-L-TSA, DIN 51515-1 L-TD, DIN 51524-1 (HL), DIN 51517-2 (CL), Cincinnati Lamb P-38, AIST (US Steel) 125, AIST (US Steel) 120, Siemens TLV 901304, Alstom (ABB) HTGD 90117, Solar Turbines ES 9-224 Class II, GEK 101941A, GEK 32568H, GEK 46506D, BS 489"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_turbine.jpg",
     "price_on_request": true
   },
   {
@@ -16360,7 +16360,7 @@
         "value": "ISO 8068 Type AR, ISO-L-TGA, ISO-L-TSA, DIN 51515-1 L-TD, DIN 51515-2 L-TG, AIST (US Steel) 125, AIST (US Steel) 120, Alstom (ABB) HTGD 90117, Solar Turbines ES 9-224 Class II, SKODA POWER, GEK 101941A, GEK 28143A, GEK 32568A/C/E, GEK 46506D"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_turbine.jpg",
     "price_on_request": true
   },
   {
@@ -16380,7 +16380,7 @@
         "value": "ISO 8068 Type AR, ISO-L-TGA, ISO-L-TSA, DIN 51515-1 L-TD, DIN 51515-2 L-TG, AIST (US Steel) 125, AIST (US Steel) 120, Siemens TLV 901304, Alstom (ABB) HTGD 90117, Solar Turbines ES 9-224 Class II, SKODA POWER, GEK 101941A, GEK 28143A, GEK 32568A/C/E, GEK 46506D"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_turbine.jpg",
     "price_on_request": true
   },
   {
@@ -16400,7 +16400,7 @@
         "value": "ISO 8068 Type AR, ISO-L-TGA, ISO-L-TSA, DIN 51515-1 L-TD, DIN 51515-2 L-TG, AIST (US Steel) 125, AIST (US Steel) 120, Siemens TLV 901304, Alstom (ABB) HTGD 90117, Solar Turbines ES 9-224 Class II, SKODA POWER, GEK 101941A, GEK 28143A, GEK 32568A/C/E, GEK 46506D"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_turbine.jpg",
     "price_on_request": true
   },
   {
@@ -16420,7 +16420,7 @@
         "value": "ISO-L-CKE, ISO-L-G, DIN 51502 CGLP, DIN 51517-3 (CLP), Cincinnati Lamb P-74, General Motors LS2 LW-22-1-00, AGMA 250.04, Cincinnati Lamb P-50 (Fives Cincinnati)"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_machinetool.jpg",
     "price_on_request": true
   },
   {
@@ -16440,7 +16440,7 @@
         "value": "ISO 11158 HM, ISO-L-CKE, ISO-L-G, DIN 51502 CGLP, DIN 51517-3 (CLP), Cincinnati Lamb P-77, AGMA 250.04"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_machinetool.jpg",
     "price_on_request": true
   },
   {
@@ -16460,7 +16460,7 @@
         "value": "ISO 11158 HM, ISO 11158 HG, ISO-L-G, ISO-L-HG, ISO-L-HM, DIN 51502 CGLP, DIN 51524-2 (HLP), DIN 51517-3 (CLP), Eaton (Vickers) M-2950-S, General Motors LS2 LW-06-1-00"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_machinetool.jpg",
     "price_on_request": true
   },
   {
@@ -16480,7 +16480,7 @@
         "value": "ISO 11158 HM, ISO 11158 HG, ISO-L-G, ISO-L-HG, ISO-L-HM, DIN 51502 CGLP, DIN 51524-2 (HLP), Eaton (Vickers) M-2950-S, General Motors LS2 LW-03-1-00"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_machinetool.jpg",
     "price_on_request": true
   },
   {
@@ -16500,7 +16500,7 @@
         "value": "ISO-L-CKE, ISO-L-G, DIN 51502 CGLP, DIN 51517-3 (CLP), Cincinnati Lamb P-76, General Motors LS2 LW-22-1-00, AGMA 250.04"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_machinetool.jpg",
     "price_on_request": true
   },
   {
@@ -16520,7 +16520,7 @@
         "value": "ISO 11158 HM, ISO 11158 HG, ISO-L-CKE, ISO-L-G, ISO-L-HG, ISO-L-HM, DIN 51502 CGLP, DIN 51524-2 (HLP), DIN 51517-3 (CLP), Eaton (Vickers) M-2950-S, General Motors LS2 LW-06-1-00, Cincinnati Lamb P-47 (Fives Cincinnati)"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_machinetool.jpg",
     "price_on_request": true
   },
   {
@@ -16540,7 +16540,7 @@
         "value": "ISO-L-PAB, ISO-L-PAC"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_machinetool.jpg",
     "price_on_request": true
   },
   {
@@ -16560,7 +16560,7 @@
         "value": "ISO-L-PAB, ISO-L-PAC"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_machinetool.jpg",
     "price_on_request": true
   },
   {
@@ -16580,7 +16580,7 @@
         "value": "ISO-L-PAB, ISO-L-PAC"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_machinetool.jpg",
     "price_on_request": true
   },
   {
@@ -16600,7 +16600,7 @@
         "value": "ISO-L-Y"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_drum_208l.jpg",
     "price_on_request": true
   },
   {
@@ -16620,7 +16620,7 @@
         "value": "ISO-L-FC, ISO-L-FD"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_machinetool.jpg",
     "price_on_request": true
   },
   {
@@ -16640,7 +16640,7 @@
         "value": "ISO-L-FC, ISO-L-FD"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_machinetool.jpg",
     "price_on_request": true
   },
   {
@@ -16660,7 +16660,7 @@
         "value": "ISO-L-FC, ISO-L-FD"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_machinetool.jpg",
     "price_on_request": true
   },
   {
@@ -16680,7 +16680,7 @@
         "value": "ISO-L-FC, ISO-L-FD"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_machinetool.jpg",
     "price_on_request": true
   },
   {
@@ -16700,7 +16700,7 @@
         "value": "ISO-L-FC, ISO-L-FD"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_machinetool.jpg",
     "price_on_request": true
   },
   {
@@ -16720,7 +16720,7 @@
         "value": "ISO 12925-1 CKB, ISO-L-CKB, DIN 51506 VBL, DIN 51517-2 (CL), Morgoil Lubricant Spec. Rev. 1.1"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_machinetool.jpg",
     "price_on_request": true
   },
   {
@@ -16740,7 +16740,7 @@
         "value": "ISO 12925-1 CKB, ISO-L-CKB, DIN 51506 VBL, DIN 51517-2 (CL), Morgoil Lubricant Spec. Rev. 1.1"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_machinetool.jpg",
     "price_on_request": true
   },
   {
@@ -16760,7 +16760,7 @@
         "value": "ISO 12925-1 CKB, ISO-L-CKB, DIN 51506 VBL, DIN 51517-2 (CL), Morgoil Lubricant Spec. Rev. 1.1"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_machinetool.jpg",
     "price_on_request": true
   },
   {
@@ -16780,7 +16780,7 @@
         "value": "ISO 11158 HL, ISO 12925-1 CKB, ISO-L-CKB, ISO-L-DAA, ISO-L-DAB, ISO-L-HL, DIN 51524-1 (HL), DIN 51506 VBL, DIN 51506 VCL, DIN 51517-2 (CL), Morgoil Lubricant Spec. Rev. 1.1"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_machinetool.jpg",
     "price_on_request": true
   },
   {
@@ -16800,7 +16800,7 @@
         "value": "ISO 11158 HL, ISO 12925-1 CKB, ISO-L-CKB, ISO-L-DAA, ISO-L-DAB, ISO-L-FC, ISO-L-HL, DIN 51524-1 (HL), DIN 51506 VBL, DIN 51506 VCL, DIN 51517-2 (CL), Morgoil Lubricant Spec. Rev. 1.1"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_machinetool.jpg",
     "price_on_request": true
   },
   {
@@ -16820,7 +16820,7 @@
         "value": "ISO 11158 HL, ISO 12925-1 CKB, ISO-L-CKB, ISO-L-DAA, ISO-L-DAB, ISO-L-HL, DIN 51524-1 (HL), DIN 51506 VBL, DIN 51506 VCL, DIN 51517-2 (CL), Morgoil Lubricant Spec. Rev. 1.1"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_machinetool.jpg",
     "price_on_request": true
   },
   {
@@ -16840,7 +16840,7 @@
         "value": "ISO 11158 HL, ISO 12925-1 CKB, ISO-L-CKB, ISO-L-DAA, ISO-L-DAB, ISO-L-FC, ISO-L-HL, DIN 51524-1 (HL), DIN 51506 VBL, DIN 51506 VCL, DIN 51517-2 (CL), Morgoil Lubricant Spec. Rev. 1.1"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_machinetool.jpg",
     "price_on_request": true
   },
   {
@@ -16860,7 +16860,7 @@
         "value": "ISO 11158 HL, ISO 12925-1 CKB, ISO-L-CKB, ISO-L-DAA, ISO-L-DAB, ISO-L-FC, ISO-L-HL, DIN 51524-1 (HL), DIN 51506 VBL, DIN 51506 VCL, DIN 51517-2 (CL), Morgoil Lubricant Spec. Rev. 1.1"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_machinetool.jpg",
     "price_on_request": true
   },
   {
@@ -16880,7 +16880,7 @@
         "value": "ISO 11158 HL, ISO 12925-1 CKB, ISO-L-FC, ISO-L-HL, DIN 51524-1 (HL), DIN 51517-2 (CL)"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_machinetool.jpg",
     "price_on_request": true
   },
   {
@@ -16900,7 +16900,7 @@
         "value": "ISO 11158 HL, ISO 12925-1 CKB, ISO-L-CKB, ISO-L-FC, ISO-L-HL, DIN 51524-1 (HL), DIN 51517-2 (CL)"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_machinetool.jpg",
     "price_on_request": true
   },
   {
@@ -16920,7 +16920,7 @@
         "value": "ISO 11158 HL, ISO-L-FC, ISO-L-HL, DIN 51524-1 (HL), DIN 51517-2 (CL)"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_machinetool.jpg",
     "price_on_request": true
   },
   {
@@ -16940,7 +16940,7 @@
         "value": "ISO 12925-1 CKB, ISO-L-CKB, DIN 51506 VDL, DIN 51517-2 (CL), Morgoil Lubricant Spec. Rev. 1.1, SMS SIEMAG-Morgoil Lubricant Spec. SN 180 Part 3, SEB 181225 (CL)"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_machinetool.jpg",
     "price_on_request": true
   },
   {
@@ -16960,7 +16960,7 @@
         "value": "ISO 12925-1 CKB, ISO-L-CKB, DIN 51517-2 (CL), Morgoil Lubricant Spec. Rev. 1.1, SMS SIEMAG-Morgoil Lubricant Spec. SN 180 Part 3, SEB 181225 (CL)"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_machinetool.jpg",
     "price_on_request": true
   },
   {
@@ -16980,7 +16980,7 @@
         "value": "ISO 12925-1 CKB, ISO-L-CKB, DIN 51517-2 (CL), Morgan Construction Company, Morgoil Lubricant Spec. Rev. 1.1, SMS SIEMAG-Morgoil Lubricant Spec. SN 180 Part 3, SEB 181225 (CL)"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_machinetool.jpg",
     "price_on_request": true
   },
   {
@@ -17000,7 +17000,7 @@
         "value": "ISO 12925-1 CKB, ISO-L-CKB, DIN 51517-2 (CL), Morgoil Lubricant Spec. Rev. 1.1, SMS SIEMAG-Morgoil Lubricant Spec. SN 180 Part 3, SEB 181225 (CL)"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_machinetool.jpg",
     "price_on_request": true
   },
   {
@@ -17020,7 +17020,7 @@
         "value": "ISO 12925-1 CKB, ISO-L-CKB, DIN 51506 VDL, DIN 51517-2 (CL), Morgoil Lubricant Spec. Rev. 1.1, SMS SIEMAG-Morgoil Lubricant Spec. SN 180 Part 3, SEB 181225 (CL)"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_machinetool.jpg",
     "price_on_request": true
   },
   {
@@ -17040,7 +17040,7 @@
         "value": "ISO 12925-1 CKB, ISO-L-CKB, DIN 51506 VDL, DIN 51517-2 (CL), Morgoil Lubricant Spec. Rev. 1.1, SMS SIEMAG-Morgoil Lubricant Spec. SN 180 Part 3, SEB 181225 (CL)"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_machinetool.jpg",
     "price_on_request": true
   },
   {
@@ -17060,7 +17060,7 @@
         "value": "ISO-L-CKB, DIN 51517-2 (CL), Morgoil Lubricant Spec. Rev. 1.1, SEB 181225 (CL)"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_machinetool.jpg",
     "price_on_request": true
   },
   {
@@ -17080,7 +17080,7 @@
         "value": "ISO 15380 HETG, ISO-L-HETG, VDMA 24568 HETG"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_hydraulic.jpg",
     "price_on_request": true
   },
   {
@@ -17100,7 +17100,7 @@
         "value": "ISO 15380 HEES, ISO-L-HEES, VDMA 24568 HEES, SS 155434"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_hydraulic.jpg",
     "price_on_request": true
   },
   {
@@ -17120,7 +17120,7 @@
         "value": "ISO 12922 HFAE, ISO-L-HFA-E, 7th Luxemburg Report"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_hydraulic.jpg",
     "price_on_request": true
   },
   {
@@ -17140,7 +17140,7 @@
         "value": "ISO 12922 HFC, ISO-L-HFC, 7th Luxemburg Report, VDMA 24317 HFC"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_hydraulic.jpg",
     "price_on_request": true
   },
   {
@@ -17160,7 +17160,7 @@
         "value": "ISO 12922 HFDU, ISO-L-HFDU, 7th Luxemburg Report"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_hydraulic.jpg",
     "price_on_request": true
   },
   {
@@ -17180,7 +17180,7 @@
         "value": "ISO 12922 HFDU, ISO-L-HFDU, 7th Luxemburg Report"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_hydraulic.jpg",
     "price_on_request": true
   },
   {
@@ -17200,7 +17200,7 @@
         "value": "ISO 11158 HL, ISO-L-HL, DIN 51524-1 (HL), DIN 51517-2 (CL)"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_hydraulic.jpg",
     "price_on_request": true
   },
   {
@@ -17220,7 +17220,7 @@
         "value": "ISO 11158 HL, ISO-L-HL, DIN 51524-1 (HL), DIN 51517-2 (CL)"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_hydraulic.jpg",
     "price_on_request": true
   },
   {
@@ -17240,7 +17240,7 @@
         "value": "ISO 11158 HL, ISO-L-HL, DIN 51524-1 (HL), DIN 51517-2 (CL)"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_hydraulic.jpg",
     "price_on_request": true
   },
   {
@@ -17260,7 +17260,7 @@
         "value": "MAN N 698, ISO 11158 HV, DIN 51524-3 (HVLP), DIN 51502 HVLPD"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_hydraulic.jpg",
     "price_on_request": true
   },
   {
@@ -17280,7 +17280,7 @@
         "value": "ISO-L-HV, DIN 51524-3 (HVLP)"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_hydraulic.jpg",
     "price_on_request": true
   },
   {
@@ -17300,7 +17300,7 @@
         "value": "ISO 11158 HV, ISO 6743-4, ISO-L-HV, DIN 51524-3 (HVLP), Parker Hannifin (Denison) HF-0/HF-1/HF-2, SAE MS1004 Type HV, AFNOR NF-E-48603 (HV)"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_hydraulic.jpg",
     "price_on_request": true
   },
   {
@@ -17320,7 +17320,7 @@
         "value": "ISO 11158 HV, ISO 6743-4, ISO-L-HV, DIN 51524-3 (HVLP), Parker Hannifin (Denison) HF-0/HF-1/HF-2, SAE MS1004 Type HV, AFNOR NF-E-48603 (HV)"
       }
     ],
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/hidraulikaolajok/10L_MOL_Hydro_HV_46_.jpg",
+    "photo_url": "images/products/mol/mol_mol-ind-5469.jpg",
     "price_on_request": true
   },
   {
@@ -17340,7 +17340,7 @@
         "value": "ZETOR, ISO 11158 HV, ISO 6743-4, ISO-L-HV, DIN 51524-3 (HVLP), Parker Hannifin (Denison) HF-0/HF-1/HF-2, SAE MS1004 Type HV, AFNOR NF-E-48603 (HV)"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_hydraulic.jpg",
     "price_on_request": true
   },
   {
@@ -17360,7 +17360,7 @@
         "value": "ISO 11158 HV, ISO-L-HV, DIN 51524-3 (HVLP), SAE MS1004 Type HV, AFNOR NF-E-48603 (HV)"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_hydraulic.jpg",
     "price_on_request": true
   },
   {
@@ -17380,7 +17380,7 @@
         "value": "ISO 11158 HV, ISO-L-HV, DIN 51524-3 (HVLP), SAE MS1004 Type HV, AFNOR NF-E-48603 (HV)"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_hydraulic.jpg",
     "price_on_request": true
   },
   {
@@ -17400,7 +17400,7 @@
         "value": "ISO 11158 HM, ISO-L-HM, DIN 51524-2 (HLP), AIST (US Steel) 127, AIST (US Steel) 126, SEB 181222 (HLP), AFNOR NF-E-48603 (HM)"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_hydraulic.jpg",
     "price_on_request": true
   },
   {
@@ -17420,7 +17420,7 @@
         "value": "ISO 11158 HM, ISO-L-HM, DIN 51524-2 (HLP), DIN 51506 VDL, Eaton (Vickers) I-286-S, Eaton (Vickers) M-2950-S, Cincinnati Lamb P-70, General Motors LS2 LH-04-1-00, ENGEL, SAE MS1004 Type HM, AIST (US Steel) 127, AIST (US Steel) 126, AFNOR NF-E-48603 (HM), Parker Denison HF-0, Parker Denison HF-1/HF-2"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_hydraulic.jpg",
     "price_on_request": true
   },
   {
@@ -17440,7 +17440,7 @@
         "value": "MAN N 698, DIN HLP-D"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_hydraulic.jpg",
     "price_on_request": true
   },
   {
@@ -17460,7 +17460,7 @@
         "value": "MAN N 698, DIN HLP-D"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_hydraulic.jpg",
     "price_on_request": true
   },
   {
@@ -17480,7 +17480,7 @@
         "value": "MAN N 698, DIN HLP-D"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_hydraulic.jpg",
     "price_on_request": true
   },
   {
@@ -17500,7 +17500,7 @@
         "value": "ISO 11158 HM, ISO-L-HM, DIN 51524-2 (HLP), AFNOR NF-E-48603 (HM)"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_hydraulic.jpg",
     "price_on_request": true
   },
   {
@@ -17520,7 +17520,7 @@
         "value": "ISO 11158 HM, ISO-L-HM, DIN 51524-2 (HLP), AFNOR NF-E-48603 (HM)"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_hydraulic.jpg",
     "price_on_request": true
   },
   {
@@ -17540,7 +17540,7 @@
         "value": "ISO 11158 HM, ISO-L-HM, DIN 51524-2 (HLP), AFNOR NF-E-48603 (HM)"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_hydraulic.jpg",
     "price_on_request": true
   },
   {
@@ -17560,7 +17560,7 @@
         "value": "Danieli 0.597667.D, Bosch Rexroth Fluid Rating List RDE 90245, Parker Denison HF-0, Parker Denison HF-1/HF-2, ISO 11158 HM, ISO-L-HM, DIN 51524-2 (HLP), DIN 51506 VDL, Eaton (Vickers) I-286-S, Eaton (Vickers) M-2950-S, General Motors LS2 LH-06-1-00, AIST (US Steel) 127, AIST (US Steel) 126, AFNOR NF-E-48603 (HM), Cincinnati Lamb P-69 (Fives Cincinnati)"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_hydraulic.jpg",
     "price_on_request": true
   },
   {
@@ -17580,7 +17580,7 @@
         "value": "ARBURG, Danieli 0.597666.C, Bosch Rexroth Fluid Rating List RDE 90245, ENGEL, Parker Denison HF-0, Parker Denison HF-1/HF-2, ISO 11158 HM, ISO-L-HM, DIN 51524-2 (HLP), DIN 51506 VDL, Eaton (Vickers) I-286-S, Eaton (Vickers) M-2950-S, General Motors LS2 LH-04-1-00, SAE MS1004 Type HM, AIST (US Steel) 127, AIST (US Steel) 126, AFNOR NF-E-48603 (HM), Cincinnati Lamb P-70 (Fives Cincinnati)"
       }
     ],
-    "photo_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/hidraulikaolajok/4L_MOL_Hydro_HME_46_.jpg",
+    "photo_url": "images/products/mol/mol_mol-ind-5482.jpg",
     "price_on_request": true
   },
   {
@@ -17600,7 +17600,7 @@
         "value": "Bosch Rexroth Fluid Rating List RDE 90245, Parker Denison HF-0, Parker Denison HF-1/HF-2, ISO 11158 HM, ISO-L-HM, DIN 51524-2 (HLP), DIN 51506 VDL, Eaton (Vickers) I-286-S, Eaton (Vickers) M-2950-S, General Motors LS2 LH-03-1-00, SAE MS1004 Type HM, AIST (US Steel) 127, AIST (US Steel) 126, AFNOR NF-E-48603 (HM), Cincinnati Lamb P-68 (Fives Cincinnati)"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_hydraulic.jpg",
     "price_on_request": true
   },
   {
@@ -17620,7 +17620,7 @@
         "value": "ISO 11158 HM, ISO-L-HM, DIN 51524-2 (HLP), General Motors LS2 LH-02-1-00, SAE MS1004 Type HM, AFNOR NF-E-48603 (HM)"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_hydraulic.jpg",
     "price_on_request": true
   },
   {
@@ -17640,7 +17640,7 @@
         "value": "Parker Denison HF-0, Parker Denison HF-1/HF-2, ISO 11158 HM, ISO-L-HM, DIN 51524-2 (HLP), DIN 51506 VDL, Eaton (Vickers) I-286-S, Eaton (Vickers) M-2950-S, Cincinnati Lamb P-69, General Motors LS2 LH-06-1-00, SAE MS1004 Type HM, AIST (US Steel) 127, AIST (US Steel) 126, SEB 181222 (HLP), AFNOR NF-E-48603 (HM)"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_hydraulic.jpg",
     "price_on_request": true
   },
   {
@@ -17660,7 +17660,7 @@
         "value": "ENGEL, Parker Denison HF-0, Parker Denison HF-1/HF-2, ISO 11158 HM, ISO-L-HM, DIN 51524-2 (HLP), DIN 51506 VDL, Eaton (Vickers) I-286-S, Eaton (Vickers) M-2950-S, Cincinnati Lamb P-70, General Motors LS2 LH-04-1-00, SAE MS1004 Type HM, AIST (US Steel) 127, AIST (US Steel) 126, SEB 181222 (HLP), AFNOR NF-E-48603 (HM)"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_hydraulic.jpg",
     "price_on_request": true
   },
   {
@@ -17680,7 +17680,7 @@
         "value": "Parker Denison HF-0, Parker Denison HF-1/HF-2, ISO 11158 HM, ISO-L-HM, DIN 51524-2 (HLP), DIN 51506 VDL, Eaton (Vickers) I-286-S, Eaton (Vickers) M-2950-S, Cincinnati Lamb P-68, General Motors LS2 LH-03-1-00, SAE MS1004 Type HM, AIST (US Steel) 127, AIST (US Steel) 126, SEB 181222 (HLP), AFNOR NF-E-48603 (HM)"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_hydraulic.jpg",
     "price_on_request": true
   },
   {
@@ -17700,7 +17700,7 @@
         "value": "DIN 51502: KP2N-30, ISO 6743-9: L-XCDEB 2"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_mol-ind-5664.jpg",
     "price_on_request": true
   },
   {
@@ -17715,7 +17715,7 @@
     "volumes": [],
     "packs": [],
     "specs": [],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_hydraulic.jpg",
     "price_on_request": true
   },
   {
@@ -17735,7 +17735,7 @@
         "value": "ISO 6743-9: L-XBFHB 2, DIN 51502: KP2R-20"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -17755,7 +17755,7 @@
         "value": "Flender (Siemens), ISO 12925-1 CKD, ISO 12925-1 CKSMP, ISO-L-CKSMP, DIN 51517-3 (CLP), ANSI/AGMA 9005-F16, DIN 51502 CLP-HC"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_gear.jpg",
     "price_on_request": true
   },
   {
@@ -17775,7 +17775,7 @@
         "value": "Flender (Siemens), ISO 12925-1 CKD, ISO 12925-1 CKSMP, ISO-L-CKSMP, DIN 51517-3 (CLP), ANSI/AGMA 9005-F16, DIN 51502 CLP-HC"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_gear.jpg",
     "price_on_request": true
   },
   {
@@ -17795,7 +17795,7 @@
         "value": "MWM - Bio Gas, GE Jenbacher Type 2, Type 3, Type 4 (versions A&B), Type 6 (versions C&E) Natural Gas (Class A), GE Jenbacher Type 2, Type 3, Type 4 (versions A&B), Type 6 (versions C&E) Bio Gas (Class B), MWM - Natural Gas"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_machinetool.jpg",
     "price_on_request": true
   },
   {
@@ -17815,7 +17815,7 @@
         "value": "DIN 51502: KP2G-25, ISO 6743-9: L-XBBHB 2"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_grease.jpg",
     "price_on_request": true
   },
   {
@@ -17835,7 +17835,7 @@
         "value": "ISO-L-AN, ISO-L-FC"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_heat_transfer.jpg",
     "price_on_request": true
   },
   {
@@ -17855,7 +17855,7 @@
         "value": "ISO-L-Y"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_drum_208l.jpg",
     "price_on_request": true
   },
   {
@@ -17870,7 +17870,7 @@
     "volumes": [],
     "packs": [],
     "specs": [],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_machinetool.jpg",
     "price_on_request": true
   },
   {
@@ -17885,7 +17885,7 @@
     "volumes": [],
     "packs": [],
     "specs": [],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_machinetool.jpg",
     "price_on_request": true
   },
   {
@@ -17900,7 +17900,7 @@
     "volumes": [],
     "packs": [],
     "specs": [],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_machinetool.jpg",
     "price_on_request": true
   },
   {
@@ -17915,7 +17915,7 @@
     "volumes": [],
     "packs": [],
     "specs": [],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_machinetool.jpg",
     "price_on_request": true
   },
   {
@@ -17930,7 +17930,7 @@
     "volumes": [],
     "packs": [],
     "specs": [],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_machinetool.jpg",
     "price_on_request": true
   },
   {
@@ -17945,7 +17945,7 @@
     "volumes": [],
     "packs": [],
     "specs": [],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_machinetool.jpg",
     "price_on_request": true
   },
   {
@@ -17965,7 +17965,7 @@
         "value": "ISO 6743-7: L-MAF, TRGS 611"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -17985,7 +17985,7 @@
         "value": "ISO 6743-7: L-MAF, TRGS 611"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -18000,7 +18000,7 @@
     "volumes": [],
     "packs": [],
     "specs": [],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -18015,7 +18015,7 @@
     "volumes": [],
     "packs": [],
     "specs": [],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -18030,7 +18030,7 @@
     "volumes": [],
     "packs": [],
     "specs": [],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -18050,7 +18050,7 @@
         "value": "ISO 6743-7: L-MAB"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -18070,7 +18070,7 @@
         "value": "ISO 6743-7: L-MHB"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -18085,7 +18085,7 @@
     "volumes": [],
     "packs": [],
     "specs": [],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -18105,7 +18105,7 @@
         "value": "ISO 6743-7: L-MHF"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -18120,7 +18120,7 @@
     "volumes": [],
     "packs": [],
     "specs": [],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_machinetool.jpg",
     "price_on_request": true
   },
   {
@@ -18140,7 +18140,7 @@
         "value": "NSF HT1[150116]"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_heat_transfer.jpg",
     "price_on_request": true
   },
   {
@@ -18160,7 +18160,7 @@
         "value": "ISO 12925-1 CKD, ISO 12925-1 CKSMP, ISO-L-CKSMP, DIN 51517-3 (CLP), ANSI/AGMA 9005-F16, Flender (Siemens), DIN 51502 CLP-HC"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_gear.jpg",
     "price_on_request": true
   },
   {
@@ -18180,7 +18180,7 @@
         "value": "ISO 6743-9: L-XCCEB 00, DIN 51502: GP00K-30"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_grease.jpg",
     "price_on_request": true
   },
   {
@@ -18200,7 +18200,7 @@
         "value": "DIN 51502: K2K-25, ISO 6743-9: L-XBCEA 2"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_grease.jpg",
     "price_on_request": true
   },
   {
@@ -18215,7 +18215,7 @@
     "volumes": [],
     "packs": [],
     "specs": [],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_mold_release.jpg",
     "price_on_request": true
   },
   {
@@ -18230,7 +18230,7 @@
     "volumes": [],
     "packs": [],
     "specs": [],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_mold_release.jpg",
     "price_on_request": true
   },
   {
@@ -18245,7 +18245,7 @@
     "volumes": [],
     "packs": [],
     "specs": [],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_mold_release.jpg",
     "price_on_request": true
   },
   {
@@ -18260,7 +18260,7 @@
     "volumes": [],
     "packs": [],
     "specs": [],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_mold_release.jpg",
     "price_on_request": true
   },
   {
@@ -18275,7 +18275,7 @@
     "volumes": [],
     "packs": [],
     "specs": [],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_heat_transfer.jpg",
     "price_on_request": true
   },
   {
@@ -18290,7 +18290,7 @@
     "volumes": [],
     "packs": [],
     "specs": [],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_heat_transfer.jpg",
     "price_on_request": true
   },
   {
@@ -18305,7 +18305,7 @@
     "volumes": [],
     "packs": [],
     "specs": [],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_heat_transfer.jpg",
     "price_on_request": true
   },
   {
@@ -18325,7 +18325,7 @@
         "value": "KOSHER, HALAL, European Pharmacopoeia (Ph.Eur. Curr.revision), Ph. Hg. VIII (Pharmacopoeia Hungarica), FDA 172.878, FDA 178.3620(a)"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_heat_transfer.jpg",
     "price_on_request": true
   },
   {
@@ -18345,7 +18345,7 @@
         "value": "MAN Turbo SPD 10000494596, ISO 8068, DIN 51515-1 L-TD, DIN 51515-2 L-TG, Cincinnati Lamb P-55, Siemens TLV 901304, Siemens TLV 901305, Solar Turbines ES 9-224 Class II, SKODA POWER, ASTM D 4304 Type I"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_turbine.jpg",
     "price_on_request": true
   },
   {
@@ -18365,7 +18365,7 @@
         "value": "ISO 8068 Type AR, ISO-L-TGA, ISO-L-TSA, DIN 51515-1 L-TD, Cincinnati Lamb P-55, Siemens TLV 901304, Alstom (ABB) HTGD 90117, Solar Turbines ES 9-224 Class II, BS 489"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_turbine.jpg",
     "price_on_request": true
   },
   {
@@ -18385,7 +18385,7 @@
         "value": "Eaton E-FDGN-TB002-E, Bosch Rexroth Fluid Rating List RDE 90245, Parker Denison HF-0, Parker Denison HF-1/HF-2, ISO 11158 HV, ISO-L-HV, DIN 51524-3 (HVLP), General Motors LS2 LH-03-1-00, SAE MS1004 Type HV, AIST (US Steel) 127, Cincinnati Lamb P-68 (Fives Cincinnati)"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_hydraulic.jpg",
     "price_on_request": true
   },
   {
@@ -18405,7 +18405,7 @@
         "value": "ARBURG, Eaton E-FDGN-TB002-E, Bosch Rexroth Fluid Rating List RDE 90245, Parker Denison HF-0, Parker Denison HF-1/HF-2, ISO 11158 HV, ISO-L-HV, DIN 51524-3 (HVLP), General Motors LS2 LH-03-1-00, SAE MS1004 Type HV, AIST (US Steel) 127, KraussMaffei Hydraulic Oil, Cincinnati Lamb P-70 (Fives Cincinnati)"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_hydraulic.jpg",
     "price_on_request": true
   },
   {
@@ -18425,7 +18425,7 @@
         "value": "Eaton E-FDGN-TB002-E, Bosch Rexroth Fluid Rating List RDE 90245, Parker Denison HF-0, Parker Denison HF-1/HF-2, ISO 11158 HV, ISO-L-HV, DIN 51524-3 (HVLP), General Motors LS2 LH-03-1-00, SAE MS1004 Type HV, AIST (US Steel) 127, Cincinnati Lamb P-69 (Fives Cincinnati)"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_hydraulic.jpg",
     "price_on_request": true
   },
   {
@@ -18445,7 +18445,7 @@
         "value": "ISO 15380 HEES, ISO-L-HEES, VDMA 24568 HEES, SS 155434"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_hydraulic.jpg",
     "price_on_request": true
   },
   {
@@ -18465,7 +18465,7 @@
         "value": "ISO 11158 HV, ISO-L-HV, DIN 51524-3 (HVLP)"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_hydraulic.jpg",
     "price_on_request": true
   },
   {
@@ -18485,7 +18485,7 @@
         "value": "ISO 11158 HV, ISO-L-HV, DIN 51524-3 (HVLP)"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_hydraulic.jpg",
     "price_on_request": true
   },
   {
@@ -18505,7 +18505,7 @@
         "value": "ISO 11158 HV, ISO-L-HV, DIN 51524-3 (HVLP)"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_hydraulic.jpg",
     "price_on_request": true
   },
   {
@@ -18525,7 +18525,7 @@
         "value": "ISO 12922 HFC, ISO-L-HFC, 7th Luxemburg Report, VDMA 24317 HFC"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_hydraulic.jpg",
     "price_on_request": true
   },
   {
@@ -18545,7 +18545,7 @@
         "value": "ISO 11158 HM, DIN 51524-2 (HLP), DIN HLP-D, Mueller Weingarten"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_hydraulic.jpg",
     "price_on_request": true
   },
   {
@@ -18565,7 +18565,7 @@
         "value": "ISO 11158 HM, DIN 51524-2 (HLP), DIN HLP-D, Mueller Weingarten"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_hydraulic.jpg",
     "price_on_request": true
   },
   {
@@ -18585,7 +18585,7 @@
         "value": "ISO 11158 HM, DIN 51524-2 (HLP), DIN HLP-D, Mueller Weingarten"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_hydraulic.jpg",
     "price_on_request": true
   },
   {
@@ -18605,7 +18605,7 @@
         "value": "ISO 12925-1 CKD, ISO-L-CKD, DIN 51517-3 (CLP), AGMA 9005-E02 EP"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_gear.jpg",
     "price_on_request": true
   },
   {
@@ -18625,7 +18625,7 @@
         "value": "ISO 12925-1 CKD, ISO-L-CKD, DIN 51517-3 (CLP), AGMA 9005-E02 EP"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_gear.jpg",
     "price_on_request": true
   },
   {
@@ -18645,7 +18645,7 @@
         "value": "ISO 12925-1 CKD, ISO-L-CKD, DIN 51517-3 (CLP), AGMA 9005-E02 EP"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_gear.jpg",
     "price_on_request": true
   },
   {
@@ -18665,7 +18665,7 @@
         "value": "ISO 12925-1 CKD, ISO-L-CKD, DIN 51517-3 (CLP), AGMA 9005-E02 EP"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_gear.jpg",
     "price_on_request": true
   },
   {
@@ -18680,7 +18680,7 @@
     "volumes": [],
     "packs": [],
     "specs": [],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -18700,7 +18700,7 @@
         "value": "ISO 6743-7: L-MHF"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -18720,7 +18720,7 @@
         "value": "ISO-L-N, IEC 60296 (2020) TVAI"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_transformer.jpg",
     "price_on_request": true
   },
   {
@@ -18735,7 +18735,7 @@
     "volumes": [],
     "packs": [],
     "specs": [],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_mold_release.jpg",
     "price_on_request": true
   },
   {
@@ -18750,7 +18750,7 @@
     "volumes": [],
     "packs": [],
     "specs": [],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_mold_release.jpg",
     "price_on_request": true
   },
   {
@@ -18770,7 +18770,7 @@
         "value": "ISO 8068, DIN 51515-1 L-TD, DIN 51515-2 L-TG, Siemens TLV 901304, Siemens TLV 901305, Solar Turbines ES 9-224 Class II, SKODA POWER, GEK 32568H, ASTM D 4304 Type I"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_turbine.jpg",
     "price_on_request": true
   },
   {
@@ -18790,7 +18790,7 @@
         "value": "DIN 51502: KP1P-30, ISO 6743-9: L-XCEHB 1"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_grease.jpg",
     "price_on_request": true
   },
   {
@@ -18810,7 +18810,7 @@
         "value": "ISO 6743-9: L-XBEHB 1/2, DIN 51502: KP1/2P-15"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_grease.jpg",
     "price_on_request": true
   },
   {
@@ -18830,7 +18830,7 @@
         "value": "DIN 51502: KP2P-20, ISO 6743-9: L-XBEHB 2"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_grease.jpg",
     "price_on_request": true
   },
   {
@@ -18850,7 +18850,7 @@
         "value": "ISO 6743-9: L-XBEHB 1/2, DIN 51502: KPF1/2P-15"
       }
     ],
-    "photo_url": "https://mollubricants.md/images/mol_md/lub/industry/400g_MOL_Sulphoplex_1_2EP_G.jpg",
+    "photo_url": "images/products/mol/mol_mol-ind-6558.jpg",
     "price_on_request": true
   },
   {
@@ -18870,7 +18870,7 @@
         "value": "DIN 51502: KPF2P-15, ISO 6743-9: L-XBEHB 2"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_grease.jpg",
     "price_on_request": true
   },
   {
@@ -18885,7 +18885,7 @@
     "volumes": [],
     "packs": [],
     "specs": [],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -18905,7 +18905,7 @@
         "value": "ISO 6743-7: L-MHF, EMAG"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -18925,7 +18925,7 @@
         "value": "ISO 6743-7: L-MHB, EMAG"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -18940,7 +18940,7 @@
     "volumes": [],
     "packs": [],
     "specs": [],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_metalworking.jpg",
     "price_on_request": true
   },
   {
@@ -18960,7 +18960,7 @@
         "value": "NSF H1[165682]"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_mol-ind-5235.jpg",
     "price_on_request": true
   },
   {
@@ -18980,7 +18980,7 @@
         "value": "NSF H1[165683]"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_mol-ind-5235.jpg",
     "price_on_request": true
   },
   {
@@ -19000,7 +19000,7 @@
         "value": "ISO 12922 HFC, ISO-L-HFC, 7th Luxemburg Report"
       }
     ],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_hydraulic.jpg",
     "price_on_request": true
   },
   {
@@ -19015,7 +19015,7 @@
     "volumes": [],
     "packs": [],
     "specs": [],
-    "photo_url": "",
+    "photo_url": "images/products/mol/mol_industrial_mold_release.jpg",
     "price_on_request": true
   },
   {
