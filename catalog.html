@@ -16,7 +16,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@500;700&family=Space+Mono&display=swap" rel="stylesheet">
     
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="style.css?v=48.0">
+    <link rel="stylesheet" href="style.css?v=49.0">
 </head>
 <body>
 
@@ -229,13 +229,50 @@
                         <span class="cat-count" id="count-brake-fluids">—</span>
                     </div>
 
-                    <!-- Auto Chemistry & Cosmetics -->
-                    <div class="sidebar-cat-item" data-cat="auto-chemistry">
-                        <span class="cat-item-left">
-                            <svg class="cat-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
-                            <span class="cat-name" data-i18n="catalog_text_span_56">Автохимия и автокосметика</span>
-                        </span>
-                        <span class="cat-count" id="count-auto-chemistry">—</span>
+                    <!-- Auto Chemistry & Cosmetics Accordion Parent -->
+                    <div class="sidebar-cat-accordion">
+                        <div class="sidebar-cat-item sidebar-cat-parent" data-cat="auto-chemistry">
+                            <span class="cat-item-left">
+                                <svg class="cat-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
+                                <span class="cat-name" data-i18n="catalog_text_span_56">Автохимия и автокосметика</span>
+                            </span>
+                            <span class="cat-item-right">
+                                <span class="cat-count" id="count-auto-chemistry">—</span>
+                                <button class="cat-accordion-toggle" aria-label="Раскрыть подкатегории">
+                                    <svg class="cat-chevron-svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                                </button>
+                            </span>
+                        </div>
+                        <div class="sidebar-cat-sublist">
+                            <div class="sidebar-cat-item sidebar-subcat-item" data-cat="air-fresheners">
+                                <span class="cat-item-left">
+                                    <span class="subcat-bullet">•</span>
+                                    <span class="cat-name" data-i18n="cat_air_fresheners">Ароматизаторы</span>
+                                </span>
+                                <span class="cat-count" id="count-air-fresheners">—</span>
+                            </div>
+                            <div class="sidebar-cat-item sidebar-subcat-item" data-cat="screenwash">
+                                <span class="cat-item-left">
+                                    <span class="subcat-bullet">•</span>
+                                    <span class="cat-name" data-i18n="cat_screenwash">Жидкости в стеклоомыватель</span>
+                                </span>
+                                <span class="cat-count" id="count-screenwash">—</span>
+                            </div>
+                            <div class="sidebar-cat-item sidebar-subcat-item" data-cat="adblue">
+                                <span class="cat-item-left">
+                                    <span class="subcat-bullet">•</span>
+                                    <span class="cat-name" data-i18n="cat_adblue">AdBlue</span>
+                                </span>
+                                <span class="cat-count" id="count-adblue">—</span>
+                            </div>
+                            <div class="sidebar-cat-item sidebar-subcat-item" data-cat="car-care">
+                                <span class="cat-item-left">
+                                    <span class="subcat-bullet">•</span>
+                                    <span class="cat-name" data-i18n="cat_car_care">Средства для салона и кузова</span>
+                                </span>
+                                <span class="cat-count" id="count-car-care">—</span>
+                            </div>
+                        </div>
                     </div>
 
                     <!-- Accessories -->
@@ -526,8 +563,8 @@
     </footer>
 
     <!-- App Logic -->
-    <script src="i18n.js?v=48.0"></script>
-    <script src="b2b-auth.js?v=48.0"></script>
-    <script src="app.js?v=48.0"></script>
+    <script src="i18n.js?v=49.0"></script>
+    <script src="b2b-auth.js?v=49.0"></script>
+    <script src="app.js?v=49.0"></script>
 </body>
 </html>

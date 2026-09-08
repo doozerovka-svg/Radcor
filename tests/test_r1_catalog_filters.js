@@ -103,6 +103,7 @@ if (lastIndex !== -1) {
         return {
             CATEGORY_LABELS,
             LUBRICANT_SUBCATEGORIES,
+            AUTO_CHEMISTRY_SUBCATEGORIES,
             catalogState,
             allProducts,
             getProductViscosity,
@@ -245,7 +246,7 @@ const lubsExpected = productsData.filter(p => App.LUBRICANT_SUBCATEGORIES.includ
 assert(lubsFiltered.length === lubsExpected.length && lubsFiltered.length > 0,
     `Parent category 'lubricants' returned ${lubsFiltered.length} items from all 7 subcategories`);
 
-// Test each subcategory individually
+// Test lubricants subcategories individually
 App.LUBRICANT_SUBCATEGORIES.forEach(subcat => {
     resetState();
     App.catalogState.activeCategory = subcat;
@@ -257,8 +258,34 @@ App.LUBRICANT_SUBCATEGORIES.forEach(subcat => {
         `All items in '${subcat}' match category '${subcat}'`);
 });
 
+// Auto-Chemistry Accordion & Subcategories
+assert(Array.isArray(App.AUTO_CHEMISTRY_SUBCATEGORIES) && App.AUTO_CHEMISTRY_SUBCATEGORIES.length === 4, `AUTO_CHEMISTRY_SUBCATEGORIES has 4 items`);
+const expectedAutoChemSubcats = ['air-fresheners', 'screenwash', 'adblue', 'car-care'];
+assert(expectedAutoChemSubcats.every(s => App.AUTO_CHEMISTRY_SUBCATEGORIES.includes(s)),
+    `All 4 auto-chemistry subcategories present: [${expectedAutoChemSubcats.join(', ')}]`);
+
+// Parent 'auto-chemistry' returns products from ALL 4 subcategories
+resetState();
+App.catalogState.activeCategory = 'auto-chemistry';
+const autoChemFiltered = App.applyFilters(productsData);
+const autoChemExpected = productsData.filter(p => App.AUTO_CHEMISTRY_SUBCATEGORIES.includes(p.category) || p.category === 'auto-chemistry');
+assert(autoChemFiltered.length === autoChemExpected.length && autoChemFiltered.length > 0,
+    `Parent category 'auto-chemistry' returned ${autoChemFiltered.length} items from all 4 subcategories`);
+
+// Test each auto-chemistry subcategory individually
+App.AUTO_CHEMISTRY_SUBCATEGORIES.forEach(subcat => {
+    resetState();
+    App.catalogState.activeCategory = subcat;
+    const filtered = App.applyFilters(productsData);
+    const expected = productsData.filter(p => p.category === subcat);
+    assert(filtered.length === expected.length && filtered.length > 0,
+        `Auto-chem subcategory '${subcat}' returned ${filtered.length} items (expected ${expected.length})`);
+    assert(filtered.every(p => p.category === subcat),
+        `All items in '${subcat}' match category '${subcat}'`);
+});
+
 // Test standalone categories
-const standaloneCategories = ['coolants', 'brake-fluids', 'auto-chemistry', 'accessories', 'auto-lamps'];
+const standaloneCategories = ['coolants', 'brake-fluids', 'accessories', 'auto-lamps'];
 standaloneCategories.forEach(cat => {
     resetState();
     App.catalogState.activeCategory = cat;

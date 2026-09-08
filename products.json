@@ -970,7 +970,7 @@
   {
     "sku": "ADV-DOT4",
     "name": "Тормозная жидкость ADV DOT 4",
-    "category": "auto-chemistry",
+    "category": "brake-fluids",
     "brand": "ADV",
     "photo_url": "https://felix-auto.ru/upload/iblock/0e3/0e3860086bc1149449272fa5d6ee9aa2.png",
     "volumes": [
@@ -1001,7 +1001,7 @@
   {
     "sku": "FOX-DOT4",
     "name": "Тормозная жидкость FOX ДОТ-4",
-    "category": "auto-chemistry",
+    "category": "brake-fluids",
     "brand": "FOX",
     "photo_url": "https://felix-auto.ru/upload/iblock/0e3/0e3860086bc1149449272fa5d6ee9aa2.png",
     "volumes": [
@@ -1032,7 +1032,7 @@
   {
     "sku": "MOL-DOT4PLUS",
     "name": "Тормозная жидкость MOL DOT 4+",
-    "category": "auto-chemistry",
+    "category": "brake-fluids",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
     "volumes": [
@@ -1061,7 +1061,7 @@
   {
     "sku": "MOL-DOT51",
     "name": "Тормозная жидкость MOL DOT 5.1",
-    "category": "auto-chemistry",
+    "category": "brake-fluids",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/cars/gear_oils/1L_MOL_Dynamic_Star_0W-30_c.jpg",
     "volumes": [
@@ -1366,7 +1366,7 @@
   {
     "sku": "MOL-1009",
     "name": "MOL DOT 3",
-    "category": "auto-chemistry",
+    "category": "brake-fluids",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/fekfolyadekok/mol_dot_3_side.jpg",
     "volumes": [
@@ -1520,7 +1520,7 @@
   {
     "sku": "MOL-1014",
     "name": "MOL EVOX Winter Apple Cinnamon -40",
-    "category": "auto-chemistry",
+    "category": "screenwash",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/szelvedomoso/3l_mol_evox_apple_cinnamon_winter_screenwash.jpg",
     "volumes": [
@@ -1566,15 +1566,13 @@
   },
   {
     "sku": "MOL-1015",
-    "name": "ADBLUE®",
-    "category": "auto-chemistry",
+    "name": "MOL AdBlue®",
+    "category": "adblue",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/adblue/adblue_5l.jpg",
     "volumes": [
-      1,
-      4,
-      60,
-      208
+      5,
+      10
     ],
     "description": "Для систем избирательной каталитической нейтрализации с присадкой для снижения содержания окислов азота",
     "specs": [
@@ -1583,7 +1581,7 @@
         "value": "ISO 22241-1:2006, DIN 70070, German Automobile Association (VDA)"
       }
     ],
-    "canister_vol": 4,
+    "canister_vol": 5,
     "canister_price": 0,
     "barrel_vol": 208,
     "barrel_price": 0,
@@ -1591,35 +1589,24 @@
     "description_ro": "Aditivul de reducere a NOx, AdBlue® este destinat reducerii emisiei de oxid de azot a vehiculelor echipate cu sisteme SCR (reducere catalitică selectivă). Asociaţia Automobiliştilor Germani (VDA) garantează calitatea ridicată şi constantă a aditivului AdBlue ® .",
     "packs": [
       {
-        "id": "p-1",
-        "volume_l": 1,
+        "id": "mol-adblue-5l",
+        "volume_l": 5,
         "price_mdl": 0,
-        "label": "1 л"
+        "label": "5 л"
       },
       {
-        "id": "p-4",
-        "volume_l": 4,
+        "id": "mol-adblue-10l",
+        "volume_l": 10,
         "price_mdl": 0,
-        "label": "4 л"
-      },
-      {
-        "id": "p-60",
-        "volume_l": 60,
-        "price_mdl": 0,
-        "label": "60 л"
-      },
-      {
-        "id": "p-208",
-        "volume_l": 208,
-        "price_mdl": 0,
-        "label": "208 л"
+        "label": "10 л"
       }
-    ]
+    ],
+    "price_on_request": true
   },
   {
     "sku": "MOL-1016",
     "name": "MOL EVOX 4 Season -10",
-    "category": "auto-chemistry",
+    "category": "screenwash",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md//images/mol_hu/lub/szallitmanyozas/szelvedomoso/2l_mol_evox_4season.jpg",
     "volumes": [
@@ -1844,7 +1831,7 @@
   {
     "sku": "MOL-1021",
     "name": "MOL EVOX Ice Spray",
-    "category": "auto-chemistry",
+    "category": "screenwash",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/szelvedomoso/MOL_EVOX_Ice-spray.png",
     "volumes": [
@@ -1957,7 +1944,7 @@
   {
     "sku": "MOL-1024",
     "name": "MOL EVOX Summer White tea & Ginger",
-    "category": "auto-chemistry",
+    "category": "screenwash",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md//images/mol_hu/lub/szallitmanyozas/szelvedomoso/3L_MOL_EVOX_White%20tea%20&%20Ginger_Summer_screenwash.jpg",
     "volumes": [
@@ -2088,7 +2075,7 @@
   {
     "sku": "MOL-1029",
     "name": "MOL EVOX Winter Raspberry Mint -30",
-    "category": "auto-chemistry",
+    "category": "screenwash",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/autosok/szelvedomoso/3L_MOL_EVOX_Winter_Raspberry_Mint_screenwash.jpg",
     "volumes": [
@@ -2219,7 +2206,7 @@
   {
     "sku": "MOL-1034",
     "name": "MOL DOT 5.1",
-    "category": "auto-chemistry",
+    "category": "brake-fluids",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/fekfolyadekok/mol_dot_5_side.jpg",
     "volumes": [
@@ -2894,7 +2881,7 @@
   {
     "sku": "MOL-1054",
     "name": "MOL DOT 4+",
-    "category": "auto-chemistry",
+    "category": "brake-fluids",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/fekfolyadekok/mol_dot_4_side.jpg",
     "volumes": [
@@ -2982,7 +2969,7 @@
   {
     "sku": "MOL-1058",
     "name": "MOL Evox Summer Citrus Breeze",
-    "category": "auto-chemistry",
+    "category": "screenwash",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md//images/mol_hu/lub/szallitmanyozas/szelvedomoso/2L_MOL_EVOX_Citrus_Breeze_Summer_screenwash.jpg",
     "volumes": [
@@ -3184,7 +3171,7 @@
   {
     "sku": "MOL-1069",
     "name": "EVOX Terminator",
-    "category": "auto-chemistry",
+    "category": "screenwash",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/szelvedomoso/evox_terminator_bug_spray_172x455.jpg",
     "volumes": [
@@ -3329,7 +3316,7 @@
   {
     "sku": "MOL-1075",
     "name": "MOL Evox Winter Citrus Breeze -30",
-    "category": "auto-chemistry",
+    "category": "screenwash",
     "brand": "MOL",
     "photo_url": "https://mollubricants.md/images/mol_hu/lub/szallitmanyozas/szelvedomoso/mol_evox_winter_citrus_breeze_-30.jpg",
     "volumes": [
@@ -3766,7 +3753,7 @@
   {
     "sku": "MOL-LITON-00-GM",
     "name": "MOL Liton 00 GM",
-    "category": "auto-chemistry",
+    "category": "greases",
     "brand": "MOL",
     "photo_url": "",
     "volumes": [
@@ -3795,7 +3782,7 @@
   {
     "sku": "WB-TREE-001",
     "name": "Освежитель Wunder-Baum Елочка Arctic White",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -3819,7 +3806,7 @@
   {
     "sku": "WB-TREE-002",
     "name": "Освежитель Wunder-Baum Елочка Berry Burst",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -3843,7 +3830,7 @@
   {
     "sku": "WB-TREE-003",
     "name": "Освежитель Wunder-Baum Елочка Black Ice",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -3867,7 +3854,7 @@
   {
     "sku": "WB-TREE-004",
     "name": "Освежитель Wunder-Baum Елочка Bubble Gum",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -3891,7 +3878,7 @@
   {
     "sku": "WB-TREE-005",
     "name": "Освежитель Wunder-Baum Елочка Cafe",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -3915,7 +3902,7 @@
   {
     "sku": "WB-TREE-006",
     "name": "Освежитель Wunder-Baum Елочка Daisy Chain",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -3939,7 +3926,7 @@
   {
     "sku": "WB-TREE-007",
     "name": "Освежитель Wunder-Baum Елочка Erdbeeren (Клубника)",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -3963,7 +3950,7 @@
   {
     "sku": "WB-TREE-008",
     "name": "Освежитель Wunder-Baum Елочка Everfresh",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -3987,7 +3974,7 @@
   {
     "sku": "WB-TREE-009",
     "name": "Освежитель Wunder-Baum Елочка Fizzy Limonade",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -4011,7 +3998,7 @@
   {
     "sku": "WB-TREE-010",
     "name": "Освежитель Wunder-Baum Елочка Frosted Pine",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -4035,7 +4022,7 @@
   {
     "sku": "WB-TREE-011",
     "name": "Освежитель Wunder-Baum Елочка Fruhling",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -4059,7 +4046,7 @@
   {
     "sku": "WB-TREE-012",
     "name": "Освежитель Wunder-Baum Елочка Gruner Apfel (Зеленое Яблоко)",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -4083,7 +4070,7 @@
   {
     "sku": "WB-TREE-013",
     "name": "Освежитель Wunder-Baum Елочка Jungle Fever",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -4107,7 +4094,7 @@
   {
     "sku": "WB-TREE-014",
     "name": "Освежитель Wunder-Baum Елочка Kirsche (Вишня)",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -4131,7 +4118,7 @@
   {
     "sku": "WB-TREE-015",
     "name": "Освежитель Wunder-Baum Елочка Kokosnuss (Кокос)",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -4155,7 +4142,7 @@
   {
     "sku": "WB-TREE-016",
     "name": "Освежитель Wunder-Baum Елочка Leather (Кожа)",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -4179,7 +4166,7 @@
   {
     "sku": "WB-TREE-017",
     "name": "Освежитель Wunder-Baum Елочка Mai-Tai",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -4203,7 +4190,7 @@
   {
     "sku": "WB-TREE-018",
     "name": "Освежитель Wunder-Baum Елочка Margarita",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -4227,7 +4214,7 @@
   {
     "sku": "WB-TREE-019",
     "name": "Освежитель Wunder-Baum Елочка Midnight Chick",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -4251,7 +4238,7 @@
   {
     "sku": "WB-TREE-020",
     "name": "Освежитель Wunder-Baum Елочка Black Classic",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -4275,7 +4262,7 @@
   {
     "sku": "WB-TREE-021",
     "name": "Освежитель Wunder-Baum Елочка New Car (Новое Авто)",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -4299,7 +4286,7 @@
   {
     "sku": "WB-TREE-022",
     "name": "Освежитель Wunder-Baum Елочка Ocean Paradise",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -4323,7 +4310,7 @@
   {
     "sku": "WB-TREE-023",
     "name": "Освежитель Wunder-Baum Елочка Orange Juice (Апельсиновый сок)",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -4347,7 +4334,7 @@
   {
     "sku": "WB-TREE-024",
     "name": "Освежитель Wunder-Baum Елочка Pina Colada",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -4371,7 +4358,7 @@
   {
     "sku": "WB-TREE-025",
     "name": "Освежитель Wunder-Baum Елочка Pure Steel",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -4395,7 +4382,7 @@
   {
     "sku": "WB-TREE-026",
     "name": "Освежитель Wunder-Baum Елочка Rose & Raspberry (Роза и малина)",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -4419,7 +4406,7 @@
   {
     "sku": "WB-TREE-027",
     "name": "Освежитель Wunder-Baum Елочка Sportfrische",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -4443,7 +4430,7 @@
   {
     "sku": "WB-TREE-028",
     "name": "Освежитель Wunder-Baum Елочка Summer Cotton",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -4467,7 +4454,7 @@
   {
     "sku": "WB-TREE-029",
     "name": "Освежитель Wunder-Baum Елочка Tropical",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -4491,7 +4478,7 @@
   {
     "sku": "WB-TREE-030",
     "name": "Освежитель Wunder-Baum Елочка Vanillaroma (Ваниль)",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -4515,7 +4502,7 @@
   {
     "sku": "WB-TREE-031",
     "name": "Освежитель Wunder-Baum Елочка Wild Instinct",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -4539,7 +4526,7 @@
   {
     "sku": "WB-TREE-032",
     "name": "Освежитель Wunder-Baum Елочка WoodWork (Дерево)",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -4563,7 +4550,7 @@
   {
     "sku": "WB-TREE-033",
     "name": "Освежитель Wunder-Baum Елочка Zimt Apfel (Яблоко с корицей)",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -4587,7 +4574,7 @@
   {
     "sku": "WB-TREE-034",
     "name": "Освежитель Wunder-Baum Елочка Zitrone (Лимон)",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:1506a77f-1d44-4ffc-a3bb-a57ef229415a/WUNDER-BAUM_Tree_Black_Ice.png",
     "volumes": [
@@ -4611,7 +4598,7 @@
   {
     "sku": "WB-CLIP-001",
     "name": "Освежитель-клипса Wunder-Baum Clip Black Ice",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:4c79df14-bd9f-4db3-bc07-d779bdce8cf6/WUNDER-BAUM_Clip_Black_Ice.png",
     "volumes": [
@@ -4635,7 +4622,7 @@
   {
     "sku": "WB-CLIP-002",
     "name": "Освежитель-клипса Wunder-Baum Clip Bubble Gum",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:4c79df14-bd9f-4db3-bc07-d779bdce8cf6/WUNDER-BAUM_Clip_Black_Ice.png",
     "volumes": [
@@ -4659,7 +4646,7 @@
   {
     "sku": "WB-CLIP-003",
     "name": "Освежитель-клипса Wunder-Baum Clip Cherry (Вишня)",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:4c79df14-bd9f-4db3-bc07-d779bdce8cf6/WUNDER-BAUM_Clip_Black_Ice.png",
     "volumes": [
@@ -4683,7 +4670,7 @@
   {
     "sku": "WB-CLIP-004",
     "name": "Освежитель-клипса Wunder-Baum Clip New Car",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:4c79df14-bd9f-4db3-bc07-d779bdce8cf6/WUNDER-BAUM_Clip_Black_Ice.png",
     "volumes": [
@@ -4707,7 +4694,7 @@
   {
     "sku": "WB-CLIP-005",
     "name": "Освежитель-клипса Wunder-Baum Clip Ocean Paradise",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:4c79df14-bd9f-4db3-bc07-d779bdce8cf6/WUNDER-BAUM_Clip_Black_Ice.png",
     "volumes": [
@@ -4731,7 +4718,7 @@
   {
     "sku": "WB-CLIP-006",
     "name": "Освежитель-клипса Wunder-Baum Clip Sport",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:4c79df14-bd9f-4db3-bc07-d779bdce8cf6/WUNDER-BAUM_Clip_Black_Ice.png",
     "volumes": [
@@ -4755,7 +4742,7 @@
   {
     "sku": "WB-CLIP-007",
     "name": "Освежитель-клипса Wunder-Baum Clip Tropical",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:4c79df14-bd9f-4db3-bc07-d779bdce8cf6/WUNDER-BAUM_Clip_Black_Ice.png",
     "volumes": [
@@ -4779,7 +4766,7 @@
   {
     "sku": "WB-CLIP-008",
     "name": "Освежитель-клипса Wunder-Baum Clip Vanilla",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:4c79df14-bd9f-4db3-bc07-d779bdce8cf6/WUNDER-BAUM_Clip_Black_Ice.png",
     "volumes": [
@@ -4803,7 +4790,7 @@
   {
     "sku": "WB-CLIP-009",
     "name": "Освежитель-клипса Wunder-Baum Clip Tribal",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Wunder-Baum",
     "photo_url": "https://www.wunder-baum.ch/dam/jcr:4c79df14-bd9f-4db3-bc07-d779bdce8cf6/WUNDER-BAUM_Clip_Black_Ice.png",
     "volumes": [
@@ -5609,7 +5596,7 @@
   {
     "sku": "IMAO-CARD-001",
     "name": "Парфюмированная карточка IMAO Card Bali",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -5633,7 +5620,7 @@
   {
     "sku": "IMAO-CARD-002",
     "name": "Парфюмированная карточка IMAO Card Bora Bora",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -5657,7 +5644,7 @@
   {
     "sku": "IMAO-CARD-003",
     "name": "Парфюмированная карточка IMAO Card Capri",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -5681,7 +5668,7 @@
   {
     "sku": "IMAO-CARD-004",
     "name": "Парфюмированная карточка IMAO Card Costa Rica",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -5705,7 +5692,7 @@
   {
     "sku": "IMAO-CARD-005",
     "name": "Парфюмированная карточка IMAO Card Las Vegas",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -5729,7 +5716,7 @@
   {
     "sku": "IMAO-CARD-006",
     "name": "Парфюмированная карточка IMAO Card Madagascar",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -5753,7 +5740,7 @@
   {
     "sku": "IMAO-CARD-007",
     "name": "Парфюмированная карточка IMAO Card Maiami",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -5777,7 +5764,7 @@
   {
     "sku": "IMAO-CARD-008",
     "name": "Парфюмированная карточка IMAO Card New York",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -5801,7 +5788,7 @@
   {
     "sku": "IMAO-CARD-009",
     "name": "Парфюмированная карточка IMAO Card Paris",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -5825,7 +5812,7 @@
   {
     "sku": "IMAO-CARD-010",
     "name": "Парфюмированная карточка IMAO Card Saint-Tropez",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -5849,7 +5836,7 @@
   {
     "sku": "IMAO-CARD-011",
     "name": "Парфюмированная карточка IMAO Card Sri-Lanka",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -5873,7 +5860,7 @@
   {
     "sku": "IMAO-CARD-012",
     "name": "Парфюмированная карточка IMAO Card Sydney",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -5897,7 +5884,7 @@
   {
     "sku": "IMAO-CARD-013",
     "name": "Парфюмированная карточка IMAO Card Tokyo",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -5921,7 +5908,7 @@
   {
     "sku": "IMAO-DIFF-001",
     "name": "Диффузор в дефлектор IMAO Diffuser Bali",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -5945,7 +5932,7 @@
   {
     "sku": "IMAO-DIFF-002",
     "name": "Диффузор в дефлектор IMAO Diffuser Capri",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -5969,7 +5956,7 @@
   {
     "sku": "IMAO-DIFF-003",
     "name": "Диффузор в дефлектор IMAO Diffuser Madagascar",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -5993,7 +5980,7 @@
   {
     "sku": "IMAO-DIFF-004",
     "name": "Диффузор в дефлектор IMAO Diffuser New York",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -6017,7 +6004,7 @@
   {
     "sku": "IMAO-DIFF-005",
     "name": "Диффузор в дефлектор IMAO Diffuser Paris",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -6041,7 +6028,7 @@
   {
     "sku": "IMAO-DIFF-006",
     "name": "Диффузор в дефлектор IMAO Diffuser Sri-Lanka",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -6065,7 +6052,7 @@
   {
     "sku": "IMAO-DIFF-007",
     "name": "Диффузор в дефлектор IMAO Diffuser Tokyo",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -6089,7 +6076,7 @@
   {
     "sku": "IMAO-KEY-001",
     "name": "Ароматизатор-ключ IMAO Key Bora Bora",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -6113,7 +6100,7 @@
   {
     "sku": "IMAO-KEY-002",
     "name": "Ароматизатор-ключ IMAO Key Madagascar",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -6137,7 +6124,7 @@
   {
     "sku": "IMAO-KEY-003",
     "name": "Ароматизатор-ключ IMAO Key New York",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -6161,7 +6148,7 @@
   {
     "sku": "IMAO-KEY-004",
     "name": "Ароматизатор-ключ IMAO Key Tokyo",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -6185,7 +6172,7 @@
   {
     "sku": "IMAO-SPRAY-001",
     "name": "Автомобильный спрей IMAO Spray Bali (50мл)",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -6209,7 +6196,7 @@
   {
     "sku": "IMAO-SPRAY-002",
     "name": "Автомобильный спрей IMAO Spray Bora Bora (50мл)",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -6233,7 +6220,7 @@
   {
     "sku": "IMAO-SPRAY-003",
     "name": "Автомобильный спрей IMAO Spray Capri (50мл)",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -6257,7 +6244,7 @@
   {
     "sku": "IMAO-SPRAY-004",
     "name": "Автомобильный спрей IMAO Spray Las Vegas (50мл)",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -6281,7 +6268,7 @@
   {
     "sku": "IMAO-SPRAY-005",
     "name": "Автомобильный спрей IMAO Spray Madagascar (50мл)",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -6305,7 +6292,7 @@
   {
     "sku": "IMAO-SPRAY-006",
     "name": "Автомобильный спрей IMAO Spray New York (50мл)",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -6329,7 +6316,7 @@
   {
     "sku": "IMAO-SPRAY-007",
     "name": "Автомобильный спрей IMAO Spray Paris (50мл)",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -6353,7 +6340,7 @@
   {
     "sku": "IMAO-SPRAY-008",
     "name": "Автомобильный спрей IMAO Spray Sri-Lanka (50мл)",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -6377,7 +6364,7 @@
   {
     "sku": "IMAO-SPRAY-009",
     "name": "Автомобильный спрей IMAO Spray Tahiti (50мл)",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -6401,7 +6388,7 @@
   {
     "sku": "IMAO-SPRAY-010",
     "name": "Автомобильный спрей IMAO Spray Tokyo (50мл)",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "IMAO Parfums",
     "photo_url": "https://imaoparfums.com/wp-content/uploads/2021/03/NEW-YORK-1.png",
     "volumes": [
@@ -7464,7 +7451,7 @@
   {
     "sku": "RP-41800",
     "name": "Airfresh Sport DUNLOP",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Dunlop",
     "photo_url": "images/products/dunlop/41800.jpg",
     "volumes": [
@@ -7493,7 +7480,7 @@
   {
     "sku": "RP-16576",
     "name": "Airfresh Car 3x8 ml scents Dunlop",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Dunlop",
     "photo_url": "",
     "volumes": [
@@ -7517,7 +7504,7 @@
   {
     "sku": "RP-18075",
     "name": "Airfreshener auto Twins 2 buc",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Dunlop",
     "photo_url": "images/products/dunlop/18075.jpg",
     "volumes": [
@@ -7545,7 +7532,7 @@
   {
     "sku": "RP-86898",
     "name": "Cockpit cleaner Lemon 500ml DUNLOP",
-    "category": "auto-chemistry",
+    "category": "car-care",
     "brand": "Dunlop",
     "photo_url": "images/products/dunlop/86898.jpg",
     "volumes": [
@@ -7569,7 +7556,7 @@
   {
     "sku": "RP-86899",
     "name": "Cockpit cleaner Vanille 500ml DUNLOP",
-    "category": "auto-chemistry",
+    "category": "car-care",
     "brand": "Dunlop",
     "photo_url": "images/products/dunlop/86899.jpg",
     "volumes": [
@@ -7593,7 +7580,7 @@
   {
     "sku": "RP-86900",
     "name": "Glass cleaner 500ml DUNLOP",
-    "category": "auto-chemistry",
+    "category": "car-care",
     "brand": "Dunlop",
     "photo_url": "images/products/dunlop/86900.jpg",
     "volumes": [
@@ -7617,7 +7604,7 @@
   {
     "sku": "RP-86962",
     "name": "Leather cleaner 500ml DUNLOP",
-    "category": "auto-chemistry",
+    "category": "car-care",
     "brand": "Dunlop",
     "photo_url": "images/products/dunlop/86962.jpg",
     "volumes": [
@@ -7641,7 +7628,7 @@
   {
     "sku": "RP-06814",
     "name": "Polish torpedou 225 ml",
-    "category": "auto-chemistry",
+    "category": "car-care",
     "brand": "Dunlop",
     "photo_url": "",
     "volumes": [
@@ -7665,7 +7652,7 @@
   {
     "sku": "RP-08164",
     "name": "Polish torpedou 750 ml Lemon",
-    "category": "auto-chemistry",
+    "category": "car-care",
     "brand": "Dunlop",
     "photo_url": "",
     "volumes": [
@@ -7689,7 +7676,7 @@
   {
     "sku": "RP-08936",
     "name": "Polish torpedou 750 ml Neutral",
-    "category": "auto-chemistry",
+    "category": "car-care",
     "brand": "Dunlop",
     "photo_url": "",
     "volumes": [
@@ -7713,7 +7700,7 @@
   {
     "sku": "RP-10055",
     "name": "Gaz Butan Spray 227 gr",
-    "category": "auto-chemistry",
+    "category": "car-care",
     "brand": "Dunlop",
     "photo_url": "images/products/dunlop/10055.jpg",
     "volumes": [
@@ -7737,7 +7724,7 @@
   {
     "sku": "RP-26810",
     "name": "Servetele umede auto p/u interior 40 buc",
-    "category": "auto-chemistry",
+    "category": "car-care",
     "brand": "Dunlop",
     "photo_url": "images/products/dunlop/26810.jpg",
     "volumes": [
@@ -7761,7 +7748,7 @@
   {
     "sku": "RP-86783",
     "name": "Solutie cu actiune multipla Dunlop",
-    "category": "auto-chemistry",
+    "category": "car-care",
     "brand": "Dunlop",
     "photo_url": "images/products/dunlop/86783.jpg",
     "volumes": [
@@ -7785,7 +7772,7 @@
   {
     "sku": "RP-86797",
     "name": "Solutie p/u plastic 500 ml Dunlop",
-    "category": "auto-chemistry",
+    "category": "car-care",
     "brand": "Dunlop",
     "photo_url": "images/products/dunlop/86797.jpg",
     "volumes": [
@@ -7809,7 +7796,7 @@
   {
     "sku": "RP-86955",
     "name": "Solutie lustruire anvelope 500 ml Dunlop",
-    "category": "auto-chemistry",
+    "category": "car-care",
     "brand": "Dunlop",
     "photo_url": "images/products/dunlop/86955.jpg",
     "volumes": [
@@ -7979,7 +7966,7 @@
   {
     "sku": "MOL-ALYCOL-CHERRY-WINTER",
     "name": "Стеклоомыватель зимний MOL Alycol Cherry -20°C (Вишня)",
-    "category": "auto-chemistry",
+    "category": "screenwash",
     "brand": "MOL",
     "photo_url": "images/products/mol-alycol-screenwash.png",
     "volumes": [
@@ -8010,7 +7997,7 @@
   {
     "sku": "MOL-ALYCOL-SUMMER-CHERRY",
     "name": "Стеклоомыватель летний MOL Alycol Summer Cherry (Вишня)",
-    "category": "auto-chemistry",
+    "category": "screenwash",
     "brand": "MOL",
     "photo_url": "images/products/mol-alycol-screenwash.png",
     "volumes": [
@@ -8041,7 +8028,7 @@
   {
     "sku": "MOL-ALYCOL-SUMMER-CITRUS",
     "name": "Стеклоомыватель летний MOL Alycol Summer Citrus (Цитрус)",
-    "category": "auto-chemistry",
+    "category": "screenwash",
     "brand": "MOL",
     "photo_url": "images/products/mol-alycol-screenwash.png",
     "volumes": [
@@ -8926,7 +8913,7 @@
   {
     "sku": "WD40-MULTI-SPRAY",
     "name": "Многофункциональная смазка WD-40 (Аэрозоль)",
-    "category": "auto-chemistry",
+    "category": "car-care",
     "brand": "WD-40",
     "photo_url": "images/products/wd40-cans.png",
     "volumes": [
@@ -11142,7 +11129,7 @@
   {
     "sku": "FW-3800125820876",
     "name": "Ароматизатор Fresh Way Dry Apple & Cinnamon (Яблоко Корица)",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Fresh Way",
     "photo_url": "images/products/fresh-way-airfresh.png",
     "volumes": [
@@ -11166,7 +11153,7 @@
   {
     "sku": "FW-3800125820456",
     "name": "Ароматизатор Fresh Way Cotton Dry (Свежий хлопок)",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Fresh Way",
     "photo_url": "images/products/fresh-way-airfresh.png",
     "volumes": [
@@ -11190,7 +11177,7 @@
   {
     "sku": "FW-3800125815186",
     "name": "Ароматизатор Fresh Way Moldova Dry Airfreshner",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Fresh Way",
     "photo_url": "images/products/fresh-way-airfresh.png",
     "volumes": [
@@ -11214,7 +11201,7 @@
   {
     "sku": "FW-3800125814349",
     "name": "Ароматизатор Fresh Way Dry Smile",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Fresh Way",
     "photo_url": "images/products/fresh-way-airfresh.png",
     "volumes": [
@@ -11238,7 +11225,7 @@
   {
     "sku": "FW-3800125800014",
     "name": "Ароматизатор Fresh Way Spa Dry",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Fresh Way",
     "photo_url": "images/products/fresh-way-airfresh.png",
     "volumes": [
@@ -11262,7 +11249,7 @@
   {
     "sku": "FW-3800125810204",
     "name": "Ароматизатор Fresh Way Sport Dry",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Fresh Way",
     "photo_url": "images/products/fresh-way-airfresh.png",
     "volumes": [
@@ -11286,7 +11273,7 @@
   {
     "sku": "FW-3800125815421",
     "name": "Ароматизатор Fresh Way X-Style Dry Airfreshner",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Fresh Way",
     "photo_url": "images/products/fresh-way-airfresh.png",
     "volumes": [
@@ -11310,7 +11297,7 @@
   {
     "sku": "FW-3800125800014-USD",
     "name": "Ароматизатор Fresh Way Dry USD Dollar ($)",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Fresh Way",
     "photo_url": "images/products/fresh-way-airfresh.png",
     "volumes": [
@@ -11334,7 +11321,7 @@
   {
     "sku": "FW-3800125800014-EUR",
     "name": "Ароматизатор Fresh Way Dry EURO (€)",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Fresh Way",
     "photo_url": "images/products/fresh-way-airfresh.png",
     "volumes": [
@@ -11358,7 +11345,7 @@
   {
     "sku": "FW-3800125821118",
     "name": "Ароматизатор Fresh Way Mandarin Dry (Мандарин)",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Fresh Way",
     "photo_url": "images/products/fresh-way-airfresh.png",
     "volumes": [
@@ -11382,7 +11369,7 @@
   {
     "sku": "FW-3800125800014-GEN",
     "name": "Ароматизатор Fresh Way Dry Classic",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Fresh Way",
     "photo_url": "images/products/fresh-way-airfresh.png",
     "volumes": [
@@ -11406,7 +11393,7 @@
   {
     "sku": "FW-3800125817630",
     "name": "Ароматизатор Fresh Way Dry Camouflage",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Fresh Way",
     "photo_url": "images/products/fresh-way-airfresh.png",
     "volumes": [
@@ -11430,7 +11417,7 @@
   {
     "sku": "FW-3800125820142",
     "name": "Ароматизатор Fresh Way Freshimals (Звери)",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Fresh Way",
     "photo_url": "images/products/fresh-way-airfresh.png",
     "volumes": [
@@ -11454,7 +11441,7 @@
   {
     "sku": "FW-3800125815926",
     "name": "Ароматизатор Fresh Way Dry Aces (Тузы)",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Fresh Way",
     "photo_url": "images/products/fresh-way-airfresh.png",
     "volumes": [
@@ -11478,7 +11465,7 @@
   {
     "sku": "FW-3800125809826",
     "name": "Ароматизатор Fresh Way Dry Triple",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Fresh Way",
     "photo_url": "images/products/fresh-way-airfresh.png",
     "volumes": [
@@ -11502,7 +11489,7 @@
   {
     "sku": "FW-3800125815903",
     "name": "Ароматизатор Fresh Way Pop Triple Dry",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Fresh Way",
     "photo_url": "images/products/fresh-way-airfresh.png",
     "volumes": [
@@ -11526,7 +11513,7 @@
   {
     "sku": "FW-3800125819320",
     "name": "Ароматизатор Fresh Way Dry Saveur D'Orient (Восточный)",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Fresh Way",
     "photo_url": "images/products/fresh-way-airfresh.png",
     "volumes": [
@@ -11550,7 +11537,7 @@
   {
     "sku": "FW-3800125803015",
     "name": "Жидкий ароматизатор Fresh Way Liquid Bliss",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Fresh Way",
     "photo_url": "images/products/fresh-way-airfresh.png",
     "volumes": [
@@ -11574,7 +11561,7 @@
   {
     "sku": "FW-3800125817562",
     "name": "Ароматизатор в ампуле Fresh Way Ampule So Fresh",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Fresh Way",
     "photo_url": "images/products/fresh-way-airfresh.png",
     "volumes": [
@@ -11598,7 +11585,7 @@
   {
     "sku": "FW-3800125819764",
     "name": "Ароматизатор в ампуле Fresh Way Ampule Camouflage",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Fresh Way",
     "photo_url": "images/products/fresh-way-airfresh.png",
     "volumes": [
@@ -11622,7 +11609,7 @@
   {
     "sku": "FW-3800125816770",
     "name": "Ароматизатор в ампуле Fresh Way Ampule Sport",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Fresh Way",
     "photo_url": "images/products/fresh-way-airfresh.png",
     "volumes": [
@@ -11646,7 +11633,7 @@
   {
     "sku": "FW-3800125809420",
     "name": "Деревянный ароматизатор Fresh Way Dr.-Wood Liquid Blister",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Fresh Way",
     "photo_url": "images/products/fresh-way-airfresh.png",
     "volumes": [
@@ -11670,7 +11657,7 @@
   {
     "sku": "FW-3800125809628",
     "name": "Деревянный ароматизатор Fresh Way Dr.-Wood Liquid +30% Gratis",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Fresh Way",
     "photo_url": "images/products/fresh-way-airfresh.png",
     "volumes": [
@@ -11694,7 +11681,7 @@
   {
     "sku": "FW-3800125815759",
     "name": "Гелевые шарики Fresh Way Scented Pearls",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Fresh Way",
     "photo_url": "images/products/fresh-way-airfresh.png",
     "volumes": [
@@ -11718,7 +11705,7 @@
   {
     "sku": "FW-3800125820357",
     "name": "Диффузор парфюмерный Fresh Way Home Diffuser 50 мл",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Fresh Way",
     "photo_url": "images/products/fresh-way-airfresh.png",
     "volumes": [
@@ -11742,7 +11729,7 @@
   {
     "sku": "FW-3800125813373",
     "name": "Диффузор парфюмерный Fresh Way Home Diffuser 100 мл",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Fresh Way",
     "photo_url": "images/products/fresh-way-airfresh.png",
     "volumes": [
@@ -11766,7 +11753,7 @@
   {
     "sku": "FW-3800125856646",
     "name": "Диффузор парфюмерный Fresh Way Home Diffuser 150 мл",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Fresh Way",
     "photo_url": "images/products/fresh-way-airfresh.png",
     "volumes": [
@@ -11790,7 +11777,7 @@
   {
     "sku": "FW-3800125",
     "name": "Премиум ароматизатор Fresh Way Diamond Airfreshner",
-    "category": "auto-chemistry",
+    "category": "air-fresheners",
     "brand": "Fresh Way",
     "photo_url": "images/products/fresh-way-airfresh.png",
     "volumes": [
@@ -18841,7 +18828,7 @@
   {
     "sku": "RP-21376",
     "name": "Gaz Butan Spray ALL RIDE 227 gr",
-    "category": "auto-chemistry",
+    "category": "car-care",
     "brand": "All Ride",
     "photo_url": "images/products/dunlop/21376.jpg",
     "volumes": [
@@ -18864,9 +18851,9 @@
   },
   {
     "sku": "RP-00007",
-    "name": "Стеклоомыватель зимний StropGEL -20°C CAREUS 5L",
-    "category": "auto-chemistry",
-    "brand": "Careus",
+    "name": "Стеклоомыватель зимний StropGEL -20°C 5L",
+    "category": "screenwash",
+    "brand": "Strop G",
     "color": "Синий",
     "photo_url": "images/products/careus/stropgel-5l.jpg",
     "volumes": [
@@ -18886,5 +18873,136 @@
     ],
     "name_ro": "Lichid de parbriz iarna StropGEL -20°C CAREUS 5L",
     "description_ro": "Lichid pentru spalat parbrizul pe timp de iarna StropGEL -20°C CAREUS (Bidon 5L). Actiune rapida de spalare, degivrare si curatare."
+  },
+  {
+    "sku": "NOXY-ADBLUE",
+    "name": "NOXy AdBlue",
+    "category": "adblue",
+    "brand": "NOXy",
+    "photo_url": "images/products/adblue/noxy-adblue-canisters.jpg",
+    "volumes": [
+      5,
+      10,
+      18,
+      1000
+    ],
+    "description": "Высококачественный реагент AdBlue (водный раствор мочевины 32.5% AUS 32) для систем селективной каталитической нейтрализации (SCR) дизельных автомобилей Euro 4, 5, 6.",
+    "specs": [
+      {
+        "label": "Стандарт",
+        "value": "ISO 22241, DIN 70070, CEFIC"
+      },
+      {
+        "label": "Назначение",
+        "value": "Снижение выбросов оксидов азота (NOx)"
+      },
+      {
+        "label": "Состав",
+        "value": "Высокоочищенная деминерализованная вода, мочевина 32.5%"
+      }
+    ],
+    "canister_vol": 18,
+    "canister_price": 0,
+    "price_on_request": true,
+    "packs": [
+      {
+        "id": "noxy-5l",
+        "volume_l": 5,
+        "price_mdl": 0,
+        "label": "5 л"
+      },
+      {
+        "id": "noxy-10l",
+        "volume_l": 10,
+        "price_mdl": 0,
+        "label": "10 л"
+      },
+      {
+        "id": "noxy-18l",
+        "volume_l": 18,
+        "price_mdl": 0,
+        "label": "18 л"
+      },
+      {
+        "id": "noxy-1000l",
+        "volume_l": 1000,
+        "price_mdl": 0,
+        "label": "1000 л (Еврокуб)"
+      }
+    ],
+    "name_ro": "NOXy AdBlue",
+    "description_ro": "Soluție de uree AdBlue de înaltă puritate (32.5% AUS 32) pentru sistemele SCR ale vehiculelor diesel Euro 4, 5, 6. Conformă cu standardul ISO 22241."
+  },
+  {
+    "sku": "RP-00008",
+    "name": "Стеклоомыватель летний StropGEL 5L",
+    "category": "screenwash",
+    "brand": "Strop G",
+    "color": "Синий",
+    "photo_url": "images/products/careus/stropgel-5l.jpg",
+    "volumes": [
+      5
+    ],
+    "description": "Летний стеклоомыватель StropGEL 5 л с эффективной формулой удаления дорожной пыли, пыльцы, масляной пленки и грязи. Безопасен для щеток стеклоочистителя и ЛКП.",
+    "specs": [
+      {
+        "label": "Назначение",
+        "value": "Летняя очистка лобового стекла"
+      },
+      {
+        "label": "Объем",
+        "value": "5 л"
+      }
+    ],
+    "canister_vol": 5,
+    "canister_price": 95,
+    "packs": [
+      {
+        "id": "rp-00008-pack",
+        "volume_l": 5,
+        "price_mdl": 95,
+        "label": "5 л"
+      }
+    ],
+    "name_ro": "Lichid de parbriz vara StropGEL 5L",
+    "description_ro": "Lichid pentru spălat parbrizul pe timp de vară StropGEL (Bidon 5L). Îndepărtează eficient murdăria și praful, oferind vizibilitate excelentă."
+  },
+  {
+    "sku": "RP-00009",
+    "name": "Стеклоомыватель летний Antiinsect StropGEL 5L",
+    "category": "screenwash",
+    "brand": "Strop G",
+    "color": "Зелёный",
+    "photo_url": "images/products/careus/stropgel-5l.jpg",
+    "volumes": [
+      5
+    ],
+    "description": "Летний стеклоомыватель Antiinsect StropGEL (Канистра 5 л, зеленая жидкость). Специальная формула против следов насекомых, древесной смолы и жировых пятен.",
+    "specs": [
+      {
+        "label": "Назначение",
+        "value": "Удаление следов насекомых и органики"
+      },
+      {
+        "label": "Цвет жидкости",
+        "value": "Зелёный"
+      },
+      {
+        "label": "Объем",
+        "value": "5 л"
+      }
+    ],
+    "canister_vol": 5,
+    "canister_price": 105,
+    "packs": [
+      {
+        "id": "rp-00009-pack",
+        "volume_l": 5,
+        "price_mdl": 105,
+        "label": "5 л"
+      }
+    ],
+    "name_ro": "Lichid de parbriz vara Antiinsect StropGEL 5L",
+    "description_ro": "Lichid de vară Antiinsect StropGEL (Bidon 5L, lichid verde). Formulă activă de curățare a urmelor de insecte și rășină."
   }
 ]

@@ -42,6 +42,10 @@ document.addEventListener('DOMContentLoaded', () => {
         'coolants':              'Охлаждающие жидкости',
         'brake-fluids':          'Тормозные жидкости',
         'auto-chemistry':        'Автохимия и автокосметика',
+        'air-fresheners':        'Ароматизаторы',
+        'screenwash':            'Жидкости в стеклоомыватель',
+        'adblue':                'AdBlue',
+        'car-care':              'Средства для салона и кузова',
         'accessories':           'Аксессуары',
         'auto-lamps':            'Автолампы'
     };
@@ -54,6 +58,13 @@ document.addEventListener('DOMContentLoaded', () => {
         'hydraulic-oils',
         'greases',
         'industrial-lubricants'
+    ];
+
+    const AUTO_CHEMISTRY_SUBCATEGORIES = [
+        'air-fresheners',
+        'screenwash',
+        'adblue',
+        'car-care'
     ];
 
     // ==========================================================================
@@ -244,6 +255,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (numV === 983) return '983 л (Еврокуб)';
         if (numV === 991) return '991 л (Еврокуб)';
         if (numV === 994) return '994 л (Еврокуб)';
+        if (numV === 1000) return '1000 л (Еврокуб)';
         return numV >= 1 ? `${numV} л` : `${numV * 1000} мл`;
     }
 
@@ -389,6 +401,8 @@ document.addEventListener('DOMContentLoaded', () => {
         });
         // Parent 'lubricants' sum of all subcategories
         counts['lubricants'] = LUBRICANT_SUBCATEGORIES.reduce((sum, cat) => sum + (counts[cat] || 0), counts['lubricants'] || 0);
+        // Parent 'auto-chemistry' sum of all subcategories
+        counts['auto-chemistry'] = AUTO_CHEMISTRY_SUBCATEGORIES.reduce((sum, cat) => sum + (counts[cat] || 0), counts['auto-chemistry'] || 0);
         counts['all'] = products.length;
 
         Object.keys(CATEGORY_LABELS).forEach(cat => {
@@ -675,6 +689,9 @@ document.addEventListener('DOMContentLoaded', () => {
         if (catalogState.activeCategory === 'lubricants') {
             return products.filter(p => LUBRICANT_SUBCATEGORIES.includes(p.category) || p.category === 'lubricants');
         }
+        if (catalogState.activeCategory === 'auto-chemistry') {
+            return products.filter(p => AUTO_CHEMISTRY_SUBCATEGORIES.includes(p.category) || p.category === 'auto-chemistry');
+        }
         return products.filter(p => p.category === catalogState.activeCategory);
     }
 
@@ -689,6 +706,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 catMatch = true;
             } else if (catalogState.activeCategory === 'lubricants') {
                 catMatch = LUBRICANT_SUBCATEGORIES.includes(p.category) || p.category === 'lubricants';
+            } else if (catalogState.activeCategory === 'auto-chemistry') {
+                catMatch = AUTO_CHEMISTRY_SUBCATEGORIES.includes(p.category) || p.category === 'auto-chemistry';
             } else {
                 catMatch = (p.category === catalogState.activeCategory);
             }
@@ -1082,8 +1101,8 @@ document.addEventListener('DOMContentLoaded', () => {
         catalogState.activeAcea.clear();
         catalogState.activeApi.clear();
 
-        // If parent lubricants clicked, open accordion
-        if (cat === 'lubricants' && parentAcc) {
+        // If parent lubricants or auto-chemistry clicked, open accordion
+        if ((cat === 'lubricants' || cat === 'auto-chemistry') && parentAcc) {
             parentAcc.classList.add('open');
         }
 
@@ -1447,11 +1466,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 i.classList.toggle('active', i.getAttribute('data-cat') === catParam);
             });
 
-            // Open accordion if lubricant subcategory or parent lubricants
-            if (catParam === 'lubricants' || LUBRICANT_SUBCATEGORIES.includes(catParam)) {
-                const parentAcc = document.querySelector('.sidebar-cat-accordion');
-                if (parentAcc) parentAcc.classList.add('open');
-            }
+            // Open accordion if subcategory or parent
+            document.querySelectorAll('.sidebar-cat-accordion').forEach(acc => {
+                if (acc.querySelector(`[data-cat="${catParam}"]`)) {
+                    acc.classList.add('open');
+                }
+            });
         }
 
         updateCategoryCounts(allProducts);

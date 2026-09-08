@@ -37,6 +37,10 @@ const I18N = {
         cat_coolants: 'Охлаждающие жидкости',
         cat_brake_fluids: 'Тормозные жидкости',
         cat_auto_chemistry: 'Автохимия и автокосметика',
+        cat_air_fresheners: 'Ароматизаторы',
+        cat_screenwash: 'Жидкости в стеклоомыватель',
+        cat_adblue: 'AdBlue',
+        cat_car_care: 'Средства для салона и кузова',
         cat_accessories: 'Аксессуары',
         cat_auto_lamps: 'Автолампы',
 
@@ -510,6 +514,10 @@ const I18N = {
         cat_coolants: 'Lichide de răcire (Antigel)',
         cat_brake_fluids: 'Lichide de frână',
         cat_auto_chemistry: 'Chimie și cosmetică auto',
+        cat_air_fresheners: 'Odorizante auto',
+        cat_screenwash: 'Lichide spălare parbriz',
+        cat_adblue: 'AdBlue',
+        cat_car_care: 'Îngrijire interior și caroserie',
         cat_accessories: 'Accesorii auto',
         cat_auto_lamps: 'Becuri auto',
 
