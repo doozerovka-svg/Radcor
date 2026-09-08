@@ -776,7 +776,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function getVolumePriceForProduct(product, selectedVol) {
         const exactPack = getProductPacks(product).find(pack => Number(pack.volume_l) === Number(selectedVol));
-        if (exactPack) return Number(exactPack.price_mdl) || 0;
+        if (exactPack) return Number(exactPack.price_mdl !== undefined ? exactPack.price_mdl : exactPack.price) || 0;
         // If multiple volumes, calculate per-liter price proportionally from canister
         const baseVol   = product.canister_vol || 1;
         const basePrice = product.canister_price || 0;

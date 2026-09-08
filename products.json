@@ -1175,7 +1175,8 @@
       {
         "volume_l": 10,
         "price": 1800,
-        "label": "10 л"
+        "label": "10 л",
+        "price_mdl": 1800
       }
     ]
   },
@@ -1206,22 +1207,26 @@
       {
         "volume_l": 1,
         "price": 145,
-        "label": "1 л"
+        "label": "1 л",
+        "price_mdl": 145
       },
       {
         "volume_l": 4,
         "price": 540,
-        "label": "4 л"
+        "label": "4 л",
+        "price_mdl": 540
       },
       {
         "volume_l": 58,
         "price": 7100,
-        "label": "58 л"
+        "label": "58 л",
+        "price_mdl": 7100
       },
       {
         "volume_l": 196,
         "price": 23000,
-        "label": "196 л"
+        "label": "196 л",
+        "price_mdl": 23000
       }
     ],
     "name_ro": "MOL Dynamic Max 10W-40",
@@ -1256,22 +1261,26 @@
       {
         "volume_l": 1,
         "price": 165,
-        "label": "1 л"
+        "label": "1 л",
+        "price_mdl": 165
       },
       {
         "volume_l": 4,
         "price": 620,
-        "label": "4 л"
+        "label": "4 л",
+        "price_mdl": 620
       },
       {
         "volume_l": 5,
         "price": 760,
-        "label": "5 л BiB carton"
+        "label": "5 л BiB carton",
+        "price_mdl": 760
       },
       {
         "volume_l": 20,
         "price": 2950,
-        "label": "20 л BiB carton"
+        "label": "20 л BiB carton",
+        "price_mdl": 2950
       }
     ]
   },
@@ -1302,12 +1311,14 @@
       {
         "volume_l": 1,
         "price": 215,
-        "label": "1 л"
+        "label": "1 л",
+        "price_mdl": 215
       },
       {
         "volume_l": 4,
         "price": 820,
-        "label": "4 л"
+        "label": "4 л",
+        "price_mdl": 820
       }
     ]
   },
@@ -1444,32 +1455,38 @@
       {
         "volume_l": 1,
         "price": 195,
-        "label": "1 л"
+        "label": "1 л",
+        "price_mdl": 195
       },
       {
         "volume_l": 4,
         "price": 740,
-        "label": "4 л"
+        "label": "4 л",
+        "price_mdl": 740
       },
       {
         "volume_l": 5,
         "price": 910,
-        "label": "5 л BiB carton"
+        "label": "5 л BiB carton",
+        "price_mdl": 910
       },
       {
         "volume_l": 20,
         "price": 3450,
-        "label": "20 л BiB carton"
+        "label": "20 л BiB carton",
+        "price_mdl": 3450
       },
       {
         "volume_l": 55,
         "price": 9200,
-        "label": "55 л"
+        "label": "55 л",
+        "price_mdl": 9200
       },
       {
         "volume_l": 200,
         "price": 31000,
-        "label": "200 л"
+        "label": "200 л",
+        "price_mdl": 31000
       }
     ],
     "name_ro": "MOL Dynamic Gold Longlife 5W-30",
@@ -1503,17 +1520,20 @@
       {
         "volume_l": 1,
         "price": 175,
-        "label": "1 л"
+        "label": "1 л",
+        "price_mdl": 175
       },
       {
         "volume_l": 55,
         "price": 8500,
-        "label": "55 л"
+        "label": "55 л",
+        "price_mdl": 8500
       },
       {
         "volume_l": 199,
         "price": 28000,
-        "label": "199 л"
+        "label": "199 л",
+        "price_mdl": 28000
       }
     ]
   },
@@ -1729,12 +1749,14 @@
       {
         "volume_l": 1,
         "price": 230,
-        "label": "1 л"
+        "label": "1 л",
+        "price_mdl": 230
       },
       {
         "volume_l": 5,
         "price": 1050,
-        "label": "5 л BiB carton"
+        "label": "5 л BiB carton",
+        "price_mdl": 1050
       }
     ]
   },
@@ -1762,7 +1784,8 @@
       {
         "volume_l": 1,
         "price": 225,
-        "label": "1 л"
+        "label": "1 л",
+        "price_mdl": 225
       }
     ],
     "name_ro": "MOL Dynamic Star VL 0W-20",
@@ -1797,32 +1820,38 @@
       {
         "volume_l": 1,
         "price": 135,
-        "label": "1 л"
+        "label": "1 л",
+        "price_mdl": 135
       },
       {
         "volume_l": 4,
         "price": 500,
-        "label": "4 л"
+        "label": "4 л",
+        "price_mdl": 500
       },
       {
         "volume_l": 10,
         "price": 1200,
-        "label": "10 л"
+        "label": "10 л",
+        "price_mdl": 1200
       },
       {
         "volume_l": 20,
         "price": 2300,
-        "label": "20 л BiB carton"
+        "label": "20 л BiB carton",
+        "price_mdl": 2300
       },
       {
         "volume_l": 56,
         "price": 6200,
-        "label": "56 л"
+        "label": "56 л",
+        "price_mdl": 6200
       },
       {
         "volume_l": 201,
         "price": 21000,
-        "label": "201 л"
+        "label": "201 л",
+        "price_mdl": 21000
       }
     ],
     "name_ro": "MOL Hykomol K 80W-90",
@@ -1902,12 +1931,14 @@
       {
         "volume_l": 1,
         "price": 210,
-        "label": "1 л"
+        "label": "1 л",
+        "price_mdl": 210
       },
       {
         "volume_l": 4,
         "price": 800,
-        "label": "4 л"
+        "label": "4 л",
+        "price_mdl": 800
       }
     ]
   },
@@ -1937,7 +1968,8 @@
       {
         "volume_l": 1,
         "price": 230,
-        "label": "1 л"
+        "label": "1 л",
+        "price_mdl": 230
       }
     ]
   },
@@ -2015,12 +2047,14 @@
       {
         "volume_l": 1,
         "price": 110,
-        "label": "1 л"
+        "label": "1 л",
+        "price_mdl": 110
       },
       {
         "volume_l": 4,
         "price": 400,
-        "label": "4 л"
+        "label": "4 л",
+        "price_mdl": 400
       }
     ]
   },
@@ -2051,22 +2085,26 @@
       {
         "volume_l": 1,
         "price": 125,
-        "label": "1 л"
+        "label": "1 л",
+        "price_mdl": 125
       },
       {
         "volume_l": 4,
         "price": 460,
-        "label": "4 л"
+        "label": "4 л",
+        "price_mdl": 460
       },
       {
         "volume_l": 56,
         "price": 5800,
-        "label": "56 л"
+        "label": "56 л",
+        "price_mdl": 5800
       },
       {
         "volume_l": 202,
         "price": 20000,
-        "label": "202 л"
+        "label": "202 л",
+        "price_mdl": 20000
       }
     ],
     "name_ro": "MOL Hykomol 80W-90",
@@ -2144,12 +2182,14 @@
       {
         "volume_l": 1,
         "price": 140,
-        "label": "1 л"
+        "label": "1 л",
+        "price_mdl": 140
       },
       {
         "volume_l": 4,
         "price": 520,
-        "label": "4 л"
+        "label": "4 л",
+        "price_mdl": 520
       }
     ],
     "name_ro": "MOL Essence 10W-40",
@@ -2184,22 +2224,26 @@
       {
         "volume_l": 1,
         "price": 190,
-        "label": "1 л"
+        "label": "1 л",
+        "price_mdl": 190
       },
       {
         "volume_l": 4,
         "price": 720,
-        "label": "4 л"
+        "label": "4 л",
+        "price_mdl": 720
       },
       {
         "volume_l": 20,
         "price": 3300,
-        "label": "20 л BiB carton"
+        "label": "20 л BiB carton",
+        "price_mdl": 3300
       },
       {
         "volume_l": 199,
         "price": 29800,
-        "label": "199 л"
+        "label": "199 л",
+        "price_mdl": 29800
       }
     ]
   },
@@ -2280,12 +2324,14 @@
       {
         "volume_l": 1,
         "price": 185,
-        "label": "1 л"
+        "label": "1 л",
+        "price_mdl": 185
       },
       {
         "volume_l": 4,
         "price": 700,
-        "label": "4 л"
+        "label": "4 л",
+        "price_mdl": 700
       }
     ],
     "name_ro": "MOL Dynamic Star PC 5W-30",
@@ -2319,27 +2365,32 @@
       {
         "volume_l": 1,
         "price": 165,
-        "label": "1 л"
+        "label": "1 л",
+        "price_mdl": 165
       },
       {
         "volume_l": 10,
         "price": 1500,
-        "label": "10 л"
+        "label": "10 л",
+        "price_mdl": 1500
       },
       {
         "volume_l": 20,
         "price": 2800,
-        "label": "20 л"
+        "label": "20 л",
+        "price_mdl": 2800
       },
       {
         "volume_l": 58,
         "price": 7500,
-        "label": "58 л"
+        "label": "58 л",
+        "price_mdl": 7500
       },
       {
         "volume_l": 209,
         "price": 25000,
-        "label": "209 л"
+        "label": "209 л",
+        "price_mdl": 25000
       }
     ],
     "name_ro": "MOL Hykomol Synt 75W-90",
@@ -2376,32 +2427,38 @@
       {
         "volume_l": 1,
         "price": 145,
-        "label": "1 л"
+        "label": "1 л",
+        "price_mdl": 145
       },
       {
         "volume_l": 4,
         "price": 540,
-        "label": "4 л"
+        "label": "4 л",
+        "price_mdl": 540
       },
       {
         "volume_l": 10,
         "price": 1300,
-        "label": "10 л"
+        "label": "10 л",
+        "price_mdl": 1300
       },
       {
         "volume_l": 20,
         "price": 2500,
-        "label": "20 л BiB carton"
+        "label": "20 л BiB carton",
+        "price_mdl": 2500
       },
       {
         "volume_l": 57,
         "price": 6800,
-        "label": "57 л"
+        "label": "57 л",
+        "price_mdl": 6800
       },
       {
         "volume_l": 206,
         "price": 23000,
-        "label": "206 л"
+        "label": "206 л",
+        "price_mdl": 23000
       }
     ]
   },
@@ -2431,17 +2488,20 @@
       {
         "volume_l": 1,
         "price": 180,
-        "label": "1 л"
+        "label": "1 л",
+        "price_mdl": 180
       },
       {
         "volume_l": 4,
         "price": 680,
-        "label": "4 л"
+        "label": "4 л",
+        "price_mdl": 680
       },
       {
         "volume_l": 199,
         "price": 28900,
-        "label": "199 л"
+        "label": "199 л",
+        "price_mdl": 28900
       }
     ],
     "name_ro": "MOL Dynamic Synt RN 5W-30",
@@ -2526,12 +2586,14 @@
       {
         "volume_l": 0.5,
         "price": 65,
-        "label": "0.5 л"
+        "label": "0.5 л",
+        "price_mdl": 65
       },
       {
         "volume_l": 196,
         "price": 21000,
-        "label": "196 л"
+        "label": "196 л",
+        "price_mdl": 21000
       }
     ]
   },
@@ -2559,7 +2621,8 @@
       {
         "volume_l": 1,
         "price": 190,
-        "label": "1 л"
+        "label": "1 л",
+        "price_mdl": 190
       }
     ],
     "name_ro": "MOL Dynamic Gold DX 5W-30",
@@ -2592,12 +2655,14 @@
       {
         "volume_l": 1,
         "price": 165,
-        "label": "1 л"
+        "label": "1 л",
+        "price_mdl": 165
       },
       {
         "volume_l": 56,
         "price": 8000,
-        "label": "56 л"
+        "label": "56 л",
+        "price_mdl": 8000
       }
     ]
   },
@@ -2628,12 +2693,14 @@
       {
         "volume_l": 4,
         "price": 690,
-        "label": "4 л BiB carton"
+        "label": "4 л BiB carton",
+        "price_mdl": 690
       },
       {
         "volume_l": 20,
         "price": 3100,
-        "label": "20 л BiB carton"
+        "label": "20 л BiB carton",
+        "price_mdl": 3100
       }
     ]
   },
@@ -2663,7 +2730,8 @@
       {
         "volume_l": 1,
         "price": 230,
-        "label": "1 л"
+        "label": "1 л",
+        "price_mdl": 230
       }
     ]
   },
@@ -2697,27 +2765,32 @@
       {
         "volume_l": 1,
         "price": 120,
-        "label": "1 л"
+        "label": "1 л",
+        "price_mdl": 120
       },
       {
         "volume_l": 4,
         "price": 440,
-        "label": "4 л"
+        "label": "4 л",
+        "price_mdl": 440
       },
       {
         "volume_l": 10,
         "price": 1050,
-        "label": "10 л"
+        "label": "10 л",
+        "price_mdl": 1050
       },
       {
         "volume_l": 54,
         "price": 5600,
-        "label": "54 л"
+        "label": "54 л",
+        "price_mdl": 5600
       },
       {
         "volume_l": 197,
         "price": 19500,
-        "label": "197 л"
+        "label": "197 л",
+        "price_mdl": 19500
       }
     ]
   },
@@ -2747,7 +2820,8 @@
       {
         "volume_l": 1,
         "price": 135,
-        "label": "1 л"
+        "label": "1 л",
+        "price_mdl": 135
       }
     ]
   },
@@ -2778,22 +2852,26 @@
       {
         "volume_l": 1,
         "price": 185,
-        "label": "1 л"
+        "label": "1 л",
+        "price_mdl": 185
       },
       {
         "volume_l": 4,
         "price": 700,
-        "label": "4 л"
+        "label": "4 л",
+        "price_mdl": 700
       },
       {
         "volume_l": 55,
         "price": 8800,
-        "label": "55 л"
+        "label": "55 л",
+        "price_mdl": 8800
       },
       {
         "volume_l": 200,
         "price": 29800,
-        "label": "200 л"
+        "label": "200 л",
+        "price_mdl": 29800
       }
     ],
     "name_ro": "MOL Dynamic Star 5W-30",
@@ -2857,22 +2935,26 @@
       {
         "volume_l": 1,
         "price": 185,
-        "label": "1 л"
+        "label": "1 л",
+        "price_mdl": 185
       },
       {
         "volume_l": 4,
         "price": 700,
-        "label": "4 л"
+        "label": "4 л",
+        "price_mdl": 700
       },
       {
         "volume_l": 55,
         "price": 8800,
-        "label": "55 л"
+        "label": "55 л",
+        "price_mdl": 8800
       },
       {
         "volume_l": 199,
         "price": 29500,
-        "label": "199 л"
+        "label": "199 л",
+        "price_mdl": 29500
       }
     ],
     "name_ro": "MOL Dynamic Gold 5W-30",
@@ -2957,12 +3039,14 @@
       {
         "volume_l": 1,
         "price": 115,
-        "label": "1 л"
+        "label": "1 л",
+        "price_mdl": 115
       },
       {
         "volume_l": 4,
         "price": 420,
-        "label": "4 л"
+        "label": "4 л",
+        "price_mdl": 420
       }
     ]
   },
@@ -3086,7 +3170,8 @@
       {
         "volume_l": 1,
         "price": 235,
-        "label": "1 л"
+        "label": "1 л",
+        "price_mdl": 235
       }
     ]
   },
@@ -3119,22 +3204,26 @@
       {
         "volume_l": 1,
         "price": 140,
-        "label": "1 л"
+        "label": "1 л",
+        "price_mdl": 140
       },
       {
         "volume_l": 10,
         "price": 1300,
-        "label": "10 л"
+        "label": "10 л",
+        "price_mdl": 1300
       },
       {
         "volume_l": 55,
         "price": 6800,
-        "label": "55 л"
+        "label": "55 л",
+        "price_mdl": 6800
       },
       {
         "volume_l": 198,
         "price": 22000,
-        "label": "198 л"
+        "label": "198 л",
+        "price_mdl": 22000
       }
     ]
   },
@@ -3164,7 +3253,8 @@
       {
         "volume_l": 1,
         "price": 185,
-        "label": "1 л"
+        "label": "1 л",
+        "price_mdl": 185
       }
     ]
   },
@@ -3241,7 +3331,8 @@
       {
         "volume_l": 1,
         "price": 200,
-        "label": "1 л"
+        "label": "1 л",
+        "price_mdl": 200
       }
     ]
   },
@@ -3386,7 +3477,8 @@
       {
         "volume_l": 10,
         "price": 1400,
-        "label": "10 л"
+        "label": "10 л",
+        "price_mdl": 1400
       }
     ]
   },
@@ -3414,7 +3506,8 @@
       {
         "volume_l": 1,
         "price": 195,
-        "label": "1 л"
+        "label": "1 л",
+        "price_mdl": 195
       }
     ],
     "name_ro": "MOL DSG / DCT Fluid",
@@ -3445,22 +3538,26 @@
       {
         "volume_l": 1,
         "price": 165,
-        "label": "1 л"
+        "label": "1 л",
+        "price_mdl": 165
       },
       {
         "volume_l": 4,
         "price": 620,
-        "label": "4 л"
+        "label": "4 л",
+        "price_mdl": 620
       },
       {
         "volume_l": 55,
         "price": 7800,
-        "label": "55 л"
+        "label": "55 л",
+        "price_mdl": 7800
       },
       {
         "volume_l": 199,
         "price": 26500,
-        "label": "199 л"
+        "label": "199 л",
+        "price_mdl": 26500
       }
     ],
     "barrel_vol": 198,
@@ -3491,12 +3588,14 @@
       {
         "volume_l": 1,
         "price": 175,
-        "label": "1 л"
+        "label": "1 л",
+        "price_mdl": 175
       },
       {
         "volume_l": 4,
         "price": 660,
-        "label": "4 л"
+        "label": "4 л",
+        "price_mdl": 660
       }
     ],
     "barrel_vol": 198,
@@ -3527,12 +3626,14 @@
       {
         "volume_l": 1,
         "price": 160,
-        "label": "1 л"
+        "label": "1 л",
+        "price_mdl": 160
       },
       {
         "volume_l": 4,
         "price": 600,
-        "label": "4 л"
+        "label": "4 л",
+        "price_mdl": 600
       }
     ],
     "barrel_vol": 198,
@@ -3565,22 +3666,26 @@
       {
         "volume_l": 1,
         "price": 160,
-        "label": "1 л"
+        "label": "1 л",
+        "price_mdl": 160
       },
       {
         "volume_l": 4,
         "price": 600,
-        "label": "4 л"
+        "label": "4 л",
+        "price_mdl": 600
       },
       {
         "volume_l": 55,
         "price": 7500,
-        "label": "55 л"
+        "label": "55 л",
+        "price_mdl": 7500
       },
       {
         "volume_l": 198,
         "price": 25500,
-        "label": "198 л"
+        "label": "198 л",
+        "price_mdl": 25500
       }
     ],
     "barrel_vol": 198,
@@ -3610,7 +3715,8 @@
       {
         "volume_l": 1,
         "price": 225,
-        "label": "1 л"
+        "label": "1 л",
+        "price_mdl": 225
       }
     ],
     "barrel_vol": 4,
@@ -3641,12 +3747,14 @@
       {
         "volume_l": 1,
         "price": 140,
-        "label": "1 л"
+        "label": "1 л",
+        "price_mdl": 140
       },
       {
         "volume_l": 4,
         "price": 520,
-        "label": "4 л"
+        "label": "4 л",
+        "price_mdl": 520
       }
     ],
     "barrel_vol": 50,
@@ -3680,27 +3788,32 @@
       {
         "volume_l": 1,
         "price": 115,
-        "label": "1 л"
+        "label": "1 л",
+        "price_mdl": 115
       },
       {
         "volume_l": 4,
         "price": 420,
-        "label": "4 л"
+        "label": "4 л",
+        "price_mdl": 420
       },
       {
         "volume_l": 10,
         "price": 1050,
-        "label": "10 л"
+        "label": "10 л",
+        "price_mdl": 1050
       },
       {
         "volume_l": 57,
         "price": 5700,
-        "label": "57 л"
+        "label": "57 л",
+        "price_mdl": 5700
       },
       {
         "volume_l": 204,
         "price": 19500,
-        "label": "204 л"
+        "label": "204 л",
+        "price_mdl": 19500
       }
     ],
     "barrel_vol": 204,
@@ -3732,17 +3845,20 @@
       {
         "volume_l": 1,
         "price": 120,
-        "label": "1 л"
+        "label": "1 л",
+        "price_mdl": 120
       },
       {
         "volume_l": 4,
         "price": 440,
-        "label": "4 л"
+        "label": "4 л",
+        "price_mdl": 440
       },
       {
         "volume_l": 57,
         "price": 5900,
-        "label": "57 л"
+        "label": "57 л",
+        "price_mdl": 5900
       }
     ],
     "barrel_vol": 50,
@@ -8076,32 +8192,38 @@
       {
         "volume_l": 0.25,
         "price": 55,
-        "label": "250 г"
+        "label": "250 г",
+        "price_mdl": 55
       },
       {
         "volume_l": 0.4,
         "price": 70,
-        "label": "400 г картридж"
+        "label": "400 г картридж",
+        "price_mdl": 70
       },
       {
         "volume_l": 8,
         "price": 550,
-        "label": "8 кг"
+        "label": "8 кг",
+        "price_mdl": 550
       },
       {
         "volume_l": 18,
         "price": 1100,
-        "label": "18 кг"
+        "label": "18 кг",
+        "price_mdl": 1100
       },
       {
         "volume_l": 50,
         "price": 2800,
-        "label": "50 кг"
+        "label": "50 кг",
+        "price_mdl": 2800
       },
       {
         "volume_l": 180,
         "price": 9500,
-        "label": "180 кг"
+        "label": "180 кг",
+        "price_mdl": 9500
       }
     ],
     "name_ro": "Unsoare MOL Liton LT 2 EP",
@@ -8131,17 +8253,20 @@
       {
         "volume_l": 0.4,
         "price": 75,
-        "label": "400 г картридж"
+        "label": "400 г картридж",
+        "price_mdl": 75
       },
       {
         "volume_l": 8,
         "price": 600,
-        "label": "8 кг"
+        "label": "8 кг",
+        "price_mdl": 600
       },
       {
         "volume_l": 18,
         "price": 1200,
-        "label": "18 кг"
+        "label": "18 кг",
+        "price_mdl": 1200
       }
     ],
     "name_ro": "Unsoare MOL Favorit 2 Blue",
@@ -8165,12 +8290,14 @@
       {
         "volume_l": 0.15,
         "price": 35,
-        "label": "150 г"
+        "label": "150 г",
+        "price_mdl": 35
       },
       {
         "volume_l": 0.375,
         "price": 55,
-        "label": "375 г"
+        "label": "375 г",
+        "price_mdl": 55
       }
     ],
     "name_ro": "Unsoare YUKO SHRUS-4",
@@ -8191,7 +8318,8 @@
       {
         "volume_l": 0.8,
         "price": 185,
-        "label": "800 г / 1 л"
+        "label": "800 г / 1 л",
+        "price_mdl": 185
       }
     ],
     "specs": [],
@@ -8212,7 +8340,8 @@
       {
         "volume_l": 0.125,
         "price": 42,
-        "label": "0.1 кг / 125 мл"
+        "label": "0.1 кг / 125 мл",
+        "price_mdl": 42
       }
     ],
     "specs": [],
@@ -8233,7 +8362,8 @@
       {
         "volume_l": 0.125,
         "price": 42,
-        "label": "0.1 кг / 125 мл"
+        "label": "0.1 кг / 125 мл",
+        "price_mdl": 42
       }
     ],
     "specs": [],
@@ -8259,32 +8389,38 @@
       {
         "volume_l": 0.375,
         "price": 40,
-        "label": "375 г дойпак"
+        "label": "375 г дойпак",
+        "price_mdl": 40
       },
       {
         "volume_l": 0.4,
         "price": 50,
-        "label": "400 г туба"
+        "label": "400 г туба",
+        "price_mdl": 50
       },
       {
         "volume_l": 0.8,
         "price": 98,
-        "label": "800 г банка"
+        "label": "800 г банка",
+        "price_mdl": 98
       },
       {
         "volume_l": 5,
         "price": 435,
-        "label": "5 л / 4.5 кг"
+        "label": "5 л / 4.5 кг",
+        "price_mdl": 435
       },
       {
         "volume_l": 10,
         "price": 600,
-        "label": "10 л"
+        "label": "10 л",
+        "price_mdl": 600
       },
       {
         "volume_l": 20,
         "price": 1180,
-        "label": "20 л"
+        "label": "20 л",
+        "price_mdl": 1180
       }
     ],
     "specs": [],
@@ -8311,37 +8447,44 @@
       {
         "volume_l": 0.15,
         "price": 24,
-        "label": "150 г"
+        "label": "150 г",
+        "price_mdl": 24
       },
       {
         "volume_l": 0.375,
         "price": 48,
-        "label": "375 г"
+        "label": "375 г",
+        "price_mdl": 48
       },
       {
         "volume_l": 0.4,
         "price": 61,
-        "label": "400 г туба"
+        "label": "400 г туба",
+        "price_mdl": 61
       },
       {
         "volume_l": 0.8,
         "price": 94,
-        "label": "800 г банка"
+        "label": "800 г банка",
+        "price_mdl": 94
       },
       {
         "volume_l": 5,
         "price": 428,
-        "label": "5 л"
+        "label": "5 л",
+        "price_mdl": 428
       },
       {
         "volume_l": 10,
         "price": 858,
-        "label": "10 л"
+        "label": "10 л",
+        "price_mdl": 858
       },
       {
         "volume_l": 20,
         "price": 1540,
-        "label": "20 л"
+        "label": "20 л",
+        "price_mdl": 1540
       }
     ],
     "specs": [],
@@ -8362,7 +8505,8 @@
       {
         "volume_l": 0.375,
         "price": 45,
-        "label": "375 г"
+        "label": "375 г",
+        "price_mdl": 45
       }
     ],
     "specs": [],
@@ -8391,12 +8535,14 @@
       {
         "volume_l": 1,
         "price": 95,
-        "label": "1 л"
+        "label": "1 л",
+        "price_mdl": 95
       },
       {
         "volume_l": 4,
         "price": 350,
-        "label": "4 л"
+        "label": "4 л",
+        "price_mdl": 350
       }
     ],
     "name_ro": "YUKO TAD-17m 85W-90 GL-5",
@@ -8425,12 +8571,14 @@
       {
         "volume_l": 1,
         "price": 95,
-        "label": "1 л"
+        "label": "1 л",
+        "price_mdl": 95
       },
       {
         "volume_l": 4,
         "price": 350,
-        "label": "4 л"
+        "label": "4 л",
+        "price_mdl": 350
       }
     ],
     "name_ro": "YUKO Dynamic 15W-40",
@@ -8459,12 +8607,14 @@
       {
         "volume_l": 1,
         "price": 105,
-        "label": "1 л"
+        "label": "1 л",
+        "price_mdl": 105
       },
       {
         "volume_l": 4,
         "price": 390,
-        "label": "4 л"
+        "label": "4 л",
+        "price_mdl": 390
       }
     ],
     "name_ro": "YUKO VEGA SYNT 10W-40",
@@ -8493,12 +8643,14 @@
       {
         "volume_l": 1,
         "price": 130,
-        "label": "1 л"
+        "label": "1 л",
+        "price_mdl": 130
       },
       {
         "volume_l": 4,
         "price": 480,
-        "label": "4 л"
+        "label": "4 л",
+        "price_mdl": 480
       }
     ],
     "name_ro": "YUKO Synetic 5W-30",
@@ -8527,12 +8679,14 @@
       {
         "volume_l": 1,
         "price": 125,
-        "label": "1 л"
+        "label": "1 л",
+        "price_mdl": 125
       },
       {
         "volume_l": 4,
         "price": 460,
-        "label": "4 л"
+        "label": "4 л",
+        "price_mdl": 460
       }
     ],
     "name_ro": "YUKO Synthetic 5W-40",
@@ -8555,7 +8709,8 @@
       {
         "volume_l": 1,
         "price": 85,
-        "label": "1 л"
+        "label": "1 л",
+        "price_mdl": 85
       }
     ],
     "name_ro": "YUKO Motomix 2T",
@@ -8578,7 +8733,8 @@
       {
         "volume_l": 1,
         "price": 95,
-        "label": "1 л"
+        "label": "1 л",
+        "price_mdl": 95
       }
     ],
     "name_ro": "YUKO Scooter Synt 2T",
@@ -8601,7 +8757,8 @@
       {
         "volume_l": 1,
         "price": 110,
-        "label": "1 л"
+        "label": "1 л",
+        "price_mdl": 110
       }
     ],
     "name_ro": "YUKO Semisynthetic 4T 10W-40",
@@ -8623,12 +8780,14 @@
       {
         "volume_l": 10,
         "price": 900,
-        "label": "10 л"
+        "label": "10 л",
+        "price_mdl": 900
       },
       {
         "volume_l": 195,
         "price": 14500,
-        "label": "195 л"
+        "label": "195 л",
+        "price_mdl": 14500
       }
     ],
     "specs": [
@@ -8681,22 +8840,26 @@
       {
         "volume_l": 10,
         "price": 900,
-        "label": "10 л"
+        "label": "10 л",
+        "price_mdl": 900
       },
       {
         "volume_l": 57,
         "price": 4800,
-        "label": "57 л"
+        "label": "57 л",
+        "price_mdl": 4800
       },
       {
         "volume_l": 206,
         "price": 14800,
-        "label": "206 л"
+        "label": "206 л",
+        "price_mdl": 14800
       },
       {
         "volume_l": 983,
         "price": 68000,
-        "label": "983 л"
+        "label": "983 л",
+        "price_mdl": 68000
       }
     ],
     "specs": [
@@ -8746,7 +8909,8 @@
       {
         "volume_l": 10,
         "price": 950,
-        "label": "10 л"
+        "label": "10 л",
+        "price_mdl": 950
       }
     ],
     "specs": [
@@ -8796,7 +8960,8 @@
       {
         "volume_l": 205,
         "price": 18000,
-        "label": "205 л"
+        "label": "205 л",
+        "price_mdl": 18000
       }
     ],
     "specs": [
@@ -8847,12 +9012,14 @@
       {
         "volume_l": 10,
         "price": 1100,
-        "label": "10 л"
+        "label": "10 л",
+        "price_mdl": 1100
       },
       {
         "volume_l": 197,
         "price": 17500,
-        "label": "197 л"
+        "label": "197 л",
+        "price_mdl": 17500
       }
     ],
     "specs": [
@@ -8904,7 +9071,8 @@
       {
         "volume_l": 1,
         "price": 85,
-        "label": "1 л"
+        "label": "1 л",
+        "price_mdl": 85
       }
     ],
     "name_ro": "Lichid servo YUKO PSF",
@@ -8980,22 +9148,26 @@
       {
         "volume_l": 1,
         "price": 175,
-        "label": "1 л"
+        "label": "1 л",
+        "price_mdl": 175
       },
       {
         "volume_l": 4,
         "price": 660,
-        "label": "4 л"
+        "label": "4 л",
+        "price_mdl": 660
       },
       {
         "volume_l": 55,
         "price": 8300,
-        "label": "55 л"
+        "label": "55 л",
+        "price_mdl": 8300
       },
       {
         "volume_l": 199,
         "price": 27900,
-        "label": "199 л"
+        "label": "199 л",
+        "price_mdl": 27900
       }
     ],
     "name_ro": "MOL Prima 5W-40",
@@ -11823,22 +11995,26 @@
       {
         "volume_l": 10,
         "price": 1100,
-        "label": "10 л"
+        "label": "10 л",
+        "price_mdl": 1100
       },
       {
         "volume_l": 20,
         "price": 2100,
-        "label": "20 л BiB carton"
+        "label": "20 л BiB carton",
+        "price_mdl": 2100
       },
       {
         "volume_l": 56,
         "price": 5900,
-        "label": "56 л"
+        "label": "56 л",
+        "price_mdl": 5900
       },
       {
         "volume_l": 203,
         "price": 20500,
-        "label": "203 л"
+        "label": "203 л",
+        "price_mdl": 20500
       }
     ],
     "name_ro": "MOL Dynamic Transit 15W-40",
@@ -11869,22 +12045,26 @@
       {
         "volume_l": 10,
         "price": 1200,
-        "label": "10 л"
+        "label": "10 л",
+        "price_mdl": 1200
       },
       {
         "volume_l": 20,
         "price": 2300,
-        "label": "20 л"
+        "label": "20 л",
+        "price_mdl": 2300
       },
       {
         "volume_l": 57,
         "price": 6400,
-        "label": "57 л"
+        "label": "57 л",
+        "price_mdl": 6400
       },
       {
         "volume_l": 207,
         "price": 21500,
-        "label": "207 л"
+        "label": "207 л",
+        "price_mdl": 21500
       }
     ],
     "name_ro": "MOL Dynamic Global Diesel 15W-40",
@@ -11914,17 +12094,20 @@
       {
         "volume_l": 10,
         "price": 1400,
-        "label": "10 л"
+        "label": "10 л",
+        "price_mdl": 1400
       },
       {
         "volume_l": 57,
         "price": 7200,
-        "label": "57 л"
+        "label": "57 л",
+        "price_mdl": 7200
       },
       {
         "volume_l": 197,
         "price": 23500,
-        "label": "197 л"
+        "label": "197 л",
+        "price_mdl": 23500
       }
     ],
     "name_ro": "MOL Dynamic Synt Diesel 10W-40",
@@ -11955,22 +12138,26 @@
       {
         "volume_l": 10,
         "price": 1500,
-        "label": "10 л"
+        "label": "10 л",
+        "price_mdl": 1500
       },
       {
         "volume_l": 20,
         "price": 2800,
-        "label": "20 л BiB carton"
+        "label": "20 л BiB carton",
+        "price_mdl": 2800
       },
       {
         "volume_l": 54,
         "price": 6200,
-        "label": "54 л"
+        "label": "54 л",
+        "price_mdl": 6200
       },
       {
         "volume_l": 197,
         "price": 21000,
-        "label": "197 л"
+        "label": "197 л",
+        "price_mdl": 21000
       }
     ],
     "name_ro": "MOL Dynamic Mistral 10W-40",
@@ -11999,12 +12186,14 @@
       {
         "volume_l": 10,
         "price": 1700,
-        "label": "10 л"
+        "label": "10 л",
+        "price_mdl": 1700
       },
       {
         "volume_l": 55,
         "price": 8800,
-        "label": "55 л"
+        "label": "55 л",
+        "price_mdl": 8800
       }
     ],
     "name_ro": "MOL Dynamic Mistral 5W-30",
@@ -12035,22 +12224,26 @@
       {
         "volume_l": 10,
         "price": 1650,
-        "label": "10 л"
+        "label": "10 л",
+        "price_mdl": 1650
       },
       {
         "volume_l": 20,
         "price": 3100,
-        "label": "20 л"
+        "label": "20 л",
+        "price_mdl": 3100
       },
       {
         "volume_l": 55,
         "price": 8200,
-        "label": "55 л"
+        "label": "55 л",
+        "price_mdl": 8200
       },
       {
         "volume_l": 198,
         "price": 28000,
-        "label": "198 л"
+        "label": "198 л",
+        "price_mdl": 28000
       }
     ],
     "name_ro": "MOL Dynamic Mistral XTS 5W-30",
@@ -12083,7 +12276,8 @@
       {
         "volume_l": 1,
         "price": 220,
-        "label": "1 л"
+        "label": "1 л",
+        "price_mdl": 220
       }
     ]
   },
@@ -12114,12 +12308,14 @@
       {
         "volume_l": 1,
         "price": 240,
-        "label": "1 л"
+        "label": "1 л",
+        "price_mdl": 240
       },
       {
         "volume_l": 4,
         "price": 910,
-        "label": "4 л"
+        "label": "4 л",
+        "price_mdl": 910
       }
     ]
   },
@@ -12154,32 +12350,38 @@
       {
         "volume_l": 4,
         "price": 500,
-        "label": "4 л"
+        "label": "4 л",
+        "price_mdl": 500
       },
       {
         "volume_l": 5,
         "price": 610,
-        "label": "5 л BiB carton"
+        "label": "5 л BiB carton",
+        "price_mdl": 610
       },
       {
         "volume_l": 20,
         "price": 2350,
-        "label": "20 л BiB carton"
+        "label": "20 л BiB carton",
+        "price_mdl": 2350
       },
       {
         "volume_l": 54,
         "price": 6200,
-        "label": "54 л"
+        "label": "54 л",
+        "price_mdl": 6200
       },
       {
         "volume_l": 196,
         "price": 21500,
-        "label": "196 л"
+        "label": "196 л",
+        "price_mdl": 21500
       },
       {
         "volume_l": 991,
         "price": 98000,
-        "label": "991 л (Еврокуб)"
+        "label": "991 л (Еврокуб)",
+        "price_mdl": 98000
       }
     ]
   },
@@ -12199,12 +12401,14 @@
       {
         "volume_l": 20,
         "price": 3200,
-        "label": "20 л"
+        "label": "20 л",
+        "price_mdl": 3200
       },
       {
         "volume_l": 55,
         "price": 8500,
-        "label": "55 л"
+        "label": "55 л",
+        "price_mdl": 8500
       }
     ],
     "specs": [],
@@ -12227,17 +12431,20 @@
       {
         "volume_l": 10,
         "price": 1450,
-        "label": "10 л"
+        "label": "10 л",
+        "price_mdl": 1450
       },
       {
         "volume_l": 58,
         "price": 7400,
-        "label": "58 л"
+        "label": "58 л",
+        "price_mdl": 7400
       },
       {
         "volume_l": 196,
         "price": 23000,
-        "label": "196 л"
+        "label": "196 л",
+        "price_mdl": 23000
       }
     ],
     "specs": [
@@ -12265,17 +12472,20 @@
       {
         "volume_l": 10,
         "price": 1300,
-        "label": "10 л"
+        "label": "10 л",
+        "price_mdl": 1300
       },
       {
         "volume_l": 58,
         "price": 6900,
-        "label": "58 л"
+        "label": "58 л",
+        "price_mdl": 6900
       },
       {
         "volume_l": 196,
         "price": 22000,
-        "label": "196 л"
+        "label": "196 л",
+        "price_mdl": 22000
       }
     ],
     "specs": [
@@ -12302,12 +12512,14 @@
       {
         "volume_l": 55,
         "price": 6500,
-        "label": "55 л"
+        "label": "55 л",
+        "price_mdl": 6500
       },
       {
         "volume_l": 197,
         "price": 22500,
-        "label": "197 л"
+        "label": "197 л",
+        "price_mdl": 22500
       }
     ],
     "specs": [
@@ -12335,17 +12547,20 @@
       {
         "volume_l": 10,
         "price": 1000,
-        "label": "10 л"
+        "label": "10 л",
+        "price_mdl": 1000
       },
       {
         "volume_l": 57,
         "price": 5500,
-        "label": "57 л"
+        "label": "57 л",
+        "price_mdl": 5500
       },
       {
         "volume_l": 204,
         "price": 19000,
-        "label": "204 л"
+        "label": "204 л",
+        "price_mdl": 19000
       }
     ],
     "specs": [
@@ -12371,7 +12586,8 @@
       {
         "volume_l": 1,
         "price": 140,
-        "label": "1 л"
+        "label": "1 л",
+        "price_mdl": 140
       }
     ],
     "specs": [],
@@ -12392,7 +12608,8 @@
       {
         "volume_l": 1,
         "price": 145,
-        "label": "1 л"
+        "label": "1 л",
+        "price_mdl": 145
       }
     ],
     "specs": [],
@@ -12413,7 +12630,8 @@
       {
         "volume_l": 1,
         "price": 120,
-        "label": "1 л"
+        "label": "1 л",
+        "price_mdl": 120
       }
     ],
     "specs": [],
@@ -12434,7 +12652,8 @@
       {
         "volume_l": 1,
         "price": 110,
-        "label": "1 л"
+        "label": "1 л",
+        "price_mdl": 110
       }
     ],
     "specs": [],
@@ -12456,12 +12675,14 @@
       {
         "volume_l": 10,
         "price": 1250,
-        "label": "10 л"
+        "label": "10 л",
+        "price_mdl": 1250
       },
       {
         "volume_l": 202,
         "price": 20500,
-        "label": "202 л"
+        "label": "202 л",
+        "price_mdl": 20500
       }
     ],
     "specs": [
