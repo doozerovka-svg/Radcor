@@ -92,31 +92,55 @@
                 localStorage.setItem(ordersKey, JSON.stringify(orders));
             }
 
-            ordersTbody.innerHTML = orders.slice().reverse().map(order => {
-                const isPaid = order.pay_status === 'paid';
-                const payBadgeClass = isPaid ? 'status-paid' : 'status-unpaid';
-                const payBadgeText = isPaid ? 'Оплачен' : 'Счет выставлен';
+            async function loadAndSyncOrders() {
+                try {
+                    const onecRes = await fetch('http://localhost:5050/api/1c/orders');
+                    if (onecRes.ok) {
+                        const onecData = await onecRes.json();
+                        if (Array.isArray(onecData.data) && onecData.data.length > 0) {
+                            // Sync status with 1C
+                            onecData.data.forEach(onecOrd => {
+                                const localOrd = orders.find(o => o.orderNo === onecOrd.orderNo || o.order_id === (onecOrd.orderNo || '').replace('RAD-', '').replace('1C-', ''));
+                                if (localOrd && onecOrd.status) {
+                                    if (onecOrd.status === 'Оплачен') localOrd.pay_status = 'paid';
+                                    if (onecOrd.status === 'Отгружен') localOrd.delivery_status = 'shipping';
+                                    if (onecOrd.status === 'Доставлен') localOrd.delivery_status = 'delivered';
+                                }
+                            });
+                        }
+                    }
+                } catch (e) {}
 
-                let delBadgeClass = 'status-delivered';
-                let delBadgeText = 'Доставлен';
-                if (order.delivery_status === 'shipping') {
-                    delBadgeClass = 'status-shipping';
-                    delBadgeText = 'В пути';
-                } else if (order.delivery_status === 'processing') {
-                    delBadgeClass = 'status-unpaid';
-                    delBadgeText = 'В обработке';
-                }
+                ordersTbody.innerHTML = orders.slice().map(order => {
+                    const isPaid = order.pay_status === 'paid';
+                    const payBadgeClass = isPaid ? 'status-paid' : 'status-unpaid';
+                    const payBadgeText = isPaid ? 'Оплачен' : 'Счет выставлен';
 
-                return `
-                    <tr>
-                        <td class="code-font text-amber">№${order.order_id}</td>
-                        <td>${order.date}</td>
-                        <td>${Number(order.total).toLocaleString('ru-RU')} MDL</td>
-                        <td><span class="status-badge ${payBadgeClass}">${payBadgeText}</span></td>
-                        <td><span class="status-badge ${delBadgeClass}">${delBadgeText}</span></td>
-                    </tr>
-                `;
-            }).join('');
+                    let delBadgeClass = 'status-delivered';
+                    let delBadgeText = 'Доставлен';
+                    if (order.delivery_status === 'shipping') {
+                        delBadgeClass = 'status-shipping';
+                        delBadgeText = 'В пути';
+                    } else if (order.delivery_status === 'processing') {
+                        delBadgeClass = 'status-unpaid';
+                        delBadgeText = 'В обработке';
+                    }
+
+                    const numDisplay = order.onec_order_no ? `№${order.order_id} (${order.onec_order_no})` : `№${order.order_id}`;
+
+                    return `
+                        <tr>
+                            <td class="code-font text-amber">${numDisplay}</td>
+                            <td>${order.date}</td>
+                            <td>${Number(order.total).toLocaleString('ru-RU')} MDL</td>
+                            <td><span class="status-badge ${payBadgeClass}">${payBadgeText}</span></td>
+                            <td><span class="status-badge ${delBadgeClass}">${delBadgeText}</span></td>
+                        </tr>
+                    `;
+                }).join('');
+            }
+
+            loadAndSyncOrders();
         }
 
         // 5. Быстрый заказ по артикулу (SKU)
@@ -136,7 +160,7 @@
                     if (window.PRODUCTS_DATA && window.PRODUCTS_DATA.length > 0) {
                         products = window.PRODUCTS_DATA;
                     } else {
-                        const resp = await fetch('products.json?v=47.0');
+                        const resp = await fetch('products.json?v=48.0');
                         products = await resp.json();
                     }
 
@@ -184,7 +208,7 @@
         if (downloadExcelBtn) {
             downloadExcelBtn.onclick = async () => {
                 try {
-                    const resp = await fetch('products.json?v=47.0');
+                    const resp = await fetch('products.json?v=48.0');
                     const products = await resp.json();
                     
                     const discount = session.discount_pct || 0;

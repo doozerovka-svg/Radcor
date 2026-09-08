@@ -2,11 +2,17 @@ const express = require('express');
 const cors = require('cors');
 const dotenv = require('dotenv');
 const db = require('./db');
+const OneCClient = require('./onecClient');
 
 dotenv.config();
 
 const app = express();
 const PORT = process.env.PORT || 5000;
+const onecClient = new OneCClient({
+  baseUrl: process.env.ONEC_BASE_URL || 'http://localhost:5050/radcor/odata/standard.odata',
+  username: process.env.ONEC_USER || 'Administrator',
+  password: process.env.ONEC_PASSWORD || ''
+});
 
 app.use(cors());
 app.use(express.json());
@@ -86,7 +92,29 @@ app.post('/api/v1/orders', async (req, res) => {
     if (delivery_method === 'delivery' && (!delivery_city || !delivery_address)) return res.status(400).json({ success: false, error: 'City and address are required for delivery.' });
     const calculated = await calculateOrder(req.body.items);
     const saved = await db.saveOrder({ ...calculated, company_name, contact_person, phone, email, payment_method, delivery_method, delivery_city, delivery_address, comment, status: 'Принят', created_at: new Date().toISOString() }, calculated.items);
-    res.status(201).json({ success: true, data: { ...saved, orderNo: `№${80000 + saved.id}` } });
+    
+    // Auto-forward to 1C
+    let onecDoc = null;
+    try {
+      onecDoc = await onecClient.createCustomerOrder({
+        company_name,
+        phone,
+        total_price: calculated.total_price,
+        items: calculated.items
+      });
+      console.log(`[1C Sync] Order forwarded to 1C -> ${onecDoc.Number || onecDoc.orderNo}`);
+    } catch (onecErr) {
+      console.warn(`[1C Sync] 1C forwarding warning:`, onecErr.message);
+    }
+
+    res.status(201).json({
+      success: true,
+      data: {
+        ...saved,
+        orderNo: `№${80000 + saved.id}`,
+        onec_order_no: onecDoc ? (onecDoc.Number || onecDoc.orderNo) : null
+      }
+    });
   } catch (error) { res.status(400).json({ success: false, error: error.message }); }
 });
 

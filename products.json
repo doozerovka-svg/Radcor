@@ -415,7 +415,7 @@
     "name": "FELIX Prolonger G11 (Зелёный)",
     "category": "coolants",
     "brand": "Felix",
-    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
+    "photo_url": "images/products/felix/felix-prolonger-1kg.png",
     "volumes": [
       1,
       3,
@@ -484,7 +484,7 @@
     "name": "FELIX Carbox G12+ (Красный)",
     "category": "coolants",
     "brand": "Felix",
-    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
+    "photo_url": "images/products/felix/felix-carbox-1kg.png",
     "volumes": [
       1,
       3,
@@ -601,7 +601,7 @@
     "name": "FELIX Expert G11 (Синий)",
     "category": "coolants",
     "brand": "Felix",
-    "photo_url": "https://felix-auto.ru/upload/iblock/d76/d76c35c24f6bf873f2730e7049448ec6.png",
+    "photo_url": "images/products/felix/felix-expert-1kg.png",
     "volumes": [
       1,
       5,
@@ -6600,7 +6600,7 @@
     "name": "Cirpa magica tub DUNLOP 36x27 cm",
     "category": "accessories",
     "brand": "Dunlop",
-    "photo_url": "",
+    "photo_url": "images/products/dunlop/03689.jpg",
     "volumes": [
       1
     ],
@@ -6617,14 +6617,18 @@
       }
     ],
     "name_ro": "Cirpa magica tub DUNLOP 36x27 cm",
-    "description_ro": "Cirpa magica tub DUNLOP 36x27 cm (Код: 03689, Штрихкод: 8711252036892)."
+    "description_ro": "Cirpa magica tub DUNLOP 36x27 cm (Код: 03689, Штрихкод: 8711252036892).",
+    "photos": [
+      "images/products/dunlop/03689.jpg",
+      "images/products/dunlop/03689-1.jpg"
+    ]
   },
   {
     "sku": "RP-05829",
     "name": "Gripmat transparent 14.5 x 8.5 cm",
     "category": "accessories",
     "brand": "Dunlop",
-    "photo_url": "",
+    "photo_url": "images/products/dunlop/05829.jpg",
     "volumes": [
       1
     ],
@@ -6641,14 +6645,19 @@
       }
     ],
     "name_ro": "Gripmat transparent 14.5 x 8.5 cm",
-    "description_ro": "Gripmat transparent 14.5 x 8.5 cm (Код: 05829, Штрихкод: 8711252058290)."
+    "description_ro": "Gripmat transparent 14.5 x 8.5 cm (Код: 05829, Штрихкод: 8711252058290).",
+    "photos": [
+      "images/products/dunlop/05829.jpg",
+      "images/products/dunlop/05829-1.jpg",
+      "images/products/dunlop/05829-2.jpg"
+    ]
   },
   {
     "sku": "RP-05837",
     "name": "Racleta de gheata DUNLOP 26/13/3 cm",
     "category": "accessories",
     "brand": "Dunlop",
-    "photo_url": "",
+    "photo_url": "images/products/dunlop/05837.jpg",
     "volumes": [
       1
     ],
@@ -6665,7 +6674,11 @@
       }
     ],
     "name_ro": "Racleta de gheata DUNLOP 26/13/3 cm",
-    "description_ro": "Racleta de gheata DUNLOP 26/13/3 cm (Код: 05837, Штрихкод: 8711252058375)."
+    "description_ro": "Racleta de gheata DUNLOP 26/13/3 cm (Код: 05837, Штрихкод: 8711252058375).",
+    "photos": [
+      "images/products/dunlop/05837.jpg",
+      "images/products/dunlop/05837-1.jpg"
+    ]
   },
   {
     "sku": "RP-05838",
@@ -6720,7 +6733,7 @@
     "name": "Stergator p/u parbriz ALLRIDE",
     "category": "accessories",
     "brand": "Allride",
-    "photo_url": "",
+    "photo_url": "images/products/dunlop/48608.jpg",
     "volumes": [
       1
     ],
@@ -6737,14 +6750,18 @@
       }
     ],
     "name_ro": "Stergator p/u parbriz ALLRIDE",
-    "description_ro": "Stergator p/u parbriz ALLRIDE (Код: 48608, Штрихкод: 8711252486086)."
+    "description_ro": "Stergator p/u parbriz ALLRIDE (Код: 48608, Штрихкод: 8711252486086).",
+    "photos": [
+      "images/products/dunlop/48608.jpg",
+      "images/products/dunlop/48608-1.jpg"
+    ]
   },
   {
     "sku": "RP-49636",
     "name": "Set sigurante 28 pcs DUNLOP",
     "category": "accessories",
     "brand": "Dunlop",
-    "photo_url": "",
+    "photo_url": "images/products/dunlop/49636.jpg",
     "volumes": [
       1
     ],
@@ -6768,7 +6785,7 @@
     "name": "Sigurante auto plug-in 6 buc Dunlop",
     "category": "accessories",
     "brand": "Dunlop",
-    "photo_url": "",
+    "photo_url": "images/products/dunlop/06168.jpg",
     "volumes": [
       1
     ],
@@ -6785,14 +6802,18 @@
       }
     ],
     "name_ro": "Sigurante auto plug-in 6 buc Dunlop",
-    "description_ro": "Sigurante auto plug-in 6 buc Dunlop (Код: 06168, Штрихкод: 8711252061689)."
+    "description_ro": "Sigurante auto plug-in 6 buc Dunlop (Код: 06168, Штрихкод: 8711252061689).",
+    "photos": [
+      "images/products/dunlop/06168.jpg",
+      "images/products/dunlop/06168-1.jpg"
+    ]
   },
   {
     "sku": "RP-06170",
     "name": "Sigurante auto 10buc DUNLOP",
     "category": "accessories",
     "brand": "Dunlop",
-    "photo_url": "",
+    "photo_url": "images/products/dunlop/06170.jpg",
     "volumes": [
       1
     ],
@@ -6809,14 +6830,18 @@
       }
     ],
     "name_ro": "Sigurante auto 10buc DUNLOP",
-    "description_ro": "Sigurante auto 10buc DUNLOP (Код: 06170, Штрихкод: 8711252061702)."
+    "description_ro": "Sigurante auto 10buc DUNLOP (Код: 06170, Штрихкод: 8711252061702).",
+    "photos": [
+      "images/products/dunlop/06170.jpg",
+      "images/products/dunlop/06170-1.jpg"
+    ]
   },
   {
     "sku": "RP-06175",
     "name": "Sigurante auto mini 10 buc DUNLOP",
     "category": "accessories",
     "brand": "Dunlop",
-    "photo_url": "",
+    "photo_url": "images/products/dunlop/06175.jpg",
     "volumes": [
       1
     ],
@@ -6833,14 +6858,18 @@
       }
     ],
     "name_ro": "Sigurante auto mini 10 buc DUNLOP",
-    "description_ro": "Sigurante auto mini 10 buc DUNLOP (Код: 06175, Штрихкод: 8711252061757)."
+    "description_ro": "Sigurante auto mini 10 buc DUNLOP (Код: 06175, Штрихкод: 8711252061757).",
+    "photos": [
+      "images/products/dunlop/06175.jpg",
+      "images/products/dunlop/06175-1.jpg"
+    ]
   },
   {
     "sku": "RP-06251",
     "name": "Parasolar metalic/ alb 130x60 cm",
     "category": "accessories",
     "brand": "Dunlop",
-    "photo_url": "",
+    "photo_url": "images/products/dunlop/06251.jpg",
     "volumes": [
       1
     ],
@@ -6864,7 +6893,7 @@
     "name": "Bureta p/u Torpedou",
     "category": "accessories",
     "brand": "Dunlop",
-    "photo_url": "",
+    "photo_url": "images/products/dunlop/06869.jpg",
     "volumes": [
       1
     ],
@@ -6881,14 +6910,18 @@
       }
     ],
     "name_ro": "Bureta p/u Torpedou",
-    "description_ro": "Bureta p/u Torpedou (Код: 06869, Штрихкод: 8711252068695)."
+    "description_ro": "Bureta p/u Torpedou (Код: 06869, Штрихкод: 8711252068695).",
+    "photos": [
+      "images/products/dunlop/06869.jpg",
+      "images/products/dunlop/06869-1.jpg"
+    ]
   },
   {
     "sku": "RP-07882",
     "name": "Bureta p/u sticla DUNLOP Sponge",
     "category": "accessories",
     "brand": "Dunlop",
-    "photo_url": "",
+    "photo_url": "images/products/dunlop/07882.jpg",
     "volumes": [
       1
     ],
@@ -6905,7 +6938,11 @@
       }
     ],
     "name_ro": "Bureta p/u sticla DUNLOP Sponge",
-    "description_ro": "Bureta p/u sticla DUNLOP Sponge (Код: 07882, Штрихкод: 8711252078823)."
+    "description_ro": "Bureta p/u sticla DUNLOP Sponge (Код: 07882, Штрихкод: 8711252078823).",
+    "photos": [
+      "images/products/dunlop/07882.jpg",
+      "images/products/dunlop/07882-1.jpg"
+    ]
   },
   {
     "sku": "RP-10621",
@@ -7032,7 +7069,7 @@
     "name": "Buton Cell 2buc CR2016 Philips",
     "category": "accessories",
     "brand": "Philips",
-    "photo_url": "",
+    "photo_url": "images/products/dunlop/11271.jpg",
     "volumes": [
       1
     ],
@@ -7056,7 +7093,7 @@
     "name": "Button Cell 2 buc CR2025 Philips",
     "category": "accessories",
     "brand": "Philips",
-    "photo_url": "",
+    "photo_url": "images/products/dunlop/11321.jpg",
     "volumes": [
       1
     ],
@@ -7152,7 +7189,7 @@
     "name": "Laveta din microfibra interior DUNLOP 35x35 cm",
     "category": "accessories",
     "brand": "Dunlop",
-    "photo_url": "",
+    "photo_url": "images/products/dunlop/15126.jpg",
     "volumes": [
       1
     ],
@@ -7169,14 +7206,18 @@
       }
     ],
     "name_ro": "Laveta din microfibra interior DUNLOP 35x35 cm",
-    "description_ro": "Laveta din microfibra interior DUNLOP 35x35 cm (Код: 15126, Штрихкод: 8711252151267)."
+    "description_ro": "Laveta din microfibra interior DUNLOP 35x35 cm (Код: 15126, Штрихкод: 8711252151267).",
+    "photos": [
+      "images/products/dunlop/15126.jpg",
+      "images/products/dunlop/15126-1.jpg"
+    ]
   },
   {
     "sku": "RP-15128",
     "name": "Laveta din microfibra Metal Polish",
     "category": "accessories",
     "brand": "Dunlop",
-    "photo_url": "",
+    "photo_url": "images/products/dunlop/15128.jpg",
     "volumes": [
       1
     ],
@@ -7193,14 +7234,18 @@
       }
     ],
     "name_ro": "Laveta din microfibra Metal Polish",
-    "description_ro": "Laveta din microfibra Metal Polish (Код: 15128, Штрихкод: 8711252151281)."
+    "description_ro": "Laveta din microfibra Metal Polish (Код: 15128, Штрихкод: 8711252151281).",
+    "photos": [
+      "images/products/dunlop/15128.jpg",
+      "images/products/dunlop/15128-1.jpg"
+    ]
   },
   {
     "sku": "RP-15129",
     "name": "Cirpa din microfibra Window",
     "category": "accessories",
     "brand": "Dunlop",
-    "photo_url": "",
+    "photo_url": "images/products/dunlop/15129.jpg",
     "volumes": [
       1
     ],
@@ -7217,14 +7262,18 @@
       }
     ],
     "name_ro": "Cirpa din microfibra Window",
-    "description_ro": "Cirpa din microfibra Window (Код: 15129, Штрихкод: 8711252151298)."
+    "description_ro": "Cirpa din microfibra Window (Код: 15129, Штрихкод: 8711252151298).",
+    "photos": [
+      "images/products/dunlop/15129.jpg",
+      "images/products/dunlop/15129-1.jpg"
+    ]
   },
   {
     "sku": "RP-15130",
     "name": "Cirpa din microfibra p/u piele Leather",
     "category": "accessories",
     "brand": "Dunlop",
-    "photo_url": "",
+    "photo_url": "images/products/dunlop/15130.jpg",
     "volumes": [
       1
     ],
@@ -7241,7 +7290,11 @@
       }
     ],
     "name_ro": "Cirpa din microfibra p/u piele Leather",
-    "description_ro": "Cirpa din microfibra p/u piele Leather (Код: 15130, Штрихкод: 8711252151304)."
+    "description_ro": "Cirpa din microfibra p/u piele Leather (Код: 15130, Штрихкод: 8711252151304).",
+    "photos": [
+      "images/products/dunlop/15130.jpg",
+      "images/products/dunlop/15130-1.jpg"
+    ]
   },
   {
     "sku": "RP-41812",
@@ -7272,7 +7325,7 @@
     "name": "Laveta din microfibra MF",
     "category": "accessories",
     "brand": "Dunlop",
-    "photo_url": "",
+    "photo_url": "images/products/dunlop/41813.jpg",
     "volumes": [
       1
     ],
@@ -7289,14 +7342,18 @@
       }
     ],
     "name_ro": "Laveta din microfibra MF",
-    "description_ro": "Laveta din microfibra MF (Код: 41813, Штрихкод: 8711252418131)."
+    "description_ro": "Laveta din microfibra MF (Код: 41813, Штрихкод: 8711252418131).",
+    "photos": [
+      "images/products/dunlop/41813.jpg",
+      "images/products/dunlop/41813-1.jpg"
+    ]
   },
   {
     "sku": "RP-17823",
     "name": "Laveta de curate 2 buc XL",
     "category": "accessories",
     "brand": "Dunlop",
-    "photo_url": "",
+    "photo_url": "images/products/dunlop/17823.jpg",
     "volumes": [
       1
     ],
@@ -7313,14 +7370,18 @@
       }
     ],
     "name_ro": "Laveta de curate 2 buc XL",
-    "description_ro": "Laveta de curate 2 buc XL (Код: 17823, Штрихкод: 8711252178233)."
+    "description_ro": "Laveta de curate 2 buc XL (Код: 17823, Штрихкод: 8711252178233).",
+    "photos": [
+      "images/products/dunlop/17823.jpg",
+      "images/products/dunlop/17823-1.jpg"
+    ]
   },
   {
     "sku": "RP-17829",
     "name": "Laveta din microfibra 3buc DUNLOP",
     "category": "accessories",
     "brand": "Dunlop",
-    "photo_url": "",
+    "photo_url": "images/products/dunlop/17829.jpg",
     "volumes": [
       1
     ],
@@ -7337,14 +7398,18 @@
       }
     ],
     "name_ro": "Laveta din microfibra 3buc DUNLOP",
-    "description_ro": "Laveta din microfibra 3buc DUNLOP (Код: 17829, Штрихкод: 8711252178295)."
+    "description_ro": "Laveta din microfibra 3buc DUNLOP (Код: 17829, Штрихкод: 8711252178295).",
+    "photos": [
+      "images/products/dunlop/17829.jpg",
+      "images/products/dunlop/17829-1.jpg"
+    ]
   },
   {
     "sku": "RP-47701",
     "name": "Set de curatare interioara 3as",
     "category": "accessories",
     "brand": "Dunlop",
-    "photo_url": "",
+    "photo_url": "images/products/dunlop/47701.jpg",
     "volumes": [
       1
     ],
@@ -7361,14 +7426,19 @@
       }
     ],
     "name_ro": "Set de curatare interioara 3as",
-    "description_ro": "Set de curatare interioara 3as (Код: 47701, Штрихкод: 8711252477015)."
+    "description_ro": "Set de curatare interioara 3as (Код: 47701, Штрихкод: 8711252477015).",
+    "photos": [
+      "images/products/dunlop/47701.jpg",
+      "images/products/dunlop/47701-1.jpg",
+      "images/products/dunlop/47701-2.jpg"
+    ]
   },
   {
     "sku": "RP-19637",
     "name": "Suport magnetic telefon Holder",
     "category": "accessories",
     "brand": "Dunlop",
-    "photo_url": "",
+    "photo_url": "images/products/dunlop/19637.jpg",
     "volumes": [
       1
     ],
@@ -7385,14 +7455,18 @@
       }
     ],
     "name_ro": "Suport magnetic telefon Holder",
-    "description_ro": "Suport magnetic telefon Holder (Код: 19637, Штрихкод: 8711252196374)."
+    "description_ro": "Suport magnetic telefon Holder (Код: 19637, Штрихкод: 8711252196374).",
+    "photos": [
+      "images/products/dunlop/19637.jpg",
+      "images/products/dunlop/19637-1.jpg"
+    ]
   },
   {
     "sku": "RP-41800",
     "name": "Airfresh Sport DUNLOP",
     "category": "auto-chemistry",
     "brand": "Dunlop",
-    "photo_url": "",
+    "photo_url": "images/products/dunlop/41800.jpg",
     "volumes": [
       1
     ],
@@ -7409,7 +7483,12 @@
       }
     ],
     "name_ro": "Airfresh Sport DUNLOP",
-    "description_ro": "Airfresh Sport DUNLOP (Код: 41800, Штрихкод: 8711252418001)."
+    "description_ro": "Airfresh Sport DUNLOP (Код: 41800, Штрихкод: 8711252418001).",
+    "photos": [
+      "images/products/dunlop/41800.jpg",
+      "images/products/dunlop/41800-1.jpg",
+      "images/products/dunlop/41800-2.jpg"
+    ]
   },
   {
     "sku": "RP-16576",
@@ -7440,7 +7519,7 @@
     "name": "Airfreshener auto Twins 2 buc",
     "category": "auto-chemistry",
     "brand": "Dunlop",
-    "photo_url": "",
+    "photo_url": "images/products/dunlop/18075.jpg",
     "volumes": [
       1
     ],
@@ -7457,14 +7536,18 @@
       }
     ],
     "name_ro": "Airfreshener auto Twins 2 buc",
-    "description_ro": "Airfreshener auto Twins 2 buc (Код: 18075, Штрихкод: 8711252180755)."
+    "description_ro": "Airfreshener auto Twins 2 buc (Код: 18075, Штрихкод: 8711252180755).",
+    "photos": [
+      "images/products/dunlop/18075.jpg",
+      "images/products/dunlop/18075-1.jpg"
+    ]
   },
   {
     "sku": "RP-86898",
     "name": "Cockpit cleaner Lemon 500ml DUNLOP",
     "category": "auto-chemistry",
     "brand": "Dunlop",
-    "photo_url": "",
+    "photo_url": "images/products/dunlop/86898.jpg",
     "volumes": [
       1
     ],
@@ -7488,7 +7571,7 @@
     "name": "Cockpit cleaner Vanille 500ml DUNLOP",
     "category": "auto-chemistry",
     "brand": "Dunlop",
-    "photo_url": "",
+    "photo_url": "images/products/dunlop/86899.jpg",
     "volumes": [
       1
     ],
@@ -7512,7 +7595,7 @@
     "name": "Glass cleaner 500ml DUNLOP",
     "category": "auto-chemistry",
     "brand": "Dunlop",
-    "photo_url": "",
+    "photo_url": "images/products/dunlop/86900.jpg",
     "volumes": [
       1
     ],
@@ -7536,7 +7619,7 @@
     "name": "Leather cleaner 500ml DUNLOP",
     "category": "auto-chemistry",
     "brand": "Dunlop",
-    "photo_url": "",
+    "photo_url": "images/products/dunlop/86962.jpg",
     "volumes": [
       1
     ],
@@ -7632,7 +7715,7 @@
     "name": "Gaz Butan Spray 227 gr",
     "category": "auto-chemistry",
     "brand": "Dunlop",
-    "photo_url": "",
+    "photo_url": "images/products/dunlop/10055.jpg",
     "volumes": [
       1
     ],
@@ -7656,7 +7739,7 @@
     "name": "Servetele umede auto p/u interior 40 buc",
     "category": "auto-chemistry",
     "brand": "Dunlop",
-    "photo_url": "",
+    "photo_url": "images/products/dunlop/26810.jpg",
     "volumes": [
       1
     ],
@@ -7680,7 +7763,7 @@
     "name": "Solutie cu actiune multipla Dunlop",
     "category": "auto-chemistry",
     "brand": "Dunlop",
-    "photo_url": "",
+    "photo_url": "images/products/dunlop/86783.jpg",
     "volumes": [
       1
     ],
@@ -7704,7 +7787,7 @@
     "name": "Solutie p/u plastic 500 ml Dunlop",
     "category": "auto-chemistry",
     "brand": "Dunlop",
-    "photo_url": "",
+    "photo_url": "images/products/dunlop/86797.jpg",
     "volumes": [
       1
     ],
@@ -7728,7 +7811,7 @@
     "name": "Solutie lustruire anvelope 500 ml Dunlop",
     "category": "auto-chemistry",
     "brand": "Dunlop",
-    "photo_url": "",
+    "photo_url": "images/products/dunlop/86955.jpg",
     "volumes": [
       1
     ],
@@ -18726,5 +18809,82 @@
     "specs": [],
     "photo_url": "",
     "price_on_request": true
+  },
+  {
+    "sku": "RP-08575",
+    "name": "Suport magnetic telefon DUNLOP Air Vent Mount",
+    "category": "accessories",
+    "brand": "Dunlop",
+    "photo_url": "images/products/dunlop/08575.jpg",
+    "photos": [
+      "images/products/dunlop/08575.jpg",
+      "images/products/dunlop/08575-1.jpg"
+    ],
+    "volumes": [
+      1
+    ],
+    "description": "Suport magnetic auto pentru telefon DUNLOP cu fixare pe grila de ventilatie (Cod: 08575, Cod de bare: 8711252085753).",
+    "specs": [],
+    "canister_vol": 1,
+    "canister_price": 84,
+    "packs": [
+      {
+        "id": "rp-08575-pack",
+        "volume_l": 1,
+        "price_mdl": 84,
+        "label": "1 buc"
+      }
+    ],
+    "name_ro": "Suport magnetic telefon DUNLOP Air Vent Mount",
+    "description_ro": "Suport magnetic auto pentru telefon DUNLOP cu fixare pe grila de ventilatie (Cod: 08575, Cod de bare: 8711252085753)."
+  },
+  {
+    "sku": "RP-21376",
+    "name": "Gaz Butan Spray ALL RIDE 227 gr",
+    "category": "auto-chemistry",
+    "brand": "All Ride",
+    "photo_url": "images/products/dunlop/21376.jpg",
+    "volumes": [
+      1
+    ],
+    "description": "Cartus gaz butan spray ALL RIDE SUN-02 227 gr (Cod: 21376, Cod de bare: 8711252213767).",
+    "specs": [],
+    "canister_vol": 1,
+    "canister_price": 45,
+    "packs": [
+      {
+        "id": "rp-21376-pack",
+        "volume_l": 1,
+        "price_mdl": 45,
+        "label": "1 buc"
+      }
+    ],
+    "name_ro": "Gaz Butan Spray ALL RIDE 227 gr",
+    "description_ro": "Cartus gaz butan spray ALL RIDE SUN-02 227 gr (Cod: 21376, Cod de bare: 8711252213767)."
+  },
+  {
+    "sku": "RP-00007",
+    "name": "Стеклоомыватель зимний StropGEL -20°C CAREUS 5L",
+    "category": "auto-chemistry",
+    "brand": "Careus",
+    "color": "Синий",
+    "photo_url": "images/products/careus/stropgel-5l.jpg",
+    "volumes": [
+      5
+    ],
+    "description": "Зимний стеклоомыватель StropGEL -20°C CAREUS с формулой быстрого действия (Канистра 5 л). Эффективно удаляет грязь, дорожный налет и наледь.",
+    "specs": [],
+    "canister_vol": 5,
+    "canister_price": 115,
+    "packs": [
+      {
+        "id": "rp-00007-pack",
+        "volume_l": 5,
+        "price_mdl": 115,
+        "label": "5 л"
+      }
+    ],
+    "name_ro": "Lichid de parbriz iarna StropGEL -20°C CAREUS 5L",
+    "description_ro": "Lichid pentru spalat parbrizul pe timp de iarna StropGEL -20°C CAREUS (Bidon 5L). Actiune rapida de spalare, degivrare si curatare."
   }
 ]

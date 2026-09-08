@@ -20,6 +20,35 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
+  // Auto-sync previously stored orders with 1C Mock Server
+  async function syncLocalOrdersTo1C() {
+    try {
+      const savedOrders = JSON.parse(localStorage.getItem('radcor_orders') || '[]');
+      let updated = false;
+      for (const ord of savedOrders) {
+        if (!ord.onec_order_no) {
+          const res = await fetch('http://localhost:5050/api/1c/orders', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(ord)
+          });
+          if (res.ok) {
+            const data = await res.json();
+            if (data && data.order && data.order.orderNo) {
+              ord.onec_order_no = data.order.orderNo;
+              ord.onec_id = data.order.id;
+              updated = true;
+            }
+          }
+        }
+      }
+      if (updated) {
+        localStorage.setItem('radcor_orders', JSON.stringify(savedOrders));
+      }
+    } catch (err) {}
+  }
+  syncLocalOrdersTo1C();
+
   function getItems() {
     try {
       const cart = JSON.parse(localStorage.getItem(CART_KEY) || '{}');
@@ -199,14 +228,45 @@ document.addEventListener('DOMContentLoaded', () => {
         created_at: new Date().toISOString()
       };
 
-      // 1. Сохранение в общий список заказов в localStorage
+      // 1. Отправка заказа в 1C Mock Server / OData API
+      let onecOrderNo = null;
+      try {
+        const onecRes = await fetch('http://localhost:5050/api/1c/orders', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(newOrder)
+        });
+        if (onecRes.ok) {
+          const onecData = await onecRes.json();
+          if (onecData && onecData.order && onecData.order.orderNo) {
+            onecOrderNo = onecData.order.orderNo;
+            newOrder.onec_order_no = onecOrderNo;
+            newOrder.onec_id = onecData.order.id;
+          }
+        }
+      } catch (err) {
+        console.warn('[1C Sync] 1C server is offline or unreachable:', err.message);
+      }
+
+      // 2. Отправка в бэкенд Radcor (если запущен на 5000)
+      try {
+        await fetch('http://localhost:5000/api/v1/orders', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(newOrder)
+        });
+      } catch (err) {
+        // Fallback to local storage if backend offline
+      }
+
+      // 3. Сохранение в общий список заказов в localStorage
       try {
         const savedOrders = JSON.parse(localStorage.getItem('radcor_orders') || '[]');
         savedOrders.unshift(newOrder);
         localStorage.setItem('radcor_orders', JSON.stringify(savedOrders));
       } catch (e) {}
 
-      // 2. Сохранение в личный кабинет B2B клиента, если авторизован
+      // 4. Сохранение в личный кабинет B2B клиента, если авторизован
       if (session && session.idno) {
         try {
           const b2bOrdersKey = `radcor_orders_${session.idno}`;
@@ -214,6 +274,7 @@ document.addEventListener('DOMContentLoaded', () => {
           b2bOrders.unshift({
             order_id: orderIdShort,
             orderNo: orderNo,
+            onec_order_no: onecOrderNo,
             date: orderDate,
             total: finalTotal,
             pay_status: 'unpaid',
@@ -224,12 +285,12 @@ document.addEventListener('DOMContentLoaded', () => {
         } catch (e) {}
       }
 
-      // 3. Очистка корзины
+      // 5. Очистка корзины
       try {
         localStorage.removeItem(CART_KEY);
       } catch (e) {}
 
-      // 4. Отображение подтверждения оформления
+      // 6. Отображение подтверждения оформления
       const lang = getLang();
       const isRo = lang === 'ro';
       const successTitle = isRo ? `Comanda №${orderNo} a fost plasată cu succes!` : `Заказ №${orderNo} успешно оформлен!`;
@@ -238,6 +299,13 @@ document.addEventListener('DOMContentLoaded', () => {
         : `Спасибо за ваш заказ! Наш менеджер свяжется с вами по указанному телефону для подтверждения наличия и выставления счёта.`;
       const btnCatalog = isRo ? 'Înapoi la catalog' : 'Вернуться в каталог';
       const btnCabinet = isRo ? 'În Cabinetul B2B' : 'В Личный кабинет B2B';
+
+      const onecBadgeHtml = onecOrderNo ? `
+        <div style="margin-top: 8px; padding: 6px 12px; background: #FEF3C7; border: 1px solid #FCD34D; border-radius: 6px; font-size: 13px; color: #92400E; display: flex; align-items: center; gap: 8px;">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+          <strong>1С:Предприятие:</strong> Документ зарегистрирован под номером <strong>${onecOrderNo}</strong>
+        </div>
+      ` : '';
 
       const successHTML = `
         <div style="background: #F0FDF4; border: 1.5px solid #86EFAC; border-radius: 12px; padding: 24px; color: #166534;">
@@ -255,6 +323,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <div><strong>${isRo ? 'Suma comenzii' : 'Сумма заказа'}:</strong> <span style="color: #D97706; font-weight: 700;">${finalTotal.toLocaleString('ru-RU')} MDL</span></div>
             <div><strong>${isRo ? 'Livrare' : 'Способ получения'}:</strong> ${delivery ? (isRo ? `Livrare (${city})` : `Доставка (${city})`) : (isRo ? 'Ridicare personală' : 'Самовывоз')}</div>
             <div><strong>${isRo ? 'Companie' : 'Компания'}:</strong> ${companyName} (${contactPerson})</div>
+            ${onecBadgeHtml}
           </div>
           <div style="display: flex; gap: 10px; flex-wrap: wrap;">
             <a href="catalog.html" class="btn btn-secondary btn-sm" style="text-decoration: none;">${btnCatalog}</a>
